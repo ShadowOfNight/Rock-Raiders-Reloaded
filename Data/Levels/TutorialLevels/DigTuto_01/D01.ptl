@@ -1,0 +1,11 @@
+
+Lego* {
+
+	Dig						Goto
+	DigComplete					RockFall
+	GenerateOreComplete				CollectOre
+	GenerateCrystalComplete				CollectCrystal
+	CollectCrystal					Goto
+	CollectOre					Goto
+	CollectTool					Goto
+}

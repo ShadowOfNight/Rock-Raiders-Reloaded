@@ -1,0 +1,434 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 39
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 39
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+AddNullObject driver_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 0 0 0 0 3 3 3
+  0 0 0 0 0
+  0 0 0 0 0 0 3 3 3
+  12 0 0 0 0
+  0 0 0 0 0 0 3 3 3
+  39 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\VLPhead.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 1.355 0 1.500006 0 0 1.15 1.15 1.15
+  0 0 0 0 0
+  0 1.355 0 24.50001 0 -13.9 1.15 1.15 1.15
+  10 0 0 0 0
+  0 1.355 0 23.03601 0 -10.35191 1.15 1.15 1.15
+  12 0 0 0 0
+  0 1.355 0 1.500006 0 12.9 1.15 1.15 1.15
+  20 0 0 0 0
+  0 1.355 0 -33.5 0 -9.855611 1.15 1.15 1.15
+  30 0 0 0 0
+  0 1.355 0 -2.314995 0 -1.132312 1.15 1.15 1.15
+  39 0 0 0 0
+EndBehavior 1
+LockedChannels 29
+ParentObject 3
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\VLPtorso.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 -0.165 0.03 -0.3 -14.47 0 1 1 1
+  0 0 0 0 0
+  0 -0.165 0.03 10.6 -12.89322 -14.16945 1 1 1
+  7 0 0 0 0
+  -0.03441176 -0.165 0.03 -0.8720586 -14.49322 1.130767 1 1 1
+  12 0 0 0 0
+  -0.05999999 -0.165 0.03 -10.8 -16.09322 14.52363 1 1 1
+  17 0 0 0 0
+  0 -0.165 0.03 10.6 -12.89322 -18.36946 1 1 1
+  27 0 0 0 0
+  -0.05999999 -0.165 0.03 -10.8 -16.09322 14.52363 1 1 1
+  37 0 0 0 0
+  -0.02444444 -0.165 0.03 -4.764102 -15.15826 6.231041 1 1 1
+  39 0 0 0 0
+EndBehavior 1
+LockedChannels 30
+ParentObject 8
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\VLPthighL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0.4599999 -0.39 0.01500001 0 0 0 1 1 1
+  0 0 0 0 0
+  0.4599999 -0.39 0.01500001 7.369448 52.74192 0 1 1 1
+  10 0 0 0 0
+  0.4599999 -0.39 0.01500001 7.12747 48.92044 0 1 1 1
+  12 0 0 0 0
+  0.4599999 -0.39 0.01500001 0 0 0 1 1 1
+  22 0 0 0 0
+  0.4599999 -0.39 0.01500001 -16.7 45.9837 0 1 1 1
+  32 0 0 0 0
+  0.4599999 -0.39 0.01500001 -2.31582 6.376646 0 1 1 1
+  39 0 0 0 0
+EndBehavior 1
+LockedChannels 46
+ParentObject 8
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\VLPfootL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 -0.8100001 0.05999988 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -0.8100001 0.05999988 0 -75.46851 0 1 1 1
+  10 0 0 0 0
+  0 -0.8100001 0.05999988 0 -69.87823 0 1 1 1
+  12 0 0 0 0
+  0 -0.8100001 0.05999988 0 0 0 1 1 1
+  22 0 0 0 0
+  0 -0.8100001 0.05999988 0 -75.46851 0 1 1 1
+  32 0 0 0 0
+  0 -0.8100001 0.05999988 0 -10.46536 0 1 1 1
+  39 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+PivotPoint 0 0.025 0.3199999
+ParentObject 4
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\VLPthighR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  -0.46 -0.39 0.02 0 0 0 1 1 1
+  0 0 0 0 0
+  -0.46 -0.39 0.02 15 50.30001 0 1 1 1
+  10 0 0 0 0
+  -0.46 -0.39 0.02 13.79029 45.21328 0.1079854 1 1 1
+  12 0 0 0 0
+  -0.46 -0.39 0.02 0 0 0 1 1 1
+  20 0 0 0 0
+  -0.46 -0.39 0.02 -9.082398 40.368 -7.423999 1 1 1
+  32 0 0 0 0
+  -0.46 -0.39 0.02 -1.259473 5.597906 -1.0295 1 1 1
+  39 0 0 0 0
+EndBehavior 1
+LockedChannels 49
+ParentObject 8
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\VLPfootR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  -0.005 -0.795 0.06999987 0 0 0 1 1 1
+  0 0 0 0 0
+  -0.005 -0.795 0.06999987 0 -66.59998 0 1 1 1
+  10 0 0 0 0
+  -0.005 -0.795 0.06999987 0 -59.79139 0 1 1 1
+  12 0 0 0 0
+  -0.005 -0.795 0.06999987 0 0 0 1 1 1
+  20 0 0 0 0
+  -0.005 -0.795 0.06999987 0 -58.5 0 1 1 1
+  32 0 0 0 0
+  -0.005 -0.795 0.06999987 0 -8.112305 0 1 1 1
+  39 0 0 0 0
+EndBehavior 1
+LockedChannels 43
+PivotPoint 0 0.04 0.3349999
+ParentObject 6
+ShadowOptions 7
+
+AddNullObject BODYNULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 2.754998 -0.215 -180 0 0 1 1 1
+  0 0 0 0 0
+  -0.005139892 2.83418 -0.215 -180 0 -0.4246329 1 1 1
+  5 0 0 0 0
+  0.03521694 2.659721 -0.215 -180 0 2.909452 1 1 1
+  10 0 0 0 0
+  0.051721 2.652814 -0.215 -180 0 4.272937 1 1 1
+  12 0 0 0 0
+  0.07051933 2.683816 -0.215 -180 0 5.825964 1 1 1
+  15 0 0 0 0
+  0.06375545 2.754757 -0.215 -180 0 5.267165 1 1 1
+  20 0 0 0 0
+  0.03632036 2.663595 -0.215 -180 0 2.174461 1 1 1
+  28 0 0 0 0
+  0.01027638 2.814613 -0.215 -180 0 0.8489844 1 1 1
+  37 0 0 0 0
+  0.003514074 2.780978 -0.215 -180 0 0.3056147 1 1 1
+  39 0 0 0 0
+EndBehavior 1
+LockedChannels 29
+ParentObject 9
+ShadowOptions 7
+
+AddNullObject Hover_Pilot_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 0.54 0 0 3.2 0 1 1 1
+  0 0 0 0 0
+  0.7577443 0.9933707 0 0 -1.714554 13.86432 1 1 1
+  12 0 0 0 0
+  0.7500004 1.05 0 0 -1.599999 13.5 1 1 1
+  14 0 0 0 0
+  -0.6399999 1.2 0 0 3.099999 -15.5 1 1 1
+  26 0 0 0 0
+  -0.05065963 0.5889687 0 0 3.204628 -1.215015 1 1 1
+  39 0 0 0 0
+EndBehavior 1
+LockedChannels 46
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\GC_Larm.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0.715 0.905 0 -4.895999 89.9 1.8 1 1 1
+  0 0 0 0 0
+  0.715 0.905 0 -4.895995 93.42522 9.917274 1 1 1
+  10 0 0 0 0
+  0.715 0.905 0 -4.895995 92.73492 9.580742 1 1 1
+  20 0 0 0 0
+  0.715 0.905 0 -4.895995 102.4433 8.951056 1 1 1
+  29 0 0 0 0
+  0.715 0.905 0 -4.895999 91.12283 2.471671 1 1 1
+  39 0 0 0 0
+EndBehavior 1
+LockedChannels 14
+ParentObject 3
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\GC_Rarm.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  -0.715 0.905 0 -4.9912 82.94 -3.4 1 1 1
+  0 0 0 0 0
+  -0.715 0.905 0 -4.341201 81.94082 -4.870199 1 1 1
+  5 0 0 0 0
+  -0.715 0.905 0 -9.194989 86.87639 -6.345199 1 1 1
+  10 0 0 0 0
+  -0.715 0.905 0 -0.3775948 122.094 0.1154056 1 1 1
+  15 0 0 0 0
+  -0.715 0.905 0 -0.1745782 107.1457 0.2704873 1 1 1
+  20 0 0 0 0
+  -0.715 0.905 0 -1.070367 103.8115 -0.3931775 1 1 1
+  25 0 0 0 0
+  -0.715 0.905 0 -4.728532 84.3427 -3.198492 1 1 1
+  39 0 0 0 0
+EndBehavior 1
+LockedChannels 554
+ParentObject 3
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\GC_Rhand.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
+  0 0 0 0 0
+  -0.03674561 -0.5150003 -0.3049999 20.2 -4.699999 25.3 1 1 1
+  5 0 0 0 0
+  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
+  10 0 0 0 0
+  -0.03674561 -0.5150003 -0.3049999 -4.989968 -9.220677 -12.2338 1 1 1
+  15 0 0 0 0
+  -0.03674561 -0.5150003 -0.3049999 0.4314815 4.607407 -20.17222 1 1 1
+  20 0 0 0 0
+  -0.03674561 -0.5150003 -0.3049999 -3.8 12.3 -25.2 1 1 1
+  25 0 0 0 0
+  -0.03674561 -0.5150003 -0.3049999 -0.2704386 0.8566881 -1.721775 1 1 1
+  39 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+PivotPoint -0.01 0 -0.01
+ParentObject 13
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\GC_Rlowarm.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  -0.22 -0.5000001 -0.04794191 0 2.8 0 1 1 1
+  0 0 0 0 0
+  -0.22 -0.5000001 -0.04794191 0 0.08749008 -10.4 1 1 1
+  5 0 0 0 0
+  -0.22 -0.5000001 -0.04794191 0 7.17499 0 1 1 1
+  10 0 0 0 0
+  -0.22 -0.5000001 -0.04794191 0 -24.86464 7.026184 1 1 1
+  15 0 0 0 0
+  -0.22 -0.5000001 -0.04794191 0 -16.20672 13.23025 1 1 1
+  20 0 0 0 0
+  -0.22 -0.5000001 -0.04794191 0 -22.72403 16.63175 1 1 1
+  25 0 0 0 0
+  -0.22 -0.5000001 -0.04794191 0 10.76489 6.769131 1 1 1
+  36 0 0 0 0
+  -0.22 -0.5000001 -0.04794191 0 5.483627 1.801689 1 1 1
+  39 0 0 0 0
+EndBehavior 1
+LockedChannels 11
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\GC_Llowarm.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  10
+  0.22 -0.51 -0.05999999 0 -0.3 -12.2 1 1 1
+  0 0 0 0 0
+  0.22 -0.51 -0.05999999 0 7.227221 -28.57 1 1 1
+  6 0 0 0 0
+  0.22 -0.51 -0.05999999 0 4.636588 -9.15 1 1 1
+  10 0 0 0 0
+  0.22 -0.51 -0.05999999 0 -9.337607 -27.76634 1 1 1
+  15 0 0 0 0
+  0.22 -0.51 -0.05999999 0 -7.922339 -29.66269 1 1 1
+  20 0 0 0 0
+  0.22 -0.51 -0.05999999 0 4.962391 -27.96634 1 1 1
+  25 0 0 0 0
+  0.22 -0.51 -0.05999999 0 -2.696822 -23.58114 1 1 1
+  29 0 0 0 0
+  0.22 -0.51 -0.05999999 0 -2.374866 -22.53291 1 1 1
+  30 0 0 0 0
+  0.22 -0.51 -0.05999999 0 -19.56647 -17.36475 1 1 1
+  35 0 0 0 0
+  0.22 -0.51 -0.05999999 0 -4.736622 -13.23289 1 1 1
+  39 0 0 0 0
+EndBehavior 1
+LockedChannels 11
+ParentObject 10
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\GC_Rhand.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
+  0 0 0 0 0
+  -0.03674561 -0.5150003 -0.3049999 -0.6999999 -6.6 17 1 1 1
+  5 0 0 0 0
+  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
+  10 0 0 0 0
+  -0.03674561 -0.5150003 -0.3049999 -0.6 -7.099999 0 1 1 1
+  25 0 0 0 0
+  -0.03674561 -0.5150003 -0.3049999 -3.3 18.2 0 1 1 1
+  35 0 0 0 0
+  -0.03674561 -0.5150003 -0.3049999 -0.7591999 4.298132 0 1 1 1
+  39 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+PivotPoint -0.01 0 -0.01
+ParentObject 14
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 1.000000
+
+AddLight
+LightName Light
+ShowLight 0 2
+LightMotion (unnamed)
+  9
+  3
+  -15.51787 21 18.07972 135.9 32.6 0 1 1 1
+  0 0 0 0 0
+  -15.51787 21 18.07972 135.9 32.6 0 1 1 1
+  12 0 0 0 0
+  -15.51787 21 18.07972 135.9 32.6 0 1 1 1
+  39 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 4
+CameraMotion (unnamed)
+  9
+  3
+  -18.81704 32.39363 24.65408 140.5 40.79998 0 1 1 1
+  0 0 0 0 0
+  -18.81704 32.39363 24.65408 140.5 40.79998 0 1 1 1
+  12 0 0 0 0
+  -18.81704 32.39363 24.65408 140.5 40.79998 0 1 1 1
+  39 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 0
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 3
+RayRecursionLimit 16
+DataOverlayLabel  
+SaveAnimationName LEGOANIMATE\hoverflying.avi
+AnimationType 0
+OutputFilenameFormat 1
+SaveRGBImagesPrefix D:\OUTPUT\lego\Lowpoly\LPman
+RGBImageFormat 2
+FullSceneParamEval 0
+
+ViewMode 5
+ViewAimpoint 2.965446 5.980231 -3.698651
+ViewDirection -14.999348 -0.307179 0.000000
+ViewZoomFactor 9.000002
+GridNumber 10
+GridSize 10.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

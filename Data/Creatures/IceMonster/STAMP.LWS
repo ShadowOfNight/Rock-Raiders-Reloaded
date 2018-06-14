@@ -1,0 +1,614 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 50
+FrameStep 1
+PreviewFirstFrame 1
+PreviewLastFrame 50
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+LoadObject \\Simon\d\StarTeam\lego\Data\Creatures\IceMonster\headnojaw.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 40.35 -17.3 0 36.6 0 1 1 1
+  0 0 0 0 0
+  0 40.35 -17.3 0 36.6 0 1 1 1
+  1 0 0 0 0
+  0 40.35 -17.3 0 36.6 0 1 1 1
+  25 0 0 0 0
+  0 40.35 -17.3 -6.646235 27.73236 -21 1 1 1
+  28 0 0 0 0
+  0 40.35 -17.3 1.54537 13.788 -20.39459 1 1 1
+  30 0 0 0 0
+  0 40.35 -17.3 0 36.6 0 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+LoadObject \\Simon\d\StarTeam\lego\Data\Creatures\IceMonster\body.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  14
+  0 0 0 0 -35 0 1 1 1
+  0 0 1 0 0
+  0 0 0 0 -35 0 1 1 1
+  1 0 0 0 0
+  0 0 0 4.3 -15.4 0 1 1 1
+  15 0 0 0 0
+  0 0 0 4.3 -15.4 0 1 1 1
+  25 0 0 0 0
+  0 0 0 1.96 -32.2 11.1 1 1 1
+  28 0 0 0 0
+  0 0 0 1.864685 -34.90667 10.78 1 1 1
+  30 0 0 0 0
+  0 0 0 1.455979 -33.8983 9.399877 1 1 1
+  32 0 0 0 0
+  0 0 0 1.521524 -36.05663 7.907751 1 1 1
+  34 0 0 0 0
+  0 0 0 1.087831 -34.60046 6.397541 1 1 1
+  36 0 0 0 0
+  0 0 0 0.9532035 -35.44308 4.87837 1 1 1
+  38 0 0 0 0
+  0 0 0 0.5175005 -34.6861 3.351815 1 1 1
+  40 0 0 0 0
+  0 0 0 0.302708 -34.82852 1.831088 1 1 1
+  42 0 0 0 0
+  0 0 0 0 -35 0 1 1 1
+  45 0 0 0 0
+  0 0 0 0 -35 0 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+ParentObject 3
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\lowbod.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 0 0 0 0 0 1 1 1
+  0 0 1 0 0
+  0 0 0 0 0 0 1 1 1
+  1 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  25 0 0 0 0
+  0 0 0 0 0 4.900001 1 1 1
+  28 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  45 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+ParentObject 16
+ShadowOptions 7
+
+LoadObject \\Simon\d\StarTeam\lego\Data\Creatures\IceMonster\shl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  29.45 38 0 -5.9 0.4 15.9 1 1 1
+  0 0 1 0 0
+  29.45 38 0 -5.9 0.4 15.9 1 1 1
+  1 0 0 0 0
+  29.45 38 0 -4.1 18.5 103.9 1 1 1
+  15 0 0 0 0
+  29.45 38 0 -4.1 18.5 117.3 1 1 1
+  25 0 0 0 0
+  29.45 38 0 -22 11.80001 31.10001 1 1 1
+  28 0 0 0 0
+  29.45 38 0 -5.9 0.4 15.9 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+LoadObject \\Simon\d\StarTeam\lego\Data\Creatures\IceMonster\arml.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  1 -37.75 2.75 0 82.39999 0 1 1 1
+  0 0 1 0 0
+  1 -37.75 2.75 0 82.39999 0 1 1 1
+  1 0 0 0 0
+  1 -37.75 2.75 10 116.6 0 1 1 1
+  15 0 0 0 0
+  1 -37.75 2.75 10 116.6 0 1 1 1
+  25 0 0 0 0
+  1 -37.75 2.75 2.699999 74.99998 0 1 1 1
+  28 0 0 0 0
+  1 -37.75 2.75 0 82.39999 0 1 1 1
+  45 0 0 0 0
+  1 -37.75 2.75 0 82.39999 0 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+LockedChannels 325
+ParentObject 4
+ShadowOptions 7
+
+LoadObject \\Simon\d\StarTeam\lego\Data\Creatures\IceMonster\handl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  -0.2999992 -28.75 0 11.5 0 0 1 1 1
+  0 0 1 0 0
+  -0.2999992 -28.75 0 11.5 0 0 1 1 1
+  1 0 0 0 0
+  -0.2999992 -28.75 0 11.5 0 0 1 1 1
+  25 0 0 0 0
+  -0.2999992 -28.75 0 11.5 0 0 1 1 1
+  28 0 0 0 0
+  -0.2999992 -28.75 0 11.5 0 0 1 1 1
+  45 0 0 0 0
+  -0.2999992 -28.75 0 11.5 0 0 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 5
+ShadowOptions 7
+
+LoadObject \\Simon\d\StarTeam\lego\Data\Creatures\IceMonster\shr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  -29.45 38 -6 7 7.599998 -12.1 1 1 1
+  0 0 1 0 0
+  -29.45 38 -6 7 7.599998 -12.1 1 1 1
+  1 0 0 0 0
+  -29.45 38 -6 7 7.599998 -98.8 1 1 1
+  15 0 0 0 0
+  -29.45 38 -6 7 7.599998 -119.6 1 1 1
+  25 0 0 0 0
+  -29.45 38 -6 31.0336 -4.756795 -15.23222 1 1 1
+  41 0 0 0 0
+  -29.45 38 -6 7 7.599998 -12.1 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+LoadObject \\Simon\d\StarTeam\lego\Data\Creatures\IceMonster\armr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  -1 -33 2 3.8 72.3 0 1 1 1
+  0 0 1 0 0
+  -1 -33 2 3.8 72.3 0 1 1 1
+  1 0 0 0 0
+  -1 -33 2 3.8 72.3 15.3 1 1 1
+  15 0 0 0 0
+  -1 -33 2 3.8 72.3 15.3 1 1 1
+  25 0 0 0 0
+  -1 -33 2 24.7 114.3 29.12336 1 1 1
+  28 0 0 0 0
+  -1 -33 2 -5.9728 96.6256 4.38609 1 1 1
+  41 0 0 0 0
+  -1 -33 2 3.8 72.3 0 1 1 1
+  45 0 0 0 0
+  -1 -33 2 3.8 72.3 0 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Simon\d\StarTeam\lego\Data\Creatures\IceMonster\handr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 -25.75 0 0 0 0 1 1 1
+  0 0 1 0 0
+  0 -25.75 0 0 0 0 1 1 1
+  1 0 0 0 0
+  0 -25.75 0 0 0 0 1 1 1
+  25 0 0 0 0
+  0 -25.75 0 0 0 0 1 1 1
+  28 0 0 0 0
+  0 -25.75 0 0 0 0 1 1 1
+  45 0 0 0 0
+  0 -25.75 0 0 0 0 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 8
+ShadowOptions 7
+
+LoadObject \\Simon\d\StarTeam\lego\Data\Creatures\IceMonster\thighr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  -13.6 -13.45 0 1.656806 50.12045 -1.685119 1 1 1
+  0 0 0 0 0
+  -13.6 -13.45 0 1.656806 50.12045 -1.685119 1 1 1
+  1 0 0 0 0
+  -13.6 -13.45 0 22.8568 98.22044 -1.685119 1 1 1
+  15 0 0 0 0
+  -13.6 -13.45 0 24.45681 116.2205 -1.685119 1 1 1
+  25 0 0 0 0
+  -13.6 -13.45 0 7.956801 70.22047 -11.48512 1 1 1
+  28 0 0 0 0
+  -13.6 -13.45 0 7.956801 70.22047 -11.48512 1 1 1
+  29 0 0 0 0
+  -13.6 -13.45 0 20.75681 48.72045 -1.685119 1 1 1
+  43 0 0 0 0
+  -13.6 -13.45 0 9.484004 69.36663 -1.461119 1 1 1
+  47 0 0 0 0
+  -13.6 -13.45 0 1.656806 50.12045 -1.685119 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 16
+ShadowOptions 7
+
+LoadObject \\Simon\d\StarTeam\lego\Data\Creatures\IceMonster\legr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 -25.5 0 -7.199999 -84.42388 7.699997 1 1 1
+  0 0 0 0 0
+  0 -25.5 0 -7.199999 -84.42388 7.699997 1 1 1
+  1 0 0 0 0
+  0 -25.5 0 -7.8 -127.9239 7.699997 1 1 1
+  15 0 0 0 0
+  0 -25.5 0 -7.8 -127.9239 7.699997 1 1 1
+  25 0 0 0 0
+  0 -25.5 0 -7.2 -99.5239 7.699997 1 1 1
+  28 0 0 0 0
+  0 -25.5 0 -7.2 -99.5239 7.699997 1 1 1
+  29 0 0 0 0
+  0 -25.5 0 -7.199999 -84.42388 7.699997 1 1 1
+  43 0 0 0 0
+  0 -25.5 0 -8.199997 -106.3787 7.699997 1 1 1
+  47 0 0 0 0
+  0 -25.5 0 -7.199999 -84.42388 7.699997 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+ParentObject 10
+ShadowOptions 7
+
+LoadObject \\Simon\d\StarTeam\lego\Data\Creatures\IceMonster\footr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 -26.1 0 0.8 35.8 0 1 1 1
+  0 0 0 0 0
+  0 -26.1 0 0.8 35.8 0 1 1 1
+  1 0 0 0 0
+  0 -26.1 0 0.8 35.8 0 1 1 1
+  25 0 0 0 0
+  0 -26.1 0 2.699999 29.1 0 1 1 1
+  28 0 0 0 0
+  0 -26.1 0 2.699999 29.1 0 1 1 1
+  29 0 0 0 0
+  0 -26.1 0 0.8 35.8 0 1 1 1
+  43 0 0 0 0
+  0 -26.1 0 -0.9434285 22.05314 0 1 1 1
+  47 0 0 0 0
+  0 -26.1 0 0.8 35.8 0 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Simon\d\StarTeam\lego\Data\Creatures\IceMonster\thighl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  13.6 -13.45 0 -7.699997 49.99998 -3.2 1 1 1
+  0 0 0 0 0
+  13.6 -13.45 0 -7.699997 49.99998 -3.2 1 1 1
+  1 0 0 0 0
+  13.6 -13.45 0 -7.999997 34.69998 8.599998 1 1 1
+  15 0 0 0 0
+  13.6 -13.45 0 -7.999997 34.69998 8.599998 1 1 1
+  25 0 0 0 0
+  13.6 -13.45 0 -6.051561 65.18435 -4.033707 1 1 1
+  28 0 0 0 0
+  13.6 -13.45 0 -7.699997 49.99998 -3.2 1 1 1
+  45 0 0 0 0
+  13.6 -13.45 0 -7.699997 49.99998 -3.2 1 1 1
+  46 0 0 0 0
+  13.6 -13.45 0 -7.699997 49.99998 -3.2 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+ParentObject 16
+ShadowOptions 7
+
+LoadObject \\Simon\d\StarTeam\lego\Data\Creatures\IceMonster\legl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 -25.5 0 -0.6999999 -80.72174 4.2 1 1 1
+  0 0 0 0 0
+  0 -25.5 0 -0.6999999 -80.72174 4.2 1 1 1
+  1 0 0 0 0
+  0 -25.5 0 -0.7999997 -59.72173 4.2 1 1 1
+  15 0 0 0 0
+  0 -25.5 0 -0.7999997 -59.72173 4.2 1 1 1
+  25 0 0 0 0
+  0 -25.5 0 -7.516071 -92.41458 4.2 1 1 1
+  28 0 0 0 0
+  0 -25.5 0 -0.6999999 -80.72174 4.2 1 1 1
+  45 0 0 0 0
+  0 -25.5 0 -0.6999999 -80.72174 4.2 1 1 1
+  46 0 0 0 0
+  0 -25.5 0 -0.6999999 -80.72174 4.2 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+ParentObject 13
+ShadowOptions 7
+
+LoadObject \\Simon\d\StarTeam\lego\Data\Creatures\IceMonster\footl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 -25.6 0 0.4 28.82917 0 1 1 1
+  0 0 0 0 0
+  0 -25.6 0 0.4 28.82917 0 1 1 1
+  1 0 0 0 0
+  0 -25.6 0 1.3 27.02917 2.1 1 1 1
+  15 0 0 0 0
+  0 -25.6 0 1.3 27.02917 2.1 1 1 1
+  25 0 0 0 0
+  0 -25.6 0 -3.035492 27.20395 -1.545536 1 1 1
+  28 0 0 0 0
+  0 -25.6 0 0.4 28.82917 0 1 1 1
+  45 0 0 0 0
+  0 -25.6 0 0.4 28.82917 0 1 1 1
+  46 0 0 0 0
+  0 -25.6 0 0.4 28.82917 0 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 14
+ShadowOptions 7
+
+AddNullObject Main null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  14
+  0 61.69999 5.25 0 0 0 1 1 1
+  0 0 1 0 0
+  0 61.69999 5.25 0 0 0 1 1 1
+  1 0 0 0 0
+  2.75 69.94999 0.75 0 0 -10.3 1 1 1
+  15 0 0 0 0
+  2.25 70.44999 0.5 0 0 -10.3 1 1 1
+  24 0 0 0 0
+  2.75 69.94999 0.5 0 0 -10.3 1 1 1
+  25 0 0 0 0
+  2.37712 66.4435 3.549572 0 0 -6.801672 1 1 1
+  26 0 0 0 0
+  2.212496 60.05754 7.209653 0 0 -1.375212 1 1 1
+  27 0 0 0 0
+  -0.009840012 55.69999 10.27796 0 0 3.500001 1 1 1
+  28 0 0 0 0
+  0.3742205 55.44999 10.92186 0 0 3.500001 1 1 1
+  29 0 0 0 0
+  0.8198776 60.44999 6.259336 0 0 0 1 1 1
+  40 0 0 0 0
+  0.8198776 60.44999 6.259336 0 0 0 1 1 1
+  41 0 0 0 0
+  0 61.69999 5.25 0 0 0 1 1 1
+  45 0 0 0 0
+  0 61.69999 5.25 0 0 0 1 1 1
+  46 0 0 0 0
+  0 61.69999 5.25 0 0 0 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+ParentObject 18
+ShadowOptions 7
+
+LoadObject D:\StarTeam\lego\Data\Creatures\IceMonster\JAW.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 1 -14 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1 -14 0 0 0 1 1 1
+  1 0 0 0 0
+  0 1 -14 0 0 0 1 1 1
+  25 0 0 0 0
+  0 1 -14 0 0 0 1 1 1
+  28 0 0 0 0
+  0 1 -14 0 0 0 1 1 1
+  40 0 0 0 0
+  0 1 -14 0 0 0 1 1 1
+  41 0 0 0 0
+  0 1 -14 0 0 0 1 1 1
+  45 0 0 0 0
+  0 1 -14 0 0 0 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 180 0 0 0.2 0.2 0.2
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Creatures\Rmonster\RM_Dust_SA.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 -0.75 -8.25 0 0 0 0 0 0
+  0 0 0 0 0
+  0 -0.75 -12.99401 0 0 0 0 0 0
+  27 0 0 0 0
+  0 -0.75 -13.16906 0 0 0 6.607467 4.742908 6.182083
+  28 0 0 0 0
+  0 -0.75 -13.5 0 0 0 8.596005 6.606003 8.142003
+  30 0 0 0 0
+  0 -0.75 -13.5 0 0 0 10.148 8.158003 9.694002
+  32 0 0 0 0
+  0 -0.75 -13.5 0 0 0 10.148 8.158003 9.694002
+  37 0 0 0 0
+  0 -0.75 -13.52206 0 0 0 0 0 2.225
+  38 0 0 0 0
+  0 -0.75 -13.52206 0 0 0 0 0 2.225
+  40 0 0 0 0
+  0 -0.75 -13.5 0 0 0 0 0 0
+  45 0 0 0 0
+EndBehavior 1
+ParentObject 12
+ShadowOptions 7
+
+AddNullObject SFX,SND_RMgrunt,1
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 18
+ShadowOptions 7
+
+AddNullObject SFX,SND_RMstomp,28
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 18
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\Rmonster\spanrkle.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  -7.860055 12 -19.28977 48.9 -14.5 0 3.107999 2.873998 3.107999
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\Rmonster\spanrkle.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  6.76956 10.5 -20.77864 -42.70001 -5.200006 0 3.107999 2.873998 3.107999
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 1.000000
+
+AddLight
+LightName Light
+ShowLight 0 7
+LightMotion (unnamed)
+  9
+  6
+  119.5457 135 -155.4471 -39.5 16.40002 0 0.404 0.404 0.404
+  0 0 0 0 0
+  119.5457 135 -155.4471 -39.5 16.40002 0 0.404 0.404 0.404
+  25 0 0 0 0
+  119.5457 135 -155.4471 -39.5 16.40002 0 0.404 0.404 0.404
+  28 0 0 0 0
+  119.5457 135 -155.4471 -39.5 16.40002 0 0.404 0.404 0.404
+  45 0 0 0 0
+  119.5457 135 -155.4471 -39.5 16.40002 0 0.404 0.404 0.404
+  46 0 0 0 0
+  119.5457 135 -155.4471 -39.5 16.40002 0 0.404 0.404 0.404
+  50 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 0.000000
+LightType 2
+ConeAngle 46.060001
+EdgeAngle 5.000000
+ShadowType 2
+ShadowMapSize 512
+UseConeAngle 1
+ShadowFuzziness 1.000000
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  1
+  72.81554 57.25 66.79515 -130.4 21.9 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 0
+CustomSize 200 200
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 1
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 2
+BlurLength 0.500000
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 1
+RayRecursionLimit 16
+DataOverlayLabel  
+SaveAnimationName \\Rob_plugin_man\d\Output\Lego\rockmonster\stamp.avi
+AnimationType 5
+EndPlugin
+OutputFilenameFormat 3
+SaveRGBImagesPrefix NEWTEK\animation\RM_Dusteffects\RM2
+RGBImageFormat 2
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 2.629326 11.990084 -0.085298
+ViewDirection -27.091057 -0.134394 0.000000
+ViewZoomFactor 50.261337
+GridNumber 10
+GridSize 50.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

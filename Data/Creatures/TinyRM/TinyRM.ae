@@ -1,0 +1,37 @@
+
+Lego* {
+
+	Scale				1.0
+
+	CameraNullName		cam_null
+	CameraNullFrames		2
+	CameraFlipDir		TRUE
+	
+	Activities {
+		
+;		Activity_Stand						Stand
+		Activity_Route						Walk
+		Activity_Enter						Enter
+
+	}
+
+	;Stand {
+	;	FILE			Stamp
+	;	TRANSCOEF		0.0
+	;	LWSFILE		TRUE
+	;	}
+
+	
+
+	Walk {			
+		FILE			DiddyWalk
+		TRANSCOEF		0.3
+		LWSFILE		TRUE
+	}
+
+	Enter {			
+		FILE			DiddyEnter
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+	}
+}

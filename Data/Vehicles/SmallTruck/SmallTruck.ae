@@ -1,0 +1,215 @@
+
+Lego* {
+
+	Scale				1.0
+	WheelMesh			LP_SmallWheel
+	WheelNullName		tyre_NULL
+	CameraNullName		CAMERA_NULL
+	CameraNullFrames		2
+	CarryNullName		Item_Null
+	CarryNullFrames		9
+	;DrillNullName		WDdrill_Null
+	WheelRadius			3.0
+	DepositNULLname		Deposit_null
+	DriverNullName		Driver_Null
+
+	mediumpoly {
+			VL_smallTruckbody			smalltruckbody
+			}
+	
+	Highpoly {
+			VL_smallTruckbody			smalltruckbody
+			}
+		
+
+	Upgrades {
+		
+		Level0000 {			
+			; '000' represents a three bit binary number for each type of upgrade...
+			; All the parts in every section will be removed when any other level is selected...
+			; Format (No spaces are allowed in the second column:
+			; <Upgrade part (defined in Lego.cfg)>	[TAB]	<Null object name>,<Null instance (1-n)>
+			;	Object			Null
+			;Binary sequence order is [carry] [scan] [speed] [drill]
+			;therefore a vehicle with carry and speed upgrade will be 1010
+
+			sbucket				normal_bucket_null,1
+			s_dash				dash_null,1
+			standard_rear			upgrade_rear_null,1
+
+		}
+
+		Level1000 {
+		;Carry
+			sbucket				bucketnull1_upgrade,1
+			sbucket				bucketnull2_upgrade,1
+			s_dash				dash_null,1
+			upgrade_rear			upgrade_rear_null,1
+			
+		}
+
+		Level0100 {
+		;Scan
+			RADARhandleAT			radar_handle_null,1
+			radarunit				radar_null,1
+			standard_dashboard_upgrade	dash_null,1
+			sbucket				normal_bucket_null,1
+			standard_rear			upgrade_rear_null,1
+
+
+		}	
+
+		Level0010 {
+		;Speed
+			sbucket				normal_bucket_null,1
+			s_dash				dash_null,1
+			standard_rear			upgrade_rear_null,1
+			upgrade_tubes			upgrade_tube_null,1
+
+		}
+		Level1100 {
+		;Carry + Scan
+			sbucket				bucketnull1_upgrade,1
+			sbucket				bucketnull2_upgrade,1
+			standard_dashboard_upgrade	dash_null,1
+			upgrade_rear			upgrade_rear_null,1
+			RADARhandleAT			radar_handle_null,1
+			RADARunit				radar_null,1
+
+		}
+	Level0110 {
+		;Scan + Speed
+			RADARhandleAT			radar_handle_null,1
+			RADARunit				radar_null,1
+			standard_dashboard_upgrade	dash_null,1
+			sbucket				normal_bucket_null,1
+			standard_rear			upgrade_rear_null,1
+			upgrade_tubes			upgrade_tube_null,1
+
+		}	
+
+Level1010 {
+		;Carry + Speed
+			sbucket				bucketnull1_upgrade,1
+			sbucket				bucketnull2_upgrade,1
+			s_dash				dash_null,1
+			upgrade_rear			upgrade_rear_null,1
+			upgrade_tubes			upgrade_tube_null,1
+
+
+		}	
+Level1110 {
+		;Carry + Scan + Speed
+			sbucket				bucketnull1_upgrade,1
+			sbucket				bucketnull2_upgrade,1
+			standard_dashboard_upgrade	dash_null,1
+			upgrade_rear			upgrade_rear_null,1
+			upgrade_tubes			upgrade_tube_null,1
+			RADARhandleAT			radar_handle_null,1
+			RADARunit				radar_null,1
+
+
+		}
+	}
+
+	Activities {
+		
+		Activity_Stand					Stand
+		Activity_Route					Route
+		Activity_StartUp					StartUp
+		Activity_ShutDown					ShutDown
+		Activity_TeleportIN				TeleportIN			
+		Activity_Reverse					Reverse
+		!Activity_HitLeft					HitLeft
+		!Activity_HitRight					HitRight
+		!Activity_HitFront					HitFront
+		!Activity_HitBack					HitBack
+		Activity_FloatOn					FloatOn
+		Activity_FloatOFF					FloatOFF			
+		
+
+	}
+
+	Stand {
+		FILE		ST_tickover
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		
+	}
+
+	Route {
+		FILE		ST_drive
+;		TRANSCOEF	0.35
+		LWSFILE	TRUE
+	}
+
+	HitLeft {
+		FILE		ST_Lsidehit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitRight {
+		FILE		ST_Rsidehit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitFront {
+		FILE		ST_fronthit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitBack {
+		FILE		ST_backhit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	
+;	TurnLeft {
+;		FILE		ST_Lturn
+;		TRANSCOEF	0.0
+;		LWSFILE	TRUE
+;	}	
+
+;	TurnRight {
+;		FILE		ST_Rturn
+;		TRANSCOEF	0.0
+;		LWSFILE	TRUE
+;	}	
+
+	Reverse {
+		FILE		ST_Reverse
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	StartUp {
+		FILE		ST_EngStart
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	ShutDown {
+		FILE		ST_EngStop
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	TeleportIN {
+		FILE		S_Teleport_Truck
+		TRANSCOEF	0.0
+		LWSFILE	True
+	}
+
+	FloatOn {
+		FILE		ST_FloatON
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING		FALSE
+	}
+
+	FloatOff {
+		FILE		ST_FloatOFF
+		TRANSCOEF	0.0
+		LWSFILE	True
+		LOOPING		FALSE
+	}
+
+}

@@ -1,0 +1,591 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 24
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 24
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Bulldozer\mainvech.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  0 14 2.4 0 0 0 1 1 1
+  0 0 0 0 0
+  0 14.16 2.4 0.027 -0.03600001 0.01100023 1 1 1
+  4 0 0 0 0
+  0 14.08 2.4 0.0135 -0.01755001 -0.017 1 1 1
+  6 0 0 0 0
+  0 14 2.4 0 0.0007999885 0.01300023 1 1 1
+  8 0 0 0 0
+  0 14 2.4 0 0 0 1 1 1
+  10 0 0 0 0
+  0 14.16 2.4 0.027 -0.02720001 2.268644e-007 1 1 1
+  12 0 0 0 0
+  0 14.07278 2.4 0.01265625 -0.01666459 -0.026 1 1 1
+  14 0 0 0 0
+  0 14 2.4 0 0.005799993 0.008000229 1 1 1
+  16 0 0 0 0
+  0 14 2.4 0 0 0 1 1 1
+  18 0 0 0 0
+  0 14.16 2.4 0.021 -0.02100001 -0.006999773 1 1 1
+  20 0 0 0 0
+  0 14 2.4 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+ParentObject 9
+ShadowOptions 7
+
+AddNullObject BDcab_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 13 -7.5 0 0 0 1 1 1
+  0 0 0 0 0
+  0 13 -7.5 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Bulldozer\scoopB.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  -0.1 -4.55 18.7 0 36.3 0 1 1 1
+  0 0 0 0 0
+  -0.1 -4.55 18.7 0 27.29999 0 1 1 1
+  4 0 0 0 0
+  -0.1 -4.55 18.7 0 33.30254 0 1 1 1
+  8 0 0 0 0
+  -0.1 -4.55 18.7 0 36.41702 0 1 1 1
+  10 0 0 0 0
+  -0.1 -4.55 18.7 0 26.70398 0 1 1 1
+  12 0 0 0 0
+  -0.1 -4.55 18.7 0 25.90421 0 1 1 1
+  14 0 0 0 0
+  -0.1 -4.55 18.7 0 37.39138 0 1 1 1
+  20 0 0 0 0
+  -0.1 -4.55 18.7 0 34.4019 0 1 1 1
+  22 0 0 0 0
+  -0.1 -4.55 18.7 0 36.3 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Bulldozer\BDbackD.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  10
+  0 -4.5 -19.9947 0 -118 0 1 1 1
+  0 0 0 0 0
+  0 -4.5 -19.9947 0 -88.1 0 1 1 1
+  4 0 0 0 0
+  0 -4.5 -19.9947 0 -72.24458 0 1 1 1
+  7 0 0 0 0
+  0 -4.5 -19.9947 0 -77.88465 0 1 1 1
+  10 0 0 0 0
+  0 -4.5 -19.9947 0 -117.5599 0 1 1 1
+  12 0 0 0 0
+  0 -4.5 -19.9947 0 -110.3621 0 1 1 1
+  14 0 0 0 0
+  0 -4.5 -19.9947 0 -95.9702 0 1 1 1
+  18 0 0 0 0
+  0 -4.5 -19.9947 0 -116.1287 0 1 1 1
+  20 0 0 0 0
+  0 -4.5 -19.9947 0 -114.3663 0 1 1 1
+  22 0 0 0 0
+  0 -4.5 -19.9947 0 -118 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Bulldozer\PDbackC.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  6 -1.65 -19.8 180.9 0.7999994 -67.80001 1 1 1
+  0 0 0 0 0
+  6 -1.65 -19.8 180.9 0.7999994 -57.40001 1 1 1
+  4 0 0 0 0
+  6 -1.65 -19.8 180.9 0.7999994 -49.50002 1 1 1
+  6 0 0 0 0
+  6 -1.65 -19.8 180.9 0.7999994 -48.2066 1 1 1
+  10 0 0 0 0
+  6 -1.65 -19.8 180.9 0.7999994 -67.80001 1 1 1
+  12 0 0 0 0
+  6 -1.65 -19.8 180.9 0.7999994 -53.58807 1 1 1
+  16 0 0 0 0
+  6 -1.65 -19.8 180.9 0.7999994 -55.1425 1 1 1
+  18 0 0 0 0
+  6 -1.65 -19.8 180.9 0.7999994 -67.80001 1 1 1
+  20 0 0 0 0
+  6 -1.65 -19.8 180.9 0.7999994 -67.80001 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 24
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Bulldozer\PDbackC.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  -6 -1.65 -19.8 0 0 -67.89999 1 1 1
+  0 0 0 0 0
+  -6 -1.65 -19.8 0 0 -57.7 1 1 1
+  4 0 0 0 0
+  -6 -1.65 -19.8 0 0 -50.2938 1 1 1
+  6 0 0 0 0
+  -6 -1.65 -19.8 0 0 -48.61029 1 1 1
+  8 0 0 0 0
+  -6 -1.65 -19.8 0 0 -50.67317 1 1 1
+  10 0 0 0 0
+  -6 -1.65 -19.8 0 0 -68.09758 1 1 1
+  12 0 0 0 0
+  -6 -1.65 -19.8 0 0 -61.39651 1 1 1
+  14 0 0 0 0
+  -6 -1.65 -19.8 0 0 -52.54369 1 1 1
+  16 0 0 0 0
+  -6 -1.65 -19.8 0 0 -54.95493 1 1 1
+  18 0 0 0 0
+  -6 -1.65 -19.8 0 0 -67.65841 1 1 1
+  20 0 0 0 0
+  -6 -1.65 -19.8 0 0 -67.89999 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 24
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject BDlight_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  12.3 5 -5 0 0 -62.19999 1 1 1
+  0 0 0 0 0
+  12.3 5 -5 0 0 -62.19999 1 1 1
+  4 0 0 0 0
+  12.3 5 -5 0 0 -54.7 1 1 1
+  9 0 0 0 0
+  12.3 5 -5 0 0 -73.97587 1 1 1
+  11 0 0 0 0
+  12.3 5 -5 0 0 -59.83952 1 1 1
+  18 0 0 0 0
+  12.3 5 -5 0 0 -66.533 1 1 1
+  20 0 0 0 0
+  12.3 5 -5 0 0 -62.19999 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 24
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject BDlight_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  -12.623 5.300004 -4.826171 0 0 70.69998 1 1 1
+  0 0 0 0 0
+  -12.623 5.300004 -4.826171 0 0 70.69998 1 1 1
+  4 0 0 0 0
+  -12.623 5.300004 -4.826171 0 0 56.6 1 1 1
+  8 0 0 0 0
+  -12.623 5.300004 -4.826171 0 0 74.9984 1 1 1
+  11 0 0 0 0
+  -12.623 5.300004 -4.826171 0 0 63.69101 1 1 1
+  18 0 0 0 0
+  -12.623 5.300004 -4.826171 0 0 70.5964 1 1 1
+  21 0 0 0 0
+  -12.623 5.300004 -4.826171 0 0 70.69998 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 24
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject BNull
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0.55 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 3.749999 -0.3000002 0 8.999999 0 1 1 1
+  4 0 0 0 0
+  0 0.55 0 0 0 0 1 1 1
+  10 0 0 0 0
+  0 1.62 -0.09589285 0 3.116786 0 1 1 1
+  12 0 0 0 0
+  0 1.48 -0.09043971 0 3.073192 0 1 1 1
+  15 0 0 0 0
+  0 0.55 0 0 0 0 1 1 1
+  18 0 0 0 0
+  0 0.55 0.0009536825 0 0.03138951 0 1 1 1
+  19 0 0 0 0
+  0 0.55 0 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 20
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Bulldozer\chain.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  2.25 4.749999 1.3 -9.5 -37.6 0 1 1 1
+  0 0 0 0 0
+  2.25 4.749999 1.3 -9.5 -31.3 0 1 1 1
+  4 0 0 0 0
+  2.25 4.749999 1.3 -9.5 -35.46 0 1 1 1
+  8 0 0 0 0
+  2.25 4.749999 1.3 -9.5 -38.01312 0 1 1 1
+  10 0 0 0 0
+  2.25 4.749999 1.3 -9.5 -29.69999 0 1 1 1
+  12 0 0 0 0
+  2.25 4.749999 1.3 -9.5 -29.63539 0 1 1 1
+  14 0 0 0 0
+  2.25 4.749999 1.3 -9.5 -38.64635 0 1 1 1
+  20 0 0 0 0
+  2.25 4.749999 1.3 -9.5 -35.6522 0 1 1 1
+  22 0 0 0 0
+  2.25 4.749999 1.3 -9.5 -37.6 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 3
+ShadowOptions 7
+
+AddNullObject BTyre_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  10
+  -15.1 5.3 7.4 0 0 0 1 1 1
+  0 0 0 0 0
+  -15.1 4.455751 7.36875 0 0 0 1 1 1
+  2 0 0 0 0
+  -15.1 4.338 7.35 0 0 0 1 1 1
+  4 0 0 0 0
+  -15.1 4.502002 7.3568 0 0 0 1 1 1
+  8 0 0 0 0
+  -15.1 5.3 7.4 0 0 0 1 1 1
+  10 0 0 0 0
+  -15.1 5.04409 7.383998 0 0 0 1 1 1
+  12 0 0 0 0
+  -15.1 5.0393 7.386799 0 0 0 1 1 1
+  15 0 0 0 0
+  -15.1 5.3 7.4 0 0 0 1 1 1
+  18 0 0 0 0
+  -15.1 5.3 7.4 0 0 0 1 1 1
+  19 0 0 0 0
+  -15.1 5.3 7.4 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 9
+ShadowOptions 7
+
+AddNullObject BTyre_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  10
+  14.9 5.3 7.4 0 0 0 1 1 1
+  0 0 0 0 0
+  14.9 4.455751 7.36875 0 0 0 1 1 1
+  2 0 0 0 0
+  14.9 4.338 7.35 0 0 0 1 1 1
+  4 0 0 0 0
+  14.9 4.502002 7.3568 0 0 0 1 1 1
+  8 0 0 0 0
+  14.9 5.3 7.4 0 0 0 1 1 1
+  10 0 0 0 0
+  14.9 5.04409 7.383998 0 0 0 1 1 1
+  12 0 0 0 0
+  14.9 5.0393 7.386799 0 0 0 1 1 1
+  15 0 0 0 0
+  14.9 5.3 7.4 0 0 0 1 1 1
+  18 0 0 0 0
+  14.9 5.3 7.4 0 0 0 1 1 1
+  19 0 0 0 0
+  14.9 5.3 7.4 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 9
+ShadowOptions 7
+
+AddNullObject BTyre_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  14.9 5.3 -7.6 0 0 0 1 1 1
+  0 0 0 0 0
+  14.9 4.455751 -7.63125 0 0 0 1 1 1
+  2 0 0 0 0
+  14.9 4.197999 -7.6472 0 0 0 1 1 1
+  4 0 0 0 0
+  14.9 4.157999 -7.65 0 0 0 1 1 1
+  6 0 0 0 0
+  14.9 4.282002 -7.6432 0 0 0 1 1 1
+  8 0 0 0 0
+  14.9 5.3 -7.6 0 0 0 1 1 1
+  10 0 0 0 0
+  14.9 4.202001 -7.6432 0 0 0 1 1 1
+  12 0 0 0 0
+  14.9 4.789298 -7.613201 0 0 0 1 1 1
+  15 0 0 0 0
+  14.9 5.3 -7.6 0 0 0 1 1 1
+  18 0 0 0 0
+  14.9 5.3 -7.6 0 0 0 1 1 1
+  19 0 0 0 0
+  14.9 5.3 -7.6 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 9
+ShadowOptions 7
+
+AddNullObject BTyre_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  -15.1 5.3 -7.6 0 0 0 1 1 1
+  0 0 0 0 0
+  -15.1 4.455751 -7.63125 0 0 0 1 1 1
+  2 0 0 0 0
+  -15.1 4.197999 -7.6472 0 0 0 1 1 1
+  4 0 0 0 0
+  -15.1 4.157999 -7.65 0 0 0 1 1 1
+  6 0 0 0 0
+  -15.1 4.282002 -7.6432 0 0 0 1 1 1
+  8 0 0 0 0
+  -15.1 5.3 -7.6 0 0 0 1 1 1
+  10 0 0 0 0
+  -15.1 4.592002 -7.6432 0 0 0 1 1 1
+  12 0 0 0 0
+  -15.1 4.789298 -7.613201 0 0 0 1 1 1
+  15 0 0 0 0
+  -15.1 5.3 -7.6 0 0 0 1 1 1
+  18 0 0 0 0
+  -15.1 5.3 -7.6 0 0 0 1 1 1
+  19 0 0 0 0
+  -15.1 5.3 -7.6 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 9
+ShadowOptions 7
+
+AddNullObject CAMERA_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 23.45 3.4653 0 2.7 0 1 1 1
+  0 0 0 0 0
+  0 23.45 3.4653 0 2.7 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 43
+ParentObject 9
+ShadowOptions 7
+
+AddNullObject SPEED_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject BULLradar_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -17.5 10.39999 -59.95 0 0 0 1 1 1
+  0 0 0 0 0
+  -17.5 10.39999 -59.95 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject TRANSPORT_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0.4 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0.4 0 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject UPGRADE_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject MAIN_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject LPBDcarry_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -12 10 -31 0 0 0 1 1 1
+  0 0 0 0 0
+  -12 10 -31 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 18
+ShadowOptions 7
+
+AddNullObject LPBDcarry_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  12 10 -31 0 0 0 1 1 1
+  0 0 0 0 0
+  12 10 -31 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 7
+ParentObject 18
+ShadowOptions 7
+
+AddNullObject CAMERA_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 41.1 -47.9347 0 20 0 1 1 1
+  0 0 0 0 0
+  0 41.1 -47.9347 0 20 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 9
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 0 7
+LightMotion (unnamed)
+  9
+  2
+  -57.78902 54.89999 47.18373 131.7999 37.89999 0 1 1 1
+  0 0 0 0 0
+  -57.78902 54.89999 47.18373 131.7999 37.89999 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  2
+  -55.86314 46.1 66.51124 135.4 25.6 0 1 1 1
+  0 0 0 0 0
+  -55.86314 46.1 66.51124 135.4 25.6 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 0
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 1
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 52 4 179
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+DataOverlayLabel  
+SaveAnimationName \\Rob_plugin_man\d\Output\Lego\LPBulldozer\hitbehind.avi
+AnimationType 5
+EndPlugin
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 0.000000 14.550000 2.400000
+ViewDirection -3.988605 -0.375232 0.000000
+ViewZoomFactor 1.771398
+GridNumber 40
+GridSize 10.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

@@ -1,0 +1,51 @@
+
+Lego* {
+
+	Scale				1.0
+	
+	Activities {
+		Activity_Route					Route
+		Activity_Stand					Stand
+		Activity_TickOver					TickOver
+		Activity_Reverse					Reverse
+		Activity_TurnLeft					TurnLeft
+		Activity_TurnRight				TurnRight
+
+	}
+
+	route {
+		FILE			Rotorspin
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+	}
+
+	Stand {
+		FILE			Rotorspin
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+	}
+	
+	Tickover {
+		FILE			Rotorspin
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+	}
+	
+	Reverse 	{
+		FILE			RotorspinB
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+	}
+
+	TurnLeft 	{
+		FILE			RotorspinL
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+	}
+	
+	TurnRight	{
+		FILE			RotorspinR
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+	}
+}

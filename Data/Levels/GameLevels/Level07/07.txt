@@ -1,0 +1,19 @@
+Teleport_in_your_Rock_Raiders_team_and_find_as_many_Energy_Crystals_as_you_can._When_you_have_enough,_construct_your_Power_Station. #one#
+Now_you_can_construct_your_Support_Station._You_may_need_to_collect_more_Energy_Crystals. #three#
+You_are_now_able_to_transport_down_a_Tunnel_Scout. #four#
+You_must_now_train_a_Pilot_for_your_Tunnel_Scout._When_you_have_done_this,_locate_the_land_further_down_the_river_and_fly_your_Rock_Raider_there. #five#
+You_must_be_getting_close_to_the_missing_Rock_Raider_now._Land_the_Tunnel_Scout,_drill_some_of_the_walls_and_see_what_you_find. #six#
+It_looks_like_he_passed_this_way_-_we_can't_be_far_from_him_now. #seven#
+Look!_It's_his_Hover_Scout,_he_must_have_been_trapped_somewhere_near_here. #eight#
+Well_done!_You've_found_the_lost_Rock_Raider. #nine#
+-
+
+$one		Sounds\Streamed\InGame\ins701
+$two		Sounds\Streamed\InGame\ins702
+$three		Sounds\Streamed\InGame\ins703
+$four		Sounds\Streamed\InGame\ins704
+$five		Sounds\Streamed\InGame\ins705
+$six		Sounds\Streamed\InGame\ins706
+$seven		Sounds\Streamed\InGame\ins707
+$eight		Sounds\Streamed\InGame\ins708
+$nine		Sounds\Streamed\InGame\ins709

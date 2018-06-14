@@ -1,0 +1,29 @@
+
+Lego* {
+
+	Activities {
+		Expand		Expand
+		FlapInWind	Flap
+		Disintegrate	Fall
+
+	}
+
+	Expand {
+
+		FILE		SP_Webexpand
+		LWSFILE		TRUE
+	}
+
+	Flap {
+
+		FILE		Web_Breeze
+		LWSFILE		TRUE
+	}
+
+	Fall {
+
+		FILE		SP_BROKENweb
+		LWSFILE		TRUE
+	}
+
+}

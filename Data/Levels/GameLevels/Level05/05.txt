@@ -1,0 +1,5 @@
+Good_work,_your_Power_Path_is_built!_Now_construct_your_Power_Station._If_you_can't_find_somewhere_flat_enough_to_build_it,_try_putting_your_Power_Path_in_a_different_place. #one#
+Way_to_go!_You_constructed_a_Power_Station! #two#
+
+$one		Sounds\Streamed\InGame\ins501
+$two		Sounds\Streamed\InGame\ins502

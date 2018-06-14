@@ -1,0 +1,154 @@
+
+Lego* {
+
+	Scale				1.0
+	WheelMesh			NULL_object
+	WheelNullName		tyre_null
+	CameraNullName		CAMERA_NULL
+	CameraNullFrames		2
+;	DrillNullName		Drill_U_Null
+	Depositnullname		Deposit_null
+	CarryNullName		Carry_Null
+	CarryNullFrames		1
+
+	mediumpoly  {
+			LP-BCramp				VLBC_ramp
+			LP-BCmain				VLBC_Main
+			bcHoverhandle,1			VLBC_Hoverhandle
+			bcHoverhandle,2			VLBC_Hoverhandle
+			bchandlecase,1			VLBC_Handlecase
+			bchandlecase,2			VLBC_Handlecase
+   			}
+
+		
+	Upgrades {
+	 	
+		Level0000 {			
+			LP_BC_SPEED_NORMAL		BC_SPEEDS_NULL,1
+			ROTORS				BC_BLADES_LNULL,1
+			ROTORS				BC_BLADES_RNULL,1
+			Wake					Wake_null,1
+			Wake					Wake_null,2
+			Wake					Wake_null,3
+			Wake					Wake_null,4
+
+		}
+
+	}
+
+	Activities {
+		
+		Activity_Stand					Stand
+		Activity_Route					Route
+		Activity_Opening					RampDown
+		Activity_Closing					RampUp
+		Activity_Open						Boarding
+		Activity_TeleportIn					TeleportIn
+	}
+
+	TeleportIn {
+		FILE		BCteleportin
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	Stand {
+		FILE		BCrunning
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Route {
+		FILE		BCsail
+;		TRANSCOEF	0.35
+		LWSFILE	TRUE
+	}
+
+	HitLeft {
+		FILE		BChit_left
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitRight {
+		FILE		BChit_right
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitFront {
+		FILE		BChit_front
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitBack {
+		FILE		BChit_back
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	
+;	TurnLeft {
+;		FILE		BCturningL
+;		TRANSCOEF	0.0
+;		LWSFILE	TRUE
+;	}	
+
+;	TurnRight {
+;		FILE		BCturningR
+;		TRANSCOEF	0.0
+;		LWSFILE	TRUE
+;	}	
+	
+	Reverse {
+		FILE		BCreversing
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	StartUp {
+		FILE		BCaccel
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	ShutDown {
+		FILE		BCbrake
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	Tickover {
+		FILE		BCfloat
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	TurnLeftIN {
+		FILE		BCintoturnL
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}	
+	TurnRightIN {
+		FILE		BCintoturnR
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	TurnLeftOUT {
+		FILE		BCoutofturnL
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}	
+	TurnRightOUT {
+		FILE		BCoutofturnR
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	RampDown {
+		FILE		BC_RampDown
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+	RampUp {
+		FILE		BC_RampUp
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+	Boarding {
+		FILE		BC_Boarding
+		LWSFILE		TRUE
+	}
+}

@@ -1,0 +1,13 @@
+You_need_four_more_Energy_Crystals... #one#
+You_have_stored_two_Energy_Crystals_now. #two#
+Another_Energy_Crystal_stored._You're_more_than_half_way_there! #three#
+Only_one_more_Energy_Crystal_to_go_now... #four#
+Congratulations!_You've_stored_five_Energy_Crystals. #five#
+Well_done,_you've_found_the_tool_store!_Now_collect_five_Energy_Crystals... #six#
+
+$one	sounds\Streamed\InGame\ins201
+$two	sounds\Streamed\InGame\ins102
+$three	sounds\Streamed\InGame\ins103
+$four	sounds\Streamed\InGame\ins104
+$five	sounds\Streamed\InGame\ins105
+$six	sounds\Streamed\InGame\ins106

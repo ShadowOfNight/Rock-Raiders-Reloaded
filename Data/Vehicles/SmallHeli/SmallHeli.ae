@@ -1,0 +1,109 @@
+
+Lego* {
+
+	Scale					1.0
+	WheelMesh				NULL_OBJECT
+	WheelNullName			Tyre_NULL
+	CameraNullName			CAMERANULL
+	CameraNullFrames			2
+	DepositNullName			Deposit_null
+
+		Mediumpoly  {	
+			SH_BladeHinge				VSH_BladeHinge
+			SH_Front					VSH_Front
+			SH_Wings					VSH_Wings
+			}
+
+
+
+		Upgrades {
+					
+			; '000' represents a three bit binary number for each type of upgrade...			
+			; All the parts in every section will be removed when any other level is selected...
+			; Format (No spaces are allowed in the second column:
+			; <Upgrade part (defined in Lego.cfg)>	[TAB]	<Null object name>,<Null instance (1-n)>
+			;	Object			Null
+			;Binary sequence order is [carry] [scan] [speed] [drill]
+			;therefore a vehicle with carry and speed upgrade will be 1010
+
+		Level0000 {
+			
+			ROTORS				Blades_NULL,1
+
+			;NO UPGRADES AS OF 9/11/98
+		}
+	}
+
+
+	Activities {
+		
+		Activity_Stand				Stand
+		Activity_Route				Route
+		Activity_TeleportIN			TeleportIN			
+		!Activity_HitLeft				HitLeft
+		!Activity_HitRight				HitRight
+		!Activity_HitFront				HitFront
+		!Activity_HitBack				HitBack
+
+	}
+
+	StartUp {
+		FILE		SH_TakeOff
+		TRANSCOEF	0.0
+		LWSFILE  	TRUE
+	}
+
+	Shutdown {
+		FILE		SH_Land
+		TRANSCOEF	0.0
+		LWSFILE  	TRUE
+	}
+
+	Route {
+		FILE		SH_Hover
+;		TRANSCOEF	0.35
+		LWSFILE  	TRUE
+	}
+
+	TickOver {
+		FILE		SH_Hover
+		TRANSCOEF	0.0
+		LWSFILE  	TRUE
+	}
+
+	Stand {
+		FILE		SH_Hover
+		TRANSCOEF	0.0
+		LWSFILE  	TRUE
+	}
+
+	HitLeft {
+		FILE		SH_HitL
+		TRANSCOEF	0.0
+		LWSFILE  	TRUE
+	}
+
+	HitRight {
+		FILE		SH_HitR
+		TRANSCOEF	0.0
+		LWSFILE  	TRUE
+	}
+
+	HitFront {
+		FILE		SH_HitFront
+		TRANSCOEF	0.0
+		LWSFILE  	TRUE
+	}
+
+	HitBack {
+		FILE		SH_HitBack
+		TRANSCOEF	0.0
+		LWSFILE  	TRUE
+	}
+
+	TeleportIN {
+		FILE		S_Teleport_S_Heli
+		TRANSCOEF	0.0
+		LWSFILE	True
+	}
+}

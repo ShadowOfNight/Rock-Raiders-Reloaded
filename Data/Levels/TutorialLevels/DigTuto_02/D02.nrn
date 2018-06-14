@@ -1,0 +1,218 @@
+// Bypass everything if objective still showing - will get past this when space pressed
+//GetObjectiveShowing = 1 ? :Skip
+
+GetObjectiveSwitch ? SetMessagePermit 0
+GetObjectiveShowing = 1 ? :Skip
+
+//R0 is used as a general counter
+TRUE ? AddR0 1
+
+//Go to the relevant task
+
+GetR3 = 0 ? :First
+GetR3 = 1 ? :Intro
+GetR3 = 2 ? :ShowTwo
+GetR3 = 3 ? :SelectToolStore
+GetR3 = 4 ? :ClickUpgrade1
+GetR3 = 5 ? :WaitForOre
+GetR3 = 6 ? :SelectToolStore2
+GetR3 = 7 ? :ClickUpgrade3
+GetR3 = 8 ? :SelectWall1
+GetR3 = 9 ? :ClickDynamite
+GetR3 = 10 ? :WaitForDig
+GetR3 = 11 ? :FinishMessage
+TRUE ? SetLevelCompleted
+Stop
+
+/////////////////////////////////////////
+
+First:
+TRUE ? AddStoredOre 3
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+/////////////////////////////////////////
+
+// THESE BITS ARE THE STAGES OF THE LEVEL
+Intro:
+TRUE ? SetR4 1
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? CameraLockOnObject 2
+TRUE ? :Next
+
+ShowTwo:
+TRUE ? SetR4 2
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetOreCurrentlyStored < 5 ? Stop
+GetR5 = 0 ? CameraUnlock
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 1 1
+TRUE ? SetCameraGotoTutorial 1
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectToolStore:
+TRUE ? SetR4 3
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetToolStoreSelected = 0 ? Stop
+GetR5 = 0 ? SetTutorialPointer 1 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashUpgradeBuildingIcon 1
+TRUE ? SetUpgradeBuildingIconClicked 0
+TRUE ? :Next
+
+ClickUpgrade1:
+TRUE ? SetR4 4
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetUpgradeBuildingIconClicked = 0 ? Stop
+GetR5 = 0 ? FlashUpgradeBuildingIcon 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? CameraLockOnObject 2
+TRUE ? :Next
+
+WaitForOre:
+TRUE ? SetR4 5
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetOreCurrentlyStored < 5 ? Stop
+GetR5 = 0 ? CameraUnlock
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 1 1
+TRUE ? SetCameraGotoTutorial 1
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectToolStore2:
+TRUE ? SetR4 6
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetToolStoreSelected = 0 ? Stop
+GetR5 = 0 ? SetTutorialPointer 1 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashUpgradeBuildingIcon 1
+TRUE ? SetUpgradeBuildingIconClicked 0
+TRUE ? :Next
+
+ClickUpgrade3:
+TRUE ? SetR4 7
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetUpgradeBuildingIconClicked = 0 ? Stop
+GetR5 = 0 ? FlashUpgradeBuildingIcon 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 4 1
+TRUE ? SetCameraGotoTutorial 4
+TRUE ? SetTutorialBlockClicks 4 0
+TRUE ? ClickOnlyMap
+TRUE ? :Next
+
+SelectWall1:
+TRUE ? SetR4 8
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 4 = 0 ? Stop
+GetR5 = 0 ? SetTutorialPointer 4 0
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashDynamiteIcon 1
+TRUE ? SetDynamiteClicked 0
+TRUE ? :Next
+
+ClickDynamite:
+TRUE ? SetR4 9
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetDynamiteClicked = 0 ? Stop
+GetR5 = 0 ? FlashDynamiteIcon 0
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? CameraLockOnObject 2
+TRUE ? :Next
+
+WaitForDig:
+TRUE ? SetR4 10
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetRecordObjectAtTutorial 5 ? CameraUnlock
+GetTutorialBlockIsGround 4 = 0 ? Stop
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? CameraUnlock
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetMessage 11 1
+TRUE ? :Next
+
+FinishMessage:
+GetMessageTimer > 1 ? Stop
+TRUE ? :Next
+
+/////////////////////////////////////////
+
+
+// THESE ARE HANDY CALL BITS
+
+wbe:
+GetMessageTimer > 0 ? Stop
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? AddR5 1
+Stop
+
+Skip:
+//Set wait times (sample length multiplier, time added after sample, time for no sample)
+TRUE ? SetMessageTimerValues 1000 1000 6000
+// Set default flags
+TRUE ? SetTutorialFlags 4095
+TRUE ? SetMessagePermit 1
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? SetR5 0
+FALSE ? SetR3 0
+Stop
+
+Next:
+TRUE ? AddR3 1
+Clear:
+TRUE ? SetR0 0
+TRUE ? SetTimer0 0
+TRUE ? SetR5 0
+Stop
+
+finish:
+Stop
+
+Complete:
+GetMessageTimer > 0 ? Stop 
+TRUE ? SetLevelCompleted
+end:

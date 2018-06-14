@@ -1,0 +1,39 @@
+
+Lego* {
+
+	Scale				1.0
+	DrillNullName		drilltip_Null
+
+
+
+
+	Activities {
+		Activity_Drill					Drill
+		Activity_Stand					Stand
+		Activity_Route					Route
+		
+	}
+
+	Drill {
+		FILE			Drilling
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		}
+	
+	Stand {
+		FILE			Drillstand
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		
+		}
+
+	Route {
+		FILE			DrillWalklws
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		
+		}
+
+
+
+}

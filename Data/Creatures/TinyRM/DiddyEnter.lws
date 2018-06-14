@@ -1,0 +1,417 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 20
+FrameStep 1
+PreviewFirstFrame 1
+PreviewLastFrame 20
+PreviewFrameStep 1
+FramesPerSecond 30.000000
+
+LoadObject Z:\Lego\Data\Creatures\TinyRM\RM_Head.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 40.35 -17.3 -10.9 29.6 -2.6 1 1 0.6
+  0 0 0 0 0
+  0 40.35 -17.3 -9.619972 32.04 -2.2 1 1 0.6
+  3 0 0 0 0
+  0 40.35 -17.3 6.65312 27.28 0.9650055 1 1 0.6
+  15 0 0 0 0
+  0 40.35 -17.3 13.16211 26.58784 2.403816 1 1 0.6
+  19 0 0 0 0
+  0 40.35 -17.3 13.16211 26.58784 2.403816 1 1 0.6
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Creatures\TinyRM\RM_Upper-torso.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 11.7494 -34.7 0.8008 1 1 1
+  0 0 1 0 0
+  0 0 0 9.8 -36.79103 4.3 1 1 1
+  1 0 0 0 0
+  0 0 0 6.7474 -38.79031 8.426 1 1 1
+  3 0 0 0 0
+  0 0 0 4.2467 -39.22916 8.0518 1 1 1
+  4 0 0 0 0
+  0 0 0 2.715 -38.0242 5.5011 1 1 1
+  7 0 0 0 0
+  0 0 0 -11.42144 -31.41485 2.320173 1 1 1
+  19 0 0 0 0
+  0 0 0 -11.42144 -31.41485 2.320173 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 3
+ShadowOptions 7
+
+AddNullObject Lowerbody.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 -6.5 1 1 1
+  0 0 1 0 0
+  0 0 0 0 0 -6.03837 1 1 1
+  3 0 0 0 0
+  0 0 0 0 0 2.612545 1 1 1
+  19 0 0 0 0
+  0 0 0 0 0 2.612545 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 12
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Creatures\TinyRM\Sh_L.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  29.45 38 0 3.7 24.5 15.9 1 1 1
+  0 0 1 0 0
+  29.45 38 0 3.612533 23.37265 15.9 1 1 1
+  3 0 0 0 0
+  29.45 38 0 -4.452984 14.90147 15.9 1 1 1
+  12 0 0 0 0
+  29.45 38 0 1.57341 -2.85379 15.9 1 1 1
+  19 0 0 0 0
+  29.45 38 0 1.57341 -2.85379 15.9 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Creatures\TinyRM\Arml.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  1 -37.75 2.75 6.4 96.29999 0 1 1 1
+  0 0 1 0 0
+  1 -37.75 2.75 6.239644 94.70615 0 1 1 1
+  3 0 0 0 0
+  1 -37.75 2.75 3.234589 64.83772 0 1 1 1
+  19 0 0 0 0
+  1 -37.75 2.75 3.234589 64.83772 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 325
+ParentObject 4
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Creatures\TinyRM\Sh_R.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  -29.45 38 -6 10.2 -15.1 -12.1 1 1 1
+  0 0 1 0 0
+  -29.45 38 -6 27.54885 -10.61973 -12.84833 1 1 1
+  4 0 0 0 0
+  -29.45 38 -6 -2.653487 29.53433 -26.87191 1 1 1
+  18 0 0 0 0
+  -29.45 38 -6 -3.277744 32.40617 -27.58934 1 1 1
+  19 0 0 0 0
+  -29.45 38 -6 -3.277744 32.40617 -27.58934 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Creatures\TinyRM\Armr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  -0.2198953 -33 2 3.8 72.3 0 1 1 1
+  0 0 1 0 0
+  -1 -33 2 2.279051 72.60127 0 1 1 1
+  3 0 0 0 0
+  -1 -33 2 -26.22344 78.24713 0 1 1 1
+  19 0 0 0 0
+  -1 -33 2 -26.22344 78.24713 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 6
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Creatures\TinyRM\Thighr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  -13.6 -13.45 0 4.956807 68.02045 -9.685119 1 1 1
+  0 0 0 0 0
+  -13.6 -13.45 0 7.158404 69.67496 -9.685119 1 1 1
+  3 0 0 0 0
+  -13.6 -13.45 0 7.868923 43.65718 -9.685119 1 1 1
+  12 0 0 0 0
+  -13.6 -13.45 0 7.477746 23.67119 -9.685119 1 1 1
+  19 0 0 0 0
+  -13.6 -13.45 0 7.477746 23.67119 -9.685119 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 12
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Creatures\TinyRM\LegR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 -25.5 0 -4.4 -64.62388 3.399998 1 1 1
+  0 0 0 0 0
+  0 -25.5 0 -7.355377 -83.25183 3.899999 1 1 1
+  3 0 0 0 0
+  0 -25.5 0 -3.883431 -74.284 6.033581 1 1 1
+  12 0 0 0 0
+  0 -25.5 0 -3.508784 -73.64277 7.699997 1 1 1
+  19 0 0 0 0
+  0 -25.5 0 -3.508784 -73.64277 7.699997 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 8
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Creatures\TinyRM\Thighl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  13.6 -13.45 0 -24.1 22.89997 -0.2000002 1 1 1
+  0 0 0 0 0
+  13.6 -13.45 0 -23.40755 23.01322 -0.2000002 1 1 1
+  3 0 0 0 0
+  13.6 -13.45 0 -17.29753 68.23689 -5.599998 1 1 1
+  10 0 0 0 0
+  13.6 -13.45 0 -10.57568 78.49651 -1.1 1 1 1
+  19 0 0 0 0
+  13.6 -13.45 0 -10.57568 78.49651 -1.1 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 12
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Creatures\TinyRM\LegL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0.5014857 -25.5 -4.478952 -1.32 -80.22173 4.2 1 1 1
+  0 0 0 0 0
+  0 -25.5 0 -2.470252 -91.82449 4.2 1 1 1
+  3 0 0 0 0
+  0 -25.5 0 -4.593251 -110.4959 5.311194 1 1 1
+  10 0 0 0 0
+  0 -25.5 0 0.6941438 -60.3346 6.599998 1 1 1
+  19 0 0 0 0
+  0 -25.5 0 0.6941438 -60.3346 6.599998 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 10
+ShadowOptions 7
+
+AddNullObject Main null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 60.2066 5 0 0 3.6 1 1 1
+  0 0 1 0 0
+  0 58.41662 5 0 0 3.12 1 1 1
+  3 0 0 0 0
+  0.46 63.91 5 0 0 -0.32 1 1 1
+  12 0 0 0 0
+  1.919999 62.87662 5 0 0 -3.2 1 1 1
+  18 0 0 0 0
+  1.919999 62.87662 5 0 0 -3.2 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 13
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 180 0 0 0.054 0.054 0.054
+  0 0 0 0 0
+  0 0 22.21547 180 0 0 0.054 0.054 0.054
+  20 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\shared\RockdustX.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  17
+  0 0.8500001 0 0 0 0 12 12 12
+  0 0 0 0 0
+  0 5.750001 0 0 0 0 12 12 12
+  5 1 0 0 0
+  0 3.45 0 0 0 0 6.095997 11.136 10.272
+  6 0 0 0 0
+  0 4.969999 0 0 0 0 12 6.623999 12
+  7 0 0 0 0
+  0 4.57 0 0 0 0 8.448002 10.176 9.36
+  8 0 0 0 0
+  0 5.25 0 0 0 0 12 10.512 12
+  9 0 0 0 0
+  0 4.65 0 0 0 0 8.735999 12 12
+  10 0 0 0 0
+  0 4.25 0 0 0 0 12 8.303999 8.879999
+  11 0 0 0 0
+  0 3.03 0 0 0 0 5.759998 12 11.136
+  12 0 0 0 0
+  0 4.749999 0 0 0 0 11.568 9.264 10.272
+  13 0 0 0 0
+  0 3.97 0 0 0 0 10.992 12 12
+  14 0 0 0 0
+  0 3.35 0 0 0 0 4.991999 12 10.992
+  15 0 0 0 0
+  0 4.589999 0 0 0 0 12 9.551998 11.088
+  16 0 0 0 0
+  0 3.01 0 0 0 0 6.431999 12 9.503999
+  17 0 0 0 0
+  0 3.25 0 0 0 0 12 12 11.088
+  18 0 0 0 0
+  0 4.889999 0 0 0 0 7.536 8.687999 7.055999
+  19 0 0 0 0
+  0 3.53 0 0 0 0 12 12 12
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 12
+ObjDissolve (envelope)
+  1
+  17
+  1
+  0 0 0 0 0
+  1
+  5 1 0 0 0
+  0.608
+  6 1 0 0 0
+  0.832
+  7 0 0 0 0
+  0.708
+  8 0 0 0 0
+  0.5319999
+  9 0 0 0 0
+  0.8520001
+  10 0 0 0 0
+  0.716
+  11 0 0 0 0
+  0.952
+  12 0 0 0 0
+  0.684
+  13 0 0 0 0
+  0.84
+  14 0 0 0 0
+  0.5639999
+  15 0 0 0 0
+  0.908
+  16 0 0 0 0
+  0.52
+  17 0 0 0 0
+  0.9120001
+  18 0 0 0 0
+  0.5919998
+  19 0 0 0 0
+  1
+  20 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 1.000000
+
+AddLight
+LightName Light
+ShowLight 0 7
+LightMotion (unnamed)
+  9
+  2
+  -3.997904 80.75 60.49891 -42.4 22.00002 0 0.404 0.404 0.404
+  0 0 0 0 0
+  -3.997904 80.75 60.49891 -42.4 22.00002 0 0.404 0.404 0.404
+  20 0 0 0 0
+EndBehavior 1
+TargetObject 2
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 2
+ConeAngle 44.119999
+EdgeAngle 5.000000
+ShadowType 2
+ShadowMapSize 512
+UseConeAngle 1
+ShadowFuzziness 1.000000
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  2
+  -12.52817 12 17.62902 -215.3 23.09999 0 1 1 1
+  0 0 0 0 0
+  -12.52817 12 17.62902 -215.3 23.09999 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 1
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 1
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 2
+BlurLength 0.500000
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+GlowEffect 1
+GlowIntensity 0.500000
+GlowRadius 8.000000
+
+RenderMode 2
+RayTraceEffects 1
+RayRecursionLimit 16
+DataOverlayLabel  
+SaveAnimationName \\Rob_plugin_man\d\Output\Lego\rockmonster\walk.avi
+AnimationType 0
+OutputFilenameFormat 3
+SaveRGBImagesPrefix OUTPUT\LegoRM\RM2
+RGBImageFormat 2
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint -2.415991 2.189538 -5.144201
+ViewDirection -107.809105 5.710744 0.066323
+ViewZoomFactor 2.639364
+GridNumber 10
+GridSize 5.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

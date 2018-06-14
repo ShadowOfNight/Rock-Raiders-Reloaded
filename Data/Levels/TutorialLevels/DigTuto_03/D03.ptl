@@ -1,0 +1,8 @@
+
+Lego* {
+
+	Dig						Goto
+	DigComplete					RockFall
+	Train						Goto
+	CollectTool					Goto
+}

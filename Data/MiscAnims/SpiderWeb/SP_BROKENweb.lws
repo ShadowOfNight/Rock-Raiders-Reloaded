@@ -1,0 +1,167 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 25
+FrameStep 1
+PreviewFirstFrame 1
+PreviewLastFrame 25
+PreviewFrameStep 1
+FramesPerSecond 30.000000
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\Spider\Doorweb_1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  -60.39663 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  -60.39663 0 0 0 0 0 1 1 1
+  1 0 0 0 0
+  -60.39663 0 0 -61.9 0 0 0 0 0
+  25 0 0 0 0
+EndBehavior 1
+LockedChannels 54
+ParentObject 3
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\Spider\Doorweb_2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  59.6719 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  59.6719 0 0 0 0 0 1 1 1
+  1 0 0 0 0
+  59.6719 0 0 62.1 0 0 0 0 0
+  25 0 0 0 0
+EndBehavior 1
+LockedChannels 54
+ParentObject 3
+ShadowOptions 7
+
+AddNullObject Web_movenull
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  1 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  25 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 4
+ShadowOptions 7
+
+AddNullObject Main_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 90 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 90 0 0 1 1 1
+  1 0 0 0 0
+  0 0 0 90 0 0 1 1 1
+  10 0 0 0 0
+  0 0 0 90 0 0 1 1 1
+  15 0 0 0 0
+  0 0 0 90 0 0 1 1 1
+  18 0 0 0 0
+  0 0 0 90 0 0 1 1 1
+  20 0 0 0 0
+  0 0 0 90 0 0 1 1 1
+  21 0 0 0 0
+  0 0 0 90 0 0 1 1 1
+  25 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  7
+  -2 2 -2 45 35 0 1 1 1
+  0 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  1 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  15 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  18 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  20 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  21 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  25 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  3
+  -86.16485 195.25 -283.6354 17.4 31.9 0 1 1 1
+  0 0 0 0 0
+  -86.16485 195.25 -283.6354 17.4 31.9 0 1 1 1
+  1 0 0 0 0
+  -86.16485 195.25 -283.6354 17.4 31.9 0 1 1 1
+  25 0 0 0 0
+EndBehavior 1
+ZoomFactor 4.507999
+Resolution 0
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 1
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+ClipRayColors 0
+DataOverlayLabel  
+OutputFilenameFormat 3
+SaveRGBImagesPrefix animation\WEB\Spit_web
+RGBImageFormat 2
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 0.000000 0.000000 0.000000
+ViewDirection -1.574288 -0.965166 0.000000
+ViewZoomFactor 6.000001
+GridNumber 10
+GridSize 50.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

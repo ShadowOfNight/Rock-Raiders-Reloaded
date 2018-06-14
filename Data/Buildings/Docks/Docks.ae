@@ -1,0 +1,41 @@
+
+Lego* {
+
+	Scale				1.0
+	DepositNullName		Water_Null
+	Shape				0,-1:0,-1:0,1:0,1
+	EntranceNullName	Land_Null
+
+	Activities {
+		
+		Activity_Stand					Stand
+		Activity_Explode				Explode
+		Activity_Unpowered				PowerOff
+		Activity_Teleport				Create
+	}
+
+	Stand {
+		FILE		dock2
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+	}
+
+
+	Explode {
+		FILE		dockexplode
+		LWSFILE		TRUE
+	}
+
+	PowerOff {
+		FILE		dock2_Idle
+		LWSFILE		TRUE
+	}
+
+	Create {
+		FILE		dockCreate
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+		SAMPLE		SFX_Build
+	}
+
+}

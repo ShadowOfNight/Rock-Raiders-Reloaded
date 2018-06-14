@@ -1,0 +1,9 @@
+CLGen.dat
+LegoRR.icd
+dgVoodoo.conf
+
+*.exe
+*.sav
+*.osf
+*.dll
+*.lnk

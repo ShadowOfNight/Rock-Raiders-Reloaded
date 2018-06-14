@@ -1,0 +1,30 @@
+
+Lego* {
+
+	Scale					1.0
+	
+		
+	
+
+	Activities {
+		
+		Activity_Stand					Stand
+		Activity_Route					Route
+
+		
+
+	}
+
+	Stand {
+		FILE		VLPbatidle
+		TRANSCOEF	0
+		LWSFILE		TRUE
+	}
+	
+	Route {
+		FILE		VLPbatfly
+		TRANSCOEF	0
+		LWSFILE		TRUE
+	}
+	
+}

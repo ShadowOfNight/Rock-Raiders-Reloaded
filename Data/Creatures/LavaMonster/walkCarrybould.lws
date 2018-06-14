@@ -1,0 +1,698 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 90
+FrameStep 1
+PreviewFirstFrame 1
+PreviewLastFrame 90
+PreviewFrameStep 1
+FramesPerSecond 30.000000
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\70P_Rmonster\headnojaw.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 40.35 -17.3 -10.9 -7.399998 -2.6 1 1 1
+  0 0 0 0 0
+  0 40.35 -17.3 -9.619972 -4.959998 -2.2 1 1 1
+  6 0 0 0 0
+  0 40.35 -17.3 6.65312 -9.719998 0.9650055 1 1 1
+  30 0 0 0 0
+  0 40.35 -17.3 13.16211 -10.41216 2.403816 1 1 1
+  39 0 0 0 0
+  0 40.35 -17.3 14.3 -7.399998 2.6 1 1 1
+  45 0 0 0 0
+  0 40.35 -17.3 11.50211 -4.84311 1.802943 1 1 1
+  51 0 0 0 0
+  0 40.35 -17.3 -7.477037 -10.20751 -2.109927 1 1 1
+  81 0 0 0 0
+  0 40.35 -17.3 -10.99146 -8.279989 -2.626646 1 1 1
+  88 0 0 0 0
+  0 40.35 -17.3 -10.9 -7.399998 -2.6 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\70P_Rmonster\body.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  15
+  0 0 0 11.7494 -4.700002 0.8008 1 1 1
+  0 0 1 0 0
+  0 0 0 9.8 -6.791037 4.3 1 1 1
+  3 0 0 0 0
+  0 0 0 6.7474 -8.790308 8.426 1 1 1
+  6 0 0 0 0
+  0 0 0 4.2467 -9.229161 8.0518 1 1 1
+  9 0 0 0 0
+  0 0 0 2.715 -8.0242 5.5011 1 1 1
+  15 0 0 0 0
+  0 0 0 -11.42144 -1.414852 2.320173 1 1 1
+  39 0 0 0 0
+  0 0 0 -12.45168 -1.508179 2.054983 1 1 1
+  42 0 0 0 0
+  0 0 0 -11.74941 -3.577009 -0.8007755 1 1 1
+  45 0 0 0 0
+  0 0 0 -9.800001 -6.10002 -4.299998 1 1 1
+  48 0 0 0 0
+  0 0 0 -6.547439 -8.318329 -8.425972 1 1 1
+  51 0 0 0 0
+  0 0 0 -4.246702 -8.823588 -8.0518 1 1 1
+  54 0 0 0 0
+  0 0 0 -2.714986 -7.399989 -5.501135 1 1 1
+  60 0 0 0 0
+  0 0 0 11.4214 -1.032802 -2.3202 1 1 1
+  84 0 0 0 0
+  0 0 0 12.4517 -1.965501 -2.055 1 1 1
+  87 0 0 0 0
+  0 0 0 11.7494 -4.700002 0.8008 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+ParentObject 3
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Creatures\Rmonster\lowbod.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 0 0 -6.5 1 1 1
+  0 0 1 0 0
+  0 0 0 0 0 -6.03837 1 1 1
+  6 0 0 0 0
+  0 0 0 0 0 2.612545 1 1 1
+  39 0 0 0 0
+  0 0 0 0 0 3 1 1 1
+  45 0 0 0 0
+  0 0 0 0 0 1.879501 1 1 1
+  51 0 0 0 0
+  0 0 0 0 0 -5.207919 1 1 1
+  84 0 0 0 0
+  0 0 0 0 0 -6.5 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+ParentObject 16
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\70P_Rmonster\shl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  29.45 38 0 0.6999999 5.399993 15.9 1 1 1
+  0 0 1 0 0
+  29.45 38 0 28.6 37.09999 15.9 1 1 1
+  45 0 0 0 0
+  29.45 38 0 0.6999999 5.399993 15.9 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\70P_Rmonster\arml.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  1 -37.75 2.75 2.7 80.80001 0 1 1 1
+  0 0 1 0 0
+  1 -37.75 2.75 -4.199998 41.6 0 1 1 1
+  45 0 0 0 0
+  1 -37.75 2.75 2.7 80.80001 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 325
+ParentObject 4
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\70P_Rmonster\handl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  -0.2999992 -28.75 0 -17.1 -4 0.4 1 1 1
+  0 0 1 0 0
+  -0.2999992 -28.75 0 -17.1 -4 0.4 1 1 1
+  45 0 0 0 0
+  -0.2999992 -28.75 0 -17.1 -4 0.4 1 1 1
+  72 0 0 0 0
+  -0.2999992 -28.75 0 -17.1 -4 0.4 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 5
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\70P_Rmonster\shr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  -29.45 38 -6 22.5 25.59999 -3.8 1 1 1
+  0 0 1 0 0
+  -29.45 38 -6 36 4.599998 -3.8 1 1 1
+  45 0 0 0 0
+  -29.45 38 -6 22.5 25.59999 -3.8 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\70P_Rmonster\armr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  -1 -33 2 -55.4 66.3 0 1 1 1
+  0 0 1 0 0
+  -1 -33 2 -34.19999 74.69998 0 1 1 1
+  45 0 0 0 0
+  -1 -33 2 -55.4 66.3 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\70P_Rmonster\handr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 -25.75 0 33 -7.699997 -9.8 1 1 1
+  0 0 1 0 0
+  0 -25.75 0 19.9 2.400002 -9.8 1 1 1
+  45 0 0 0 0
+  0 -25.75 0 33 -7.699997 -9.8 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 8
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\70P_Rmonster\thighr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  -13.6 -13.45 0 4.956807 68.02045 -9.685119 1 1 1
+  0 0 0 0 0
+  -13.6 -13.45 0 7.158404 69.67496 -9.685119 1 1 1
+  6 0 0 0 0
+  -13.6 -13.45 0 7.868923 43.65718 -9.685119 1 1 1
+  24 0 0 0 0
+  -13.6 -13.45 0 7.477746 23.67119 -9.685119 1 1 1
+  39 0 0 0 0
+  -13.6 -13.45 0 7.256804 25.62044 -9.685119 1 1 1
+  45 0 0 0 0
+  -13.6 -13.45 0 6.935604 30.29572 -9.685119 1 1 1
+  51 0 0 0 0
+  -13.6 -13.45 0 12.2585 74.7847 -9.685119 1 1 1
+  72 0 0 0 0
+  -13.6 -13.45 0 9.223549 88.08225 -9.685119 1 1 1
+  84 0 0 0 0
+  -13.6 -13.45 0 4.956807 68.02045 -9.685119 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 16
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\70P_Rmonster\legr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 -25.5 0 -4.4 -64.62388 3.399998 1 1 1
+  0 0 0 0 0
+  0 -25.5 0 -7.355377 -83.25183 3.899999 1 1 1
+  6 0 0 0 0
+  0 -25.5 0 -3.883431 -74.284 6.033581 1 1 1
+  24 0 0 0 0
+  0 -25.5 0 -3.508784 -73.64277 7.699997 1 1 1
+  39 0 0 0 0
+  0 -25.5 0 -6.5 -95.22388 7.699997 1 1 1
+  45 0 0 0 0
+  0 -25.5 0 -8.535688 -101.0818 7.699997 1 1 1
+  51 0 0 0 0
+  0 -25.5 0 -6.677588 -104.341 4.382411 1 1 1
+  72 0 0 0 0
+  0 -25.5 0 -8.45925 -86.22784 2.699998 1 1 1
+  84 0 0 0 0
+  0 -25.5 0 -4.4 -64.62388 3.399998 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+ParentObject 10
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\70P_Rmonster\footr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 -26.1 0 -2.2 -2.400001 2.7 1 1 1
+  0 0 0 0 0
+  0 -26.1 0 -1.024948 15.02056 2.447822 1 1 1
+  6 0 0 0 0
+  0 -26.1 0 2.456806 30.16428 6.178516 1 1 1
+  24 0 0 0 0
+  0 -26.1 0 5.968678 47.91791 13.1331 1 1 1
+  39 0 0 0 0
+  0 -26.1 0 5.699999 51.19999 14.1 1 1 1
+  45 0 0 0 0
+  0 -26.1 0 5.060186 46.98491 13.5219 1 1 1
+  51 0 0 0 0
+  0 -26.1 0 0.7234722 20.65922 2.325796 1 1 1
+  72 0 0 0 0
+  0 -26.1 0 0.373071 23.11126 0.7742413 1 1 1
+  84 0 0 0 0
+  0 -26.1 0 -2.2 -2.400001 2.7 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\70P_Rmonster\thighl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  13.6 -13.45 0 -24.1 22.89997 -0.2000002 1 1 1
+  0 0 0 0 0
+  13.6 -13.45 0 -23.40755 23.01322 -0.2000002 1 1 1
+  6 0 0 0 0
+  13.6 -13.45 0 -17.29753 68.23689 -5.599998 1 1 1
+  21 0 0 0 0
+  13.6 -13.45 0 -10.57568 78.49651 -1.1 1 1 1
+  39 0 0 0 0
+  13.6 -13.45 0 -6.499998 65.09999 -0.2000002 1 1 1
+  45 0 0 0 0
+  13.6 -13.45 0 -5.703307 67.79688 -0.1437503 1 1 1
+  48 0 0 0 0
+  13.6 -13.45 0 -5.713778 68.81059 -0.2000002 1 1 1
+  51 0 0 0 0
+  13.6 -13.45 0 -12.20578 54.7474 -0.2075932 1 1 1
+  63 0 0 0 0
+  13.6 -13.45 0 -17.0288 38.37662 -0.2052245 1 1 1
+  72 0 0 0 0
+  13.6 -13.45 0 -22.98501 22.68265 -0.2000002 1 1 1
+  84 0 0 0 0
+  13.6 -13.45 0 -24.1 22.89997 -0.2000002 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+ParentObject 16
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\70P_Rmonster\legl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  0 -25.5 0 -1.32 -80.22173 4.2 1 1 1
+  0 0 0 0 0
+  0 -25.5 0 -2.470252 -91.82449 4.2 1 1 1
+  6 0 0 0 0
+  0 -25.5 0 -4.593251 -110.4959 5.311194 1 1 1
+  21 0 0 0 0
+  0 -25.5 0 0.6941438 -60.3346 6.599998 1 1 1
+  39 0 0 0 0
+  0 -25.5 0 0.7000001 -58.72173 6.3 1 1 1
+  45 0 0 0 0
+  0 -25.5 0 -0.5846936 -68.32391 5.871635 1 1 1
+  48 0 0 0 0
+  0 -25.5 0 -0.4237926 -74.19914 5.5 1 1 1
+  51 0 0 0 0
+  0 -25.5 0 -0.3679347 -76.98737 4.976231 1 1 1
+  63 0 0 0 0
+  0 -25.5 0 -0.3700063 -72.94788 4.618313 1 1 1
+  72 0 0 0 0
+  0 -25.5 0 2.127166 -72.60651 4.2 1 1 1
+  84 0 0 0 0
+  0 -25.5 0 -1.32 -80.22173 4.2 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+ParentObject 13
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\70P_Rmonster\footl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  10
+  0 -25.6 0 5.599999 57.12917 0 1 1 1
+  0 0 0 0 0
+  0 -25.6 0 4.482843 58.21457 -1.5 1 1 1
+  6 0 0 0 0
+  0 -25.6 0 -0.5442004 24.49281 0 1 1 1
+  21 0 0 0 0
+  0 -25.6 0 3.998668 16.96599 0 1 1 1
+  39 0 0 0 0
+  0 -25.6 0 -0.7000003 -6.07083 -3.299999 1 1 1
+  45 0 0 0 0
+  0 -25.6 0 -0.8146666 -1.265666 -2.699999 1 1 1
+  46 0 0 0 0
+  0 -25.6 0 -0.6865698 5.779243 -1.7 1 1 1
+  51 0 0 0 0
+  0 -25.6 0 1.689383 22.95898 -2.5 1 1 1
+  63 0 0 0 0
+  0 -25.6 0 4.214515 49.03617 -1.8 1 1 1
+  84 0 0 0 0
+  0 -25.6 0 5.599999 57.12917 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 14
+ShadowOptions 7
+
+AddNullObject Main null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 60.2066 5 0 0 3.6 1 1 1
+  0 0 1 0 0
+  0 58.41662 5 0 0 3.12 1 1 1
+  6 0 0 0 0
+  0.46 63.91 5 0 0 -0.32 1 1 1
+  24 0 0 0 0
+  1.919999 62.87662 5 0 0 -3.2 1 1 1
+  37 0 0 0 0
+  2 60.20659 5 0 0 -3.4 1 1 1
+  45 0 0 0 0
+  1.899999 58.35784 5 0 0 -3.24 1 1 1
+  51 0 0 0 0
+  0.4 63.95292 5 0 0 0.4 1 1 1
+  71 0 0 0 0
+  0 62.8766 5 0 0 3.2 1 1 1
+  84 0 0 0 0
+  0 60.2066 5 0 0 3.6 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+ParentObject 17
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 0 0 180 0 0 0.2 0.2 0.2
+  0 0 0 0 0
+  0 0 0 180 0 0 0.2 0.2 0.2
+  39 0 0 0 0
+  0 0 0 180 0 0 0.2 0.2 0.2
+  51 0 0 0 0
+  0 0 0 180 0 0 0.2 0.2 0.2
+  84 0 0 0 0
+  0 0 0 180 0 0 0.2 0.2 0.2
+  90 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Boulder_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  31
+  1.281712 60 -38.8188 0 0 0 5 5 5
+  0 0 0 0 0
+  1.549605 56.75 -39.15331 -3.104295 -0.01416296 4 5 5 5
+  3 0 0 0 0
+  2.068916 54.03994 -39.99653 -4.805966 -0.02840095 7.25084 5 5 5
+  6 0 0 0 0
+  4.08883 54.0587 -40.55529 -3.508507 -0.04267335 6.903666 5 5 5
+  9 0 0 0 0
+  3.357746 54.70834 -41.0684 -1.375246 -0.05698124 1.918692 5 5 5
+  12 0 0 0 0
+  3.710891 56.61774 -41.57755 2.447093 -0.07132854 0.3161502 5 5 5
+  15 0 0 0 0
+  4.653097 58.7785 -42.08028 7.069321 -0.08571952 0.7113909 5 5 5
+  18 0 0 0 0
+  5.427029 60.19001 -43.31394 8.992313 -0.100158 -0.7945094 5 5 5
+  21 0 0 0 0
+  6.4262 61.16 -44.08395 10.69231 -0.100158 -0.7945094 5 5 5
+  24 0 0 0 0
+  6.9262 62.19001 -44.83395 13.89231 -0.100158 -0.7945094 5 5 5
+  27 0 0 0 0
+  7.1762 62.69001 -46.08395 15.19231 -0.100158 -0.7945094 5 5 5
+  30 0 0 0 0
+  8.1762 62.69001 -47.09394 18.09232 -0.100158 -0.7945094 5 5 5
+  33 0 0 0 0
+  8.1762 62.69001 -48.33395 22.59232 -0.100158 -0.7945094 5 5 5
+  36 0 0 0 0
+  8.9262 62.69001 -48.58395 27.29232 -0.100158 -0.7945094 5 5 5
+  39 0 0 0 0
+  8.9262 61.69001 -48.83395 27.99232 -0.100158 -0.7945094 5 5 5
+  42 0 0 0 0
+  8.9262 58.94001 -49.33395 27.99232 -0.100158 -4.994508 5 5 5
+  45 0 0 0 0
+  6.676248 55.94001 -49.32302 27.59232 -0.300158 -10.09451 5 5 5
+  48 0 0 0 0
+  3.426372 54.19001 -49.29461 27.59232 -0.300158 -13.69451 5 5 5
+  51 0 0 0 0
+  0.4264863 54.19001 -49.26839 27.59232 -0.300158 -13.69451 5 5 5
+  54 0 0 0 0
+  0.4264863 55.44001 -49.26839 28.89232 -0.300158 -12.69451 5 5 5
+  57 0 0 0 0
+  0.4264863 57.19001 -48.51839 28.89232 -0.300158 -12.69451 5 5 5
+  60 0 0 0 0
+  -0.3234851 59.19001 -48.01183 26.99232 -0.300158 -11.29451 5 5 5
+  63 0 0 0 0
+  -0.8234756 60.94001 -46.75964 23.49232 -0.300158 -11.29451 5 5 5
+  66 0 0 0 0
+  -1.573476 62.19001 -45.50964 20.49232 -0.800158 -11.29451 5 5 5
+  69 0 0 0 0
+  -2.573476 63.44001 -44.75964 17.59232 -0.300158 -11.29451 5 5 5
+  72 0 0 0 0
+  -2.823476 64.19001 -44.25964 15.59232 -0.500158 -12.19451 5 5 5
+  75 0 0 0 0
+  -2.323476 64.69001 -43.00964 13.59232 -0.300158 -11.29451 5 5 5
+  78 0 0 0 0
+  -1.319125 64.94001 -42.01403 12.49232 -0.400158 -11.29451 5 5 5
+  81 0 0 0 0
+  -0.8234949 64.69001 -40.51402 10.19232 -0.400158 -11.29451 5 5 5
+  84 0 0 0 0
+  -1.823495 63.44001 -40.01402 4.892319 -0.400158 -11.29451 5 5 5
+  87 0 0 0 0
+  1.281712 60 -38.8188 0 0 0 5 5 5
+  90 0 0 0 0
+EndBehavior 1
+ParentObject 17
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\Rmonster\spanrkle.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  -7.860055 12 -19.28977 48.9 -14.5 0 3.107999 2.873998 3.107999
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\Rmonster\spanrkle.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  6.76956 10.5 -20.77864 -42.70001 -5.200006 0 3.107999 2.873998 3.107999
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Creatures\Rmonster\Jaw.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 1 -14 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RockdustX.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -19.53832 0.75 -38.97601 0 -88.2 0 3.176001 3.152001 2.880001
+  0 0 0 0 0
+  -10.27248 0.75 8.677498 -65.7 -88.2 0 4.306001 4.282001 4.010002
+  48 0 0 0 0
+EndBehavior 1
+LockedChannels 50
+ParentObject 17
+ObjDissolve (envelope)
+  1
+  6
+  0.5
+  0 0 0 0 0
+  0.536
+  12 1 0 0 0
+  0.626
+  21 0 0 0 0
+  0.766
+  31 0 0 0 0
+  1
+  40 0 0 0 0
+  1
+  90 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RockdustX.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  16.78598 1.75 -36.63327 90 -179 0 3.182001 2.858001 3.186001
+  0 0 0 0 0
+  16.78598 1.75 -36.63327 90 -179 0 3.182001 2.858001 3.186001
+  44 1 0 0 0
+  13.31024 1.75 18.78373 14.39998 -179 0 5.008 4.684 5.012001
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 50
+ParentObject 17
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  46 1 0 0 0
+  0.5
+  47 0 0 0 0
+  0.536
+  55 1 0 0 0
+  0.626
+  64 0 0 0 0
+  0.74
+  70 0 0 0 0
+  1
+  80 0 0 0 0
+  1
+  90 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject SFX,SND_RMROKSTEP,0,45
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 1.000000
+
+AddLight
+LightName Light
+ShowLight 0 7
+LightMotion (unnamed)
+  9
+  2
+  -3.997904 80.75 60.49891 -42.4 22.00002 0 0.404 0.404 0.404
+  0 0 0 0 0
+  -3.997904 80.75 60.49891 -42.4 22.00002 0 0.404 0.404 0.404
+  90 0 0 0 0
+EndBehavior 1
+TargetObject 2
+LightColor 255 255 255
+LgtIntensity 0.000000
+LightType 2
+ConeAngle 44.119999
+EdgeAngle 5.000000
+ShadowType 2
+ShadowMapSize 512
+UseConeAngle 1
+ShadowFuzziness 1.000000
+
+AddLight
+LightName Light
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  2
+  0.9475687 13.5 -26.56607 0 0 0 1 1 1
+  0 0 0 0 0
+  0.9475687 13.5 -26.56607 0 0 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+ParentObject 1
+LightColor 249 0 6
+LgtIntensity 0.000000
+LightType 1
+ShadowType 0
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  2
+  21.98668 27 52.49376 -152.5 15.5 0 1 1 1
+  0 0 0 0 0
+  21.98668 27 52.49376 -152.5 15.5 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 0
+CustomSize 200 200
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 1
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+GlowEffect 1
+GlowIntensity 0.500000
+GlowRadius 8.000000
+
+RenderMode 2
+RayTraceEffects 1
+RayRecursionLimit 16
+DataOverlayLabel  
+SaveAnimationName D:\rmonster.avi
+AnimationType 6
+EndPlugin
+OutputFilenameFormat 3
+SaveRGBImagesPrefix OUTPUT\LegoRM\RM2
+RGBImageFormat 2
+AlphaMode 1
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 2.750000 12.039998 5.750000
+ViewDirection -20.877638 -0.385719 0.000000
+ViewZoomFactor 32.328598
+GridNumber 10
+GridSize 50.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

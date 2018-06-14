@@ -1,0 +1,4 @@
+Well_done!_You_got_them_back_safely._Now_collect_twenty_Energy_Crystals. #one#
+-
+
+$one		Sounds\Streamed\InGame\ins1401

@@ -1,0 +1,22 @@
+
+Lego* {
+
+	Scale				1.0
+
+	Activities {
+		Activity_Stand					Stand
+		Activity_Route					Walk
+	}
+
+	Walk {
+		FILE		VLPsnakemove
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+	}
+
+	Stand {
+		FILE		VLPsnakewait
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+	}
+}

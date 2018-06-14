@@ -1,0 +1,24 @@
+In_this_training_mission,_you_will_learn_how_to_use_Dynamite_-_a_powerful_and_dangerous_explosive! #one#
+You_need_a_Level_2_Tool_Store_to_train_Rock_Raiders_as_Explosives_Experts._When_your_Rock_Raider_has_collected_enough_Ore,_you_can_upgrade_the_Tool_Store. #two#
+You_now_have_five_pieces_of_Ore._That's_just_enough_to_upgrade_your_Tool_Store_to_Level_1._Click_on_the_Tool_Store_to_select_it. #three#
+Now_click_on_the_flashing_"Upgrade_Building"_icon. #four#
+The_Tool_Store_has_been_upgraded_to_Level_1._Before_you_can_upgrade_it_again_to_Level_2,_you_need_to_wait_until_your_Rock_Raider_has_collected_five_more_pieces_of_Ore. #five#
+Now_you_have_five_pieces_of_Ore,_you_can_upgrade_the_Tool_Store_to_Level_2._Click_on_the_Tool_Store_to_select_it. #six#
+Click_on_the_flashing_"Upgrade_Building"_icon. #seven#
+Now_that_you_have_a_Level_2_Tool_Store,_you_can_train_your_Rock_Raiders_to_use_Dynamite_to_blow_up_walls_made_of_Hard_Rock._Click_on_the_wall_near_the_arrow. #eight#
+To_tell_a_Rock_Raider_to_use_Dynamite_on_the_wall,_you_must_click_on_the_flashing_"Use_Dynamite"_icon. #nine#
+Your_Rock_Raider_will_go_to_the_Tool_Store_and_train_as_an_Explosives_Expert._Once_trained,_he_can_collect_Dynamite_from_the_Tool_Store_and_use_it_on_the_wall._Dynamite_can_be_very_dangerous_and_can_damage_buildings_and_vehicles,_so_be_careful_where_you_use_it! #ten#
+Well_done!_You_now_know_how_to_train_Explosives_Experts_and_how_to_use_Dynamite_safely. #eleven#
+
+$one			Sounds\Streamed\Training\drilling2\drill201
+$two			Sounds\Streamed\Training\drilling2\drill202
+$three		Sounds\Streamed\Training\drilling2\drill203
+$four			Sounds\Streamed\Training\drilling2\drill204
+$five			Sounds\Streamed\Training\drilling2\drill205
+$six			Sounds\Streamed\Training\drilling2\drill206
+$seven		Sounds\Streamed\Training\drilling2\drill207
+$eight		Sounds\Streamed\Training\drilling2\drill208
+$nine			Sounds\Streamed\Training\drilling2\drill209
+$ten			Sounds\Streamed\Training\drilling2\drill210
+$eleven		Sounds\Streamed\Training\drilling2\drill211
+$twelve		Sounds\Streamed\Training\drilling2\drill212

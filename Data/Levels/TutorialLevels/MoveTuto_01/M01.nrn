@@ -1,0 +1,333 @@
+// Bypass everything if objective still showing - will get past this when space pressed
+GetObjectiveSwitch ? SetMessagePermit 0
+GetObjectiveShowing = 1 ? :Skip
+
+//Set wait times (sample length multiplier, time added after sample, time for no sample)
+TRUE ? SetMessageTimerValues 1000 1000 6000
+
+//R0 is used as a general counter
+TRUE ? AddR0 1
+
+//Go to the relevant task
+
+GetR3 = 0 ? :Intro
+GetR3 = 1 ? :TopMan
+GetR3 = 2 ? :MidMan
+GetR3 = 3 ? :BotMan
+GetR3 = 4 ? :WatchFastMan
+GetR3 = 5 ? :WaitForFastFinish
+GetR3 = 6 ? :WatchMidMan
+GetR3 = 7 ? :WaitForMidFinish
+GetR3 = 8 ? :WatchSlowMan
+GetR3 = 9 ? :WaitForSlowFinish
+GetR3 = 10 ? :TellSecret
+GetR3 = 11 ? :SelectRaider
+GetR3 = 12 ? :ClickRubble
+GetR3 = 13 ? :SelectRaider2
+GetR3 = 14 ? :ClickFloor
+GetR3 = 15 ? :WaitForHim
+GetR3 = 16 ? :SelectRaider2Again
+GetR3 = 17 ? :ClickCrystalBlock
+GetR3 = 18 ? :PickUpCrystal
+GetR3 = 19 ? :IsCrystalStored
+GetR3 = 20 ? :FinishMessage
+TRUE ? SetLevelCompleted
+Stop
+
+
+
+
+
+
+Intro:
+TRUE ? SetR4 1
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+TRUE ? DisallowAll
+TRUE ? SupressArrow 0
+GetR5 < 2 ? :wbe
+TRUE ? SetCameraGotoTutorial 1
+TRUE ? SetRecordObjectPointer 3
+TRUE ? :Next
+
+TopMan:
+TRUE ? SetR4 3
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetR5 < 1 ? :wbe
+TRUE ? SetCameraGotoTutorial 2
+TRUE ? SetRecordObjectPointer 2
+TRUE ? :Next
+
+MidMan:
+TRUE ? SetR4 4
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetR5 < 1 ? :wbe
+TRUE ? SetCameraGotoTutorial 3
+TRUE ? SetRecordObjectPointer 1
+TRUE ? :Next
+
+BotMan:
+TRUE ? SetR4 5
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetR5 < 1 ? :wbe
+GetR5 = 1 ? SetRecordObjectPointer 0
+GetR5 < 2 ? :wbe
+TRUE ? SetTutorialBlockIsGround 4 1
+TRUE ? SetTutorialBlockIsGround 11 1
+TRUE ? :Next
+
+WatchFastMan:
+TRUE ? SetR4 7
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetTutorialBlockIsPath 4 1
+GetR0 = 1 ? SetTutorialBlockIsPath 11 1
+GetR0 = 1 ? SetMessage GetR4 0
+TRUE ? CameraLockOnObject 1
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+WaitForFastFinish:
+TRUE ? SetR4 7
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetRecordObjectAtTutorial 5 != 1 ? Stop
+GetR5 < 1 ? SupressArrow 0
+GetR5 < 1 ? SetGameSpeed 0 0
+GetR5 < 2 ? :wbe
+TRUE ? SetGameSpeed 100 0
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+WatchMidMan:
+TRUE ? SetR4 9
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+TRUE ? CameraLockOnObject 2
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+WaitForMidFinish:
+TRUE ? SetR4 9
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetRecordObjectAtTutorial 5 != 2 ? Stop
+GetR5 < 1 ? SupressArrow 0
+GetR5 < 1 ? SetGameSpeed 0 0
+GetR5 < 2 ? :wbe
+TRUE ? SetGameSpeed 100 0
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+WatchSlowMan:
+TRUE ? SetR4 11
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+TRUE ? CameraLockOnObject 3
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+WaitForSlowFinish:
+TRUE ? SetR4 11
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetRecordObjectAtTutorial 5 != 3 ? Stop
+GetR5 < 1 ? CameraUnlock
+GetR5 < 1 ? SupressArrow 0
+GetR5 < 1 ? SetGameSpeed 0 0
+GetR5 < 2 ? :wbe
+TRUE ? SetGameSpeed 100 0
+TRUE ? SupressArrow 0
+TRUE ? :Next
+
+TellSecret:
+TRUE ? SetR4 13
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetR5 < 3 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? ClickOnlyObjects
+TRUE ? SetTutorialPointer 4 1
+TRUE ? :Next
+
+SelectRaider:
+TRUE ? SetR4 16
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetSelectedRecordObject = 0 ? Stop
+GetSelectedRecordObject > 0 ? SetR1 GetSelectedRecordObject
+TRUE ? DisallowAll
+TRUE ? SetTutorialPointer 4 0
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 2 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 8 1
+TRUE ? SetCameraGotoTutorial 8
+TRUE ? ClickOnlyMap
+TRUE ? SetTutorialBlockClicks 8 0
+TRUE ? :Next
+
+ClickRubble:
+TRUE ? SetR4 18
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 8 = 0 ? Stop
+GetR5 = 0 ? SetTutorialPointer 8 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 2 ? :wbe
+TRUE ? SetTutorialPointer 4 1
+TRUE ? SetCameraGotoTutorial 4
+TRUE ? ClickOnlyObjects
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+SelectRaider2:
+TRUE ? SetR4 20
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetSelectedRecordObject = 0 ? Stop
+GetSelectedRecordObject > 0 ? SetR1 GetSelectedRecordObject
+TRUE ? DisallowAll
+GetR5 = 0 ? SetTutorialPointer 4 0
+GetR5 = 0 ? AdvanceMessage
+GetRecordObjectAtTutorial 4 = 0 ? Stop
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? SetTutorialCrystals 9 1
+TRUE ? SetCrystalPriority 0
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 2 1
+TRUE ? SetCameraGotoTutorial 2
+TRUE ? ClickOnlyMap
+TRUE ? SetTutorialBlockClicks 2 0
+TRUE ? :Next
+
+ClickFloor:
+TRUE ? SetR4 21
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 2 = 0 ? Stop
+TRUE ? SetTutorialPointer 2 0
+TRUE ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+// Move camera and zoom out to get better view
+TRUE ? SetCameraGotoTutorial 9
+TRUE ? CameraZoomOut 100
+TRUE ? :Next
+
+WaitForHim:
+TRUE ? SetR4 22
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetRecordObjectAtTutorial 2 = 0 ? Stop
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 2 ? :wbe
+TRUE ? SupressArrow 1
+//TRUE ? SetTutorialPointer 2 1
+TRUE ? SetRecordObjectPointer GetR1
+TRUE ? SetCameraGotoTutorial 2
+TRUE ? CameraZoomIn 200
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectRaider2Again:
+TRUE ? SetR4 24
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetSelectedRecordObject = 0 ? Stop
+GetSelectedRecordObject > 0 ? SetR1 GetSelectedRecordObject
+GetR5 = 0 ? SetRecordObjectPointer 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+GetRecordObjectAtTutorial 2 = 0 ? Stop
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 9 1
+TRUE ? SetCameraGotoTutorial 9
+TRUE ? ClickOnlyMap
+TRUE ? SetTutorialBlockClicks 9 0
+TRUE ? :Next
+
+ClickCrystalBlock:
+TRUE ? SetR4 25
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 9 = 0 ? Stop
+GetR5 = 0 ? SetTutorialPointer 9 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+GetRecordObjectAtTutorial 9 = 0 ? Stop
+TRUE ? :Next
+
+PickUpCrystal:
+TRUE ? SetR4 26
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+TRUE ? MakeSomeoneOnThisBlockPickUpSomethingOnThisBlock 9
+GetRecordObjectAtTutorial 9 != 0 ? Stop
+TRUE ? CameraLockOnObject GetR1
+TRUE ? SupressArrow 1
+TRUE ? SetTimer1 0
+TRUE ? :Next
+
+IsCrystalStored:
+TRUE ? SetR4 26
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTimer1 < 6000 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SetGameSpeed 0 0
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? SetGameSpeed 100 0
+TRUE ? SetMessage 27 1
+TRUE ? :Next
+
+FinishMessage:
+GetMessageTimer > 1 ? Stop
+TRUE ? :Next
+
+
+
+// THESE ARE HANDY CALL BITS
+
+wbe:
+GetMessageTimer > 0 ? Stop
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? AddR5 1
+Stop
+
+Skip:
+TRUE ? SetTutorialFlags 4095
+TRUE ? SetMessagePermit 1
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? SetR5 0
+TRUE ? SetR3 0
+Stop
+
+Next:
+TRUE ? AddR3 1
+Clear:
+TRUE ? SetR0 0
+TRUE ? SetTimer0 0
+TRUE ? SetR5 0
+Stop
+
+finish:
+Stop
+
+Complete:
+GetMessageTimer > 0 ? Stop 
+TRUE ? SetLevelCompleted
+end:

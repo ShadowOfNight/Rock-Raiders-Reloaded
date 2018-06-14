@@ -1,0 +1,167 @@
+
+Lego* {
+
+	Scale					1.0
+	WheelMesh				NULL_OBJECT
+	WheelNullName			tyre_NULL
+	CameraNullName			CAMERA_NULL
+	CameraNullFrames			2
+;	DrillNullName			WDdrill_Null
+	depositnullname			deposit_null
+
+	mediumpoly {
+			VLP_standard_hoverboard		standard_hoverboard_new		
+			VLP_hbcockpit			hoverboard_cockpit
+			
+			}
+
+	Highpoly {
+			VLP_standard_hoverboard		standard_hoverboard_new		
+			VLP_hbcockpit			hoverboard_cockpit
+			
+			}
+
+	FPPoly {			; When selected as the first person view object.
+	
+		Camera1 {
+			vlphead				NULL			
+			vlptorso				NULL
+			vlpthighl				NULL
+			vlpthighr				NULL
+			vlpfootr				NULL
+			vlpfootl				NULL
+			VLP_standard_hoverboard		null
+			VLP_hbcockpit			null			
+			
+			
+		}
+
+		Camera2 {
+			VLP_standard_hoverboard		standard_hoverboard_new		
+			VLP_hbcockpit			hoverboard_cockpit
+			VLPhead				lphead
+			VLPtorso				lptorso
+			VLPthighR				lpthighR
+			VLPthighL				lpthighL
+			VLPfootR				lpfootR
+			VLPfootL				lpfootL
+		}
+
+	}	
+		
+Upgrades {
+		
+		Level0000 {		
+			; '000' represents a three bit binary number for each type of upgrade...
+			; All the parts in every section will be removed when any other level is selected...
+			; Format (No spaces are allowed in the second column:
+			; <Upgrade part (defined in Lego.cfg)>	[TAB]	<Null object name>,<Null instance (1-n)>
+			;	Object			Null
+			;Binary sequence order is [carry] [scan] [speed] [drill]
+			;therefore a vehicle with carry and speed upgrade will be 1010
+
+			HOVER_top_standard	HOVER_top_null,1
+			HOV_speeds			SPEED_up_null,1
+
+
+		}
+
+		Level0100 {
+		;Scan
+			HOVER_top_upgrade		HOVER_top_null,1
+			RADARhandle			HOVhand_NULL,1
+			SCAN_up_attachment	HOVattach_NULL,1
+			RADARunit			HOVradar_NULL,1
+		}
+
+		Level0010 {
+		;Speed
+			HOVER_top_upgrade		HOVER_top_null,1
+			Hov_SPEEDv			SPEED_up_null,1
+			SPEED_up			HOVLspeed_NULL,1
+			SPEED_up			HOVRspeed_NULL,1
+		}
+
+		Level0110 {
+		;Speed + Scan			
+			HOVER_top_upgrade		HOVER_top_null,1
+			Hov_speedv			SPEED_up_null,1
+			SPEED_up			HOVLspeed_NULL,1
+			SPEED_up			HOVRspeed_NULL,1
+			RADARhandle			HOVhand_NULL,1
+			SCAN_up_attachment	HOVattach_NULL,1
+			RADARunit			HOVradar_NULL,1
+
+
+		}
+			
+	}
+
+	Activities {
+		
+		Activity_Stand					Stand
+		Activity_Route					Route
+		Activity_TeleportIN				TeleportIN
+		!Activity_HitLeft					HitLeft
+		!Activity_HitRight					HitRight
+		!Activity_HitFront					HitFront
+		!Activity_HitBack					HitBack			
+		
+
+	}
+
+	Stand {
+		FILE		HB_sway
+		TRANSCOEF	0.0
+		LWSFILE	True
+	}
+
+	Route {
+		FILE		HB_route
+		TRANSCOEF	0.0
+		LWSFILE	True
+	}
+
+	HitLeft {
+		FILE		HB_LSofthit
+		TRANSCOEF	0.0
+		LWSFILE	True
+	}
+	
+	HitRight {
+		FILE		HB_RSofthit
+		TRANSCOEF	0.0
+		LWSFILE	True
+	}
+	
+	HitFront {
+		FILE		HB_FSofthit
+		TRANSCOEF	0.0
+		LWSFILE	True
+	}
+	
+ 	HitBack {
+		FILE		HB_BSofthit
+		TRANSCOEF	0.0
+		LWSFILE	True
+	}
+	
+	
+;	TurnLeft {
+;		FILE		HB_LTURNstartfin
+;		TRANSCOEF	0.0
+;		LWSFILE	True
+;	}	
+	
+;	TurnRight {
+;		FILE		HB_RTURNstartfin
+;		TRANSCOEF	0.0
+;		LWSFILE	True
+;	}
+
+	TeleportIN {
+		FILE		S_Teleport_Hover
+		TRANSCOEF	0.0
+		LWSFILE	True
+	}	
+}

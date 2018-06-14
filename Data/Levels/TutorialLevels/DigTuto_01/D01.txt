@@ -1,0 +1,27 @@
+This_training_mission_will_teach_you_about_different_rock_types_and_how_to_drill_them. #one#
+This_wall_is_made_of_Dirt_and_it's_very_easy_to_drill._First,_you_need_to_click_on_the_wall,_near_the_arrow,_to_select_it. #two#
+The_Drilling_Menu_on_the_right_of_the_screen_shows_you_all_the_drilling_options._Click_on_the_flashing_"Drill_Wall"_icon. #three#
+That's_it! Now_you_have_told_a_Rock_Raider_to_drill_the_wall._ #four#
+Well_Done!_You_have_successfully_drilled_the_wall_and_discovered_a_secret_cavern._It_contains_an_Energy_Crystal_Seam. #five#
+This_wall_is_made_from_Loose_Rock._It_is_harder_to_drill_than_Dirt. #six#
+Click_on_the_wall,_near_the_arrow,_to_select_it. #seven#
+Now_click_on_the_flashing_"Drill_Wall"_icon. #eight#
+A_Rock_Raider_will_go_and_drill_the_wall._During_proper_missions,_you_don't_have_to_wait_until_one_wall_has_finished_being_drilled_before_you_can_drill_others._You_can_click_on_lots_of_walls_and_your_Rock_Raiders_will_drill_them_in_turn. #nine#
+Good_work!_You_have_uncovered_another_cavern._This_one_contains_an_Ore_Seam. #ten#
+This_wall_is_made_of_Hard_Rock._Rock_Raiders_cannot_drill_Hard_Rock_without_using_vehicles_or_dynamite._Click_on_the_wall,_near_the_arrow,_to_select_it. #eleven#
+As_you_can_see,_the_"Drill_Wall"_icon_has_turned_gray_in_color._When_this_happens_to_an_icon,_it_means_that_it_cannot_be_clicked._Click_on_the_flashing_"Back"_icon_to_go_back_to_the_Rock_Raiders_Action_Menu. #twelve#
+In_later_training_missions,_you_will_learn_how_to_use_Dynamite_to_blast_away_Hard_Rock. #thirteen#
+
+$one			Sounds\Streamed\Training\drilling1\drill101
+$two			Sounds\Streamed\Training\drilling1\drill102
+$three		Sounds\Streamed\Training\drilling1\drill103
+$four			Sounds\Streamed\Training\drilling1\drill104
+$five			Sounds\Streamed\Training\drilling1\drill105
+$six			Sounds\Streamed\Training\drilling1\drill106
+$seven		Sounds\Streamed\Training\drilling1\drill107
+$eight		Sounds\Streamed\Training\drilling1\drill108
+$nine			Sounds\Streamed\Training\drilling1\drill109
+$ten			Sounds\Streamed\Training\drilling1\drill110
+$eleven		Sounds\Streamed\Training\drilling1\drill111
+$twelve		Sounds\Streamed\Training\drilling1\drill112
+$thirteen		Sounds\Streamed\Training\drilling1\drill113

@@ -1,0 +1,338 @@
+
+
+
+~~~~~~~~~~~~~~~~~~~~~
+~ NERPs Source File
+~~~~~~~~~~~~~~~~~~~~~
+~ Generated 
+~ "Jul 22 1999"
+~~~~~~~~~~~~~~~~~~~~~
+~ Stamp it here:
+"15:26:55":
+~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GetObjectiveSwitch ? SetMessagePermit 0
+GetObjectiveShowing = 1 ? :Skip
+
+
+TRUE ? SetMessageTimerValues 1000 1000 10000
+
+
+
+
+TRUE ? AddR0 1
+
+
+TRUE ? SetR6 0
+
+
+TRUE ? :end
+
+Wbe:
+GetMessageTimer > 0 ? Stop
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? AddR5 1
+Stop
+
+Skip:
+TRUE ? SetTutorialFlags 4095
+TRUE ? SetMessagePermit 1
+TRUE ? SetTimer0 0
+TRUE ? SetTimer1 0
+TRUE ? SetTimer2 0
+TRUE ? SetR0 0
+TRUE ? SetR1 0	
+TRUE ? SetR5 0
+FALSE ? SetR3 0
+TRUE ? SetR7 1
+TRUE ? CameraUnlock
+Stop
+
+Next:
+TRUE ? AddR3 1
+Clear:
+TRUE ? SetR0 0
+TRUE ? SetTimer0 0
+TRUE ? AddR7 GetR5
+TRUE ? SetR5 0
+Stop
+
+finish:
+Stop
+
+Complete:
+GetMessageTimer > 0 ? Stop 
+TRUE ? SetLevelCompleted
+Stop
+
+
+end:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :Intro/ Intro: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetTimer1 > 500 ? SetTimer1 0
+	GetR5 < 1 ? :wbe
+	GetTimer1 = 0 ? AddPoweredCrystals 1
+	GetCrystalsCurrentlyStored < 15 ? Stop
+	TRUE ? SetCameraGotoTutorial 4
+}
+TRUE ? :Next Intro/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :SelectMan/ SelectMan: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetMinifigureSelected = 0 ? Stop
+	TRUE ? CameraUnlock
+	GetR5 < 1 ? :wbe
+	TRUE ? FlashGetToolIcon 1
+}
+TRUE ? :Next SelectMan/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :ClickToolFirst/ ClickToolFirst: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetGetToolIconClicked = 0 ? Stop
+	TRUE ? FlashGetToolIcon 0
+	GetR5 < 1 ? :wbe
+	TRUE ? FlashGetPusherIcon 1
+}
+TRUE ? :Next ClickToolFirst/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :ClickPusherFirst/ ClickPusherFirst: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetGetPusherIconClicked = 0 ? Stop
+	TRUE ? FlashGetPusherIcon 0
+	GetR5 < 1 ? :wbe
+	TRUE ? SetRockMonsterAtTutorial 1
+	GetR5 < 2 ? :wbe
+	TRUE ? SetCameraGotoTutorial 1
+	
+}
+TRUE ? :Next ClickPusherFirst/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :WaitforCalltoArmsFirst/ WaitforCalltoArmsFirst: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetCallToArmsButtonClicked = 0 ? Stop
+	
+	
+	GetR5 < 1 ? :wbe
+	TRUE ? CameraLockOnObject 1
+	TRUE ? CameraZoomOut 100
+	TRUE ? CameraRotate 90
+}
+TRUE ? :Next WaitforCalltoArmsFirst/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :WaitForRockMonsterDestroyedFirst/ WaitForRockMonsterDestroyedFirst: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetRockMonsterRunningAway = 0 ? Stop
+	TRUE ? SetAttackDefer 1
+	GetR5 < 1 ? :wbe
+	TRUE ? CameraRotate 260
+	TRUE ? CameraUnlock
+}
+TRUE ? :Next WaitForRockMonsterDestroyedFirst/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :SelectRockRaiderSecond/ SelectRockRaiderSecond: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetMiniFigureSelected = 0 ? Stop
+	GetR5 < 1 ? :wbe
+	TRUE ? SetCameraGotoTutorial 4
+	TRUE ? SetTutorialPointer 4 1
+	TRUE ? CameraZoomIn 100
+	TRUE ? SetTutorialBlockClicks 4 0
+}
+TRUE ? :Next SelectRockRaiderSecond/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :GetFloorClickFirst/ GetFloorClickFirst: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetTutorialBlockClicks 4 = 0 ? Stop
+	TRUE ? SetTutorialPointer 4 0
+	GetR5 < 1 ? :wbe
+}
+TRUE ? :Next GetFloorClickFirst/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :SelectRockRaiderThird/ SelectRockRaiderThird: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetMinifigureSelected = 0 ? Stop
+	GetR5 < 1 ? :wbe
+	TRUE ? FlashGetToolIcon 1
+	TRUE ? SetGetToolIconClicked 0
+}
+TRUE ? :Next SelectRockRaiderThird/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :ClickToolSecond/ ClickToolSecond: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetGetToolIconClicked = 0 ? Stop
+	TRUE ? FlashGetToolIcon 0
+	GetR5 < 1 ? :wbe
+	TRUE ? FlashGetPusherIcon 1
+	TRUE ? SetGetPusherIconClicked 0
+}
+TRUE ? :Next ClickToolSecond/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :ClickFreezerFirst/ ClickFreezerFirst: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetGetPusherIconClicked = 0 ? Stop
+	TRUE ? FlashGetPusherIcon 0
+	GetR5 < 2 ? :wbe
+	
+}
+TRUE ? :Next ClickFreezerFirst/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :WaitForCallToArmsOffFirst/ WaitForCallToArmsOffFirst: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetCallToArmsButtonClicked > 0 ? Stop
+	TRUE ? SetAttackDefer 0
+	
+	GetR5 < 1 ? :wbe
+	TRUE ? SetRockMonsterAtTutorial 2
+	GetR5 < 2 ? :wbe
+	TRUE ? SetCameraGotoTutorial 2
+	GetR5 < 3 ? :wbe
+	
+}
+TRUE ? :Next WaitForCallToArmsOffFirst/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :WaitForCallToArmsOnSecond/ WaitForCallToArmsOnSecond: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetCallToArmsButtonClicked = 0 ? Stop
+	
+	GetR5 < 1 ? :wbe
+	TRUE ? CameraLockOnObject 1
+	TRUE ? CameraZoomOut 100
+	TRUE ? CameraRotate 180
+}
+TRUE ? :Next WaitForCallToArmsOnSecond/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :WaitForRockMonsterDestroyedSecond/ WaitForRockMonsterDestroyedSecond: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetRockMonsterRunningAway = 0 ? Stop
+	TRUE ? SetAttackDefer 1
+	GetR5 < 1 ? :wbe
+	TRUE ? CameraZoomOut 100
+	TRUE ? CameraRotate 180
+	TRUE ? CameraUnlock
+	
+}
+TRUE ? :Next WaitForRockMonsterDestroyedSecond/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :WaitForCallToArmsOffSecond/ WaitForCallToArmsOffSecond: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetCallToArmsButtonClicked > 0 ? Stop
+	TRUE ? SetAttackDefer 0
+	
+	GetR5 < 1 ? :wbe
+}
+TRUE ? :Next WaitForCallToArmsOffSecond/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :SelectRockRaiderFourth/ SelectRockRaiderFourth: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+{
+	GetMinifigureSelected = 0 ? Stop
+}
+TRUE ? :Next SelectRockRaiderFourth/:

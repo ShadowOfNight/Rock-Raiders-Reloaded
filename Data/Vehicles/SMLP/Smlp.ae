@@ -1,0 +1,106 @@
+
+Lego* {
+
+	Scale					1.0
+	WheelMesh				LP_SmallWheel
+	WheelNullName			tyre_NULL
+	CameraNullName			CAMERA_NULL
+	CameraNullFrames		2
+;	DrillNullName			Drill_Null
+	WheelRadius				3.0
+	Depositnullname			deposit_null
+	xPivot					Rotator
+	PivotMaxZ				0.1
+	PivotMinZ				-0.1
+	FireNullName			Fire_NULL
+
+		mediumpoly  {
+			Bodybase				L_SM_Bodybase
+			BodyMain				L_SM_Bodymain	
+			Frontwedge				L_SM_Frontwedge
+			   }	
+
+
+	Upgrades {
+	
+		Level0000 {	
+			; '000' represents a three bit binary number for each type of upgrade...
+			; All the parts in every section will be removed when any other level is selected...
+			; Format (No spaces are allowed in the second column:
+			; <Upgrade part (defined in Lego.cfg)>	[TAB]	<Null object name>,<Null instance (1-n)>
+			;	Object			Null
+
+				Small_laser			mdt,1,SmallLazer
+				Light				SMLP_LightNULL,1
+				Light				SMLP_LightNULL,2
+;			LASERPULSES			LASERP_NULL,1
+				
+		}
+
+		Level0001 {	
+
+			Small_laser			mdt,1,SmallLazer
+			Light				SMLP_LightNULL,1
+			Light				SMLP_LightNULL,2
+				
+		}
+
+		
+	}
+
+	Activities {
+		
+		Activity_Stand					Stand
+		Activity_Route					Route
+		Activity_TeleportIN				TeleportIN			
+		!Activity_HitLeft				HitLeft
+		!Activity_HitRight				HitRight
+		!Activity_HitFront				HitFront
+		!Activity_HitBack				HitBack
+		
+
+	}
+
+	Stand {
+		FILE		M_SM_Tickover
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	
+	Route {
+		FILE		M_SM_drive
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitLeft {
+		FILE		M_SM_HitL
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitRight {
+		FILE		M_SM_HitR
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitFront {
+		FILE		M_SM_HitFront
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitBack {
+		FILE		M_SM_HitBack
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	TickOver {
+		FILE		M_SM_Tickover
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	TeleportIN {
+		FILE		S_Teleport_S_MLP
+		TRANSCOEF	0.0
+		LWSFILE	True
+	}
+}

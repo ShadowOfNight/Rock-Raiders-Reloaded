@@ -1,0 +1,34 @@
+#include <nerpnrn.h>
+
+TRUE ? SetTutorialFlags 0
+TRUE ? SetMessagePermit 1
+GetToolStoresBuilt = 0 ? SetLevelFail
+GetCrystalsCurrentlyStored > 24 ? SetLevelCompleted
+
+Main()
+{
+	Function(FirstyBitty)
+	{
+		_GetTutorialBlockIsGround(1) > 0 ? AddR1 1
+		_GetTutorialBlockIsGround(2) > 0 ? AddR1 1
+		GetR1 = 0 ? Stop
+		TRUE ? _SetMessagePermit(0)
+		TRUE ? _SetMessage(1,1)
+	}
+	FuncEnd(FirstyBitty)
+
+	Function(PlayMessage)
+	{
+		_GetMessageTimer() > 0 ? Stop
+		TRUE ? _SetMessagePermit(0)
+	}
+	FuncEnd(PlayMessage)
+
+	Function(DoNowt)
+	{
+		Stop
+	}
+	FuncEnd(DoNowt)
+}
+MainEnd()
+

@@ -1,0 +1,187 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 20
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 20
+PreviewFrameStep 1
+FramesPerSecond 30.000000
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Teleports\Teleport.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 4.375 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 2
+ShadowOptions 7
+
+AddNullObject Parent_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Teleports\Base.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 4.45 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 2
+ShadowOptions 7
+
+AddNullObject deposit_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 22.1704 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\Digger_dust1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  1.299454 14.45 -7.003369 0 0 0 0.5840002 0.5840002 0.5840002
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\Digger_dust1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  -2.736639 15 -10.20375 226.5999 0.7000228 0 0.5840002 0.5840002 0.5840002
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\spangleY.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  7.565721 4.4 8.817519 2.500014 21.80003 -46.60002 1.456 1.78 1.534
+  0 0 0 0 0
+EndBehavior 1
+ObjDissolve (envelope)
+  1
+  5
+  0
+  0 0 0 0 0
+  0.332
+  6 0 0 0 0
+  0.068
+  13 0 0 0 0
+  0.112
+  17 0 0 0 0
+  0
+  20 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\spangleY.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  -9.929087 4.4 8.817519 2.500014 21.80003 -46.60002 1.456 1.78 1.534
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ObjDissolve (envelope)
+  1
+  5
+  0
+  0 0 0 0 0
+  0.016
+  6 0 0 0 0
+  0.318
+  13 0 0 0 0
+  0.012
+  17 0 0 0 0
+  0
+  20 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  1
+  -24.25374 41.1 21.82375 136.6 44.60001 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  1
+  -26.86783 41.35001 55.81618 154.1 30.9 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 1
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+DataOverlayLabel  
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 0.000000 4.450000 0.000000
+ViewDirection -3.286461 -0.366520 0.000000
+ViewZoomFactor 4.000000
+GridNumber 30
+GridSize 5.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

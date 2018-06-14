@@ -1,0 +1,20 @@
+
+Lego* {
+
+	Activities {
+		Normal		Normal
+		TickDown	TickDown
+	}
+
+	Normal {
+		FILE		Stand
+		LWSFILE		TRUE
+		LOOPING		TRUE
+	}
+
+	TickDown {
+		FILE		TickDown
+		LWSFILE		TRUE
+	}
+
+}

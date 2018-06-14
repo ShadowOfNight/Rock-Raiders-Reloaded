@@ -1,0 +1,32 @@
+
+Lego* {
+
+	Scale				1.0
+	
+	Activities {
+		Activity_Route					Route
+		Activity_Stand					Stand
+		Activity_Drill					Drill
+
+	}
+
+	route {
+		FILE			EngineGLOW
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+	}
+
+	Stand {
+		FILE			EngineSTILL
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+	}
+	
+	Drill {
+		FILE			EngineGLOW2
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+	}
+
+
+}

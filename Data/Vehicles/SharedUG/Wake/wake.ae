@@ -1,0 +1,29 @@
+
+Lego* {
+
+	Scale				1.0
+	
+
+	Activities {
+		Activity_Stand					Stand
+		Activity_Route					Route
+		
+	}
+
+		Stand {
+		FILE			wakeStand
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		
+		}
+
+	Route {
+		FILE			wakeRoute
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		
+		}
+
+
+
+}

@@ -1,0 +1,11 @@
+You_need_four_more_Energy_Crystals... #one#
+Two_down,_three_to_go... #two#
+Another_Energy_Crystal_stored._You're_doing_great! #three#
+Go_get_that_last_Energy_Crystal_and_you're_there... #four#
+Don't_forget_to_reinforce_the_cavern_walls. #five#
+
+$one		Sounds\Streamed\InGame\ins201
+$two		Sounds\Streamed\InGame\ins202
+$three		Sounds\Streamed\InGame\ins203
+$four		Sounds\Streamed\InGame\ins204
+$five		Sounds\Streamed\InGame\ins205

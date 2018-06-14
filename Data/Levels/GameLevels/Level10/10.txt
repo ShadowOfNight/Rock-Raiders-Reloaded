@@ -1,0 +1,5 @@
+You_must_collect_fifteen_Energy_Crystals,_while_preventing_the_lava_from_eroding_your_base. #one#
+-
+
+$one		Sounds\Streamed\InGame\ins1001
+$two		Sounds\Streamed\InGame\ins1002

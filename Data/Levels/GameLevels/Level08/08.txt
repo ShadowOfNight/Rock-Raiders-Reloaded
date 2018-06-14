@@ -1,0 +1,3 @@
+Use_Dynamite_to_blast_through_Hard_Rock.
+
+$one		Sounds\Streamed\InGame\ins801

@@ -1,0 +1,6 @@
+Restore_power_as_soon_as_possible. #one#
+Well_done!_You_turned_the_power_back_on._Now_collect_thirty-five_Energy_Crystals. #two#
+-
+
+$one		Sounds\Streamed\InGame\ins1801
+$two		Sounds\Streamed\InGame\ins1802

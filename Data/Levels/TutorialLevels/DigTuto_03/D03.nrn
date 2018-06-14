@@ -1,0 +1,401 @@
+// Bypass everything if objective still showing - will get past this when space pressed
+GetObjectiveSwitch ? SetMessagePermit 0
+GetObjectiveShowing = 1 ? :Skip
+
+//Set wait times (sample length multiplier, time added after sample, time for no sample)
+TRUE ? SetMessageTimerValues 1000 1000 6000
+
+//R0 is used as a general counter
+TRUE ? AddR0 1
+
+//Go to the relevant task
+
+GetR3 = 0 ? :First
+GetR3 = 1 ? :Intro
+GetR3 = 2 ? :SelectMinifigure
+GetR3 = 3 ? :SelectSoftRock1
+GetR3 = 4 ? :ExplainFirstDig
+GetR3 = 5 ? :SelectSmallDigger
+GetR3 = 6 ? :ClickMount
+GetR3 = 7 ? :SelectSmallDiggerAgain
+GetR3 = 8 ? :SelectSoftRock2
+GetR3 = 9 ? :ExplainSecondDig
+GetR3 = 10 ? :SelectSmallDiggerLast
+GetR3 = 11 ? :ClickDismount1
+GetR3 = 12 ? :SelectGraniteGrinder1
+GetR3 = 13 ? :ClickMount2
+GetR3 = 14 ? :SelectGraniteGrinder2
+GetR3 = 15 ? :SelectSoftRock3
+GetR3 = 16 ? :SelectGraniteGrinder3
+GetR3 = 17 ? :ClickDismount2
+GetR3 = 18 ? :SelectChromeCrusher1
+GetR3 = 19 ? :ClickMount3
+GetR3 = 20 ? :SelectChromeCrusher2
+GetR3 = 21 ? :SelectSoftRock4
+GetR3 = 22 ? :FinishMessage
+TRUE ? SetLevelCompleted
+Stop
+
+First:
+TRUE ? AddPoweredCrystals 15
+TRUE ? :Next
+
+Intro:
+TRUE ? SetR4 1
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+//TRUE ? SetTutorialPointer 1 1
+TRUE ? SetRecordObjectPointer 1
+TRUE ? SetCameraGotoTutorial 1
+TRUE ? ClickOnlyObjects
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+SelectMinifigure:
+TRUE ? SetR4 1
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMiniFigureSelected = 0 ? Stop
+GetR5 < 1 ? AdvanceMessage
+TRUE ? DisallowAll
+GetR5 < 1 ? :wbe
+//TRUE ? SetTutorialPointer 1 0
+TRUE ? SetRecordObjectPointer 0
+TRUE ? SetTutorialPointer 2 1
+TRUE ? SetCameraGotoTutorial 2
+TRUE ? SetTutorialBlockClicks 2 0
+TRUE ? ClickOnlyMap
+TRUE ? :Next
+
+SelectSoftRock1:
+TRUE ? SetR4 2
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 2 = 0 ? Stop
+TRUE ? DisallowAll
+GetR5 < 1 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+TRUE ? SetTutorialPointer 2 0
+TRUE ? :Next
+
+ExplainFirstDig:
+TRUE ? SetR4 3
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockIsGround 2 = 0 ? Stop
+// Show arrow again as messages need advancing manually
+TRUE ? SupressArrow 0
+GetR5 < 1 ? :wbe
+//TRUE ? SetTutorialPointer 3 1
+TRUE ? SetRecordObjectPointer 2
+TRUE ? SetCameraGotoTutorial 3
+TRUE ? ClickOnlyObjects
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+SelectSmallDigger:
+TRUE ? SetR4 4
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetSmallDiggerSelected = 0 ? Stop
+GetR5 < 1 ? AdvanceMessage
+TRUE ? DisallowAll
+//TRUE ? SetTutorialPointer 3 0
+TRUE ? SetRecordObjectPointer 0
+GetR5 < 1 ? :wbe
+TRUE ? FlashMountIcon 1
+TRUE ? :Next
+
+ClickMount:
+TRUE ? SetR4 5
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMountIconClicked = 0 ? Stop
+GetR5 < 1 ? AdvanceMessage
+TRUE ? FlashMountIcon 0
+//GetR5 = 1 ? SetCameraGotoTutorial 10
+GetR5 < 1 ? CameraLockOnObject 1
+GetR5 < 1 ? :wbe
+GetMiniFigureinSmallDigger = 0 ? Stop
+TRUE ? CameraUnlock
+// Show arrow again as messages need advancing manually
+TRUE ? SupressArrow 0
+GetR5 < 2 ? :wbe
+GetR5 = 2 ? SetCameraGotoTutorial 3
+//GetR5 = 2 ? SetTutorialPointer 3 1
+TRUE ? SetRecordObjectPointer 2
+TRUE ? ClickOnlyObjects
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+SelectSmallDiggerAgain:
+TRUE ? SetR4 7
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetSmallDiggerSelected = 0 ? Stop
+GetR5 < 1 ? AdvanceMessage
+TRUE ? DisallowAll
+//TRUE ? SetTutorialPointer 3 0
+TRUE ? SetRecordObjectPointer 0
+TRUE ? SetCameraGotoTutorial 4
+TRUE ? SetTutorialPointer 4 1
+TRUE ? ClickOnlyMap
+TRUE ? SetTutorialBlockClicks 4 0
+TRUE ? :Next
+
+SelectSoftRock2:
+TRUE ? SetR4 8
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 4 = 0 ? Stop
+TRUE ? DisallowAll
+GetR5 < 1 ? AdvanceMessage
+TRUE ? SetTutorialPointer 4 0
+GetR5 < 1 ? :wbe
+TRUE ? :Next
+
+ExplainSecondDig:
+TRUE ? SetR4 9
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockIsGround 4 = 0 ? Stop
+// Show arrow again as messages need advancing manually
+TRUE ? SupressArrow 0
+GetR5 < 2 ? :wbe
+//TRUE ? SetTutorialPointer 4 1
+TRUE ? SetRecordObjectPointer 2
+TRUE ? SetCameraGotoTutorial 4
+TRUE ? SupressArrow 1
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectSmallDiggerLast:
+TRUE ? SetR4 11
+TRUE ? AddR4 GetR5
+//TRUE ? SetTutorialPointer 4 1
+GetR0 = 1 ? SetMessage GetR4 0
+GetSmallDiggerSelected = 0 ? Stop
+GetR5 < 1 ? AdvanceMessage
+//TRUE ? SetTutorialPointer 4 0
+TRUE ? SetRecordObjectPointer 0
+TRUE ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? ClickOnlyObjects
+TRUE ? FlashDismountIcon 1
+TRUE ? :Next
+
+ClickDismount1:
+TRUE ? SetR4 12
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetDismountIconClicked = 0 ? Stop
+GetR5 < 1 ? AdvanceMessage
+TRUE ? FlashDismountIcon 0
+TRUE ? DisallowAll
+GetR5 < 1 ? :wbe
+//TRUE ? SetTutorialPointer 6 1
+TRUE ? SetRecordObjectPointer 3
+TRUE ? SetCameraGotoTutorial 6
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectGraniteGrinder1:
+TRUE ? SetR4 13
+TRUE ? AddR4 GetR5
+//TRUE ? SetTutorialPointer 6 1
+GetR0 = 1 ? SetMessage GetR4 0
+GetGraniteGrinderSelected = 0 ? Stop
+GetR5 < 1 ? AdvanceMessage
+//TRUE ? SetTutorialPointer 6 0
+TRUE ? SetRecordObjectPointer 0
+TRUE ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? FlashMountIcon 1
+TRUE ? SetMountIconClicked 0
+TRUE ? :Next
+
+ClickMount2:
+TRUE ? SetR4 14
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMountIconClicked = 0 ? Stop
+GetR5 < 1 ? AdvanceMessage
+TRUE ? FlashMountIcon 0
+TRUE ? DisallowAll
+GetR5 < 1 ? :wbe
+GetMinifigureInGraniteGrinder = 0 ? Stop
+TRUE ? ClickOnlyObjects
+//TRUE ? SetTutorialPointer 6 1
+TRUE ? SetRecordObjectPointer 3
+TRUE ? SetCameraGotoTutorial 6
+TRUE ? :Next
+
+SelectGraniteGrinder2:
+TRUE ? SetR4 15
+TRUE ? AddR4 GetR5
+//TRUE ? SetTutorialPointer 6 1
+GetR0 = 1 ? SetMessage GetR4 0
+GetGraniteGrinderSelected = 0 ? Stop
+GetR5 < 1 ? AdvanceMessage
+//TRUE ? SetTutorialPointer 6 0
+TRUE ? SetRecordObjectPointer 0
+TRUE ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? FlashMountIcon 1
+TRUE ? ClickOnlyMap
+TRUE ? SetMountIconClicked 0
+TRUE ? SetTutorialPointer 7 1
+TRUE ? SetCameraGotoTutorial 7
+TRUE ? SetTutorialBlockClicks 7 0
+TRUE ? :Next
+
+SelectSoftRock3:
+TRUE ? SetR4 16
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 7 = 0 ? Stop
+GetR5 < 1 ? AdvanceMessage
+TRUE ? SetTutorialPointer 7 0
+TRUE ? DisallowAll
+GetR5 < 1 ? :wbe
+GetTutorialBlockIsGround 7 = 0 ? Stop
+// Show arrow again as messages need advancing manually
+TRUE ? SupressArrow 0
+GetR5 < 2 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? ClickOnlyObjects
+//TRUE ? SetTutorialPointer 7 1
+TRUE ? SetRecordObjectPointer 3
+TRUE ? SetCameraGotoTutorial 7
+TRUE ? :Next
+
+SelectGraniteGrinder3:
+TRUE ? SetR4 18
+TRUE ? AddR4 GetR5
+//TRUE ? SetTutorialPointer 7 1
+GetR0 = 1 ? SetMessage GetR4 0
+GetGraniteGrinderSelected = 0 ? Stop
+GetR5 < 1 ? AdvanceMessage
+//TRUE ? SetTutorialPointer 7 0
+TRUE ? SetRecordObjectPointer 0
+TRUE ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? FlashDismountIcon 1
+TRUE ? SetDismountIconClicked 0
+TRUE ? :Next
+
+ClickDismount2:
+TRUE ? SetR4 19
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetDismountIconClicked = 0 ? Stop
+GetR5 < 1 ? AdvanceMessage
+TRUE ? FlashDismountIcon 0
+TRUE ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? ClickOnlyObjects
+TRUE ? SetCameraGotoTutorial 8
+//TRUE ? SetTutorialPointer 8 1
+TRUE ? SetRecordObjectPointer 4
+TRUE ? :Next
+
+SelectChromeCrusher1:
+TRUE ? SetR4 20
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetChromeCrusherSelected = 0 ? Stop
+//GetR5 < 1 ? SetTutorialPointer 8 0
+TRUE ? SetRecordObjectPointer 0
+GetR5 < 1 ? AdvanceMessage
+GetR5 < 1 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? FlashMountIcon 1
+TRUE ? SetMountIconClicked 0
+TRUE ? :Next
+
+ClickMount3:
+TRUE ? SetR4 21
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMountIconClicked = 0 ? Stop
+GetR5 < 1 ? FlashMountIcon 0
+GetR5 < 1 ? DisallowAll
+GetR5 < 1 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+GetMinifigureInChromeCrusher = 0 ? Stop
+TRUE ? ClickOnlyObjects
+TRUE ? SetCameraGotoTutorial 8
+//TRUE ? SetTutorialPointer 8 1
+TRUE ? SetRecordObjectPointer 4
+TRUE ? :Next
+
+SelectChromeCrusher2:
+TRUE ? SetR4 22
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetChromeCrusherSelected = 0 ? Stop
+//TRUE ? SetTutorialPointer 8 0
+TRUE ? SetRecordObjectPointer 0
+GetR5 < 1 ? AdvanceMessage
+GetR5 < 1 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? FlashMountIcon 1
+TRUE ? ClickOnlyMap
+TRUE ? SetCameraGotoTutorial 9
+TRUE ? SetTutorialPointer 9 1
+TRUE ? SetTutorialBlockClicks 9 0
+TRUE ? :Next
+
+SelectSoftRock4:
+TRUE ? SetR4 23
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 9 = 0 ? Stop
+GetR5 < 1 ? AdvanceMessage
+GetR5 < 1 ? SetTutorialPointer 9 0
+GetR5 < 1 ? DisallowAll
+GetR5 < 1 ? :wbe
+GetTutorialBlockIsGround 9 = 0 ? Stop
+TRUE ? SupressArrow 1
+TRUE ? SetMessage 24 1
+TRUE ? :Next
+
+FinishMessage:
+GetMessageTimer > 1 ? Stop
+TRUE ? :Next
+
+
+
+// THESE ARE HANDY CALL BITS
+
+wbe:
+GetMessageTimer > 0 ? Stop
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? AddR5 1
+Stop
+
+Skip:
+TRUE ? SetTutorialFlags 4095
+TRUE ? SetMessagePermit 1
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? SetR5 0
+FALSE ? SetR3 0
+Stop
+
+Next:
+TRUE ? AddR3 1
+Clear:
+TRUE ? SetR0 0
+TRUE ? SetTimer0 0
+TRUE ? SetR5 0
+Stop
+
+finish:
+Stop
+
+Complete:
+GetMessageTimer > 0 ? Stop 
+TRUE ? SetLevelCompleted
+end:

@@ -1,0 +1,114 @@
+
+Lego* {
+
+	Scale					1.0
+	WheelMesh				NULL_object
+	WheelNullName			tyre_NULL
+	CameraNullName			CAMERA_NULL
+	CameraNullFrames			2
+;	DrillNullName			Drill_Null
+	Depositnullname			Deposit_null
+	CarryNullName			Carry_Null
+	CarryNullFrames			1
+
+		mediumpoly  {
+				VLSC_standard		SMALLCAT_standard_new
+				}
+		
+		highpoly  {
+				VLSC_standard		SMALLCAT_standard_new		
+				}	
+	
+
+
+
+
+		Upgrades {
+		
+		Level0000 {			
+			; '000' represents a three bit binary number for each type of upgrade...
+			; All the parts in every section will be removed when any other level is selected...
+			; Format (No spaces are allowed in the second column:
+			; <Upgrade part (defined in Lego.cfg)>	[TAB]	<Null object name>,<Null instance (1-n)>
+			;	Object			Null
+			;Binary sequence order is [carry] [scan] [speed] [drill]
+			;therefore a vehicle with carry and speed upgrade will be 1010
+
+			CARRY				Carry_NULL,1
+			LIGHT				SClight_NULL,1
+			LIGHT				SClight_NULL,2
+			WAKE				SCWAKE_NULL,1
+			WAKE				SCWAKE_NULL,2
+		}
+
+
+
+	}
+
+	Activities {
+		
+		Activity_Stand					Stand
+		Activity_Route					Drive
+		!Activity_HitLeft					HitLeft
+		!Activity_HitRight					HitRight
+		!Activity_HitFront					HitFront
+		!Activity_HitBack					HitBack			
+		Activity_TeleportIN					TeleportIN
+		
+
+	}
+
+	TeleportIN {
+		FILE		SC_Teleport
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	Stand {
+		FILE		SC_floating
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Drive {
+		FILE		SC_Drive
+;		TRANSCOEF	0.35
+		LWSFILE	TRUE
+	}
+	HitLeft {
+		FILE		SC_left_hit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitRight {
+		FILE		SC_right_hit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitFront {
+		FILE		SC_front_hit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitBack {
+		FILE		SC_back_hit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Reverse {
+		FILE		SC_reverse_SF
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	TurnLeft {
+		FILE		SC_Lturn_SF
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	TurnRight {
+		FILE		SC_Rturn_SF
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+}

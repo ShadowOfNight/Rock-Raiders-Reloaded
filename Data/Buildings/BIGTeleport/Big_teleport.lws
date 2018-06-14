@@ -1,0 +1,758 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 60
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 60
+PreviewFrameStep 1
+FramesPerSecond 30.000000
+
+LoadObject Z:\lego\Data\Buildings\BIGTeleport\TP_Base_New.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 8
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Buildings\BIGTeleport\TP_ModuleCL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -1.968958 1.399999 -18.7108 0 0 0 1 1 1
+  0 0 0 0 0
+  -1.968958 1.399999 -18.7108 0 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 54
+ParentObject 8
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Big_Teleports\TP_FlexC.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0.07293749 -2.2 -1.29454 62.2 0 0 1 1 1
+  0 0 0 0 0
+  0.07293749 -2.2 -1.29454 62.2 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 2
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Buildings\BIGTeleport\TP_ModuleC.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -2.368272 1.5 19.18041 -180 0 0 1 1 1
+  0 0 0 0 0
+  -2.368272 1.5 19.18041 -180 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 51
+ParentObject 8
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Buildings\BIGTeleport\TP_FlexC.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -0.3057777 -2.6 -1.29454 115.9 0 0 1 1 1
+  0 0 0 0 0
+  -0.3057777 -2.6 -1.29454 115.9 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 4
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Buildings\BIGTeleport\TP_SideSlab.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -7.400266 -1.490116e-008 -12.88636 270 0 0 1 1 1
+  0 0 0 0 0
+  -7.400266 -1.490116e-008 -12.88636 270 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 4
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Buildings\BIGTeleport\TP_SideSlab.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  7.500004 0.09999993 4.600002 90 0 0 1 1 1
+  0 0 0 0 0
+  7.500004 0.09999993 4.600002 90 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 2
+ShadowOptions 7
+
+AddNullObject ____Parent_Scene_null____
+ShowObject 0 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 20 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 24
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Big_Teleports\TP_Stripes.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -12.6 1.599999 24.28275 0 0 0 1 1 1
+  0 0 0 0 0
+  -12.6 1.599999 24.28275 0 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 8
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Big_Teleports\TP_Stripes.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -12.6 1.599999 -24.4 0 0 0 1 1 1
+  0 0 0 0 0
+  -12.6 1.599999 -24.4 0 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 8
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Big_Teleports\TP_UpArrow.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -12.7 1.599999 0.1000001 90 0 0 1 1 1
+  0 0 0 0 0
+  -12.7 1.599999 0.1000001 90 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 8
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Big_Teleports\Teleport.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  3.3 4.300001 0 90 0 0 1 1 1
+  0 0 0 0 0
+  3.3 4.300001 0 90 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 8
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Big_Teleports\spangleY.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  18
+  -0.6699712 17.5 23.42126 0 0 0 0.55 0.55 0.55
+  0 0 0 0 0
+  -0.6699712 17.5 23.42126 0 0 0 0.55 0.55 0.55
+  4 0 0 0 0
+  -0.6699712 17.5 23.42126 0 0 0 0.55 0.55 0.55
+  5 0 0 0 0
+  -0.6699712 15.09999 23.42126 0 0 0 2.196 2.964 2.246001
+  6 0 0 0 0
+  -0.6699712 15.09999 23.42126 0 0 0 2.196 2.964 2.246001
+  7 0 0 0 0
+  -0.6699712 15.09999 23.42126 0 0 0 2.196 2.964 2.246001
+  14 0 0 0 0
+  -0.6699712 15.09999 23.42126 0 0 0 2.196 2.964 2.246001
+  15 0 0 0 0
+  -0.6699712 17.5 23.42126 0 0 0 0.55 0.55 0.55
+  16 0 0 0 0
+  -0.6699712 17.5 23.42126 0 0 0 0.55 0.55 0.55
+  17 0 0 0 0
+  -0.6699712 17.5 23.42126 0 0 0 0.55 0.55 0.55
+  34 0 0 0 0
+  -0.6699712 17.5 23.42126 0 0 0 0.55 0.55 0.55
+  35 0 0 0 0
+  -0.6699712 15.09999 23.42126 0 0 0 2.196 2.964 2.246001
+  36 0 0 0 0
+  -0.6699712 15.09999 23.42126 0 0 0 2.196 2.964 2.246001
+  37 0 0 0 0
+  -0.6699712 15.09999 23.42126 0 0 0 2.196 2.964 2.246001
+  44 0 0 0 0
+  -0.6699712 15.09999 23.42126 0 0 0 2.196 2.964 2.246001
+  45 0 0 0 0
+  -0.6699712 17.5 23.42126 0 0 0 0.55 0.55 0.55
+  46 0 0 0 0
+  -0.6699712 17.5 23.42126 0 0 0 0.55 0.55 0.55
+  47 0 0 0 0
+  -0.6699712 17.5 23.42126 0 0 0 0.55 0.55 0.55
+  60 0 0 0 0
+EndBehavior 1
+ParentObject 8
+ObjDissolve (envelope)
+  1
+  18
+  0
+  0 0 0 0 0
+  0
+  6 0 0 0 0
+  0
+  7 0 0 0 0
+  0.328
+  9 0 0 0 0
+  0.5720002
+  12 0 0 0 0
+  0.6359999
+  14 0 0 0 0
+  0.6359999
+  15 0 0 0 0
+  0
+  16 0 0 0 0
+  0
+  17 0 0 0 0
+  0
+  36 0 0 0 0
+  0
+  37 0 0 0 0
+  0.3239999
+  39 0 0 0 0
+  0.5680002
+  42 0 0 0 0
+  0.6359999
+  44 0 0 0 0
+  0.6359999
+  45 0 0 0 0
+  0
+  46 0 0 0 0
+  0
+  47 0 0 0 0
+  0
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Big_Teleports\spangleR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  18
+  -0.6699712 17.5 18.4195 0 0 0 1.1 1.1 1.1
+  0 0 0 0 0
+  -0.6699712 17.5 18.4195 0 0 0 1.1 1.1 1.1
+  14 0 0 0 0
+  -0.6699712 17.5 18.4195 0 0 0 1.1 1.1 1.1
+  15 0 0 0 0
+  -0.6699712 15.09999 18.4195 0 0 0 4.392 5.928 4.492002
+  16 0 0 0 0
+  -0.6699712 15.09999 18.4195 0 0 0 4.392 5.928 4.492002
+  17 0 0 0 0
+  -0.6699712 15.09999 18.4195 0 0 0 4.392 5.928 4.492002
+  24 0 0 0 0
+  -0.6699712 15.09999 18.4195 0 0 0 4.392 5.928 4.492002
+  25 0 0 0 0
+  -0.6699712 17.5 18.4195 0 0 0 1.1 1.1 1.1
+  26 0 0 0 0
+  -0.6699712 17.5 18.4195 0 0 0 1.1 1.1 1.1
+  27 0 0 0 0
+  -0.6699712 17.5 18.4195 0 0 0 1.1 1.1 1.1
+  44 0 0 0 0
+  -0.6699712 17.5 18.4195 0 0 0 1.1 1.1 1.1
+  45 0 0 0 0
+  -0.6699712 15.09999 18.4195 0 0 0 4.392 5.928 4.492002
+  46 0 0 0 0
+  -0.6699712 15.09999 18.4195 0 0 0 4.392 5.928 4.492002
+  47 0 0 0 0
+  -0.6699712 15.09999 18.4195 0 0 0 4.392 5.928 4.492002
+  54 0 0 0 0
+  -0.6699712 15.09999 18.4195 0 0 0 4.392 5.928 4.492002
+  55 0 0 0 0
+  -0.6699712 17.5 18.4195 0 0 0 1.1 1.1 1.1
+  56 0 0 0 0
+  -0.6699712 17.5 18.4195 0 0 0 1.1 1.1 1.1
+  57 0 0 0 0
+  -0.6699712 17.5 18.4195 0 0 0 1.1 1.1 1.1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 8
+ObjDissolve (envelope)
+  1
+  18
+  0.299
+  0 0 0 0 0
+  0.299
+  16 0 0 0 0
+  0.299
+  17 0 0 0 0
+  0.4958
+  19 0 0 0 0
+  0.6422001
+  22 0 0 0 0
+  0.6805999
+  24 0 0 0 0
+  0.6805999
+  25 0 0 0 0
+  0.299
+  26 0 0 0 0
+  0.299
+  27 0 0 0 0
+  0.299
+  46 0 0 0 0
+  0.299
+  47 0 0 0 0
+  0.4934
+  49 0 0 0 0
+  0.6398001
+  52 0 0 0 0
+  0.6805999
+  54 0 0 0 0
+  0.6805999
+  55 0 0 0 0
+  0.299
+  56 0 0 0 0
+  0.299
+  57 0 0 0 0
+  0.299
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Big_Teleports\spangleY.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  18
+  -0.6699712 17.5 -23.4213 0 0 0 0.55 0.55 0.55
+  0 0 0 0 0
+  -0.6699712 17.5 -23.4213 0 0 0 0.55 0.55 0.55
+  4 0 0 0 0
+  -0.6699712 17.5 -23.4213 0 0 0 0.55 0.55 0.55
+  5 0 0 0 0
+  -0.6699712 15.09999 -23.4213 0 0 0 2.196 2.964 2.246001
+  6 0 0 0 0
+  -0.6699712 15.09999 -23.4213 0 0 0 2.196 2.964 2.246001
+  7 0 0 0 0
+  -0.6699712 15.09999 -23.4213 0 0 0 2.196 2.964 2.246001
+  14 0 0 0 0
+  -0.6699712 15.09999 -23.4213 0 0 0 2.196 2.964 2.246001
+  15 0 0 0 0
+  -0.6699712 17.5 -23.4213 0 0 0 0.55 0.55 0.55
+  16 0 0 0 0
+  -0.6699712 17.5 -23.4213 0 0 0 0.55 0.55 0.55
+  17 0 0 0 0
+  -0.6699712 17.5 -23.4213 0 0 0 0.55 0.55 0.55
+  34 0 0 0 0
+  -0.6699712 17.5 -23.4213 0 0 0 0.55 0.55 0.55
+  35 0 0 0 0
+  -0.6699712 15.09999 -23.4213 0 0 0 2.196 2.964 2.246001
+  36 0 0 0 0
+  -0.6699712 15.09999 -23.4213 0 0 0 2.196 2.964 2.246001
+  37 0 0 0 0
+  -0.6699712 15.09999 -23.4213 0 0 0 2.196 2.964 2.246001
+  44 0 0 0 0
+  -0.6699712 15.09999 -23.4213 0 0 0 2.196 2.964 2.246001
+  45 0 0 0 0
+  -0.6699712 17.5 -23.4213 0 0 0 0.55 0.55 0.55
+  46 0 0 0 0
+  -0.6699712 17.5 -23.4213 0 0 0 0.55 0.55 0.55
+  47 0 0 0 0
+  -0.6699712 17.5 -23.4213 0 0 0 0.55 0.55 0.55
+  60 0 0 0 0
+EndBehavior 1
+ParentObject 8
+ObjDissolve (envelope)
+  1
+  18
+  0
+  0 0 0 0 0
+  0
+  6 0 0 0 0
+  0
+  7 0 0 0 0
+  0.328
+  9 0 0 0 0
+  0.5720002
+  12 0 0 0 0
+  0.6359999
+  14 0 0 0 0
+  0.6359999
+  15 0 0 0 0
+  0
+  16 0 0 0 0
+  0
+  17 0 0 0 0
+  0
+  36 0 0 0 0
+  0
+  37 0 0 0 0
+  0.3239999
+  39 0 0 0 0
+  0.5680002
+  42 0 0 0 0
+  0.6359999
+  44 0 0 0 0
+  0.6359999
+  45 0 0 0 0
+  0
+  46 0 0 0 0
+  0
+  47 0 0 0 0
+  0
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Big_Teleports\spangleR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  18
+  -0.6699712 17.5 -18.4195 0 0 0 1.1 1.1 1.1
+  0 0 0 0 0
+  -0.6699712 17.5 -18.4195 0 0 0 1.1 1.1 1.1
+  14 0 0 0 0
+  -0.6699712 17.5 -18.4195 0 0 0 1.1 1.1 1.1
+  15 0 0 0 0
+  -0.6699712 15.09999 -18.4195 0 0 0 4.392 5.928 4.492002
+  16 0 0 0 0
+  -0.6699712 15.09999 -18.4195 0 0 0 4.392 5.928 4.492002
+  17 0 0 0 0
+  -0.6699712 15.09999 -18.4195 0 0 0 4.392 5.928 4.492002
+  24 0 0 0 0
+  -0.6699712 15.09999 -18.4195 0 0 0 4.392 5.928 4.492002
+  25 0 0 0 0
+  -0.6699712 17.5 -18.4195 0 0 0 1.1 1.1 1.1
+  26 0 0 0 0
+  -0.6699712 17.5 -18.4195 0 0 0 1.1 1.1 1.1
+  27 0 0 0 0
+  -0.6699712 17.5 -18.4195 0 0 0 1.1 1.1 1.1
+  44 0 0 0 0
+  -0.6699712 17.5 -18.4195 0 0 0 1.1 1.1 1.1
+  45 0 0 0 0
+  -0.6699712 15.09999 -18.4195 0 0 0 4.392 5.928 4.492002
+  46 0 0 0 0
+  -0.6699712 15.09999 -18.4195 0 0 0 4.392 5.928 4.492002
+  47 0 0 0 0
+  -0.6699712 15.09999 -18.4195 0 0 0 4.392 5.928 4.492002
+  54 0 0 0 0
+  -0.6699712 15.09999 -18.4195 0 0 0 4.392 5.928 4.492002
+  55 0 0 0 0
+  -0.6699712 17.5 -18.4195 0 0 0 1.1 1.1 1.1
+  56 0 0 0 0
+  -0.6699712 17.5 -18.4195 0 0 0 1.1 1.1 1.1
+  57 0 0 0 0
+  -0.6699712 17.5 -18.4195 0 0 0 1.1 1.1 1.1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 8
+ObjDissolve (envelope)
+  1
+  18
+  0.299
+  0 0 0 0 0
+  0.299
+  16 0 0 0 0
+  0.299
+  17 0 0 0 0
+  0.4958
+  19 0 0 0 0
+  0.6422001
+  22 0 0 0 0
+  0.6805999
+  24 0 0 0 0
+  0.6805999
+  25 0 0 0 0
+  0.299
+  26 0 0 0 0
+  0.299
+  27 0 0 0 0
+  0.299
+  46 0 0 0 0
+  0.299
+  47 0 0 0 0
+  0.4934
+  49 0 0 0 0
+  0.6398001
+  52 0 0 0 0
+  0.6805999
+  54 0 0 0 0
+  0.6805999
+  55 0 0 0 0
+  0.299
+  56 0 0 0 0
+  0.299
+  57 0 0 0 0
+  0.299
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Big_Teleports\SteamThing.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -0.5000001 9.387732e-007 -0.3 -90 0 0 1 1.468 1
+  0 0 0 0 0
+  -0.5000001 9.387732e-007 -0.3 -90 0 0 1 1.468 1
+  60 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ObjDissolve (envelope)
+  1
+  8
+  0.8
+  0 0 0 0 0
+  0.8780001
+  11 0 0 0 0
+  0.688
+  23 0 0 0 0
+  0.946
+  40 0 0 0 0
+  0.816
+  49 0 0 0 0
+  0.83
+  55 0 0 0 0
+  0.788
+  58 0 0 0 0
+  0.8
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Big_Teleports\SteamThing.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  -3.84395 4.700002 -0.1459882 90 90 0 0.914 1.402 1.014
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 1
+ObjDissolve (envelope)
+  1
+  2
+  0.85
+  0 0 0 0 0
+  0.85
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Big_Teleports\SteamThing.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  -2.513655 14.4 23.00905 0 -6.699998 180 0.488 0.8399999 0.488
+  0 0 0 0 0
+  -2.513655 14.4 23.00905 0 -10.02 180 0.488 0.7935 0.488
+  15 0 0 0 0
+  -2.513655 14.4 23.00905 0 -7.780001 180 0.488 1.22 0.488
+  30 0 0 0 0
+  -2.513655 14.4 23.00905 0 -5.819999 180 0.488 1.138585 0.488
+  39 0 0 0 0
+  -2.513655 14.4 23.00905 0 -7.72 180 0.488 0.799385 0.488
+  51 0 0 0 0
+  -2.513655 14.4 23.00905 0 -6.699998 180 0.488 0.8399999 0.488
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 360
+ParentObject 1
+ObjDissolve (envelope)
+  1
+  2
+  0.75
+  0 0 0 0 0
+  0.75
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Big_Teleports\SteamThing.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  -2.5137 14.4 -23.0091 0 6.7 180 0.488 0.8399999 0.488
+  0 0 0 0 0
+  -2.5137 14.4 -23.0091 0 10.02 180 0.488 0.7935 0.488
+  15 0 0 0 0
+  -2.5137 14.4 -23.0091 0 7.780001 180 0.488 1.22 0.488
+  30 0 0 0 0
+  -2.5137 14.4 -23.0091 0 5.82 180 0.488 1.138585 0.488
+  39 0 0 0 0
+  -2.5137 14.4 -23.0091 0 7.72 180 0.488 0.799385 0.488
+  51 0 0 0 0
+  -2.5137 14.4 -23.0091 0 6.7 180 0.488 0.8399999 0.488
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 363
+ParentObject 1
+ObjDissolve (envelope)
+  1
+  2
+  0.75
+  0 0 0 0 0
+  0.75
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Big_Teleports\SteamThing.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  1.357584 4.700002 5.678027 0 102 0 0.9439999 1.114 0.9440004
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ObjDissolve (envelope)
+  1
+  2
+  0.92
+  0 0 0 0 0
+  0.92
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Big_Teleports\SteamThing.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  1.357585 4.700002 -5.721975 180 102 0 -0.9780004 1.114 0.9140001
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ObjDissolve (envelope)
+  1
+  2
+  0.92
+  0 0 0 0 0
+  0.92
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Deposit_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  40 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 8
+ShadowOptions 7
+
+AddNullObject new_parent_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 1.000000
+
+AddLight
+LightName Light
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  2
+  104.066 62.2 -94.34813 -56.5 31.7 0 1 1 1
+  0 0 0 0 0
+  104.066 62.2 -94.34813 -56.5 31.7 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 0.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  2
+  150.8 44.4 -135.1695 -45.09999 11.2 0 1 1 1
+  0 0 0 0 0
+  150.8 44.4 -135.1695 -45.09999 11.2 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 1
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+ClipRayColors 0
+DataOverlayLabel  
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 0.000000 0.000000 0.000000
+ViewDirection -5.391315 -0.328121 0.000000
+ViewZoomFactor 4.326944
+GridNumber 30
+GridSize 20.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

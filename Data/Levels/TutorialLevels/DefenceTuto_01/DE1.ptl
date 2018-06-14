@@ -1,0 +1,14 @@
+
+Lego* {
+
+	Dig								Goto
+	DigComplete						RockFall
+	GenerateOreComplete				CollectOre
+	GenerateCrystalComplete			CollectCrystal
+	RockFallComplete				GenerateFromCryore
+	CollectCrystal					Goto
+	CollectOre						Goto
+	CollectTool						Goto
+; Rock-Monster PTL	
+	GatherRockComplete				AttackBuilding
+}

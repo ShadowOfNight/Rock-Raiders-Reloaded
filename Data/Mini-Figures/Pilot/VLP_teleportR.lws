@@ -1,0 +1,785 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 65
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 65
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+LoadObject \\Mother\lego\Meshes\vLow_poly\Minifigures\pILOT\vLPtorso.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 0 0 0.5434402 0 1.440292 1 1 1
+  0 0 0 0 0
+  0 0 0 -6.83156 -9.099998 1.440292 1 1 1
+  10 0 0 0 0
+  0 0 0 -11.25656 0 1.440292 1 1 1
+  15 0 0 0 0
+  0 0 0 -6.216976 8.658333 1.440292 1 1 1
+  20 0 0 0 0
+  0 0 0 0.5434402 0 1.440292 1 1 1
+  25 0 0 0 0
+  0 0 0 0.5434402 0 1.440292 1 1 1
+  65 0 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 11
+ObjDissolve (envelope)
+  1
+  6
+  1
+  0 0 0 0 0
+  1
+  26 0 0 0 0
+  1
+  30 0 1 0 0
+  0
+  40 0 1 0 0
+  0
+  54 0 0 0 0
+  0
+  65 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\VLow_Poly\Minifigures\Pilot\VLPhead.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 1.325 0 -0.8130135 0 -1.483223 1.15 1.15 1.15
+  0 0 0 0 0
+  0 1.325 0 -7.313014 -14.8375 -1.483223 1.15 1.15 1.15
+  10 0 0 0 0
+  0 1.325 0 -11.21301 8.9 -1.483223 1.15 1.15 1.15
+  15 0 0 0 0
+  0 1.325 0 -6.771347 11.79896 -1.483223 1.15 1.15 1.15
+  20 0 0 0 0
+  0 1.325 0 -0.8130135 0 -1.483223 1.15 1.15 1.15
+  25 0 0 0 0
+  0 1.325 0 -0.8130135 0 -1.483223 1.15 1.15 1.15
+  65 0 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 1
+ObjDissolve (envelope)
+  1
+  6
+  1
+  0 0 0 0 0
+  1
+  26 0 0 0 0
+  1
+  30 0 1 0 0
+  0
+  40 0 1 0 0
+  0
+  54 0 0 0 0
+  0
+  65 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\VLow_Poly\Minifigures\Pilot\VLPthighL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  -0.45 -0.245 0 0 -0.8058257 0.09620987 1 1 1
+  0 0 0 0 0
+  -0.45 -0.245 0 0 -0.8058257 0.09620987 1 1 1
+  25 0 0 0 0
+  -0.45 -0.245 0 0 -0.8058257 0.09620987 1 1 1
+  65 0 0 0 0
+EndBehavior 1
+LockedChannels 14
+ParentObject 11
+ObjDissolve (envelope)
+  1
+  6
+  1
+  0 0 0 0 0
+  1
+  26 0 0 0 0
+  1
+  30 0 1 0 0
+  0
+  40 0 1 0 0
+  0
+  54 0 0 0 0
+  0
+  65 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\VLow_Poly\Minifigures\Pilot\VLPfootL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 -0.82 -0.25 0 0.2154126 0 1 1 1
+  0 0 0 0 0
+  0 -0.82 -0.25 0 0.2154126 0 1 1 1
+  25 0 0 0 0
+  0 -0.82 -0.25 0 0.2154126 0 1 1 1
+  65 0 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 3
+ObjDissolve (envelope)
+  1
+  6
+  1
+  0 0 0 0 0
+  1
+  26 0 0 0 0
+  1
+  30 0 1 0 0
+  0
+  40 0 1 0 0
+  0
+  54 0 0 0 0
+  0
+  65 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\VLow_Poly\Minifigures\Pilot\VLPthighR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0.45 -0.245 0 0 2.538188 0.09620971 1 1 1
+  0 0 0 0 0
+  0.45 -0.245 0 0 2.538188 0.09620971 1 1 1
+  25 0 0 0 0
+  0.45 -0.245 0 0 2.538188 0.09620971 1 1 1
+  65 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 11
+ObjDissolve (envelope)
+  1
+  6
+  1
+  0 0 0 0 0
+  1
+  26 0 0 0 0
+  1
+  30 0 1 0 0
+  0
+  40 0 1 0 0
+  0
+  54 0 0 0 0
+  0
+  65 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\VLow_Poly\Minifigures\Pilot\VLPfootR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 -0.8200001 -0.25 0 -3.2086 0 1 1 1
+  0 0 0 0 0
+  0 -0.8200001 -0.25 0 -3.2086 0 1 1 1
+  25 0 0 0 0
+  0 -0.8200001 -0.25 0 -3.2086 0 1 1 1
+  65 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 5
+ObjDissolve (envelope)
+  1
+  6
+  1
+  0 0 0 0 0
+  1
+  26 0 0 0 0
+  1
+  30 0 1 0 0
+  0
+  40 0 1 0 0
+  0
+  54 0 0 0 0
+  0
+  65 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\VLow_Poly\Minifigures\Pilot\VLPbicepL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0.715 0.905 0 -4.895995 -13.4024 10.4 1 1 1
+  0 0 0 0 0
+  0.715 0.905 0 -4.895995 -3.3024 10.4 1 1 1
+  15 0 0 0 0
+  0.715 0.905 0 -4.895995 -13.4024 10.4 1 1 1
+  25 0 0 0 0
+  0.715 0.905 0 -4.895995 -13.4024 10.4 1 1 1
+  65 0 0 0 0
+EndBehavior 1
+LockedChannels 46
+ParentObject 1
+ObjDissolve (envelope)
+  1
+  6
+  1
+  0 0 0 0 0
+  1
+  26 0 0 0 0
+  1
+  30 0 1 0 0
+  0
+  40 0 1 0 0
+  0
+  54 0 0 0 0
+  0
+  65 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\VLow_Poly\Minifigures\Pilot\VLPhandL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0.23 -1.015 -0.385 0 0 0 1 1 1
+  0 0 0 0 0
+  0.23 -1.015 -0.385 1.1 0 0 1 1 1
+  15 0 0 0 0
+  0.23 -1.015 -0.385 0 0 0 1 1 1
+  25 0 0 0 0
+  0.23 -1.015 -0.385 0 0 0 1 1 1
+  65 0 0 0 0
+EndBehavior 1
+LockedChannels 22
+ParentObject 7
+ObjDissolve (envelope)
+  1
+  6
+  1
+  0 0 0 0 0
+  1
+  26 0 0 0 0
+  1
+  30 0 1 0 0
+  0
+  40 0 1 0 0
+  0
+  54 0 0 0 0
+  0
+  65 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\VLow_Poly\Minifigures\Pilot\VLPbicepR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  -0.715 0.905 0 -0.5911995 -15.65921 -15.1952 1 1 1
+  0 0 0 0 0
+  -0.715 0.905 0 -0.5911995 -22.15921 -15.1952 1 1 1
+  20 0 0 0 0
+  -0.715 0.905 0 -0.5911995 -15.65921 -15.1952 1 1 1
+  25 0 0 0 0
+  -0.715 0.905 0 -0.5911995 -15.65921 -15.1952 1 1 1
+  65 0 0 0 0
+EndBehavior 1
+LockedChannels 8
+ParentObject 1
+ObjDissolve (envelope)
+  1
+  6
+  1
+  0 0 0 0 0
+  1
+  26 0 0 0 0
+  1
+  30 0 1 0 0
+  0
+  40 0 1 0 0
+  0
+  54 0 0 0 0
+  0
+  65 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\VLow_Poly\Minifigures\Pilot\VLPhandR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  0 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 -1.4 25.1 0 1 1 1
+  20 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  25 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  65 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 9
+ObjDissolve (envelope)
+  1
+  6
+  1
+  0 0 0 0 0
+  1
+  26 0 0 0 0
+  1
+  30 0 1 0 0
+  0
+  40 0 1 0 0
+  0
+  54 0 0 0 0
+  0
+  65 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 1
+ObjectMotion (unnamed)
+  9
+  4
+  0 1.889971 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1.889971 0 0 0 0 1 1 1
+  15 0 0 0 0
+  0 1.889971 0 0 0 0 1 1 1
+  25 0 0 0 0
+  0 1.889971 0 0 0 0 1 1 1
+  65 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 13
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 1
+ObjectMotion (unnamed)
+  9
+  2
+  0 1.72 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  65 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 13
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 180 0 0 3 3 3
+  0 0 0 0 0
+  0 0 0 180 0 0 3 3 3
+  65 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject cam_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0.45 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0.45 0 0 0 0 1 1 1
+  25 0 0 0 0
+  0 0.45 0 0 0 0 1 1 1
+  65 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+AddNullObject cam_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 5.150001 4.79 0 0 0 1 1 1
+  0 0 0 0 0
+  0 5.150001 4.79 0 0 0 1 1 1
+  65 0 0 0 0
+EndBehavior 1
+ParentObject 13
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\VLow_Poly\Minifigures\Pilot\Trans_Circ.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0.1 0 0 0 0 0 1 0
+  0 0 0 0 0
+  0 0.1 0 0 0 0 0 1 0
+  25 1 0 0 0
+  0 0.1 0 0 0 0 0.5 1 0.5
+  30 1 1 0 0
+  0 0.1 0 0 0 0 1 1 1
+  35 1 0 0 0
+  0 0.1 0 0 0 0 1 1 1
+  45 1 1 0 0
+  0 0.1 0 0 0 0 0 0 0
+  55 0 1 0 0
+  0 0.1 0 0 0 0 0 0 0
+  65 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 13
+ObjDissolve (envelope)
+  1
+  18
+  0
+  0 0 0 0 0
+  0
+  8 1 0 0 0
+  0.4
+  10 0 0 0 0
+  -0.002
+  12 0 0 0 0
+  0.4
+  14 0 0 0 0
+  0
+  16 0 0 0 0
+  0.4
+  18 0 0 0 0
+  0
+  20 1 0 0 0
+  0.4019999
+  22 0 0 0 0
+  -0.004
+  24 0 0 0 0
+  0.418
+  26 0 0 0 0
+  -3.72529e-009
+  28 0 0 0 0
+  0.4
+  30 1 0 0 0
+  0
+  32 0 0 0 0
+  0.4
+  34 0 0 0 0
+  0
+  36 0 0 0 0
+  0.4
+  38 0 0 0 0
+  0
+  40 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\VLow_Poly\Minifigures\Pilot\Trans_Tube.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 0 0 -36 180 0 1 0 1
+  0 0 0 0 0
+  0 0 0 -36 180 0 1 0 1
+  15 0 1 0 0
+  0 0 0 -36.00001 180 0 1 1 1
+  20 1 0 0 0
+  0 0 0 -36.00001 180 0 1 1 1
+  25 1 0 0 0
+  0 0 0 -36.00001 180 0 1 1 1
+  29 0 0 0 0
+  0 0 0 -36.00001 180 0 1 1 1
+  65 0 0 0 0
+EndBehavior 1
+LockedChannels 368
+ParentObject 18
+ObjDissolve (envelope)
+  1
+  14
+  1
+  0 0 0 0 0
+  1
+  5 0 1 0 0
+  0
+  25 0 1 0 0
+  0
+  27 1 0 0 0
+  0.004
+  29 1 0 0 0
+  0.4
+  31 0 0 0 0
+  0.004
+  33 0 0 0 0
+  0.4
+  35 0 0 0 0
+  0
+  37 1 0 0 0
+  0.4
+  39 0 0 0 0
+  0
+  42 0 0 0 0
+  0
+  45 1 1 0 0
+  0
+  60 0 1 0 0
+  0
+  65 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\VLow_Poly\Minifigures\Pilot\Trans_Tube.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 18 0 0 0 0 1 6 1
+  0 0 0 0 0
+  0 9 0 0 0 0 1 3 1
+  20 1 1 0 0
+  0 0 0 0 0 0 1 1 1
+  35 1 1 0 0
+  0 0 0 0 0 0 1 0.5 1
+  40 1 0 0 0
+  0 0 0 0 0 0 1 0 1
+  45 1 0 0 0
+  0 0 0 0 0 0 1 0 1
+  65 1 0 0 0
+EndBehavior 1
+LockedChannels 325
+ParentObject 13
+ObjDissolve (envelope)
+  1
+  14
+  1
+  0 0 0 0 0
+  1
+  5 0 1 0 0
+  0
+  25 0 1 0 0
+  0
+  27 1 0 0 0
+  0.004
+  29 1 0 0 0
+  0.4
+  31 0 0 0 0
+  0.004
+  33 0 0 0 0
+  0.4
+  35 0 0 0 0
+  0
+  37 1 0 0 0
+  0.4
+  39 0 0 0 0
+  0
+  42 0 0 0 0
+  0
+  45 1 1 0 0
+  0
+  60 0 1 0 0
+  0
+  65 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\VLow_Poly\Minifigures\Pilot\Trans_Part.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 -3.25 0 360 0 0 0.5 2.5 0.5
+  0 1 0 0 0
+  0 -1.625 0 200.85 0 0 1.25 2.5 1.25
+  30 1 0 0 0
+  0 0 0 -41.7 0 0 1.25 2.5 1.25
+  65 1 0 0 0
+EndBehavior 1
+LockedChannels 381
+ParentObject 13
+ObjDissolve (envelope)
+  1
+  4
+  1
+  0 1 0 0 0
+  0
+  15 1 0 0 0
+  0
+  50 1 0 0 0
+  1
+  60 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\VLow_Poly\Minifigures\Pilot\Trans_Mini.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 0 0 0 0 1 1.125 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1.125 1
+  45 0 0 0 0
+  0 0 0 0 0 0 1 1.125 1
+  65 0 0 0 0
+EndBehavior 1
+ParentObject 13
+ObjDissolve (envelope)
+  1
+  9
+  1
+  0 0 0 0 0
+  1
+  20 1 0 0 0
+  0
+  30 1 0 0 0
+  0.224
+  34 1 0 0 0
+  0
+  39 1 0 0 0
+  0
+  45 1 0 0 0
+  1
+  55 1 0 0 0
+  1
+  56 0 0 0 0
+  1
+  65 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 0 2
+LightMotion (unnamed)
+  9
+  2
+  -2 2 -2 45 35 0 1 1 1
+  0 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  1 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+AddLight
+LightName INGAME_LIGHT
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  5
+  0 -1 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -1 0 0 0 0 1 1 1
+  10 0 0 0 0
+  0 -1 0 0 0 0 1 1 1
+  20 0 0 0 0
+  0 1.853124 4.55641 0 0 0 1 1 1
+  30 1 0 0 0
+  0 22.125 0 0 0 0 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+LightColor 128 255 249
+LgtIntensity (envelope)
+  1
+  13
+  0
+  0 0 0 0 0
+  0.5
+  10 0 0 0 0
+  0.75
+  20 1 0 0 0
+  0.6039997
+  22 0 0 0 0
+  0.74
+  24 0 0 0 0
+  0.5239996
+  26 0 0 0 0
+  0.75
+  28 0 0 0 0
+  0.3939998
+  30 1 0 0 0
+  0.75
+  32 1 0 0 0
+  0.75
+  40 1 0 0 0
+  0.75
+  50 1 0 0 0
+  0.5
+  60 0 0 0 0
+  0
+  65 0 0 0 0
+EndBehavior 1
+LightType 1
+ShadowType 1
+
+ShowCamera 1 4
+CameraMotion (unnamed)
+  9
+  1
+  -18.42036 81.92862 34.04233 35.1 60 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 517
+TargetObject 12
+ZoomFactor 3.200000
+Resolution 0
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+DataOverlayLabel  
+SaveAnimationName \\stuartb\d\Raiders\Teleport_LP\Reverse01.avi
+AnimationType 6
+EndPlugin
+OutputFilenameFormat 1
+SaveRGBImagesPrefix \\Stewb\d\Raiders\Teleport_LP\Trans
+RGBImageFormat 2
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 0.826371 11.196157 2.407375
+ViewDirection -22.603764 -0.607376 0.000000
+ViewZoomFactor 3.744458
+GridNumber 10
+GridSize 5.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

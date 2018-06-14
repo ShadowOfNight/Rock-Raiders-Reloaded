@@ -1,0 +1,445 @@
+
+Lego* {
+
+	Scale				1.0
+
+	CameraNullName		cam_null
+	CameraNullFrames		2
+	CameraFlipDir		TRUE
+	FootStepNullName		anim_null
+	CarryNullName		boulder_null
+	ThrowNullName		throw_null
+	DepositNullName		START_NULL			;used for positioning objects in grab anim
+
+
+HIGHPOLY {		; As viewed from close up in first person mode.
+
+		Arml			HArml
+		ArmR			HArmR
+		FootL			HFootL
+		FootR			HFootR
+		HandL			HHandL
+		HandR			HHandR
+		HeadnoJaw		HHeadnoJaw
+		Jaw			HJaw
+		LegL			HLegL
+		LegR			HLegR
+		Lowbod		HLowbod
+		ShL			HShL
+		ShR			HShR
+		ThighL		HThighL
+		ThighR		HThighR
+		Body			HBody
+}
+
+MEDIUMPOLY {		
+
+		Arml			HArml
+		ArmR			HArmR
+		FootL			HFootL
+		FootR			HFootR
+		HandL			HHandL
+		HandR			HHandR
+		HeadnoJaw		HHeadnoJaw
+		Jaw			HJaw
+		LegL			HLegL
+		LegR			HLegR
+		Lowbod		HLowbod
+		ShL			HShL
+		ShR			HShR
+		ThighL		HThighL
+		ThighR		HThighR
+		Body			HBody
+}	
+	
+
+
+	Activities {
+		
+		Activity_Stand						Stand
+;		Activity_MPStand				
+		Activity_Route						Walk
+;		Activity_MPRoute				
+;		Activity_Drill					
+;		Activity_MPDrill				
+;		Activity_Teleport				
+;		Activity_Walk					
+;		Activity_Reinforce				
+;		Activity_Reverse				
+		Activity_TurnLeft					TurnLeft
+		Activity_TurnRight					TurnRight
+;		Activity_CantDo					
+		Activity_Emerge						Emerge
+		Activity_Enter						EnterWall
+		Activity_Gather					ScoopRock
+		Activity_Carry						Carry
+		Activity_Throw						Throw
+		Activity_CarryTurnLeft					TurnLeftCarry
+		Activity_CarryTurnRight					TurnRightCarry
+		Activity_CarryStand					StandCarry
+		Activity_Repair						Repair
+		Activity_Crumble						Crumble
+		Activity_Stamp						Stamp
+		Activity_Rest						Rest
+		Activity_ThrowMan					ThrowMan
+		Activity_Eat						Eat
+		Activity_HitHard					HitHard
+		Activity_Unpowered					Asleep
+		Activity_WakeUp						WakeUp
+	}
+
+	Asleep {
+		File			Ahh_Sleepy
+		LwsFile			TRUE
+	}
+
+	WakeUp {
+		File			Wake_Up
+		LwsFile			TRUE
+	}
+
+	HitHard {
+		File			Explosion
+		LWSFILE			TRUE
+	}
+
+	Eat {
+		FILE			Pickup_Eat
+		LWSFILE			TRUE
+	}
+
+	Stand {
+		FILE			Stand2
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		}
+
+	Stamp {
+		FILE			Stamp
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		TRIGGER		28
+		}
+
+	StandCarry {
+		FILE			standcarybould1
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		}
+
+	Walk {
+		FILE			walk4
+		TRANSCOEF		1.0
+		LWSFILE		TRUE
+		}
+
+	TurnLeft {
+		FILE			turn90left
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+		}
+
+	TurnRight {
+		FILE			turn90right
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	TurnLeftCarry {
+		FILE			turnlcarrybould
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	TurnRightCarry {
+		FILE			turnrcarrybould
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	Emerge {
+		FILE			emergefromwall_rocks
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	EnterWall {
+		FILE			enter_wall_final
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	ScoopRock {
+		FILE			ScoopUp
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	Carry {
+		FILE			WalkCarryBould
+		TRANSCOEF		0.15
+		LWSFILE		TRUE
+	}
+
+	Throw {
+		FILE			ThrowSmallBould
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	Repair {
+		FILE			SwipeLeftHanddown
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		TRIGGER		40
+	}
+
+	Crumble {
+		FILE			Crumble2
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+		}
+
+	Rest {
+		FILE			Carry_RestStand
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	ThrowMan {
+		FILE			pickup_shake
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		TRIGGER		19
+		LOOPING		FALSE
+	}
+
+}
+
+LegoLow* {
+
+	Scale				1.0
+
+	CameraNullName		cam_null
+	CameraNullFrames		2
+	CameraFlipDir		TRUE
+	FootStepNullName		anim_null
+	CarryNullName		boulder_null
+	ThrowNullName		throw_null
+	DepositNullName		START_NULL			;used for positioning objects in grab anim
+
+
+HIGHPOLY {		; As viewed from close up in first person mode.
+
+		Arml			HArml
+		ArmR			HArmR
+		FootL			HFootL
+		FootR			HFootR
+		HandL			HHandL
+		HandR			HHandR
+		HeadnoJaw		HHeadnoJaw
+		Jaw			HJaw
+		LegL			HLegL
+		LegR			HLegR
+		Lowbod		HLowbod
+		ShL			HShL
+		ShR			HShR
+		ThighL		HThighL
+		ThighR		HThighR
+		Body			HBody
+}
+
+MEDIUMPOLY {		
+
+		Arml			HArml
+		ArmR			HArmR
+		FootL			HFootL
+		FootR			HFootR
+		HandL			HHandL
+		HandR			HHandR
+		HeadnoJaw		HHeadnoJaw
+		Jaw			HJaw
+		LegL			HLegL
+		LegR			HLegR
+		Lowbod		HLowbod
+		ShL			HShL
+		ShR			HShR
+		ThighL		HThighL
+		ThighR		HThighR
+		Body			HBody
+}	
+	
+
+
+	Activities {
+		
+		Activity_Stand						Stand
+		Activity_Route						Walk
+;		Activity_TurnLeft					TurnLeft
+;		Activity_TurnRight					TurnRight
+		Activity_Emerge						Emerge
+		Activity_Enter						EnterWall
+		Activity_Gather					ScoopRock
+		Activity_Carry						Carry
+		Activity_Throw						Throw
+;		Activity_CarryTurnLeft					TurnLeftCarry
+;		Activity_CarryTurnRight					TurnRightCarry
+		Activity_CarryStand					StandCarry
+		Activity_Repair						Repair
+		Activity_Crumble						Crumble
+		Activity_Stamp						Stamp
+		Activity_Rest						Rest
+		Activity_ThrowMan					ThrowMan
+		Activity_Eat						Eat
+		Activity_HitHard					HitHard
+		Activity_Unpowered					Asleep
+		Activity_WakeUp						WakeUp
+	}
+
+	Asleep {
+		File			Ahh_Sleepy
+		LwsFile			TRUE
+	}
+
+	WakeUp {
+		File			Wake_Up
+		LwsFile			TRUE
+	}
+
+	HitHard {
+		File			Explosion
+		LWSFILE			TRUE
+	}
+
+	Eat {
+		FILE			Pickup_Eat
+		LWSFILE			TRUE
+	}
+
+	Stand {
+		FILE			Stand2
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		}
+
+	Stamp {
+		FILE			Stamp
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		TRIGGER		28
+		}
+
+	StandCarry {
+		FILE			standcarybould1
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		}
+
+	Walk {
+		FILE			walk4
+		TRANSCOEF		1.0
+		LWSFILE		TRUE
+		}
+
+	TurnLeft {
+		FILE			turn90left
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+		}
+
+	TurnRight {
+		FILE			turn90right
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	TurnLeftCarry {
+		FILE			turnlcarrybould
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	TurnRightCarry {
+		FILE			turnrcarrybould
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	Emerge {
+		FILE			emergefromwall_rocks
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	EnterWall {
+		FILE			enter_wall_final
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	ScoopRock {
+		FILE			ScoopUp
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	Carry {
+		FILE			WalkCarryBould
+		TRANSCOEF		0.15
+		LWSFILE		TRUE
+	}
+
+	Throw {
+		FILE			ThrowSmallBould
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	Repair {
+		FILE			SwipeLeftHanddown
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		TRIGGER		40
+	}
+
+	Crumble {
+		FILE			Crumble2
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+		}
+
+	Rest {
+		FILE			Carry_RestStand
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	ThrowMan {
+		FILE			pickup_shake
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+		TRIGGER		19
+		LOOPING		FALSE
+	}
+
+}

@@ -1,0 +1,15 @@
+Don't_forget_to_reinforce_the_cavern_walls. #one#
+Well_done!_You've_built_the_Support_Station. #two#
+You_must_collect_five_Energy_Crystals. #three#
+Well_done!_You_have_found_an_Energy_Crystal_-_there_are_four_more_around,_you_must_find_them_too. #four#
+You_have_now_managed_to_collect_two_Energy_Crystals. #five#
+There_are_only_another_two_Energy_Crystals_to_collect. #six
+We_just_need_one_more_Energy_Crystal. #seven#
+
+$one		Sounds\Streamed\InGame\ins301
+$two		Sounds\Streamed\InGame\ins302
+$three		Sounds\Streamed\InGame\ins303
+$four		Sounds\Streamed\InGame\ins304
+$five		Sounds\Streamed\InGame\ins305
+$six		Sounds\Streamed\InGame\ins306
+$seven		Sounds\Streamed\InGame\ins307

@@ -1,0 +1,472 @@
+
+
+
+;;;;;;;;;;;;;;;;;;;;;
+; NERPs Source File ;
+;;;;;;;;;;;;;;;;;;;;;
+; Generated 
+; "Sep 21 1999"
+;;;;;;;;;;;;;;;;;;;;;
+; Stamp it here:
+"22:53:08":
+;;;;;;;;;;;;;;;;;;;;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GetObjectiveSwitch ? SetMessagePermit 0
+GetObjectiveSwitch ? :SkippedSkip
+GetObjectiveShowing = 1 ? :Skip
+SkippedSkip:
+
+
+TRUE ? SetMessageTimerValues 1000 1000 10000
+
+
+
+
+TRUE ? AddR0 1
+
+
+TRUE ? SetR6 0
+
+
+TRUE ? :end
+
+Wbe:
+GetMessageTimer > 0 ? Stop
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? AddR5 1
+Stop
+
+Skip:
+TRUE ? SetTutorialFlags 4095
+TRUE ? SetMessagePermit 1
+TRUE ? SetTimer0 0
+TRUE ? SetTimer1 0
+TRUE ? SetTimer2 0
+TRUE ? SetR0 0
+TRUE ? SetR1 0	
+TRUE ? SetR5 0
+TRUE ? SetR7 1
+TRUE ? CameraUnlock
+Stop
+
+Next:
+TRUE ? AddR3 1
+Clear:
+TRUE ? SetR0 0
+TRUE ? SetTimer0 0
+TRUE ? AddR7 GetR5
+TRUE ? SetR5 0
+Stop
+
+finish:
+Stop
+
+Complete:
+GetMessageTimer > 0 ? Stop 
+TRUE ? SetLevelCompleted
+Stop
+
+
+end:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__MainFunc:
+{
+
+	GetCrystalsCurrentlyStored > 19 ? SetLevelCompleted
+
+	TRUE ? SetTutorialFlags 0
+	TRUE ? SetMessagePermit 1
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :CheckCompleteFail/ CheckCompleteFail: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		
+		
+		TRUE ? SetR1 0
+		GetMiniFiguresOnLevel > 8 ? AddR1 1
+		GetRandom100 = 1 ? AddR1 1
+		GetSlugsOnLevel = 0 ? AddR1 1
+		GetR1 = 3 ? GenerateSlug
+		
+		GetOxygenLevel = 0 ? SetLevelFail
+		GetMiniFiguresOnLevel > 0 ? :canrebuild
+		GetToolStoresBuilt = 0 ? SetLevelFail
+canrebuild:
+		
+		GetCrystalsCurrentlyStored > 19 ? SetLevelCompleted
+		Stop
+	}
+	TRUE ? :Next CheckCompleteFail/:
+}
+TRUE ? :Complete

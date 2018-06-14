@@ -1,0 +1,5 @@
+Build_up_your_base_and_make_sure_it's_heavily_defended. #one#
+Well_done!_You_have_uncovered_the_cavern_containing_the_Tunnel_Transport._This_will_now_take_all_of_your_Rock_Raiders_to_safety. #two#
+
+$one		Sounds\Streamed\InGame\ins901
+$two		Sounds\Streamed\InGame\ins902

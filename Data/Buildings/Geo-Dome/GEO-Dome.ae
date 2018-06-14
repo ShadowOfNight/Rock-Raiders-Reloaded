@@ -1,0 +1,63 @@
+
+Lego* {
+
+	Scale				1.0
+	Shape				0,-1
+
+	Level0000 {		
+				
+				GD_RADAR_S			RADAR_NULL,1
+				
+			}
+
+
+
+Activities {
+		
+		Activity_Stand					Stand
+;		Activity_MPStand				
+;		Activity_Route					
+;		Activity_MPRoute				
+;		Activity_Drill					
+;		Activity_MPDrill				
+		Activity_Teleport					Create			
+;		Activity_Walk					
+;		Activity_Reinforce				
+;		Activity_Reverse				
+;		Activity_TurnLeft				
+;		Activity_TurnRight				
+;		Activity_CantDo					
+;		Activity_Emerge					
+;		Activity_Collect				
+;		Activity_Carry					
+;		Activity_Throw					
+;		Activity_CarryTurnLeft			
+;		Activity_CarryTurnRight			
+;		Activity_CarryStand				
+		Activity_Explode				Explode
+		Activity_Unpowered				PowerOff
+	}
+
+	Stand {
+		FILE		GD_Standard
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+	}
+
+	Create {
+		FILE		Geo_teleport
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+	}	
+
+	Explode {
+		FILE		GD_Upgrade_Exp2
+		LWSFILE		TRUE
+	}
+
+	PowerOff {
+		FILE		GD_Idle
+		LWSFILE		TRUE
+	}
+}
+

@@ -1,0 +1,49 @@
+#include <nerpnrn.h>
+
+Main()
+{
+	TRUE ? SetTutorialFlags 0
+	GetCrystalsCurrentlyStored > 44 ? SetLevelCompleted
+	GetOxygenLevel = 0 ? SetLevelFail
+
+	Function(Upgrade)
+	{
+		TRUE ? SetToolStoreLevel 1
+		TRUE ? SetTeleportPadLevel 1
+	}
+	FuncEnd(Upgrade)
+
+	Function(CheckForCrystals)
+	{
+		// Setup scope
+		TRUE ? SetMessagePermit 1
+		TRUE ? SetR1 0
+		// if oxygen is too low, or if too many slugs are here already, don't make life too hard
+		GetOxygenLevel < 30 ? :skip
+		// depending upon crystal amount, generate stuff
+		GetCrystalsCurrentlyStored > 10 ? SetR1 1
+		GetCrystalsCurrentlyStored > 20 ? SetR1 2
+		GetCrystalsCurrentlyStored > 25 ? SetR1 3
+		GetCrystalsCurrentlyStored > 30 ? SetR1 4
+		GetCrystalsCurrentlyStored > 35 ? SetR1 5
+		GetCrystalsCurrentlyStored > 37 ? SetR1 6
+		GetCrystalsCurrentlyStored > 40 ? SetR1 7
+		GetCrystalsCurrentlyStored > 41 ? SetR1 8
+		GetCrystalsCurrentlyStored > 42 ? SetR1 9
+		GetCrystalsCurrentlyStored > 43 ? SetR1 10
+		GetCrystalsCurrentlyStored > 44 ? SetR1 11
+		// Loop through register one generating slugs
+		GetSlugsOnLevel > GetR1 ? :skip
+loopstart:
+		GetR1 = 0 ? :loopend
+		GetRandom100 < 10 ? GenerateSlug
+		TRUE ? SubR1 1
+		TRUE ? :loopstart
+loopend:
+		// end of this chunk
+skip:
+		Stop
+	}
+	FuncEnd(CheckForCrystals)
+}
+MainEnd()

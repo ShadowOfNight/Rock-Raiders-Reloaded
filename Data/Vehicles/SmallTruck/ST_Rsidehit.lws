@@ -1,0 +1,531 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 35
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 35
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SmallTruck\VL_SmallTruckbody.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  15
+  0 4.2 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0.016922 4.2 0.025 0 0 -11.4 1 1 1
+  1 0 0 0 0
+  0.1672578 6.05 0.02536513 0 0 -20 1 1 1
+  6 0 0 0 0
+  -0.108078 6.725 0.025 0 0 -20 1 1 1
+  7 0 0 0 0
+  0.016922 4.2 0.025 0 0 -9.4 1 1 1
+  12 0 0 0 0
+  0.016922 4.4 0.025 0 0 15 1 1 1
+  14 0 0 0 0
+  0.016922 3.85 0.025 0 0 2.4 1 1 1
+  15 0 0 0 0
+  0.016922 4.875 0.025 0 0 -6.2 1 1 1
+  19 0 0 0 0
+  0.016922 4.260703 0.025 0 0 -4.713125 1 1 1
+  22 0 0 0 0
+  0.016922 4.1 0.025 0 0 -2.8 1 1 1
+  23 0 0 0 0
+  0.016922 3.9 0.025 0 0 0.2 1 1 1
+  25 0 0 0 0
+  0.016922 4.5 0.025 0 0 -3.4 1 1 1
+  28 0 0 0 0
+  0.016922 4.025 0.025 0 0 2.8 1 1 1
+  31 0 0 0 0
+  0.016922 4.25 0.025 0 0 0.2 1 1 1
+  33 0 0 0 0
+  0 4.2 0 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 4
+ShadowOptions 7
+
+AddNullObject normal_bucket_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 2.25 -11.5 0 0 0 1 1 1
+  0 0 0 0 0
+  0 2.25 -11.5 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 41
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject CAMERA_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 9.350002 0.274999 0 7.299996 0 1 1 1
+  0 0 0 0 0
+  0 9.350002 0.274999 0 7.299996 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject MAIN NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  15 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  22 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject dash_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  15 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  22 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject radar_null
+ShowObject 8 6
+ObjectMotion (unnamed)
+  9
+  7
+  -1.117587e-007 3.45 -0.05 0 0 -43.3 1 1 1
+  0 0 0 0 0
+  -1.117587e-007 3.45 -0.05 -7 12.8 -56.90001 1 1 1
+  9 0 0 0 0
+  -1.117587e-007 3.45 -0.05 2.077885 -17.10813 -17.59999 1 1 1
+  15 0 0 0 0
+  -1.117587e-007 3.45 -0.05 8.193154 18.66182 -46.39999 1 1 1
+  22 0 0 0 0
+  -1.117587e-007 3.45 -0.05 1.204271 -10.07329 -33.29999 1 1 1
+  30 0 0 0 0
+  -1.117587e-007 3.45 -0.05 0 0 -43.3 1 1 1
+  34 0 0 0 0
+  -1.117587e-007 3.45 -0.05 0 0 -43.3 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 46
+ParentObject 7
+ShadowOptions 7
+
+AddNullObject radar_handle_null
+ShowObject 8 6
+ObjectMotion (unnamed)
+  9
+  9
+  -3.59161 3.650001 4.151302 0 2.0625 44.2625 1 1 1
+  0 0 0 0 0
+  -3.59161 3.650001 4.151302 0 12.9625 26.4625 1 1 1
+  7 0 0 0 0
+  -3.59161 3.650001 4.151302 0 -6.2375 50.10727 1 1 1
+  13 0 0 0 0
+  -3.59161 3.650001 4.151302 0 -4.472768 49.86629 1 1 1
+  15 0 0 0 0
+  -3.59161 3.650001 4.151302 0 8.362497 41.13341 1 1 1
+  21 0 0 0 0
+  -3.59161 3.650001 4.151302 0 7.068858 42.75848 1 1 1
+  22 0 0 0 0
+  -3.59161 3.650001 4.151302 0 -1.5375 50.67467 1 1 1
+  25 0 0 0 0
+  -3.59161 3.650001 4.151302 0 3.6625 36.39857 1 1 1
+  31 0 0 0 0
+  -3.59161 3.650001 4.151302 0 2.0625 44.2625 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject bucketnull1_upgrade
+ShowObject 8 3
+ObjectMotion (unnamed)
+  9
+  9
+  -6.650001 5.499999 -10.83764 0 0 0 1 1 1
+  0 0 0 0 0
+  -6.650001 5.499999 -10.83764 0 -20.9 -5.2 1 1 1
+  8 0 0 0 0
+  -6.650001 5.499999 -10.83764 0 2.7 4.400001 1 1 1
+  13 0 0 0 0
+  -6.650001 5.499999 -10.83764 0 0.851895 3.346648 1 1 1
+  15 0 0 0 0
+  -6.650001 5.499999 -10.83764 0 -11.1 -2.199999 1 1 1
+  20 0 0 0 0
+  -6.650001 5.499999 -10.83764 0 -7.258136 0.2470421 1 1 1
+  22 0 0 0 0
+  -6.650001 5.499999 -10.83764 0 1.1 4.400001 1 1 1
+  25 0 0 0 0
+  -6.650001 5.499999 -10.83764 0 -1.3 -3.199999 1 1 1
+  30 0 0 0 0
+  -6.650001 5.499999 -10.83764 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject bucketnull2_upgrade
+ShowObject 8 3
+ObjectMotion (unnamed)
+  9
+  9
+  6.450001 5.5 -10.83764 0 0 0 1 1 1
+  0 0 0 0 0
+  6.450001 5.5 -10.83764 0 -29.2 -7.900001 1 1 1
+  9 0 0 0 0
+  6.450001 5.5 -10.83764 0 1.126238 4.964029 1 1 1
+  15 0 0 0 0
+  6.450001 5.5 -10.83764 0 4 5.699998 1 1 1
+  16 0 0 0 0
+  6.450001 5.5 -10.83764 0 -8.171908 -6.556354 1 1 1
+  22 0 0 0 0
+  6.450001 5.5 -10.83764 0 -8.899999 -7.4 1 1 1
+  23 0 0 0 0
+  6.450001 5.5 -10.83764 0 1.5 1.099999 1 1 1
+  27 0 0 0 0
+  6.450001 5.5 -10.83764 0 -1.4 -4.100001 1 1 1
+  34 0 0 0 0
+  6.450001 5.5 -10.83764 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 29
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject upgrade_rear_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  15 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  22 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject upgrade_tube_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  15 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  22 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject tyre_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -6.5 -1 7.5 0 0 0 1 1 1
+  0 0 0 0 0
+  -6.5 -1 7.5 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject tyre_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  6.5 -1 7.5 0 0 0 1 1 1
+  0 0 0 0 0
+  6.5 -1 7.5 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 29
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject tyre_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  6.5 -1 -7.5 0 0 0 1 1 1
+  0 0 0 0 0
+  6.5 -1 -7.5 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject tyre_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -6.5 -1 -7.5 0 0 0 1 1 1
+  0 0 0 0 0
+  -6.5 -1 -7.5 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject Deposit_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -8.829904 0 0.03171758 0 0 0 1 1 1
+  0 0 0 0 0
+  -8.829904 0 0.03171758 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 4
+ShadowOptions 7
+
+AddNullObject CAMERA_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0.7575 19.3 -46.5 0.6999999 10.1 0 1 1 1
+  0 0 0 0 0
+  0.7575 19.3 -46.5 0.6999999 10.1 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 4
+ShadowOptions 7
+
+AddNullObject Item_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 3.9 -9.299993 0 0 0 1 1 1
+  0 0 0 0 0
+  0 3.9 -9.299993 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject Item_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  1.925 3.9 -9.79999 0 0 0 1 1 1
+  0 0 0 0 0
+  1.925 3.9 -9.79999 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 2
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject Item_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -1.85 3.9 -8.500005 0 0 0 1 1 1
+  0 0 0 0 0
+  -1.85 3.9 -8.500005 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject Item_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  6.450002 7.925001 -9.324992 0 0 0 1 1 1
+  0 0 0 0 0
+  6.450002 7.925001 -9.324992 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject Item_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -6.475 7.900002 -9.124994 0 0 0 1 1 1
+  0 0 0 0 0
+  -6.475 7.900002 -9.124994 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject Item_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  8.374998 8.125002 -8.974994 0 0 0 1 1 1
+  0 0 0 0 0
+  8.374998 8.125002 -8.974994 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject Item_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -7.700001 7.925003 -9.699991 0 0 0 1 1 1
+  0 0 0 0 0
+  -7.700001 7.925003 -9.699991 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject Item_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  4.399999 7.974999 -6.449998 0 0 0 1 1 1
+  0 0 0 0 0
+  4.399999 7.974999 -6.449998 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject Item_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -9.349997 7.900002 -6.375007 0 0 0 1 1 1
+  0 0 0 0 0
+  -9.349997 7.900002 -6.375007 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  4
+  -2 2 -2 45 35 0 1 1 1
+  0 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  15 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  22 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  4
+  -26.94819 29.45084 24.51652 134 32.50001 0 1 1 1
+  0 0 0 0 0
+  -26.94819 29.45084 24.51652 134 32.50001 0 1 1 1
+  15 0 0 0 0
+  -26.94819 29.45084 24.51652 134 32.50001 0 1 1 1
+  22 0 0 0 0
+  -26.94819 29.45084 24.51652 134 32.50001 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 0
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+DataOverlayLabel  
+SaveAnimationName LT-sidehitR.avi
+AnimationType 2
+EndPlugin
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 0.000000 7.250000 -0.300000
+ViewDirection -51.017818 -0.493928 0.000000
+ViewZoomFactor 6.039816
+GridNumber 40
+GridSize 10.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

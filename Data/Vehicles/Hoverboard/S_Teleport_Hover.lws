@@ -1,0 +1,2903 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 175
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 175
+PreviewFrameStep 1
+FramesPerSecond 30.000000
+
+AddNullObject Position_NULL
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 -1.5 -7 -180 0 0 1 1 1
+  0 0 0 0 0
+  0 -1.5 -7 -180 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ShadowOptions 7
+
+AddNullObject Vehicle_NULL
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 1.05 -7 180 0 0 1 1 1
+  0 0 0 0 0
+  0 1.05 -7 180 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject MAINPARENTNULL
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 3 3 3
+  0 0 0 0 0
+  0 0 0 0 0 0 3 3 3
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+AddNullObject hover_null.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0.2099999 0 0 0 0 0.372 0.372 0.372
+  0 0 0 0 0
+  0 0.2099999 0 0 0 0 0.372 0.372 0.372
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 3
+ShadowOptions 7
+
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Vehicles\Hoverboard\HOVERHANDLE.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  2
+  -2.565 6.81 3.735 0 0 0 1 1 1
+  0 0 0 0 0
+  -2.565 6.81 3.735 0 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 6
+ObjDissolve (envelope)
+  1
+  4
+  1
+  0 0 0 0 0
+  1
+  104 0 0 0 0
+  0.9999999
+  105 0 0 0 0
+  0
+  120 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Vehicles\Hoverboard\HOVERHANDLECASE.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  2
+  -0.9399999 6.795001 3.750001 0 0 0 1 1 1
+  0 0 0 0 0
+  -0.9399999 6.795001 3.750001 0 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 3112
+PivotPoint -0.9399999 6.795001 3.750001
+ParentObject 9
+ObjDissolve (envelope)
+  1
+  4
+  1
+  0 0 0 0 0
+  1
+  104 0 0 0 0
+  1
+  105 0 0 0 0
+  0
+  120 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Vehicles\Hoverboard\HOVERHANDLECASE.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  2
+  0.8349998 6.795001 3.750001 -180 0 0 1 1 1
+  0 0 0 0 0
+  0.8349998 6.795001 3.750001 -180 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 3118
+PivotPoint -0.9399999 6.795001 3.750001
+ParentObject 9
+ObjDissolve (envelope)
+  1
+  4
+  1
+  0 0 0 0 0
+  0.9999999
+  103 0 0 0 0
+  1
+  104 0 0 0 0
+  0
+  121 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Vehicles\Hoverboard\HOVERHANDLE.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  2
+  -2.565 6.81 3.735 0 0 0 1 1 1
+  0 0 0 0 0
+  -2.565 6.81 3.735 0 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 7
+ObjDissolve (envelope)
+  1
+  4
+  1
+  0 0 0 0 0
+  1
+  103 0 0 0 0
+  1
+  105 0 0 0 0
+  0
+  120 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Vehicles\Hoverboard\VLP_hbcockpit.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 102.3 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 102.3 0 0 0 0 1 1 1
+  80 0 0 0 0
+  0 58.63589 0 -180 0 0 1 1 1
+  100 0 0 0 0
+  0 7.927825 0 0 0 0 1 1 1
+  117 0 0 0 0
+  0 0.4000182 0 0 0 0 1 1 1
+  120 0 0 0 0
+  0 0.6000183 0 0 0 0 1 1 1
+  123 0 0 0 0
+  0 0.4000182 0 0 0 0 1 1 1
+  125 0 0 0 0
+  0 0.4000182 0 0 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 4
+ObjDissolve (envelope)
+  1
+  4
+  1
+  0 0 0 0 0
+  1
+  104 0 0 0 0
+  0.9999999
+  105 0 0 0 0
+  0
+  120 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Vehicles\Hoverboard\VLP_standard_hoverboard.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  12
+  0 102.2 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 102 0 0 0 0 1 1 1
+  35 0 0 0 0
+  0 102.2 0 0 0 0 1 1 1
+  36 0 0 0 0
+  0 63.98819 -0.04430617 -180 0 0 1 1 1
+  53 0 0 0 0
+  0 18.38111 -0.09418438 0 0 0 1 1 1
+  73 0 0 0 0
+  0 0.5 -0.1 0 0 0 1 1 1
+  81 0 0 0 0
+  0 0.4634666 0 0 0 0 1 1 1
+  82 0 0 0 0
+  0 1.1 0 0 0 0 1 1 1
+  83 0 0 0 0
+  0 0.4 0 0 0 0 1 1 1
+  85 0 0 0 0
+  0 0.4 0 0 0 0 1 1 1
+  135 0 0 0 0
+  0 0.4 0 0 0 0 1 1 1
+  174 0 0 0 0
+  0 0.4 0 0 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 4
+ObjDissolve (envelope)
+  1
+  4
+  1
+  0 0 0 0 0
+  1
+  64 0 0 0 0
+  0.9899999
+  65 0 0 0 0
+  0
+  81 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Vehicles\Hoverboard\HOVER_top_standard.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 10
+ObjDissolve (envelope)
+  1
+  4
+  1
+  0 0 0 0 0
+  1
+  59 0 0 0 0
+  0.9999999
+  60 0 0 0 0
+  0
+  80 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject dust null
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  14
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  13 0 0 0 0
+  0 0.4000007 0 0 0 0 1 1 1
+  55 0 0 0 0
+  0 4.773615 0 0 0 0 1 1 1
+  75 0 0 0 0
+  0 4.699999 0 0 0 0 1 1 1
+  81 0 0 0 0
+  0 4.700001 0 0 0 0 1 1 1
+  104 1 0 0 0
+  0 7.999999 0 0 0 0 1 1 1
+  105 1 0 0 0
+  0 8.540005 0 -61.2 0 0 1 1 1
+  106 0 0 0 0
+  0 8.580921 0 -61.2 0 0 1 1 1
+  140 1 0 0 0
+  0 8.275382 0 -61.2 0 0 1 1 1
+  141 0 0 0 0
+  0 -4.44 0 -61.2 0 0 1 1 1
+  143 0 0 0 0
+  0 -4.739999 0 -61.2 0 0 1 1 1
+  166 0 0 0 0
+  0 -4.739999 0 -61.2 0 0 1 1 1
+  170 0 0 0 0
+  0 -4.739999 0 -61.2 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 -2.8 0 0 0 0 -3.72529e-009 1 0
+  0 0 0 0 0
+  0 -2.8 0 0 0 0 -3.72529e-009 1 0.116
+  76 1 0 0 0
+  0 -2.8 0 0 0 0 0.684 1 0.4960001
+  81 1 0 0 0
+  0 -2.8 0 0 0 0 1.756 1 0.9460001
+  94 1 0 0 0
+  0 -2.8 0 0 0 0 0 1 0
+  95 1 0 0 0
+  0 -2.8 0 0 0 0 -3.72529e-009 1 0.116
+  119 1 0 0 0
+  0 -2.8 0 0 0 0 -3.72529e-009 1 0.116
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 133
+ParentObject 12
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust2.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 -2.8 0 -90 0 0 -0.1648568 1 -0.09396463
+  0 0 0 0 0
+  0 -2.8 0 -90 0 0 -3.72529e-009 1 0.116
+  81 1 0 0 0
+  0 -2.8 0 -90 0 0 0.8159999 1 0.5239999
+  86 1 0 0 0
+  0 -2.8 0 -90 0 0 1.772 1 1.01
+  99 1 0 0 0
+  0 -2.8 0 -90 0 0 0 1 0
+  100 1 0 0 0
+  0 -2.8 0 -90 0 0 -3.72529e-009 1 0.116
+  119 1 0 0 0
+  0 -2.8 0 -90 0 0 -3.72529e-009 1 0.116
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 179
+ParentObject 12
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust3.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 -2.8 0 -180 0 0 -0.13682 1 0
+  0 0 0 0 0
+  0 -2.8 0 -180 0 0 -3.72529e-009 1 0.116
+  78 1 0 0 0
+  0 -2.8 0 -180 0 0 1.471999 1 1.147999
+  83 1 0 0 0
+  0 -2.8 0 -180 0 0 1.896 1 1.478
+  98 1 0 0 0
+  0 -2.8 0 -180 0 0 0 1 0
+  99 0 0 0 0
+  0 -2.8 0 -180 0 0 -3.72529e-009 1 0
+  119 1 0 0 0
+  0 -2.8 0 -180 0 0 -3.72529e-009 1 0
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 179
+ParentObject 12
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust4.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 -2.8 0 -270 0 0 -0.1804865 1 0.8485757
+  0 0 0 0 0
+  0 -2.8 0 -270 0 0 -3.72529e-009 1 0.116
+  79 1 0 0 0
+  0 -2.8 0 -270 0 0 1 1 1
+  84 1 0 0 0
+  0 -2.8 0 -270 0 0 1.94 1 1.214001
+  97 1 0 0 0
+  0 -2.8 0 -270 0 0 0 1 0
+  98 1 0 0 0
+  0 -2.8 0 -270 0 0 -3.72529e-009 1 0.116
+  119 1 0 0 0
+  0 -2.8 0 -270 0 0 -3.72529e-009 1 0.116
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 179
+ParentObject 12
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 -2.7 0 135 0 0 -0.1633682 1 0.002847467
+  0 0 0 0 0
+  0 -2.7 0 135 0 0 -3.72529e-009 1 0.116
+  76 1 0 0 0
+  0 -2.7 0 135 0 0 0.684 1 0.4960001
+  81 1 0 0 0
+  0 -2.7 0 135 0 0 1.756 1 0.9460001
+  94 1 0 0 0
+  0 -2.7 0 135 0 0 0 1 0
+  95 1 0 0 0
+  0 -2.7 0 135 0 0 -3.72529e-009 1 0.116
+  120 1 0 0 0
+  0 -2.7 0 135 0 0 -3.72529e-009 1 0.116
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 179
+ParentObject 12
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust3.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 -2.7 0 -45 0 0 -0.07005186 1 0
+  0 0 0 0 0
+  0 -2.7 0 -45 0 0 -3.72529e-009 1 0.116
+  78 1 0 0 0
+  0 -2.7 0 -45 0 0 1.471999 1 1.147999
+  83 1 0 0 0
+  0 -2.7 0 -45 0 0 1.896 1 1.478
+  98 1 0 0 0
+  0 -2.7 0 -45 0 0 0 1 0
+  99 0 0 0 0
+  0 -2.7 0 -45 0 0 0 1 0
+  100 1 0 0 0
+  0 -2.7 0 -45 0 0 0 1 0
+  112 1 0 0 0
+  0 -2.7 0 -45 0 0 0 1 0
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 179
+ParentObject 12
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust2.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 -2.7 0 45 0 0 0.09599816 1 -0.0872943
+  0 0 0 0 0
+  0 -2.7 0 45 0 0 -3.72529e-009 1 0.116
+  81 1 0 0 0
+  0 -2.7 0 45 0 0 0.8159999 1 0.5239999
+  86 1 0 0 0
+  0 -2.7 0 45 0 0 1.772 1 1.01
+  99 1 0 0 0
+  0 -2.7 0 45 0 0 0 1 0
+  100 1 0 0 0
+  0 -2.7 0 45 0 0 0 1 0
+  118 1 0 0 0
+  0 -2.7 0 45 0 0 0 1 0
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 179
+ParentObject 12
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust4.lwo
+ShowObject 5 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 -2.7 0 -135 0 0 -0.1800503 1 -0.1270407
+  0 0 0 0 0
+  0 -2.7 0 -135 0 0 -3.72529e-009 1 0.116
+  79 1 0 0 0
+  0 -2.7 0 -135 0 0 1 1 1
+  84 1 0 0 0
+  0 -2.7 0 -135 0 0 1.94 1 1.214001
+  97 1 0 0 0
+  0 -2.7 0 -135 0 0 0 1 0
+  98 1 0 0 0
+  0 -2.7 0 -135 0 0 0 1 0
+  122 1 0 0 0
+  0 -2.7 0 -135 0 0 0 1 0
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 179
+ParentObject 12
+ShadowOptions 7
+
+AddNullObject **Effect Parent Null**
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 0.7 1 0.7
+  0 0 0 0 0
+  0 0 0 0 0 0 0.7 1 0.7
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 373
+ShadowOptions 7
+
+AddNullObject rotate NULL
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 90 0 0 1 1 1
+  25 0 0 0 0
+  0 0 0 180 0 0 1 1 1
+  50 0 0 0 0
+  0 0 0 270 0 0 1 1 1
+  75 0 0 0 0
+  0 0 0 360 0 0 1 1 1
+  100 0 0 0 0
+  0 0 0 450.1758 0 0 1 1 1
+  125 0 0 0 0
+  0 0 0 540.4036 0 0 1 1 1
+  150 0 0 0 0
+  0 0 0 630.625 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 368
+ParentObject 21
+ShadowOptions 7
+
+AddNullObject second size NULL
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  5
+  -0.9 0 1.5 0 0 0 1.206138 0.5688317 1.206138
+  0 0 0 0 0
+  -0.9 0 1.5 0 0 0 1.206138 0.5688317 1.206138
+  10 0 0 0 0
+  -0.9 0.0134486 1.5 0 0 0 1.68197 0.1717658 1.68197
+  60 0 0 0 0
+  -0.9000002 -1.032794 1.5 0 0 0 1.318466 0.4647898 1.318466
+  175 0 0 0 0
+  -0.9000003 -1.47096 1.5 0 0 0 1.13729 0.6116666 1.13729
+  220 0 0 0 0
+EndBehavior 1
+LockedChannels 325
+PivotPoint -0.49 0 1.36
+ParentObject 25
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 -13.5 0 0 0 0.9 0.9 0.9
+  0 0 0 0 0
+  0 0 -13.5 0 0 0 0.9 0.9 0.9
+  175 0 0 0 0
+  0 0 -13.5 0 0 0 0.9 0.9 0.9
+  220 0 0 0 0
+EndBehavior 1
+LockedChannels 387
+ParentObject 23
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  20 1 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+AddNullObject Size_NULL
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 34.85 0 0 0 0 0 20 0
+  0 0 0 0 0
+  0 0.02500085 0 0 0 0 0.5 8 0.5
+  10 0 0 0 0
+  0 0 0 0 0 0 1.4 4 1.4
+  20 0 0 0 0
+  0 0 0 0 0 0 1.4 4 1.4
+  135 1 0 0 0
+  0 0.1890799 0 0 0 0 2.351656 0.1536327 2.351656
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 325
+ParentObject 22
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\TelePDown\flare.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 0 0 0 0 0 0.007999968 0.007999968 0.007999968
+  0 0 0 0 0
+  0 3 0 0 0 0 0.8790826 0.570281 0.8790826
+  10 0 0 0 0
+  0 3 0 0 0 0 2.099998 1.577973 2.100208
+  20 0 0 0 0
+  0 3 0 0 0 0 2.998241 1.916353 2.992736
+  59 0 0 0 0
+  0 0.8385093 4.322981 0 0 0 1.603905 0.5363471 1.527435
+  175 0 0 0 0
+  0 0 6 0 0 0 1.062999 0.001 0.9589994
+  220 1 0 0 0
+EndBehavior 1
+LockedChannels 5
+ObjDissolve (envelope)
+  1
+  4
+  1
+  0 0 0 0 0
+  1
+  9 0 0 0 0
+  0.1
+  10 1 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 13.5 0 0 0 0.9 0.9 0.9
+  0 0 0 0 0
+  0 0 13.5 0 0 0 0.9 0.9 0.9
+  175 0 0 0 0
+  0 0 13.5 0 0 0 0.9 0.9 0.9
+  220 0 0 0 0
+EndBehavior 1
+LockedChannels 387
+ParentObject 23
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  20 1 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  3
+  11.6 0 6.5 60.00002 0 0 0.9 0.9 0.9
+  0 0 0 0 0
+  11.6 0 6.5 60.00002 0 0 0.9 0.9 0.9
+  175 0 0 0 0
+  11.6 0 6.5 60.00002 0 0 0.9 0.9 0.9
+  220 0 0 0 0
+EndBehavior 1
+LockedChannels 432
+ParentObject 23
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  20 1 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  3
+  11.6 0 -6.5 -60.00004 0 0 0.9 0.9 0.9
+  0 0 0 0 0
+  11.6 0 -6.5 -60.00004 0 0 0.9 0.9 0.9
+  175 0 0 0 0
+  11.6 0 -6.5 -60.00004 0 0 0.9 0.9 0.9
+  220 0 0 0 0
+EndBehavior 1
+LockedChannels 432
+ParentObject 23
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  20 1 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  3
+  -11.6 0 -6.5 60.00003 0 0 0.9 0.9 0.9
+  0 0 0 0 0
+  -11.6 0 -6.5 60.00003 0 0 0.9 0.9 0.9
+  175 0 0 0 0
+  -11.6 0 -6.5 60.00003 0 0 0.9 0.9 0.9
+  220 0 0 0 0
+EndBehavior 1
+LockedChannels 432
+ParentObject 23
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  20 1 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  3
+  -11.6 0 6.5 -60.00001 0 0 0.9 0.9 0.9
+  0 0 0 0 0
+  -11.6 0 6.5 -60.00001 0 0 0.9 0.9 0.9
+  175 0 0 0 0
+  -11.6 0 6.5 -60.00001 0 0 0.9 0.9 0.9
+  220 0 0 0 0
+EndBehavior 1
+LockedChannels 432
+ParentObject 23
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  20 1 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 -13.5 0 0 0 0.9 0.9 0.9
+  0 0 0 0 0
+  0 0 -13.5 0 0 0 0.9 0.9 0.9
+  175 0 0 0 0
+  0 0 -13.5 0 0 0 0.9 0.9 0.9
+  220 0 0 0 0
+EndBehavior 1
+LockedChannels 387
+ParentObject 25
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  125 1 0 0 0
+  1
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 13.5 0 0 0 0.9 0.9 0.9
+  0 0 0 0 0
+  0 0 13.5 0 0 0 0.9 0.9 0.9
+  175 0 0 0 0
+  0 0 13.5 0 0 0 0.9 0.9 0.9
+  220 0 0 0 0
+EndBehavior 1
+LockedChannels 387
+ParentObject 25
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  125 1 0 0 0
+  1
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  3
+  11.6 0 6.5 60.00002 0 0 0.9 0.9 0.9
+  0 0 0 0 0
+  11.6 0 6.5 60.00002 0 0 0.9 0.9 0.9
+  175 0 0 0 0
+  11.6 0 6.5 60.00002 0 0 0.9 0.9 0.9
+  220 0 0 0 0
+EndBehavior 1
+LockedChannels 432
+ParentObject 25
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  125 1 0 0 0
+  1
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  3
+  11.6 0 -6.5 -60.00004 0 0 0.9 0.9 0.9
+  0 0 0 0 0
+  11.6 0 -6.5 -60.00004 0 0 0.9 0.9 0.9
+  175 0 0 0 0
+  11.6 0 -6.5 -60.00004 0 0 0.9 0.9 0.9
+  220 0 0 0 0
+EndBehavior 1
+LockedChannels 432
+ParentObject 25
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  125 1 0 0 0
+  1
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  3
+  -11.6 0 -6.5 60.00003 0 0 0.9 0.9 0.9
+  0 0 0 0 0
+  -11.6 0 -6.5 60.00003 0 0 0.9 0.9 0.9
+  175 0 0 0 0
+  -11.6 0 -6.5 60.00003 0 0 0.9 0.9 0.9
+  220 0 0 0 0
+EndBehavior 1
+LockedChannels 432
+ParentObject 25
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  125 1 0 0 0
+  1
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  4
+  -12.24852 0 7.86597 -60.00001 0 0 0.75 0.9 0.75
+  0 0 0 0 0
+  -11.6 0 6.5 -60.00001 0 0 0.9 0.9 0.9
+  50 0 0 0 0
+  -12.04344 0 7.434013 -60.00001 0 0 0.7974341 0.9 0.7974341
+  175 0 0 0 0
+  -12.24852 0 7.86597 -60.00001 0 0 0.75 0.9 0.75
+  220 0 0 0 0
+EndBehavior 1
+LockedChannels 432
+ParentObject 25
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  125 1 0 0 0
+  1
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+AddNullObject Position_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 39
+ShadowOptions 7
+
+AddNullObject Parent_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  12
+  0 157.7002 -0.2 0 0 0 1 1 1
+  0 0 0 0 0
+  0 157.7002 -0.2 216.0001 0 0 1 1 1
+  27 0 0 0 0
+  0 157.7002 -0.2 224 0 0 1 1 1
+  28 0 0 0 0
+  -6.199999 -2.099832 8.799996 528.0001 0 0 1 1 1
+  84 0 0 0 0
+  -6.4 -5.599831 8.999997 543.9999 0 0 1 1 1
+  87 0 0 0 0
+  -6.6 -6.999829 8.499994 552 0 0 1 1 1
+  88 0 0 0 0
+  0 147.6002 -15.5 559.9999 0 0 1 1 1
+  89 0 0 0 0
+  0 146.2001 -14.6 568 0 0 1 1 1
+  90 0 0 0 0
+  0 -4.699814 -5.199998 872.0001 0 0 1 1 1
+  156 0 0 0 0
+  0 -4.699814 -5.199998 872 0 0 1 1 1
+  157 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  174 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 39
+ObjDissolve (envelope)
+  1
+  14
+  1
+  0 0 0 0 0
+  1
+  27 0 0 0 0
+  1
+  28 0 0 0 0
+  0.236
+  57 0 0 0 0
+  0
+  84 0 0 0 0
+  0
+  85 0 0 0 0
+  1
+  86 0 0 0 0
+  1
+  87 0 0 0 0
+  1
+  92 0 0 0 0
+  0.208
+  129 0 0 0 0
+  0.064
+  143 0 0 0 0
+  0
+  158 0 0 0 0
+  0
+  159 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 -12.2 -0.2999997 -705.45 0 0 1.5 1.5 1.5
+  46 0 0 0 0
+  0 -12.2 -0.2999997 -720.45 0 0 1.5 1.5 1.5
+  47 0 0 0 0
+  0 -12.2 -0.2999997 -738.4498 0 0 1.5 1.5 1.5
+  48 0 0 0 0
+  10.8 127 6.400001 -756.4497 0 0 1.5 1.5 1.5
+  49 0 0 0 0
+  10.8 123 6.399998 -774.4495 0 0 1.5 1.5 1.5
+  50 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
+  113 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
+  114 0 0 0 0
+  15.28 128.6 2.6 -1584.45 0 0 1.5 1.5 1.5
+  115 0 0 0 0
+  15.36 126 2.639999 -1614.45 0 0 1.5 1.5 1.5
+  116 0 0 0 0
+  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 39
+ObjDissolve (envelope)
+  1
+  15
+  1
+  0 0 0 0 0
+  0
+  44 0 0 0 0
+  0
+  45 0 0 0 0
+  1
+  46 0 0 0 0
+  1
+  47 0 0 0 0
+  1
+  53 0 0 0 0
+  1
+  54 0 0 0 0
+  0.304
+  84 0 0 0 0
+  0
+  111 0 0 0 0
+  0
+  112 0 0 0 0
+  1
+  113 0 0 0 0
+  1
+  114 0 0 0 0
+  1
+  119 0 0 0 0
+  1
+  120 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint3.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 126.2 -6.000006 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  48 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  49 0 0 0 0
+  0 149.5001 15.5 440.8 0 0 1 1 1
+  50 0 0 0 0
+  0 149.5001 15.5 448.8 0 0 1 1 1
+  51 0 0 0 0
+  0 -2.699942 17.3 836.7996 0 0 1 1 1
+  103 0 0 0 0
+  0 -3.899941 17.5 832.7997 0 0 1 1 1
+  104 0 0 0 0
+  0 111.6001 -20.3 8.799994 0 0 1 1 1
+  105 0 0 0 0
+  0 111.6001 -20.3 -3.200016 0 0 1 1 1
+  106 0 0 0 0
+  0 -4.599904 -16.1 428.8 0 0 1 1 1
+  159 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  160 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  174 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 39
+ObjDissolve (envelope)
+  1
+  20
+  1
+  0 0 0 0 0
+  1
+  6 0 0 0 0
+  1
+  7 0 0 0 0
+  0.256
+  32 0 0 0 0
+  0
+  48 0 0 0 0
+  0
+  49 0 0 0 0
+  1
+  50 0 0 0 0
+  1
+  51 0 0 0 0
+  1
+  55 0 0 0 0
+  1
+  56 0 0 0 0
+  0.196
+  88 0 0 0 0
+  0
+  102 0 0 0 0
+  0
+  103 0 0 0 0
+  1
+  104 0 0 0 0
+  1
+  105 0 0 0 0
+  1
+  110 0 0 0 0
+  1
+  111 0 0 0 0
+  0.228
+  146 0 0 0 0
+  0.064
+  161 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint4.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  -12 117.4 -0.3 0 0 0 1.3 1.3 1.3
+  0 0 0 0 0
+  -12 -12.2 -0.2249998 -470.3 0 0 1.3 1.3 1.3
+  66 0 0 0 0
+  -12 -12.2 -0.2249998 -480.3 0 0 1.3 1.3 1.3
+  67 0 0 0 0
+  -12 -12.2 -0.2249998 -492.2999 0 0 1.3 1.3 1.3
+  68 0 0 0 0
+  11.64 127 3.900002 -504.2998 0 0 1.3 1.3 1.3
+  69 0 0 0 0
+  11.74001 123 4.099998 -516.2997 0 0 1.3 1.3 1.3
+  70 0 0 0 0
+  12.444 -12.2 3.8 -1036.3 0 0 1.3 1.3 1.3
+  133 0 0 0 0
+  12.74401 -12.2 4 -1036.3 0 0 1.3 1.3 1.3
+  134 0 0 0 0
+  2.252979 128.6 12.98539 -1056.3 0 0 1.3 1.3 1.3
+  135 0 0 0 0
+  2.252979 128.6 12.98539 -1056.3 0 0 1.3 1.3 1.3
+  136 0 0 0 0
+  3.868003 -1.699999 12.98001 -1406.3 0 0 1.3 1.3 1.3
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 39
+ObjDissolve (envelope)
+  1
+  14
+  1
+  0 0 0 0 0
+  0
+  61 0 0 0 0
+  0
+  62 0 0 0 0
+  1
+  63 0 0 0 0
+  1
+  64 0 0 0 0
+  1
+  70 0 0 0 0
+  1
+  71 0 0 0 0
+  0
+  128 0 0 0 0
+  0
+  129 0 0 0 0
+  1
+  130 0 0 0 0
+  1
+  131 0 0 0 0
+  1
+  140 0 0 0 0
+  1
+  141 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint5.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  10.8 150.1 4.399998 0 0 0 1 1 1
+  0 0 0 0 0
+  10.2 110.4 4.5 -172 0 0 1 1 1
+  20 0 0 0 0
+  10.5 -4.199985 3.4 -380.0001 0 0 1 1 1
+  62 0 0 0 0
+  10 -10.09998 3.600001 -392.0001 0 0 1 1 1
+  64 0 0 0 0
+  9.899998 -10.09998 3.7 -392.0001 0 0 1 1 1
+  65 0 0 0 0
+  3.299999 124.6 -11.1 -400.0001 0 0 1 1 1
+  66 0 0 0 0
+  3.5 124.6 -10.9 -404.0001 0 0 1 1 1
+  67 0 0 0 0
+  3.2 -7.299978 -10.1 -696.0001 0 0 1 1 1
+  139 0 0 0 0
+  4.5 -10.09998 -9.999997 -704 0 0 1 1 1
+  141 0 0 0 0
+  3.4 -10.09998 -9.900001 -720.0001 0 0 1 1 1
+  142 0 0 0 0
+  -8.000001 116.8 0.9000006 -720.0001 0 0 1 1 1
+  143 0 0 0 0
+  -8.200002 116.8 0.3999999 -720 0 0 1 1 1
+  144 0 0 0 0
+  -8.3 30.90002 0.1000016 -860 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 39
+ObjDissolve (envelope)
+  1
+  14
+  1
+  0 0 0 0 0
+  0
+  61 0 0 0 0
+  0
+  62 0 0 0 0
+  1
+  63 0 0 0 0
+  1
+  64 0 0 0 0
+  1
+  72 0 0 0 0
+  1
+  73 0 0 0 0
+  0
+  135 0 0 0 0
+  0
+  136 0 0 0 0
+  1
+  137 0 0 0 0
+  1
+  138 0 0 0 0
+  1
+  147 0 0 0 0
+  1
+  148 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint6.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  10 117.4 0.3 0 0 0 1.3 1.63 1.3
+  0 0 0 0 0
+  10 116.992 0.2685138 0 0 0 1.3 1.63 1.3
+  23 0 0 0 0
+  10 115.4848 0.2676415 0 0 0 1.3 1.63 1.3
+  24 0 0 0 0
+  10 -12.2 0.2249998 -470.3 0 0 1.3 1.63 1.3
+  86 0 0 0 0
+  10 -12.2 0.2249998 -480.3 0 0 1.3 1.63 1.3
+  87 0 0 0 0
+  10 -12.2 0.2249998 -492.2999 0 0 1.3 1.63 1.3
+  88 0 0 0 0
+  20.8 127 -4.800001 -504.2998 0 0 1.3 1.63 1.3
+  89 0 0 0 0
+  20.8 123 -4.799999 -516.2997 0 0 1.3 1.63 1.3
+  90 0 0 0 0
+  20.88 -12.2 -4.799999 -1036.3 0 0 1.3 1.63 1.3
+  153 0 0 0 0
+  20.88 -12.2 -4.799999 -1036.3 0 0 1.3 1.63 1.3
+  154 0 0 0 0
+  3.079996 128.6 12.95 -1056.3 0 0 1.3 1.63 1.3
+  155 0 0 0 0
+  2.860003 126 13.12001 -1076.3 0 0 1.3 1.63 1.3
+  156 0 0 0 0
+  3.316498 83.08528 12.65727 -1238.511 0 0 1.3 1.63 1.3
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 39
+ObjDissolve (envelope)
+  1
+  16
+  1
+  0 0 0 0 0
+  1
+  24 0 0 0 0
+  1
+  25 0 0 0 0
+  0
+  83 0 0 0 0
+  0
+  84 0 0 0 0
+  1
+  85 0 0 0 0
+  1
+  86 0 0 0 0
+  1
+  95 0 0 0 0
+  1
+  96 0 0 0 0
+  0
+  149 0 0 0 0
+  0
+  150 0 0 0 0
+  1
+  151 0 0 0 0
+  1
+  152 0 0 0 0
+  1
+  157 0 0 0 0
+  1
+  158 0 0 0 0
+  1
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint7.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  -1 150.1 -4.900001 0 0 0 1 1 1
+  0 0 0 0 0
+  -1 110.4 -6.5 -172 0 0 1 1 1
+  20 0 0 0 0
+  -1 -4.199985 -6.799999 -380.0001 0 0 1 1 1
+  62 0 0 0 0
+  -1 -10.09998 -6.999999 -392.0001 0 0 1 1 1
+  64 0 0 0 0
+  -1 -10.09998 -6.999999 -392.0001 0 0 1 1 1
+  65 0 0 0 0
+  -8 124.6 6.9 -400.0001 0 0 1 1 1
+  66 0 0 0 0
+  -8 124.6 6.9 -404.0001 0 0 1 1 1
+  67 0 0 0 0
+  -8 -7.299978 6.6 -696.0001 0 0 1 1 1
+  139 0 0 0 0
+  -8 -10.09998 7.300001 -704 0 0 1 1 1
+  141 0 0 0 0
+  -8 -10.09998 7.300001 -720.0001 0 0 1 1 1
+  142 0 0 0 0
+  1.199999 116.8 6.400001 -720.0001 0 0 1 1 1
+  143 0 0 0 0
+  1.199999 116.8 6.400001 -720 0 0 1 1 1
+  144 0 0 0 0
+  1.199999 30.90002 9.7 -860 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 39
+ObjDissolve (envelope)
+  1
+  14
+  1
+  0 0 0 0 0
+  0
+  61 0 0 0 0
+  0
+  62 0 0 0 0
+  1
+  63 0 0 0 0
+  1
+  64 0 0 0 0
+  1
+  72 0 0 0 0
+  1
+  73 0 0 0 0
+  0
+  135 0 0 0 0
+  0
+  136 0 0 0 0
+  1
+  137 0 0 0 0
+  1
+  138 0 0 0 0
+  1
+  147 0 0 0 0
+  1
+  148 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Deposit_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 39
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  0 117.4 -0.4 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -12.2 -0.2999997 -705.45 0 0 1 1 1
+  47 0 0 0 0
+  0 -12.2 -0.2999997 -720.45 0 0 1 1 1
+  48 0 0 0 0
+  0 -12.2 -0.2999997 -738.4498 0 0 1 1 1
+  49 0 0 0 0
+  10.8 127 6.400001 -756.4497 0 0 1 1 1
+  50 0 0 0 0
+  10.8 123 6.399998 -774.4495 0 0 1 1 1
+  51 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1 1 1
+  114 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1 1 1
+  115 0 0 0 0
+  15.28 128.6 2.6 -1584.45 0 0 1 1 1
+  116 0 0 0 0
+  15.36 126 2.639999 -1614.45 0 0 1 1 1
+  117 0 0 0 0
+  15.39079 -5 2.69047 -2481.464 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 49
+ObjDissolve (envelope)
+  1
+  15
+  1
+  0 0 0 0 0
+  0
+  44 0 0 0 0
+  0
+  45 0 0 0 0
+  1
+  46 0 0 0 0
+  1
+  47 0 0 0 0
+  1
+  53 0 0 0 0
+  1
+  54 0 0 0 0
+  0.304
+  84 0 0 0 0
+  0
+  111 0 0 0 0
+  0
+  112 0 0 0 0
+  1
+  113 0 0 0 0
+  1
+  114 0 0 0 0
+  1
+  119 0 0 0 0
+  1
+  120 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  10
+  -4.487103 17.10001 15.05019 -255.7999 0 0 1 1 1
+  0 0 0 0 0
+  0 2.1 14.1 -255.7999 0 0 1 1 1
+  48 0 0 0 0
+  0 2.1 14.1 -255.7999 0 0 1 1 1
+  49 0 0 0 0
+  0 0 0 -122.0998 0 0 1 1 1
+  50 0 0 0 0
+  0 0 0 -122.0998 0 0 1 1 1
+  51 0 0 0 0
+  0 0 0 -122.0998 0 0 1 1 1
+  114 0 0 0 0
+  0 0 0 -122.0998 0 0 1 1 1
+  115 0 0 0 0
+  -9.404248 0 15.14134 -86.79971 0 0 1 1 1
+  116 0 0 0 0
+  -9.404248 0 15.14134 -86.79971 0 0 1 1 1
+  117 0 0 0 0
+  -9.404248 0 15.14134 -86.79971 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 39
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  -4.6 117.4 7.2 0 0 0 1 1 1
+  0 0 0 0 0
+  -5.400002 -12.2 7.524998 -470.3 0 0 1 1 1
+  66 0 0 0 0
+  -5 -12.2 7.225001 -480.3 0 0 1 1 1
+  67 0 0 0 0
+  -5.5 -12.2 7.624999 -492.2999 0 0 1 1 1
+  68 0 0 0 0
+  -20.8 127 -4.800001 -504.2998 0 0 1 1 1
+  69 0 0 0 0
+  -20.8 123 -4.799999 -516.2997 0 0 1 1 1
+  70 0 0 0 0
+  -20.88 -12.2 -4.799999 -1036.3 0 0 1 1 1
+  133 0 0 0 0
+  -20.88 -12.2 -4.799999 -1036.3 0 0 1 1 1
+  134 0 0 0 0
+  -25.28 128.6 -1.95 -1056.3 0 0 1 1 1
+  135 0 0 0 0
+  -25.36 126 -1.979999 -1076.3 0 0 1 1 1
+  136 0 0 0 0
+  -25.36 38 -1.979999 -1406.3 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 51
+ObjDissolve (envelope)
+  1
+  18
+  1
+  0 0 0 0 0
+  1
+  4 0 0 0 0
+  1
+  5 0 0 0 0
+  0.288
+  30 0 0 0 0
+  0
+  63 0 0 0 0
+  0
+  64 0 0 0 0
+  1
+  65 0 0 0 0
+  1
+  66 0 0 0 0
+  1
+  74 0 0 0 0
+  1
+  75 0 0 0 0
+  0.472
+  96 0 0 0 0
+  0
+  130 0 0 0 0
+  0
+  131 0 0 0 0
+  1
+  132 0 0 0 0
+  1
+  133 0 0 0 0
+  1
+  143 0 0 0 0
+  1
+  144 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  67 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  68 0 0 0 0
+  0 0 0 97.19999 0 0 1 1 1
+  69 0 0 0 0
+  0 0 0 97.19999 0 0 1 1 1
+  70 0 0 0 0
+  0 0 0 97.19999 0 0 1 1 1
+  133 0 0 0 0
+  0 0 0 97.19999 0 0 1 1 1
+  134 0 0 0 0
+  16.43299 0 22.2094 -38.1 0 0 1 1 1
+  135 0 0 0 0
+  16.43299 0 22.2094 -38.1 0 0 1 1 1
+  136 0 0 0 0
+  16.43299 0 22.2094 -38.1 0 0 1 1 1
+  174 0 0 0 0
+  16.43299 0 22.2094 -38.1 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 2096
+ParentObject 39
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint3.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  14
+  0 158.2 -6.000006 0 0 0 1 1 1
+  0 0 0 0 0
+  0 106.2574 -5.84307 134.5875 0 0 1 1 1
+  14 0 0 0 0
+  0 103.2574 -5.84307 134.5875 0 0 1 1 1
+  15 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  48 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  49 0 0 0 0
+  0 149.5001 15.5 440.8 0 0 1 1 1
+  50 0 0 0 0
+  0 149.5001 15.5 448.8 0 0 1 1 1
+  51 0 0 0 0
+  0 -2.699942 17.3 836.7996 0 0 1 1 1
+  103 0 0 0 0
+  0 -3.899941 17.5 832.7997 0 0 1 1 1
+  104 0 0 0 0
+  0 111.6001 -20.3 8.799994 0 0 1 1 1
+  105 0 0 0 0
+  0 111.6001 -20.3 -3.200016 0 0 1 1 1
+  106 0 0 0 0
+  0 -4.599904 -16.1 428.8 0 0 1 1 1
+  159 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  160 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 53
+ObjDissolve (envelope)
+  1
+  20
+  1
+  0 0 0 0 0
+  1
+  6 0 0 0 0
+  1
+  7 0 0 0 0
+  0.256
+  32 0 0 0 0
+  0
+  48 0 0 0 0
+  0
+  49 0 0 0 0
+  1
+  50 0 0 0 0
+  1
+  51 0 0 0 0
+  1
+  55 0 0 0 0
+  1
+  56 0 0 0 0
+  0.196
+  88 0 0 0 0
+  0
+  102 0 0 0 0
+  0
+  103 0 0 0 0
+  1
+  104 0 0 0 0
+  1
+  105 0 0 0 0
+  1
+  110 0 0 0 0
+  1
+  111 0 0 0 0
+  0.228
+  146 0 0 0 0
+  0.064
+  161 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  10
+  1.999168 0 3.516152 184 0 0 1 1 1
+  0 0 0 0 0
+  1.999168 0 3.516152 184 0 0 1 1 1
+  48 0 0 0 0
+  1.999168 0 3.516152 184 0 0 1 1 1
+  49 0 0 0 0
+  5.8509 0 7.424507 184 0 0 1 1 1
+  50 0 0 0 0
+  5.8509 0 7.424507 184 0 0 1 1 1
+  51 0 0 0 0
+  5.8509 0 7.424507 184 0 0 1 1 1
+  103 0 0 0 0
+  5.8509 0 7.424507 184 0 0 1 1 1
+  104 0 0 0 0
+  10.73436 0 -9.799075 184 0 0 1 1 1
+  105 0 0 0 0
+  10.73436 0 -9.799075 184 0 0 1 1 1
+  106 0 0 0 0
+  10.73436 0 -9.799075 184 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 39
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint3.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 126.2 -6.000006 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  48 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  49 0 0 0 0
+  0 149.5001 15.5 440.8 0 0 1 1 1
+  50 0 0 0 0
+  0 149.5001 15.5 448.8 0 0 1 1 1
+  51 0 0 0 0
+  0 -2.699942 17.3 836.7996 0 0 1 1 1
+  103 0 0 0 0
+  0 -3.899941 17.5 832.7997 0 0 1 1 1
+  104 0 0 0 0
+  0 111.6001 -20.3 8.799994 0 0 1 1 1
+  105 0 0 0 0
+  0 111.6001 -20.3 -3.200016 0 0 1 1 1
+  106 0 0 0 0
+  0 -4.599904 -16.1 428.8 0 0 1 1 1
+  159 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  160 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  174 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 55
+ObjDissolve (envelope)
+  1
+  20
+  1
+  0 0 0 0 0
+  1
+  6 0 0 0 0
+  1
+  7 0 0 0 0
+  0.256
+  32 0 0 0 0
+  0
+  43 0 0 0 0
+  0
+  44 0 0 0 0
+  1
+  45 0 0 0 0
+  1
+  46 0 0 0 0
+  1
+  55 0 0 0 0
+  1
+  56 0 0 0 0
+  0.196
+  88 0 0 0 0
+  0
+  102 0 0 0 0
+  0
+  103 0 0 0 0
+  1
+  104 0 0 0 0
+  1
+  105 0 0 0 0
+  1
+  110 0 0 0 0
+  1
+  111 0 0 0 0
+  0.228
+  146 0 0 0 0
+  0.064
+  161 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  0 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  48 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  49 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  50 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  51 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  103 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  104 0 0 0 0
+  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
+  105 0 0 0 0
+  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
+  106 0 0 0 0
+  5.773265 5.799998 -3.351105 80.00002 -0.2 0 1 1 1
+  158 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  163 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  164 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 39
+ShadowOptions 7
+
+AddNullObject Position_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 57
+ShadowOptions 7
+
+AddNullObject Parent_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 180 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 180 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 39
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  12
+  0 157.7002 -0.2 0 0 0 1 1 1
+  0 0 0 0 0
+  0 157.7002 -0.2 216.0001 0 0 1 1 1
+  27 0 0 0 0
+  0 157.7002 -0.2 224 0 0 1 1 1
+  28 0 0 0 0
+  -6.199999 -2.099832 8.799996 528.0001 0 0 1 1 1
+  84 0 0 0 0
+  -6.4 -5.599831 8.999997 543.9999 0 0 1 1 1
+  87 0 0 0 0
+  -6.6 -6.999829 8.499994 552 0 0 1 1 1
+  88 0 0 0 0
+  0 147.6002 -15.5 559.9999 0 0 1 1 1
+  89 0 0 0 0
+  0 146.2001 -14.6 568 0 0 1 1 1
+  90 0 0 0 0
+  0 -4.699814 -5.199998 872.0001 0 0 1 1 1
+  156 0 0 0 0
+  0 -4.699814 -5.199998 872 0 0 1 1 1
+  157 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  174 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 57
+ObjDissolve (envelope)
+  1
+  14
+  1
+  0 0 0 0 0
+  1
+  27 0 0 0 0
+  1
+  28 0 0 0 0
+  0.236
+  57 0 0 0 0
+  0
+  84 0 0 0 0
+  0
+  85 0 0 0 0
+  1
+  86 0 0 0 0
+  1
+  87 0 0 0 0
+  1
+  92 0 0 0 0
+  0.208
+  129 0 0 0 0
+  0.064
+  143 0 0 0 0
+  0
+  158 0 0 0 0
+  0
+  159 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 -12.2 -0.2999997 -705.45 0 0 1.5 1.5 1.5
+  46 0 0 0 0
+  0 -12.2 -0.2999997 -720.45 0 0 1.5 1.5 1.5
+  47 0 0 0 0
+  0 -12.2 -0.2999997 -738.4498 0 0 1.5 1.5 1.5
+  48 0 0 0 0
+  10.8 127 6.400001 -756.4497 0 0 1.5 1.5 1.5
+  49 0 0 0 0
+  10.8 123 6.399998 -774.4495 0 0 1.5 1.5 1.5
+  50 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
+  113 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
+  114 0 0 0 0
+  15.28 128.6 2.6 -1584.45 0 0 1.5 1.5 1.5
+  115 0 0 0 0
+  15.36 126 2.639999 -1614.45 0 0 1.5 1.5 1.5
+  116 0 0 0 0
+  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 57
+ObjDissolve (envelope)
+  1
+  15
+  1
+  0 0 0 0 0
+  0
+  44 0 0 0 0
+  0
+  45 0 0 0 0
+  1
+  46 0 0 0 0
+  1
+  47 0 0 0 0
+  1
+  53 0 0 0 0
+  1
+  54 0 0 0 0
+  0.304
+  84 0 0 0 0
+  0
+  111 0 0 0 0
+  0
+  112 0 0 0 0
+  1
+  113 0 0 0 0
+  1
+  114 0 0 0 0
+  1
+  119 0 0 0 0
+  1
+  120 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint3.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 126.2 -6.000006 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  48 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  49 0 0 0 0
+  0 149.5001 15.5 440.8 0 0 1 1 1
+  50 0 0 0 0
+  0 149.5001 15.5 448.8 0 0 1 1 1
+  51 0 0 0 0
+  0 -2.699942 17.3 836.7996 0 0 1 1 1
+  103 0 0 0 0
+  0 -3.899941 17.5 832.7997 0 0 1 1 1
+  104 0 0 0 0
+  0 111.6001 -20.3 8.799994 0 0 1 1 1
+  105 0 0 0 0
+  0 111.6001 -20.3 -3.200016 0 0 1 1 1
+  106 0 0 0 0
+  0 -4.599904 -16.1 428.8 0 0 1 1 1
+  159 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  160 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  174 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 57
+ObjDissolve (envelope)
+  1
+  20
+  1
+  0 0 0 0 0
+  1
+  6 0 0 0 0
+  1
+  7 0 0 0 0
+  0.256
+  32 0 0 0 0
+  0
+  48 0 0 0 0
+  0
+  49 0 0 0 0
+  1
+  50 0 0 0 0
+  1
+  51 0 0 0 0
+  1
+  55 0 0 0 0
+  1
+  56 0 0 0 0
+  0.196
+  88 0 0 0 0
+  0
+  102 0 0 0 0
+  0
+  103 0 0 0 0
+  1
+  104 0 0 0 0
+  1
+  105 0 0 0 0
+  1
+  110 0 0 0 0
+  1
+  111 0 0 0 0
+  0.228
+  146 0 0 0 0
+  0.064
+  161 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint4.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  -12 117.4 -0.3 0 0 0 1.3 1.3 1.3
+  0 0 0 0 0
+  -12 -12.2 -0.2249998 -470.3 0 0 1.3 1.3 1.3
+  66 0 0 0 0
+  -12 -12.2 -0.2249998 -480.3 0 0 1.3 1.3 1.3
+  67 0 0 0 0
+  -12 -12.2 -0.2249998 -492.2999 0 0 1.3 1.3 1.3
+  68 0 0 0 0
+  11.64 127 3.900002 -504.2998 0 0 1.3 1.3 1.3
+  69 0 0 0 0
+  11.74001 123 4.099998 -516.2997 0 0 1.3 1.3 1.3
+  70 0 0 0 0
+  12.444 -12.2 3.8 -1036.3 0 0 1.3 1.3 1.3
+  133 0 0 0 0
+  12.74401 -12.2 4 -1036.3 0 0 1.3 1.3 1.3
+  134 0 0 0 0
+  2.252979 128.6 12.98539 -1056.3 0 0 1.3 1.3 1.3
+  135 0 0 0 0
+  2.252979 128.6 12.98539 -1056.3 0 0 1.3 1.3 1.3
+  136 0 0 0 0
+  3.868003 -1.699999 12.98001 -1406.3 0 0 1.3 1.3 1.3
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 57
+ObjDissolve (envelope)
+  1
+  14
+  1
+  0 0 0 0 0
+  0
+  61 0 0 0 0
+  0
+  62 0 0 0 0
+  1
+  63 0 0 0 0
+  1
+  64 0 0 0 0
+  1
+  70 0 0 0 0
+  1
+  71 0 0 0 0
+  0
+  128 0 0 0 0
+  0
+  129 0 0 0 0
+  1
+  130 0 0 0 0
+  1
+  131 0 0 0 0
+  1
+  140 0 0 0 0
+  1
+  141 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint5.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  10.8 150.1 4.399998 0 0 0 1 1 1
+  0 0 0 0 0
+  10.2 110.4 4.5 -172 0 0 1 1 1
+  20 0 0 0 0
+  10.5 -4.199985 3.4 -380.0001 0 0 1 1 1
+  62 0 0 0 0
+  10 -10.09998 3.600001 -392.0001 0 0 1 1 1
+  64 0 0 0 0
+  9.899998 -10.09998 3.7 -392.0001 0 0 1 1 1
+  65 0 0 0 0
+  3.299999 124.6 -11.1 -400.0001 0 0 1 1 1
+  66 0 0 0 0
+  3.5 124.6 -10.9 -404.0001 0 0 1 1 1
+  67 0 0 0 0
+  3.2 -7.299978 -10.1 -696.0001 0 0 1 1 1
+  139 0 0 0 0
+  4.5 -10.09998 -9.999997 -704 0 0 1 1 1
+  141 0 0 0 0
+  3.4 -10.09998 -9.900001 -720.0001 0 0 1 1 1
+  142 0 0 0 0
+  -8.000001 116.8 0.9000006 -720.0001 0 0 1 1 1
+  143 0 0 0 0
+  -8.200002 116.8 0.3999999 -720 0 0 1 1 1
+  144 0 0 0 0
+  -8.3 30.90002 0.1000016 -860 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 57
+ObjDissolve (envelope)
+  1
+  14
+  1
+  0 0 0 0 0
+  0
+  61 0 0 0 0
+  0
+  62 0 0 0 0
+  1
+  63 0 0 0 0
+  1
+  64 0 0 0 0
+  1
+  72 0 0 0 0
+  1
+  73 0 0 0 0
+  0
+  135 0 0 0 0
+  0
+  136 0 0 0 0
+  1
+  137 0 0 0 0
+  1
+  138 0 0 0 0
+  1
+  147 0 0 0 0
+  1
+  148 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint6.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  10 117.4 0.3 0 0 0 1.3 1.63 1.3
+  0 0 0 0 0
+  10 116.992 0.2685138 0 0 0 1.3 1.63 1.3
+  23 0 0 0 0
+  10 115.4848 0.2676415 0 0 0 1.3 1.63 1.3
+  24 0 0 0 0
+  10 -12.2 0.2249998 -470.3 0 0 1.3 1.63 1.3
+  86 0 0 0 0
+  10 -12.2 0.2249998 -480.3 0 0 1.3 1.63 1.3
+  87 0 0 0 0
+  10 -12.2 0.2249998 -492.2999 0 0 1.3 1.63 1.3
+  88 0 0 0 0
+  20.8 127 -4.800001 -504.2998 0 0 1.3 1.63 1.3
+  89 0 0 0 0
+  20.8 123 -4.799999 -516.2997 0 0 1.3 1.63 1.3
+  90 0 0 0 0
+  20.88 -12.2 -4.799999 -1036.3 0 0 1.3 1.63 1.3
+  153 0 0 0 0
+  20.88 -12.2 -4.799999 -1036.3 0 0 1.3 1.63 1.3
+  154 0 0 0 0
+  3.079996 128.6 12.95 -1056.3 0 0 1.3 1.63 1.3
+  155 0 0 0 0
+  2.860003 126 13.12001 -1076.3 0 0 1.3 1.63 1.3
+  156 0 0 0 0
+  3.316498 83.08528 12.65727 -1238.511 0 0 1.3 1.63 1.3
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 57
+ObjDissolve (envelope)
+  1
+  16
+  1
+  0 0 0 0 0
+  1
+  24 0 0 0 0
+  1
+  25 0 0 0 0
+  0
+  83 0 0 0 0
+  0
+  84 0 0 0 0
+  1
+  85 0 0 0 0
+  1
+  86 0 0 0 0
+  1
+  95 0 0 0 0
+  1
+  96 0 0 0 0
+  0
+  149 0 0 0 0
+  0
+  150 0 0 0 0
+  1
+  151 0 0 0 0
+  1
+  152 0 0 0 0
+  1
+  157 0 0 0 0
+  1
+  158 0 0 0 0
+  1
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint7.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  -1 150.1 -4.900001 0 0 0 1 1 1
+  0 0 0 0 0
+  -1 110.4 -6.5 -172 0 0 1 1 1
+  20 0 0 0 0
+  -1 -4.199985 -6.799999 -380.0001 0 0 1 1 1
+  62 0 0 0 0
+  -1 -10.09998 -6.999999 -392.0001 0 0 1 1 1
+  64 0 0 0 0
+  -1 -10.09998 -6.999999 -392.0001 0 0 1 1 1
+  65 0 0 0 0
+  -8 124.6 6.9 -400.0001 0 0 1 1 1
+  66 0 0 0 0
+  -8 124.6 6.9 -404.0001 0 0 1 1 1
+  67 0 0 0 0
+  -8 -7.299978 6.6 -696.0001 0 0 1 1 1
+  139 0 0 0 0
+  -8 -10.09998 7.300001 -704 0 0 1 1 1
+  141 0 0 0 0
+  -8 -10.09998 7.300001 -720.0001 0 0 1 1 1
+  142 0 0 0 0
+  1.199999 116.8 6.400001 -720.0001 0 0 1 1 1
+  143 0 0 0 0
+  1.199999 116.8 6.400001 -720 0 0 1 1 1
+  144 0 0 0 0
+  1.199999 30.90002 9.7 -860 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 57
+ObjDissolve (envelope)
+  1
+  14
+  1
+  0 0 0 0 0
+  0
+  61 0 0 0 0
+  0
+  62 0 0 0 0
+  1
+  63 0 0 0 0
+  1
+  64 0 0 0 0
+  1
+  72 0 0 0 0
+  1
+  73 0 0 0 0
+  0
+  135 0 0 0 0
+  0
+  136 0 0 0 0
+  1
+  137 0 0 0 0
+  1
+  138 0 0 0 0
+  1
+  147 0 0 0 0
+  1
+  148 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Deposit_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 57
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  0 117.4 -0.4 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -12.2 -0.2999997 -705.45 0 0 1 1 1
+  47 0 0 0 0
+  0 -12.2 -0.2999997 -720.45 0 0 1 1 1
+  48 0 0 0 0
+  0 -12.2 -0.2999997 -738.4498 0 0 1 1 1
+  49 0 0 0 0
+  10.8 127 6.400001 -756.4497 0 0 1 1 1
+  50 0 0 0 0
+  10.8 123 6.399998 -774.4495 0 0 1 1 1
+  51 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1 1 1
+  114 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1 1 1
+  115 0 0 0 0
+  15.28 128.6 2.6 -1584.45 0 0 1 1 1
+  116 0 0 0 0
+  15.36 126 2.639999 -1614.45 0 0 1 1 1
+  117 0 0 0 0
+  15.39079 -5 2.69047 -2481.464 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 67
+ObjDissolve (envelope)
+  1
+  15
+  1
+  0 0 0 0 0
+  0
+  44 0 0 0 0
+  0
+  45 0 0 0 0
+  1
+  46 0 0 0 0
+  1
+  47 0 0 0 0
+  1
+  53 0 0 0 0
+  1
+  54 0 0 0 0
+  0.304
+  84 0 0 0 0
+  0
+  111 0 0 0 0
+  0
+  112 0 0 0 0
+  1
+  113 0 0 0 0
+  1
+  114 0 0 0 0
+  1
+  119 0 0 0 0
+  1
+  120 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  10
+  -4.487103 17.10001 15.05019 -255.7999 0 0 1 1 1
+  0 0 0 0 0
+  0 2.1 14.1 -255.7999 0 0 1 1 1
+  48 0 0 0 0
+  0 2.1 14.1 -255.7999 0 0 1 1 1
+  49 0 0 0 0
+  0 0 0 -122.0998 0 0 1 1 1
+  50 0 0 0 0
+  0 0 0 -122.0998 0 0 1 1 1
+  51 0 0 0 0
+  0 0 0 -122.0998 0 0 1 1 1
+  114 0 0 0 0
+  0 0 0 -122.0998 0 0 1 1 1
+  115 0 0 0 0
+  -9.404248 0 15.14134 -86.79971 0 0 1 1 1
+  116 0 0 0 0
+  -9.404248 0 15.14134 -86.79971 0 0 1 1 1
+  117 0 0 0 0
+  -9.404248 0 15.14134 -86.79971 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 57
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  -4.6 117.4 7.2 0 0 0 1 1 1
+  0 0 0 0 0
+  -5.400002 -12.2 7.524998 -470.3 0 0 1 1 1
+  66 0 0 0 0
+  -5 -12.2 7.225001 -480.3 0 0 1 1 1
+  67 0 0 0 0
+  -5.5 -12.2 7.624999 -492.2999 0 0 1 1 1
+  68 0 0 0 0
+  -20.8 127 -4.800001 -504.2998 0 0 1 1 1
+  69 0 0 0 0
+  -20.8 123 -4.799999 -516.2997 0 0 1 1 1
+  70 0 0 0 0
+  -20.88 -12.2 -4.799999 -1036.3 0 0 1 1 1
+  133 0 0 0 0
+  -20.88 -12.2 -4.799999 -1036.3 0 0 1 1 1
+  134 0 0 0 0
+  -25.28 128.6 -1.95 -1056.3 0 0 1 1 1
+  135 0 0 0 0
+  -25.36 126 -1.979999 -1076.3 0 0 1 1 1
+  136 0 0 0 0
+  -25.36 38 -1.979999 -1406.3 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 69
+ObjDissolve (envelope)
+  1
+  18
+  1
+  0 0 0 0 0
+  1
+  4 0 0 0 0
+  1
+  5 0 0 0 0
+  0.288
+  30 0 0 0 0
+  0
+  63 0 0 0 0
+  0
+  64 0 0 0 0
+  1
+  65 0 0 0 0
+  1
+  66 0 0 0 0
+  1
+  74 0 0 0 0
+  1
+  75 0 0 0 0
+  0.472
+  96 0 0 0 0
+  0
+  130 0 0 0 0
+  0
+  131 0 0 0 0
+  1
+  132 0 0 0 0
+  1
+  133 0 0 0 0
+  1
+  143 0 0 0 0
+  1
+  144 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  67 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  68 0 0 0 0
+  0 0 0 97.19999 0 0 1 1 1
+  69 0 0 0 0
+  0 0 0 97.19999 0 0 1 1 1
+  70 0 0 0 0
+  0 0 0 97.19999 0 0 1 1 1
+  133 0 0 0 0
+  0 0 0 97.19999 0 0 1 1 1
+  134 0 0 0 0
+  16.43299 0 22.2094 -38.1 0 0 1 1 1
+  135 0 0 0 0
+  16.43299 0 22.2094 -38.1 0 0 1 1 1
+  136 0 0 0 0
+  16.43299 0 22.2094 -38.1 0 0 1 1 1
+  174 0 0 0 0
+  16.43299 0 22.2094 -38.1 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 2096
+ParentObject 57
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint3.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  14
+  0 158.2 -6.000006 0 0 0 1 1 1
+  0 0 0 0 0
+  0 106.2574 -5.84307 134.5875 0 0 1 1 1
+  14 0 0 0 0
+  0 103.2574 -5.84307 134.5875 0 0 1 1 1
+  15 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  48 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  49 0 0 0 0
+  0 149.5001 15.5 440.8 0 0 1 1 1
+  50 0 0 0 0
+  0 149.5001 15.5 448.8 0 0 1 1 1
+  51 0 0 0 0
+  0 -2.699942 17.3 836.7996 0 0 1 1 1
+  103 0 0 0 0
+  0 -3.899941 17.5 832.7997 0 0 1 1 1
+  104 0 0 0 0
+  0 111.6001 -20.3 8.799994 0 0 1 1 1
+  105 0 0 0 0
+  0 111.6001 -20.3 -3.200016 0 0 1 1 1
+  106 0 0 0 0
+  0 -4.599904 -16.1 428.8 0 0 1 1 1
+  159 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  160 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 71
+ObjDissolve (envelope)
+  1
+  20
+  1
+  0 0 0 0 0
+  1
+  6 0 0 0 0
+  1
+  7 0 0 0 0
+  0.256
+  32 0 0 0 0
+  0
+  48 0 0 0 0
+  0
+  49 0 0 0 0
+  1
+  50 0 0 0 0
+  1
+  51 0 0 0 0
+  1
+  55 0 0 0 0
+  1
+  56 0 0 0 0
+  0.196
+  88 0 0 0 0
+  0
+  102 0 0 0 0
+  0
+  103 0 0 0 0
+  1
+  104 0 0 0 0
+  1
+  105 0 0 0 0
+  1
+  110 0 0 0 0
+  1
+  111 0 0 0 0
+  0.228
+  146 0 0 0 0
+  0.064
+  161 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  10
+  1.999168 0 3.516152 184 0 0 1 1 1
+  0 0 0 0 0
+  1.999168 0 3.516152 184 0 0 1 1 1
+  48 0 0 0 0
+  1.999168 0 3.516152 184 0 0 1 1 1
+  49 0 0 0 0
+  5.8509 0 7.424507 184 0 0 1 1 1
+  50 0 0 0 0
+  5.8509 0 7.424507 184 0 0 1 1 1
+  51 0 0 0 0
+  5.8509 0 7.424507 184 0 0 1 1 1
+  103 0 0 0 0
+  5.8509 0 7.424507 184 0 0 1 1 1
+  104 0 0 0 0
+  10.73436 0 -9.799075 184 0 0 1 1 1
+  105 0 0 0 0
+  10.73436 0 -9.799075 184 0 0 1 1 1
+  106 0 0 0 0
+  10.73436 0 -9.799075 184 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 57
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint3.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 126.2 -6.000006 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  48 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  49 0 0 0 0
+  0 149.5001 15.5 440.8 0 0 1 1 1
+  50 0 0 0 0
+  0 149.5001 15.5 448.8 0 0 1 1 1
+  51 0 0 0 0
+  0 -2.699942 17.3 836.7996 0 0 1 1 1
+  103 0 0 0 0
+  0 -3.899941 17.5 832.7997 0 0 1 1 1
+  104 0 0 0 0
+  0 111.6001 -20.3 8.799994 0 0 1 1 1
+  105 0 0 0 0
+  0 111.6001 -20.3 -3.200016 0 0 1 1 1
+  106 0 0 0 0
+  0 -4.599904 -16.1 428.8 0 0 1 1 1
+  159 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  160 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  174 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 73
+ObjDissolve (envelope)
+  1
+  20
+  1
+  0 0 0 0 0
+  1
+  6 0 0 0 0
+  1
+  7 0 0 0 0
+  0.256
+  32 0 0 0 0
+  0
+  43 0 0 0 0
+  0
+  44 0 0 0 0
+  1
+  45 0 0 0 0
+  1
+  46 0 0 0 0
+  1
+  55 0 0 0 0
+  1
+  56 0 0 0 0
+  0.196
+  88 0 0 0 0
+  0
+  102 0 0 0 0
+  0
+  103 0 0 0 0
+  1
+  104 0 0 0 0
+  1
+  105 0 0 0 0
+  1
+  110 0 0 0 0
+  1
+  111 0 0 0 0
+  0.228
+  146 0 0 0 0
+  0.064
+  161 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  0 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  48 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  49 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  50 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  51 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  103 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  104 0 0 0 0
+  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
+  105 0 0 0 0
+  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
+  106 0 0 0 0
+  5.773265 5.799998 -3.351105 80.00002 -0.2 0 1 1 1
+  158 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  163 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  164 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 57
+ShadowOptions 7
+
+AddNullObject SFX,SND_Plazsmall,0
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  2
+  8.803679 67.99999 -12.91316 23.19999 90.7 0 1 1 1
+  0 0 0 0 0
+  8.803679 67.99999 -12.91316 23.19999 90.7 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 0
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  3
+  -88.69549 85.50002 71.36893 129.6 29.8 0 1 1 1
+  0 0 0 0 0
+  -88.69549 85.50002 71.36893 129.5 29.6 0 1 1 1
+  60 0 0 0 0
+  -88.69549 85.50002 71.36893 129.5 29.6 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.164000
+Resolution -1
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 0
+AdaptiveSampling 0
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+ClipRayColors 0
+DataOverlayLabel  
+SaveAnimationName OUTPUT\Hover_Tele.avi
+AnimationType 6
+EndPlugin
+OutputFilenameFormat 3
+SaveRGBImagesPrefix New Folder\plateformb
+RGBImageFormat 2
+FullSceneParamEval 0
+
+ViewMode 5
+ViewAimpoint -0.124136 7.000000 -0.035603
+ViewDirection -46.320946 -0.663228 -0.006981
+ViewZoomFactor 6.000001
+GridNumber 10
+GridSize 20.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

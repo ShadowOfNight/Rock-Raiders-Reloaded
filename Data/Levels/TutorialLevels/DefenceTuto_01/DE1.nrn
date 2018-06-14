@@ -1,0 +1,599 @@
+// Bypass everything if objective still showing - will get past this when space pressed
+//GetObjectiveShowing = 1 ? :Skip
+
+GetObjectiveSwitch ? SetMessagePermit 0
+GetObjectiveShowing = 1 ? :Skip
+
+//Set wait times (sample length multiplier, time added after sample, time for no sample)
+TRUE ? SetMessageTimerValues 1000 1000 6000
+
+//R0 is used as a general counter
+TRUE ? AddR0 1
+
+//Go to the relevant task
+
+GetR3 = 0 ? :First
+GetR3 = 1 ? :WaitForBuildings
+GetR3 = 2 ? :SelectMinifigure
+GetR3 = 3 ? :ClickGetTool
+GetR3 = 4 ? :ClickGetPusher
+GetR3 = 5 ? :WaitForReturn
+GetR3 = 6 ? :SelectMinifigure2
+GetR3 = 7 ? :ClickGround
+GetR3 = 8 ? :WatchImGo
+GetR3 = 9 ? :WaitForEmerge
+GetR3 = 10 ? :WaitForPathSmash
+GetR3 = 11 ? :WaitForBuildingSmash
+GetR3 = 12 ? :WaitForKill
+GetR3 = 13 ? :ClickCalltoarms
+GetR3 = 14 ? :WaitForMonsterEmerge
+GetR3 = 15 ? :ClickOnCallToArms
+GetR3 = 16 ? :WaitForKill2
+GetR3 = 17 ? :ClickOffCalltoarms
+GetR3 = 18 ? :SelectRockRaider3
+GetR3 = 19 ? :ClickGetToolAgain
+GetR3 = 20 ? :ClickSonicBlaster
+GetR3 = 21 ? :RunOntoBlockFirst
+GetR3 = 22 ? :RunOffBlockFirst
+GetR3 = 23 ? :WaitForCollection
+GetR3 = 24 ? :SelectRockRaider4
+GetR3 = 25 ? :ClickMoveToSlug
+GetR3 = 26 ? :WaitForArrival
+GetR3 = 27 ? :SelectRockRaider5
+GetR3 = 28 ? :DropSonicBlaster
+GetR3 = 29 ? :WaitForSlugScare
+GetR3 = 30 ? :ClickGroundForFence
+GetR3 = 31 ? :ClickPlaceFence
+GetR3 = 32 ? :WaitForFence
+GetR3 = 33 ? :WatchMonsterZap
+TRUE ? SetLevelCompleted
+Stop
+
+/////////////////////////////////////////
+
+First:
+TRUE ? SupressArrow 1
+TRUE ? DisallowAll
+TRUE ? AddStoredOre 3
+TRUE ? AddPoweredCrystals 1
+TRUE ? SetBuildingsTeleported 0
+TRUE ? SetTeleportPadLevel 1
+TRUE ? SetToolStoreLevel 1
+TRUE ? :Next
+
+/////////////////////////////////////////
+
+// THESE BITS ARE THE STAGES OF THE LEVEL
+WaitForBuildings:
+//GetBuildingsTeleported = 0 ? Stop
+TRUE ? SupressArrow 1
+TRUE ? CameraLockOnObject 1
+TRUE ? SetRecordObjectPointer 1
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectMinifigure:
+TRUE ? SetR4 2
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMinifigureSelected = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SetRecordObjectPointer 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetGetToolIconClicked 0
+TRUE ? FlashGetToolIcon 1
+TRUE ? :Next
+
+ClickGetTool:
+TRUE ? SetR4 3
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetGetToolIconClicked = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? FlashGetToolIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetGetPusherIconClicked 0
+TRUE ? FlashGetPusherIcon 1
+TRUE ? :Next
+
+ClickGetPusher:
+TRUE ? SetR4 4
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetGetPusherIconClicked = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? FlashGetPusherIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+// Wait till rock raider leaves block.
+GetRecordObjectAmountAtTutorial 2 = 1 ? Stop
+TRUE ? :Next
+
+WaitForReturn:
+TRUE ? SetR4 5
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetRecordObjectAmountAtTutorial 2 = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? FlashGetPusherIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetRecordObjectPointer 1
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectMinifigure2:
+TRUE ? SetR4 6
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMinifigureSelected = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SetRecordObjectPointer 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetCameraGotoTutorial 3
+TRUE ? SetTutorialPointer 3 1
+TRUE ? SetTutorialBlockClicks 3 0
+TRUE ? CameraUnlock
+TRUE ? ClickOnlyMap
+TRUE ? SetTutorialCrystals 3 1
+TRUE ? SetCrystalPriority 1
+TRUE ? :Next
+
+ClickGround:
+TRUE ? SetR4 7
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 3 = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SetTutorialPointer 3 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? CameraLockOnObject 1
+GetRecordObjectAmountAtTutorial 3 = 0 ? Stop
+TRUE ? MakeSomeoneOnThisBlockPickUpSomethingOnThisBlock 3
+TRUE ? :Next
+
+WatchImGo:
+TRUE ? SetR4 8
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetCrystalsCurrentlyStored < 2 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? SetCrystalPriority 0
+GetR5 < 2 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+GetUnitAtBlock 5 = 1 ? Stop
+TRUE ? CameraUnlock
+TRUE ? SetRockMonsterAtTutorial 4
+TRUE ? SetCameraGotoTutorial 4
+TRUE ? SetTutorialCrystals 5 1
+TRUE ? CameraLockOnMonster 1
+TRUE ? SetR1 0
+TRUE ? :Next
+
+WaitForEmerge:
+TRUE ? SetR4 10
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetUnitAtBlock 5 > 1 ? AddR1 1
+GetR1 = 1 ? SetCongregationAtTutorial 6 1
+GetUnitAtBlock 5 > 0 ? Stop
+GetR5 = 0 ? SetGameSpeed 0 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetGameSpeed 100 0
+TRUE ? :Next
+
+WaitForPathSmash:
+TRUE ? SetR4 11
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetRecordObjectAmountAtTutorial 6 = 1 ? Stop
+GetR5 = 0 ? SetGameSpeed 0 0
+GetR5 = 0 ? SetCongregationAtTutorial 6 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetGameSpeed 100 0
+TRUE ? SetMonsterAttackPowerstation 1
+TRUE ? SetR1 0
+TRUE ? :Next
+
+WaitForBuildingSmash:
+TRUE ? SetR4 12
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetCallToArmsButtonClicked = 0 ? Stop
+GetR5 = 0 ? CameraLockOnMonster 0
+GetR5 = 0 ? CameraUnlock
+GetR1 = 0 ? SetMonsterAttackPowerstation 0
+TRUE ? AddR1 1
+GetR5 = 0 ? SetGameSpeed 0 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 2 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? CameraLockOnObject 1
+TRUE ? SetGameSpeed 100 0
+TRUE ? :Next
+
+WaitForKill:
+TRUE ? SetR4 14
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMonstersOnLevel > 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe		
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? ClickOnlyCalltoarms
+TRUE ? FlashCallToArmsIcon 1
+TRUE ? :Next
+
+ClickCalltoarms:
+TRUE ? SetR4 15
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetCalltoArmsButtonClicked = 1 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? FlashCallToArmsIcon 0
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? CameraUnlock
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetCameraGotoTutorial 8
+TRUE ? SetRockMonsterAtTutorial 8
+TRUE ? SetMonsterAttackPowerstation 1
+TRUE ? SetGameSpeed 100 0
+TRUE ? :Next
+
+WaitForMonsterEmerge:
+TRUE ? SetR4 16
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetUnitAtBlock 9 = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SetGameSpeed 0 0
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? ClickOnlyCalltoarms
+TRUE ? FlashCallToArmsIcon 1
+TRUE ? :Next
+
+ClickOnCallToArms:
+TRUE ? SetR4 17
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetCallToArmsButtonClicked = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? FlashCallToArmsIcon 0
+GetR5 = 0 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetGameSpeed 100 0
+TRUE ? CameraLockOnObject 1
+TRUE ? SetR1 0
+TRUE ? :Next
+
+WaitForKill2:
+TRUE ? SetR4 18
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMonstersOnLevel > 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR1 = 0 ? SetMonsterAttackPowerstation 0
+TRUE ? AddR1 1
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? ClickOnlyCalltoarms
+TRUE ? FlashCallToArmsIcon 1
+TRUE ? :Next
+
+ClickOffCalltoarms:
+TRUE ? SetR4 19
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetCalltoArmsButtonClicked = 1 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? FlashCallToArmsIcon 0
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 1 ? SupressArrow 0
+GetR5 < 3 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? CameraLockOnObject 1
+TRUE ? ClickOnlyObjects
+TRUE ? SetRecordObjectPointer 1
+TRUE ? GenerateSlug
+TRUE ? SetGameSpeed 0 0
+TRUE ? :Next
+
+SelectRockRaider3:
+TRUE ? SetR4 22
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMinifigureSelected = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SetRecordObjectPointer 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetGetToolIconClicked 0
+TRUE ? FlashGetToolIcon 1
+TRUE ? :Next
+
+ClickGetToolAgain:
+TRUE ? SetR4 23
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetGetToolIconClicked = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? FlashGetToolIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetGetSonicBlasterIconClicked 0
+TRUE ? FlashGetSonicBlasterIcon 1
+TRUE ? :Next
+
+ClickSonicBlaster:
+TRUE ? SetR4 24
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetGetSonicBlasterIconClicked = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? FlashGetSonicBlasterIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetGameSpeed 100 0
+TRUE ? :Next
+
+RunOntoBlockFirst:
+GetRecordObjectAmountAtTutorial 2 = 0 ? Stop
+TRUE ? :Next
+
+RunOffBlockFirst:
+GetRecordObjectAmountAtTutorial 2 > 0 ? Stop
+TRUE ? :Next
+
+WaitForCollection:
+TRUE ? SetR4 25
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetRecordObjectAmountAtTutorial 2 = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? SetGameSpeed 0 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? CameraLockOnObject 1
+TRUE ? ClickOnlyObjects
+TRUE ? SetRecordObjectPointer 1
+TRUE ? :Next
+
+SelectRockRaider4:
+TRUE ? SetR4 26
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMinifigureSelected = 0 ? Stop
+GetR5 = 0 ? CameraUnlock
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SetRecordObjectPointer 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 7 1
+TRUE ? SetTutorialBlockClicks 7 0
+TRUE ? SetCameraGotoTutorial 7
+TRUE ? ClickOnlyMap
+TRUE ? :Next
+
+ClickMoveToSlug:
+TRUE ? SetR4 27
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 7 = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SetTutorialPointer 7 0
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetGameSpeed 100 0
+TRUE ? :Next
+
+WaitForArrival:
+TRUE ? SetR4 27
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetRecordObjectAmountAtTutorial 7 = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SetGameSpeed 0 0
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetRecordObjectPointer 1
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectRockRaider5:
+TRUE ? SetR4 28
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMinifigureSelected = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SetGameSpeed 0 0
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SetRecordObjectPointer 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetGameSpeed 0 0
+TRUE ? FlashDropSonicBlasterIcon 1
+TRUE ? SetDropSonicBlasterIconClicked 0
+TRUE ? :Next
+
+DropSonicBlaster:
+TRUE ? SetR4 29
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetDropSonicBlasterIconClicked = 0 ? Stop
+TRUE ? DisallowAll
+TRUE ? FlashDropSonicBlasterIcon 0
+TRUE ? AdvanceMessage
+TRUE ? SetGameSpeed 100 0
+TRUE ? SetCameraGotoTutorial 10
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetMonsterAttackNowt 1
+TRUE ? SetR1 0
+TRUE ? :Next
+
+WaitForSlugScare:
+TRUE ? SetR4 29
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetSlugsOnLevel > 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR1 = 0 ? SetMonsterAttackNowt 0
+TRUE ? AddR1 1
+GetR5 = 0 ? SetCallToArms 0
+GetR5 < 2 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 11 1
+TRUE ? SetTutorialBlockClicks 11 0
+TRUE ? SetCameraGotoTutorial 11
+TRUE ? :Next
+
+ClickGroundForFence:
+TRUE ? SetR4 31
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 11 = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SetTutorialPointer 11 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? FlashPlaceFenceIcon 1
+TRUE ? SetPlaceFenceIconClicked 0
+TRUE ? :Next
+
+ClickPlaceFence:
+TRUE ? SetR4 32
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetPlaceFenceIconClicked = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? FlashPlaceFenceIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? CameraLockOnObject 1
+TRUE ? :Next
+
+WaitForFence:
+TRUE ? SetR4 33
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+// Must find better way of checking for fence at block
+GetRecordObjectAmountAtTutorial 11 = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? SetGameSpeed 0 0
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? SetGameSpeed 100 0
+TRUE ? CameraUnlock
+TRUE ? SetRockMonsterAtTutorial 8
+TRUE ? CameraLockOnMonster 1
+TRUE ? :Next
+
+WatchMonsterZap:
+TRUE ? SetR4 34
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMonstersOnLevel > 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? CameraUnlock
+GetR5 < 1 ? :wbe
+TRUE ? DisallowAll
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+/////////////////////////////////////////
+// THESE ARE HANDY CALL BITS
+
+wbe:
+GetMessageTimer > 0 ? Stop
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? AddR5 1
+Stop
+
+Skip:
+TRUE ? SetTutorialFlags 4095
+TRUE ? SetMessagePermit 1
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? SetR5 0
+FALSE ? SetR3 0
+Stop
+
+Next:
+TRUE ? AddR3 1
+Clear:
+TRUE ? SetR0 0
+TRUE ? SetTimer0 0
+TRUE ? SetR5 0
+Stop
+
+finish:
+Stop
+
+Complete:
+GetMessageTimer > 0 ? Stop 
+TRUE ? SetLevelCompleted
+end:

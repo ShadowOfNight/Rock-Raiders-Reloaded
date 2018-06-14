@@ -1,0 +1,23 @@
+#include <nerpnrn.h>
+
+TRUE ? SetTutorialFlags 0
+TRUE ? SetMessagePermit 1
+
+// Setup initial values
+GetObjectiveSwitch ? SetR1 0
+
+// Check for completion or failure events
+GetOxygenLevel < 1 ? SetLevelFail
+
+// Check for no minifigures and no toolstore
+GetMinifiguresOnLevel > 0 ? :CanRebuild
+GetToolstoresBuilt = 0 ? SetLevelFail
+
+CanRebuild:
+
+
+TRUE ? SetR1 1
+loop:
+GetRecordObjectAtTutorial GetR1 ? SetLevelCompleted
+TRUE ? AddR1 1
+GetR1 < 7 ? :loop

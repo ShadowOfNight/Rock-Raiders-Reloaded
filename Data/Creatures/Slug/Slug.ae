@@ -1,0 +1,41 @@
+
+Lego* {
+
+	Scale				1.0
+	DepositNullName		Mini_NULL
+
+	Activities {
+		Activity_Stand					Stand
+		Activity_Route					Walk
+		Activity_Emerge					Emerge
+		Activity_Enter					Enter
+		Activity_Repair					Suck
+	}
+
+	Suck {
+		FILE		VL_SlugSuck
+		LWSFILE		TRUE
+	}
+
+	Walk {
+		FILE		VL_Slugwalk
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+	}
+
+	Stand {
+		FILE		VL_Slugstand
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+	}
+
+	Emerge {
+		FILE		VL_SlugOut
+		LWSFILE		TRUE
+	}
+
+	Enter {
+		FILE		VL_SlugDig
+		LWSFILE		TRUE
+	}
+}

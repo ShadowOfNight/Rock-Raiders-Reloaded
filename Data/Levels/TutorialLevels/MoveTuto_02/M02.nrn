@@ -1,0 +1,526 @@
+Top:
+
+// Bypass everything if objective still showing - will get past this when space pressed
+GetObjectiveSwitch ? SetMessagePermit 0
+GetObjectiveShowing = 1 ? :Skip
+
+// Set wait times (sample length multiplier, time added after sample, time for no sample)
+TRUE ? SetMessageTimerValues 1000 1000 6000
+
+// R0 is used as a general counter
+TRUE ? AddR0 1
+
+// Go to the relevant task
+
+GetR3 = 0 ? :First
+GetR3 = 1 ? :Intro
+GetR3 = 2 ? :ShowTruck
+GetR3 = 3 ? :SelectDriver
+GetR3 = 4 ? :ClickTrain
+GetR3 = 5 ? :ClickTrainDriver
+GetR3 = 6 ? :WaitForTrain
+GetR3 = 7 ? :SelectTruck1
+GetR3 = 8 ? :GetDriver
+GetR3 = 9 ? :WaitForMinifigure
+GetR3 = 10 ? :SelectTruck2
+GetR3 = 11 ? :ClickTruckEnd
+GetR3 = 12 ? :ShowRapidRider
+GetR3 = 13 ? :SelectToBeSailor
+GetR3 = 14 ? :ClickTrainAgain
+GetR3 = 15 ? :ClickTrainSailor
+GetR3 = 16 ? :SelectRapidRider
+GetR3 = 17 ? :GetRapidRiderDriver
+GetR3 = 18 ? :WaitForMinifigureInRapidRider
+GetR3 = 19 ? :SelectRapidRider2
+GetR3 = 20 ? :ClickRapidRiderEnd
+GetR3 = 21 ? :ShowSmallHeli
+GetR3 = 22 ? :SelectToBePilot
+GetR3 = 23 ? :ClickTrainThird
+GetR3 = 24 ? :ClickTrainPilot
+GetR3 = 25 ? :SelectSmallHeli
+GetR3 = 26 ? :GetSmallHeliDriver
+GetR3 = 27 ? :WaitForMinifigureInSmallHeli
+GetR3 = 28 ? :SelectSmallHeli2
+GetR3 = 29 ? :ClickSmallHeliEnd
+GetR3 = 30 ? :FinishMessage
+TRUE ? SetLevelCompleted
+Stop
+
+
+
+
+First:
+TRUE ? AddPoweredCrystals 15
+TRUE ? SetBarracksLevel 1
+TRUE ? SetDocksLevel 1
+TRUE ? SetTeleportPadLevel 1
+TRUE ? SetToolStoreLevel 1
+TRUE ? SupressArrow 0
+TRUE ? DisallowAll
+TRUE ? :Next
+
+Intro:
+TRUE ? SetR4 1
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetR5 < 2 ? :wbe
+TRUE ? SetCameraGotoTutorial 2
+TRUE ? :Next
+
+ShowTruck:
+TRUE ? SetR4 3
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetR5 < 1 ? :wbe
+TRUE ? SetTutorialPointer 1 1
+TRUE ? SetCameraGotoTutorial 1
+TRUE ? ClickOnlyObjects
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+SelectDriver:
+TRUE ? SetR4 4
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetSelectedRecordObject = 0 ? Stop
+GetSelectedRecordObject > 0 ? SetR1 GetSelectedRecordObject
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SetTutorialPointer 1 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? FlashTrainIcon 1
+TRUE ? SetTrainIconClicked 0
+TRUE ? :Next
+
+ClickTrain:
+TRUE ? SetR4 5
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTrainIconClicked = 0 ? Stop
+GetR5 = 0 ? FlashTrainIcon 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+TRUE ? FlashTrainDriverIcon 1
+TRUE ? SetTrainDriverIconClicked 0
+TRUE ? :Next
+
+ClickTrainDriver:
+TRUE ? SetR4 6
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTrainDriverIconClicked = 0 ? Stop
+GetR5 = 0 ? FlashTrainDriverIcon 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+GetR5 = 1 ? SupressArrow 1
+GetRecordObjectAmountAtTutorial 1 = 3 ? Stop
+TRUE ? :Next
+//
+WaitForTrain:
+TRUE ? SetR4 7
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetRecordObjectAmountAtTutorial 1 < 3 ? Stop
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+//TRUE ? SetTutorialPointer 2 1
+TRUE ? SetRecordObjectPointer 4
+TRUE ? SetCameraGotoTutorial 2
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectTruck1:
+TRUE ? SetR4 8
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetSmallTruckSelected = 0 ? Stop
+//GetR5 = 0 ? SetTutorialPointer 2 0
+TRUE ? SetRecordObjectPointer 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+TRUE ? FlashMountIcon 1
+TRUE ? SetMountIconClicked 0
+TRUE ? :Next
+
+GetDriver:
+TRUE ? SetR4 9
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMountIconClicked = 0 ? Stop
+GetR5 = 0 ? FlashMountIcon 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+TRUE ? :Next
+//
+WaitForMinifigure:
+TRUE ? SetR4 9
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMinifigureInSmallTruck = 0 ? Stop
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+//TRUE ? SetTutorialPointer 2 1
+TRUE ? SetRecordObjectPointer 4
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectTruck2:
+TRUE ? SetR4 10
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetSmallTruckSelected = 0 ? Stop
+//GetR5 = 0 ? SetTutorialPointer 2 0
+TRUE ? SetRecordObjectPointer 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? ClickOnlyMap
+TRUE ? SetTutorialPointer 5 1
+TRUE ? SetCameraGotoTutorial 5
+TRUE ? SetTutorialBlockClicks 5 0
+TRUE ? :Next
+
+ClickTruckEnd:
+TRUE ? SetR4 11
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 5 = 0 ? Stop
+GetR5 = 0 ? SetTutorialPointer 5 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? CameraLockOnObject GetR1
+GetR5 < 1 ? :wbe
+GetRecordObjectAtTutorial 5 = 0 ? Stop
+GetR5 = 1 ? SupressArrow 0
+GetR5 = 1 ? CameraUnlock
+GetR5 < 3 ? :wbe
+TRUE ? SetCameraGotoTutorial 3
+// 
+// This makes NERPS jump to small heli, when rapid rider is fixed, remove this
+//TRUE ? SetR3 21
+//TRUE ? :Top
+//
+//
+TRUE ? :Next
+
+/////////////////////////////////////////
+
+ShowRapidRider:
+TRUE ? SetR4 14
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetCameraGotoTutorial 1
+TRUE ? SetTutorialPointer 1 1
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectToBeSailor:
+TRUE ? SetR4 15
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetSelectedRecordObject = 0 ? Stop
+GetSelectedRecordObject > 0 ? SetR1 GetSelectedRecordObject
+GetR5 = 0 ? SetTutorialPointer 1 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+TRUE ? FlashTrainIcon 1
+TRUE ? SetTrainIconClicked 0
+TRUE ? :Next
+
+ClickTrainAgain:
+TRUE ? SetR4 16
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTrainIconClicked = 0 ? Stop
+GetR5 = 0 ? FlashTrainIcon 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+TRUE ? FlashTrainSailorIcon 1
+TRUE ? SetTrainSailorIconClicked 0
+TRUE ? SetR2 0
+TRUE ? SetR6 0
+TRUE ? :Next
+
+ClickTrainSailor:
+TRUE ? SetR4 17
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTrainSailorIconClicked = 0 ? Stop
+GetR5 = 0 ? FlashTrainSailorIcon 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? CameraLockOnObject GetR1
+GetR5 < 1 ? :wbe
+GetRecordObjectAtTutorial 12 > 0 ? AddR6 1
+GetR6 = 0 ? Stop
+GetR6 > 1 ? SetR6 1
+GetRecordObjectAtTutorial 13 > 0 ? AddR2 1
+GetR2 = 0 ? Stop
+GetR2 > 1 ? SetR2 1
+GetR5 = 1 ? SupressArrow 0
+GetR5 < 2 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? CameraUnlock
+TRUE ? SetCameraGotoTutorial 3
+//TRUE ? SetTutorialPointer 3 1
+TRUE ? SetRecordObjectPointer 5
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectRapidRider:
+TRUE ? SetR4 19
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetRapidRiderSelected = 0 ? Stop
+//GetR5 = 0 ? SetTutorialPointer 3 0
+TRUE ? SetRecordObjectPointer 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+TRUE ? FlashMountIcon 1
+TRUE ? SetMountIconClicked 0
+TRUE ? :Next
+
+GetRapidRiderDriver:
+TRUE ? SetR4 20
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMountIconClicked = 0 ? Stop
+GetR5 = 0 ? FlashMountIcon 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+TRUE ? :Next
+//
+WaitForMinifigureInRapidRider:
+TRUE ? SetR4 20
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMinifigureInRapidRider = 0 ? Stop
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+//TRUE ? SetTutorialPointer 11 1
+TRUE ? SetRecordObjectPointer 5
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectRapidRider2:
+TRUE ? SetR4 21
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetRapidRiderSelected = 0 ? Stop
+//GetR5 = 0 ? SetTutorialPointer 11 0
+TRUE ? SetRecordObjectPointer 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? ClickOnlyMap
+TRUE ? SetTutorialPointer 6 1
+TRUE ? SetCameraGotoTutorial 6
+TRUE ? SetTutorialBlockClicks 6 0
+TRUE ? :Next
+
+ClickRapidRiderEnd:
+TRUE ? SetR4 22
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 6 = 0 ? Stop
+GetR5 = 0 ? SetTutorialPointer 6 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? CameraLockOnObject GetR1
+GetR5 < 1 ? :wbe
+GetRecordObjectAtTutorial 6 = 0 ? Stop
+GetR5 = 1 ? SupressArrow 0
+GetR5 = 1 ? CameraUnlock
+GetR5 < 3 ? :wbe
+TRUE ? SetCameraGotoTutorial 4
+TRUE ? :Next
+
+/////////////////////////////////////////
+
+ShowSmallHeli:
+TRUE ? SetR4 25
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetCameraGotoTutorial 1
+TRUE ? SetTutorialPointer 1 1
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectToBePilot:
+TRUE ? SetR4 26
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetSelectedRecordObject = 0 ? Stop
+GetSelectedRecordObject > 0 ? SetR1 GetSelectedRecordObject
+GetR5 = 0 ? SetTutorialPointer 1 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+TRUE ? FlashTrainIcon 1
+TRUE ? SetTrainIconClicked 0
+TRUE ? :Next
+
+ClickTrainThird:
+TRUE ? SetR4 27
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTrainIconClicked = 0 ? Stop
+GetR5 = 0 ? FlashTrainIcon 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+TRUE ? FlashTrainPilotIcon 1
+TRUE ? SetTrainPilotIconClicked 0
+TRUE ? :Next
+
+ClickTrainPilot:
+TRUE ? SetR4 28
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTrainPilotIconClicked = 0 ? Stop
+GetR5 = 0 ? FlashTrainPilotIcon 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 2 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetCameraGotoTutorial 4
+//TRUE ? SetTutorialPointer 4 1
+TRUE ? SetRecordObjectPointer 6
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectSmallHeli:
+TRUE ? SetR4 30
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetSmallHelicopterSelected = 0 ? Stop
+//GetR5 = 0 ? SetTutorialPointer 4 0
+TRUE ? SetRecordObjectPointer 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 < 1 ? :wbe
+TRUE ? FlashMountIcon 1
+TRUE ? SetMountIconClicked 0
+TRUE ? :Next
+
+GetSmallHeliDriver:
+TRUE ? SetR4 31
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMountIconClicked = 0 ? Stop
+GetR5 = 0 ? FlashMountIcon 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+TRUE ? :Next
+//
+WaitForMinifigureInSmallHeli:
+TRUE ? SetR4 31
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetMinifigureInSmallHelicopter = 0 ? Stop
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+//TRUE ? SetTutorialPointer 4 1
+TRUE ? SetRecordObjectPointer 6
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectSmallHeli2:
+TRUE ? SetR4 32
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetSmallHelicopterSelected = 0 ? Stop
+//GetR5 = 0 ? SetTutorialPointer 4 0
+TRUE ? SetRecordObjectPointer 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? ClickOnlyMap
+TRUE ? SetTutorialPointer 7 1
+TRUE ? SetCameraGotoTutorial 7
+TRUE ? SetTutorialBlockClicks 7 0
+TRUE ? :Next
+
+ClickSmallHeliEnd:
+TRUE ? SetR4 33
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 7 = 0 ? Stop
+GetR5 = 0 ? SetTutorialPointer 6 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? CameraLockOnObject GetR1
+GetR5 = 0 ? SetTutorialPointer 7 0
+GetR5 < 1 ? :wbe
+GetRecordObjectAtTutorial 7 = 0 ? Stop
+GetR5 = 1 ? SupressArrow 0
+GetR5 = 1 ? CameraUnlock
+TRUE ? SetMessage 34 1
+TRUE ? :Next
+
+FinishMessage:
+GetMessageTimer > 1 ? Stop
+TRUE ? :Next
+
+/////////////////////////////////////////
+
+
+
+
+// THESE ARE HANDY CALL BITS
+
+wbe:
+GetMessageTimer > 0 ? Stop
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? AddR5 1
+Stop
+
+Skip:
+TRUE ? SetTutorialFlags 4095
+TRUE ? SetMessagePermit 1
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? SetR5 0
+TRUE ? SetR3 0
+Stop
+
+Next:
+TRUE ? AddR3 1
+Clear:
+TRUE ? SetR0 0
+TRUE ? SetTimer0 0
+TRUE ? SetR5 0
+Stop
+
+finish:
+Stop
+
+Complete:
+GetMessageTimer > 0 ? Stop 
+TRUE ? SetLevelCompleted
+end:

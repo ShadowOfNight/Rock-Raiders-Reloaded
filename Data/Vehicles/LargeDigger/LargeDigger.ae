@@ -1,0 +1,166 @@
+
+Lego* {
+
+	Scale				1.0
+	WheelMesh			Bigwheel
+	WheelNullName		tyre_null
+	CameraNullName		CAMERA_NULL
+	CameraNullFrames		2
+	DrillNullName		Drilltip_NULL
+	WheelRadius			6.0
+	FireNullName		fire_null
+	xPivot				rotator
+	PivotMaxZ			0.2
+
+	Mediumpoly	{
+			Diggerbody			VLPD_MAIN
+			}
+			
+			
+
+
+	Upgrades {
+		
+		Level0000 {			
+			; '000' represents a three bit binary number for each type of upgrade...
+			; All the parts in every section will be removed when any other level is selected...
+			; Format (No spaces are allowed in the second column:
+			; <Upgrade part (defined in Lego.cfg)>	[TAB]	<Null object name>,<Null instance (1-n)>
+			;	Object			Null
+			;Binary sequence order is [carry] [scan] [speed] [drill]
+			;therefore a vehicle with carry and speed upgrade will be 1010
+
+			
+			drill					Drill_Null,1
+			BIGradar				Upgrade_Null,1
+			BIGlaser				Turret_Null,1,MediumLazer
+			BDengine				Upgrade_Null,1
+			;BDlights				Turret_null,1
+			CAB						DIGcab_NULL,1
+			Light					DIGlight_NULL,1
+			Light					DIGlight_NULL,2
+
+		}
+		Level0001 {
+			drill					Drill_Null,1
+			drill					Drill_Null,2
+			BDgunfix				Turret_Null,1
+			BDengine				Upgrade_Null,1
+			BIGlaser				BDgun_null,1,MediumLazer
+			BIGradar				BDradar_null,1
+			;BDlights				BDgun_null,1
+			CAB						DIGcab_NULL,1
+			Light					DIGlight_NULL,1
+			Light					DIGlight_NULL,2
+;			LaserPulse				BDgun_null,1
+
+		}
+		Level0010 {
+			drill					Drill_Null,1
+			BIGradar				Upgrade_Null,1
+			BIGlaser				Turret_Null,1,MediumLazer
+			BDengineU				Upgrade_Null,1
+			;BDlights				Turret_null,1
+			CAB						DIGcab_NULL,1
+			Light					DIGlight_NULL,1
+			Light					DIGlight_NULL,2
+;			LaserPulse				Turret_NULL,1
+			
+
+		}
+
+		Level0011 {
+			drill					Drill_Null,1
+			drill					Drill_Null,2
+			BDgunfix				Turret_Null,1
+			BDengineU				Upgrade_Null,1
+			BIGlaser				BDgun_null,1,MediumLazer
+			BIGradar				BDradar_null,1
+			;BDlights				BDgun_null,1
+			CAB						DIGcab_NULL,1
+			Light					DIGlight_NULL,1
+			Light					DIGlight_NULL,2
+;			LaserPulse				BDgun_null,1
+		}
+
+	}
+
+
+	LowPoly {		; Decreasing LOD from medium to low
+
+		Digger_body					LD_main
+		diggerback					LD_bucket
+		diggercotpit				LD_C_Pit
+		diggerlight					LD_Light01
+		digbodlight					digbodlight
+		dig_pipe					LD_PipeL				
+	}
+
+
+	Activities {
+		
+		Activity_Stand				Stand
+		Activity_Route				Route
+		Activity_Drill				Drill			
+		Activity_TeleportIN			TeleportIN	
+		!Activity_HitLeft				HitLeft
+		!Activity_HitRight				HitRight
+		!Activity_HitFront				HitFront
+		!Activity_HitBack				HitBack
+
+	}
+
+	Route {
+		FILE		digdriving
+		TRANSCOEF	0.0
+		LWSFILE 	TRUE
+	}
+
+	Stand {
+		FILE		digIdle
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Drill {
+		FILE		digDRILL
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	HitLeft {
+		FILE		diglefthit
+		TRANSCOEF	0.0
+		LWSFILE 	TRUE
+	}
+
+	HitRight {
+		FILE		digrighthit
+		TRANSCOEF	0.0
+		LWSFILE 	TRUE
+	}
+
+	HitFront {
+		FILE		digfronthit
+		TRANSCOEF	0.0
+		LWSFILE 	TRUE
+	}
+
+	HitBack {
+		FILE		digbackhit
+		TRANSCOEF	0.0
+		LWSFILE 	TRUE
+	}
+
+	Drill {
+		FILE		digdrill
+		TRANSCOEF	0.0
+		LWSFILE 	TRUE
+	}
+	TeleportIN {
+		FILE		S_Teleport_B_DIG
+		TRANSCOEF	0.0
+		LWSFILE	True
+	}
+
+}

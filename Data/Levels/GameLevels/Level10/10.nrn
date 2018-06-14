@@ -1,0 +1,30 @@
+#include <nerpnrn.h>
+
+TRUE ? SetTutorialFlags 0
+
+GetMinifiguresOnLevel > 0 ? :canrebuild
+GetToolstoresBuilt = 0 ? SetLevelFail
+canrebuild:
+
+Function(Setup)
+{
+	TRUE ? SetMessagePermit 1
+}
+FuncEnd(Setup)
+
+Function(Intro)
+{
+	GetTutorialBlockIsGround 1 = 0 ? Stop
+	TRUE ? SetMessagePermit 0
+	TRUE ? SetMessage 1 1
+}
+FuncEnd(Intro)
+
+Function(CheckComplete)
+{
+	GetMessageTimer > 0 ? Stop
+	TRUE ? SetMessagePermit 1
+	GetCrystalsCurrentlyStored > 14 ? SetLevelCompleted
+	Stop
+}
+FuncEnd(CheckComplete)

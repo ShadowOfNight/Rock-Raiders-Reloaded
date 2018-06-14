@@ -1,0 +1,337 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 30
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 30
+PreviewFrameStep 1
+FramesPerSecond 30.000000
+
+LoadObject Z:\Lego\Data\MiscAnims\Effects\Smoke.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  0 0 0 0 0
+  0 0 0 0 0 -344 10.398 10.398 10.398
+  30 0 0 0 0
+EndBehavior 1
+LockedChannels 27
+ObjDissolve (envelope)
+  1
+  4
+  0.5
+  0 0 0 0 0
+  0.5
+  9 0 0 0 0
+  0.5
+  10 0 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\MiscAnims\Effects\Smoke.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  0 0 0 0 0
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  1 0 0 0 0
+  0 0 -9.66632 0 0 -332.5214 10.1047 10.1047 10.1047
+  30 0 0 0 0
+EndBehavior 1
+LockedChannels 27
+ObjDissolve (envelope)
+  1
+  4
+  0.625
+  0 0 0 0 0
+  0.688
+  9 0 0 0 0
+  0.7
+  10 0 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\MiscAnims\Effects\Smoke.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  0 0 0 0 0
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  1 0 0 0 0
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  2 0 0 0 0
+  0 0 -18.66399 0 0 -321.0206 9.810823 9.810823 9.810823
+  30 0 0 0 0
+EndBehavior 1
+LockedChannels 27
+ObjDissolve (envelope)
+  1
+  4
+  0.7
+  0 0 0 0 0
+  0.7
+  9 0 0 0 0
+  0.7
+  10 0 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\MiscAnims\Effects\Smoke.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  0 0 0 0 0
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  1 0 0 0 0
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  2 0 0 0 0
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  3 0 0 0 0
+  0 0 -26.99129 0 0 -309.5001 9.516448 9.516448 9.516448
+  30 0 0 0 0
+EndBehavior 1
+LockedChannels 27
+ObjDissolve (envelope)
+  1
+  4
+  0.775
+  0 0 0 0 0
+  0.775
+  9 0 0 0 0
+  0.775
+  10 0 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\MiscAnims\Effects\Smoke.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  0 0 0 0 0
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  3 0 0 0 0
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  4 0 0 0 0
+  0 0 -34.64679 0 0 -297.9624 9.221631 9.221631 9.221631
+  30 0 0 0 0
+EndBehavior 1
+LockedChannels 27
+ObjDissolve (envelope)
+  1
+  4
+  0.85
+  0 0 0 0 0
+  0.85
+  9 0 0 0 0
+  0.85
+  10 0 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\MiscAnims\Effects\Smoke.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  0 0 0 0 0
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  4 0 0 0 0
+  0 0 0 0 0 0 1.608001 1.608001 1.608001
+  5 0 0 0 0
+  0 0 -41.62933 0 0 -286.4098 8.926436 8.926436 8.926436
+  30 0 0 0 0
+EndBehavior 1
+LockedChannels 27
+ObjDissolve (envelope)
+  1
+  4
+  0.925
+  0 0 0 0 0
+  0.925
+  9 0 0 0 0
+  0.925
+  10 0 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\MiscAnims\Effects\RockdustX.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0.04954916 0.2499997 -0.1418676 0 0 0 0.1359999 0.1359999 0.1359999
+  0 0 0 0 0
+  0.04954916 0.2499997 -0.1418676 0 0 0 0.1359999 0.1359999 0.1359999
+  30 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 1
+ObjDissolve (envelope)
+  1
+  2
+  0.5
+  0 0 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\MiscAnims\Effects\RockdustX.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0.04954916 0.2499997 -0.1418676 0 0 0 0.1359999 0.1359999 0.1359999
+  0 0 0 0 0
+  0.04954916 0.2499997 -0.1418676 0 0 0 0.1359999 0.1359999 0.1359999
+  30 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 2
+ObjDissolve (envelope)
+  1
+  2
+  0.6
+  0 0 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\MiscAnims\Effects\RockdustX.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0.04954916 0.2499997 -0.1418676 0 0 0 0.1359999 0.1359999 0.1359999
+  0 0 0 0 0
+  0.04954916 0.2499997 -0.1418676 0 0 0 0.1359999 0.1359999 0.1359999
+  30 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 3
+ObjDissolve (envelope)
+  1
+  2
+  0.75
+  0 0 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\MiscAnims\Effects\RockdustX.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0.04954916 0.2499997 -0.1418676 0 0 0 0.1359999 0.1359999 0.1359999
+  0 0 0 0 0
+  0.04954916 0.2499997 -0.1418676 0 0 0 0.1359999 0.1359999 0.1359999
+  30 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 4
+ObjDissolve (envelope)
+  1
+  2
+  0.85
+  0 0 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 1.000000
+
+AddLight
+LightName Light
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  2
+  -2 2 -2 45 35 0 1 1 1
+  0 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  30 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 0.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  2
+  72.69511 60.90001 82.92479 -140.3 27.99999 0 1 1 1
+  0 0 0 0 0
+  72.69511 60.90001 82.92479 -140.3 27.99999 0 1 1 1
+  30 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 1
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+ClipRayColors 0
+DataOverlayLabel  
+FullSceneParamEval 0
+
+ViewMode 1
+ViewAimpoint -4.299478 -0.250000 7.397301
+ViewDirection 1.672025 -0.455530 0.000000
+ViewZoomFactor 2.666667
+GridNumber 50
+GridSize 10.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

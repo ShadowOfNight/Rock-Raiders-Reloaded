@@ -1,0 +1,110 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 18
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 18
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+AddNullObject ** Wake Null **
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 0 -90 0 0 1.2 1.2 1.4
+  0 0 0 0 0
+  0 0 0 -90 0 0 1.2 1.2 1.4
+  9 0 0 0 0
+  0 0 0 -90 0 0 1.2 1.2 1.4
+  18 0 0 0 0
+EndBehavior 1
+LockedChannels 245
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  5
+  55.50187 64.1 25.82182 -138.2 34.5 0 1 1 1
+  0 0 0 0 0
+  55.50187 64.1 25.82182 -138.2 34.5 0 1 1 1
+  6 0 0 0 0
+  55.50187 64.1 25.82182 -138.2 34.5 0 1 1 1
+  8 0 0 0 0
+  55.50187 64.1 25.82182 -138.2 34.5 0 1 1 1
+  9 0 0 0 0
+  55.50187 64.1 25.82182 -138.2 34.5 0 1 1 1
+  18 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  5
+  0 0 0 0 11.8 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 11.8 0 1 1 1
+  6 0 0 0 0
+  0 0 0 0 11.8 0 1 1 1
+  8 0 0 0 0
+  0 0 0 0 11.8 0 1 1 1
+  9 0 0 0 0
+  0 0 0 0 11.8 0 1 1 1
+  18 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ZoomFactor 3.200000
+Resolution 0
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 1
+RayRecursionLimit 16
+DataOverlayLabel  
+OutputFilenameFormat 3
+SaveRGBImagesPrefix images\Catramp
+RGBImageFormat 2
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 1.637262 0.430772 -8.813632
+ViewDirection 5.190612 -0.459021 0.000000
+ViewZoomFactor 9.345391
+GridNumber 60
+GridSize 20.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

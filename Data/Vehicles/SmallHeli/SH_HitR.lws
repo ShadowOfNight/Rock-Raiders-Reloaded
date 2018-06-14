@@ -1,0 +1,411 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 40
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 40
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SmallHeli\SH_Base.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 8.45 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 8.45 0 0 0 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SmallHeli\VSH_Front.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SmallHeli\SH_Back.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SmallHeli\VSH_Wings.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 1.1 -10 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1.1 -10 0 -11.2 4 1 1 1
+  5 0 0 0 0
+  0 1.1 -10 0 -2.832654 0 1 1 1
+  15 0 0 0 0
+  0 1.1 -10 0 5.244506 0 1 1 1
+  25 0 0 0 0
+  0 1.1 -10 0 -1.637454 0 1 1 1
+  35 0 0 0 0
+  0 1.1 -10 0 -0.3563383 0 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LockedChannels 24
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SmallHeli\SH_Logo.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 3.5 2.3 0 -44.99998 0 1 1 1
+  0 0 0 0 0
+  0 3.5 2.3 0 -28.29998 15.7 1 1 1
+  5 0 0 0 0
+  0 3.5 2.3 0 -61.99997 -11.19709 1 1 1
+  15 0 0 0 0
+  0 3.5 2.3 0 -35.79992 11.93565 1 1 1
+  22 0 0 0 0
+  0 3.5 2.3 0 -48.39999 -6.69532 1 1 1
+  32 0 0 0 0
+  0 3.5 2.3 0 -43.59997 5.316597 1 1 1
+  37 0 0 0 0
+  0 3.5 2.3 0 -44.51352 1.71785 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LockedChannels 43
+ParentObject 2
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SmallHeli\VSH_BladeHinge.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 7.6 -15 0 -30 0 1 1 1
+  0 0 0 0 0
+  0 7.6 -15 0 -30 0 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LockedChannels 43
+ParentObject 3
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SmallHeli\SH_Steering.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 6.500001 -0.5999999 0 25.00001 0 1 1 1
+  0 0 0 0 0
+  0 6.500001 -0.5999999 0 25.00001 0 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LockedChannels 43
+ParentObject 2
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SmallHeli\SH_ChainsawR.lwo
+ShowObject 8 6
+ObjectMotion (unnamed)
+  9
+  7
+  2.6 2 -4.75 0 0 0 1 1 1
+  0 0 0 0 0
+  2.6 2 -4.75 0 0 32.4 1 1 1
+  5 0 0 0 0
+  2.6 2 -4.75 0 0 -18.33411 1 1 1
+  15 0 0 0 0
+  2.6 2 -4.75 0 0 22.85015 1 1 1
+  24 0 0 0 0
+  2.6 2 -4.75 0 0 -7.301931 1 1 1
+  32 0 0 0 0
+  2.6 2 -4.75 0 0 9.935769 1 1 1
+  37 0 0 0 0
+  2.6 2 -4.75 0 0 3.101805 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LockedChannels 30
+ParentObject 2
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SmallHeli\SH_ChainsawL.lwo
+ShowObject 8 6
+ObjectMotion (unnamed)
+  9
+  7
+  -2.6 2 -4.75 0 0 0 1 1 1
+  0 0 0 0 0
+  -2.6 2 -4.75 0 0 21.1 1 1 1
+  5 0 0 0 0
+  -2.6 2 -4.75 0 0 -13.75278 1 1 1
+  15 0 0 0 0
+  -2.6 2 -4.75 0 0 14.04374 1 1 1
+  24 0 0 0 0
+  -2.6 2 -4.75 0 0 -3.839442 1 1 1
+  32 0 0 0 0
+  -2.6 2 -4.75 0 0 6.799547 1 1 1
+  37 0 0 0 0
+  -2.6 2 -4.75 0 0 2.098604 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LockedChannels 30
+ParentObject 2
+ShadowOptions 7
+
+AddNullObject Blades_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 1.75 -0.05000004 107.9 0 0 1 1 1
+  0 0 0 0 0
+  0 1.75 -0.05000004 360 0 0 1 1 1
+  10 0 0 0 0
+  0 1.75 -0.05000004 720 0 0 1 1 1
+  20 0 0 0 0
+  0 1.75 -0.05000004 1080 0 0 1 1 1
+  30 0 0 0 0
+  0 1.75 -0.05000004 1407.401 0 0 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LockedChannels 51
+ParentObject 6
+ShadowOptions 7
+
+AddNullObject SH_AnimNULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 5.4 10.9 21.60001 1 1 1
+  3 0 0 0 0
+  0 0 0 0 5.000003 -7.729151 1 1 1
+  13 0 0 0 0
+  0 0 0 -1.68 -4.999999 10.96704 1 1 1
+  22 0 0 0 0
+  0 0 0 0 -2.6 -3.675266 1 1 1
+  30 0 0 0 0
+  0 0 0 0.8399999 1.400001 3.705247 1 1 1
+  35 0 0 0 0
+  0 0 0 0.1594445 0.2985693 0.7497157 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 12
+ShadowOptions 7
+
+AddNullObject _Height_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 2 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 4.55 0 0 0 0 1 1 1
+  3 0 0 0 0
+  0 0.6400001 0 0 0 0 1 1 1
+  13 0 0 0 0
+  0 2.579999 0 0 0 0 1 1 1
+  22 0 0 0 0
+  0 1.28 0 0 0 0 1 1 1
+  30 0 0 0 0
+  0 1.926613 0 0 0 0 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 13
+ShadowOptions 7
+
+AddNullObject Parent_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ShadowOptions 7
+
+AddNullObject Tyre_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  -10 0 12 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 13
+ShadowOptions 7
+
+AddNullObject Tyre_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  10 0 12 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 13
+ShadowOptions 7
+
+AddNullObject Tyre_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  10 0 -10 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 13
+ShadowOptions 7
+
+AddNullObject Tyre_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  -10 0 -10 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 13
+ShadowOptions 7
+
+AddNullObject CAMERANULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 10.1 -1.45 0 0 0 1 1 1
+  0 0 0 0 0
+  0 10.1 -1.45 0 0 0 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LockedChannels 43
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject CAMERANULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 17.12506 -71.58105 0 11.9 0 1 1 1
+  0 0 0 0 0
+  0 17.12506 -71.58105 0 11.9 0 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LockedChannels 43
+ParentObject 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 0 7
+LightMotion (unnamed)
+  9
+  2
+  31.42202 44.05 -50.29242 45 35 0 1 1 1
+  0 0 0 0 0
+  31.42202 44.05 -50.29242 45 35 0 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+AddLight
+LightName Light
+ShowLight 0 7
+LightMotion (unnamed)
+  9
+  2
+  -27.47798 67.75 28.60759 45 35 0 1 1 1
+  0 0 0 0 0
+  -27.47798 67.75 28.60759 45 35 0 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 0 7
+CameraMotion (unnamed)
+  9
+  2
+  -80 85 100 0 0 0 1 1 1
+  0 0 0 0 0
+  -80 85 100 0 0 0 1 1 1
+  40 0 0 0 0
+EndBehavior 1
+LockedChannels 2
+TargetObject 13
+ZoomFactor 3.200000
+Resolution 0
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 1
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 12 9 64
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+DataOverlayLabel  
+SaveAnimationName Renders\SH\SH_HitR.avi
+AnimationType 0
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint -0.954098 5.850000 1.475167
+ViewDirection -135.329819 -0.591671 0.010472
+ViewZoomFactor 12.753104
+GridNumber 10
+GridSize 10.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

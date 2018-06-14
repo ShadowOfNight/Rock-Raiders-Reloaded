@@ -1,0 +1,130 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 60
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 43
+PreviewFrameStep 1
+FramesPerSecond 30.000000
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\Spider\Working\web_new_2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -0.9985259 20 0.1476021 0 0 0 1 1 1
+  0 0 0 0 0
+  -0.9985259 20 0.1476021 0 0 0 1 1 1
+  50 0 0 0 0
+EndBehavior 1
+LockedChannels 390
+Metamorph (envelope)
+  1
+  7
+  0
+  0 0 0 0 0
+  0.268
+  4 0 0 0 0
+  0.068
+  10 0 0 0 0
+  0.3279999
+  21 0 0 0 0
+  0.09200001
+  30 0 0 0 0
+  0.416
+  36 0 0 0 0
+  0
+  42 0 0 0 0
+EndBehavior 1
+MorphTarget 3
+MorphSurfaces 0
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\RockFalls\Templates\AllSidesL2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\Spider\Working\web_new_2_morph.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ObjDissolve 1.000000
+UnseenByCamera 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 1.000000
+
+AddLight
+LightName Light
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  1
+  -518.8951 236 -617.8901 45 35 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 0.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  1
+  54.09667 57 -120.3254 -22.39999 9.400001 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 1
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 115 115 115
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+ClipRayColors 0
+DataOverlayLabel  
+FullSceneParamEval 0
+
+ViewMode 5
+ViewAimpoint 0.000000 0.000000 0.000000
+ViewDirection 0.300197 -0.314159 0.000000
+ViewZoomFactor 45.562500
+GridNumber 10
+GridSize 200.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

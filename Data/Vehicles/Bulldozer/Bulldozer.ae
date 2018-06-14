@@ -1,0 +1,202 @@
+
+Lego* {
+
+	Scale				1.0
+	WheelMesh			Bigwheel
+	WheelNullName		Btyre_null
+	CameraNullName		CAMERA_NULL
+	CameraNullFrames	2
+	CarryNullName		LPBDcarry_null
+	CarryNullFrames		2
+	WheelRadius			6.0
+			
+		mediumpoly {
+			Mainvech			VLBD_mainvech
+			ScoopB			VLBD_scoop
+			BDbackD			VLBD_BackD
+			BDbackC			VLBD_BackC
+			Chain				VLBD_chain
+			}
+	
+
+		Upgrades {
+		
+		Level0000 {			
+			; '000' represents a three bit binary number for each type of upgrade...
+			; All the parts in every section will be removed when any other level is selected...
+			; Format (No spaces are allowed in the second column:
+			; <Upgrade part (defined in Lego.cfg)>	[TAB]	<Null object name>,<Null instance (1-n)>
+			;	Object			Null
+			;Binary sequence order is [carry] [scan] [speed] [drill]
+			;therefore a vehicle with carry and speed upgrade will be 1010
+		
+			CAB				BDcab_NULL,1
+			LIGHT				BDlight_NULL,1
+			LIGHT				BDlight_NULL,2
+			
+		}
+
+		Level1000 {
+			BD_UPGRADE_ALL		UPGRADE_NULL,1
+			Carry				LPBDcarry_NULL,1
+			Carry				LPBDcarry_NULL,2
+			CAB				BDcab_NULL,1
+			LIGHT				BDlight_NULL,1
+			LIGHT				BDlight_NULL,2
+			
+		}
+		Level0100 {
+			BD_UPGRADE_ALL		UPGRADE_NULL,1
+			BIGRADAR			BULLradar_NULL,1
+			CAB				BDcab_NULL,1
+			LIGHT				BDlight_NULL,1
+			LIGHT				BDlight_NULL,2
+
+
+		}
+		Level0010 {
+			BD_UPGRADE_ALL		UPGRADE_NULL,1
+			BD_Speed_up			SPEED_NULL,1
+			CAB				BDcab_NULL,1
+			LIGHT				BDlight_NULL,1
+			LIGHT				BDlight_NULL,2
+
+
+		}
+
+		Level1010 {
+			BD_UPGRADE_ALL		UPGRADE_NULL,1
+			BD_Speed_up			SPEED_NULL,1
+			Carry				LPBDcarry_NULL,1
+			Carry				LPBDcarry_NULL,2
+			CAB				BDcab_NULL,1
+			LIGHT				BDlight_NULL,1
+			LIGHT				BDlight_NULL,2
+
+
+
+		}
+
+		Level1100 {
+			BD_UPGRADE_ALL		UPGRADE_NULL,1
+			BIGradar			BULLradar_NULL,1
+			CAB				BDcab_NULL,1
+			LIGHT				BDlight_NULL,1
+			LIGHT				BDlight_NULL,2
+			Carry				LPBDcarry_NULL,1
+			Carry				LPBDcarry_NULL,2
+
+
+		}
+
+		Level0110 {
+			BD_UPGRADE_ALL		UPGRADE_NULL,1
+			BD_Speed_up			SPEED_NULL,1
+			BIGradar			BULLradar_NULL,1
+			CAB				BDcab_NULL,1
+			LIGHT				BDlight_NULL,1
+			LIGHT				BDlight_NULL,2
+
+
+		}
+
+		Level1110 {
+			BD_UPGRADE_ALL		UPGRADE_NULL,1
+			BD_Speed_up			SPEED_NULL,1
+			BIGradar			BULLradar_NULL,1
+			Carry				LPBDcarry_NULL,1
+			Carry				LPBDcarry_NULL,2
+			CAB				BDcab_NULL,1
+			LIGHT				BDlight_NULL,1
+			LIGHT				BDlight_NULL,2
+
+
+
+		}
+
+	}
+
+	LowPoly {		; Decreasing LOD from medium to low
+
+		mainvech				VLBD_MainVech
+		scoopB				VLBD_scoop
+		chain					VLBD_chain
+		BDbackD				VLBD_backD
+		BDbackC				VLBD_backC
+		lightB				VLBD_light
+		}
+;	}
+
+	Activities {
+		
+		Activity_Stand				Stand
+		Activity_Route				Route
+		Activity_TeleportIN			TeleportIN			
+		!Activity_HitLeft				HitLeft
+		!Activity_HitRight				HitRight
+		!Activity_HitFront				HitFront
+		!Activity_HitBack				HitBack
+		Activity_Clear				Flatten
+
+	}
+
+	Route {
+		FILE		LPBD_Drive
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Stand {
+		FILE		LPBD_tickoverup
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	HitLeft {
+		FILE		LPBD_DNHitLeft
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	HitRight {
+		FILE		LPBD_DNHitRight
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	HitFront {
+		FILE		LPBD_DNHitFront
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	HitBack {
+		FILE		LPBD_DNHitBehind
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	
+	Flatten {
+		FILE		LPBD_ScoopPat
+		TRANSCOEF	0.0	
+		LWSFILE	TRUE
+	}
+
+	Raise {
+		FILE		LPBD_Raisebucket
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Lower {
+		FILE		LPBD_Lowerbucket
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	TeleportIN {
+		FILE		S_Teleport_bull
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+}

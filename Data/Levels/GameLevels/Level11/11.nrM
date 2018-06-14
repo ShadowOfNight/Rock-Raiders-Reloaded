@@ -1,0 +1,479 @@
+
+
+
+;;;;;;;;;;;;;;;;;;;;;
+; NERPs Source File ;
+;;;;;;;;;;;;;;;;;;;;;
+; Generated 
+; "Sep 21 1999"
+;;;;;;;;;;;;;;;;;;;;;
+; Stamp it here:
+"22:53:10":
+;;;;;;;;;;;;;;;;;;;;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GetObjectiveSwitch ? SetMessagePermit 0
+GetObjectiveSwitch ? :SkippedSkip
+GetObjectiveShowing = 1 ? :Skip
+SkippedSkip:
+
+
+TRUE ? SetMessageTimerValues 1000 1000 10000
+
+
+
+
+TRUE ? AddR0 1
+
+
+TRUE ? SetR6 0
+
+
+TRUE ? :end
+
+Wbe:
+GetMessageTimer > 0 ? Stop
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? AddR5 1
+Stop
+
+Skip:
+TRUE ? SetTutorialFlags 4095
+TRUE ? SetMessagePermit 1
+TRUE ? SetTimer0 0
+TRUE ? SetTimer1 0
+TRUE ? SetTimer2 0
+TRUE ? SetR0 0
+TRUE ? SetR1 0	
+TRUE ? SetR5 0
+TRUE ? SetR7 1
+TRUE ? CameraUnlock
+Stop
+
+Next:
+TRUE ? AddR3 1
+Clear:
+TRUE ? SetR0 0
+TRUE ? SetTimer0 0
+TRUE ? AddR7 GetR5
+TRUE ? SetR5 0
+Stop
+
+finish:
+Stop
+
+Complete:
+GetMessageTimer > 0 ? Stop 
+TRUE ? SetLevelCompleted
+Stop
+
+
+end:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__MainFunc:
+{
+	TRUE ? SetTutorialFlags 0
+	GetCrystalsCurrentlyStored > 14 ? SetLevelCompleted
+	GetOxygenLevel = 0 ? SetLevelFail
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :Init/ Init:
+	{
+		
+		TRUE ? SetMessagePermit 1
+		TRUE ? SetR1 0
+	}
+	TRUE ? :Next Init/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :WaitUntil5ToGo/ WaitUntil5ToGo: 
+	{
+		GetCrystalsCurrentlyStored < 10 ? Stop
+		TRUE ? SetMessagePermit 0
+	}
+	TRUE ? :Next WaitUntil5ToGo/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :Five/ Five: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 1
+	{
+	}
+	TRUE ? :Next Five/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :ResetMessage/ ResetMessage:
+	{
+		GetMessageTimer > 0 ? Stop
+		TRUE ? SetMessagePermit 1
+	}
+	TRUE ? :Next ResetMessage/:
+
+	Stop
+}
+TRUE ? :Complete

@@ -1,0 +1,31 @@
+
+Lego* {
+
+	Activities {
+		Short		Short
+		Expand		Expand
+		Long		Long
+		Teleport	Teleport
+	}
+
+	Short {
+		FILE		Barrier_Carry
+		LWSFILE		TRUE
+	}
+
+	Expand {
+		FILE		Place_Barrier
+		LWSFILE		TRUE
+	}
+
+	Long {
+		FILE		Barrier_LongF2
+		LWSFILE		TRUE
+	}
+
+	Teleport {
+		FILE		Barrier_Dissolve
+		LWSFILE		TRUE
+	}
+
+}

@@ -1,0 +1,3 @@
+Cross_the_lake_to_get_to_the_Energy_Crystals. #one#
+
+$one		Sounds\Streamed\InGame\ins1901

@@ -1,0 +1,462 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 24
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 24
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+LoadObject Z:\lego\Data\Vehicles\WalkerBody\mainbody.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0.06650001 0 0 1 0 1 1 1
+  0 0 0 0 0
+  0 0.45 -0.4 0 -3.3 0 1 1 1
+  2 0 0 0 0
+  0 0.65 -0.65 0 -5 0 1 1 1
+  11 0 0 0 0
+  0 0.06650001 0 0 1 0 1 1 1
+  13 0 0 0 0
+  0 0.3665 -0.172 0 -2.5 0 1 1 1
+  15 0 0 0 0
+  0 0.06650001 0 0 1 0 1 1 1
+  18 0 0 0 0
+  0 0.08600004 -0.04900001 0 0.5 0 1 1 1
+  20 0 0 0 0
+  0 0.01843201 -0.011368 0 0.8839999 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 3
+ShadowOptions 7
+
+AddNullObject WDcab_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 13 -2.333 0 0 0 1 1 1
+  0 0 0 0 0
+  0 13 -2.333 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 42
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject CAB_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  10
+  0 19.95 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 20.55 -1.83 0 -5.2 0 1 1 1
+  4 0 0 0 0
+  0 20.68999 -1.83 0 -5 0 1 1 1
+  8 0 0 0 0
+  0 20.24999 -0.97 0 -2.76 0 1 1 1
+  10 0 0 0 0
+  0 19.95 0 0 0 0 1 1 1
+  12 0 0 0 0
+  -5e-022 20.078 -0.31 0 -1.16 0 1 1 1
+  14 0 0 0 0
+  2.5e-021 20.02999 -0.42 0 -0.8399999 0 1 1 1
+  16 0 0 0 0
+  0 19.95 0 0 0 0 1 1 1
+  18 0 0 0 0
+  1.5e-021 19.974 -0.09999999 0 -0.44 0 1 1 1
+  20 0 0 0 0
+  7.434286e-022 19.95557 -0.02319999 0 -0.10208 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 14
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Shared\Light.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  3.75 11.1 -6.2 0 0 0 1 1 1
+  0 0 0 0 0
+  3.75 11.1 -6.2 30 0 0 1 1 1
+  4 0 0 0 0
+  3.75 11.1 -6.2 7.098215 0 0 1 1 1
+  10 0 0 0 0
+  3.75 11.1 -6.2 0 0 0 1 1 1
+  12 0 0 0 0
+  3.75 11.1 -6.2 0 0 0 1 1 1
+  18 0 0 0 0
+  3.75 11.1 -6.2 152.8325 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 1
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Shared\Light.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  -3.750001 11.1 -6.2 0 0 0 1 1 1
+  0 0 0 0 0
+  -3.750001 11.1 -6.2 30 0 0 1 1 1
+  4 0 0 0 0
+  -3.750001 11.1 -6.2 7.098215 0 0 1 1 1
+  10 0 0 0 0
+  -3.750001 11.1 -6.2 0 0 0 1 1 1
+  12 0 0 0 0
+  -3.750001 11.1 -6.2 0 0 0 1 1 1
+  18 0 0 0 0
+  -3.750001 11.1 -6.2 152.8325 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject CAMERA_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 10.3 5.551 0 5.599999 0 1 1 1
+  0 0 0 0 0
+  0 10.3 5.551 0 5.599999 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject LPW_E_Up_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject LPWeng_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  -5.05 4.65 -12.5 0 0 0 1 1 1
+  0 0 0 0 0
+  -5.05 4.65 -12.5 0 0 110 1 1 1
+  4 0 0 0 0
+  -5.05 4.65 -12.5 0 0 148.1964 1 1 1
+  10 0 0 0 0
+  -5.05 4.65 -12.5 0 0 180 1 1 1
+  12 0 0 0 0
+  -5.05 4.65 -12.5 0 0 270 1 1 1
+  18 0 0 0 0
+  -5.05 4.65 -12.5 0 0 347.2639 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject LPWeng_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  5.05 4.65 -12.5 0 0 0 1 1 1
+  0 0 0 0 0
+  5.05 4.65 -12.5 0 0 27.99999 1 1 1
+  4 0 0 0 0
+  5.05 4.65 -12.5 0 0 102.1964 1 1 1
+  10 0 0 0 0
+  5.05 4.65 -12.5 0 0 180 1 1 1
+  12 0 0 0 0
+  5.05 4.65 -12.5 0 0 270 1 1 1
+  18 0 0 0 0
+  5.05 4.65 -12.5 0 0 347.2639 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject LPWeng_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  -17.5251 1.75 -10 0 0 0 1 1 1
+  0 0 0 0 0
+  -17.5251 1.75 -10 0 0 27.99999 1 1 1
+  4 0 0 0 0
+  -17.5251 1.75 -10 0 0 102.1964 1 1 1
+  10 0 0 0 0
+  -17.525 1.75 -10 0 0 180 1 1 1
+  12 0 0 0 0
+  -17.5251 1.75 -10 0 0 270 1 1 1
+  18 0 0 0 0
+  -17.5251 1.75 -10 0 0 347.2639 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject LPWeng_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  17.5 1.75 -10 0 0 0 1 1 1
+  0 0 0 0 0
+  17.5 1.75 -10 0 0 27.99999 1 1 1
+  4 0 0 0 0
+  17.5 1.75 -10 0 0 102.1964 1 1 1
+  10 0 0 0 0
+  17.5 1.75 -10 0 0 180 1 1 1
+  12 0 0 0 0
+  17.5 1.75 -10 0 0 270 1 1 1
+  18 0 0 0 0
+  17.5 1.75 -10 0 0 347.2639 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject LPWdrill_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  -0.2 -2.65 17.65 0 0 0 1 1 1
+  0 0 0 0 0
+  -0.2 -2.65 17.68185 0 0 -124 1 1 1
+  4 0 0 0 0
+  -0.2 -2.65 17.73 0 0 -130 1 1 1
+  6 0 0 0 0
+  -0.2 -2.65 17.6749 0 0 -150.6667 1 1 1
+  10 0 0 0 0
+  -0.2 -2.65 17.65 0 0 -180 1 1 1
+  12 0 0 0 0
+  -0.2 -2.65 17.65 0 0 -270 1 1 1
+  18 0 0 0 0
+  -0.2 -2.65 17.65 0 0 -347.2639 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject LPW_D_Up_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject Parent_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject LPWdrill_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  -10.15 -2.6 20.2 0 0 0 1 1 1
+  0 0 0 0 0
+  -10.15 -2.6 20.2319 0 0 -124 1 1 1
+  4 0 0 0 0
+  -10.15 -2.6 20.28 0 0 -130 1 1 1
+  6 0 0 0 0
+  -10.15 -2.6 20.2249 0 0 -150.6667 1 1 1
+  10 0 0 0 0
+  -10.15 -2.6 20.2 0 0 -180 1 1 1
+  12 0 0 0 0
+  -10.15 -2.6 20.2 0 0 -270 1 1 1
+  18 0 0 0 0
+  -10.15 -2.6 20.2 0 0 -347.2639 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 2
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject LPWdrill_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  10.2 -2.6 20.2 0 0 0 1 1 1
+  0 0 0 0 0
+  10.2 -2.6 20.2319 0 0 -124 1 1 1
+  4 0 0 0 0
+  10.2 -2.6 20.28 0 0 -130 1 1 1
+  6 0 0 0 0
+  10.2 -2.6 20.2249 0 0 -150.6667 1 1 1
+  10 0 0 0 0
+  10.2 -2.6 20.2 0 0 -180 1 1 1
+  12 0 0 0 0
+  10.2 -2.6 20.2 0 0 -270 1 1 1
+  18 0 0 0 0
+  10.2 -2.6 20.2 0 0 -347.2639 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LockedChannels 2
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject LPW_LaserBlock_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  12 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject LPW_LaserTurret_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -17.49999 13.5 -37.4 0 0 0 1 1 1
+  0 0 0 0 0
+  -17.49999 13.5 -37.4 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+ParentObject 17
+ShadowOptions 7
+
+AddNullObject CAMERA_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 31.65 -53.2479 0 20 0 1 1 1
+  0 0 0 0 0
+  0 31.65 -53.2479 0 20 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+ParentObject 3
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  10
+  -2 2 -2 45 35 0 1 1 1
+  0 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  4 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  8 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  10 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  12 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  14 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  16 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  18 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  20 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  24 0 0 0 0
+EndBehavior 1
+ParentObject 6
+ZoomFactor 3.200000
+Resolution 0
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 1
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+DataOverlayLabel  
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 38.431149 -10.107595 -17.037565
+ViewDirection -52.548538 -0.431092 0.000000
+ViewZoomFactor 1.402202
+GridNumber 40
+GridSize 10.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

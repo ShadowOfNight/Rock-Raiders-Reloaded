@@ -1,0 +1,21 @@
+
+Lego* {
+
+	Dig					Goto
+	Reinforce				Goto
+	Clear					Goto
+	CollectCrystal			Goto
+	CollectOre				Goto
+	CollectTool				Goto
+	CollectTool				Goto
+	Repair				Goto
+	BuildPath				Goto
+	Train					Goto
+	DigComplete				RockFall
+	GenerateOreComplete		CollectOre
+	ClearComplete			GenerateOre
+	GenerateCrystalComplete		CollectCrystal
+	GatherRockComplete		AttackBuilding
+	RockFallComplete			GenerateFromCryore
+
+}

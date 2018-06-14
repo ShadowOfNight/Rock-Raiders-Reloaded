@@ -1,0 +1,139 @@
+
+Lego* {
+
+	Scale					1.0
+	WheelMesh				NULL_OBJECT
+	WheelNullName			wheelnull
+	CameraNullName			CAMERA_NULL
+	CameraNullFrames			2
+	DrillNullName			Drilltip_NULL
+	HoldMissing				TRUE
+
+		Upgrades {
+		
+		Level0000 {			
+			; '0000' represents a four bit binary number for each type of upgrade...
+			; All the parts in every section will be removed when any other level is selected...
+			; Format (No spaces are allowed in the second column:
+			; <Upgrade part (defined in Lego.cfg)>	[TAB]	<Null object name>,<Null instance (1-n)>
+			;	Object			Null
+			;Binary sequence order is [carry] [scan] [speed] [drill]
+			;therefore a vehicle with carry and speed upgrade will be 1010
+
+			Drill				LPWdrill_Null,1
+			engines			LPWeng_Null,1
+			engines			LPWeng_Null,2
+			CAB				WDcab_NULL,1
+		}
+
+		Level0010 {
+		;Speed
+			Drill				LPWdrill_Null,1
+			engines			LPWeng_NULL,1
+			engines			LPWeng_NULL,2
+			engines			LPWeng_NULL,3
+			engines			LPWeng_NULL,4
+			WDEngineUpgrade		LPW_E_Up_Null,1
+			CAB				WDcab_NULL,1
+
+		}
+		Level0001 {
+		;Drill
+			Drill				LPWdrill_NULL,2
+			Drill				LPWdrill_NULL,3
+			engines			LPWeng_NULL,1
+			engines			LPWeng_NULL,2
+			WDDrillUpgrade		LPW_D_Up_Null,1
+			CAB				WDcab_NULL,1
+
+		}
+		Level0100 {
+		;Scan
+			Drill				LPWdrill_NULL,1
+			engines			LPWeng_NULL,1
+			engines			LPWeng_NULL,2
+			LPW_LaserBlock		LPW_LaserBlock_Null,1
+			BIGRADAR			LPW_LaserTurret_Null,1
+			CAB				WDcab_NULL,1
+			
+
+		}
+		Level0011 {
+		;Speed + Drill
+			engines			LPWeng_NULL,1
+			engines			LPWeng_NULL,2
+			engines			LPWeng_NULL,3
+			engines			LPWeng_NULL,4
+			WDEngineUpgrade		LPW_E_Up_Null,1
+			Drill				LPWdrill_NULL,2
+			Drill				LPWdrill_NULL,3
+			WDDrillUpgrade		LPW_D_Up_Null,1
+			CAB				WDcab_NULL,1
+		
+		}
+		Level0110 {
+		;speed + scan
+			engines			LPWeng_NULL,1
+			engines			LPWeng_NULL,2
+			engines			LPWeng_NULL,3
+			engines			LPWeng_NULL,4
+			WDEngineUpgrade		LPW_E_Up_Null,1
+			Drill				LPWdrill_NULL,1
+			LPW_LaserBlock		LPW_LaserBlock_Null,1
+			BIGRADAR			LPW_LaserTurret_Null,1
+			CAB				WDcab_NULL,1
+		}
+		Level0101 {
+		;Scan + Drill
+			LPW_LaserBlock		LPW_LaserBlock_Null,1
+			BIGRADAR			LPW_LaserTurret_Null,1
+			Drill				LPWdrill_NULL,2
+			Drill				LPWdrill_NULL,3
+			engines			LPWeng_NULL,1
+			engines			LPWeng_NULL,2
+			WDDrillUpgrade		LPW_D_Up_Null,1
+			CAB				WDcab_NULL,1
+		}
+		Level0111 {
+		;Scan + Speed + Drill
+			engines			LPWeng_NULL,1
+			engines			LPWeng_NULL,2
+			engines			LPWeng_NULL,3
+			engines			LPWeng_NULL,4
+			WDEngineUpgrade		LPW_E_Up_Null,1
+			Drill				LPWdrill_NULL,2
+			Drill				LPWdrill_NULL,3
+			WDDrillUpgrade		LPW_D_Up_Null,1
+			CAB				WDcab_NULL,1
+			LPW_LaserBlock		LPW_LaserBlock_Null,1
+			BIGRADAR			LPW_LaserTurret_Null,1			
+		}			
+			
+	}
+
+	Activities {
+		
+		Activity_Route					Route
+		Activity_TeleportIN				TeleportIN
+	
+
+	}
+
+	Stand {
+		FILE		LPWD_Standlegs
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Route {
+		FILE		LPWD_Walk2
+		TRANSCOEF	0.35
+		LWSFILE	TRUE
+	}
+
+	TeleportIN {
+		FILE		S_Teleport_Legs
+		TRANSCOEF	0.0
+		LWSFILE	True
+	}	
+}

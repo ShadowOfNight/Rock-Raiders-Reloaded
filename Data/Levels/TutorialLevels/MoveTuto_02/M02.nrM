@@ -1,0 +1,363 @@
+
+
+
+~~~~~~~~~~~~~~~~~~~~~
+~ NERPs Source File
+~~~~~~~~~~~~~~~~~~~~~
+~ Generated 
+~ "Jul 22 1999"
+~~~~~~~~~~~~~~~~~~~~~
+~ Stamp it here:
+"15:26:55":
+~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GetObjectiveSwitch ? SetMessagePermit 0
+GetObjectiveShowing = 1 ? :Skip
+
+
+TRUE ? SetMessageTimerValues 1000 1000 10000
+
+
+
+
+TRUE ? AddR0 1
+
+
+TRUE ? SetR6 0
+
+
+TRUE ? :end
+
+Wbe:
+GetMessageTimer > 0 ? Stop
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? AddR5 1
+Stop
+
+Skip:
+TRUE ? SetTutorialFlags 4095
+TRUE ? SetMessagePermit 1
+TRUE ? SetTimer0 0
+TRUE ? SetTimer1 0
+TRUE ? SetTimer2 0
+TRUE ? SetR0 0
+TRUE ? SetR1 0	
+TRUE ? SetR5 0
+FALSE ? SetR3 0
+TRUE ? SetR7 1
+TRUE ? CameraUnlock
+Stop
+
+Next:
+TRUE ? AddR3 1
+Clear:
+TRUE ? SetR0 0
+TRUE ? SetTimer0 0
+TRUE ? AddR7 GetR5
+TRUE ? SetR5 0
+Stop
+
+finish:
+Stop
+
+Complete:
+GetMessageTimer > 0 ? Stop 
+TRUE ? SetLevelCompleted
+Stop
+
+
+end:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__MainFunc:
+{
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :Powerem/ Powerem: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetR5 < 1 ? :wbe
+		TRUE ? AddPoweredCrystals 15
+		TRUE ? SetCameraGotoTutorial 1
+	}
+	TRUE ? :Next Powerem/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :Intro/ Intro: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetR5 < 3 ? :wbe
+		TRUE ? SetTutorialFlags 0
+		TRUE ? FlashTeleportIcon 1
+	}
+	TRUE ? :Next Intro/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :WaitForRaider/ WaitForRaider: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetMinifiguresOnLevel < 1 ? Stop
+		TRUE ? SetTutorialFlags 4095
+		TRUE ? FlashTeleportIcon 0
+		GetR5 < 1 ? :wbe
+		TRUE ? SetTutorialPointer 2 1
+		TRUE ? SetCameraGotoTutorial 2
+		TRUE ? SetTutorialFlags 0
+	}
+	TRUE ? :Next WaitForRaider/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :SelectHeli/ SelectHeli: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetSmallHelicopterSelected = 0 ? Stop
+		TRUE ? SetTutorialFlags 4095
+		TRUE ? SetTutorialPointer 2 0
+		GetR5 < 1 ? :wbe
+		TRUE ? FlashMountIcon 1
+	}
+	TRUE ? :Next SelectHeli/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :ClickMount/ ClickMount: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetMountIconClicked = 0 ? Stop
+		TRUE ? FlashMountIcon 0
+		GetR5 < 2 ? :wbe
+		TRUE ? SetTutorialPointer 2 1
+		TRUE ? SetTutorialFlags 0
+	}
+	TRUE ? :Next ClickMount/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :SelectHeliAgain/ SelectHeliAgain: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetSmallHelicopterSelected = 0 ? Stop
+		TRUE ? SetTutorialFlags 4095
+		TRUE ? SetTutorialPointer 2 0
+		GetR5 < 1 ? :wbe
+		TRUE ? SetTutorialPointer 4 1
+		TRUE ? SetCameraGotoTutorial 4
+		TRUE ? CameraRotate 90
+	}
+	TRUE ? :Next SelectHeliAgain/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :MoveHeli/ MoveHeli: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetTutorialBlockClicks 4 = 0 ? Stop
+		TRUE ? SetTutorialPointer 4 0
+		GetR5 < 1 ? :wbe
+		TRUE ? CameraLockOnObject 1
+		TRUE ? CameraRotate 90
+	}
+	TRUE ? :Next MoveHeli/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :WaitForMove/ WaitForMove: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetCameraAtTutorial 4 = 0 ? Stop
+		TRUE ? CameraUnlock
+		GetR5 < 1 ? :wbe
+		TRUE ? SetTutorialPointer 4 1
+		TRUE ? SetTutorialFlags 0
+		TRUE ? CameraRotate 270
+	}
+	TRUE ? :Next WaitForMove/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :SelectHeliAgainAgain/ SelectHeliAgainAgain: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetSmallHelicopterSelected = 0 ? Stop
+		TRUE ? SetTutorialFlags 4095
+		TRUE ? SetTutorialPointer 4 0
+		GetR5 < 1 ? :wbe
+		TRUE ? FlashDismountIcon 1
+	}
+	TRUE ? :Next SelectHeliAgainAgain/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :ClickDismount/ ClickDismount: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetDismountIconClicked = 0 ? Stop
+		TRUE ? FlashDismountIcon 0
+		GetR5 < 1 ? :wbe
+		TRUE ? SetTutorialPointer 4 1
+		TRUE ? SetCameraGotoTutorial 4
+		TRUE ? SetTutorialFlags 0
+	}
+	TRUE ? :Next ClickDismount/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :SelectMan/ SelectMan: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetMinifigureSelected = 0 ? Stop
+		TRUE ? SetTutorialFlags 4095
+		TRUE ? SetTutorialPointer 4 0
+		GetR5 < 1 ? :wbe
+		TRUE ? SetCameraGotoTutorial 5
+		TRUE ? SetTutorialPointer 5 1
+	}
+	TRUE ? :Next SelectMan/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :DigWall/ DigWall: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetTutorialBlockIsGround 5 = 0 ? Stop
+		TRUE ? SetTutorialPointer 5 0
+		GetR5 < 2 ? :wbe
+		TRUE ? SetCameraGotoTutorial 6
+	}
+	TRUE ? :Next DigWall/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :DisplayMessage/ DisplayMessage: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetR5 < 2 ? :wbe
+		TRUE ? SetTutorialPointer 6 1
+		TRUE ? SetTutorialFlags 0
+		TRUE ? CameraRotate 270
+	}
+	TRUE ? :Next DisplayMessage/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :ClickHoverboard/ ClickHoverboard: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetRapidRiderSelected = 0 ? Stop
+		TRUE ? SetTutorialFlags 4095
+		TRUE ? SetTutorialPointer 6 0
+		GetR5 < 1 ? :wbe
+		TRUE ? FlashMountIcon 1
+		TRUE ? SetMountIconClicked 0
+	}
+	TRUE ? :Next ClickHoverboard/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :ClickMountAgain/ ClickMountAgain: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetMountIconClicked = 0 ? Stop
+		TRUE ? FlashMountIcon 0
+		GetR5 < 1 ? :wbe
+		GetMiniFigureinRapidRider = 0 ? Stop
+		TRUE ? SetTutorialPointer 6 1
+		TRUE ? SetTutorialFlags 0
+	}
+	TRUE ? :Next ClickMountAgain/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :ClickHoverboardAgain/ ClickHoverboardAgain: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetRapidRiderSelected = 0 ? Stop
+		TRUE ? SetTutorialFlags 4095
+		TRUE ? SetTutorialPointer 6 0
+		GetR5 < 1 ? :wbe
+		TRUE ? SetTutorialPointer 7 1
+		TRUE ? SetCameraGotoTutorial 7
+	}
+	TRUE ? :Next ClickHoverboardAgain/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :MoveHoverboard/ MoveHoverboard: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetTutorialBlockClicks 7 = 0 ? Stop
+		TRUE ? SetTutorialPointer 7 0
+		GetR5 < 1 ? :wbe
+		TRUE ? CameraLockOnObject 2
+		TRUE ? CameraRotate 90
+	}
+	TRUE ? :Next MoveHoverboard/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :Outro/ Outro: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		GetCameraAtTutorial 7 = 0 ? Stop
+		TRUE ? CameraUnlock
+		GetR5 < 2 ? :wbe
+	}
+	TRUE ? :Next Outro/:
+}
+TRUE ? :Complete

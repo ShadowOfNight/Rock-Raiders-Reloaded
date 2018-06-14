@@ -1,0 +1,198 @@
+Rock Raiders Reloaded 
+build v0.5.272a changelog documentation
+
+1. Edited Ice Monster .ae file to remove the low poly section, delete commented out activities, and to remove High/Medium poly information.
+
+2. Removed Ice Monster low poly model as seen in top view and replaced it with the high poly version seen in eye/shoulder view.
+
+3. Edited Lava Monster .ae file in the same manner as in no. 1.
+
+4. Removed "low poly" Lava Monster model and enabled the "high poly" version used in first person mode.
+
+5. Edited Rock Monster .ae file to remove the HIGHPOLY {} and MEDIUMPOLY {} sections.
+
+6. Removed awful low poly model seen in top view and replaced it with the high poly version seen in first person view.
+
+7. Replaced Loading.bmp with my own; adjusted Loading bar y position in the cfg from 450 to 457.
+
+8. Replaced DDI logo with RRU's version.
+
+9. Removed ShutdownScreen line from Main {} in the cfg, along with the ShutDown.bmp from the Languages folder.
+
+10. Removed dummy properties DumpFile and DynamiteRadius from Main {} in the cfg.
+
+11. Removed LMILogo and LMILogoTime lines from Main {} in the cfg.
+
+12. Changed MinDist value from 150 to 50, and increased MaxDist value from 250 to 400.  (Main {} in cfg)
+
+13. Increased TextureUsage from 3145728 to 9567812 (Main {} in cfg).
+
+14. Changed PowerCrystalRGB value to 000:120:000 and UnpoweredCrystalRGB to 050:050:050. (Main {} in cfg)
+
+15. Increased FPClipBlocks from 14 to 16. (Main {} in cfg)
+
+16. Increased CameraSpeed from 7.0 to 10.0, decreased CameraAcceleration from 0.4 to 0.3, and reduced MouseScrollIndent from 4 to 3.
+
+17. LARGE CHANGE: Removed ALL unused files from the game. Saved about 28.8 MB of space. Will sift through and determine what can be used.
+
+18. Increased DynamiteDamageRadius from 75.0 to 80.0, and added in line DynamiteWakeRadius and set the value to 300.0. Might change this at some point. (Main {} in cfg)
+
+TEMPORARY: Changed AllowDebugKeys from FALSE to TRUE
+
+19. Removed unused DDIAvi line from Main {} in the cfg.
+
+20. Changed MissionBriefingText from Mission Brief to Mission Briefing. (Main {} in cfg)
+
+21. In the Reward {} section of the cfg, I completely removed the commented out Sounds {} property.
+
+22. Removed unneeded ScrollSpeed line, along with the commented out duplicate Timer line in Reward {} of the cfg.
+
+23. Replaced MsgPanel_noair.bmp in Interface\AirMeter, and replaced all bmps in Interface\BriefingPanel.
+
+24. Replaced everything in Interface\Bubbles, Buttons, and CameraControl, HelpWindow, IconPanel, MessagePanel, MessageTabs, RadarPanel, and TopPanel.
+
+25. Replaced LP_Normal, LP_Glow, LP_Dull, and SaveLoad.bmp in FrontEnd.
+
+26. Edited QuitText in Rewards {} from Mission Quit to Mission Aborted. (cfg change)
+
+27. Replaced SMteleport, PSMteleport, and NSMteleport with correct images (Interface\Icons)
+
+28. Replaced LevelPickT.bmp in Interface\LEVELPICKER with a copy of the Levelpick.bmp. Also in MainMenuFull {}, added CanScroll TRUE to Menu3 {}, and renamed section to Bonus Mission. Title is apparently hardcoded. (cfg)
+
+29. In Menu1, I changed the Item3 text from Training Missions to Bonus Missions. (cfg)
+
+30. Under PauseMenu {}, I changed the Quit menu material in Menu1 and Menu3 to say Abort instead of quit. (cfg)
+
+WIP 31. Replaced Aclosed.bmp in Pointers; replacing the pointers will be a major WIP.
+
+32. Replaced CrystalSideBar.bmp, CrystalSideBar_Ore.bmp, NoSmallCrystal.bmp in Interface\RightPanel.
+
+33. In ToolTipIcons {} I deleted the Ore line. No clue why this even exists. Also removed the referenced Ore.bmp from Interface\ToolTipIcons.
+
+34. Replaced everything in Interface\ToolTipIcons; deleted Ore.bmp, and Tdynamite.bmp. Replaced Tdynamite.bmp with Bscarer.bmp; referenced the appropriate line in the cfg.
+
+35. In SaveMenu {}, I removed the MenuImageDark line in Menu1, and subsequently removed the referenced image from Interface\FrontEnd.
+
+36. Restructured ProMeshes folder and moved all meshes into their own respective folders. Relinked the lava and rock promesh paths in Textures {} in the cfg.
+
+37. Replaced Ice, Lava, and Rock biomes with Axel's versions. Also added his Gold, Sand, Pyrite, and Ice Rock biomes. Made appropriate cfg edits in Textures {} to add these in.
+
+38. Restructured Rockfalls in MiscAnims into their own folders. Maybe give each one their own rockfall dust model? Either way need to force them to look in the main Rockfall folder for the Adst sequence.
+
+39. Located and removed ContrastOverlay line in Dialog {}, which was the last reference to SaveLoad_Dark.bmp.
+
+40. Within MainMenuFull {}, I removed the AutoCenter line from Menu2, Menu3, and Menu4; removed DisplayTitle from Menu5.
+
+41. Changed Tutorial message in the LevelText {} property to say bonus missions instead of tutorials.
+
+42. In SaveMenu { Menu1 {} }, I removed the AutoCenter line.
+
+43. In HelpWindowInfo, I added information about Raider upgrades into Tool Store messages.
+
+44. Removed IceLevel {} from the cfg; deleted "OLD STUFF" and "NEW STUFF" comments.
+
+45. Removed AI Priorities Construction and Train, and replaced them with Barrier and BuildPath. 
+
+46. Redid biomes partially so power paths that are surrounded on all four sides will become a square. Maybe make them all squares?
+
+47. Removed the commented out LegoLow* {} section at the very end of the cfg.
+
+48. Removed all tutorials from the Bonus Missions tree; placed Bolt Molt in position 9 to start.
+
+49. Added map Into Planet U as Level01.
+
+50. Activated Scorpion with the appropriate changes to the cfg. Also removed low poly version of scorpion.
+
+51. Updated ObjectiveText.txt in Languages to reflect additions of IPU and BM.
+
+52. Added Pyrite and Sand rockfalls; Pyrite commented out due to the 4 style limit. Relinked lws/lwo files to have the correct prefix. (NEED TO DO THIS FOR THE TEXTURES STILL)
+
+53. Redid Pyrite biome prefix from ice to PYRITE to match its own name. (also adjusted in cfg too)
+
+WIP 54. Replaced building stud with Jessietail's teal version.
+
+55. Removed commented out Image and SMPausePanel.bmp lines from Dialog {} section of cfg. Also deleted commented out Title, Text, Ok, and CancelWindow lines from the Dialog {} section.
+
+56. Replaced entire Dependencies {} section of the cfg.
+
+57. Changed game speed for death and landlside info tabs from SLOW to NORM. Also commented out monster and slug notifications.
+
+58. Removed the commented out RewardSFX section under Sample {} in the cfg.
+
+59. Edited !SND_RMeat2 line in Samples {} to use eat2.wav instead of eat3.wav, as that one is used twice (and eat2 is not used).
+
+60. Removed unused RadarSFX line and its sound effect.
+
+61. Removed commented out MobileTeleport line, along with Canteen line in InterfaceBuildImages {}.
+
+62. Added back in the Information folder with the encyclopedia files. Also put the info top panel button back in Interface\TopPanel.  {Currently info button doesn't work. Need to ask Cyrem}
+
+63. Added in Axel's Pyrite Monster to the Creatures folder.
+
+64. Reordered buildings in BuildingTypes {}
+
+65. Input the Pyrite Monster entry into the RockMonsterTypes {}, Stats {}, ObjectTheNames {}, ObjectNames {}, and Samples {} sections of the cfg.
+
+66. Removed all unused animations from PyriteMonster folder, and redid the .ae to remove the low poly references. Also removed lower poly model files. 
+
+67. Replaced WeaponTypes {} section entirely; commented out LaserShot {} section.
+
+68. Edited Gunstation.ae to use GunStation laser, and not use the BigLazer.
+
+69. Added The River, Hard Luck, Bad Conditions, Crystal Catastrophe, and Let's Go Swimming! into Bonus Missions, at positions, 11, 17, 24, 26, and 32 respectively. Updated ObjectiveText.txt in Languages to reflect these new missions.
+
+70. Corrected Encyclopedia folder name; corrected spelling errors in Encyclopedia {} property.
+
+71. Replaced Stats section entirely; added comments to a few things.
+
+72. Created new sub-folder in Sounds named Ambients; moved drtdrillc and drtdrille into Vehicles\SmallDig.
+
+73. Created new sound sub-folder Scenes; moved sounds into this and Ambients folder; redid cfg links and ordering.
+
+74. Added !SFX_Water line to Samples {} in the cfg. Added sound effect to Ambients folder.
+
+75. Added Activity RunPanic into Ice, Lava, and Rock monster .ae files; added animation back in. Commented out Activity HitHard until it can de identified.
+
+76. Replaced Drip1-3, Iceambloop, Iceamb1-3, lavbub, lowamb1-2, and water. Renamed/replaced dripsa-dripsc (Drip4 and 6), added Drip5 in Sounds\Ambients.
+
+77. Replaced call2arms, crecharge, gen_Explode2 (renamed to DynamiteExplode), lanslide, laser1, lazhit, Lrecharge, and ROKBREK1 in Sounds\Scene.
+
+78. Replaced Roar1-2 and impact in Sounds\Rmonster. Renamed New folder in Sounds to Interface; moved Click in there; replaced NotOkay, ping, panel, thud, wallclick.
+
+79. In Sounds\Minifigure, replaced capslide, Crystaldrop, rockdrop, placedown; added Crystaldrop1-3.
+
+80. Replaced Crserv1-2, Refine, docksload, doscksunload, Drop, upgradelc1, explode1-2, rumble in Sounds\Buildings.
+
+81. Replaced stomp, grunt, Rokstep1-5, Rokslid, softstep, crack, bigrok, smalrock, fistbreak, footbreak, scoop, swipe, crumble, eat, eat1-3, snore, rest, and throw in Sounds\RMonster.
+
+82. Created folder for Creature sounds, moved slugIN, slugOUT, sonic_blaster, and suck from New_sfx. Also replaced Teleport, barrierplace2, barrierwood, elec1-5,startltel, plazsmall, plazlarg, BTHUD in Sounds\Buildings.
+
+83. Reactivated SFX_YesSir line in Samples {}; added Acknol, Await, and Yessir to Sounds\Minfigure. Also reactivated SFX_InterfaceSlideOnScreen. Replaced bump1-2, chuck, depos, dig, dump, dynamite, groan1-2, haa1-3, hup1-3, hurt1-2, laser, laser2-3, pant, pdrill, pdrillfade, Runaway1-4, screw1-3, shake_blokey, slip1-2, teleportup, Yippee1-3 in Sounds\Minifigures.
+
+84. Replaced everything in Sounds\Vehicles. Also replaced buildingamb1 and powerhum in Sounds\Buildings; added buildingamb2 and tool_store.
+
+85. Replaced crystal (Cirevam) and ore (Jessietail) models in MiscAnims; renamed files and changed cfg to reflect this.
+
+86. Added Spider into Creatures; uncommented appropriate cfg lines.
+
+87. Removed M_Spit.lwo, SpiderSpit.lws, Web.lws, Web_bend.lws from Spider folder as they are unused. (Need to investigate if these are usable)
+
+88. Removed hup1.wav from Minifigure in Sounds, and removed cfg entry for it. Renamed hup2 and hup 3 to hup1 and 2 respectively.
+
+89. Replaced low poly "tri man" model with HP version seen in first person view.
+
+90. Removed leftover models from change 91; reactivated backflip idle animation.
+
+91. Added back in sax.lwo, L_Sax.lwo, LPMusicnote1-4.lwo, Note1-4.bmp to Mini-Figures\Pilot.
+
+92. Added back in unused Pilot idle animations; activated them through Pilot.ae.
+
+93. Removed laser sound effect from Sounds/Minifigures; removed entry in the cfg.
+
+94. Added in unused GeoTuto_01; script and nerp speech need to be redone. Will make voiceovers at some point.
+
+95. Temporarily edited dependencies and Geo-Dome in Stats {} to originals values until GeoTuto is finished.
+
+96. Reworked cfg for tutorials being added back in; added tutorial level assets to Levels directory.
+
+97. Added tutorial objectives into ObjectiveText.txt in Languages.

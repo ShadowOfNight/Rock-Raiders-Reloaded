@@ -1,0 +1,47 @@
+
+Lego* {
+
+	Scale				1.0
+;	Shape				0,-1:0,-1
+;	DepositNullName		Deposit_Null
+	yPivot				LPGunPivot
+	xPivot				LPGunMain
+	PivotMaxZ			0.5
+	FireNullName		Fire_NULL
+
+	Upgrades {
+		Level0000 {
+			Turret			GunPivot_Null,1,BigLazer
+		}
+
+		Level0001 {
+			DTurret			GunPivot_Null,1,BigLazer
+		}
+	}
+
+	Activities {
+		
+		Activity_Stand					Stand
+		Activity_Teleport				Create			
+		Activity_Explode				Explode
+	}
+
+	Stand {
+		FILE		Gunstation
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+	}
+	
+	Create {
+		FILE		Gunstation_tele
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+	}
+
+	Explode {
+		FILE		GunstationBlow2
+		LWSFILE		TRUE
+	}
+
+}
+

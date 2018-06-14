@@ -1,0 +1,601 @@
+Top:
+
+// Bypass everything if objective still showing - will get past this when space pressed
+GetObjectiveSwitch ? SetMessagePermit 0
+GetObjectiveShowing = 1 ? :Skip
+
+//Set wait times (sample length multiplier, time added after sample, time for no sample)
+TRUE ? SetMessageTimerValues 1000 1000 6000
+
+//R0 is used as a general counter
+TRUE ? AddR0 1
+
+//Go to the relevant task
+
+GetR3 = 0 ? :First
+GetR3 = 1 ? :Intro
+GetR3 = 2 ? :GetFirstRockRaider
+GetR3 = 3 ? :GetRockRaiderTeam
+GetR3 = 4 ? :ClickFloor1
+GetR3 = 5 ? :ClickBuildPath1
+GetR3 = 6 ? :ClickWall1
+GetR3 = 7 ? :ClickDig1
+GetR3 = 8 ? :WaitForDig
+GetR3 = 9 ? :WaitForPath
+GetR3 = 10 ? :ClickToolstore
+GetR3 = 11 ? :ClickToolstoreUpgrade
+GetR3 = 12 ? :ClickBuild1
+GetR3 = 13 ? :SelectPadToBuild
+GetR3 = 14 ? :ClickPlace1
+GetR3 = 15 ? :ClickWall2
+GetR3 = 16 ? :ClickDig2
+GetR3 = 17 ? :WaitForDig2
+GetR3 = 18 ? :WaitForBuild1
+GetR3 = 19 ? :ClickFloor2
+GetR3 = 20 ? :ClickLayPath2
+GetR3 = 21 ? :WaitForPath2
+GetR3 = 22 ? :ClickWall3
+GetR3 = 23 ? :WaitForDig3
+GetR3 = 24 ? :ClickTeleportPad1
+GetR3 = 25 ? :ClickUpgradeBuilding2
+GetR3 = 26 ? :ClickBuildingMenu2
+GetR3 = 27 ? :ClickPowerSIcon
+GetR3 = 28 ? :PlacePowerStation
+GetR3 = 29 ? :ClickWall4
+GetR3 = 30 ? :ClickDig4
+GetR3 = 31 ? :WaitForDig4
+GetR3 = 32 ? :WaitForPower1
+GetR3 = 33 ? :SelectPowerStation
+GetR3 = 34 ? :UpgradePowerstation
+GetR3 = 35 ? :FinishMessage
+TRUE ? SetLevelCompleted
+Stop
+
+
+/////////////////////////////////////////
+
+First:
+TRUE ? AddPoweredCrystals 1
+TRUE ? DisallowAll
+TRUE ? SetBuildingsTeleported 0
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+Intro:
+TRUE ? SetR4 1
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+//GetBuildingsTeleported = 0 ? Stop
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 2 ? :wbe
+TRUE ? FlashTeleportIcon 1
+TRUE ? SetTeleportIconClicked 0
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+GetFirstRockRaider:
+TRUE ? SetR4 3
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTeleportIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+TRUE ? FlashTeleportIcon 0
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashTeleportIcon 1
+TRUE ? SetTeleportIconClicked 0
+TRUE ? :Next
+
+GetRockRaiderTeam:
+TRUE ? SetR4 4
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTeleportIconClicked < 4 ? Stop
+GetR5 = 0 ? AdvanceMessage
+TRUE ? FlashTeleportIcon 0
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 2 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 3 1
+TRUE ? ClickOnlyMap
+TRUE ? SetTutorialBlockClicks 3 0
+TRUE ? SetCameraGotoTutorial 3
+TRUE ? :Next
+
+ClickFloor1:
+TRUE ? SetR4 6
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 3 = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+TRUE ? SetTutorialPointer 3 0
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashLayPathIcon 1
+TRUE ? SetLayPathIconClicked 0
+TRUE ? :Next
+
+ClickBuildPath1:
+TRUE ? SetR4 7
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetLayPathIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+TRUE ? FlashLayPathIcon 0
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 2 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 1 1
+TRUE ? SetCameraGotoTutorial 1
+TRUE ? SetTutorialBlockClicks 1 0
+TRUE ? :Next
+
+ClickWall1:
+TRUE ? SetR4 9
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 1 = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+TRUE ? SetTutorialPointer 1 0
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashDigIcon 1
+TRUE ? SetDigIconClicked 0
+TRUE ? :Next
+
+ClickDig1:
+TRUE ? SetR4 10
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetDigIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+TRUE ? FlashDigIcon 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? :Next
+//
+WaitForDig:
+TRUE ? SetR4 11
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockIsGround 1 = 0 ? Stop
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 2 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetCameraGotoTutorial 3
+TRUE ? :Next
+
+WaitForPath:
+TRUE ? SetR4 13
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockIsPath 3 = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetOreCurrentlyStored < 5 ? Stop
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 4 1
+TRUE ? SetCameraGotoTutorial 4
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+ClickToolstore:
+TRUE ? SetR4 14
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetToolStoreSelected = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+TRUE ? SetTutorialPointer 4 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashUpgradeBuildingIcon 1
+TRUE ? SetUpgradeBuildingIconClicked 0
+TRUE ? :Next
+
+ClickToolstoreUpgrade:
+TRUE ? SetR4 15
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetUpgradeBuildingIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+TRUE ? FlashUpgradeBuildingIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashBuildIcon 1
+TRUE ? SetBuildIconClicked 0
+TRUE ? :Next
+
+ClickBuild1:
+TRUE ? SetR4 16
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetBuildIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+TRUE ? FlashBuildIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashTeleportPadIcon 1
+TRUE ? SetTeleportPadIconClicked 0
+TRUE ? :Next
+
+SelectPadToBuild:
+TRUE ? SetR4 17
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTeleportPadIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+TRUE ? FlashTeleportPadIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? SetTutorialPointer 5 1
+TRUE ? SetCameraGotoTutorial 5
+TRUE ? SetTutorialBlockClicks 5 0
+TRUE ? ClickOnlyMap
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+ClickPlace1:
+TRUE ? SetR4 18
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 5 = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+TRUE ? SetTutorialPointer 5 0
+GetR5 < 2 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetCameraGotoTutorial 2
+TRUE ? SetTutorialPointer 2 1
+TRUE ? SetTutorialBlockClicks 2 0
+TRUE ? ClickOnlyMap
+TRUE ? :Next
+
+ClickWall2:
+TRUE ? SetR4 20
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 2 = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+TRUE ? SetTutorialPointer 2 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashDigIcon 1
+TRUE ? SetDigIconClicked 0
+TRUE ? :Next
+
+ClickDig2:
+TRUE ? SetR4 21
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetDigIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+TRUE ? FlashDigIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+WaitForDig2:
+TRUE ? SetR4 22
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockIsGround 2 = 0 ? Stop
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetCameraGotoTutorial 5
+TRUE ? :Next
+
+WaitForBuild1:
+TRUE ? SetR4 23
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTeleportsBuilt = 0 ? Stop
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 2 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 6 1
+TRUE ? SetTutorialBlockClicks 6 0
+TRUE ? SetCameraGotoTutorial 6
+TRUE ? ClickOnlyMap
+TRUE ? :Next
+
+ClickFloor2:
+TRUE ? SetR4 25
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 6 = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+TRUE ? SetTutorialPointer 6 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashLayPathIcon 1
+TRUE ? SetLayPathIconClicked 0
+TRUE ? :Next
+
+ClickLayPath2:
+TRUE ? SetR4 26
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetLayPathIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+TRUE ? FlashLayPathIcon 0
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+WaitForPath2:
+TRUE ? SetR4 27
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockIsPath 6 = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 8 1
+TRUE ? SetCameraGotoTutorial 8
+TRUE ? SetTutorialBlockClicks 8 0
+TRUE ? ClickOnlyMap
+TRUE ? :Next
+
+ClickWall3:
+TRUE ? SetR4 28
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 8 = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? AdvanceMessage
+TRUE ? SetTutorialPointer 8 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashDigIcon 1
+TRUE ? SetDigIconClicked 0
+TRUE ? :Next
+
+WaitForDig3:
+TRUE ? SetR4 29
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetDigIconClicked = 0 ? Stop
+TRUE ? FlashDigIcon 0
+GetR5 = 0 ? DisallowAll
+GetTutorialBlockIsGround 8 = 0 ? Stop
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+GetOreCurrentlyStored < 5 ? Stop
+GetR5 < 2 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 5 1
+TRUE ? SetCameraGotoTutorial 5
+TRUE ? SetTutorialBlockClicks 5 0
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+ClickTeleportPad1:
+TRUE ? SetR4 31
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTeleportPadSelected = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? DisallowAll
+TRUE ? SetTutorialPointer 5 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashUpgradeBuildingIcon 1
+TRUE ? SetUpgradeBuildingIconClicked 0
+TRUE ? :Next
+
+ClickUpgradeBuilding2:
+TRUE ? SetR4 32
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetUpgradeBuildingIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? DisallowAll
+TRUE ? FlashUpgradeBuildingIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashBuildIcon 1
+TRUE ? SetBuildIconClicked 0
+TRUE ? :Next
+
+ClickBuildingMenu2:
+TRUE ? SetR4 33
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetBuildIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? DisallowAll
+TRUE ? FlashBuildIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashPowerstationIcon 1
+TRUE ? SetPowerStationIconClicked 0
+TRUE ? :Next
+
+ClickPowerSIcon:
+TRUE ? SetR4 34
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetPowerstationIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? DisallowAll
+TRUE ? FlashPowerstationIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 7 1
+TRUE ? SetTutorialBlockClicks 7 0
+TRUE ? SetCameraGotoTutorial 7
+TRUE ? ClickOnlyMap
+TRUE ? :Next
+
+PlacePowerStation:
+TRUE ? SetR4 35
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 7 = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? DisallowAll
+TRUE ? SetTutorialPointer 7 0
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 2 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 9 1
+TRUE ? SetTutorialBlockClicks 9 0
+TRUE ? SetCameraGotoTutorial 9
+TRUE ? ClickOnlyMap
+TRUE ? :Next
+
+ClickWall4:
+TRUE ? SetR4 37
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 9 = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? DisallowAll
+TRUE ? SetTutorialPointer 9 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetDigIconClicked 0
+TRUE ? FlashDigIcon 1
+TRUE ? :Next
+
+ClickDig4:
+TRUE ? SetR4 38
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetDigIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? DisallowAll
+TRUE ? FlashDigIcon 0
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+WaitForDig4:
+TRUE ? SetR4 39
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockIsGround 9 = 0 ? Stop
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetCameraGotoTutorial 7
+TRUE ? :Next
+
+WaitForPower1:
+TRUE ? SetR4 40
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetPoweredPowerstationsBuilt = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+GetR5 = 1 ? SetCameraGotoTutorial 3
+GetOreCurrentlyStored < 5 ? Stop
+GetR5 < 2 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 7 1
+TRUE ? SetCameraGotoTutorial 7
+TRUE ? SetTutorialBlockClicks 7 0
+TRUE ? ClickOnlyObjects
+TRUE ? :Next
+
+SelectPowerStation:
+TRUE ? SetR4 42
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetPowerstationSelected = 0 ? Stop
+TRUE ? SetTutorialPointer 7 0
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashUpgradeBuildingIcon 1
+TRUE ? SetUpgradeBuildingIconClicked 0
+TRUE ? :Next
+
+UpgradePowerstation:
+TRUE ? SetR4 43
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetUpgradeBuildingIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+TRUE ? FlashUpgradeBuildingIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetMessage 44 1
+TRUE ? :Next
+
+FinishMessage:
+GetMessageTimer > 1 ? Stop
+TRUE ? :Next
+
+/////////////////////////////////////////
+
+
+
+
+// THESE ARE HANDY CALL BITS
+
+wbe:
+GetMessageTimer > 0 ? Stop
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? AddR5 1
+Stop
+
+Skip:
+TRUE ? SetTutorialFlags 4095
+TRUE ? SetMessagePermit 1
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? SetR5 0
+TRUE ? SetR3 0
+Stop
+
+Next:
+TRUE ? AddR3 1
+Clear:
+TRUE ? SetR0 0
+TRUE ? SetTimer0 0
+TRUE ? SetR5 0
+Stop
+
+finish:
+Stop
+
+Complete:
+GetMessageTimer > 0 ? Stop 
+TRUE ? SetLevelCompleted
+end:

@@ -1,0 +1,413 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 60
+FrameStep 1
+PreviewFirstFrame 1
+PreviewLastFrame 60
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+LoadObject \\Mother\lego\Meshes\VLow_Poly\Minifigures\Pilot\vLPtorso.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 0 0 0.5434402 0 1.440292 1 1 1
+  0 0 0 0 0
+  0 0 0 0.5434402 0 1.440292 1 1 1
+  2 0 0 0 0
+  0 0 0 2.64344 8.339999 1.440292 1 1 1
+  15 0 0 0 0
+  0 0 0 2.24344 8.300003 1.440292 1 1 1
+  30 0 0 0 0
+  0 0 0 0.5434402 0 1.440292 1 1 1
+  40 0 0 0 0
+  0 0 0 0.5434402 0 1.440292 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 37
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\VLow_Poly\Minifigures\Pilot\vLPhead.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  12
+  0 1.325 0 -0.8130135 0 -1.483223 1.15 1.15 1.15
+  0 0 0 0 0
+  0 1.325 0 -0.8130135 0 -1.483223 1.15 1.15 1.15
+  1 0 0 0 0
+  0 1.325 0 -34.31301 0 -1.483223 1.15 1.15 1.15
+  6 0 0 0 0
+  0 1.325 0 -2.425945 0 -1.483223 1.15 1.15 1.15
+  10 0 0 0 0
+  0 1.325 0 25.48699 0 -1.483223 1.15 1.15 1.15
+  13 0 0 0 0
+  0 1.325 0 -28.88385 0 -1.483223 1.15 1.15 1.15
+  20 0 0 0 0
+  0 1.325 0 -5.200002 0.09 -1.483223 1.15 1.15 1.15
+  24 0 0 0 0
+  0 1.325 0 20.28699 0 -1.483223 1.15 1.15 1.15
+  26 0 0 0 0
+  0 1.325 0 -17.6 -0.008265306 -1.483223 1.15 1.15 1.15
+  34 0 0 0 0
+  0 1.325 0 -3.6 -0.003367347 -1.483223 1.15 1.15 1.15
+  38 0 0 0 0
+  0 1.325 0 -0.8130135 0 -1.483223 1.15 1.15 1.15
+  40 0 0 0 0
+  0 1.325 0 -0.8130135 0 -1.483223 1.15 1.15 1.15
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 21
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\VLow_Poly\Minifigures\Pilot\vLPthighL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  -0.45 -0.245 0 0 -0.8058257 0.09620987 1 1 1
+  0 0 0 0 0
+  -0.45 -0.245 0 0 -0.8058257 0.09620987 1 1 1
+  2 0 0 0 0
+  -0.45 -0.245 0 0 -0.8058257 0.09620987 1 1 1
+  15 0 0 0 0
+  -0.45 -0.245 0 0 1.094174 0.09620987 1 1 1
+  40 0 0 0 0
+  -0.45 -0.245 0 0 -0.8058257 0.09620987 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 14
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\VLow_Poly\Minifigures\Pilot\vLPfootL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 -0.82 -0.25 0 0.2154126 0 1 1 1
+  0 0 0 0 0
+  0 -0.82 -0.25 0 0.2154126 0 1 1 1
+  2 0 0 0 0
+  0 -0.82 -0.25 0 0.2154126 0 1 1 1
+  15 0 0 0 0
+  0 -0.82 -0.25 0 -2.284587 0 1 1 1
+  40 0 0 0 0
+  0 -0.82 -0.25 0 0.2154126 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 3
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\VLow_Poly\Minifigures\Pilot\vLPthighR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0.45 -0.245 0 0 2.538188 0.09620971 1 1 1
+  0 0 0 0 0
+  0.45 -0.245 0 0 2.538188 0.09620971 1 1 1
+  2 0 0 0 0
+  0.45 -0.245 0 0 2.538188 0.09620971 1 1 1
+  15 0 0 0 0
+  0.45 -0.245 0 0 2.538188 0.09620971 1 1 1
+  40 0 0 0 0
+  0.45 -0.245 0 0 6.238188 0.09620971 1 1 1
+  44 0 0 0 0
+  0.45 -0.245 0 0 2.538188 0.09620971 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\VLow_Poly\Minifigures\Pilot\vLPfootR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 -0.8200001 -0.25 0 -3.2086 0 1 1 1
+  0 0 0 0 0
+  0 -0.8200001 -0.25 0 -3.2086 0 1 1 1
+  2 0 0 0 0
+  0 -0.8200001 -0.25 0 -3.2086 0 1 1 1
+  15 0 0 0 0
+  0 -0.8200001 -0.25 0 -3.2086 0 1 1 1
+  40 0 0 0 0
+  0 -0.8200001 -0.25 0 -8.908601 0 1 1 1
+  44 0 0 0 0
+  0 -0.8200001 -0.25 0 -3.2086 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 5
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\VLow_Poly\Minifigures\Pilot\vLPbicepL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  0.715 0.905 0 -4.895995 -13.4024 10.4 1 1 1
+  0 0 0 0 0
+  0.715 0.905 0 -4.895995 -13.4024 10.4 1 1 1
+  2 0 0 0 0
+  0.715 0.905 0 -4.895995 -13.4024 10.4 1 1 1
+  9 0 0 0 0
+  0.715 0.905 0 -4.895995 -13.4024 10.4 1 1 1
+  10 0 0 0 0
+  0.715 1.115 0 -4.895995 -13.4024 10.4 1 1 1
+  20 0 0 0 0
+  0.715 1.115 0 -58.596 4.8976 10.4 1 1 1
+  30 0 0 0 0
+  0.715 1.115 0 -58.596 4.8976 10.4 1 1 1
+  34 0 0 0 0
+  0.715 1.115 0 -58.596 4.8976 10.4 1 1 1
+  35 0 0 0 0
+  0.715 0.905 0 -4.895995 -13.4024 10.4 1 1 1
+  50 0 0 0 0
+  0.715 0.905 0 -4.895995 -13.4024 10.4 1 1 1
+  55 0 0 0 0
+  0.715 0.905 0 -4.895995 -13.4024 10.4 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 36
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\VLow_Poly\Minifigures\Pilot\vLPhandL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0.23 -1.015 -0.385 0 0 0 1 1 1
+  0 0 0 0 0
+  0.23 -1.015 -0.385 0 0 0 1 1 1
+  2 0 0 0 0
+  0.23 -1.015 -0.385 0 0 0 1 1 1
+  15 0 0 0 0
+  0.23 -1.015 -0.385 0 0 0 1 1 1
+  40 0 0 0 0
+  0.23 -1.015 -0.385 0 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 22
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\VLow_Poly\Minifigures\Pilot\vLPbicepR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  10
+  -0.715 0.905 0 -0.5911995 -15.65921 -15.1952 1 1 1
+  0 0 0 0 0
+  -0.715 0.905 0 -0.5911995 -15.65921 -15.1952 1 1 1
+  2 0 0 0 0
+  -0.715 0.905 0 -0.5911995 -15.65921 -15.1952 1 1 1
+  9 0 0 0 0
+  -0.715 0.905 0 -0.5911995 -15.65921 -15.1952 1 1 1
+  10 0 0 0 0
+  -0.715 1.115 0 -0.5911995 -15.65921 -15.1952 1 1 1
+  20 0 0 0 0
+  -0.715 1.115 0 31.2088 15.64079 -15.1952 1 1 1
+  25 0 0 0 0
+  -0.715 1.115 0 31.2088 15.64079 -15.1952 1 1 1
+  34 0 0 0 0
+  -0.715 1.115 0 31.2088 15.64079 -15.1952 1 1 1
+  35 0 0 0 0
+  -0.715 0.905 0 -0.5911995 -15.65921 -15.1952 1 1 1
+  50 0 0 0 0
+  -0.715 0.905 0 -0.5911995 -15.65921 -15.1952 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\VLow_Poly\Minifigures\Pilot\vLPhandR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  0 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  2 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  15 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  40 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 9
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 1
+ObjectMotion (unnamed)
+  9
+  5
+  0 1.889971 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1.889971 0 0 0 0 1 1 1
+  2 0 0 0 0
+  0 1.889971 0 0 0 0 1 1 1
+  15 0 0 0 0
+  0 1.889971 0 0 0 0 1 1 1
+  40 0 0 0 0
+  0 1.889971 0 0 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 13
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 1
+ObjectMotion (unnamed)
+  9
+  5
+  0 1.72 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  2 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  15 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  40 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 13
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 180 0 0 3 3 3
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject cam_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0.45 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+AddNullObject cam_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 5.150001 4.79 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 13
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 0 2
+LightMotion (unnamed)
+  9
+  5
+  -2 2 -2 45 35 0 1 1 1
+  0 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  2 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  15 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  40 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 4
+CameraMotion (unnamed)
+  9
+  5
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  0 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  2 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  15 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  40 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+TargetObject 12
+ZoomFactor 3.200000
+Resolution 0
+CustomSize 200 200
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 1
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 2
+BlurLength 0.500000
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 1
+RayRecursionLimit 16
+DataOverlayLabel  
+SaveAnimationName \\Rob_plugin_man\d\Output\Lego\shrug.avi
+AnimationType 5
+EndPlugin
+OutputFilenameFormat 1
+SaveRGBImagesPrefix D:\OUTPUT\lego\Lowpoly\LPman
+RGBImageFormat 2
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 0.032373 2.230229 -0.010000
+ViewDirection -3.178245 -0.656244 0.000000
+ViewZoomFactor 1.777778
+GridNumber 10
+GridSize 2.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

@@ -1,0 +1,31 @@
+
+Lego* {
+
+	Scale				1.0
+	
+	Activities {
+		Activity_Route					Route
+		Activity_Stand					Stand
+		Activity_TickOver					TickOver
+
+	}
+
+	route {
+		FILE			BigLaserPLS
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+	}
+
+	Stand {
+		FILE			BigLaserPLS2
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+	}
+	
+	Tickover {
+		FILE			BigLaserPLS3
+		TRANSCOEF		0.0
+		LWSFILE		TRUE
+	}
+
+}

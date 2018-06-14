@@ -1,0 +1,211 @@
+
+Lego* {
+
+	Scale				1.0
+	WheelMesh			LP_SmallWheel
+	WheelNullName		tyrenull
+	CameraNullName		CAMERA_NULL
+	CameraNullFrames		2
+	DrillNullName		Drilltip_null
+	WheelRadius			3.0
+	DepositNullname		Deposit_Null
+	DriverNullName		Driver_Null
+
+	
+	
+		
+	Upgrades {
+		
+		Level0000 {			
+			; '000' represents a three bit binary number for each type of upgrade...
+			; All the parts in every section will be removed when any other level is selected...
+			; Format (No spaces are allowed in the second column:
+			; <Upgrade part (defined in Lego.cfg)>	[TAB]	<Null object name>,<Null instance (1-n)>
+			;	Object			Null
+			;Binary sequence order is [carry] [scan] [speed] [drill]
+			;therefore a vehicle with carry and speed upgrade will be 1010
+
+			
+			LPSD_Control_S		Controls_NULL,1
+			drill_S			DRILLnull,1
+			sbucket			LPSDbucket_NULL,1
+			
+
+		}
+
+		Level0100 {
+		;Scan
+			LPSD_Control_U		Controls_NULL,1
+			drill_S			DRILLnull,1
+			RadarhandleAT		LPSD_RADARhandle_NULL,1
+			Radarunit			LPSDRADAR_NULL,1
+			sbucket			LPSDbucket_NULL,1
+
+
+		}	
+
+		Level0010 {
+		;Speed
+			LPSD_Control_U		Controls_NULL,1
+			drill_S			DRILLnull,1
+			LP_SmallWheel		NOTtyrenull,1
+			LP_SmallWheel		NOTtyrenull,2
+			sbucket			LPSDbucket_NULL,1
+		}
+		Level0001 {
+		;Drill
+			LPSD_Control_U		Controls_NULL,1
+			drill_U			DRILLNULL,1
+			sbucket			LPSDbucket_NULL,1
+			
+		}
+	Level0101 {
+		;Scan + Drill
+			LPSD_Control_U		Controls_NULL,1
+			drill_U			DRILLNULL,1
+			RadarhandleAT		LPSD_RADARhandle_NULL,1
+			Radarunit			LPSDRADAR_NULL,1
+			sbucket			LPSDbucket_NULL,1
+
+		}	
+
+Level0011 {
+		;Speed + Drill
+			LPSD_Control_U		Controls_NULL,1
+			drill_U			DRILLNULL,1
+			LP_SmallWheel		NOTtyrenull,1
+			LP_SmallWheel		NOTtyrenull,2
+			sbucket			LPSDbucket_NULL,1	
+
+
+		}	
+Level0110 {
+		;Scan + Speed
+			LPSD_Control_U		Controls_NULL,1
+			drill_S			DRILLNULL,1	
+			LP_SmallWheel		NOTtyrenull,1
+			LP_SmallWheel		NOTtyrenull,2
+			RadarhandleAT		LPSD_RADARhandle_NULL,1
+			Radarunit			LPSDRADAR_NULL,1
+			sbucket			LPSDbucket_NULL,1
+
+		}
+Level0111 {
+		;Scan + Speed + Drill
+			LPSD_Control_U		Controls_NULL,1
+			drill_U			DRILLNULL,1
+			LP_SmallWheel		NOTtyrenull,1
+			LP_SmallWheel		NOTtyrenull,2
+			RadarhandleAT		LPSD_RADARhandle_NULL,1
+			Radarunit			LPSDRADAR_NULL,1
+			sbucket			LPSDbucket_NULL,1
+
+		}
+	}
+
+	Activities {
+		
+		Activity_Stand					Stand
+		Activity_Route					Route
+		Activity_Tickover					Tickover
+		Activity_Drill					Drill
+		Activity_TeleportIN				TeleportIN			
+		!Activity_HitLeft					HitLeft
+		!Activity_HitRight					HitRight
+		!Activity_HitFront					HitFront
+		!Activity_HitBack					HitBack
+		Activity_FloatOn					FloatOn
+		Activity_FloatOFF					FloatOFF	
+		
+
+	}
+
+	Stand {
+		FILE		LPSD_Stand
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Route {
+		FILE		LPSD_Drive
+;		TRANSCOEF	0.35
+		LWSFILE	TRUE
+	}
+
+	HitLeft {
+		FILE		LPSD_Lefthit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitRight {
+		FILE		LPSD_RightHit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitFront {
+		FILE		LPSD_FrontHit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitBack {
+		FILE		LPSD_Backhit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	
+	TurnLeft {
+		FILE		LPSD_Lturn
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}	
+	TurnRight {
+		FILE		LPSD_Rturn
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}	
+	Reverse {
+		FILE		LPSD_Reverse
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	StartUp {
+		FILE		LPSD_EngStart
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	ShutDown {
+		FILE		LPSD_EngStart
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	Tickover {
+		FILE		LPSD_Tickover
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	Drill {
+		FILE		LPSD_DrillAnim
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	TeleportIN {
+		FILE		S_Teleport_S_DIG
+		TRANSCOEF	0.0
+		LWSFILE	True
+	}
+
+	FloatOn {
+		FILE		LPSD_FloatON
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING		FALSE
+	}
+
+	FloatOff {
+		FILE		LPSD_FloatOFF
+		TRANSCOEF	0.0
+		LWSFILE	True
+		LOOPING		FALSE
+	}
+}

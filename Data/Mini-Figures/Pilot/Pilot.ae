@@ -1,0 +1,842 @@
+;REM
+Lego* {
+
+	Scale				1.0
+
+	CameraNullName		cam_null
+	CameraNullFrames		2
+	CameraFlipDir		TRUE
+	DrillNullName		drilltip_null
+	CarryNullName		item_null
+
+	MediumPoly {		; As viewed from close up in first person mode.
+
+		vlphead			mphead
+		vlptorso			lptorso
+		vlphandl			lphandl
+		vlphandr			lphandr
+		vlpbicepl			mparml
+		vlpbicepr			mparmr
+		vlpthighl			mpthighl
+		vlpthighr			mpthighr
+		vlpfootr			mpfootr
+		vlpfootl			mpfootl
+		L_hammer			hammer
+		L_clipboard			clipboard
+	}	
+
+	HighPoly {
+	
+		!vlphead			hphead
+		!vlphandl			hphand
+		!vlphandr			hphand
+		!vlpbicepl			hpbicepl
+		!vlpbicepr			hpbicepr
+		!vlptorso			lptorso
+		!vlpthighl			mpthighl
+		!vlpthighr			mpthighr
+		!vlpfootr			mpfootr
+		!vlpfootl			mpfootl
+		!L_hammer			hammer
+		!L_clipboard		clipboard
+	}
+
+	FPPoly {			; When selected as the first person view object.
+	
+		Camera1 {
+			vlphead			NULL			; NULL removes the mesh entirely.
+			vlptorso		NULL
+			vlpthighl		NULL
+			vlpthighr		NULL
+			vlpfootr		NULL
+			vlpfootl		NULL
+			vlphandl		NULL
+			vlphandr		NULL
+			vlpbicepl		NULL
+			vlpbicepr		NULL
+			L_hammer			hammer
+		}
+
+		Camera2 {
+			vlphead			hphead			; Camera 2 can sometimes view the entire object. i.e. Drilling view.
+			vlphandl		hphand
+			vlphandr		hphand
+			vlpbicepl		hpbicepl
+			vlpbicepr		hpbicepr
+			vlptorso		lptorso
+		}
+
+	}
+
+	Activities {
+		
+		Activity_Stand					Stand
+		Activity_Route					Run
+		Activity_RunPanic				RunPanic
+		Activity_Drill					Drill
+		!Activity_Walk					Walk
+		Activity_Reinforce				Reinforce
+		!Activity_Reverse				StepBack
+		!Activity_TurnLeft				TurnLeft
+		!Activity_TurnRight				TurnRight
+		!Activity_CantDo				Shrug
+		Activity_Collect				Pickup
+		Activity_Clear					ClearRubble
+		Activity_Carry					Carry
+		!Activity_CarryTurnLeft			TurnLeftCarry
+		!Activity_CarryTurnRight		TurnRightCarry
+		Activity_CarryStand				StandCarry
+		Activity_Dynamite				PlaceDynamite
+		Activity_Place					Place
+		!Activity_Deposit				Deposit
+		Activity_TeleportIn				TeleportIn
+		Activity_Repair					Repair
+		Activity_rest					Rest
+		!Activity_routeRubble			Routerubble
+		!Activity_CarryRubble			Carryrubble
+		Activity_Eat					Eat
+		Activity_FireLaser				Shoot
+		!Activity_GetUp					GetUp
+		Activity_ThrownByRockMonster	Thrown
+		Activity_Slip					SlipUp
+		Activity_Train					Train
+		!Activity_Recharge				Recharge
+
+		Activity_Waiting1				Waiting2
+		Activity_Waiting2				Waiting7
+		Activity_Waiting3				Waiting16
+		Activity_Waiting4				Waiting20
+
+	;ON HOVERBOARD
+
+		Activity_Hoverboard					DriveHB
+		Activity_Standhoverboard				StandHB
+		!Activity_HitLefthoverboard				HitLeftHB
+		!Activity_HitRighthoverboard				HitRightHB
+		!Activity_HitFronthoverboard				HitFrontHB
+		!Activity_HitBackhoverboard				HitBackHB
+
+	;ON SMALLTRUCK
+
+		Activity_SMALLTRUCK					DriveST
+		Activity_StandSMALLTRUCK				StandST
+		!Activity_HitLeftSMALLTRUCK				HitLeftST
+		!Activity_HitRightSMALLTRUCK				HitRightST
+		!Activity_HitFrontSMALLTRUCK				HitFrontST
+		!Activity_HitBackSMALLTRUCK				HitBackST
+
+	;ON SMALLHelicopter
+
+		Activity_SMALLheli					DriveSH
+		Activity_StandSMALLheli					StandSH
+		!Activity_HitLeftSMALLheli				HitLeftSH
+		!Activity_HitRightSMALLheli				HitRightSH
+		!Activity_HitFrontSMALLheli				HitFrontSH
+		!Activity_HitBackSMALLheli				HitBackSH
+
+	;ON SMALLCAT
+
+		Activity_SMALLCAT					DriveSC
+		Activity_StandSMALLCAT					DriveSC
+		!Activity_HitLeftSMALLCAT				HitLeftSC
+		!Activity_HitRightSMALLCAT				HitRightSC
+		!Activity_HitFrontSMALLCAT				HitFrontSC
+		!Activity_HitBackSMALLCAT				HitBackSC
+
+
+	;ON SMALLMLP
+
+		Activity_SMALLMLP						DriveSMLP
+		Activity_StandSMALLMLP					StandSMLP
+		!Activity_HitLeftSMALLMLP				HitLeftSMLP
+		!Activity_HitRightSMALLMLP				HitRightSMLP
+		!Activity_HitFrontSMALLMLP				HitFrontSMLP
+		!Activity_HitBackSMALLMLP				HitBackSMLP				
+
+	;ON BIGCATAMARAN
+
+		Activity_LARGECAT						DriveBC
+		Activity_StandLARGECAT					StandBC
+		!Activity_HitLeftLARGECAT				HitLeftBC
+		!Activity_HitRightLARGECAT				HitRightBC
+		!Activity_HitFrontLARGECAT				HitFrontBC
+		!Activity_HitBackLARGECAT				HitBackBC				
+
+	;ON SMALL DIGGER
+
+		Activity_SMALLDIGGER					DriveLPSD
+		Activity_StandSMALLDIGGER				StandLPSD
+}									
+
+	Recharge {
+		FILE		VLPRechargeCrystal
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	Train {
+		FILE		VLP_Training
+		LWSFILE		TRUE
+	}
+
+	SlipUp {
+		FILE		VLP_Slipup
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	GetUp {
+		FILE		VLP_getupbwd
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	Stand {
+		FILE		VLPstand
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		
+	}
+
+	Walk {
+		FILE		VLPwalk
+		TRANSCOEF	1.0
+		LWSFILE	TRUE	
+	}
+
+	Run {
+		FILE		VLPrun
+		TRANSCOEF	0.6
+		LWSFILE	TRUE		
+	}
+
+	RunPanic {
+		FILE		VLP_RunPanic
+		TRANSCOEF	0.6
+		LWSFILE	TRUE
+	}
+
+	Drill {
+		FILE		VLPfastdrill
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Teleport {
+		FILE		VLPteleportin2
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING		FALSE
+	}
+
+	Reinforce {
+		FILE		VLPhammerlight
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	ClearRubble {
+		FILE		VLP_digging2
+		TRANSCOEF	0.1
+		LWSFILE	TRUE
+	}
+
+	TurnLeft {
+		FILE		VLPturn90left
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING		FALSE
+	}
+
+	TurnRight {
+		FILE		VLPturn90right
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING		FALSE
+	}
+
+	StepBack {
+		FILE		VLPstepback
+		TRANSCOEF	0.20
+		LWSFILE	TRUE
+	}
+
+	Shrug {
+		FILE		VLP_shrug
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	PlaceDynamite {
+		FILE		VLPplace_dynamite
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING		FALSE
+	}
+
+	Pickup {
+		FILE		VLPpick_up
+		TRANSCOEF	0.0
+		SAMPLE		SFX_MFLift
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	StandCarry {
+		FILE		VLPStandCarry
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Carry {
+		FILE		VLPWalkCarry
+		TRANSCOEF	0.3
+		LWSFILE	TRUE
+	}
+
+	TurnLeftCarry {
+		FILE		VLPTurn90LeftCarry
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING		FALSE
+	}
+
+	TurnRightCarry {
+		FILE		VLPTurn90RightCarry
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING		FALSE
+	}
+
+	Deposit {
+		FILE		VLPdeposit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING		FALSE
+	}
+
+	Waiting1 {
+		FILE		VLP_backflip
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting2 {
+		FILE		VLP_beckon
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting3 {
+		FILE		VLP_clap
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting4 {
+		FILE		VLP_clap2
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting5 {
+		FILE		VLP_clap3
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting6 {
+		FILE		VLP_clap4
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting7 {
+		FILE		VLP_clipboard
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Eat {
+		FILE		VLP_eatsandwich
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting9 {
+		FILE		VLP_jumpceleb
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting10 {
+		FILE		VLP_look
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting11 {
+		FILE		VLP_rubhands
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting12 {
+		FILE		VLP_rubhands_lookleft
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting13 {
+		FILE		VLP_rubhands_lookright
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting14 {
+		FILE		VLP_Saxplay
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting15 {
+		FILE		VLP_Saxplayfast
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting16 {
+		FILE		VLP_scratchhead
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting17 {
+		FILE		VLP_shiver
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting18 {
+		FILE		VLP_shiver_flap
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting19 {
+		FILE		VLP_wipebrow
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Waiting20 {
+		FILE		VLP_Standingjump
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Place {
+		FILE		VLPPlace_Down
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		TRIGGER		18
+	}
+
+	TeleportIn {
+		FILE		VLP_TeleWALK
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+		LOOPING		FALSE
+	}
+
+	Repair {
+		FILE		VLPRepair2
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	;Celeb1 {
+	;	FILE		VLP_Celeb_Long
+	;	TRANSCOEF	0.0
+	;	LWSFILE	TRUE
+	;}
+	
+	;Celeb2 {
+	;	FILE		VLP_Celeb_Mini
+	;	TRANSCOEF	0.0
+	;	LWSFILE	TRUE
+	;}
+
+	Rest {
+		FILE		VLPplace_tired
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	
+	RouteRubble {
+		FILE		walk_wobble
+		TRANSCOEF	0.2
+		LWSFILE	TRUE
+	}
+
+	CarryRubble {
+		FILE		VLPcarryStagger
+		TRANSCOEF	0.5
+		LWSFILE	TRUE
+	}
+
+	EnterSlug {
+		FILE		VLP_OntoSlug
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	DriveSlug {
+		FILE		VLP_RideSlug
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	
+	DisembarkSlug {
+		FILE		VLP_offslug
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	StandSlug {		
+		FILE		VLP_sitslug
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Shoot {		
+		FILE		VLP_SB_Hlaser
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		TRIGGER		13
+	}
+
+	
+;ON HOVERBOARD
+	EnterHB {
+		FILE		HB_Takeoff
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING 	FALSE
+		}
+
+	DisembarkHB {
+		FILE		HB_Landing
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING 	FALSE
+		}
+
+	DriveHB {
+		FILE		HB_Route
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	StandHB {
+		FILE		HB_Sway
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitrightHB {
+		FILE		HB_Rsofthit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitleftHB {
+		FILE		HB_Lsofthit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitfrontHB {
+		FILE		HB_Fsofthit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitbackHB {
+		FILE		HB_Bsofthit
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	TurnLeftHB {
+		FILE		HB_LTURNstartfin
+		TRANSCOEF	0.0
+		LWSFILE	True
+		LOOPING	FALSE
+	}	
+	
+	TurnRightHB {
+		FILE		HB_RTURNstartfin
+		TRANSCOEF	0.0
+		LWSFILE	True
+		LOOPING	FALSE
+	}
+
+;ON SMALLTRUCK
+
+	EnterST {
+		FILE		ST_ENTER
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING 	FALSE
+		}
+
+	DriveST {
+		FILE		ST_DRIVE
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	StandST {
+		FILE		ST_TICKOVER
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitrightST {
+		FILE		ST_RSIDEHIT
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitleftST {
+		FILE		ST_LSIDEHIT
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitfrontST {
+		FILE		ST_FRONTHIT
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitbackST {
+		FILE		ST_BACKHIT
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	;ON SMALLHELICOPTER
+
+	EnterSH {
+		FILE		SH_ENTER
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING 	FALSE
+		}
+
+	DriveSH {
+		FILE		SH_HOVER
+		TRANSCOEF	0.35
+		LWSFILE	TRUE
+		}
+
+	StandSH {
+		FILE		SH_HOVER
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitrightSH {
+		FILE		SH_HitR
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitleftSH {
+		FILE		SH_HitL
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitfrontSH {
+		FILE		SH_HITFRONT
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitbackSH {
+		FILE		SH_HITBACK
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+;ON SMALLCATAMARAN
+
+	EnterSC {
+		FILE		SC_ENTER
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING 	FALSE
+		}
+
+	DriveSC {
+		FILE		SC_DRIVE
+		TRANSCOEF	0.35
+		LWSFILE	TRUE
+		}
+
+	StandSC {
+		FILE		SH_FLOATING
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitrightSC {
+		FILE		SC_RIGHT_HIT
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitleftSC {
+		FILE		SC_LEFT_HIT
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitfrontSC {
+		FILE		SC_FRONT_HIT
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitbackSC {
+		FILE		SC_BACK_HIT
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+;ON SMALLMLP
+
+	EnterSMLP {
+		FILE		M_SM_ENTER
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING 	FALSE
+		}
+
+	DriveSMLP {
+		FILE		M_SM_DRIVE
+		TRANSCOEF	0.35
+		LWSFILE	TRUE
+		}
+
+	StandSMLP {
+		FILE		M_SM_TICKOVER
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitrightSMLP {
+		FILE		M_SM_HITR
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitleftSMLP {
+		FILE		M_SM_HITL
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitfrontSMLP {
+		FILE		M_SM_HITFRONT
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitbackSMLP {
+		FILE		M_SM_HITBACK
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+;ON BIGCAT
+
+	EnterBC {
+		FILE		BCENTER
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		LOOPING 	FALSE
+		}
+
+	DriveBC {
+		FILE		BCSAIL
+		TRANSCOEF	0.35
+		LWSFILE	TRUE
+		}
+
+	StandBC {
+		FILE		BCRUNNING
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitrightBC {
+		FILE		BCHIT_RIGHT
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitleftBC {
+		FILE		BCHIT_LEFT
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitfrontBC {
+		FILE		BCHIT_FRONT
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	HitbackBC {
+		FILE		BCHIT_BACK
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}		
+
+;SMALL DIGGER
+
+	DRIVELPSD {
+		FILE		LPSD_DRIVE
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	STANDLPSD {
+		FILE		LPSD_STAND
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	ENTERLPSD {
+		FILE		LPSD_ENTER
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	DRILLLPSD {
+		FILE		LPSD_drillanim
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+		}
+
+	Thrown {
+		FILE		VLP_ShakeAbout2
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+}

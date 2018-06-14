@@ -1,0 +1,27 @@
+#include <nerpnrn.h>
+
+TRUE ? SetTutorialFlags 0
+
+GetTimer1 > 20000 ? SetMessagePermit 0
+GetTimer1 > 20000 ? SetTimer1 0
+
+// Check for completion case
+GetHiddenObjectsFound < 3 ? :incomplete
+GetR1 = 0 ? SetMessage 1 1
+TRUE ? SetR1 1
+GetMessageTimer > 0 ? Stop
+TRUE ? SetTimer1 0
+TRUE ? SetMessagePermit 1
+TRUE ? SetLevelCompleted
+Stop
+
+// If incomplete, check for failure case
+incomplete:
+
+GetMinifiguresOnLevel > 0 ? :CanRebuild
+GetToolStoresBuilt = 0 ? SetLevelFail
+Stop
+
+CanRebuild:
+// TODO: Any other stuff can go here...
+Stop

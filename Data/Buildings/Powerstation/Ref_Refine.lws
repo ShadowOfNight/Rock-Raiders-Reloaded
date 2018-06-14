@@ -1,0 +1,2892 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 85
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 85
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  -0.9499995 -57.63504 0.8500002 -90.7 0 0 38.42003 31.08607 38.42003
+  0 0 0 0 0
+  -0.9499995 -57.63504 0.8500002 -90.7 0 0 38.42003 31.08607 38.42003
+  3 0 0 0 0
+  -0.9499995 -57.63504 0.8500002 -90.7 0 0 38.42003 31.08607 38.42003
+  6 0 0 0 0
+  -0.9499995 -57.63504 0.8500002 -90.7 0 0 38.42003 31.08607 38.42003
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 373
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 7.450581e-009 0 0 0 0 0.8499999 1 0.8720002
+  0 0 0 0 0
+  0 7.450581e-009 0 0 0 0 0.8499999 1 0.8720002
+  3 0 0 0 0
+  0 7.450581e-009 0 0 0 0 0.8499999 1 0.8720002
+  6 0 0 0 0
+  0 7.450581e-009 0 0 0 0 0.8499999 1 0.8720002
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 320
+PivotPoint -0.49 0 1.36
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\buildingbottom.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 1.551994 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 6
+ShadowOptions 5
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\LPdraw.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 0 4.776288 0 0 0 1 1 1
+  0 1 0 0 0
+  0 0 1.861672 0 0 0 1 1 1
+  15 1 0 0 0
+  0 0 2.023701 0 0 0 1 1 1
+  17 1 0 0 0
+  0 0 2.081974 0 0 0 1 1 1
+  19 1 0 0 0
+  0 0 4.776288 0 0 0 1 1 1
+  35 1 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 3
+ShadowOptions 5
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\LPbucket.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  -0.01 8 13.75 180 -1.760908e-006 0 1 1 1
+  0 1 0 0 0
+  -0.01 8 13.75 180 -1.760908e-006 0 1 1 1
+  10 1 0 0 0
+  -0.01 8 13.75 180 70.59999 0 1 1 1
+  15 1 0 0 0
+  -0.01 8 13.75 180 70.59999 0 1 1 1
+  20 1 0 0 0
+  -0.01 8 13.75 180 -1.760908e-006 0 1 1 1
+  25 1 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 4
+ShadowOptions 7
+
+AddNullObject Parent_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  -0.02216761 1.85 -0.0247286 90.59999 0 0 0.02599994 0.03199993 0.02599994
+  0 0 0 0 0
+  -0.02216761 1.85 -0.0247286 90.59999 0 0 0.02599994 0.03199993 0.02599994
+  3 0 0 0 0
+  -0.02216761 1.85 -0.0247286 90.59999 0 0 0.02599994 0.03199993 0.02599994
+  6 0 0 0 0
+  -0.02216761 1.85 -0.0247286 90.59999 0 0 0.02599994 0.03199993 0.02599994
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 374
+ParentObject 1
+ShadowOptions 5
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\Base.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 4.5 0 0 0 0 1 1 1
+  0 0 0.5900002 0 0
+  0 4.5 0 0 0 0 1 1 1
+  3 0 0 0 0
+  0 4.5 0 0 0 0 1 1 1
+  6 0 0 0 0
+  0 4.5 0 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 133
+ParentObject 6
+ShadowOptions 5
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Refinery\Arrow.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  -6.402147 20.99999 -0.1310424 90 31.3 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 25
+ShadowOptions 5
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Arrow.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  -7.508913 34 8.668959 180 24.4 0 1 1 1
+  0 0 0 0 0
+  -7.508913 34 8.668959 180 24.4 0 1 1 1
+  3 0 0 0 0
+  -7.508913 34 8.668959 180 24.4 0 1 1 1
+  6 0 0 0 0
+  -7.508913 34 8.668959 180 24.4 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 46
+ParentObject 12
+ShadowOptions 5
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  -6.25 44 -8.750001 0 0 0 1 1 1
+  0 0 0 0 0
+  -6.25 44 -8.750001 0 0 0 1 1 1
+  3 0 0 0 0
+  -6.25 44 -8.750001 0 0 0 1 1 1
+  6 0 0 0 0
+  -6.25 44 -8.750001 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 12
+ShadowOptions 5
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  6.2 44.00999 -8.750001 0 0 0 1 1 1
+  0 0 0 0 0
+  6.2 44.00999 -8.750001 0 0 0 1 1 1
+  3 0 0 0 0
+  6.2 44.00999 -8.750001 0 0 0 1 1 1
+  6 0 0 0 0
+  6.2 44.00999 -8.750001 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 12
+ShadowOptions 5
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\buildingtop.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 1.510002 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1.510002 0 0 0 0 1 1 1
+  3 0 0 0 0
+  0 1.510002 0 0 0 0 1 1 1
+  6 0 0 0 0
+  0 1.510002 0 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 6
+ShadowOptions 5
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\LPRefPivot.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 2.6 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 2.6 0 0 0 0 1 1 1
+  35 1 0 0 0
+  0 2.6 0 -16 0 0 1 1 1
+  40 1 0 0 0
+  0 2.6 0 -521.9999 0 0 1 1 1
+  70 1 0 0 0
+  0 2.6 0 -540 0 0 1 1 1
+  75 1 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 12
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\LPRefinaryarms.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  0.131016 46.09999 -10.08591 0 60.20002 0 1 1 1
+  0 0 0 0 0
+  0.131016 46.09999 -10.08591 0 60.20002 0 1 1 1
+  3 0 0 0 0
+  0.131016 46.09999 -10.08591 0 60.20002 0 1 1 1
+  6 0 0 0 0
+  0.131016 46.09999 -10.08591 0 60.20002 0 1 1 1
+  20 0 0 0 0
+  0.131016 46.09999 -10.08591 0 60.20002 0 1 1 1
+  30 0 0 0 0
+  0.131016 46.09999 -10.08591 0 8.700035 0 1 1 1
+  35 0 0 0 0
+  0.131016 46.09999 -10.08591 0 60.20002 0 1 1 1
+  40 0 0 0 0
+  0.131016 46.09999 -10.08591 0 46.90001 0 1 1 1
+  50 0 0 0 0
+  0.131016 46.09999 -10.08591 0 65.20001 0 1 1 1
+  60 0 0 0 0
+  0.131016 46.09999 -10.08591 0 35.8 0 1 1 1
+  71 0 0 0 0
+  0.131016 46.09999 -10.08591 0 60.20002 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 12
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\LPRefinarydrill.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  0 4.950001 0.2 0 -7.2 0 1 1 1
+  0 0 0 0 0
+  0 4.950001 0.2 0 -7.2 0 1 1 1
+  3 0 0 0 0
+  0 4.950001 0.2 0 -7.2 0 1 1 1
+  6 0 0 0 0
+  0 4.950001 0.2 0 -7.2 0 1 1 1
+  20 0 0 0 0
+  0 4.950001 0.2 0 -7.2 0 1 1 1
+  30 0 0 0 0
+  0 4.950001 0.2 -1.7 37.40001 0 1 1 1
+  35 0 0 0 0
+  0 4.950001 0.2 0 -7.2 0 1 1 1
+  40 0 0 0 0
+  0 4.950001 0.2 -4.2 11.5 0 1 1 1
+  50 0 0 0 0
+  0 4.950001 0.2 -5.099999 -5.999998 0 1 1 1
+  60 0 0 0 0
+  0 4.950001 0.2 -7.999998 22.20001 0 1 1 1
+  71 0 0 0 0
+  0 4.950001 0.2 0 -7.2 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 14
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\LPRefinaryLaser.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  14
+  0 0 0 0 0 0 0 0 0
+  0 0 0 0 0
+  0 0 0 0 0 0 0 0 0
+  3 0 0 0 0
+  0 0 0 0 0 0 0 0 0
+  6 0 0 0 0
+  0 0 0 0 0 0 0 0 0
+  20 0 0 0 0
+  0 0 0 0 0 0 0 0 0
+  39 1 0 0 0
+  0 0 -2.52908 0 0 0 1 1 1.379999
+  40 0 0 0 0
+  0 0 -2.52908 0 0 0 1.334 1 1.379999
+  45 1 0 0 0
+  0 0 -2.52908 0 0 0 0.4600001 1.618 1.379999
+  50 1 0 0 0
+  0 0 -2.52908 0 0 0 1 0.47 1.379999
+  55 0 0 0 0
+  0 0 -2.52908 0 0 0 1.52 1 1.379999
+  60 1 0 0 0
+  0 0 -2.52908 0 0 0 0.6079999 1.46 1.379999
+  65 1 0 0 0
+  0 0 -2.52908 0 0 0 1.37 0.8000001 1.379999
+  70 1 0 0 0
+  0 0 -2.52908 0 0 0 1 1 1.379999
+  80 1 0 0 0
+  0 0 0 0 0 0 0 0 0
+  85 1 0 0 0
+EndBehavior 1
+LockedChannels 259
+ParentObject 15
+ShadowOptions 7
+
+AddNullObject Item_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  -2.9 10.9 21.85 0 0 0 1 1 1
+  0 1 0 0 0
+  -2.9 10.9 19.85 0 0 0 1 1 1
+  10 1 0 0 0
+  -2.9 12.5 17.29 0 0 0 1 1 1
+  12 0 0 0 0
+  -2.9 15.5 8.549999 0 0 0 1 1 1
+  15 1 0 0 0
+  -2.9 9.499996 1.849999 0 0 0 1 1 1
+  20 0 0 0 0
+  -2.9 9.499996 1.849999 0 0 0 1 1 1
+  31 0 0 0 0
+  0.2 39.30001 0.04999883 0 0 0 1 1 1
+  32 0 0 0 0
+EndBehavior 1
+LockedChannels 46
+ShadowOptions 7
+
+AddNullObject Item_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  2.799999 10.9 21.85 0 0 0 1 1 1
+  0 1 0 0 0
+  2.799999 10.9 19.81667 0 0 0 1 1 1
+  10 1 0 0 0
+  2.799999 12.5 17.31001 0 0 0 1 1 1
+  12 0 0 0 0
+  2.799999 15.3 8.050004 0 0 0 1 1 1
+  15 1 0 0 0
+  2.799999 9.400002 1.950004 0 0 0 1 1 1
+  20 0 0 0 0
+  2.799999 9.400002 1.950004 0 0 0 1 1 1
+  31 0 0 0 0
+  0.199999 39.29999 0.05000424 0 0 0 1 1 1
+  32 0 0 0 0
+EndBehavior 1
+LockedChannels 43
+ShadowOptions 7
+
+AddNullObject Item_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  -2.9 13.05 26.99999 0 0 0 1 1 1
+  0 1 0 0 0
+  -2.9 13.05 24.66666 0 0 0 1 1 1
+  10 1 0 0 0
+  -2.9 14.35 20.59999 0 0 0 1 1 1
+  12 0 0 0 0
+  -2.9 15.25 8.199988 0 0 0 1 1 1
+  15 1 0 0 0
+  -2.9 9.650001 1.799989 0 0 0 1 1 1
+  20 0 0 0 0
+  -2.9 9.650001 1.799989 0 0 0 1 1 1
+  31 0 0 0 0
+  0.2 39.35001 -1.163781e-005 0 0 0 1 1 1
+  32 0 0 0 0
+EndBehavior 1
+LockedChannels 46
+ShadowOptions 7
+
+AddNullObject Item_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  2.9 13.05 27 0 0 0 1 1 1
+  0 1 0 0 0
+  2.9 13.05 24.7 0 0 0 1 1 1
+  10 1 0 0 0
+  2.9 14.55 20.82001 0 0 0 1 1 1
+  12 0 0 0 0
+  2.9 15.35 7.900006 0 0 0 1 1 1
+  15 1 0 0 0
+  2.9 9.35 1.700006 0 0 0 1 1 1
+  20 0 0 0 0
+  2.9 9.35 1.700006 0 0 0 1 1 1
+  31 0 0 0 0
+  0.2000001 39.35001 5.915761e-006 0 0 0 1 1 1
+  32 0 0 0 0
+EndBehavior 1
+LockedChannels 46
+ShadowOptions 7
+
+AddNullObject Item_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  -0.166 14.25 23.17479 0 0 0 1 1 1
+  0 1 0 0 0
+  -0.166 14.25 21.00812 0 0 0 1 1 1
+  10 1 0 0 0
+  -0.166 13.85 18.11478 0 0 0 1 1 1
+  12 0 0 0 0
+  -0.166 15.55 7.974791 0 0 0 1 1 1
+  15 1 0 0 0
+  -0.166 9.349998 1.474791 0 0 0 1 1 1
+  20 0 0 0 0
+  -0.166 9.349998 1.474791 0 0 0 1 1 1
+  31 0 0 0 0
+  0.134 39.24998 0.07479091 0 0 0 1 1 1
+  32 0 0 0 0
+EndBehavior 1
+LockedChannels 43
+ShadowOptions 7
+
+AddNullObject Deposit_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 49 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 49 0 0 0 1 1 1
+  3 0 0 0 0
+  0 0 49 0 0 0 1 1 1
+  6 0 0 0 0
+  0 0 49 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\spangleY.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  25
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1.11 1.11 1.11
+  3 0 0 0 0
+  0 0 0 0 0 0 0.944 0.944 0.944
+  6 0 0 0 0
+  0 0 0 0 0 0 1.238631 1.238631 1.238631
+  10 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  13 0 0 0 0
+  0 0 0 0 0 0 1.219407 1.219407 1.219407
+  17 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  20 0 0 0 0
+  0 0 0 0 0 0 1 1.208 1.244
+  23 0 0 0 0
+  0 0 0 0 0 0 1.182 1 1
+  26 0 0 0 0
+  0 0 0 0 0 0 1.028001 1.178001 1.196002
+  30 0 0 0 0
+  0 0 0 0 0 0 1.140001 1.028001 0.932002
+  33 0 0 0 0
+  0 0 0 0 0 0 1.028001 1.140001 1.144002
+  36 0 0 0 0
+  0 0 0 0 0 0 0.944 0.944 0.944
+  40 0 0 0 0
+  0 0 0 0 0 0 1.076 1.128 1.174
+  43 0 0 0 0
+  0 0 0 0 0 0 1 0.944 0.944
+  46 0 0 0 0
+  0 0 0 0 0 0 0 0 0
+  50 0 0 0 0
+  0 0 0 0 0 0 1 0.944 0.944
+  54 0 0 0 0
+  0 0 0 0 0 0 0 0 0
+  57 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  60 0 0 0 0
+  0 0 0 0 0 0 0 0 0
+  63 0 0 0 0
+  0 0 0 0 0 0 1 0.944 0.944
+  66 0 0 0 0
+  0 0 0 0 0 0 0 0 0
+  70 0 0 0 0
+  0 0 0 0 0 0 1 1.028001 0.932002
+  73 0 0 0 0
+  0 0 0 0 0 0 0 0 0
+  76 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  80 0 0 0 0
+EndBehavior 1
+ParentObject 10
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\spangleY.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 0.7960002 0.7960002 0.7960002
+  6 0 0 0 0
+  0 0 0 0 0 0 1.401585 1.401585 1.401585
+  12 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  20 0 0 0 0
+  0 0 0 0 0 0 0.7960002 0.7960002 0.7960002
+  26 0 0 0 0
+  0 0 0 0 0 0 1.401585 1.401585 1.401585
+  32 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  40 0 0 0 0
+  0 0 0 0 0 0 0.7960002 0.7960002 0.7960002
+  46 0 0 0 0
+  0 0 0 0 0 0 1.401585 1.401585 1.401585
+  52 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  60 0 0 0 0
+  0 0 0 0 0 0 0.7960002 0.7960002 0.7960002
+  66 0 0 0 0
+  0 0 0 0 0 0 1.401585 1.401585 1.401585
+  72 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  80 0 0 0 0
+EndBehavior 1
+ParentObject 35
+ShadowOptions 7
+
+LoadObject Z:\LEGO\Data\Buildings\Powerstation\Newbit_Base.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  35.46837 1.2 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Refinery\Arrow.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  7.497852 34 8.668959 180 31.3 0 1 1 1
+  0 0 0 0 0
+  7.497852 34 8.668959 180 31.3 0 1 1 1
+  3 0 0 0 0
+  7.497852 34 8.668959 180 31.3 0 1 1 1
+  6 0 0 0 0
+  7.497852 34 8.668959 180 31.3 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 12
+ShadowOptions 5
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Refinery\Arrow.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  6.443246 20.99999 -0.1310424 270 31.3 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 54
+ParentObject 25
+ShadowOptions 5
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  34.16001 23.61 1.122051 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 128
+ParentObject 12
+ShadowOptions 5
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  36.66 23.61 1.122051 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 128
+ParentObject 12
+ShadowOptions 5
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  34.16001 23.61 -1.277949 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 128
+ParentObject 12
+ShadowOptions 5
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  36.66002 23.61 -1.277949 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 128
+ParentObject 12
+ShadowOptions 5
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  27.54846 3.709998 -8.509318 0 0 0 1 1.154 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 322
+ParentObject 12
+ShadowOptions 5
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  26.94227 3.709998 8.653737 0 0 0 1 1.154 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 322
+ParentObject 12
+ShadowOptions 5
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  44.24846 3.709998 8.690683 0 0 0 1 1.154 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 322
+ParentObject 12
+ShadowOptions 5
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+ShowObject 8 1
+ObjectMotion (unnamed)
+  9
+  1
+  44.24846 3.709998 -8.709319 0 0 0 1 1.154 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 322
+ParentObject 12
+ShadowOptions 5
+
+LoadObject Z:\LEGO\Data\Buildings\Powerstation\Connecting_Pipe.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  18.50554 5.699999 -1.286135 -101 -179.3001 -111.3 0.728 0.95 1.122
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\LEGO\Data\Buildings\Powerstation\Connecting_Pipe.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  17.57629 5.699999 2.217412 -73.50004 -180.7001 -65.59998 0.9920001 1 1.126
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\LEGO\Data\Buildings\Powerstation\Connecting_Pipe.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  20.17281 5.899999 2.015651 -103.9001 -181.7001 -14.19997 1.028 1 1.352
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\LEGO\Data\Buildings\Powerstation\Connecting_Pipe.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  19.24608 10.2 -2.31642 -251.6 -154.9002 38.3 0.728 0.95 1.122
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\spangleY.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  25
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 0.7960002 0.7960002 0.7960002
+  3 0 0 0 0
+  0 0 0 0 0 0 1.401585 1.401585 1.401585
+  6 0 0 0 0
+  0 0 0 0 0 0 0.8278764 0.8278764 0.8278764
+  10 0 0 0 0
+  0 0 0 0 0 0 1.372634 1.372634 1.372634
+  14 0 0 0 0
+  0 0 0 0 0 0 0.9618057 0.9618057 0.9618057
+  17 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  20 0 0 0 0
+  0 0 0 0 0 0 0.7960002 0.7960002 0.7960002
+  23 0 0 0 0
+  0 0 0 0 0 0 1.401585 1.401585 1.401585
+  26 0 0 0 0
+  0 0 0 0 0 0 0.8278764 0.8278764 0.8278764
+  30 0 0 0 0
+  0 0 0 0 0 0 1.372634 1.372634 1.372634
+  34 0 0 0 0
+  0 0 0 0 0 0 0.9618057 0.9618057 0.9618057
+  37 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  40 0 0 0 0
+  0 0 0 0 0 0 0 0 0
+  43 0 0 0 0
+  0 0 0 0 0 0 1.401585 1.401585 1.401585
+  46 0 0 0 0
+  0 0 0 0 0 0 0 0 0
+  50 0 0 0 0
+  0 0 0 0 0 0 1.712634 1.642634 1.772634
+  54 0 0 0 0
+  0 0 0 0 0 0 0 0 0
+  57 0 0 0 0
+  0 0 0 0 0 0 1.66 1.81 1.92
+  60 0 0 0 0
+  0 0 0 0 0 0 0 0 0
+  63 0 0 0 0
+  0 0 0 0 0 0 1.561585 1.581585 1.641585
+  66 0 0 0 0
+  0 0 0 0 0 0 0 0 0
+  70 0 0 0 0
+  0 0 0 0 0 0 1.372634 1.372634 1.372634
+  74 0 0 0 0
+  0 0 0 0 0 0 0 0 0
+  77 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  80 0 0 0 0
+EndBehavior 1
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\spangleY.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1.044 1.148 1.164
+  5 0 0 0 0
+  0 0 0 0 0 0 0.8755856 0.8855851 0.8015851
+  16 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  20 0 0 0 0
+  0 0 0 0 0 0 1.044 1.148 1.164
+  25 0 0 0 0
+  0 0 0 0 0 0 0.8755856 0.8855851 0.8015851
+  36 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  40 0 0 0 0
+  0 0 0 0 0 0 1.044 1.148 1.164
+  45 0 0 0 0
+  0 0 0 0 0 0 0.8755856 0.8855851 0.8015851
+  56 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  60 0 0 0 0
+  0 0 0 0 0 0 1.044 1.148 1.164
+  65 0 0 0 0
+  0 0 0 0 0 0 0.8755856 0.8855851 0.8015851
+  76 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  80 0 0 0 0
+EndBehavior 1
+ParentObject 33
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\spangleY.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 0.7960002 0.7960002 0.7960002
+  10 0 0 0 0
+  0 0 0 0 0 0 1.209586 1.401585 1.401585
+  16 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  20 0 0 0 0
+  0 0 0 0 0 0 0.7960002 0.7960002 0.7960002
+  30 0 0 0 0
+  0 0 0 0 0 0 1.209586 1.401585 1.401585
+  36 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  40 0 0 0 0
+  0 0 0 0 0 0 0.7960002 0.7960002 0.7960002
+  50 0 0 0 0
+  0 0 0 0 0 0 1.209586 1.401585 1.401585
+  56 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  60 0 0 0 0
+  0 0 0 0 0 0 0.7960002 0.7960002 0.7960002
+  70 0 0 0 0
+  0 0 0 0 0 0 1.209586 1.401585 1.401585
+  76 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  80 0 0 0 0
+EndBehavior 1
+ParentObject 34
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\spangleY.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1.044 1.148 1.164
+  6 0 0 0 0
+  0 0 0 0 0 0 0.8755856 0.8855851 0.8815849
+  12 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  20 0 0 0 0
+  0 0 0 0 0 0 1.044 1.148 1.164
+  26 0 0 0 0
+  0 0 0 0 0 0 0.8755856 0.8855851 0.8815849
+  32 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  40 0 0 0 0
+  0 0 0 0 0 0 1.044 1.148 1.164
+  46 0 0 0 0
+  0 0 0 0 0 0 0.8755856 0.8855851 0.8815849
+  54 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  60 0 0 0 0
+  0 0 0 0 0 0 1.044 1.148 1.164
+  66 0 0 0 0
+  0 0 0 0 0 0 0.8755856 0.8855851 0.8815849
+  74 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  80 0 0 0 0
+EndBehavior 1
+ParentObject 32
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\spangleY.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  21
+  1.1 0.5 -1.2 0 0 0 1.989523 2.006818 1.999712
+  0 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 2.087999 2.296 2.328
+  2 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 1.751171 1.77117 1.76317
+  4 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 2.200414 2.224553 2.232
+  7 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 2 2 2
+  10 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 2.087999 2.256 2.220001
+  12 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 1.899171 1.91917 1.87517
+  14 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 2.200414 2.224553 2.232
+  17 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 2 2 2
+  20 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 1.751171 1.77117 1.76317
+  25 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 2.200414 2.224553 2.232
+  30 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 1.899171 1.91917 1.87517
+  35 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 2 2 2
+  40 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 1.751171 1.77117 1.76317
+  45 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 2.200414 2.224553 2.232
+  50 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 1.899171 1.91917 1.87517
+  55 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 2 2 2
+  60 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 1.751171 1.77117 1.76317
+  65 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 2.200414 2.224553 2.232
+  70 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 1.899171 1.91917 1.87517
+  75 0 0 0 0
+  1.1 0.5 -1.2 0 0 0 2 2 2
+  80 0 0 0 0
+EndBehavior 1
+ParentObject 28
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  -7.827514 26.7 0.4780216 -90.1 162.9 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ObjDissolve (envelope)
+  1
+  2
+  0.8
+  0 0 0 0 0
+  0.8
+  85 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  7.919969 26.7 0.4780216 -89.79999 197.8 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 46
+ObjDissolve (envelope)
+  1
+  2
+  0.8
+  0 0 0 0 0
+  0.8
+  85 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  26.14116 1.700003 2.517128 -89.79999 89.8 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 362
+ObjDissolve (envelope)
+  1
+  2
+  0.8
+  0 0 0 0 0
+  0.8
+  85 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  35.32586 -2.599998 6.353975 1.000017 3.199988 0 0.7819998 1.254 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 173
+ObjDissolve (envelope)
+  1
+  2
+  0.85
+  0 0 0 0 0
+  0.85
+  85 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  40.78648 3.100002 0.4148803 90 1.100001 0 0.8039998 1.103999 0.9960001
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 298
+ObjDissolve (envelope)
+  1
+  2
+  0.85
+  0 0 0 0 0
+  0.85
+  85 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  35.57103 3.100002 -6.418065 180 1.1 0 0.6299998 0.8340001 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 370
+ObjDissolve (envelope)
+  1
+  2
+  0.85
+  0 0 0 0 0
+  0.85
+  85 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  30.11441 3.100002 0.0807224 270 1.1 0 0.9119995 1.254 1.002
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 178
+ObjDissolve (envelope)
+  1
+  2
+  0.85
+  0 0 0 0 0
+  0.85
+  85 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  11.82088 14.6 0.4780216 -89.79999 148.8 0 1 0.7539997 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 365
+ObjDissolve (envelope)
+  1
+  2
+  0.8
+  0 0 0 0 0
+  0.8
+  85 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\SteamJet.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0.2345652 12.4 3.402821 207.5 0 11.9 3.598 2.11 2.11
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 26
+ObjDissolve (envelope)
+  1
+  5
+  1
+  0 0 0 0 0
+  1
+  14 1 0 0 0
+  0
+  15 0 0 0 0
+  0
+  24 1 0 0 0
+  1
+  25 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\SteamJet.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0.2345652 12.4 3.402821 137.3 0 -11.9 3.816 2.328001 2.328001
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 434
+ObjDissolve (envelope)
+  1
+  5
+  1
+  0 0 0 0 0
+  1
+  14 1 0 0 0
+  0
+  15 0 0 0 0
+  0
+  24 1 0 0 0
+  1
+  25 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\Explode.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 13.1 9.999999 0 0 0 1 1 1
+  0 0 0 0 0
+  0 13.1 1.199999 0 0 0 1 1 1
+  20 0 0 0 0
+  0 13.1 5.425604 0 0 0 13.77 18.034 20.71601
+  24 0 0 0 0
+  0 13.1 5.425604 0 0 0 14.24602 17.506 19.50801
+  25 0 0 0 0
+  0 13.1 5.425604 0 0 90.19997 17.64201 15.062 19.73202
+  26 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ObjDissolve (envelope)
+  1
+  9
+  1
+  0 0 0 0 0
+  1
+  20 1 0 0 0
+  0.01000001
+  24 1 0 0 0
+  0.394
+  25 0 0 0 0
+  0.12
+  26 1 0 0 0
+  0.58
+  28 0 0 0 0
+  0.21
+  30 1 0 0 0
+  1
+  33 0 0 0 0
+  1
+  34 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\Explode.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 41.70002 0.0999993 0 0 0 1 1 1
+  0 0 0 0 0
+  0 41.70002 0.0999993 0 0 0 1 1 1
+  28 0 0 0 0
+  0 41.70002 0.0999993 -85.6 -26.7 -70.2 8.139999 8.139999 8.139999
+  32 0 0 0 0
+  0 41.70002 0.0999993 -44.5 40.00001 -70.2 8.139999 8.139999 8.139999
+  34 0 0 0 0
+  0 41.70002 0.0999993 -44.5 40.00001 -70.2 0.6599982 0.6599982 0.6599982
+  37 0 0 0 0
+EndBehavior 1
+LockedChannels 1
+ObjDissolve (envelope)
+  1
+  5
+  1
+  0 0 0 0 0
+  1
+  27 1 0 0 0
+  0
+  28 1 0 0 0
+  0
+  34 1 0 0 0
+  1
+  35 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 -72.39999 0.4999999 0 1.409999 0.854 1.571998
+  0 0 0 0 0
+  0 0 0 -72.39999 0.4999999 0 1.409999 0.854 1.571998
+  41 0 0 0 0
+  0 0 0 -72.39999 0.4999999 0 1.409999 0.854 1.571998
+  65 0 0 0 0
+  0 0 0 -72.39999 0.4999999 0 1.409999 0.854 1.571998
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 77
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  -7.12966 16.01442 -2.164558 44.71429 -61.14279 0 1 1 1
+  65 0 0 0 0
+  -13.99757 28.19592 -4.268186 88.00001 -119.9999 0 1 1 1
+  66 0 0 0 0
+  -45.32701 45.025 -14.08564 288 -388.0001 0 1 1 1
+  71 0 0 0 0
+  -73.18848 -3.019827 -25.01119 468 -663.9998 0 1 1 1
+  76 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  84 0 0 0 0
+  -96.67873 -129.4441 -34.72061 741.7899 -1092.45 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 57
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  5.499011 19.45851 0.6682321 46.00001 -62.87493 0 1 1 1
+  65 0 0 0 0
+  10.49818 33.83511 1.280456 88.00001 -119.9999 0 1 1 1
+  66 0 0 0 0
+  33.99526 54.03 4.225691 288 -388.0001 0 1 1 1
+  72 0 0 0 0
+  54.89136 14.37621 7.503358 468 -663.9998 0 1 1 1
+  78 0 0 0 0
+  68.04653 -83.87206 9.671393 666.7404 -974.7824 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 57
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  2.098178 37.21862 -2.215863 88.00001 -119.9999 0 1 1 1
+  65 0 0 0 0
+  12.79527 59.433 -14.17229 288 -388.0001 0 1 1 1
+  71 0 0 0 0
+  21.29135 15.81383 -24.42899 468 -663.9998 0 1 1 1
+  76 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 57
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 0 0 0 0 0 1.5 1.5 1.5
+  41 0 0 0 0
+  -0.09201471 9.934909 -0.01835397 20.725 -28.34997 0 1.5 1.5 1.5
+  65 0 0 0 0
+  -1.901822 37.21862 0.5841367 88.00001 -119.9999 0 1.5 1.5 1.5
+  68 0 0 0 0
+  -25.20473 59.433 10.22771 288 -388.0001 0 1.5 1.5 1.5
+  74 0 0 0 0
+  -52.50865 15.81383 18.57101 468 -663.9998 0 1.5 1.5 1.5
+  79 0 0 0 0
+  -77.51457 -87.96203 32.05276 659.8326 -963.9258 0 1.5 1.5 1.5
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 57
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  65 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 77
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  -7.12966 16.01442 -2.164558 44.71429 -61.14279 0 1 1 1
+  65 0 0 0 0
+  -13.99757 28.19592 -4.268186 88.00001 -119.9999 0 1 1 1
+  66 0 0 0 0
+  -45.32701 45.025 -14.08564 288 -388.0001 0 1 1 1
+  71 0 0 0 0
+  -73.18848 -3.019827 -25.01119 468 -663.9998 0 1 1 1
+  76 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  84 0 0 0 0
+  -96.67873 -129.4441 -34.72061 741.7899 -1092.45 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 62
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  5.499011 19.45851 0.6682321 46.00001 -62.87493 0 1 1 1
+  65 0 0 0 0
+  10.49818 33.83511 1.280456 88.00001 -119.9999 0 1 1 1
+  66 0 0 0 0
+  33.99526 54.03 4.225691 288 -388.0001 0 1 1 1
+  72 0 0 0 0
+  54.89136 14.37621 7.503358 468 -663.9998 0 1 1 1
+  78 0 0 0 0
+  68.04653 -83.87206 9.671393 666.7404 -974.7824 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 62
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  2.098178 37.21862 -2.215863 88.00001 -119.9999 0 1 1 1
+  65 0 0 0 0
+  12.79527 59.433 -14.17229 288 -388.0001 0 1 1 1
+  71 0 0 0 0
+  21.29135 15.81383 -24.42899 468 -663.9998 0 1 1 1
+  76 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 62
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 0 0 0 0 0 1.5 1.5 1.5
+  41 0 0 0 0
+  -0.09201471 9.934909 -0.01835397 20.725 -28.34997 0 1.5 1.5 1.5
+  65 0 0 0 0
+  -1.901822 37.21862 0.5841367 88.00001 -119.9999 0 1.5 1.5 1.5
+  68 0 0 0 0
+  -25.20473 59.433 10.22771 288 -388.0001 0 1.5 1.5 1.5
+  74 0 0 0 0
+  -52.50865 15.81383 18.57101 468 -663.9998 0 1.5 1.5 1.5
+  79 0 0 0 0
+  -77.51457 -87.96203 32.05276 659.8326 -963.9258 0 1.5 1.5 1.5
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 62
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 0 -72.39999 0.4999999 0 1.409999 0.854 1.571998
+  0 0 0 0 0
+  0 0 0 -72.39999 0.4999999 0 1.409999 0.854 1.571998
+  41 0 0 0 0
+  0 0 0 -72.39999 0.4999999 0 1.409999 0.854 1.571998
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 77
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  -13.99757 28.19592 -4.268186 88.00001 -119.9999 0 1 1 1
+  42 0 0 0 0
+  -45.32701 45.025 -14.08564 288 -388.0001 0 1 1 1
+  47 0 0 0 0
+  -73.18848 -3.019827 -25.01119 468 -663.9998 0 1 1 1
+  52 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  60 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  64 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 67
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  10.49818 33.83511 1.280456 88.00001 -119.9999 0 1 1 1
+  42 0 0 0 0
+  33.99526 54.03 4.225691 288 -388.0001 0 1 1 1
+  48 0 0 0 0
+  54.89136 14.37621 7.503358 468 -663.9998 0 1 1 1
+  54 0 0 0 0
+  71.7504 -117.8 10.29075 729.9999 -1074 0 1 1 1
+  64 0 0 0 0
+  71.7504 -117.8 10.29075 729.9999 -1074 0 1 1 1
+  65 0 0 0 0
+  71.7504 -117.8 10.29075 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 67
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  12.79527 59.433 -14.17229 288 -388.0001 0 1 1 1
+  47 0 0 0 0
+  21.29135 15.81383 -24.42899 468 -663.9998 0 1 1 1
+  52 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  61 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  64 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 67
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 0 0 0 0 0 1.5 1.5 1.5
+  41 0 0 0 0
+  -1.901822 37.21862 0.5841367 88.00001 -119.9999 0 1.5 1.5 1.5
+  44 0 0 0 0
+  -25.20473 59.433 10.22771 288 -388.0001 0 1.5 1.5 1.5
+  50 0 0 0 0
+  -52.50865 15.81383 18.57101 468 -663.9998 0 1.5 1.5 1.5
+  55 0 0 0 0
+  -86.3996 -129.58 37.27723 729.9999 -1074 0 1.5 1.5 1.5
+  64 0 0 0 0
+  -86.3996 -129.58 37.27723 729.9999 -1074 0 1.5 1.5 1.5
+  65 0 0 0 0
+  -86.3996 -129.58 37.27723 729.9999 -1074 0 1.5 1.5 1.5
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 67
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  64 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 77
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  -13.99757 28.19592 -4.268186 88.00001 -119.9999 0 1 1 1
+  42 0 0 0 0
+  -45.32701 45.025 -14.08564 288 -388.0001 0 1 1 1
+  47 0 0 0 0
+  -73.18848 -3.019827 -25.01119 468 -663.9998 0 1 1 1
+  52 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  60 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  64 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 72
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  10.49818 33.83511 1.280456 88.00001 -119.9999 0 1 1 1
+  42 0 0 0 0
+  33.99526 54.03 4.225691 288 -388.0001 0 1 1 1
+  48 0 0 0 0
+  54.89136 14.37621 7.503358 468 -663.9998 0 1 1 1
+  54 0 0 0 0
+  71.7504 -117.8 10.29075 729.9999 -1074 0 1 1 1
+  64 0 0 0 0
+  71.7504 -117.8 10.29075 729.9999 -1074 0 1 1 1
+  65 0 0 0 0
+  71.7504 -117.8 10.29075 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 72
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  12.79527 59.433 -14.17229 288 -388.0001 0 1 1 1
+  47 0 0 0 0
+  21.29135 15.81383 -24.42899 468 -663.9998 0 1 1 1
+  52 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  61 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  64 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 72
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 0 0 0 0 0 1.5 1.5 1.5
+  41 0 0 0 0
+  -1.901822 37.21862 0.5841367 88.00001 -119.9999 0 1.5 1.5 1.5
+  44 0 0 0 0
+  -25.20473 59.433 10.22771 288 -388.0001 0 1.5 1.5 1.5
+  50 0 0 0 0
+  -52.50865 15.81383 18.57101 468 -663.9998 0 1.5 1.5 1.5
+  55 0 0 0 0
+  -86.3996 -129.58 37.27723 729.9999 -1074 0 1.5 1.5 1.5
+  64 0 0 0 0
+  -86.3996 -129.58 37.27723 729.9999 -1074 0 1.5 1.5 1.5
+  65 0 0 0 0
+  -86.3996 -129.58 37.27723 729.9999 -1074 0 1.5 1.5 1.5
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 72
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject sparksnull
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 7.400002 0 0 0 0 0.1144726 0.1144726 0.1144726
+  0 1 0 0 0
+  0 7.400002 0 0 0 0 0.1144726 0.1144726 0.1144726
+  39 1 0 0 0
+  0 39.8 0 0 0 0 0.1144726 0.1144726 0.1144726
+  40 0 0 0 0
+  0 39.8 0 0 0 0 0.2064726 0.2064726 0.2064726
+  59 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 -72.39999 0.4999999 0 1.409999 0.854 1.571998
+  0 0 0 0 0
+  0 0 0 -72.39999 0.4999999 0 1.409999 0.854 1.571998
+  41 0 0 0 0
+  0 0 0 -72.39999 0.4999999 0 1.409999 0.854 1.571998
+  65 0 0 0 0
+  0 0 0 -72.39999 0.4999999 0 1.409999 0.854 1.571998
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 98
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  -7.12966 16.01442 -2.164558 44.71429 -61.14279 0 1 1 1
+  65 0 0 0 0
+  -13.99757 28.19592 -4.268186 88.00001 -119.9999 0 1 1 1
+  66 0 0 0 0
+  -45.32701 45.025 -14.08564 288 -388.0001 0 1 1 1
+  71 0 0 0 0
+  -73.18848 -3.019827 -25.01119 468 -663.9998 0 1 1 1
+  76 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  84 0 0 0 0
+  -96.67873 -129.4441 -34.72061 741.7899 -1092.45 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 78
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  5.499011 19.45851 0.6682321 46.00001 -62.87493 0 1 1 1
+  65 0 0 0 0
+  10.49818 33.83511 1.280456 88.00001 -119.9999 0 1 1 1
+  66 0 0 0 0
+  33.99526 54.03 4.225691 288 -388.0001 0 1 1 1
+  72 0 0 0 0
+  54.89136 14.37621 7.503358 468 -663.9998 0 1 1 1
+  78 0 0 0 0
+  68.04653 -83.87206 9.671393 666.7404 -974.7824 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 78
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  2.098178 37.21862 -2.215863 88.00001 -119.9999 0 1 1 1
+  65 0 0 0 0
+  12.79527 59.433 -14.17229 288 -388.0001 0 1 1 1
+  71 0 0 0 0
+  21.29135 15.81383 -24.42899 468 -663.9998 0 1 1 1
+  76 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 78
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 0 0 0 0 0 1.5 1.5 1.5
+  41 0 0 0 0
+  -0.09201471 9.934909 -0.01835397 20.725 -28.34997 0 1.5 1.5 1.5
+  65 0 0 0 0
+  -1.901822 37.21862 0.5841367 88.00001 -119.9999 0 1.5 1.5 1.5
+  68 0 0 0 0
+  -25.20473 59.433 10.22771 288 -388.0001 0 1.5 1.5 1.5
+  74 0 0 0 0
+  -52.50865 15.81383 18.57101 468 -663.9998 0 1.5 1.5 1.5
+  79 0 0 0 0
+  -77.51457 -87.96203 32.05276 659.8326 -963.9258 0 1.5 1.5 1.5
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 78
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  65 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 98
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  -7.12966 16.01442 -2.164558 44.71429 -61.14279 0 1 1 1
+  65 0 0 0 0
+  -13.99757 28.19592 -4.268186 88.00001 -119.9999 0 1 1 1
+  66 0 0 0 0
+  -45.32701 45.025 -14.08564 288 -388.0001 0 1 1 1
+  71 0 0 0 0
+  -73.18848 -3.019827 -25.01119 468 -663.9998 0 1 1 1
+  76 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  84 0 0 0 0
+  -96.67873 -129.4441 -34.72061 741.7899 -1092.45 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 83
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  5.499011 19.45851 0.6682321 46.00001 -62.87493 0 1 1 1
+  65 0 0 0 0
+  10.49818 33.83511 1.280456 88.00001 -119.9999 0 1 1 1
+  66 0 0 0 0
+  33.99526 54.03 4.225691 288 -388.0001 0 1 1 1
+  72 0 0 0 0
+  54.89136 14.37621 7.503358 468 -663.9998 0 1 1 1
+  78 0 0 0 0
+  68.04653 -83.87206 9.671393 666.7404 -974.7824 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 83
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  2.098178 37.21862 -2.215863 88.00001 -119.9999 0 1 1 1
+  65 0 0 0 0
+  12.79527 59.433 -14.17229 288 -388.0001 0 1 1 1
+  71 0 0 0 0
+  21.29135 15.81383 -24.42899 468 -663.9998 0 1 1 1
+  76 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 83
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 0 0 0 0 0 1.5 1.5 1.5
+  41 0 0 0 0
+  -0.09201471 9.934909 -0.01835397 20.725 -28.34997 0 1.5 1.5 1.5
+  65 0 0 0 0
+  -1.901822 37.21862 0.5841367 88.00001 -119.9999 0 1.5 1.5 1.5
+  68 0 0 0 0
+  -25.20473 59.433 10.22771 288 -388.0001 0 1.5 1.5 1.5
+  74 0 0 0 0
+  -52.50865 15.81383 18.57101 468 -663.9998 0 1.5 1.5 1.5
+  79 0 0 0 0
+  -77.51457 -87.96203 32.05276 659.8326 -963.9258 0 1.5 1.5 1.5
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 83
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  65 1 0 0 0
+  0
+  70 0 0 0 0
+  0.032
+  71 1 0 0 0
+  0.14
+  74 0 0 0 0
+  0.384
+  78 0 0 0 0
+  1
+  84 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 0 -72.39999 0.4999999 0 1.409999 0.854 1.571998
+  0 0 0 0 0
+  0 0 0 -72.39999 0.4999999 0 1.409999 0.854 1.571998
+  41 0 0 0 0
+  0 0 0 -72.39999 0.4999999 0 1.409999 0.854 1.571998
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 98
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  -13.99757 28.19592 -4.268186 88.00001 -119.9999 0 1 1 1
+  42 0 0 0 0
+  -45.32701 45.025 -14.08564 288 -388.0001 0 1 1 1
+  47 0 0 0 0
+  -73.18848 -3.019827 -25.01119 468 -663.9998 0 1 1 1
+  52 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  60 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  64 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 88
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  10.49818 33.83511 1.280456 88.00001 -119.9999 0 1 1 1
+  42 0 0 0 0
+  33.99526 54.03 4.225691 288 -388.0001 0 1 1 1
+  48 0 0 0 0
+  54.89136 14.37621 7.503358 468 -663.9998 0 1 1 1
+  54 0 0 0 0
+  71.7504 -117.8 10.29075 729.9999 -1074 0 1 1 1
+  64 0 0 0 0
+  71.7504 -117.8 10.29075 729.9999 -1074 0 1 1 1
+  65 0 0 0 0
+  71.7504 -117.8 10.29075 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 88
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  12.79527 59.433 -14.17229 288 -388.0001 0 1 1 1
+  47 0 0 0 0
+  21.29135 15.81383 -24.42899 468 -663.9998 0 1 1 1
+  52 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  61 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  64 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 88
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 0 0 0 0 0 1.5 1.5 1.5
+  41 0 0 0 0
+  -1.901822 37.21862 0.5841367 88.00001 -119.9999 0 1.5 1.5 1.5
+  44 0 0 0 0
+  -25.20473 59.433 10.22771 288 -388.0001 0 1.5 1.5 1.5
+  50 0 0 0 0
+  -52.50865 15.81383 18.57101 468 -663.9998 0 1.5 1.5 1.5
+  55 0 0 0 0
+  -86.3996 -129.58 37.27723 729.9999 -1074 0 1.5 1.5 1.5
+  64 0 0 0 0
+  -86.3996 -129.58 37.27723 729.9999 -1074 0 1.5 1.5 1.5
+  65 0 0 0 0
+  -86.3996 -129.58 37.27723 729.9999 -1074 0 1.5 1.5 1.5
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 88
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  64 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 98
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  -13.99757 28.19592 -4.268186 88.00001 -119.9999 0 1 1 1
+  42 0 0 0 0
+  -45.32701 45.025 -14.08564 288 -388.0001 0 1 1 1
+  47 0 0 0 0
+  -73.18848 -3.019827 -25.01119 468 -663.9998 0 1 1 1
+  52 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  60 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  64 0 0 0 0
+  -95.66719 -124 -34.3025 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 93
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  10.49818 33.83511 1.280456 88.00001 -119.9999 0 1 1 1
+  42 0 0 0 0
+  33.99526 54.03 4.225691 288 -388.0001 0 1 1 1
+  48 0 0 0 0
+  54.89136 14.37621 7.503358 468 -663.9998 0 1 1 1
+  54 0 0 0 0
+  71.7504 -117.8 10.29075 729.9999 -1074 0 1 1 1
+  64 0 0 0 0
+  71.7504 -117.8 10.29075 729.9999 -1074 0 1 1 1
+  65 0 0 0 0
+  71.7504 -117.8 10.29075 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 93
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  41 0 0 0 0
+  12.79527 59.433 -14.17229 288 -388.0001 0 1 1 1
+  47 0 0 0 0
+  21.29135 15.81383 -24.42899 468 -663.9998 0 1 1 1
+  52 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  61 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  64 0 0 0 0
+  33.20041 -129.58 -41.12278 729.9999 -1074 0 1 1 1
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 93
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 0 0 0 0 0 1.5 1.5 1.5
+  41 0 0 0 0
+  -1.901822 37.21862 0.5841367 88.00001 -119.9999 0 1.5 1.5 1.5
+  44 0 0 0 0
+  -25.20473 59.433 10.22771 288 -388.0001 0 1.5 1.5 1.5
+  50 0 0 0 0
+  -52.50865 15.81383 18.57101 468 -663.9998 0 1.5 1.5 1.5
+  55 0 0 0 0
+  -86.3996 -129.58 37.27723 729.9999 -1074 0 1.5 1.5 1.5
+  64 0 0 0 0
+  -86.3996 -129.58 37.27723 729.9999 -1074 0 1.5 1.5 1.5
+  65 0 0 0 0
+  -86.3996 -129.58 37.27723 729.9999 -1074 0 1.5 1.5 1.5
+  85 0 0 0 0
+EndBehavior 1
+ParentObject 93
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  1
+  41 0 0 0 0
+  0.032
+  43 0 0 0 0
+  0.032
+  45 1 0 0 0
+  0.14
+  50 0 0 0 0
+  0.384
+  54 0 0 0 0
+  1
+  60 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject sparksnull
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 -3.4 0 -73.7 0 0 0.1700001 0.1700001 0.1700001
+  0 0 0 0 0
+  0 -3.4 0 0 0 0 0.6720001 0.6720001 0.6720001
+  1 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 77
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Buildings\Powerstation\Newbit_powercells.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 25
+ShadowOptions 7
+
+AddNullObject SFX,SND_CRSERV1,0
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject SFX,SND_CRSERV2,0
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject SFX,SND_REFINE,35
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 1.000000
+
+AddLight
+LightName FlashlightSPOT
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  4
+  0.0003540106 2.06 -0.004603957 0 90 0 1 1 1
+  0 0 0 0 0
+  0.0003540106 2.06 -0.004603957 0 90 0 1 1 1
+  3 0 0 0 0
+  0.0003540106 2.06 -0.004603957 0 90 0 1 1 1
+  6 0 0 0 0
+  0.0003540106 72.76 -0.004603957 0 90 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 1
+LightColor 226 255 183
+LgtIntensity 0.000000
+LightType 2
+LightFalloff 1
+LightRange 15.000000
+ConeAngle 77.640022
+EdgeAngle 10.000000
+ShadowType 2
+ShadowMapSize 512
+UseConeAngle 1
+ShadowFuzziness 1.000000
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  4
+  -68.4921 94.91432 79.58827 140.4 36.59999 0 1 1 1
+  0 0 0 0 0
+  -68.4921 94.91432 79.58827 140.4 36.59999 0 1 1 1
+  3 0 0 0 0
+  -68.4921 94.91432 79.58827 140.4 36.59999 0 1 1 1
+  6 0 0 0 0
+  -68.4921 94.91432 79.58827 140.4 36.59999 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 32
+ZoomFactor 3.000000
+Resolution 0
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+DataOverlayLabel  
+SaveAnimationName \\Simon\D\OUTPUT\DUST.avi
+AnimationType 0
+OutputFilenameFormat 1
+SaveRGBImagesPrefix \\Simon\D\OUTPUT\dust\D2-test
+RGBImageFormat 2
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 0.000000 32.299995 7.259524
+ViewDirection -8.831425 -0.322882 0.024435
+ViewZoomFactor 7.292936
+GridNumber 10
+GridSize 20.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

@@ -1,0 +1,407 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 90
+FrameStep 1
+PreviewFirstFrame 1
+PreviewLastFrame 90
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+LoadObject \\Mother\lego\Meshes\UV_Triman\Pilot\VLPTorso.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  14
+  0 0 0 4.5 18.2 0 1 1 1
+  0 0 0.5 0 0
+  0 0 0 3.896727 15.15985 0.2511519 1 1 1
+  1 0 0 0 0
+  0 0 0 2.967177 10.70912 -0.2813477 1 1 1
+  6 0 0 0 0
+  0 0 0 -9.508097 -6.028793 0.6997538 1 1 1
+  12 0 0 0 0
+  0 0 0 0 0 1.499999 1 1 1
+  19 0 0 0 0
+  0 0 0 10.20757 5.123233 -3.691017 1 1 1
+  24 0 0 0 0
+  0 0 0 -1.329229 14.27081 -0.7655916 1 1 1
+  37 0 0 0 0
+  0 0 0 -3.39318 15.64084 -0.1938085 1 1 1
+  39 0 0 0 0
+  0 0 0 -6.8 28.6 0.0583 1 1 1
+  42 0 0 0 0
+  0 0 0 -5.612909 15.50288 -3.236852 1 1 1
+  46 0 0 0 0
+  0 0 0 -4.894301 13.72472 0.5041177 1 1 1
+  48 0 0 0 0
+  0 0 0 0 0 -1.4 1 1 1
+  64 0 0 0 0
+  0 0.1 0 3.059115 10.33565 13.0435 1 1 1
+  80 0 0 0 0
+  0 0 0 4.5 18.2 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\UV_Triman\Pilot\VLPHead.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 1.325 0 -0.4000008 -17.2 0 1.15 1.15 1.15
+  0 0 0 0 0
+  0 1.325 0 -0.3663459 -21.33329 -11.05719 1.15 1.15 1.15
+  5 0 0 0 0
+  0 1.325 0 -15.54825 -13.78544 -6.140965 1.15 1.15 1.15
+  12 0 0 0 0
+  0 1.325 0 -11.87423 -11.98055 -4.440789 1.15 1.15 1.15
+  15 0 0 0 0
+  0 1.325 0 -17.71936 -24.00127 -4.432456 1.15 1.15 1.15
+  24 0 0 0 0
+  0 1.325 0 -12.72795 -22.25613 -2.21841 1.15 1.15 1.15
+  35 0 0 0 0
+  0 1.325 0 -8.676723 -23.74167 -0.840331 1.15 1.15 1.15
+  40 0 0 0 0
+  0 1.325 0 -7.070834 -29.69789 -0.09052941 1.15 1.15 1.15
+  42 0 0 0 0
+  0 1.325 0 7.9 -19.69999 9.899998 1.15 1.15 1.15
+  64 0 0 0 0
+  0 1.325 0 5.889543 -21.30468 8.153186 1.15 1.15 1.15
+  66 0 0 0 0
+  0 1.325 0 7.423194 -24.10131 -16.53408 1.15 1.15 1.15
+  74 0 0 0 0
+  0 1.325 0 9.692977 -25.08665 -5.77369 1.15 1.15 1.15
+  80 0 0 0 0
+  0 1.325 0 -0.4000008 -17.2 0 1.15 1.15 1.15
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\UV_Triman\Pilot\VLPThighL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  -0.45 -0.245 0 0 34.60001 0 1 1 1
+  0 0 0 0 0
+  -0.45 -0.245 0 0 17.26354 -3.2201 1 1 1
+  6 0 0 0 0
+  -0.45 -0.245 0 0 4.76647 -4.915301 1 1 1
+  12 0 0 0 0
+  -0.45 -0.245 0 0 -5.071874 0.09999995 1 1 1
+  19 0 0 0 0
+  -0.45 -0.245 0 0 -21.8 0 1 1 1
+  42 0 0 0 0
+  -0.45 -0.245 0 0 38.43547 0.1311368 1 1 1
+  52 0 0 0 0
+  -0.45 -0.245 0 0 67.11253 0.2999996 1 1 1
+  64 0 0 0 0
+  -0.45 -0.245 0 0 34.60001 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 14
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\UV_Triman\Pilot\VLPFootL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 -0.82 -0.25 0 -16.59999 0 1 1 1
+  0 0 0 0 0
+  0 -0.82 -0.25 0 -8.287497 0 1 1 1
+  19 0 0 0 0
+  0 -0.82 -0.25 0 -33.3 0 1 1 1
+  42 0 0 0 0
+  0 -0.82 -0.25 0 -66.38599 0 1 1 1
+  52 0 0 0 0
+  0 -0.82 -0.25 0 -59.14688 0 1 1 1
+  64 0 0 0 0
+  0 -0.82 -0.25 0 -16.59999 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 3
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\UV_Triman\Pilot\VLPThighR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0.45 -0.245 0 0 -21.6 0 1 1 1
+  0 0 0 0 0
+  0.45 -0.245 0 0 69.00001 0.09999979 1 1 1
+  19 0 0 0 0
+  0.45 -0.245 0 0 34.9 0 1 1 1
+  42 0 0 0 0
+  0.45 -0.245 0 0 27.42911 -3.46864 1 1 1
+  48 0 0 0 0
+  0.45 -0.245 0 0 12.86033 -0.3850235 1 1 1
+  57 0 0 0 0
+  0.45 -0.245 0 0 -0.2250004 8.500002 1 1 1
+  64 0 0 0 0
+  0.45 -0.245 0 0 -14.80613 10.98435 1 1 1
+  81 0 0 0 0
+  0.45 -0.245 0 0 -21.6 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 8
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\UV_Triman\Pilot\VLPFootR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 -0.8200001 -0.25 0 -33.10001 0 1 1 1
+  0 0 0 0 0
+  0 -0.8200001 -0.25 0 -68.06565 0 1 1 1
+  2 0 0 0 0
+  0 -0.8200001 -0.25 0 -50.225 0 1 1 1
+  19 0 0 0 0
+  0 -0.8200001 -0.25 0 -16.10001 0 1 1 1
+  42 0 0 0 0
+  0 -0.8200001 -0.25 0 -11.19792 0 1 1 1
+  64 0 0 0 0
+  0 -0.8200001 -0.25 0 -33.10001 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 5
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\UV_Triman\Pilot\VLPBicepL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  11
+  0.715 0.905 0 -5.300003 -7.999994 59.09999 1 1 1
+  0 0 0 0 0
+  0.715 0.905 0 -6.342037 -4.730546 60.86263 1 1 1
+  6 0 0 0 0
+  0.715 0.905 0 -7.492927 -1.248506 37.17984 1 1 1
+  14 0 0 0 0
+  0.715 0.905 0 -9.242528 3.40279 58.19742 1 1 1
+  20 0 0 0 0
+  0.715 0.905 0 -15.04901 16.2856 64.58501 1 1 1
+  32 0 0 0 0
+  0.715 0.905 0 -18.99999 24.60002 84.80003 1 1 1
+  42 0 0 0 0
+  0.715 0.905 0 -18.2213 22.68233 56.60167 1 1 1
+  55 0 0 0 0
+  0.715 0.905 0 -14.0739 12.82659 54.30724 1 1 1
+  66 0 0 0 0
+  0.715 0.905 0 -11.7406 7.287018 36.05617 1 1 1
+  74 0 0 0 0
+  0.715 0.905 0 -7.720462 -2.255024 53.93959 1 1 1
+  83 0 0 0 0
+  0.715 0.905 0 -5.300003 -7.999994 59.09999 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\VLow_Poly\Minifigures\Pilot\VLPhandL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0.23 -1.015 -0.385 0 0 0 1 1 1
+  0 0 0 0 0
+  0.23 -1.015 -0.385 5.599999 22.4 0 1 1 1
+  42 0 0 0 0
+  0.23 -1.015 -0.385 0 0 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\UV_Triman\Pilot\VLPBicepR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  -0.715 0.905 0 -7.100008 -4.500008 -42.79999 1 1 1
+  0 0 0 0 0
+  -0.715 0.905 0 -5.586407 -5.011456 -68.73586 1 1 1
+  11 0 0 0 0
+  -0.715 0.905 0 -3.558535 -6.2556 -51.00061 1 1 1
+  25 0 0 0 0
+  -0.715 0.905 0 -2.098975 -9.639669 -61.83181 1 1 1
+  32 0 0 0 0
+  -0.715 0.905 0 0.1695291 -16.26169 -96.43083 1 1 1
+  42 0 0 0 0
+  -0.715 0.905 0 0.1551583 -16.48332 -61.65354 1 1 1
+  52 0 0 0 0
+  -0.715 0.905 0 -7.100008 -4.500008 -42.79999 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\UV_Triman\Pilot\VLPhandR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  0 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  42 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 9
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  14
+  0 1.73 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1.705 0 0 0 0 1 1 1
+  1 0 0 0 0
+  -0.125 1.815346 0 0 0 5.9 1 1 1
+  6 0 0 0 0
+  -0.1694736 1.920621 0.01090505 0 0 8.990381 1 1 1
+  12 0 0 0 0
+  0 2.000999 0 0 0 0 1 1 1
+  19 0 0 0 0
+  0 1.988741 0 0 0 0 1 1 1
+  32 0 0 0 0
+  0 1.68 0.04999999 0 0 0 1 1 1
+  42 0 0 0 0
+  0.04999334 1.790425 -0.001527192 0 0 1 1 1 1
+  46 0 0 0 0
+  0 1.990196 0 0 0 0 1 1 1
+  55 0 0 0 0
+  0 2.003705 0 0 0 0 1 1 1
+  57 0 0 0 0
+  0.07434261 2.020625 -0.07565164 0 0 -8.299997 1 1 1
+  64 0 0 0 0
+  0.02400952 1.974687 0.002181703 0 0 -8.399998 1 1 1
+  70 0 0 0 0
+  0.03298946 1.81956 0.03068772 0 0 -8.399998 1 1 1
+  83 0 0 0 0
+  0 1.73 0 0 0 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+ParentObject 13
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 1.72 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 13
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 180 0 0 3 3 3
+  0 0 0 0 0
+  0 0 0 180 0 0 3 3 3
+  90 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.100000
+
+AddLight
+LightName Light
+ShowLight 0 7
+LightMotion (unnamed)
+  9
+  2
+  46.97365 48.075 47.68886 146.8 24.9 0 1 1 1
+  0 0 0 0 0
+  46.97365 48.075 47.68886 146.8 24.9 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+TargetObject 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  2
+  18.65989 28.43863 18.80478 35.1 60 0 1 1 1
+  0 0 0 0 0
+  18.65989 28.43863 18.80478 35.1 60 0 1 1 1
+  90 0 0 0 0
+EndBehavior 1
+TargetObject 12
+ZoomFactor 3.200000
+Resolution 0
+CustomSize 200 200
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 1
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 2
+BlurLength 0.500000
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 3
+RayRecursionLimit 16
+DataOverlayLabel  
+SaveAnimationName \\Rob_plugin_man\d\Output\Lego\walk.avi
+AnimationType 0
+OutputFilenameFormat 1
+SaveRGBImagesPrefix D:\OUTPUT\lego\Lowpoly\LPman
+RGBImageFormat 2
+FullSceneParamEval 0
+
+ViewMode 5
+ViewAimpoint -2.200361 4.992716 -0.341945
+ViewDirection -3.221878 -0.376990 0.000000
+ViewZoomFactor 2.666667
+GridNumber 0
+GridSize 5.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

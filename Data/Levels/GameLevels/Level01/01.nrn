@@ -1,0 +1,67 @@
+#include <nerpnrn.h>
+
+TRUE ? _SetTutorialFlags(0)
+
+// Check for completion
+_GetCrystalsCurrentlyStored() > 4 ? _SetR3(5)
+
+// Check for failure
+_GetMiniFiguresOnLevel() > 0 ? :canrebuild
+_GetToolStoresBuilt() = 0 ? SetLevelFail
+canrebuild:
+
+Function(Init)
+{
+	TRUE ? _SetMessagePermit(1)
+	TRUE ? _SetR1(0)
+}
+FuncEnd(Init)
+
+// Check for toolstre, and play relevant message
+
+Function(WaitForToolstore)
+{
+	_GetToolStoresBuilt() = 0 ? Stop
+	TRUE ? _SetMessagePermit(0)
+	TRUE ? _SetMessage(6,1)
+	TRUE ? _SetCameraGotoTutorial(1)
+}
+FuncEnd(WaitForToolstore)
+
+Function(PlayMessage1)
+{
+	_GetMessageTimer() > 0 ? Stop
+	TRUE ? _SetMessagePermit(1)
+}
+FuncEnd(PlayMessage1)
+
+// Check for crystals and play messages
+
+Function(WaitForCrystal)
+{
+	_GetCrystalsCurrentlyStored() = _GetR1() ? Stop
+	TRUE ? _SetMessagePermit(0)
+	TRUE ? _SetR1(_GetCrystalsCurrentlyStored())
+	TRUE ? _SetMessage(_GetR1(),1)
+}
+FuncEnd(WaitForCrystal)
+
+Function(PlayMessage2)
+{
+	_GetMessageTimer() > 0 ? Stop
+	TRUE ? _SetMessagePermit(1)
+	// A quick fudgy jump back to "WaitForCrystal"
+	TRUE ? _SetR3(3)
+	_GetCrystalsCurrentlyStored() > 4 ? :cestfini
+	Stop
+cestfini:
+	TRUE ? _SetTimer1(0)
+}
+FuncEnd(PlayMessage2)
+
+Function(PauseBaforeEnd)
+{
+	_GetTimer1() < 5000 ? Stop
+	TRUE ? _SetLevelCompleted()
+}
+FuncEnd(PauseBaforeEnd)

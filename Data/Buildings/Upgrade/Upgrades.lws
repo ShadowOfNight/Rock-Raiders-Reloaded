@@ -1,0 +1,643 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 20
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 20
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+AddNullObject Parent_Null
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 369
+ShadowOptions 7
+
+AddNullObject Beacon_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -10.8849 35.85 8.3172 -90 0 0 1 1 1
+  0 0 0 0 0
+  -10.8849 35.85 8.3172 -90 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Pulse.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -0.621016 1.375 1.5742 0 0 0 0.0001 -4.9999 0.0001000001
+  0 0 0 0 0
+  -0.621016 1.375 1.5742 0 0 0 0.0001 -4.9999 0.0001000001
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 133
+ParentObject 2
+ShadowOptions 0
+
+AddNullObject Beacon_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  11.1324 35.85 8.35 -90 0 0 1 1 1
+  0 0 0 0 0
+  11.1324 35.85 8.35 -90 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Pulse.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -0.621016 1.35 -0.4258003 0 0 0 0.0001 9.999359e-005 0.0001
+  0 0 0 0 0
+  -0.621016 1.35 -0.4258003 0 0 0 0.0001 9.999359e-005 0.0001
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 131
+ParentObject 4
+ShadowOptions 0
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Upgrade\LPCraneBase.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  1 3.9 1 0 0 0 1 1 1
+  0 0 0.98 0 0
+  1 3.9 1 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 9
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Upgrade\LPCraneTop.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 30.7 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 30.7 0 -0.09000015 0.1959999 0 1 1 1
+  5 0 0 0 0
+  0 30.7 0 -0.13 0.1014218 0 1 1 1
+  8 0 0 0 0
+  0 30.7 0 0.1820001 -0.09714302 0 1 1 1
+  12 0 0 0 0
+  0 30.7 0 0.1368152 -0.1925927 0 1 1 1
+  15 0 0 0 0
+  0 30.7 0 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 2597
+PivotPoint 0 30.7 0
+ParentObject 6
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Upgrade\LPCranearm.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 37.97501 2.5 0 -21.09999 0 1 1 1
+  0 0 0 0 0
+  0 37.97501 2.5 0 -21.99999 0 1 1 1
+  13 0 0 0 0
+  0 37.97501 2.5 0 -21.09999 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Upgrade\LPCraneslider.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0.375 17.46752 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0.375 17.46752 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 42
+ParentObject 8
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Upgrade\LPhandle.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -3.75 39.25 -1.575 0 0 0 1 1 1
+  0 0 0 0 0
+  -3.75 39.25 -1.575 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Upgrade\LPhandle.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  3.725 39.25 -1.575 0 0 0 1 1 1
+  0 0 0 0 0
+  3.725 39.25 -1.575 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Upgrade\LP_BarLight.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -3.4 37.9 -9.049999 0 0 0 1 1 1
+  0 0 0 0 0
+  -3.4 37.9 -9.049999 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Upgrade\LP_BarLight.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  3.4 37.9 -9.05 0 0 0 1 1 1
+  0 0 0 0 0
+  3.4 37.9 -9.05 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Upgrade\LP_BarLight.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -7.25 0 0 -90 90 0 1 1 1
+  0 0 0 0 0
+  -7.25 0 0 -90 90 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 46
+ParentObject 16
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Upgrade\LP_BarLight.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  7.25 0 0 90 90 0 1 1 1
+  0 0 0 0 0
+  7.25 0 0 90 90 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 46
+ParentObject 16
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Upgrade\LP_Crank.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 35.15 8.150001 0 -120 0 1 1 1
+  0 0 0 0 0
+  0 35.15 8.150001 0 -120 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Upgrade\LP_Vert_chain.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  2.5 -2.75 26.1 0 19.99999 0 1 1 1
+  0 0 0 0 0
+  2.5 -2.75 26.1 0 18.6 0 1 1 1
+  5 0 0 0 0
+  2.5 -2.75 26.1 0 19.99999 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 46
+ParentObject 9
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Upgrade\LP_Vert_chain.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -5 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  -5 0 0 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 46
+ParentObject 17
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Upgrade\LP_CraneBlock.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  2.5 -17.65 0 0 0 0 1 1 1
+  0 0 0 0 0
+  2.5 -17.65 0 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 18
+ShadowOptions 7
+
+AddNullObject Beacon_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -3.6349 42.35 -8.9328 -90 0 0 1 1 1
+  0 0 0 0 0
+  -3.6349 42.35 -8.9328 -90 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Pulse.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -0.621016 1.375 1.5742 0 0 0 0.0001 9.999359e-005 0.0001000001
+  0 0 0 0 0
+  -0.621016 1.375 1.5742 0 0 0 0.0001 9.999359e-005 0.0001000001
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 131
+ParentObject 20
+ShadowOptions 0
+
+AddNullObject Beacon_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  3.3824 42.35 -8.9 -90 0 0 1 1 1
+  0 0 0 0 0
+  3.3824 42.35 -8.9 -90 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 7
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  2
+  -0.9499995 -59 20 -90 0 0 38.42003 31.08607 38.42003
+  0 0 0 0 0
+  -0.9499995 -59 20 -90 0 0 38.42003 31.08607 38.42003
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 435
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 -1.086331 0 0 0 0 0.862 1.018407 0.884
+  0 0 0 0 0
+  0 -1.086331 0 0 0 0 0.862 1.018407 0.884
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 326
+PivotPoint -0.49 0 1.36
+ParentObject 25
+ShadowOptions 7
+
+AddNullObject Size_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 386
+ParentObject 23
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -0.9499995 -57.63504 0.8500002 -90.7 0 0 38.42003 31.08607 38.42003
+  0 0 0 0 0
+  -0.9499995 -57.63504 0.8500002 -90.7 0 0 38.42003 31.08607 38.42003
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 373
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 3.133373e-009 0 0 0 0 0.8250441 1.041154 0.8732667
+  0 0 0 0 0
+  0 3.133373e-009 0 0 0 0 0.8250441 1.041154 0.8732667
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 320
+PivotPoint -0.49 0 1.36
+ParentObject 26
+ShadowOptions 7
+
+AddNullObject Parent_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -0.02216761 1.85 -0.0247286 90.59999 0 0 0.02599994 0.03199993 0.02599994
+  0 0 0 0 0
+  -0.02216761 1.85 -0.0247286 90.59999 0 0 0.02599994 0.03199993 0.02599994
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 374
+ParentObject 26
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Buildings\Barracks\Base.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 4.5 0 0 0 0 1 1 1
+  0 0 0.5900002 0 0
+  0 4.5 0 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 133
+ParentObject 28
+ShadowOptions 5
+
+LoadObject Z:\Lego\Data\Shared\spangle.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 0 0 0 0 0 1.446 1.446 1.446
+  4 0 0 0 0
+  0 0 0 0 0 0 1.408561 1.408561 1.408561
+  13 0 0 0 0
+  0 0 0 0 0 0 1.5 1.5 1.5
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ObjDissolve (envelope)
+  1
+  5
+  0
+  0 0 0 0 0
+  1
+  5 0 0 0 0
+  0
+  10 0 0 0 0
+  1
+  15 0 0 0 0
+  0
+  20 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\spangle.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 0 0 0 0 0 1.476 1.476 1.476
+  6 0 0 0 0
+  0 0 0 0 0 0 1.518 1.518 1.518
+  15 0 0 0 0
+  0 0 0 0 0 0 1.5 1.5 1.5
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 4
+ObjDissolve (envelope)
+  1
+  5
+  0
+  0 0 0 0 0
+  1
+  5 0 0 0 0
+  0
+  10 0 0 0 0
+  1
+  15 0 0 0 0
+  0
+  20 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\spangle.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 -2.2 0 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 -2.2 0 0 0 0 1.446 1.446 1.446
+  4 0 0 0 0
+  0 -2.2 0 0 0 0 1.408561 1.408561 1.408561
+  13 0 0 0 0
+  0 -2.2 0 0 0 0 1.5 1.5 1.5
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 20
+ObjDissolve (envelope)
+  1
+  5
+  1
+  0 0 0 0 0
+  0
+  5 0 0 0 0
+  1
+  10 0 0 0 0
+  0
+  15 0 0 0 0
+  1
+  20 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\spangle.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 -2.2 0 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 -2.2 0 0 0 0 1.476 1.476 1.476
+  6 0 0 0 0
+  0 -2.2 0 0 0 0 1.518 1.518 1.518
+  15 0 0 0 0
+  0 -2.2 0 0 0 0 1.5 1.5 1.5
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 22
+ObjDissolve (envelope)
+  1
+  5
+  1
+  0 0 0 0 0
+  0
+  5 0 0 0 0
+  1
+  10 0 0 0 0
+  0
+  15 0 0 0 0
+  1
+  20 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Deposit_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 45 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 1.000000
+
+AddLight
+LightName FlashlightSPOT
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  2
+  0.0003540106 2.235 -0.004603957 0 90 0 1 1 1
+  0 0 0 0 0
+  0.0003540106 2.235 -0.004603957 0 90 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+LightColor 226 255 183
+LgtIntensity 0.195000
+LightType 2
+LightFalloff 1
+LightRange 70.000000
+ConeAngle 79.000000
+EdgeAngle 15.500000
+ShadowType 0
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  2
+  -136.2642 191.5143 161.1578 140.4 36.59999 0 1 1 1
+  0 0 0 0 0
+  -136.2642 191.5143 161.1578 140.4 36.59999 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 32
+ZoomFactor 4.084001
+Resolution 0
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 51 23 19
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+DataOverlayLabel  
+SaveAnimationName D:\Anim\Upgrade.avi
+AnimationType 0
+OutputFilenameFormat 1
+SaveRGBImagesPrefix \\Simon\D\OUTPUT\dust\D2-test
+RGBImageFormat 2
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 4.482400 21.349993 12.199999
+ViewDirection 3.864105 -0.485197 -0.003491
+ViewZoomFactor 4.419474
+GridNumber 10
+GridSize 20.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 1
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

@@ -1,0 +1,6 @@
+You_need_to_use_a_Rapid_Rider. #one#
+Well_Done!_You_got_them_back_safely._Now_collect_twenty_Energy_Crystals. #two#
+-
+
+$one		Sounds\Streamed\InGame\ins1201
+$two		Sounds\Streamed\InGame\ins1401

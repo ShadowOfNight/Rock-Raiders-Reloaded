@@ -1,0 +1,56 @@
+OK,_Rock_Raider,_let's_get_started._Instructions_will_appear_in_this_box._At_the_end_of_each_instruction,_either_perform_the_action_you_are_asked_to_do,_or_click_on_the_flashing_arrow_to_go_to_the_next_instruction._Click_on_the_flashing_arrow_now. #one#
+Well_done!_Let's_see_how_well_Rock_Raiders_can_move_over_the_various_surfaces_in_the_cavern.#two#
+This_Rock_Raider_will_walk_across_rubble.#three#
+This_Rock_Raider_will_walk_across_the_cavern_floor.#four#
+This_Rock_Raider_will_walk_across_a_Power_Path.#five#
+Let's_see_who_can_move_the_fastest._Click_on_the_flashing_arrow_to_start_the_Rock_Raiders_moving.#six#
+As_you_can_see,_this_Rock_Raider_can_run_across_the_Power_Path_very_quickly.#seven#
+He_moved_very_quickly_and_got_to_the_Tool_Store_first.#eight#
+This_Rock_Raider_can't_move_as_fast.#nine#
+This_Rock_Raider_has_now_reached_the_Tool_Store._It_took_him_longer_than_the_Rock_Raider_who_ran_across_the_Power_Path.#ten#
+Oh_dear!_This_Rock_Raider_is_having_lots_of_trouble_climbing_over_all_that_rubble.#eleven#
+He_finally_reached_the_Tool_Store._That_rubble_really_slowed_him_down.#twelve#
+If_you_want_your_Rock_Raiders_to_move_quickly,_remember_to_clear_rubble_off_the_ground._If_you_want_them_to_move_really_fast,_build_a_Power_Path.#thirteen#
+Here's_a_tip!_Monsters_don't_like_Power_Paths_because_they_are_so_smooth_that_they_slip_up._Watch_out,_though,_because_they_can_run_fast_through_rubble.#fourteen#
+Now_let's_see_how_you_can_make_your_Rock_Raiders_move_around._It's_very_easy._You_can_do_it_with_just_two_clicks_of_your_mouse_button.#fifteen#
+First,_move_the_mouse_pointer_over_a_Rock_Raider_near_the_arrow,_then_click_the_mouse_button._This_selects_a_Rock_Raider.#sixteen#
+Well_done!_The_green_frame_shows_which_Rock_Raider_you_have_selected.#seventeen#
+The_next_time_you_click_the_mouse_button,_the_selected_Rock_Raider_will_move_where_you_clicked._Let's_try_it_out._Click_on_the_rubble_where_the_arrow_is_pointing.#eightteen#
+Well_done!_Your_Rock_Raider_is_on_his_way._If_you_select_a_Rock_Raider_and_click_on_a_pile_of_rubble,_he_will_start_to_clear_it_away_with_his_Shovel.#nineteen#
+Let's_try_moving_your_Rock_Raiders_further_away._Click_on_the_Rock_Raider_near_to_the_arrow.#twenty#
+Now_click_on_the_ground_where_the_arrow_is_pointing.#twentyone#
+Although_you_can't_see_him_yet,_the_Rock_Raider_that_you_selected_is_moving_to_this_point._When_he_gets_here,_click_on_the_flashing_arrow_to_continue.#twentytwo#
+He_made_it_safely!#twentythree#
+Your_Rock_Raiders_are_very_clever_and_most_of_the_time_they_will_move_about_on_their_own,_automatically_doing_work_that_needs_to_be_done._Select_your_Rock_Raider_again_by_clicking_on_him.#twentyfour#
+If_he_stops_walking_near_an_Energy_Crystal,_he_will_automatically_pick_it_up_and_carry_it_away_to_the_Tool_Store._All_you_have_to_do,_is_move_him_near_to_the_Energy_Crystal._Try_it_now._Click_on_the_ground_where_the_arrow_is_pointing.#twentyfive#
+Well_done!_Now_watch_him_walk_over,_pick_it_up_and_take_it_away.#twentysix#
+Congratulations!_You_have_finished_the_first_training_mission_on_moving.#twentyseven#
+
+
+$one			Sounds\Streamed\Training\Moving1\mov101
+$two			Sounds\Streamed\Training\Moving1\mov102
+$three			Sounds\Streamed\Training\Moving1\mov103
+$four			Sounds\Streamed\Training\Moving1\mov104
+$five			Sounds\Streamed\Training\Moving1\mov105
+$six			Sounds\Streamed\Training\Moving1\mov106
+$seven			Sounds\Streamed\Training\Moving1\mov107
+$eight			Sounds\Streamed\Training\Moving1\mov108
+$nine			Sounds\Streamed\Training\Moving1\mov109
+$ten			Sounds\Streamed\Training\Moving1\mov110
+$eleven			Sounds\Streamed\Training\Moving1\mov111
+$twelve			Sounds\Streamed\Training\Moving1\mov112
+$thirteen		Sounds\Streamed\Training\Moving1\mov113
+$fourteen		Sounds\Streamed\Training\Moving1\mov114
+$fifteen		Sounds\Streamed\Training\Moving1\mov115
+$sixteen		Sounds\Streamed\Training\Moving1\mov116
+$seventeen		Sounds\Streamed\Training\Moving1\mov117
+$eightteen		Sounds\Streamed\Training\Moving1\mov118
+$nineteen		Sounds\Streamed\Training\Moving1\mov119
+$twenty			Sounds\Streamed\Training\Moving1\mov120
+$twentyone		Sounds\Streamed\Training\Moving1\mov121
+$twentytwo		Sounds\Streamed\Training\Moving1\mov122
+$twentythree	Sounds\Streamed\Training\Moving1\mov123
+$twentyfour		Sounds\Streamed\Training\Moving1\mov124
+$twentyfive		Sounds\Streamed\Training\Moving1\mov125
+$twentysix		Sounds\Streamed\Training\Moving1\mov126
+$twentyseven	Sounds\Streamed\Training\Moving1\mov127

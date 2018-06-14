@@ -1,0 +1,26 @@
+
+Lego* {
+
+	Activities {
+		Start		Start
+		Normal		Normal
+		Melt		Melt
+	}
+
+	Start {
+		FILE		RM_IcecubeSTART
+		LWSFILE		TRUE
+	}
+
+	Normal {
+		FILE		RM_Icecube
+		LWSFILE		TRUE
+		LOOPING		TRUE
+	}
+
+	Melt {
+		FILE		RM_IcecubeMELT
+		LWSFILE		TRUE
+	}
+
+}

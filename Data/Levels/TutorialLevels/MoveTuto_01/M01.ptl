@@ -1,0 +1,9 @@
+
+Lego* {
+	GenerateOreComplete				CollectOre
+	GenerateCrystalComplete				CollectCrystal
+	RockFallComplete				GenerateFromCryore
+	CollectCrystal					Goto
+	CollectOre					Goto
+	CollectTool					Goto
+}

@@ -1,0 +1,206 @@
+// Bypass everything if objective still showing - will get past this when space pressed
+//GetObjectiveShowing = 1 ? :Skip
+
+GetObjectiveSwitch ? SetMessagePermit 0
+GetObjectiveShowing = 1 ? :Skip
+
+//Set wait times (sample length multiplier, time added after sample, time for no sample)
+TRUE ? SetMessageTimerValues 1000 1000 6000
+
+//R0 is used as a general counter
+TRUE ? AddR0 1
+
+//Go to the relevant task
+
+GetR3 = 0 ? :Intro
+GetR3 = 1 ? :ClickWall1
+GetR3 = 2 ? :DigWall1
+GetR3 = 3 ? :LookHere
+GetR3 = 4 ? :ClickWall3
+GetR3 = 5 ? :DigWall3
+GetR3 = 6 ? :ClickWall5
+GetR3 = 7 ? :DigWall5
+GetR3 = 8 ? :ShowWall
+TRUE ? SetLevelCompleted
+Stop
+
+
+
+
+// THESE BITS ARE THE STAGES OF THE LEVEL
+
+Intro:
+TRUE ? SetR4 0 
+TRUE ? AddR4 GetR5
+TRUE ? DisallowAll
+TRUE ? SupressArrow 0
+GetR0 = 1 ? SetMessage GetR4 0
+//
+GetR5 < 2 ? :wbe
+// Init any registers for next stage
+TRUE ? SetTutorialPointer 1 1
+TRUE ? SetCameraGotoTutorial 1
+TRUE ? AddPoweredCrystals 15
+TRUE ? SetTutorialBlockClicks 1 0
+TRUE ? ClickOnlyMap
+TRUE ? SupressArrow 1
+//
+GetR5 = 2 ? :Next
+
+
+ClickWall1:
+TRUE ? SetR4 2
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+//Get wall click
+GetTutorialBlockClicks 1 = 0 ? Stop
+TRUE ? SetTutorialPointer 1 0
+TRUE ? DisallowAll
+GetR5 < 1 ? AdvanceMessage
+//
+GetR5 < 1 ? :wbe
+// Init any registers for next stage
+TRUE ? FlashDigIcon 1
+TRUE ? SetDigIconClicked 0
+TRUE ? ClickOnlyMap
+//
+TRUE ? :Next
+
+DigWall1:
+TRUE ? SetR4 3
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+//Get wall click
+GetDigIconClicked = 0 ? Stop
+TRUE ? DisallowAll
+GetR5 < 1 ? AdvanceMessage
+TRUE ? FlashDigIcon 0
+GetR5 < 1 ? :wbe
+GetTutorialBlockIsGround 1 = 0 ? Stop
+GetR5 = 1 ? SupressArrow 0
+GetR5 < 2 ? :wbe
+// Init any registers for next stage
+TRUE ? SetCameraGotoTutorial 3
+TRUE ? :Next
+
+LookHere:
+TRUE ? SetR4 5
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetR5 = 1 ? SetCameraGotoTutorial 4
+GetR5 < 2 ? :wbe
+TRUE ? SetTutorialPointer 4 1
+TRUE ? ClickOnlyMap
+TRUE ? SetTutorialBlockClicks 4 0
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+ClickWall3:
+TRUE ? SetR4 7
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+//Get wall click
+GetTutorialBlockClicks 4 = 0 ? Stop
+TRUE ? DisallowAll
+GetR5 < 1 ? AdvanceMessage
+//
+GetR5 < 1 ? :wbe
+// Init any registers for next stage
+TRUE ? SetTutorialPointer 4 0
+TRUE ? FlashDigIcon 1
+TRUE ? SetDigIconClicked 0
+//
+GetR5 = 1 ? :Next
+
+DigWall3:
+TRUE ? SetR4 8
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+//Get wall click
+GetDigIconClicked = 0 ? Stop
+TRUE ? DisallowAll
+GetR5 < 1 ? AdvanceMessage
+TRUE ? FlashDigIcon 0
+GetR5 < 1 ? :wbe
+GetTutorialBlockIsGround 4 = 0 ? Stop
+GetR5 < 2 ? SupressArrow 0
+GetR5 < 2 ? :wbe
+GetR5 = 2 ? SetCameraGotoTutorial 6
+GetR5 = 2 ? :wbe
+// Init any registers for next stage
+TRUE ? SetTutorialPointer 7 1
+GetR5 = 3 ? SetCameraGotoTutorial 7
+TRUE ? ClickOnlyMap
+TRUE ? SetTutorialBlockClicks 7 0
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+
+// Test HARD ROCK
+ClickWall5:
+TRUE ? SetR4 11
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+//Get wall click
+GetTutorialBlockClicks 7 = 0 ? Stop
+TRUE ? DisallowAll
+GetR5 < 1 ? AdvanceMessage
+// Init any registers for next stage
+TRUE ? SetTutorialPointer 7 0
+TRUE ? FlashGoBackIcon 1
+TRUE ? SetGoBackIconClicked 0
+TRUE ? :Next
+
+DigWall5:
+TRUE ? SetR4 12
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+//Get wall click
+GetGoBackIconClicked = 0 ? Stop
+GetR5 < 1 ? AdvanceMessage
+GetR5 < 1 ? SupressArrow 0
+TRUE ? SetGoBackIconClicked 0
+TRUE ? FlashGoBackIcon 0
+TRUE ? :Next
+
+ShowWall:
+TRUE ? SetR4 13
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+TRUE ? :Complete
+Stop
+
+
+// THESE ARE HANDY CALL BITS
+
+wbe:
+GetMessageTimer > 0 ? Stop
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? AddR5 1
+Stop
+
+Skip:
+TRUE ? SetTutorialFlags 4095
+TRUE ? SetMessagePermit 1
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? SetR5 0
+FALSE ? SetR3 0
+Stop
+
+Next:
+TRUE ? AddR3 1
+Clear:
+TRUE ? SetR0 0
+TRUE ? SetTimer0 0
+TRUE ? SetR5 0
+Stop
+
+finish:
+Stop
+
+Complete:
+GetMessageTimer > 0 ? Stop 
+TRUE ? SetLevelCompleted
+end:

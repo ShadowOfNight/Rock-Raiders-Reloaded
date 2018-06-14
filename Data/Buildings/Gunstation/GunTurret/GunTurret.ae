@@ -1,0 +1,14 @@
+Lego* {
+
+	Scale			1.0
+
+	Activities {
+		Activity_Stand					Stand
+	}
+
+	Stand {
+		FILE		GunTurret
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+	}
+}

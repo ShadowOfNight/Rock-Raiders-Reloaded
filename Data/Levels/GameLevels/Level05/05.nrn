@@ -1,0 +1,82 @@
+//***Level 03 - The Path to Power***
+
+TRUE ? SetTutorialFlags 0
+
+//***Set up timer for nerps messages***
+TRUE ? SetMessageTimerValues 1000 1000 8000
+
+//***Wait for mission start***
+GetObjectiveShowing != 1 ? :Skip
+
+//***Clear Message Flag***
+TRUE ? SetR7 0
+
+//***Clear Mission complete flag***
+TRUE ? SetR5 0
+TRUE ? Stop
+
+
+Skip:
+
+//***Re-enable game messages once nerps message has been displayed
+GetMessageTimer = 0 ? SetMessagePermit 1
+
+//***Check if player has teleported toolstore and end mission***
+GetMinifiguresOnLevel > 0 ? :CanRebuildToolstore
+GetToolStoresBuilt = 0 ? SetLevelFail
+CanRebuildToolstore:
+
+//***If mission complete continue close down sequence***
+GetR5 ? :CloseDown
+
+//***Check if path built and print message***
+GetR7 ? :CheckPower
+GetTutorialBlockIsPath 1 ? :DoCamera1
+GetTutorialBlockIsPath 2 ? :DoCamera2
+GetTutorialBlockIsPath 3 ? :DoCamera3
+TRUE ? :CheckPower
+
+
+DoCamera1:
+
+//TRUE ? SetCameraGotoTutorial 1
+TRUE ? :DoMessage
+
+
+DoCamera2:
+
+//TRUE ? SetCameraGotoTutorial 2
+TRUE ? :DoMessage
+
+
+DoCamera3:
+
+//TRUE ? SetCameraGotoTutorial 3
+
+
+DoMessage:
+
+TRUE ? SetMessagePermit 0
+TRUE ? SetMessage 1 1
+TRUE ? SetR7 1
+
+
+CheckPower:
+
+//***If power station built set mission complete flag and start close down sequence***
+GetPoweredPowerStationsBuilt = 0 ? Stop
+TRUE ? SetR5 1
+//TRUE ? SetCameraGotoTutorial 2
+TRUE ? SetMessagePermit 0
+TRUE ? SetMessage 2 1
+TRUE ? SetTimer1 0
+TRUE ? Stop
+
+
+CloseDown:
+
+//***Wait for six seconds before ending mission***
+GetTimer1 > 6000 ? SetLevelCompleted
+TRUE ? Stop
+
+//***END OF FILE***

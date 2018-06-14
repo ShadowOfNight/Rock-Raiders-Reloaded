@@ -1,0 +1,16 @@
+#include <nerpnrn.h>
+
+TRUE ? SetTutorialFlags 0
+TRUE ? SetMessagePermit 1
+
+// Check to see if objective is failed
+TRUE ? SetR1 0 
+GetTutorialBlockIsGround 6 ? AddR1 1
+GetMinifiguresOnLevel = GetR1 ? SetLevelFail
+
+// Check to see if objective is completed
+GetRecordObjectAtTutorial 1 > 0 ? SetLevelCompleted
+GetRecordObjectAtTutorial 2 > 0 ? SetLevelCompleted
+GetRecordObjectAtTutorial 3 > 0 ? SetLevelCompleted
+GetRecordObjectAtTutorial 4 > 0 ? SetLevelCompleted
+GetRecordObjectAtTutorial 5 > 0 ? SetLevelCompleted

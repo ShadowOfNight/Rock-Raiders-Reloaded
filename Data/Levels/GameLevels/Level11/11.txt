@@ -1,0 +1,4 @@
+You_still_have_five_more_Energy_Crystals_to_store..._Keep_going! #one#
+-
+
+$one		Sounds\Streamed\InGame\ins1101

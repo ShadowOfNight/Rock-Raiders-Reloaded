@@ -1,0 +1,426 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 125
+FrameStep 1
+PreviewFirstFrame 1
+PreviewLastFrame 125
+PreviewFrameStep 1
+FramesPerSecond 30.000000
+
+LoadObject \\Mother\lego\RockRaiders\Dynamite\Dynamite.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  17
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  32 0 0 0 0
+  0 0 0 -1.639998 -0.2200001 0.3000002 1 1 1
+  40 0 0 0 0
+  0 0.01 0 0.86 -1.24 -0.52 1 1 1
+  49 0 0 0 0
+  0 0 0 -2.02 0.8199999 1.1 1 1 1
+  58 0 0 0 0
+  0 0.03 0 1.24 -1.52 -3.479999 1 1 1
+  67 0 0 0 0
+  0 0 0 -2.48 1.34 3.7 1 1 1
+  74 0 0 0 0
+  0 0.06 0 1.84 -2.2 -7.72 1 1 1
+  82 0 0 0 0
+  0 0 0 -6.599998 6.139998 6.639999 1 1 1
+  89 0 0 0 0
+  0 0.202 0 6.839999 -7.02 -7.019998 1 1 1
+  97 0 0 0 0
+  0 0 0 -9.419998 7.98 7.12 1 1 1
+  102 0 0 0 0
+  0 0.3499999 0 10.7 -8.559996 -12.52 1 1 1
+  107 0 0 0 0
+  0 0 0 -12.68 11.4 11.16 1 1 1
+  112 0 0 0 0
+  0 0.474 0 10.96 -12.5 -8.639998 1 1 1
+  117 0 0 0 0
+  0 0 0 -11.76 19.9 13.94 1 1 1
+  119 0 0 0 0
+  0 0.392 0 17.2 -9.116 -18.22 1 1 1
+  122 0 0 0 0
+  0 0.8 0 -18.3 -18.14001 17.25 1 1 1
+  125 0 0 0 0
+EndBehavior 1
+ParentObject 9
+ShadowOptions 7
+
+LoadObject \\Mother\lego\RockRaiders\Dynamite\DynaGLOW.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  -1.25 1.35 0.3 0 91.40001 0 2.55 2.55 2.55
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 1
+ObjDissolve (envelope)
+  1
+  23
+  0.6480001
+  0 0 0 0 0
+  0.8960001
+  13 0 0 0 0
+  0.5880001
+  25 0 0 0 0
+  0.892
+  36 0 0 0 0
+  0.4879999
+  50 0 0 0 0
+  0.8760001
+  57 0 0 0 0
+  0.4279999
+  67 0 0 0 0
+  0.8559999
+  73 0 0 0 0
+  0.388
+  80 0 0 0 0
+  0.8559999
+  84 0 0 0 0
+  0.36
+  90 0 0 0 0
+  0.8520002
+  95 0 0 0 0
+  0.3479999
+  100 0 0 0 0
+  0.8560002
+  102 0 0 0 0
+  0.3360001
+  106 0 0 0 0
+  0.8680001
+  108 0 0 0 0
+  0.316
+  112 0 0 0 0
+  0.8720001
+  113 0 0 0 0
+  0.308
+  117 0 0 0 0
+  0.872
+  118 0 0 0 0
+  0.3119999
+  120 0 0 0 0
+  0.8920001
+  122 0 0 0 0
+  0.3
+  125 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\RockRaiders\Dynamite\RearGLOW.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  1.25 1.35 0.3 0 91.40001 0 2.55 2.55 2.55
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 1
+ObjDissolve (envelope)
+  1
+  23
+  0.6480001
+  0 0 0 0 0
+  0.8960001
+  13 0 0 0 0
+  0.5880001
+  25 0 0 0 0
+  0.892
+  36 0 0 0 0
+  0.4879999
+  50 0 0 0 0
+  0.8760001
+  57 0 0 0 0
+  0.4279999
+  67 0 0 0 0
+  0.8559999
+  73 0 0 0 0
+  0.388
+  80 0 0 0 0
+  0.8559999
+  84 0 0 0 0
+  0.36
+  90 0 0 0 0
+  0.8520002
+  95 0 0 0 0
+  0.3479999
+  100 0 0 0 0
+  0.8560002
+  102 0 0 0 0
+  0.3360001
+  106 0 0 0 0
+  0.8680001
+  108 0 0 0 0
+  0.316
+  112 0 0 0 0
+  0.8720001
+  113 0 0 0 0
+  0.308
+  117 0 0 0 0
+  0.872
+  118 0 0 0 0
+  0.3119999
+  120 0 0 0 0
+  0.8920001
+  122 0 0 0 0
+  0.3
+  125 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\RockRaiders\Dynamite\5.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  10
+  0 7.95 0 0 0 0 1 1 1
+  0 1 0 0 0
+  0 31.85001 0 -240.2 0 0 3 3 3
+  25 1 0 0 0
+  0 7.95 0 0 0 0 1 1 1
+  26 1 0 0 0
+  0 32 0 -180 0 0 3 3 3
+  50 1 0 0 0
+  0 7.95 0 0 0 0 1 1 1
+  51 0 0 0 0
+  0 31.8 0 -180 0 0 3 3 3
+  75 1 0 0 0
+  0 7.95 0 0 0 0 1 1 1
+  76 0 0 0 0
+  0 31.8 0 -180 0 0 3 3 3
+  100 1 0 0 0
+  0 7.95 0 0 0 0 1 1 1
+  101 0 0 0 0
+  0 31.4 0 -180 0 0 3 3 3
+  125 1 0 0 0
+EndBehavior 1
+LockedChannels 309
+ParentObject 9
+ObjDissolve (envelope)
+  1
+  9
+  1
+  0 0 0 0 0
+  1
+  1 0 0 0 0
+  1
+  2 0 0 0 0
+  0
+  5 1 0 0 0
+  0
+  10 1 0 0 0
+  0.752
+  18 0 0 0 0
+  0.956
+  22 0 0 0 0
+  1
+  25 1 0 0 0
+  1
+  125 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\RockRaiders\Dynamite\4.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 4
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  26 1 0 0 0
+  0
+  30 1 0 0 0
+  0
+  35 1 0 0 0
+  0.756
+  43 0 0 0 0
+  0.9480001
+  46 0 0 0 0
+  1
+  49 1 0 0 0
+  1
+  125 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\RockRaiders\Dynamite\3.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 4
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 1 0 0 0
+  1
+  51 1 0 0 0
+  0
+  55 1 0 0 0
+  0
+  60 1 0 0 0
+  0.628
+  67 0 0 0 0
+  0.9160001
+  71 0 0 0 0
+  1
+  74 1 0 0 0
+  1
+  125 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\RockRaiders\Dynamite\2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 4
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  76 1 0 0 0
+  0
+  80 1 0 0 0
+  0
+  85 1 0 0 0
+  0.636
+  92 0 0 0 0
+  0.9120001
+  96 0 0 0 0
+  1
+  99 1 0 0 0
+  1
+  125 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\RockRaiders\Dynamite\1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 4
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 0 0 0 0
+  1
+  101 1 0 0 0
+  0
+  105 1 0 0 0
+  0
+  112 1 0 0 0
+  0.516
+  117 0 0 0 0
+  0.864
+  122 0 0 0 0
+  1
+  125 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Dynamite NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  1
+  -2 2 -2 45 35 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  1
+  24.9981 38.725 -45.85446 -32.40001 33.8 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 1
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+ClipRayColors 0
+DataOverlayLabel  
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 0.000000 10.350000 0.000000
+ViewDirection 0.645772 -0.548033 0.000000
+ViewZoomFactor 4.660053
+GridNumber 100
+GridSize 10.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

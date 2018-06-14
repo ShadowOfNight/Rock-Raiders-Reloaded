@@ -1,0 +1,70 @@
+
+Lego* {
+
+	Scale				1.0
+	WheelMesh			NULL_object
+	WheelNullName		wheelnull
+	CameraNullName		CAMERA_NULL
+	CameraNullFrames		2
+	DrillNullName		WDdrill_Null
+
+
+	Activities {
+		
+		Activity_Stand					Stand
+		Activity_Route					Walk
+		Activity_Drill					Drill
+		Activity_TeleportIN				TeleportIN			
+		!Activity_HitLeft					HitLeft
+		!Activity_HitRight					HitRight
+		!Activity_HitFront					HitFront
+		!Activity_HitBack					HitBack			
+		
+
+	}
+
+	Stand {
+		FILE		LPWD_idle
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Walk {
+		FILE		LPWD_Drive
+;		TRANSCOEF	0.35
+		LWSFILE	TRUE
+	}
+	Drill {
+		FILE		LPWD_Drill1
+		TRANSCOEF	0.35
+		LWSFILE	TRUE
+	}
+	HitLeft {
+		FILE		LPWD_Hitleft
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitRight {
+		FILE		LPWD_Hitright
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitFront {
+		FILE		LPWD_Hitfront
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+	HitBack {
+		FILE		LPWD_Hitback
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	TeleportIN {
+		FILE		S_Teleport_Body
+		TRANSCOEF	0.0
+		LWSFILE	True
+	}
+
+	
+}

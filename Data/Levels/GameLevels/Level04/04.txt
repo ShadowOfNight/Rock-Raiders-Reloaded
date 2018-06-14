@@ -1,0 +1,14 @@
+You_had_better_be_careful_-_the_air_supply_is_already_dropping. #one#
+You_should_hurry_up_now_-_the_air_supply_is_nearly_half_gone. #two#
+You_really_need_to_construct_that_Support_Station_before_you_run_out_of_air. #three#
+You're_nearly_out_of_air_-_you_must_construct_that_Support_Station. #four#
+You_need_that_Support_Station_-_the_air's_almost_gone. #five#
+There_is_very_little_air_left_now. #six#
+-
+
+$one		Sounds\Streamed\InGame\ins401
+$two		Sounds\Streamed\InGame\ins402
+$three		Sounds\Streamed\InGame\ins403
+$four		Sounds\Streamed\InGame\ins404
+$five		Sounds\Streamed\InGame\ins405
+$six		Sounds\Streamed\InGame\ins406

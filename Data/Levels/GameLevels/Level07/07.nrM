@@ -1,0 +1,557 @@
+
+
+
+;;;;;;;;;;;;;;;;;;;;;
+; NERPs Source File ;
+;;;;;;;;;;;;;;;;;;;;;
+; Generated 
+; "Sep 21 1999"
+;;;;;;;;;;;;;;;;;;;;;
+; Stamp it here:
+"22:53:14":
+;;;;;;;;;;;;;;;;;;;;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GetObjectiveSwitch ? SetMessagePermit 0
+GetObjectiveSwitch ? :SkippedSkip
+GetObjectiveShowing = 1 ? :Skip
+SkippedSkip:
+
+
+TRUE ? SetMessageTimerValues 1000 1000 10000
+
+
+
+
+TRUE ? AddR0 1
+
+
+TRUE ? SetR6 0
+
+
+TRUE ? :end
+
+Wbe:
+GetMessageTimer > 0 ? Stop
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? AddR5 1
+Stop
+
+Skip:
+TRUE ? SetTutorialFlags 4095
+TRUE ? SetMessagePermit 1
+TRUE ? SetTimer0 0
+TRUE ? SetTimer1 0
+TRUE ? SetTimer2 0
+TRUE ? SetR0 0
+TRUE ? SetR1 0	
+TRUE ? SetR5 0
+TRUE ? SetR7 1
+TRUE ? CameraUnlock
+Stop
+
+Next:
+TRUE ? AddR3 1
+Clear:
+TRUE ? SetR0 0
+TRUE ? SetTimer0 0
+TRUE ? AddR7 GetR5
+TRUE ? SetR5 0
+Stop
+
+finish:
+Stop
+
+Complete:
+GetMessageTimer > 0 ? Stop 
+TRUE ? SetLevelCompleted
+Stop
+
+
+end:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TRUE ? SetTutorialFlags 0
+
+GetTimer1 > 20000 ? SetMessagePermit 0
+GetTimer1 > 20000 ? SetTimer1 0
+
+GetHiddenObjectsFound > 0 ? AddR1 1
+GetR1 = 0 ? :jump
+GetR1 > 2 ? SetR1 2
+GetR1 = 1 ? SetCameraGotoTutorial 11
+GetR1 = 1 ? SetMessage 9 1
+GetR1 = 1 ? SetTimer2 0
+GetMessageTimer > 0 ? Stop
+TRUE ? SetTimer1 0
+TRUE ? SetMessagePermit 1
+TRUE ? SetLevelCompleted
+Stop
+
+jump:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :Init/ Init:
+{
+	TRUE ? SetR1 0
+	TRUE ? SetMessagePermit 0
+	TRUE ? SetTutorialFlags 0
+	TRUE ? SetTimer1 0
+}
+TRUE ? :Next Init/:
+			
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :Start/ Start:
+{
+	TRUE ? SetTimer1 0
+}
+TRUE ? :Next Start/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :Power/ Power: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 1
+{
+	GetTimer1 > 9000 ? SetMessagePermit 1
+	GetLevel1PowerStationsBuilt = 0 ? Stop
+	GetLevel1TeleportsBuilt = 0 ? Stop
+	TRUE ? SetMessagePermit 0
+	GetR5 < 1 ? :wbe
+	TRUE ? SetTimer1 0
+}
+TRUE ? :Next Power/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :Barracks/ Barracks: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 1
+{
+	GetTimer1 > 9000 ? SetMessagePermit 1
+	GetLevel1BarracksBuilt = 0 ? Stop
+	TRUE ? SetMessagePermit 0
+	GetR5 < 1 ? :wbe
+	TRUE ? SetTimer1 0
+}
+TRUE ? :Next Barracks/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :WaitForUpgrade/ WaitForUpgrade:
+{
+	GetLevel2TeleportsBuilt = 0 ? Stop
+}
+TRUE ? :Next WaitForUpgrade/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :Heli/ Heli: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 1
+{
+	GetTimer1 > 9000 ? SetMessagePermit 1
+	GetSmallHelicoptersOnLevel = 0 ? Stop
+	TRUE ? SetMessagePermit 0
+	GetR5 < 1 ? :wbe
+	TRUE ? SetTimer1 0
+}
+TRUE ? :Next Heli/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :AtLand/ AtLand: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 1
+{
+	GetTimer1 > 9000 ? SetMessagePermit 1
+	GetUnitAtBlock 1 > 0 ? :found
+	GetUnitAtBlock 2 > 0 ? :found
+	GetUnitAtBlock 3 > 0 ? :found
+	GetUnitAtBlock 4 > 0 ? :found
+	GetUnitAtBlock 5 > 0 ? :found
+	Stop
+found:
+	TRUE ? SetMessagePermit 0
+	GetR5 < 1 ? :wbe
+	TRUE ? SetTimer1 0
+}
+TRUE ? :Next AtLand/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :OnTrail/ OnTrail: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 1
+{
+	GetTimer1 = 0 ? SetMessagePermit 0
+	GetTimer1 > 9000 ? SetMessagePermit 1
+	GetUnitAtBlock 6 > 0 ? :nextfound
+	GetUnitAtBlock 7 > 0 ? :nextfound
+	GetUnitAtBlock 8 > 0 ? :nextfound
+	GetUnitAtBlock 9 > 0 ? :nextfound
+	Stop
+nextfound:
+	TRUE ? SetMessagePermit 0
+	GetR5 < 1 ? :wbe
+	TRUE ? SetTimer1 0
+}
+TRUE ? :Next OnTrail/:
+
+TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :FoundHover/ FoundHover: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 1
+{
+	GetTimer1 = 0 ? SetMessagePermit 0
+	GetTimer1 > 9000 ? SetMessagePermit 1
+	GetUnitAtBlock 10 = 0 ? Stop
+	TRUE ? SetMessagePermit 0
+	GetR5 < 1 ? :wbe
+	TRUE ? SetTimer1 0
+}
+TRUE ? :Next FoundHover/:
+

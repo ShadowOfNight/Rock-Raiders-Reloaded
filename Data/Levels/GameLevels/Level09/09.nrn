@@ -1,0 +1,21 @@
+#include <nerpnrn.h>
+
+TRUE ? SetTutorialFlags 0
+
+Funcn(GetFound)
+{
+	GetMessageTimer = 0 ? SetMessagePermit 1
+	GetTutorialBlockIsGround 2 = 0 ? Stop
+	TRUE ? SetMessagePermit 0
+	wait(1)
+	TRUE ? SetCameraGotoTutorial 1
+}
+FuncEnd(GetFound)
+
+Funcn(Complete)
+{
+	GetMessageTimer > 0 ? Stop
+	TRUE ? SetMessagePermit 1
+	TRUE ? SetLevelCompleted 1
+}
+FuncEnd(Complete)

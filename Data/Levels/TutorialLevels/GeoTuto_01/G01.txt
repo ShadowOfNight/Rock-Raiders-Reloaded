@@ -1,0 +1,10 @@
+This lesson will show you how to build and use the Geo-Dome, and how to train 'Geologists' to see what is in the hidden parts of the rock.
+The first thing we must do is build a path so we can power our Geo-Dome.
+We will build the path by the Power-Station, so click on the ground here.
+Now to build the path, you must click on the flashing 'Build Path' icon in the top right corner of the screen.
+Watch as your Rock-Raider carries the ore to the ground on which we wish to build the path.
+What we need to do now is build a Geo-Dome, so click on the build icon in the top right-hand corner of the screen.
+Now we need to select the building we want to build, so click on the flashing 'Geo-Dome' icon.
+We want to place this building next to our path, so place the building on the ground here.
+While your Rock-Raider prepares the building site, let's take a look at the radar panel.
+**A NERP ERROR HAS OCCURED, PLEASE REPORT!!!
