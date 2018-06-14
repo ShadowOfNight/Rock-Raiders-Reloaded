@@ -1,0 +1,18 @@
+#include <nerpnrn.h>
+
+TRUE ? SetTutorialFlags 0
+TRUE ? SetMessagePermit 1
+
+Function(Upgrade)
+{
+	TRUE ? SetToolStoreLevel 1
+}
+FuncEnd(Upgrade)
+
+// Check to see if objective is failed
+TRUE ? SetR1 0
+GetToolstoresBuilt = 0 ? AddR1 1
+GetMinifiguresOnLevel = 0 ? AddR1 1
+GetR1 = 2 ? SetLevelFail
+// Check to see if objective is completed
+GetCrystalsCurrentlyStored > 39 ? SetLevelCompleted

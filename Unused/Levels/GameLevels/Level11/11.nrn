@@ -1,0 +1,38 @@
+#include <nerpnrn.h>
+
+Main()
+{
+	TRUE ? _SetTutorialFlags(0)
+	_GetCrystalsCurrentlyStored() > 14 ? _SetLevelCompleted()
+	_GetOxygenLevel() = 0 ? SetLevelFail
+
+	Function(Init)
+	{
+		// Setup scope
+		TRUE ? _SetMessagePermit(1)
+		TRUE ? _SetR1(0)
+	}
+	FuncEnd(Init)
+
+	Function(WaitUntil5ToGo) 
+	{
+		_GetCrystalsCurrentlyStored() < 10 ? Stop
+		TRUE ? _SetMessagePermit(0)
+	}
+	FuncEnd(WaitUntil5ToGo)
+
+	Funcn(Five)
+	{
+	}
+	FuncEnd(Five)
+
+	Function(ResetMessage)
+	{
+		_GetMessageTimer() > 0 ? Stop
+		TRUE ? _SetMessagePermit(1)
+	}
+	FuncEnd(ResetMessage)
+
+	Stop
+}
+MainEnd()

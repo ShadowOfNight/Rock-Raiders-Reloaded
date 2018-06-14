@@ -1,0 +1,467 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 60
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 60
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SMLP\FrontWedge.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -0.4 0 0 0 0 1 1 1
+  3 0 0 0 0
+  0 0.01537035 0 0 0 0 1 1 1
+  6 0 0 0 0
+  0 -0.2 0 0 0 0 1 1 1
+  9 0 0 0 0
+  0 0.02342617 0 0 0 0 1 1 1
+  12 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  15 0 0 0 0
+  0 -0.4755217 0 0 0 0 1 1 1
+  39 0 0 0 0
+  0 -0.535634 0 0 0 0 1 1 1
+  42 0 0 0 0
+  0 -0.5961636 0 0 0 0 1 1 1
+  45 0 0 0 0
+  0 -0.6567348 0 0 0 0 1 1 1
+  48 0 0 0 0
+  0 -0.7173105 0 0 0 0 1 1 1
+  51 0 0 0 0
+  0 -0.7778867 0 0 0 0 1 1 1
+  54 0 0 0 0
+  0 -1 0 0 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 2
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SMLP\BodyBase.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  20
+  0 3 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 3.6 0 0 -1.92 -4.099998 1 1 1
+  3 0 0 1 0
+  0 3 0 0 0 0 1 1 1
+  6 0 0 1 0
+  0 3.3 0 0 1.84 3.699999 1 1 1
+  9 0 0 1 0
+  0 3 0 0 0 0 1 1 1
+  12 0 0 1 0
+  0 3.6 0 0 -1.76 3.24 1 1 1
+  15 0 0 1 0
+  0 3 0 0 0 0 1 1 1
+  18 0 0 1 0
+  0 3.3 0 0 1.68 -2.7 1 1 1
+  21 0 0 1 0
+  0 3 0 0 0 0 1 1 1
+  24 0 0 1 0
+  0 3.6 0 0 -1.52 -2.879999 1 1 1
+  27 0 0 1 0
+  0 3 0 0 0 0 1 1 1
+  30 0 0 1 0
+  0 3.3 0 0 5.340002 3.2 1 1 1
+  33 0 0 1 0
+  0 2.999379 0 0 -5.620001 -3.039999 1 1 1
+  39 0 0 1 0
+  0 2.831835 0 0 0 2.4 1 1 1
+  42 0 0 1 0
+  0 2.892061 0 0 0.9999999 -2.34 1 1 1
+  45 0 0 1 0
+  0 2.632446 0 0 0 1.76 1 1 1
+  48 0 0 1 0
+  0 2.713462 0 0 -0.68 -1.82 1 1 1
+  51 0 0 1 0
+  0 2.435625 0 0 0.04 0.9 1 1 1
+  54 0 0 1 0
+  0 2.306693 0 0 0.1718518 -1.068148 1 1 1
+  56 0 0 0 0
+  0 2.15 0 0 0 0 1 1 1
+  60 0 1 0 0
+EndBehavior 1
+LockedChannels 29
+ParentObject 8
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SMLP\BodyMain.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  3 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  6 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  9 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  12 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  15 1 0 0 0
+  0 0 0 0 0 0 1 1 1
+  39 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  42 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  45 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  48 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  51 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  54 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SMLP\Steering.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 10 16.8 0 20 0 1 1 1
+  0 0 0 0 0
+  0 10 16.8 0 20 0 1 1 1
+  3 0 0 0 0
+  0 10 16.8 0 20 0 1 1 1
+  6 0 0 0 0
+  0 10 16.8 0 20 0 1 1 1
+  9 0 0 0 0
+  0 10 16.8 0 20 0 1 1 1
+  12 0 0 0 0
+  0 10 16.8 0 20 0 1 1 1
+  15 1 0 0 0
+  0 10 16.8 0 20 0 1 1 1
+  39 0 0 0 0
+  0 10 16.8 0 20 0 1 1 1
+  42 0 0 0 0
+  0 10 16.8 0 20 0 1 1 1
+  45 0 0 0 0
+  0 10 16.8 0 20 0 1 1 1
+  48 0 0 0 0
+  0 10 16.8 0 20 0 1 1 1
+  51 0 0 0 0
+  0 10 16.8 0 20 0 1 1 1
+  54 0 0 0 0
+  0 10 16.8 0 20 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+PivotPoint 0 10 16.8
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SMLP\FrontLights.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  3 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  6 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  9 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  12 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  15 1 0 0 0
+  0 0 0 0 0 0 1 1 1
+  39 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  42 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  45 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  48 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  51 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  54 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject SMLP_LightNULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  15
+  -7 6 16 0 0 45 1 1 1
+  0 1 0 0 0
+  -7 6 16 0 0 45 1 1 1
+  3 0 0 0 0
+  -7 6 16 0 0 45 1 1 1
+  6 0 0 0 0
+  -7 6 16 0 0 45 1 1 1
+  9 0 0 0 0
+  -7 6 16 0 0 45 1 1 1
+  12 0 0 0 0
+  -7 6 16 0 0 45 1 1 1
+  15 1 0 0 0
+  -7 6 16 0 0 45 1 1 1
+  33 1 0 0 0
+  -7 6 16 0 0 62.8125 1 1 1
+  39 0 0 0 0
+  -7 6 16 0 0 71.71875 1 1 1
+  42 0 0 0 0
+  -7 6 16 0 0 80.625 1 1 1
+  45 0 0 0 0
+  -7 6 16 0 0 89.53126 1 1 1
+  48 0 0 0 0
+  -7 6 16 0 0 98.43751 1 1 1
+  51 0 0 0 0
+  -7 6 16 0 0 107.3438 1 1 1
+  54 0 0 0 0
+  -7 6 16 0 0 140 1 1 1
+  58 1 0 0 0
+  -7 6 16 0 0 140 1 1 1
+  60 1 0 0 0
+EndBehavior 1
+LockedChannels 1563
+ParentObject 5
+ShadowOptions 7
+
+AddNullObject SMLP_LightNULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  14
+  7.000001 6 16 0 0 -45 1 1 1
+  0 1 0 0 0
+  7.000001 6 16 0 0 -45 1 1 1
+  3 0 0 0 0
+  7.000001 6 16 0 0 -45 1 1 1
+  6 0 0 0 0
+  7.000001 6 16 0 0 -45 1 1 1
+  9 0 0 0 0
+  7.000001 6 16 0 0 -45 1 1 1
+  12 0 0 0 0
+  7.000001 6 16 0 0 -45 1 1 1
+  15 1 0 0 0
+  7.000001 6 16 0 0 -45 1 1 1
+  33 1 0 0 0
+  7.000001 6 16 0 0 -62.8125 1 1 1
+  39 0 0 0 0
+  7.000001 6 16 0 0 -71.71875 1 1 1
+  42 0 0 0 0
+  7.000001 6 16 0 0 -80.625 1 1 1
+  45 0 0 0 0
+  7.000001 6 16 0 0 -89.53126 1 1 1
+  48 0 0 0 0
+  7.000001 6 16 0 0 -98.43751 1 1 1
+  51 0 0 0 0
+  7.000001 6 16 0 0 -140 1 1 1
+  55 1 0 0 0
+  7.000001 6 16 0 0 -140 1 1 1
+  60 1 0 0 0
+EndBehavior 1
+LockedChannels 1566
+ParentObject 5
+ShadowOptions 7
+
+AddNullObject Motion_NULL
+ShowObject 8 2
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  9 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  15 1 0 0 0
+  0 0 0 0 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+ParentObject 12
+ShadowOptions 7
+
+AddNullObject MDT
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  12
+  0 12 -2.5 0 0 0 1 1 1
+  0 1 0 0 0
+  0 11.5 -2.5 0 0 0 1 1 1
+  3 0 0 1 0
+  0 12 -2.5 0 0 0 1 1 1
+  6 0 0 1 0
+  0 11.8 -2.5 0 0 0 1 1 1
+  9 1 0 1 0
+  0 12 -2.5 30 0 0 1 1 1
+  18 0 0 1 0
+  0 12 -2.5 30 0 0 1 1 1
+  39 0 0 0 0
+  0 12 -2.5 30 0 0 1 1 1
+  42 0 0 0 0
+  0 12 -2.5 30 0 0 1 1 1
+  45 0 0 0 0
+  0 12 -2.5 30 0 0 1 1 1
+  48 0 0 0 0
+  0 12 -2.5 30 0 0 1 1 1
+  51 0 0 0 0
+  0 12 -2.5 30 0 0 1 1 1
+  54 0 0 0 0
+  0 12 -2.5 30 0 0 1 1 1
+  60 1 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 3
+ShadowOptions 7
+
+AddNullObject CAMERA_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 33.025 -46.6811 0.6999999 10.1 0 1 1 1
+  0 0 0 0 0
+  0 33.025 -46.6811 0.6999999 10.1 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 12
+ShadowOptions 7
+
+AddNullObject CAMERA_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 17.275 13.5 0.6999999 10.1 0 1 1 1
+  0 0 0 0 0
+  0 17.275 13.5 0.6999999 10.1 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+LockedChannels 43
+ParentObject 8
+ShadowOptions 7
+
+AddNullObject Parent_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject LASERP_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 1.65 2.5 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1.65 2.5 0 0 0 1 1 1
+  23 0 0 0 0
+  0 1.65 2.5 0 0 0 1 1 1
+  60 0 0 0 0
+EndBehavior 1
+ParentObject 9
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 0 7
+LightMotion (unnamed)
+  9
+  1
+  -36.55 41.6 44.4 45 35 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+LightColor 255 255 255
+LgtIntensity 0.750000
+LightType 0
+ShadowType 1
+
+AddLight
+LightName Light
+ShowLight 0 7
+LightMotion (unnamed)
+  9
+  1
+  -73.30054 74.65001 -79.44304 45 35 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 2
+LightColor 255 255 255
+LgtIntensity 0.500000
+LightType 0
+ShadowType 1
+
+ShowCamera 0 7
+CameraMotion (unnamed)
+  9
+  1
+  -27.92867 15.8 50.66882 180 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 0
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 0
+AdaptiveSampling 0
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+DataOverlayLabel  
+SaveAnimationName Renders\MD\MD_PowerDown.avi
+AnimationType 6
+EndPlugin
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 0.728972 11.000000 7.346630
+ViewDirection -84.020271 -0.122172 0.000000
+ViewZoomFactor 7.341047
+GridNumber 10
+GridSize 10.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

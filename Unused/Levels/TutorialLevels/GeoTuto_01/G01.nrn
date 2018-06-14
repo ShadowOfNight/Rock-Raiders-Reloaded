@@ -1,0 +1,84 @@
+#include <nerpnrn.h>
+
+Main()
+{
+	Func(AddCrystals)
+	{
+		TRUE ? SetTutorialFlags 0
+		TRUE ? AddPoweredCrystals 15
+		TRUE ? AddStoredOre 15
+	}
+	FuncEnd(AddCrystals)
+
+	Func(Intro)
+	{
+		wait(2)
+		TRUE ? SetTutorialPointer 1 1
+		TRUE ? SetCameraGotoTutorial 1
+	}
+	FuncEnd(Intro)
+
+	Func(ClickFloor)
+	{
+		GetTutorialBlockClicks 1 = 0 ? Stop
+		TRUE ? SetTutorialPointer 1 0
+		wait(1)
+		TRUE ? FlashLayPathIcon 1
+	}
+	FuncEnd(ClickFloor)
+
+	Func(ClickBuildPath)
+	{
+		GetLayPathIconClicked = 0 ? Stop
+		TRUE ? FlashLayPathIcon 0
+		wait(1)
+		TRUE ? CameraLockOnObject 3
+	}
+	FuncEnd(ClickBuildPath)
+
+	Func(WaitForPath)
+	{
+		GetTutorialBlockIsPath 1 = 0 ? Stop
+		TRUE ? CameraUnlock
+		wait(1)
+		TRUE ? FlashBuildIcon 1
+	}
+	FuncEnd(WaitForPath)
+
+	Func(ClickBuild)
+	{
+		GetBuildIconClicked = 0 ? Stop
+		TRUE ? FlashBuildIcon 0
+		wait(1)
+		TRUE ? FlashGeodomeIcon 1
+	}
+	FuncEnd(ClickBuild)
+
+	Func(ClickGeodomeIcon)
+	{
+		GetGeodomeIconClicked = 0 ? Stop
+		TRUE ? FlashGeodomeIcon 0
+		wait(1)
+		TRUE ? SetTutorialPointer 2 1
+		TRUE ? SetCameraGotoTutorial 2
+	}
+	FuncEnd(ClickGeodomeIcon)
+
+	Func(ClickForDome)
+	{
+		GetTutorialBlockClicks 2 = 0 ? Stop
+		TRUE ? SetTutorialPointer 2 0
+		wait(1)
+		TRUE ? CameraLockOnObject 3
+	}
+	FuncEnd(ClickForDome)
+
+	Func(WaitForDome)
+	{
+		GetGeodomeBuilt = 0 ? Stop
+		TRUE ? CameraUnlock
+		wait(1)
+	}
+	FuncEnd(WaitForDome)
+}
+MainEnd()

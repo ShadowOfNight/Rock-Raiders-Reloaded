@@ -1,0 +1,22 @@
+
+Lego* {
+
+	Scale				1.0
+
+	Activities {
+		Activity_Stand					Stand
+		Activity_Route					Walk
+	}
+
+	Walk {
+		FILE		SpiderWalk
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+	}
+
+	Stand {
+		FILE		SpiderStand
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+	}
+}

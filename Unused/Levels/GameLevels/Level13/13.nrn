@@ -1,0 +1,31 @@
+#include <nerpnrn.h>
+
+Main()
+{
+
+	_GetCrystalsCurrentlyStored() > 19 ? _SetLevelCompleted()
+
+	TRUE ? _SetTutorialFlags(0)
+	TRUE ? _SetMessagePermit(1)
+
+	Func(CheckCompleteFail)
+	{
+		// If they go a bit over the top with minifigures, put the frighteners up them!!!
+		// If more than 8 men, randomly make slugs appear
+		TRUE ? _SetR1(0)
+		_GetMiniFiguresOnLevel() > 8 ? _AddR1(1)
+		_GetRandom100() = 1 ? _AddR1(1)
+		_GetSlugsOnLevel() = 0 ? _AddR1(1)
+		_GetR1() = 3 ? _GenerateSlug()
+		// Check for failure
+		_GetOxygenLevel() = 0 ? SetLevelFail
+		_GetMiniFiguresOnLevel() > 0 ? :canrebuild
+		_GetToolStoresBuilt() = 0 ? SetLevelFail
+canrebuild:
+		// Check for completion
+		_GetCrystalsCurrentlyStored() > 19 ? _SetLevelCompleted()
+		Stop
+	}
+	FuncEnd(CheckCompleteFail)
+}
+MainEnd()

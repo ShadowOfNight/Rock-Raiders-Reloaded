@@ -1,0 +1,624 @@
+
+
+
+;;;;;;;;;;;;;;;;;;;;;
+; NERPs Source File ;
+;;;;;;;;;;;;;;;;;;;;;
+; Generated 
+; "Sep 21 1999"
+;;;;;;;;;;;;;;;;;;;;;
+; Stamp it here:
+"22:53:07":
+;;;;;;;;;;;;;;;;;;;;;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GetObjectiveSwitch ? SetMessagePermit 0
+GetObjectiveSwitch ? :SkippedSkip
+GetObjectiveShowing = 1 ? :Skip
+SkippedSkip:
+
+
+TRUE ? SetMessageTimerValues 1000 1000 10000
+
+
+
+
+TRUE ? AddR0 1
+
+
+TRUE ? SetR6 0
+
+
+TRUE ? :end
+
+Wbe:
+GetMessageTimer > 0 ? Stop
+TRUE ? SetTimer0 0
+TRUE ? SetR0 0
+TRUE ? AddR5 1
+Stop
+
+Skip:
+TRUE ? SetTutorialFlags 4095
+TRUE ? SetMessagePermit 1
+TRUE ? SetTimer0 0
+TRUE ? SetTimer1 0
+TRUE ? SetTimer2 0
+TRUE ? SetR0 0
+TRUE ? SetR1 0	
+TRUE ? SetR5 0
+TRUE ? SetR7 1
+TRUE ? CameraUnlock
+Stop
+
+Next:
+TRUE ? AddR3 1
+Clear:
+TRUE ? SetR0 0
+TRUE ? SetTimer0 0
+TRUE ? AddR7 GetR5
+TRUE ? SetR5 0
+Stop
+
+finish:
+Stop
+
+Complete:
+GetMessageTimer > 0 ? Stop 
+TRUE ? SetLevelCompleted
+Stop
+
+
+end:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GetCrystalsCurrentlyStored > 19 ? SetLevelCompleted
+
+__MainFunc:
+{
+	TRUE ? SetTutorialFlags 0
+	TRUE ? SetMessagePermit 1
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :CheckCompleteFail/ CheckCompleteFail: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
+	{
+		
+		GetMonstersOnLevel > 2 ? :jump
+
+		GetRecordObjectAtTutorial 31 > 0 ? SetRockMonsterAtTutorial 1
+		
+		GetRecordObjectAtTutorial 31 > 0 ? SetCongregationAtTutorial 11 0
+		GetRecordObjectAtTutorial 31 > 0 ? SetCongregationAtTutorial 12 0
+		GetRecordObjectAtTutorial 31 > 0 ? SetCongregationAtTutorial 13 0
+		GetRecordObjectAtTutorial 31 > 0 ? SetCongregationAtTutorial 14 0
+		GetRecordObjectAtTutorial 31 > 0 ? SetCongregationAtTutorial 15 0
+		GetRecordObjectAtTutorial 31 > 0 ? SetCongregationAtTutorial 16 0
+		GetRecordObjectAtTutorial 31 > 0 ? SetCongregationAtTutorial 17 0
+		GetRecordObjectAtTutorial 31 > 0 ? SetCongregationAtTutorial 18 0
+		GetRecordObjectAtTutorial 31 > 0 ? SetCongregationAtTutorial 19 0
+		
+		GetRecordObjectAtTutorial 31 > 0 ? SetCongregationAtTutorial 11 1
+
+		GetRecordObjectAtTutorial 32 > 0 ? SetRockMonsterAtTutorial 2
+		
+		GetRecordObjectAtTutorial 32 > 0 ? SetCongregationAtTutorial 11 0
+		GetRecordObjectAtTutorial 32 > 0 ? SetCongregationAtTutorial 12 0
+		GetRecordObjectAtTutorial 32 > 0 ? SetCongregationAtTutorial 13 0
+		GetRecordObjectAtTutorial 32 > 0 ? SetCongregationAtTutorial 14 0
+		GetRecordObjectAtTutorial 32 > 0 ? SetCongregationAtTutorial 15 0
+		GetRecordObjectAtTutorial 32 > 0 ? SetCongregationAtTutorial 16 0
+		GetRecordObjectAtTutorial 32 > 0 ? SetCongregationAtTutorial 17 0
+		GetRecordObjectAtTutorial 32 > 0 ? SetCongregationAtTutorial 18 0
+		GetRecordObjectAtTutorial 32 > 0 ? SetCongregationAtTutorial 19 0
+		
+		GetRecordObjectAtTutorial 32 > 0 ? SetCongregationAtTutorial 12 1
+
+		GetRecordObjectAtTutorial 33 > 0 ? SetRockMonsterAtTutorial 3
+		
+		GetRecordObjectAtTutorial 33 > 0 ? SetCongregationAtTutorial 11 0
+		GetRecordObjectAtTutorial 33 > 0 ? SetCongregationAtTutorial 12 0
+		GetRecordObjectAtTutorial 33 > 0 ? SetCongregationAtTutorial 13 0
+		GetRecordObjectAtTutorial 33 > 0 ? SetCongregationAtTutorial 14 0
+		GetRecordObjectAtTutorial 33 > 0 ? SetCongregationAtTutorial 15 0
+		GetRecordObjectAtTutorial 33 > 0 ? SetCongregationAtTutorial 16 0
+		GetRecordObjectAtTutorial 33 > 0 ? SetCongregationAtTutorial 17 0
+		GetRecordObjectAtTutorial 33 > 0 ? SetCongregationAtTutorial 18 0
+		GetRecordObjectAtTutorial 33 > 0 ? SetCongregationAtTutorial 19 0
+		
+		GetRecordObjectAtTutorial 33 > 0 ? SetCongregationAtTutorial 13 1
+
+		GetRecordObjectAtTutorial 34 > 0 ? SetRockMonsterAtTutorial 4
+		
+		GetRecordObjectAtTutorial 34 > 0 ? SetCongregationAtTutorial 11 0
+		GetRecordObjectAtTutorial 34 > 0 ? SetCongregationAtTutorial 12 0
+		GetRecordObjectAtTutorial 34 > 0 ? SetCongregationAtTutorial 13 0
+		GetRecordObjectAtTutorial 34 > 0 ? SetCongregationAtTutorial 14 0
+		GetRecordObjectAtTutorial 34 > 0 ? SetCongregationAtTutorial 15 0
+		GetRecordObjectAtTutorial 34 > 0 ? SetCongregationAtTutorial 16 0
+		GetRecordObjectAtTutorial 34 > 0 ? SetCongregationAtTutorial 17 0
+		GetRecordObjectAtTutorial 34 > 0 ? SetCongregationAtTutorial 18 0
+		GetRecordObjectAtTutorial 34 > 0 ? SetCongregationAtTutorial 19 0
+		
+		GetRecordObjectAtTutorial 34 > 0 ? SetCongregationAtTutorial 14 1
+
+		GetRecordObjectAtTutorial 35 > 0 ? SetRockMonsterAtTutorial 5
+		
+		GetRecordObjectAtTutorial 35 > 0 ? SetCongregationAtTutorial 11 0
+		GetRecordObjectAtTutorial 35 > 0 ? SetCongregationAtTutorial 12 0
+		GetRecordObjectAtTutorial 35 > 0 ? SetCongregationAtTutorial 13 0
+		GetRecordObjectAtTutorial 35 > 0 ? SetCongregationAtTutorial 14 0
+		GetRecordObjectAtTutorial 35 > 0 ? SetCongregationAtTutorial 15 0
+		GetRecordObjectAtTutorial 35 > 0 ? SetCongregationAtTutorial 16 0
+		GetRecordObjectAtTutorial 35 > 0 ? SetCongregationAtTutorial 17 0
+		GetRecordObjectAtTutorial 35 > 0 ? SetCongregationAtTutorial 18 0
+		GetRecordObjectAtTutorial 35 > 0 ? SetCongregationAtTutorial 19 0
+		
+		GetRecordObjectAtTutorial 35 > 0 ? SetCongregationAtTutorial 15 1
+
+		GetRecordObjectAtTutorial 36 > 0 ? SetRockMonsterAtTutorial 6
+		
+		GetRecordObjectAtTutorial 36 > 0 ? SetCongregationAtTutorial 11 0
+		GetRecordObjectAtTutorial 36 > 0 ? SetCongregationAtTutorial 12 0
+		GetRecordObjectAtTutorial 36 > 0 ? SetCongregationAtTutorial 13 0
+		GetRecordObjectAtTutorial 36 > 0 ? SetCongregationAtTutorial 14 0
+		GetRecordObjectAtTutorial 36 > 0 ? SetCongregationAtTutorial 15 0
+		GetRecordObjectAtTutorial 36 > 0 ? SetCongregationAtTutorial 16 0
+		GetRecordObjectAtTutorial 36 > 0 ? SetCongregationAtTutorial 17 0
+		GetRecordObjectAtTutorial 36 > 0 ? SetCongregationAtTutorial 18 0
+		GetRecordObjectAtTutorial 36 > 0 ? SetCongregationAtTutorial 19 0
+		
+		GetRecordObjectAtTutorial 36 > 0 ? SetCongregationAtTutorial 16 1
+
+		GetRecordObjectAtTutorial 37 > 0 ? SetRockMonsterAtTutorial 7
+		
+		GetRecordObjectAtTutorial 37 > 0 ? SetCongregationAtTutorial 11 0
+		GetRecordObjectAtTutorial 37 > 0 ? SetCongregationAtTutorial 12 0
+		GetRecordObjectAtTutorial 37 > 0 ? SetCongregationAtTutorial 13 0
+		GetRecordObjectAtTutorial 37 > 0 ? SetCongregationAtTutorial 14 0
+		GetRecordObjectAtTutorial 37 > 0 ? SetCongregationAtTutorial 15 0
+		GetRecordObjectAtTutorial 37 > 0 ? SetCongregationAtTutorial 16 0
+		GetRecordObjectAtTutorial 37 > 0 ? SetCongregationAtTutorial 17 0
+		GetRecordObjectAtTutorial 37 > 0 ? SetCongregationAtTutorial 18 0
+		GetRecordObjectAtTutorial 37 > 0 ? SetCongregationAtTutorial 19 0
+		
+		GetRecordObjectAtTutorial 37 > 0 ? SetCongregationAtTutorial 17 1
+
+		GetRecordObjectAtTutorial 38 > 0 ? SetRockMonsterAtTutorial 8
+		
+		GetRecordObjectAtTutorial 38 > 0 ? SetCongregationAtTutorial 11 0
+		GetRecordObjectAtTutorial 38 > 0 ? SetCongregationAtTutorial 12 0
+		GetRecordObjectAtTutorial 38 > 0 ? SetCongregationAtTutorial 13 0
+		GetRecordObjectAtTutorial 38 > 0 ? SetCongregationAtTutorial 14 0
+		GetRecordObjectAtTutorial 38 > 0 ? SetCongregationAtTutorial 15 0
+		GetRecordObjectAtTutorial 38 > 0 ? SetCongregationAtTutorial 16 0
+		GetRecordObjectAtTutorial 38 > 0 ? SetCongregationAtTutorial 17 0
+		GetRecordObjectAtTutorial 38 > 0 ? SetCongregationAtTutorial 18 0
+		GetRecordObjectAtTutorial 38 > 0 ? SetCongregationAtTutorial 19 0
+		
+		GetRecordObjectAtTutorial 38 > 0 ? SetCongregationAtTutorial 18 1
+
+		GetRecordObjectAtTutorial 38 > 0 ? SetRockMonsterAtTutorial 9
+		
+		GetRecordObjectAtTutorial 39 > 0 ? SetCongregationAtTutorial 11 0
+		GetRecordObjectAtTutorial 39 > 0 ? SetCongregationAtTutorial 12 0
+		GetRecordObjectAtTutorial 39 > 0 ? SetCongregationAtTutorial 13 0
+		GetRecordObjectAtTutorial 39 > 0 ? SetCongregationAtTutorial 14 0
+		GetRecordObjectAtTutorial 39 > 0 ? SetCongregationAtTutorial 15 0
+		GetRecordObjectAtTutorial 39 > 0 ? SetCongregationAtTutorial 16 0
+		GetRecordObjectAtTutorial 39 > 0 ? SetCongregationAtTutorial 17 0
+		GetRecordObjectAtTutorial 39 > 0 ? SetCongregationAtTutorial 18 0
+		GetRecordObjectAtTutorial 39 > 0 ? SetCongregationAtTutorial 19 0
+		
+		GetRecordObjectAtTutorial 38 > 0 ? SetCongregationAtTutorial 19 1
+jump:
+		
+		GetOxygenLevel = 0 ? SetLevelFail
+		GetMiniFiguresOnLevel < 5 ? SetLevelFail
+		
+		TRUE ? SetR1 0
+		GetRecordObjectAtTutorial 21 > 0 ? AddR1 1
+		GetRecordObjectAtTutorial 22 > 0 ? AddR1 1
+		GetR1 = 0 ? Stop
+		
+		TRUE ? SetMessagePermit 0
+		TRUE ? SetMessage 1 1
+	}
+	TRUE ? :Next CheckCompleteFail/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :PlayMessage/ PlayMessage:
+	{
+		
+		GetOxygenLevel = 0 ? SetLevelFail
+		
+		GetMiniFiguresOnLevel > 0 ? :canrebuild1
+		GetToolStoresBuilt = 0 ? SetLevelFail
+canrebuild1:
+		
+		GetMessageTimer > 0 ? Stop
+		TRUE ? SetMessagePermit 1
+	}
+	TRUE ? :Next PlayMessage/:
+
+	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :WaitForCrystals/ WaitForCrystals:
+	{
+		
+		GetOxygenLevel = 0 ? SetLevelFail
+		
+		GetMiniFiguresOnLevel > 0 ? :canrebuild2
+		GetToolStoresBuilt = 0 ? SetLevelFail
+canrebuild2:
+		
+		GetCrystalsCurrentlyStored > 19 ? SetLevelCompleted
+		Stop
+	}
+	TRUE ? :Next WaitForCrystals/:
+}
+TRUE ? :Complete

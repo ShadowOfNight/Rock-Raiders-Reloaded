@@ -1,0 +1,407 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 20
+FrameStep 1
+PreviewFirstFrame 1
+PreviewLastFrame 20
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Mini-figures\pILOT\LPtorso.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 0 0 22.2 9.900009 2.699998 1 1 1
+  0 0 0 0 0
+  0 0 0 -1.2 7.16001 1.499999 1 1 1
+  5 0 0 0 0
+  0 0 0 -28.8 10.44 3.2583 1 1 1
+  10 0 0 0 0
+  0 0 0 -1.7 7.8 1.499999 1 1 1
+  15 0 0 0 0
+  0 0 0 22.2 9.900009 2.699998 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 29
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Mini-figures\pILOT\LPhead.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 1.325 0 -20.2 12.5 0.09999995 1.15 1.15 1.15
+  0 0 0 0 0
+  0 1.325 0 -0.5833333 14 -1.5 1.15 1.15 1.15
+  5 0 0 0 0
+  0 1.325 0 26.4187 12 -1.859036 1.15 1.15 1.15
+  10 0 0 0 0
+  0 1.325 0 -1 14 -2.3 1.15 1.15 1.15
+  15 0 0 0 0
+  0 1.325 0 -20.2 12.5 0.09999995 1.15 1.15 1.15
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Mini-figures\pILOT\LPthighL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  -0.45 -0.245 0 0 76.00001 0 1 1 1
+  0 0 0 0 0
+  -0.45 -0.245 0 0 30.30788 0.04737451 1 1 1
+  2 0 0 0 0
+  -0.45 -0.245 0 0 9.228126 0.09999995 1 1 1
+  5 0 0 0 0
+  -0.45 -0.245 0 0 -30.80688 0.04636392 1 1 1
+  10 0 0 0 0
+  -0.45 -0.245 0 0 -23.25697 0.1311368 1 1 1
+  12 0 0 0 0
+  -0.45 -0.245 0 0 30.21251 0.2999996 1 1 1
+  15 0 0 0 0
+  -0.45 -0.245 0 0 54.78738 0.2092008 1 1 1
+  17 0 0 0 0
+  -0.45 -0.245 0 0 76.00001 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 14
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Mini-figures\pILOT\LPfootL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 -0.82 -0.25 0 -28.59999 0 1 1 1
+  0 0 0 0 0
+  0 -0.82 -0.25 0 -18.58749 0 1 1 1
+  5 0 0 0 0
+  0 -0.82 -0.25 0 -34.39574 0 1 1 1
+  10 0 0 0 0
+  0 -0.82 -0.25 0 -65.94684 0 1 1 1
+  12 0 0 0 0
+  0 -0.82 -0.25 0 -92.84687 0 1 1 1
+  15 0 0 0 0
+  0 -0.82 -0.25 0 -58.22564 0 1 1 1
+  18 0 0 0 0
+  0 -0.82 -0.25 0 -28.59999 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 3
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Mini-figures\pILOT\LPthighR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0.45 -0.245 0 0 -37.5 0 1 1 1
+  0 0 0 0 0
+  0.45 -0.245 0 0 -37.57301 0.04449819 1 1 1
+  3 0 0 0 0
+  0.45 -0.245 0 0 17.2 0.09999979 1 1 1
+  5 0 0 0 0
+  0.45 -0.245 0 0 55.89481 0.07439986 1 1 1
+  7 0 0 0 0
+  0.45 -0.245 0 0 77.7 0 1 1 1
+  10 0 0 0 0
+  0.45 -0.245 0 0 46.10226 -0.04791999 1 1 1
+  12 0 0 0 0
+  0.45 -0.245 0 0 -0.2250004 -0.1 1 1 1
+  15 0 0 0 0
+  0.45 -0.245 0 0 -23.6772 -0.0496 1 1 1
+  18 0 0 0 0
+  0.45 -0.245 0 0 -37.5 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Mini-figures\pILOT\LPfootR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 -0.82 -0.25 0 -34.39574 0 1 1 1
+  0 0 0 0 0
+  0 -0.82 -0.25 0 -42.79573 0 1 1 1
+  2 0 0 0 0
+  0 -0.82 -0.25 0 -65.94684 0 1 1 1
+  3 0 0 0 0
+  0 -0.82 -0.25 0 -92.84687 0 1 1 1
+  5 0 0 0 0
+  0 -0.82 -0.25 0 -58.22564 0 1 1 1
+  8 0 0 0 0
+  0 -0.82 -0.25 0 -28.59999 0 1 1 1
+  10 0 0 0 0
+  0 -0.82 -0.25 0 -18.58749 0 1 1 1
+  15 0 0 0 0
+  0 -0.82 -0.25 0 -34.39574 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 5
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Mini-figures\pILOT\LPbicepL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0.715 0.905 0 12.2 52.49996 10.4 1 1 1
+  0 0 1 0 0
+  0.715 0.905 0 22.2 47.5 10.4 1 1 1
+  5 0 0 0 0
+  0.715 0.905 0 19.9 46.70002 10.4 1 1 1
+  10 0 0 0 0
+  0.715 0.905 0 21.96667 46.21666 10.4 1 1 1
+  15 0 0 0 0
+  0.715 0.905 0 12.2 52.49996 10.4 1 1 1
+  20 0 1 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Mini-figures\pILOT\LPhandL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0.23 -1.015 -0.385 2.1 10.1 -14.9 1 1 1
+  0 0 0 0 0
+  0.23 -1.015 -0.385 2.1 10.1 -14.9 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Mini-figures\pILOT\LPbicepR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  -0.715 0.905 0 -49.69999 48.5 -41.1 1 1 1
+  0 0 0 0 0
+  -0.715 0.905 0 -26.11146 48.60208 -25.05833 1 1 1
+  5 0 0 0 0
+  -0.715 0.905 0 -17.4 49.79999 -13.1 1 1 1
+  10 0 0 0 0
+  -0.715 0.905 0 -27.3125 48.47499 -23.6 1 1 1
+  15 0 0 0 0
+  -0.715 0.905 0 -49.69999 48.5 -41.1 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Mini-figures\pILOT\LPhandR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  0 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  5 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  10 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  15 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  18 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 9
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 4
+ObjectMotion (unnamed)
+  9
+  9
+  0 1.668 0 0 0 -0.9799995 1 1 1
+  0 0 0 0 0
+  0 1.540464 0 0 0 -0.2499999 1 1 1
+  1 0 0 0 0
+  0 1.564387 0 0 0 0.1857143 1 1 1
+  3 0 0 0 0
+  0 1.8616 0 0 0 -0.32 1 1 1
+  7 0 0 0 0
+  0 1.668 0 0 0 -1.02 1 1 1
+  10 0 0 0 0
+  0 1.536464 0 0 0 -0.2899998 1 1 1
+  11 0 0 0 0
+  0 1.564387 0 0 0 0.1757143 1 1 1
+  13 0 0 0 0
+  0 1.859625 0 0 0 -0.34 1 1 1
+  17 0 0 0 0
+  0 1.668 0 0 0 -1.03 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 13
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 4
+ObjectMotion (unnamed)
+  9
+  5
+  0 1.72 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  5 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  15 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  18 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 13
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 180 0 0 3 3 3
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Item_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0.09999977 0.7250008 -1.450001 0 0 0 0.3333 0.3333 0.333333
+  0 0 0 0 0
+  -0.1375002 0.7250008 -1.462501 0 0 0 0.3333 0.3333 0.333333
+  5 0 0 0 0
+  -0.1000003 0.7250008 -1.450001 0 0 0 0.3333 0.3333 0.333333
+  10 0 0 0 0
+  0.09999976 0.7250008 -1.425001 0 0 0 0.3333 0.3333 0.333333
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 66
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject cam_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 4.800002 3.925 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 13
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 0 2
+LightMotion (unnamed)
+  9
+  6
+  -2 2 -2 45 35 0 1 1 1
+  0 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  5 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  10 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  15 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  18 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 2
+CameraMotion (unnamed)
+  9
+  5
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  0 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  5 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  15 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  18 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+TargetObject 12
+ZoomFactor 3.200000
+Resolution 0
+CustomSize 200 200
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 1
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 1
+RayRecursionLimit 16
+DataOverlayLabel  
+SaveAnimationName \\Rob_plugin_man\d\Output\Lego\bloko.avi
+AnimationType 5
+EndPlugin
+OutputFilenameFormat 1
+SaveRGBImagesPrefix D:\OUTPUT\lego\Lowpoly\LPman
+RGBImageFormat 2
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 0.032373 7.710229 2.445000
+ViewDirection -2.485349 -0.614356 0.000000
+ViewZoomFactor 3.204177
+GridNumber 0
+GridSize 5.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

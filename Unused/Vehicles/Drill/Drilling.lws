@@ -1,0 +1,285 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 8
+FrameStep 1
+PreviewFirstFrame 1
+PreviewLastFrame 8
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+AddNullObject Rock_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 17.00002 0 0 0 2 2 2
+  0 0 0 0 0
+  0 0 17.00002 0 0 0 2 2 2
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 451
+ParentObject 10
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Vehicles\drilling\Rock2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 0 6.225 0 0 0 0.23 0.23 0.23
+  0 0 0 0 0
+  -0.04999989 2.274999 3.150002 180 0 -341.7 0.5200001 0.5200001 0.5200001
+  4 0 0 0 0
+  -0.04902329 0.9685542 2.152149 225 0 -417.3141 0.4469532 0.4469532 0.4469532
+  5 0 0 0 0
+  -0.03339821 2.619133 -0.07597685 314.9999 0 -558.5891 0.1532031 0.1532031 0.1532031
+  7 0 0 0 0
+  -0.02499974 2.274999 -1.200001 359.9999 0 -628.7999 -1.303852e-008 -1.303852e-008 -1.303852e-008
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 149
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Vehicles\drilling\Rock1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 0 6.25 0 0 0 0.1439999 0.1439999 0.1439999
+  0 0 0 0 0
+  0.4328125 2.511134 3.808981 0 -44.99999 0 0.1919062 0.1919062 0.1919062
+  1 0 0 0 0
+  4.0275 3.5 -2.325003 0 -180 0 0.294 0.294 0.294
+  4 0 0 0 0
+  3.185603 0.09518681 -1.151983 0 -270.0001 0 0.1700424 0.1700424 0.1700424
+  6 0 0 0 0
+  4.65 -2.500001 0.3249969 0 -360.0002 0 0 0 0
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 46
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Vehicles\drilling\Rock2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 6.225 0 0 0 0.23 0.23 0.23
+  0 0 0 0 0
+  -3.9 6.099999 -2.549999 180 0 0 0.4279999 0.4279999 0.4279999
+  4 0 0 0 0
+  -5.825 -0.6500009 -12.6 359.9999 0 0 -1.303852e-008 -1.303852e-008 -1.303852e-008
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 54
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Vehicles\drilling\Rock1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 6.25 0 0 0 0.1439999 0.1439999 0.1439999
+  0 0 0 0 0
+  -2.35 3.125001 3.799994 0 -180 0 1 1 1
+  4 0 0 0 0
+  -5.325001 -1.775002 0.04999685 0 -360.0002 0 0 0 0
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 41
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Vehicles\drilling\Rock2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 6.225 0 0 0 0.23 0.23 0.23
+  0 0 0 0 0
+  2.075 4.099999 3.150002 180 0 0 1 1 1
+  4 0 0 0 0
+  3.85 -1.425001 -1.200001 359.9999 0 0 -1.303852e-008 -1.303852e-008 -1.303852e-008
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 54
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Vehicles\drilling\Rock2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 6.225 0 0 0 0.23 0.23 0.23
+  0 0 0 0 0
+  2.075 6.099999 -2.549999 180 0 0 0.4279999 0.4279999 0.4279999
+  4 0 0 0 0
+  3.85 -0.6500009 -12.6 359.9999 0 0 -1.303852e-008 -1.303852e-008 -1.303852e-008
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Vehicles\drilling\Rock1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 6.25 0 0 0 0.1439999 0.1439999 0.1439999
+  0 0 0 0 0
+  3.107213 -1.149998 1.849997 0 -180 0 1 1 1
+  4 0 0 0 0
+  6.792577 -5.225002 -2.500002 0 -360.0002 0 0 0 0
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 44
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject drilltip_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 19 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 19 0 0 0 1 1 1
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 10
+ShadowOptions 7
+
+AddNullObject DRILLING_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 27
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\Lowpoly\Vehicles\drilling\BIGDRILL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 -180 1 1 1
+  8 0 0 0 0
+EndBehavior 1
+ParentObject 10
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 0 7
+LightMotion (unnamed)
+  9
+  8
+  -2 2 -2 45 35 0 1 1 1
+  0 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  1 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  2 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  3 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  4 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  5 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  7 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  8 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  8
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  0 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  1 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  2 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  3 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  4 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  5 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  7 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ZoomFactor 3.200000
+Resolution 0
+CustomSize 200 200
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 1
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 2
+BlurLength 0.500000
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 3
+RayRecursionLimit 16
+DataOverlayLabel  
+SaveAnimationName \\Rob_plugin_man\d\Output\Lego\FASTDRILL.AVI
+AnimationType 0
+OutputFilenameFormat 1
+SaveRGBImagesPrefix D:\OUTPUT\lego\Lowpoly\LGman
+RGBImageFormat 24
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 0.081061 7.825002 21.218561
+ViewDirection -11.438878 0.015708 0.000000
+ViewZoomFactor 3.367325
+GridNumber 10
+GridSize 5.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

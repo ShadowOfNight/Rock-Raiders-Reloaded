@@ -1,0 +1,183 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 20
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 20
+PreviewFrameStep 1
+FramesPerSecond 30.000000
+
+LoadObject Z:\lego\Data\Creatures\SpiderSB\SP_SpiderSB.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  7 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+AddNullObject Parent_NULL
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 22.21547 0 0 0 1 1 1
+  20 1 0 0 0
+EndBehavior 1
+LockedChannels 3
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\shared\RockdustX.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  17
+  0 0.8500001 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 5.750001 0 0 0 0 1 1 1
+  5 1 0 0 0
+  0 3.45 0 0 0 0 0.5079998 0.928 0.8559999
+  6 0 0 0 0
+  0 4.969999 0 0 0 0 1 0.5519999 1
+  7 0 0 0 0
+  0 4.57 0 0 0 0 0.7040001 0.8479999 0.78
+  8 0 0 0 0
+  0 5.25 0 0 0 0 1 0.8759999 1
+  9 0 0 0 0
+  0 4.65 0 0 0 0 0.7279999 1 1
+  10 0 0 0 0
+  0 4.25 0 0 0 0 1 0.6919999 0.7399999
+  11 0 0 0 0
+  0 3.03 0 0 0 0 0.4799998 1 0.9279999
+  12 0 0 0 0
+  0 4.749999 0 0 0 0 0.964 0.772 0.8559999
+  13 0 0 0 0
+  0 3.97 0 0 0 0 0.9159999 1 1
+  14 0 0 0 0
+  0 3.35 0 0 0 0 0.4159999 1 0.916
+  15 0 0 0 0
+  0 4.589999 0 0 0 0 1 0.7959999 0.924
+  16 0 0 0 0
+  0 3.01 0 0 0 0 0.5359999 1 0.7919999
+  17 0 0 0 0
+  0 3.25 0 0 0 0 1 1 0.9239998
+  18 0 0 0 0
+  0 4.889999 0 0 0 0 0.628 0.7239999 0.5879999
+  19 0 0 0 0
+  0 3.53 0 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 1
+ObjDissolve (envelope)
+  1
+  17
+  1
+  0 0 0 0 0
+  1
+  5 1 0 0 0
+  0.608
+  6 1 0 0 0
+  0.832
+  7 0 0 0 0
+  0.708
+  8 0 0 0 0
+  0.5319999
+  9 0 0 0 0
+  0.8520001
+  10 0 0 0 0
+  0.716
+  11 0 0 0 0
+  0.952
+  12 0 0 0 0
+  0.684
+  13 0 0 0 0
+  0.84
+  14 0 0 0 0
+  0.5639999
+  15 0 0 0 0
+  0.908
+  16 0 0 0 0
+  0.52
+  17 0 0 0 0
+  0.9120001
+  18 0 0 0 0
+  0.5919998
+  19 0 0 0 0
+  1
+  20 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 0 7
+LightMotion (unnamed)
+  9
+  1
+  -2 2 -2 45 35 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 0 7
+CameraMotion (unnamed)
+  9
+  1
+  0 0 -28.04 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 1
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+ClipRayColors 0
+DataOverlayLabel  
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 0.000000 0.000000 22.215473
+ViewDirection 1.106541 -0.396189 0.000000
+ViewZoomFactor 9.413978
+GridNumber 40
+GridSize 10.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

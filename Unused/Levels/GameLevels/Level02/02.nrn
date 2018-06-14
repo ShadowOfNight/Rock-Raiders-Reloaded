@@ -1,0 +1,63 @@
+//***Level 02***
+
+// Check if message is being displayed and update if so
+GetR7 = 0 ? :NoMessage
+// Check to see if more crystals have been collected
+GetCrystalsCurrentlyStored > GetR7 ? SetR7 0
+// Reset nerps if message timer finished.
+GetMessageTimer = 0 ? SetR7 0
+Stop
+
+NoMessage:
+
+TRUE ? SetTutorialFlags 0
+TRUE ? SetMessagePermit 1
+
+//***Set up timer for nerps messages***
+TRUE ? SetMessageTimerValues 1000 1000 6000
+
+//***Wait for mission start***
+GetObjectiveShowing != 1 ? :Skip
+
+//***Set number of crystals found and stored***
+TRUE ? SetR7 0
+
+//***Clear Mission complete flag***
+TRUE ? SetR5 0
+TRUE ? Stop
+
+
+Skip:
+
+//***Re-enable game messages once nerps message has been displayed
+GetMessageTimer = 0 ? SetMessagePermit 1
+
+//***Check if player has teleported toolstore and end mission***
+GetToolStoresBuilt = 0 ? SetLevelFail
+
+//***If another crystal stored update counter and print message***
+GetCrystalsCurrentlyStored = GetR7 ? :NoneStored
+GetCrystalsCurrentlyStored > 5 ? :NoneStored
+TRUE ? SetR7 GetCrystalsCurrentlyStored
+TRUE ? SetMessagePermit 0
+TRUE ? SetMessage GetR7 1
+
+
+NoneStored:
+
+//***If mission complete continue close down sequence***
+GetR5 ? :CloseDown
+
+//***If five crystals collected set mission complete flag and start close down sequence***
+GetR7 = 5 ? SetR5 1
+TRUE ? SetTimer1 0
+TRUE ? Stop
+
+
+CloseDown:
+
+//***Wait for five seconds before ending mission***
+GetTimer1 > 5000 ? SetLevelCompleted
+TRUE ? Stop
+
+//***END OF FILE***

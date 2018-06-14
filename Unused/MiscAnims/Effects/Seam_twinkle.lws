@@ -1,0 +1,523 @@
+LWSC
+1
+
+FirstFrame 0
+LastFrame 51
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 51
+PreviewFrameStep 1
+FramesPerSecond 30.000000
+
+LoadObject Z:\Lego\Data\Shared\Glint1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  0 0 0 0 0
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  9 0 0 0 0
+  0 0 0 0 0 0 1.195999 1.195999 1.195999
+  10 0 0 -1 0
+  0 11.37289 -19.20306 0 -152 0 1.195999 1.195999 1.195999
+  21 0 0 0 0
+  0 12.64728 -32.77679 0 -258 0 1.195999 1.195999 1.195999
+  35 0 0 0 0
+  0 0.7078524 -38.97139 0 -340.9194 0 1.195999 1.195999 1.195999
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 41
+ParentObject 2
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  25 1 0 0 0
+  1
+  50 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Glint Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 0.8120002 0.8120002 0.8120002
+  0 0 0 0 0
+  0 0 0 0 0 0 0.8120002 0.8120002 0.8120002
+  51 0 0 0 0
+EndBehavior 1
+ParentObject 18
+ShadowOptions 7
+
+AddNullObject Crystal Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  0 0 0 0 0
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  5 1 0 0 0
+  0 0 0 0 0 0 1.195999 1.195999 1.195999
+  6 0 0 0 0
+  0 9.97289 -20.60306 0 -152 0 1.195999 1.195999 1.195999
+  22 0 0 0 0
+  0 9.447279 -34.77678 0 -258 0 1.195999 1.195999 1.195999
+  36 0 0 0 0
+  0 0 -38.625 0 -360 0 1.195999 1.195999 1.195999
+  45 0 0 0 0
+  0 1.501093 -39.17907 0 -363.4972 0 1.195999 1.195999 1.195999
+  47 0 0 0 0
+  0 0 -40 0 -360 0 1.195999 1.195999 1.195999
+  50 0 0 0 0
+  0 -0.09352966 -40.05115 0 -359.7821 0 1.195999 1.195999 1.195999
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 18
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\Glint2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  0 0 0 0 0
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  5 0 0 0 0
+  0 0 0 0 0 0 1.195999 1.195999 1.195999
+  6 0 0 -1 0
+  0 11.37289 -19.20306 0 -152 0 1.195999 1.195999 1.195999
+  15 0 0 0 0
+  0 12.64728 -32.77679 0 -258 0 1.195999 1.195999 1.195999
+  26 0 0 0 0
+  0 -3.2 -40 0 -360 0 1.195999 1.195999 1.195999
+  46 0 1 0 0
+  0 -3.2 -40 0 -360 0 1.195999 1.195999 1.195999
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 41
+ParentObject 5
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  18 1 0 0 0
+  1
+  38 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Glint Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 -6.700002 0 0 0.6939998 0.6939998 0.6939998
+  0 0 0 0 0
+  0 0 0 -6.700002 0 0 0.6939998 0.6939998 0.6939998
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 18
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\Glint3.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  0 0 0 0 0
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  10 0 0 0 0
+  0 0 0 0 0 0 1.195999 1.195999 1.195999
+  11 0 0 -1 0
+  0 11.37289 -19.20306 0 -152 0 1.195999 1.195999 1.195999
+  22 0 0 0 0
+  0 12.64728 -32.77679 0 -258 0 1.195999 1.195999 1.195999
+  35 0 0 0 0
+  0 0.2083546 -39.12657 0 -343.5495 0 1.195999 1.195999 1.195999
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 41
+ParentObject 7
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  25 1 0 0 0
+  1
+  49 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Glint Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 6.3 0 0 0.5580001 0.5580001 0.5580001
+  0 0 0 0 0
+  0 0 0 6.3 0 0 0.5580001 0.5580001 0.5580001
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 18
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\Glint4.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  0 0 0 0 0
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  8 0 0 0 0
+  0 0 0 0 0 0 1.195999 1.195999 1.195999
+  9 0 0 -1 0
+  0 11.37289 -19.20306 0 -152 0 1.195999 1.195999 1.195999
+  17 0 0 0 0
+  0 12.64728 -32.77679 0 -258 0 1.195999 1.195999 1.195999
+  28 0 0 0 0
+  0 -3.2 -40 0 -360 0 1.195999 1.195999 1.195999
+  47 0 1 0 0
+  0 -3.2 -40 0 -360 0 1.195999 1.195999 1.195999
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 41
+ParentObject 9
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  20 1 0 0 0
+  1
+  39 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Glint Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 3.9 0 0 0.8359998 0.8359998 0.8359998
+  0 0 0 0 0
+  0 0 0 3.9 0 0 0.8359998 0.8359998 0.8359998
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 18
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\Glint5.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  0 0 0 0 0
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  15 0 0 0 0
+  0 0 0 0 0 0 1.195999 1.195999 1.195999
+  16 0 0 -1 0
+  0 11.37289 -19.20306 0 -152 0 1.195999 1.195999 1.195999
+  25 0 0 0 0
+  0 12.64728 -32.77679 0 -258 0 1.195999 1.195999 1.195999
+  37 0 0 0 0
+  0 0.2216159 -39.10764 0 -343.3603 0 1.195999 1.195999 1.195999
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 41
+ParentObject 11
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  28 1 0 0 0
+  1
+  49 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Glint Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 -7 0 0 0.3959998 0.3959998 0.3959998
+  0 0 0 0 0
+  0 0 0 -7 0 0 0.3959998 0.3959998 0.3959998
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 18
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\Glint6.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  0 0 0 0 0
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  17 0 0 0 0
+  0 0 0 0 0 0 1.195999 1.195999 1.195999
+  18 0 0 -1 0
+  0 11.37289 -19.20306 0 -152 0 1.195999 1.195999 1.195999
+  27 0 0 0 0
+  0 12.64728 -32.77679 0 -258 0 1.195999 1.195999 1.195999
+  39 0 0 0 0
+  0 2.063939 -38.54608 0 -333.7466 0 1.195999 1.195999 1.195999
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 41
+ParentObject 13
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  30 1 0 0 0
+  1
+  51 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Glint Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 3.2 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 3.2 0 0 1 1 1
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 18
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\Glint7.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  0 0 0 0 0
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  6 0 0 0 0
+  0 0 0 0 0 0 1.195999 1.195999 1.195999
+  7 0 0 -1 0
+  0 11.37289 -19.20306 0 -152 0 1.195999 1.195999 1.195999
+  18 0 0 0 0
+  0 12.64728 -32.77679 0 -258 0 1.195999 1.195999 1.195999
+  32 0 0 0 0
+  0 -0.8741984 -39.42725 0 -348.9622 0 1.195999 1.195999 1.195999
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 41
+ParentObject 15
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  22 1 0 0 0
+  1
+  47 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Glint Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 -3.799999 0 0 0.5219998 0.5219998 0.5219998
+  0 0 0 0 0
+  0 0 0 -3.799999 0 0 0.5219998 0.5219998 0.5219998
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 18
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\Glint1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  0 0 0 0 0
+  0 -3.590001 0 0 0 0 1.195999 1.195999 1.195999
+  4 0 0 0 0
+  0 0 0 0 0 0 1.195999 1.195999 1.195999
+  5 0 0 -1 0
+  0 11.37289 -19.20306 0 -152 0 1.195999 1.195999 1.195999
+  14 0 0 0 0
+  0 12.64728 -32.77679 0 -258 0 1.195999 1.195999 1.195999
+  25 0 0 0 0
+  0 -3.2 -40 0 -360 0 1.195999 1.195999 1.195999
+  46 0 1 0 0
+  0 -3.2 -40 0 -360 0 1.195999 1.195999 1.195999
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 41
+ParentObject 17
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  17 1 0 0 0
+  1
+  37 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Glint Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 2.1 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 2.1 0 0 1 1 1
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 18
+ShadowOptions 7
+
+AddNullObject Main Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 180 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 180 0 0 1 1 1
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\Glint1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0.575 0 90 90 0 1 1 1
+  0 0 0 0 0
+  0 0.575 0 90 90 0 4 4 4
+  3 0 0 0 0
+  0 0.575 0 90 90 0 1 1 1
+  30 0 0 0 0
+  0 0.575 0 90 90 0 0.9005263 0.9005263 0.9005263
+  51 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 18
+ObjDissolve (envelope)
+  1
+  4
+  0
+  0 0 0 0 0
+  0
+  2 0 0 0 0
+  0.056
+  5 0 0 0 0
+  1
+  20 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  2
+  -2 2 -2 45 35 0 1 1 1
+  0 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  51 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  2
+  -14.59637 17.5 76.85876 161.5 13.5 0 1 1 1
+  0 0 0 0 0
+  -14.59637 17.5 76.85876 161.5 13.5 0 1 1 1
+  51 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 1
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+ClipRayColors 0
+DataOverlayLabel  
+FullSceneParamEval 0
+
+ViewMode 5
+ViewAimpoint 3.787609 -0.466543 0.197046
+ViewDirection 3.851940 -0.708603 0.000000
+ViewZoomFactor 9.000000
+GridNumber 40
+GridSize 5.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

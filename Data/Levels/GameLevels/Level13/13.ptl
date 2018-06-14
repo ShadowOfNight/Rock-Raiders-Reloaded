@@ -1,7 +1,7 @@
 
 Lego* {
 
-	Dig							Goto
+	Dig						Goto
 	DigComplete					RockFall
 	Reinforce					Goto
 	ReinforceComplete			Null

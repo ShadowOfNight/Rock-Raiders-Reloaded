@@ -1,0 +1,472 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 60
+FrameStep 1
+PreviewFirstFrame 0
+PreviewLastFrame 19
+PreviewFrameStep 1
+FramesPerSecond 30.000000
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0.6500001 -10.56966 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0.65 -10.56966 0 0 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\mar-snake\Head.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  -0.58 0 6.850002 201.5 0 0 1 1 1
+  0 0 0 0 0
+  0.3141699 0 6.842741 201.2357 0 0 1 1 1
+  3 0 0 0 0
+  1.204589 0 6.833128 163.2393 0 0 1 1 1
+  7 0 0 0 0
+  0.009999866 0 6.830001 145.4 0 0 1 1 1
+  10 0 0 0 0
+  -1.252066 0 6.83497 155.3098 0 0 1 1 1
+  13 0 0 0 0
+  -1.861912 0 6.843451 194.3779 0 0 1 1 1
+  17 0 0 0 0
+  -1.052203 0 6.848833 200.6119 0 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LockedChannels 54
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\mar-snake\body part.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 0 18.6 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 19.4716 0 0 1 1 1
+  3 0 0 0 0
+  0 0 0 31.57241 0 0 1 1 1
+  7 0 0 0 0
+  0 0 0 -8.200002 0 0 1 1 1
+  10 0 0 0 0
+  0 0 0 -13.46648 0 0 1 1 1
+  13 0 0 0 0
+  0 0 0 -11.83938 0 0 1 1 1
+  17 0 0 0 0
+  0 0 0 9.40696 0 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 2
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\mar-snake\body part.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 0 1.719999 -44.3 0 0 1 1 1
+  0 0 0 0 0
+  0 0 1.719999 -4.043599 0 0 1 1 1
+  3 0 0 0 0
+  0 0 1.719999 22.12913 0 0 1 1 1
+  7 0 0 0 0
+  0 0 1.719999 38.5 0 0 1 1 1
+  10 0 0 0 0
+  0 0 1.719999 -9.380004 0 0 1 1 1
+  13 0 0 0 0
+  0 0 1.719999 -44.25248 0 0 1 1 1
+  17 0 0 0 0
+  0 0 1.719999 -48.37469 0 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LockedChannels 51
+ParentObject 3
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\mar-snake\body part.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 1.719999 -39.09999 0 0 1 1 1
+  0 0 0 0 0
+  0 0 1.719999 -32.00968 0 0 1 1 1
+  1 0 0 0 0
+  0 0 1.719999 -18.24779 0 0 1 1 1
+  3 0 0 0 0
+  0 0 1.719999 5.158597 0 0 1 1 1
+  7 0 0 0 0
+  0 0 1.719999 50.30001 0 0 1 1 1
+  10 0 0 0 0
+  0 0 1.719999 38.51719 0 0 1 1 1
+  13 0 0 0 0
+  0 0 1.719999 -13.55724 0 0 1 1 1
+  17 0 0 0 0
+  0 0 1.719999 -34.59438 0 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LockedChannels 51
+ParentObject 4
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\mar-snake\body part.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 0 1.719999 -5.499995 0 0 1 1 1
+  0 0 0 0 0
+  0 0 1.719999 -29.44459 0 0 1 1 1
+  1 0 0 0 0
+  0 0 1.719999 -64.20349 0 0 1 1 1
+  3 0 0 0 0
+  0 0 1.719999 -4.606739 0 0 1 1 1
+  7 0 0 0 0
+  0 0 1.719999 -3.264592 0 0 1 1 1
+  9 0 0 0 0
+  0 0 1.719999 5.01592e-006 0 0 1 1 1
+  10 0 0 0 0
+  0 0 1.719999 51.75751 0 0 1 1 1
+  13 0 0 0 0
+  0 0 1.719999 21.96421 0 0 1 1 1
+  17 0 0 0 0
+  0 0 1.719999 6.185448 0 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LockedChannels 51
+ParentObject 5
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\mar-snake\body part.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 0 1.719999 14.70001 0 0 1 1 1
+  0 0 0 0 0
+  0 0 1.719999 -2.156416 0 0 1 1 1
+  1 0 0 0 0
+  0 0 1.719999 -9.916891 0 0 1 1 1
+  3 0 0 0 0
+  0 0 1.719999 -50.58947 0 0 1 1 1
+  7 0 0 0 0
+  0 0 1.719999 -18.22702 0 0 1 1 1
+  9 0 0 0 0
+  0 0 1.719999 -1.599988 0 0 1 1 1
+  10 0 0 0 0
+  0 0 1.719999 2.076645 0 0 1 1 1
+  13 0 0 0 0
+  0 0 1.719999 47.4434 0 0 1 1 1
+  17 0 0 0 0
+  0 0 1.719999 27.83869 0 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LockedChannels 51
+ParentObject 6
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\mar-snake\body part.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 0 1.719999 56.99997 0 0 1 1 1
+  0 0 0 0 0
+  0 0 1.719999 43.92215 0 0 1 1 1
+  1 0 0 0 0
+  0 0 1.719999 4.61757 0 0 1 1 1
+  3 0 0 0 0
+  0 0 1.719999 -45.78955 0 0 1 1 1
+  7 0 0 0 0
+  0 0 1.719999 -36.55128 0 0 1 1 1
+  9 0 0 0 0
+  0 0 1.719999 -27.80003 0 0 1 1 1
+  10 0 0 0 0
+  0 0 1.719999 -1.404276 0 0 1 1 1
+  13 0 0 0 0
+  0 0 1.719999 38.71595 0 0 1 1 1
+  17 0 0 0 0
+  0 0 1.719999 56.63958 0 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LockedChannels 51
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\mar-snake\body part.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 0 1.719999 29.80004 0 0 1 1 1
+  0 0 0 0 0
+  0 0 1.719999 42.53018 0 0 1 1 1
+  1 0 0 0 0
+  0 0 1.719999 32.95883 0 0 1 1 1
+  3 0 0 0 0
+  0 0 1.719999 -6.21185 0 0 1 1 1
+  7 0 0 0 0
+  0 0 1.719999 -56.16853 0 0 1 1 1
+  9 0 0 0 0
+  0 0 1.719999 -64.79996 0 0 1 1 1
+  10 0 0 0 0
+  0 0 1.719999 -18.42458 0 0 1 1 1
+  13 0 0 0 0
+  0 0 1.719999 -0.9210289 0 0 1 1 1
+  17 0 0 0 0
+  0 0 1.719999 20.85664 0 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LockedChannels 51
+ParentObject 8
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\mar-snake\body part.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 0 1.719999 -4.09999 0 0 1 1 1
+  0 0 0 0 0
+  0 0 1.719999 22.00226 0 0 1 1 1
+  1 0 0 0 0
+  0 0 1.719999 55.388 0 0 1 1 1
+  3 0 0 0 0
+  0 0 1.719999 15.85852 0 0 1 1 1
+  7 0 0 0 0
+  0 0 1.719999 -3.816499 0 0 1 1 1
+  9 0 0 0 0
+  0 0 1.719999 -15.99999 0 0 1 1 1
+  10 0 0 0 0
+  0 0 1.719999 -64.45869 0 0 1 1 1
+  13 0 0 0 0
+  0 0 1.719999 0.3794788 0 0 1 1 1
+  17 0 0 0 0
+  0 0 1.719999 -5.097202 0 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LockedChannels 51
+ParentObject 9
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\mar-snake\body part.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 0 1.719999 -4.300029 0 0 1 1 1
+  0 0 0 0 0
+  0 0 1.719999 2.820722 0 0 1 1 1
+  1 0 0 0 0
+  0 0 1.719999 17.38267 0 0 1 1 1
+  3 0 0 0 0
+  0 0 1.719999 49.65765 0 0 1 1 1
+  7 0 0 0 0
+  0 0 1.719999 23.75624 0 0 1 1 1
+  9 0 0 0 0
+  0 0 1.719999 3.29997 0 0 1 1 1
+  10 0 0 0 0
+  0 0 1.719999 -24.03556 0 0 1 1 1
+  13 0 0 0 0
+  0 0 1.719999 -37.96325 0 0 1 1 1
+  17 0 0 0 0
+  0 0 1.719999 -16.5007 0 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LockedChannels 51
+ParentObject 10
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\mar-snake\body part.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 0 1.719999 -29.8 0 0 1 1 1
+  0 0 0 0 0
+  0 0 1.719999 -19.36457 0 0 1 1 1
+  1 0 0 0 0
+  0 0 1.719999 1.481396 0 0 1 1 1
+  3 0 0 0 0
+  0 0 1.719999 42.92871 0 0 1 1 1
+  7 0 0 0 0
+  0 0 1.719999 37.89766 0 0 1 1 1
+  9 0 0 0 0
+  0 0 1.719999 22.09999 0 0 1 1 1
+  10 0 0 0 0
+  0 0 1.719999 -0.6026555 0 0 1 1 1
+  13 0 0 0 0
+  0 0 1.719999 -67.70683 0 0 1 1 1
+  17 0 0 0 0
+  0 0 1.719999 -45.67965 0 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LockedChannels 51
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\mar-snake\body part.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 0 1.719999 -62.40001 0 0 1 1 1
+  0 0 0 0 0
+  0 0 1.719999 -61.02042 0 0 1 1 1
+  1 0 0 0 0
+  0 0 1.719999 -11.9613 0 0 1 1 1
+  3 0 0 0 0
+  0 0 1.719999 18.48937 0 0 1 1 1
+  7 0 0 0 0
+  0 0 1.719999 56.26354 0 0 1 1 1
+  9 0 0 0 0
+  0 0 1.719999 65.50002 0 0 1 1 1
+  10 0 0 0 0
+  0 0 1.719999 15.89236 0 0 1 1 1
+  13 0 0 0 0
+  0 0 1.719999 -13.80519 0 0 1 1 1
+  17 0 0 0 0
+  0 0 1.719999 -52.4234 0 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LockedChannels 51
+ParentObject 12
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\mar-snake\body part.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 0 1.719999 -14.10003 0 0 1 1 1
+  0 0 0 0 0
+  0 0 1.719999 -39.33588 0 0 1 1 1
+  1 0 0 0 0
+  0 0 1.719999 -58.48233 0 0 1 1 1
+  3 0 0 0 0
+  0 0 1.719999 -16.96038 0 0 1 1 1
+  7 0 0 0 0
+  0 0 1.719999 9.070311 0 0 1 1 1
+  9 0 0 0 0
+  0 0 1.719999 21.89998 0 0 1 1 1
+  10 0 0 0 0
+  0 0 1.719999 54.67849 0 0 1 1 1
+  13 0 0 0 0
+  0 0 1.719999 6.654749 0 0 1 1 1
+  17 0 0 0 0
+  0 0 1.719999 -6.077638 0 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LockedChannels 51
+ParentObject 13
+ShadowOptions 7
+
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Creatures\mar-snake\Tail.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 0 1.69 -2.300011 -0.3999994 0 1 1 1
+  0 0 0 0 0
+  0 0 1.69 -0.9712616 2.203714 0 1 1 1
+  1 0 0 0 0
+  0 0 1.69 -45.86121 -0.2341994 0 1 1 1
+  3 0 0 0 0
+  0 0 1.69 -40.79094 -2.839211 0 1 1 1
+  7 0 0 0 0
+  0 0 1.69 -21.05655 -3.593083 0 1 1 1
+  9 0 0 0 0
+  0 0 1.69 -5.70001 -3.4 0 1 1 1
+  10 0 0 0 0
+  0 0 1.69 39.31602 0.3734039 0 1 1 1
+  13 0 0 0 0
+  0 0 1.69 8.695362 0.009075668 0 1 1 1
+  17 0 0 0 0
+  0 0 1.69 3.270725 -0.300475 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 14
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  2
+  15.18451 18.12 21.75041 -116.7999 46.59998 0 1 1 1
+  0 0 0 0 0
+  15.18451 18.12 21.75041 -116.7999 46.59998 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  2
+  15.46824 12.15 38.29792 -151.2 17.39998 0 1 1 1
+  0 0 0 0 0
+  15.46824 12.15 38.29792 -151.2 17.39998 0 1 1 1
+  19 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 0
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 1
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 0
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 31 216 231
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+DataOverlayLabel  
+SaveAnimationName F:\snake.avi
+AnimationType 5
+EndPlugin
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint -0.616568 0.000000 -9.946159
+ViewDirection -2.836162 -0.916298 0.000000
+ViewZoomFactor 1.777778
+GridNumber 50
+GridSize 2.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0
