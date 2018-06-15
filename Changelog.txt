@@ -1,12 +1,14 @@
 Rock Raiders Reloaded 
-build v0.00.00.02 changelog documentation
+changelog documentation
 
-1. Removed DDI AVI, Lego Intro, and LMI Logo lines from Main {} of Lego.cfg. (v0.00.00.02)
+v0.00.00.02      Removed DDI AVI, Lego Intro, and LMI Logo lines from Main {} of Lego.cfg. 
 
-2. Removed dummy properties DumpFile and DynamiteRadius; removed ShutdownScreen line from Main {} in the cfg, and removed ShutDown.bmp from Languages.  (v0.00.01.03)
+v0.00.01.03      Removed dummy properties DumpFile and DynamiteRadius; removed ShutdownScreen line from Main {} in the cfg, and removed ShutDown.bmp from Languages.  
 
-3. Replaced Loading.bmp and DDI_logo.bmp; adjusted ProgressWindow Y position from 450 to 457 in Main {} of the cfg. (v.0.00.03.04)
+v0.00.03.04      Replaced Loading.bmp and DDI_logo.bmp; adjusted ProgressWindow Y position from 450 to 457 in Main {} of the cfg. 
 
-4. Increased TextureUsage from 3145728 to 9567812, MaxDist from 250 to 400, and decreased MinDist from 150 to 50 in Main {} of the cfg. (v0.00.03.05)
+v0.00.03.05      Increased TextureUsage from 3145728 to 9567812, MaxDist from 250 to 400, and decreased MinDist from 150 to 50 in Main {} of the cfg. 
 
-5. Changed PowerCrystalRGB value to 000:120:000 and UnpoweredCrystalRGB to 050:050:050 in Main {} of the cfg. (v0.00.03.06)
+v0.00.03.06      Changed PowerCrystalRGB value to 000:120:000 and UnpoweredCrystalRGB to 050:050:050 in Main {} of the cfg. 
+
+v0.00.03.07      Increased FPClipBlocks from 14 to 16, CameraSpeed from 7.0 to 10.0; decreased CameraAcceleration from 0.4 to 0.3, and MouseScrollIndent from 4 to 3.
