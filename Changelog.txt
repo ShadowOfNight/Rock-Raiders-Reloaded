@@ -5,4 +5,4 @@ build v0.00.00.2 changelog documentation
 
 2. Removed dummy properties DumpFile and DynamiteRadius; removed ShutdownScreen line from Main {} in the cfg, and removed ShutDown.bmp from Languages.  (v0.00.01.3)
 
-
+3. Replaced Loading.bmp and DDI_logo.bmp; adjusted ProgressWindow Y position from 450 to 457 in Main {} of the cfg. (v.0.00.03.4)
