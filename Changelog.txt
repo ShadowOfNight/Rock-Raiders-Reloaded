@@ -17,5 +17,5 @@ v0.00.03.07      Increased FPClipBlocks from 14 to 16, CameraSpeed from 7.0 to 1
 
 v0.00.03.08      Increased DynamiteDamageRadius from 75 to 80, added DynamiteWakeRadius line and set value to 300; changed MissionBriefingText from Mission Brief to Mission Briefing in Main {} of the cfg. Also added DischargeRate 0.0 line to Lazer {} of the WeaponTypes {} section of the cfg [fixes infinite drain rate bug].
 
-
+v0.00.04.09      Removed commented out stuff; deleted ContrastOverlay line in Dialog {} of the cfg. Also removed MenuImageDark line from Menu1 {} of SaveMenu {} in the cfg, and as a result removed SaveLoad_Dark.bmp fron Interface/FrontEnd.
 
