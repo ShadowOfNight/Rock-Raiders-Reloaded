@@ -1,6 +1,8 @@
 Rock Raiders Reloaded 
 changelog documentation
 
+v0.00.00.01      Initial commit with readme; changelog.
+
 v0.00.00.02      Removed DDI AVI, Lego Intro, and LMI Logo lines from Main {} of Lego.cfg. 
 
 v0.00.01.03      Removed dummy properties DumpFile and DynamiteRadius; removed ShutdownScreen line from Main {} in the cfg, and removed ShutDown.bmp from Languages.  
@@ -11,4 +13,9 @@ v0.00.03.05      Increased TextureUsage from 3145728 to 9567812, MaxDist from 25
 
 v0.00.03.06      Changed PowerCrystalRGB value to 000:120:000 and UnpoweredCrystalRGB to 050:050:050 in Main {} of the cfg. 
 
-v0.00.03.07      Increased FPClipBlocks from 14 to 16, CameraSpeed from 7.0 to 10.0; decreased CameraAcceleration from 0.4 to 0.3, and MouseScrollIndent from 4 to 3.
+v0.00.03.07      Increased FPClipBlocks from 14 to 16, CameraSpeed from 7.0 to 10.0; decreased CameraAcceleration from 0.4 to 0.3, and MouseScrollIndent from 4 to 3 in Main {} of the cfg.
+
+v0.00.03.08      Increased DynamiteDamageRadius from 75 to 80, added DynamiteWakeRadius line and set value to 300; changed MissionBriefingText from Mission Brief to Mission Briefing in Main {} of the cfg. Also added DischargeRate 0.0 line to Lazer {} of the WeaponTypes {} section of the cfg [fixes infinite drain rate bug].
+
+
+
