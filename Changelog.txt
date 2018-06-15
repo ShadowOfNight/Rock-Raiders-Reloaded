@@ -16,27 +16,27 @@ v0.00.03.006	Changed PowerCrystalRGB value to 000:120:000 and UnpoweredCrystalRG
 v0.00.03.007	Increased FPClipBlocks from 14 to 16, CameraSpeed from 7.0 to 10.0; decreased CameraAcceleration from 0.4 to 0.3, and MouseScrollIndent from 4 to 3 in Main {} of the cfg.
 
 v0.00.03.008	Increased DynamiteDamageRadius from 75 to 80, added DynamiteWakeRadius line and set value to 300.
-		Changed MissionBriefingText from Mission Brief to Mission Briefing in Main {} of the cfg. 
-		Also added DischargeRate 0.0 line to Lazer {} of the WeaponTypes {} section of the cfg [fixes infinite drain rate bug].
+        		Changed MissionBriefingText from Mission Brief to Mission Briefing in Main {} of the cfg. 
+        		Also added DischargeRate 0.0 line to Lazer {} of the WeaponTypes {} section of the cfg [fixes infinite drain rate bug].
 
 v0.00.04.009	Removed commented out stuff; deleted ContrastOverlay line in Dialog {} of the cfg. 
-		Also removed MenuImageDark line from Menu1 {} of SaveMenu {} in the cfg, and as a result removed SaveLoad_Dark.bmp fron Interface/FrontEnd.
+	           	Also removed MenuImageDark line from Menu1 {} of SaveMenu {} in the cfg, and as a result removed SaveLoad_Dark.bmp fron Interface/FrontEnd.
 
 v0.14.04.009	Replaced MsgPanel_noair.bmp in Interface\AirMeter.
-		Replaced all bmps in Interface\BriefingPanel, Interface\Bubbles, Buttons, CameraControl, HelpWindow, IconPanel, MessagePanel, MessageTabs, RadarPanel, and TopPanel
-		Added default level bmps into Interface\FrontEnd; added LP_Dull.bmp.
-		Replaced LP_Normal.bmp, LP_Glow.bmp, SaveLoad.bmp in Interface\FrontEnd.
-		Replaced Aclosed.bmp in Interface\Pointers.
-		Replaced CrystalSideBar.bmp, CrystalSideBar_Ore.bmp, NoSmallCrystal.bmp in Interface\RightPanel.
+	           	Replaced all bmps in Interface\BriefingPanel, Interface\Bubbles, Buttons, CameraControl, HelpWindow, IconPanel, MessagePanel, MessageTabs, RadarPanel, and TopPanel
+	           	Added default level bmps into Interface\FrontEnd; added LP_Dull.bmp.
+	           	Replaced LP_Normal.bmp, LP_Glow.bmp, SaveLoad.bmp in Interface\FrontEnd.
+	           	Replaced Aclosed.bmp in Interface\Pointers.
+	           	Replaced CrystalSideBar.bmp, CrystalSideBar_Ore.bmp, NoSmallCrystal.bmp in Interface\RightPanel.
 		
 v0.14.07.010	Replaced SMteleport, PSMteleport, and NSMteleport with SmallTeleporter, PSmallTeleporter, and NSmallTeleporter respectively.
-		Relinked bmp paths for images above in TeleportPad line of InterfaceBuildImages {} of the cfg.
+	           	Relinked bmp paths for images above in TeleportPad line of InterfaceBuildImages {} of the cfg.
 		
-v0.01.07.011	Removed commented out Sounds {} property in Reward {} within the cfg.
-		Removed ScrollSpeed and the commented out duplicate Timer lins in Reward {} in the cfg.
-		Changed QuitText from Mission Quit to Mission Aborted in Reward {} in the cfg.
+v0.14.07.011	Removed commented out Sounds {} property in Reward {} within the cfg.
+	            Removed ScrollSpeed and the commented out duplicate Timer lins in Reward {} in the cfg.
+	           	Changed QuitText from Mission Quit to Mission Aborted in Reward {} in the cfg.
 		
-v0.01.08.012	In Menu1 {} under MainMenuFull {}, changed the Item3 text from Training Missions to Bonus Missions.
-		In Menu3 {} under MainMenuFull {}, add CanScroll TRUE line, and changed FullName from Training_Missions to Bonus_Missions.
+v0.14.08.012	In Menu1 {} under MainMenuFull {}, changed the Item3 text from Training Missions to Bonus Missions.
+	           	In Menu3 {} under MainMenuFull {}, add CanScroll TRUE line, and changed FullName from Training_Missions to Bonus_Missions.
 
-v0.01.09.012	Replaced 2x2brick model with higher-quality teal one, removed now-unused stud texture.
+v0.14.09.012	Replaced 2x2brick model with higher-quality teal one, removed now-unused stud texture.
