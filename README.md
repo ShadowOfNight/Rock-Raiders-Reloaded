@@ -9,7 +9,7 @@ Goals include:
 - Properly sorting shared textures and models.
 - Adding new creatures, objects, buildings, vehicles, and levels to the game.
 - Reactivating cut content from the original game.
-- New tutorials to reflect chnges to various gameplay elements.
+- New tutorials to reflect changes to various gameplay elements.
 - New voiceovers (which is very questionable at this time).
 
 If you wish to contribute to the project, please contact me through email, or at my Discord handle shadowknight#1817.

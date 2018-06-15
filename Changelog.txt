@@ -28,3 +28,6 @@ v0.10.04.09      Replaced MsgPanel_noair.bmp in Interface\AirMeter.
                  Replaced LP_Normal.bmp, LP_Glow.bmp, SaveLoad.bmp in Interface\FrontEnd.
                  Replaced Aclosed.bmp in Interface\Pointers.
                  Replaced CrystalSideBar.bmp, CrystalSideBar_Ore.bmp, NoSmallCrystal.bmp in Interface\RightPanel.
+                 
+v0.10.07.10      Replaced SMteleport, PSMteleport, and NSMteleport with SmallTeleporter, PSmallTeleporter, and NSmallTeleporter respectively.
+                 Relinked bmp paths for images above in TeleportPad line of InterfaceBuildImages {} of the cfg.           
