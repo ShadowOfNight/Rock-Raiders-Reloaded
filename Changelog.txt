@@ -34,9 +34,14 @@ v0.14.07.010	Replaced SMteleport, PSMteleport, and NSMteleport with SmallTelepor
 		
 v0.14.07.011	Removed commented out Sounds {} property in Reward {} within the cfg.
 		 Removed ScrollSpeed and the commented out duplicate Timer lins in Reward {} in the cfg.
-		Changed QuitText from Mission Quit to Mission Aborted in Reward {} in the cfg.
+	     Changed QuitText from Mission Quit to Mission Aborted in Reward {} in the cfg.
 		
 v0.14.08.012	In Menu1 {} under MainMenuFull {}, changed the Item3 text from Training Missions to Bonus Missions.
 		In Menu3 {} under MainMenuFull {}, add CanScroll TRUE line, and changed FullName from Training_Missions to Bonus_Missions.
 
 v0.14.09.012	Replaced 2x2brick model with higher-quality teal one, removed now-unused stud texture.
+
+v0.14.09.013    In the PauseMenu {} section under Menu {}, changed Item5 text from Quit to Abort under Menu1 {}. (cfg)
+        In the PauseMenu {} section under Menu {}, changed FullName from Quit? to Abort? and Item2 text from Yes - Quit to Yes - Abort in Menu 3 {}. (cfg)
+        In MainMenuFull {}, changed the word "training" to "bonus" in the Tutorial line of the LevelText {} property. (cfg)
+        
