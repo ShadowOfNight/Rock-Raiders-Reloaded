@@ -43,11 +43,12 @@ v0.00.008
 	Increased DynamiteDamageRadius from 75 to 80.
 	Added DynamiteWakeRadius line and set value to 300.
 	Changed MissionBriefingText from Mission Brief to Mission Briefing. 
-	Added DischargeRate 0.0 line to Lazer {} of the WeaponTypes {} section of the cfg [fixes infinite drain rate bug].
+	Added DischargeRate 0.0 line to Lazer {} of the WeaponTypes {} section [fixes infinite drain rate bug].
 
 v0.00.009
-	Removed commented out stuff; deleted ContrastOverlay line in Dialog {} of the cfg. 
-	Removed MenuImageDark line from Menu1 {} of SaveMenu {} in the cfg. 
+	Removed commented out lines in Dialog.
+	Deleted ContrastOverlay line in Dialog. 
+	Removed MenuImageDark line from Menu1 of SaveMenu. 
 	Removed SaveLoad_Dark.bmp fron Interface/FrontEnd.
 
 v0.01.000
@@ -85,4 +86,9 @@ v0.01.006
 	Removed AutoCenter line in Menu2, Menu3, and Menu4 of MainMenuFull.
 	Removed DisplayTitle line from Menu5 in MainMenuFull.
 
+v0.01.007
+	Removed Ore line from ToolTipIcons.
+	Removed Ore.bmp from Interface\ToolTipIcons.
+	Removed Tdynamite.bmp with Bscarer.bmp in Interface\ToolTipIcons.
+	Changed bmp name in BirdScarer line of ToolTipIcons from Tdynamite.bmp to Bscarer.bmp. 
         
