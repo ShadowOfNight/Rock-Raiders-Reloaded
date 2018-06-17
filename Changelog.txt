@@ -104,3 +104,6 @@ v0.01.009
 	Moved Lava and Rock ProMeshes into their own folders like the Ice ProMesh set.
 	Changed ProMesh links in the cfg.
 	Reorganized Texture section in the cfg.
+
+v0.02.000
+	Replaced Ice, Lava, and Rock biomes in World\WorldTextures with Axel's versions.
