@@ -115,3 +115,8 @@ v0.02.001
 	Removed Canteen line in InterfaceBuildImages.
 	Removed commented out MobileTeleport line in RockFallIn under WeaponTypes.
 	Removed commented out Canteen line in RockFallIn under WeaponTypes.
+
+v0.02.002
+	Removed useless SFX_Radar line in Samples.
+	Removed Radar.wav from Sounds\New_sfx.
+	Changed !SND_RMeat2 line in Samples to use eat2.wav instead of eat3.
