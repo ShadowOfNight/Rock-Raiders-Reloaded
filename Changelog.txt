@@ -120,3 +120,7 @@ v0.02.002
 	Removed useless SFX_Radar line in Samples.
 	Removed Radar.wav from Sounds\New_sfx.
 	Changed !SND_RMeat2 line in Samples to use eat2.wav instead of eat3.
+
+v0.03.000
+	In Creatures\IceMonster, removed high/medium poly references from IceMonster.ae and removed LegoLow section.
+	In Creatures\IceMonster, removed lower poly model and replaced it with high poly version seen in first person mode.
