@@ -107,3 +107,11 @@ v0.01.009
 
 v0.02.000
 	Replaced Ice, Lava, and Rock biomes in World\WorldTextures with Axel's versions.
+
+v0.02.001
+	Restructured Ice, Lava, and Rock Rockfallstyles into their own folders.
+	Changed RockFallStyle file paths in the cfg.
+	Removed commented out MobileTeleport line in InterfaceBuildImages.
+	Removed Canteen line in InterfaceBuildImages.
+	Removed commented out MobileTeleport line in RockFallIn under WeaponTypes.
+	Removed commented out Canteen line in RockFallIn under WeaponTypes.
