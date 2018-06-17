@@ -90,5 +90,12 @@ v0.01.007
 	Removed Ore line from ToolTipIcons.
 	Removed Ore.bmp from Interface\ToolTipIcons.
 	Removed Tdynamite.bmp with Bscarer.bmp in Interface\ToolTipIcons.
-	Changed bmp name in BirdScarer line of ToolTipIcons from Tdynamite.bmp to Bscarer.bmp. 
-        
+	Changed bmp name in BirdScarer line of ToolTipIcons from Tdynamite.bmp to Bscarer.bmp.
+
+v0.01.008
+	Removed IceLevel from the cfg.
+	Removed OLD STUFF and NEW STUFF comments. 
+	Removed the commented out Reward_SFX line in Samples.
+	Removed commented out LegoLow section at the bottom of the cfg.
+	Changed game speed for death and landlside info tabs from SLOW to NORM. 
+	Commented out monster and slug notifications.
