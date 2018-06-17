@@ -99,3 +99,8 @@ v0.01.008
 	Removed commented out LegoLow section at the bottom of the cfg.
 	Changed game speed for death and landlside info tabs from SLOW to NORM. 
 	Commented out monster and slug notifications.
+
+v0.01.009
+	Moved Lava and Rock ProMeshes into their own folders like the Ice ProMesh set.
+	Changed ProMesh links in the cfg.
+	Reorganized Texture section in the cfg.
