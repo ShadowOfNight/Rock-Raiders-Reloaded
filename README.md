@@ -15,6 +15,7 @@ Goals:
 Credits
 --------------
 - Axel (aka Eaol): High quality Ice, Lava, and Rock biome remakes.
+- Cirevam: High-polygon Sonic Blaster model.
 - Jessietail: High-polygon teal building stud model.
 
 

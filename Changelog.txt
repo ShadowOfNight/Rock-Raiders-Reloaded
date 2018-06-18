@@ -160,3 +160,6 @@ v0.06.002
 	Removed Cror_D03.map, Erod_D03.map, and Path_D03.map from DigTuto_03.
 	Removed Cror_M01.map and Erod_M01.map from MoveTuto_01.
 	Removed Cror_M02.map and erod_M02.map from MoveTuto_02.
+
+v0.06.003
+	Replaced BirdScarer in MiscAnims with Cirevam's high-polygon version.

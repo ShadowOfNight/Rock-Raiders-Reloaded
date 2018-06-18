@@ -7,7 +7,7 @@ Lego* {
 	}
 
 	Normal {
-		FILE		BOOM
+		FILE		Stand
 		LWSFILE		TRUE
 		LOOPING		TRUE
 	}
