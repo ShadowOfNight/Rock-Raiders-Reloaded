@@ -170,3 +170,8 @@ v0.06.004
 	Added barrier.bmp into Interface\Priorities. 
 	Fixed G01.npl and G01.nrM to lock camera to correct object in GeoTuto_01.
 	Added missing Teleport Pad reference in G01.txt in GeoTuto_01.
+
+v0.07.000
+	Added Axel's Gold, Ice Rock, Pyrite, and Sand biomes to World\Textures folder.
+	Added Gold, Ice Rock, Pyrite, and Sand biomes to Textures in the cfg.
+	Fixed ProMesh paths (again) for Ice, Lava, and Rock biomes.
