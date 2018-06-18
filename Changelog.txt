@@ -137,3 +137,8 @@ v0.04.000
 v0.05.000
 	In Creatures\LavaMonster, removed high/medium poly references from LavaMonster.ae and removed LegoLow section.
 	In Creatures\LavaMonster, removed lower poly model and replaced it with high poly version seen in first person mode.
+
+v0.06.000
+	In Creatures\Rmonster, removed high/medium poly references from RMonster.ae.
+	In Creatures\Rmonster, removed lower poly model and replaced it with high poly version seen in first person mode.
+
