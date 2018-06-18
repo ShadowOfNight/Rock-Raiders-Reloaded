@@ -142,3 +142,8 @@ v0.06.000
 	In Creatures\Rmonster, removed high/medium poly references from RMonster.ae.
 	In Creatures\Rmonster, removed lower poly model and replaced it with high poly version seen in first person mode.
 
+v0.06.001
+	Reorganized/cleaned up tutorial level entries in the cfg.
+	Added GeoTuto_01 into cfg under Tutorial07 (bumped tutorial 7 and 8 to 8 and 9 respectively).
+	Added menu bmps for GeoTuto_01 into TutorialLevels folder.
+	
