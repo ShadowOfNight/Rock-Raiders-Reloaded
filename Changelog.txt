@@ -215,3 +215,7 @@ v0.09.000
 v0.09.001
 	Added Pyrite and Sand rockfalls to Rockfall folder in MiscObjs.
 	Added Pyrite and Sand rockfalls to RockFallStyles in the cfg (commented out Sand for now due to limit of 4).
+
+v0.09.002
+	Moved RockFall folder in MiscObjs to World.
+	Updated paths in RockFallStyles to reflect folder change.
