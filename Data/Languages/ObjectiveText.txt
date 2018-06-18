@@ -9,11 +9,6 @@ Failure:          The 'Oh dear the person has failed' message.
 Completion:       And this is the congratulatuary stuff.
 CrystalFailure:   What you say when there have been too many crystals stolen on this level
 
-** The only text that will need translating is the text AFTER the words:
-	Objective:
-	Failure:
-	and Completion:
-
 ##############################################
 
 Just a quick note for your convenience...
@@ -62,12 +57,18 @@ Completion:       Excellent work, Cadet! You now know how to construct the most 
 CrystalFailure:   TOO MANY ENERGY CRYSTALS HAVE BEEN STOLEN FOR YOU TO BE ABLE TO COMPLETE THIS MISSION.
 
 [Tutorial07]
+Objective:        Hello again, Cadet. Are you ready to get your hands dirty? Today you'll be learning about geology and how to use the radar.
+Failure:          You have not yet completed the geological tutorial.
+Completion:       Excellent work, Cadet! You now know how to effectively use the radar.
+CrystalFailure:   TOO MANY ENERGY CRYSTALS HAVE BEEN STOLEN FOR YOU TO BE ABLE TO COMPLETE THIS MISSION.
+
+[Tutorial08]
 Objective:        Welcome back, Cadet! Are you ready for your next mission? Today, you will learn about using some of the Rock Raider vehicles.  
 Failure:          You have not yet completed the 'Advanced' digging tutorial.
 Completion:       Congratulations, Cadet! That concludes your final drilling training mission. You are well on the way to becoming a Rock Raider.
 CrystalFailure:   TOO MANY ENERGY CRYSTALS HAVE BEEN STOLEN FOR YOU TO BE ABLE TO COMPLETE THIS MISSION.
 
-[Tutorial08]
+[Tutorial09]
 Objective:        Greetings, Rock Raider! This training mission will teach you how to defend Rock Raider HQ.
 Failure:          You have not yet completed the 'Standard' movement tutorial.
 Completion:       Excellent, Cadet! You've now learned about all of the Rock Raider HQ defenses. Good work!

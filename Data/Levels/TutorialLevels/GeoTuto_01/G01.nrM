@@ -1,123 +1,145 @@
+Top:
 
-
-
-~~~~~~~~~~~~~~~~~~~~~
-~ NERPs Source File
-~~~~~~~~~~~~~~~~~~~~~
-~ Generated 
-~ "Jul 22 1999"
-~~~~~~~~~~~~~~~~~~~~~
-~ Stamp it here:
-"15:26:55":
-~~~~~~~~~~~~~~~~~~~~~
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Bypass everything if objective still showing - will get past this when space pressed
 GetObjectiveSwitch ? SetMessagePermit 0
 GetObjectiveShowing = 1 ? :Skip
 
-
+//Set wait times (sample length multiplier, time added after sample, time for no sample)
 TRUE ? SetMessageTimerValues 1000 1000 10000
 
-
-
-
+//R0 is used as a general counter
 TRUE ? AddR0 1
 
+//Go to the relevant task
 
-TRUE ? SetR6 0
+GetR3 = 0 ? :First
+GetR3 = 1 ? :Intro
+GetR3 = 2 ? :ClickFloor
+GetR3 = 3 ? :ClickBuildPath
+GetR3 = 4 ? :WaitForPath
+GetR3 = 5 ? :ClickBuildIcon
+GetR3 = 6 ? :SelectGeodomeToBuild
+GetR3 = 7 ? :ClickPlace
+TRUE ? SetLevelCompleted
+Stop
 
 
-TRUE ? :end
 
-Wbe:
+/////////////////////////////////////////
+
+First:
+TRUE ? AddPoweredCrystals 15
+TRUE ? AddStoredOre 30
+TRUE ? SetPowerStationLevel 1
+TRUE ? SetTeleportPadLevel 1
+TRUE ? SetToolStoreLevel 1
+TRUE ? DisallowAll
+TRUE ? :Next
+
+Intro:
+TRUE ? SetR4 1
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 2 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? SetTutorialPointer 1 1
+TRUE ? SetTutorialBlockClicks 1 0
+TRUE ? SetCameraGotoTutorial 1
+TRUE ? :Next
+
+ClickFloor:
+TRUE ? SetR4 3
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 1 = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+TRUE ? SetTutorialPointer 1 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashLayPathIcon 1
+TRUE ? SetLayPathIconClicked 0
+TRUE ? :Next
+
+ClickBuildPath:
+TRUE ? SetR4 4
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetLayPathIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+TRUE ? FlashLayPathIcon 0
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? CameraLockOnObject 1
+TRUE ? :Next
+
+WaitForPath:
+TRUE ? SetR4 5
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockIsPath 1 = 0 ? Stop
+GetR5 = 0 ? DisallowAll
+GetR5 = 0 ? SupressArrow 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? CameraUnlock
+TRUE ? FlashBuildIcon 1
+TRUE ? SetBuildIconClicked 0
+TRUE ? :Next
+
+ClickBuildIcon:
+TRUE ? SetR4 6
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetBuildIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+TRUE ? FlashBuildIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? FlashGeodomeIcon 1
+TRUE ? SetGeodomeIconClicked 0
+TRUE ? :Next
+
+SelectGeodomeToBuild:
+TRUE ? SetR4 7
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetGeodomeIconClicked = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+TRUE ? FlashGeodomeIcon 0
+GetR5 < 1 ? :wbe
+TRUE ? SetTutorialPointer 2 1
+TRUE ? SetCameraGotoTutorial 2
+TRUE ? SetTutorialBlockClicks 2 0
+TRUE ? ClickOnlyMap
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+ClickPlace:
+TRUE ? SetR4 8
+TRUE ? AddR4 GetR5
+GetR0 = 1 ? SetMessage GetR4 0
+GetTutorialBlockClicks 2 = 0 ? Stop
+GetR5 = 0 ? AdvanceMessage
+GetR5 = 0 ? SupressArrow 0
+GetR5 = 0 ? DisallowAll
+TRUE ? SetTutorialPointer 2 0
+GetR5 < 2 ? :wbe
+TRUE ? SupressArrow 1
+TRUE ? :Next
+
+/////////////////////////////////////////
+
+// THESE ARE HANDY CALL BITS
+
+wbe:
 GetMessageTimer > 0 ? Stop
 TRUE ? SetTimer0 0
 TRUE ? SetR0 0
@@ -128,14 +150,9 @@ Skip:
 TRUE ? SetTutorialFlags 4095
 TRUE ? SetMessagePermit 1
 TRUE ? SetTimer0 0
-TRUE ? SetTimer1 0
-TRUE ? SetTimer2 0
 TRUE ? SetR0 0
-TRUE ? SetR1 0	
 TRUE ? SetR5 0
-FALSE ? SetR3 0
-TRUE ? SetR7 1
-TRUE ? CameraUnlock
+TRUE ? SetR3 0
 Stop
 
 Next:
@@ -143,7 +160,6 @@ TRUE ? AddR3 1
 Clear:
 TRUE ? SetR0 0
 TRUE ? SetTimer0 0
-TRUE ? AddR7 GetR5
 TRUE ? SetR5 0
 Stop
 
@@ -153,108 +169,4 @@ Stop
 Complete:
 GetMessageTimer > 0 ? Stop 
 TRUE ? SetLevelCompleted
-Stop
-
-
 end:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-__MainFunc:
-{
-	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :AddCrystals/ AddCrystals: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
-	{
-		TRUE ? SetTutorialFlags 0
-		TRUE ? AddPoweredCrystals 15
-		TRUE ? AddStoredOre 15
-	}
-	TRUE ? :Next AddCrystals/:
-
-	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :Intro/ Intro: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
-	{
-		GetR5 < 2 ? :wbe
-		TRUE ? SetTutorialPointer 1 1
-		TRUE ? SetCameraGotoTutorial 1
-	}
-	TRUE ? :Next Intro/:
-
-	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :ClickFloor/ ClickFloor: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
-	{
-		GetTutorialBlockClicks 1 = 0 ? Stop
-		TRUE ? SetTutorialPointer 1 0
-		GetR5 < 1 ? :wbe
-		TRUE ? FlashLayPathIcon 1
-	}
-	TRUE ? :Next ClickFloor/:
-
-	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :ClickBuildPath/ ClickBuildPath: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
-	{
-		GetLayPathIconClicked = 0 ? Stop
-		TRUE ? FlashLayPathIcon 0
-		GetR5 < 1 ? :wbe
-		TRUE ? CameraLockOnObject 3
-	}
-	TRUE ? :Next ClickBuildPath/:
-
-	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :WaitForPath/ WaitForPath: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
-	{
-		GetTutorialBlockIsPath 1 = 0 ? Stop
-		TRUE ? CameraUnlock
-		GetR5 < 1 ? :wbe
-		TRUE ? FlashBuildIcon 1
-	}
-	TRUE ? :Next WaitForPath/:
-
-	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :ClickBuild/ ClickBuild: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
-	{
-		GetBuildIconClicked = 0 ? Stop
-		TRUE ? FlashBuildIcon 0
-		GetR5 < 1 ? :wbe
-		TRUE ? FlashGeodomeIcon 1
-	}
-	TRUE ? :Next ClickBuild/:
-
-	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :ClickGeodomeIcon/ ClickGeodomeIcon: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
-	{
-		GetGeodomeIconClicked = 0 ? Stop
-		TRUE ? FlashGeodomeIcon 0
-		GetR5 < 1 ? :wbe
-		TRUE ? SetTutorialPointer 2 1
-		TRUE ? SetCameraGotoTutorial 2
-	}
-	TRUE ? :Next ClickGeodomeIcon/:
-
-	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :ClickForDome/ ClickForDome: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
-	{
-		GetTutorialBlockClicks 2 = 0 ? Stop
-		TRUE ? SetTutorialPointer 2 0
-		GetR5 < 1 ? :wbe
-		TRUE ? CameraLockOnObject 3
-	}
-	TRUE ? :Next ClickForDome/:
-
-	TRUE ? AddR6 1 TRUE ? SetR2 1 TRUE ? AddR2 GetR3 GetR2 != GetR6 ? :WaitForDome/ WaitForDome: TRUE ? SetR4 GetR7 TRUE ? AddR4 GetR5 GetR0 = 1 ? SetMessage GetR4 0
-	{
-		GetGeodomeBuilt = 0 ? Stop
-		TRUE ? CameraUnlock
-		GetR5 < 1 ? :wbe
-	}
-	TRUE ? :Next WaitForDome/:
-}
-TRUE ? :Complete

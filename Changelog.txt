@@ -146,4 +146,17 @@ v0.06.001
 	Reorganized/cleaned up tutorial level entries in the cfg.
 	Added GeoTuto_01 into cfg under Tutorial07 (bumped tutorial 7 and 8 to 8 and 9 respectively).
 	Added menu bmps for GeoTuto_01 into TutorialLevels folder.
-	
+
+v0.06.002
+	Updated ObjectiveText.txt in Languages per changes from v0.06.001.
+	Replaced G01.npl, G01.nrM, and G01.txt in GeoTuto_01 with updated versions.
+	Removed old G01.nrn in GeoTuto_01.
+	Removed Erod_G01.map and Path_G01.map from GeoTuto_01.
+	Removed Erod_B01.map and Path_B01.map from BuildTuto_01.
+	Removed Erod_B02.map from BuildTuto_02.
+	Removed Cror_DE1.map and Erod_DE1.map from DefenceTuto_01.
+	Removed Cror_D01.map, Erod_D01.map, Path_D01.map from DigTuto_01.
+	Removed Cror_D02.map and Erod_D02.map from DigTuto_02.
+	Removed Cror_D03.map, Erod_D03.map, and Path_D03.map from DigTuto_03.
+	Removed Cror_M01.map and Erod_M01.map from MoveTuto_01.
+	Removed Cror_M02.map and erod_M02.map from MoveTuto_02.
