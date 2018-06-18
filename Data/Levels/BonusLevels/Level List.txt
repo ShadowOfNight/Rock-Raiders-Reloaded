@@ -1,0 +1,10 @@
+Bonus09 = Bolt Molt! v1.0 by Cyrem 		       	[cleared for usage; config done] 
+Bonus11 = The River by alan    			      	[cleared for usage; config done]
+Bonus17 = Hard Luck by JimbobJeffers			[emrg map needs to be redone; config done]
+Bonus24 = Bad Conditions v1.05 by alan			[cleared for usage; config done]
+Bonus26 = Crystal Catastrophe by JimbobJeffers	[surf?, emrg maps need fixing; config done]
+Bonus32 = Lets Go Swimming! v1.02 by alan		[cleared for usage; config done]
+
+
+Finished maps: Bolt Molt, The River, Bad Conditions, Let's Go Swimming = 4
+Maps that need editing: Hard Luck, Crystal Catastrophe = 2

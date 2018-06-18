@@ -1,0 +1,9 @@
+GetCrystalsCurrentlyStored > 89 ? SetLevelCompleted
+
+GetOxygenLevel < 1 ? SetLevelFail
+
+GetBuildingsTeleported  = 0 ? AddR2 1
+
+GetMinifiguresOnLevel  = 0 ? AddR2 1
+
+GetR2 = 2 ? SetLevelFail

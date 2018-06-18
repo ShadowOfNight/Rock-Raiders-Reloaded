@@ -124,3 +124,12 @@ v0.02.002
 v0.03.000
 	In Creatures\IceMonster, removed high/medium poly references from IceMonster.ae and removed LegoLow section.
 	In Creatures\IceMonster, removed lower poly model and replaced it with high poly version seen in first person mode.
+
+v0.04.000
+	Added BonusLevels folder.
+	Added Bolt Molt!, The River, Hard Luck, Bad Conditions, Crystal Catastrophe, and Let's Go Swimming! into Bonus Levels folder.
+	Removed all tutorials from Bonus Mission tree.
+	Added said bonus maps above into the cfg.
+	Removed one set of tutorial references from ObjectiveText.txt in Languages.
+	Added said bonus maps above into ObjectiveText.txt in Languages.
+	Changed level reference from MoveTuto_01 to Bonu09 in the TutorialStartLevel line in the cfg. 

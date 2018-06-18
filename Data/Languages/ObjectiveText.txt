@@ -22,70 +22,7 @@ Just a quick note for your convenience...
    ignored so just comment away!!!
 
 ##############################################
-
-#####################################
-These are the digging tutorial levels
-#####################################
-
-[DigTuto_01]
-Objective:        Welcome back, Cadet. It's time for you to learn more about the caverns you'll be working in, and how to drill through different types of rock walls. Today's lesson will involve you giving more basic commands to your Rock Raiders.
-Failure:          You have not yet completed the 'Basic' digging tutorial.
-Completion:       Well done, Cadet! You have shown a good grasp of basic drilling techniques, and you know about most types of rock.
-CrystalFailure:   TOO MANY ENERGY CRYSTALS HAVE BEEN STOLEN FOR YOU TO BE ABLE TO COMPLETE THIS MISSION.
-
-[DigTuto_02]
-Objective:        Hello again, Cadet. This mission requires a delicate hand because today we are going to learn about Dynamite! We use Dynamite as an alternative way of mining when we don't have vehicles available to do the drilling.
-Failure:          You have not yet completed the 'Standard' digging tutorial.
-Completion:       Congratulations, Cadet. You have now completed this training mission. Oh, one more thing, take care with the Dynamite! 
-CrystalFailure:   TOO MANY ENERGY CRYSTALS HAVE BEEN STOLEN FOR YOU TO BE ABLE TO COMPLETE THIS MISSION.
-
-[DigTuto_03]
-Objective:        Welcome back, Cadet! Are you ready for your next mission? Today, you will learn about using some of the Rock Raider vehicles.  
-Failure:          You have not yet completed the 'Advanced' digging tutorial.
-Completion:       Congratulations, Cadet! That concludes your final drilling training mission. You are well on the way to becoming a Rock Raider.
-CrystalFailure:   TOO MANY ENERGY CRYSTALS HAVE BEEN STOLEN FOR YOU TO BE ABLE TO COMPLETE THIS MISSION.
-
-######################################
-These are the building tutorial levels
-#####################################
-
-[BuildTuto_01]
-Objective:        Hello, Cadet. Today we will be looking at the basics of building a base. A well-built base is needed to ensure our mining operations run smoothly, so please pay close attention.
-Failure:          You have not yet completed the 'Basic' building tutorial.
-Completion:       Well done, Cadet! You have shown a good grasp of the basic skills required for constructing a Rock Raider HQ.
-CrystalFailure:   TOO MANY ENERGY CRYSTALS HAVE BEEN STOLEN FOR YOU TO BE ABLE TO COMPLETE THIS MISSION.
-
-[BuildTuto_02]
-Objective:        Welcome, Cadet! This training mission will teach you how to build the more advanced Rock Raider buildings.
-Failure:          You have not yet completed the 'Intermediate' building tutorial.
-Completion:       Excellent work, Cadet! You now know how to construct the most advanced buildings.
-CrystalFailure:   TOO MANY ENERGY CRYSTALS HAVE BEEN STOLEN FOR YOU TO BE ABLE TO COMPLETE THIS MISSION.
-
-######################################
-These are the building tutorial levels
-#####################################
-
-[MoveTuto_01]
-Objective:        Hello, Rock Raider Cadet, and welcome to the Rock Raider Academy. As this is your first day of training, we will start with the basics. This training mission will introduce you to some of the controls on your personal command interface.\aWe'll teach you how to command Rock Raiders to move about in the caves below the planet's surface. Good luck, Rock Raider, we're expecting the best from you.
-Failure:          You have not yet completed the 'Basic' movement tutorial.
-Completion:       Congratulations, Cadet! You have now mastered the basic controls on your command console and shown a good understanding of how to give basic commands to Rock Raiders. 
-CrystalFailure:   TOO MANY ENERGY CRYSTALS HAVE BEEN STOLEN FOR YOU TO BE ABLE TO COMPLETE THIS MISSION.
-
-[MoveTuto_02]
-Objective:        Welcome back, Cadet! The Academy feels that you are displaying real promise, so it's time to let you loose on some of the Rock Raider vehicles.
-Failure:          You have not yet completed the 'Standard' movement tutorial.
-Completion:       Congratulations, Cadet! Now you know some more advanced ways of getting about. Well done. 
-CrystalFailure:   TOO MANY ENERGY CRYSTALS HAVE BEEN STOLEN FOR YOU TO BE ABLE TO COMPLETE THIS MISSION.
-
-[DefenceTuto_01]
-Objective:        Greetings, Rock Raider! This training mission will teach you how to defend Rock Raider HQ.
-Failure:          You have not yet completed the 'Standard' movement tutorial.
-Completion:       Excellent, Cadet! You've now learned about all of the Rock Raider HQ defenses. Good work!
-CrystalFailure:   TOO MANY ENERGY CRYSTALS HAVE BEEN STOLEN FOR YOU TO BE ABLE TO COMPLETE THIS MISSION.
-
-
-######################################
-These are the New levels
+These are for the tutorial levels
 ######################################
 
 [Tutorial01]
@@ -136,28 +73,27 @@ Failure:          You have not yet completed the 'Standard' movement tutorial.
 Completion:       Excellent, Cadet! You've now learned about all of the Rock Raider HQ defenses. Good work!
 CrystalFailure:   TOO MANY ENERGY CRYSTALS HAVE BEEN STOLEN FOR YOU TO BE ABLE TO COMPLETE THIS MISSION.
 
-
-
-
-
+##############################################
+These are for the game levels
+##############################################
 
 [Level01]
-Objective:		The transporter aboard the L.M.S. Explorer has been slightly damaged, due to low power, and is not working properly. A team of Rock Raiders has been teleported into the wrong cavern and they need to find their way back to the Tool Store.\aDrill through the cavern walls, and once you have found it, start our mining operation by collecting five Energy Crystals.
-Failure:			Bad luck! You failed to find the Tool Store and retrieve five Energy Crystals. Mission failed.
-Completion:			Well done! You got all five Energy Crystals. Mission complete.
-CrystalFailure:		Too many Energy Crystals have been stolen for you to be able to complete this mission.
+Objective:	The transporter aboard the L.M.S. Explorer has been slightly damaged, due to low power, and is not working properly. A team of Rock Raiders has been teleported into the wrong cavern and they need to find their way back to the Tool Store.\aDrill through the cavern walls, and once you have found it, start our mining operation by collecting five Energy Crystals.
+Failure:	Bad luck! You failed to find the Tool Store and retrieve five Energy Crystals. Mission failed.
+Completion:	Well done! You got all five Energy Crystals. Mission complete.
+CrystalFailure:	Too many Energy Crystals have been stolen for you to be able to complete this mission.
 
 [Level02]
-Objective:		A new cavern has been found, so we must begin to build Rock Raider HQ! Unfortunately, recent earthquakes in this area have made the cavern walls very dangerous. Secure the area by reinforcing the cavern walls to prevent cave-ins.\aOnce this has been done, continue with the mining operation and collect five more Energy Crystals.
-Failure:			You did not collect five Energy Crystals. Mission failed.
-Completion:			Good going! You managed to collect all five Energy Crystals. Mission complete.
-CrystalFailure:		Too many Energy Crystals have been stolen for you to be able to complete this mission.
+Objective:	A new cavern has been found, so we must begin to build Rock Raider HQ! Unfortunately, recent earthquakes in this area have made the cavern walls very dangerous. Secure the area by reinforcing the cavern walls to prevent cave-ins.\aOnce this has been done, continue with the mining operation and collect five more Energy Crystals.
+Failure:	You did not collect five Energy Crystals. Mission failed.
+Completion:	Good going! You managed to collect all five Energy Crystals. Mission complete.
+CrystalFailure:	Too many Energy Crystals have been stolen for you to be able to complete this mission.
 
 [Level03]
-Objective:		A new cavern has been found but the area is very unstable! The cavern floor is covered with fallen rocks and boulders. We must establish Rock Raider HQ and begin our mining operation, but first we must reinforce the walls and clear the debris from the floor.\aOnce the cavern is secure, continue our mining operation by collecting five Energy Crystals.
-Failure:			Mission failed. You did not collect five Energy Crystals. Try again.
-Completion:			The cavern was secured and all five Energy Crystals were collected. Good work! Mission complete.
-CrystalFailure:		Too many Energy Crystals have been stolen for you to be able to complete this mission.
+Objective:	A new cavern has been found but the area is very unstable! The cavern floor is covered with fallen rocks and boulders. We must establish Rock Raider HQ and begin our mining operation, but first we must reinforce the walls and clear the debris from the floor.\aOnce the cavern is secure, continue our mining operation by collecting five Energy Crystals.
+Failure:	Mission failed. You did not collect five Energy Crystals. Try again.
+Completion:	The cavern was secured and all five Energy Crystals were collected. Good work! Mission complete.
+CrystalFailure:	Too many Energy Crystals have been stolen for you to be able to complete this mission.
 
 [Level04]
 Objective:		OK, Rock Raider - this is a tough mission. The air in the excavated caverns is being quickly used up.  We must urgently construct a Support Station to supply more air.  Use the Tool Store to transport down some more Rock Raiders to assist you in building the Support Station.\aWarning: The more Rock Raiders you transport down to help, the faster your air supply will run out!
@@ -291,3 +227,43 @@ Objective:		This is it, Rock Raider. This is what it's all been building up to! 
 Failure:			So near and yet so far! We really needed fifty Energy Crystals so that we can get home. You must succeed. Have another go. Mission failed.
 Completion:			Your efforts have been outstanding! You've collected enough Energy Crystals to get the Rock Raiders team back home. You're amazing! Mission complete.
 CrystalFailure:		Too many Energy Crystals have been stolen for you to be able to complete this mission.
+
+##############################################
+These are for the bonus levels
+##############################################
+
+[Bonus09]
+Objective:	Rock Raiders were drilling close to a lava lake when a sudden underground volcanic eruption occured! The lava has risen causing the lake to overflow. We need to evacuate, but first we need to collect at least 12 crystals before we can get out of this area.\aYou will need to hold off the lava for as long as possible. Good luck and be safe Rock Raider!
+Failure:	Oh dear! You did not collect enough crystals in time. Mission Failure!
+Completion:	Wow! That was a close one. You found the crystals and got out of there in time. Mission Success!
+CrystalFailure:	Too many Energy Crystals have been stolen for you to be able to complete this mission.
+
+[Bonus11]
+Objective:	You arrive in a small cave not far from the surface. It is not clear what will happen here. The scanners show large differences in temperature, so be careful of what you do!\aWe need to collect 20 Energy Crystals. If you can do it, you'll get a free drink on the L.M.S. Explorer when you come back. - Enjoy this nice little level, Rock Raiders United User
+Failure:	Well, you weren't able to get all the required Energy Crystals. Try again, I bet you'll do it next time
+Completion:	You managed to find 20 crystals in this easy cave. Thats no hard work but congratulations though! - What do you wish to drink? \aI hope you enjoyed the map. made by alan
+CrystalFailure:	Schade, es wurden zu viele Energiekristalle gestohlen. Wie kannst du eigentlich diesen Text lesen, es gibt keine Monster in dem Level. \aDu hast nur die Textdatei geöffnet!!
+
+[Bonus17]
+Objective:	This is going to be a tricky mission, Rock Raider. Scanners aboard the LMS Explorer have detected Energy Crystals around this cavern, but unfortunately the area isn't particularly level, and surrounded by water!\aEstablish Rock Raider HQ and build a Cargo Carrier. Then, transport a Small Digger across the river and find a location to rebuild the HQ, so that you can finally collect 75 Energy Crystals. Good luck, Rock Raider!
+Failure:	You did not manage to master this mountain of a level. Hard luck, Rock Raider!
+Completion:	Well done, you successfully built Rock Raiders HQ and got your team across the river, collecting all 75 Energy Crystals. Mission complete!
+CrystalFailure:	You weren't able to secure all of the Energy Crystals. Mission failed.
+
+[Bonus24]
+Objective:	Greetings, Rock Raider. Another mission is waiting for you: We have discovered a huge cave near a magma reservoir. But you shouldn't worry about that, our scanners show that there is enough oxygen and that there is not enough lava flowing into the cave to flood it. But there are still some problems here: \aWe need 110 Energy Crystals. To reach all of them you will have to drill through thick layers of cooled lava. It is advisable to use larger vehicles or you might stay down there a long time. Good luck, Rock Raider!
+Failure:	You didn't find the required 110 Energy Crystals; maybe you should use the Chrome Crusher! Mission failed.
+Completion:	Congratulations, Rock Raider! Even though there were a lot of crystals to collect and even more walls to drill, you got them all. Mission success!
+CrystalFailure:	Oh dear! How did you manage to lose so many Energy Crystals? We need those for our spaceship. Don't waste them, Rock Raider! Try again.
+
+[Bonus26]
+Objective:	Welcome, Rock Raider! This mission has two objectives, but first, let me explain the situation. A huge deposit of Energy Crystals was recently detected nearby, and a team of Rock Raiders was sent to find it. However, communication was lost and we have no idea what has happened - \atherefore your primary objective is to find the lost team of Rock Raiders, and your secondary objective is to locate the Energy Crystal seams and collect one hundred Energy Crystals! Good luck, Rock Raider.\aOh, before I forget - our scanners have also picked up-*bzzzt*
+Failure:	Oh dear, you failed the mission. Bad luck, cadet.
+Completion:	Congratulations, you found all the Rock Raiders and collected all 100 Energy Crystals, whilst avoiding the Rock Monsters. Mission complete!
+CrystalFailure:	You weren't able to find the Energy Crystal deposits! Mission failed.
+
+[Bonus32]
+Objective:	Okay, Rock Raider. Ready for a new one? Your Rock Raiders team was mining for Energy Crystals in a cave near a large lake, when a malfunction of the teleporter caused the buildings to teleport out except the Docks. \aYou will need to get the team back to the second HQ further away from the water where a Tool Store is still left. The scanners show that there are many crystals around the water, but where exactly is unknown. However, once you have found the Tool Store, collect 90 Energy Crystals so we can repair\athat teleporter.
+Failure:	You should not be swimming in the water! You were supposed to collect 90 Energy Crystals. Don't follow the level name word by word. Mission failed!
+Completion:	Success! You have collected enough Energy Crystals to repair the teleporter and to provide it with power. Weiter so! (that was German)
+CrystalFailure:	??? Did you activate the debug keys to let the Rock Monsters escape from their quarantine?
