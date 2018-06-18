@@ -14,11 +14,16 @@ Goals:
 
 Credits
 --------------
-- Axel (aka Eaol): High quality Ice, Lava, and Rock biome remakes. New Gold, Ice Rock, Pyrite, and Sand biomes.
+-- Axel (aka Eaol): 
+- High quality Ice, Lava, and Rock biome remakes. 
+- New Gold, Ice Rock, Pyrite, and Sand biomes.
 
-- Cirevam: High-polygon Sonic Blaster model.
+-- Cirevam: 
+- High-polygon sonic blaster model.
+- High-polygon energy crystal model.
 
-- Jessietail: High-polygon teal building stud model.
+-- Jessietail: 
+- High-polygon teal building stud model.
 
 
 Changelog

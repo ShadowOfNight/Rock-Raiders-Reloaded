@@ -183,3 +183,12 @@ v0.08.000
 	Added Crumble activity to Scorpion.ae.
 	Uncommented Scorpion lines in ObjectNames, ObjectTheNames, RockMonsterTypes, and Stats.
 	Completely redid all stats for Scorpion in the cfg.
+
+v0.08.001
+	Replaced energy crystal model in MiscAnims\Crystal with Cirevam's high-polygon version. 
+	Renamed energy crystal model from VLP_Greencrystal.lwo to Crystal.lwo.
+	Changed MiscAnims path for energy crystal model to reflect name change.
+	Organized MiscObjects into LWO, LWS, and AE based categories.
+	Changed MiscAnims folder name to MiscObjs to better fit cfg property name.
+	Edited MiscObjects and RockfallStyle links per folder name change.
+	Changed Brick folder name in MiscObjs to ProcessedOre.
