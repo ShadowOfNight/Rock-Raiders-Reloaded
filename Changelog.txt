@@ -192,3 +192,13 @@ v0.08.001
 	Changed MiscAnims folder name to MiscObjs to better fit cfg property name.
 	Edited MiscObjects and RockfallStyle links per folder name change.
 	Changed Brick folder name in MiscObjs to ProcessedOre.
+
+v0.08.002
+	Reorganized entire Stats section in the cfg.
+	Changed many of the Pilot stat values.
+	Completely overhauled stats for all creatures.
+	Made various changes to all vehicle stats.
+	Changed some building stats around.
+	Corrected Encyclopedia spelling errors in Ecyclopedia property.
+	Added upgrade information to Pilot lines in HelpWindowInfo.
+	Updated building and vehicle lines in HelpWindowInfo to reflect stat changes.
