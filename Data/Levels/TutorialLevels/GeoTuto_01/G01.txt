@@ -1,5 +1,5 @@
 This training mission will teach you about the Geological Center and how to use the radar to see what is hidden behind the cavern walls. #one#
-In order to construct a Geological Center, you'll need a Level 1 Tool Store, a level 1 Power Station, and a Support Station. We have already supplied you with these so let's get started. #two#
+In order to construct a Geological Center, you'll need a Level 1 Tool Store, a Level 1 Teleport Pad, a level 1 Power Station, and a Support Station. We have already supplied you with these so let's get started. #two#
 The first thing you must do is build a Power Path so we can power our Geological Center. Click on the ground near the arrow. #three#
 Now click on the flashing "Build Power Path" icon. #four#
 Your Rock Raider will carry over the ore needed to the ground on which we want to build the Power Path. #five#

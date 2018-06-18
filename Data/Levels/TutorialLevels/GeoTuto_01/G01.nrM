@@ -73,7 +73,7 @@ GetR5 = 0 ? SupressArrow 0
 GetR5 = 0 ? DisallowAll
 GetR5 < 1 ? :wbe
 TRUE ? SupressArrow 1
-TRUE ? CameraLockOnObject 1
+TRUE ? CameraLockOnObject 3
 TRUE ? :Next
 
 WaitForPath:

@@ -163,3 +163,10 @@ v0.06.002
 
 v0.06.003
 	Replaced BirdScarer in MiscAnims with Cirevam's high-polygon version.
+
+v0.06.004
+	Removed AI_Priority_Train, AI_Priority_Construction, and AI_Priority_GetTool from the cfg.
+	Added AI_Priority_Barrier and AI_Priority_BuildPath into PriorityImages.
+	Added barrier.bmp into Interface\Priorities. 
+	Fixed G01.npl and G01.nrM to lock camera to correct object in GeoTuto_01.
+	Added missing Teleport Pad reference in G01.txt in GeoTuto_01.
