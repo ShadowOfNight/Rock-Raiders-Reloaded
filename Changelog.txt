@@ -202,3 +202,8 @@ v0.08.002
 	Corrected Encyclopedia spelling errors in Ecyclopedia property.
 	Added upgrade information to Pilot lines in HelpWindowInfo.
 	Updated building and vehicle lines in HelpWindowInfo to reflect stat changes.
+
+v0.08.003
+	Fixed text missing from PilotL1 line in HelpWindowInfo.
+	Reworked entire Dependencies section in the cfg.
+	Reordered BuildingTypes (changes order of appearance in build menu).
