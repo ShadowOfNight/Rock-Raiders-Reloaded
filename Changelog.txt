@@ -133,3 +133,7 @@ v0.04.000
 	Removed one set of tutorial references from ObjectiveText.txt in Languages.
 	Added said bonus maps above into ObjectiveText.txt in Languages.
 	Changed level reference from MoveTuto_01 to Bonu09 in the TutorialStartLevel line in the cfg. 
+
+v0.05.000
+	In Creatures\LavaMonster, removed high/medium poly references from LavaMonster.ae and removed LegoLow section.
+	In Creatures\LavaMonster, removed lower poly model and replaced it with high poly version seen in first person mode.
