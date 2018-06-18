@@ -175,3 +175,11 @@ v0.07.000
 	Added Axel's Gold, Ice Rock, Pyrite, and Sand biomes to World\Textures folder.
 	Added Gold, Ice Rock, Pyrite, and Sand biomes to Textures in the cfg.
 	Fixed ProMesh paths (again) for Ice, Lava, and Rock biomes.
+
+v0.08.000
+	Added Scorpion into Creatures.
+	Removed A000_swalk000-003.bmp, SP_ScorpStand.lwo/.lws, and SP_ScorpWalk.lwo/.lws from Creatures\Scorpion.
+	Temporarily added smokefx.lws into Creatures\Scorpion for death animation.
+	Added Crumble activity to Scorpion.ae.
+	Uncommented Scorpion lines in ObjectNames, ObjectTheNames, RockMonsterTypes, and Stats.
+	Completely redid all stats for Scorpion in the cfg.

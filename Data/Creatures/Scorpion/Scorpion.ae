@@ -1,0 +1,29 @@
+
+Lego* {
+
+	Scale				1.0
+
+	Activities {
+		Activity_Stand					Stand
+		Activity_Route					Walk
+		Activity_Crumble				Crumble
+	}
+
+	Walk {
+		FILE		HP_Scorpwalk
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+
+	Stand {
+		FILE		HP_Scorpstand
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+        }
+
+        Crumble {
+		FILE		smokefx
+		TRANSCOEF	0.0
+		LWSFILE	TRUE
+	}
+}
