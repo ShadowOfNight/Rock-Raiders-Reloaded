@@ -1,0 +1,544 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 100
+FrameStep 1
+PreviewFirstFrame 1
+PreviewLastFrame 100
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\headnojaw.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 29.7 -2.949999 -2.4 18.8 0 1 1 1
+  0 0 0 0 0
+  0 29.7 -2.949999 -2.4 18.8 0 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\body.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  16
+  0 0 0 -4.299999 -71.4 0 1 1 1
+  0 0 0 0 0
+  0 0 0 -0.499998 -63.19997 0 1 1 1
+  30 1 0 0 0
+  0 0 0 -0.9399981 -64.67999 3.200016 1 1 1
+  32 0 0 0 0
+  0 0 0 -1.399998 -66.15997 -1.79999 1 1 1
+  36 0 0 0 0
+  0 0 0 -1.879998 -67.75999 2.600013 1 1 1
+  38 0 0 0 0
+  0 0 0 -2.579999 -69.27999 -1.200001 1 1 1
+  42 0 0 0 0
+  0 0 0 -3.379998 -70.35997 2.200012 1 1 1
+  44 0 0 0 0
+  0 0 0 -4.299999 -71.4 0 1 1 1
+  48 0 0 0 0
+  0 0 0 -0.5199988 -63.40001 0 1 1 1
+  78 1 0 0 0
+  0 0 0 -0.9399981 -64.67999 3.200016 1 1 1
+  80 0 0 0 0
+  0 0 0 -1.399998 -66.15997 -1.79999 1 1 1
+  84 0 0 0 0
+  0 0 0 -1.879998 -67.75999 2.600013 1 1 1
+  86 0 0 0 0
+  0 0 0 -2.579999 -69.27999 -1.200001 1 1 1
+  90 0 0 0 0
+  0 0 0 -3.379998 -70.35997 2.200012 1 1 1
+  92 0 0 0 0
+  0 0 0 -4.299999 -71.4 0 1 1 1
+  96 0 0 0 0
+  0 0 0 -4.299999 -71.4 0 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+ParentObject 3
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\lowbod.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 -4.9 -35.50002 0 1 1 1
+  0 0 0 0 0
+  0 0 0 -4.9 -35.50002 0 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+ParentObject 16
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\shl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  21.2 46.5 -8.25 91.49998 -5.1 28.8 1 1 1
+  0 0 0 0 0
+  21.2 46.5 -8.25 91.49998 -5.1 28.8 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\arml.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  1 -37.75 2.75 0 82.39999 0 1 1 1
+  0 0 0 0 0
+  1 -37.75 2.75 0 82.39999 0 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+LockedChannels 325
+ParentObject 4
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\handl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -0.299999 -28.75 0 -58.6 3.5 0 1 1 1
+  0 0 0 0 0
+  -0.299999 -28.75 0 -58.6 3.5 0 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 5
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\shr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -29.45 38 -6 -53.8 -15.9 -2.700001 1 1 1
+  0 0 0 0 0
+  -29.45 38 -6 -53.8 -15.9 -2.700001 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\armr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -1 -33 2 33.4 136.4 6.320002 1 1 1
+  0 0 0 0 0
+  -1 -33 2 33.4 136.4 6.320002 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 7
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\handr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 -25.75 0 80.90001 -7.099999 0 1 1 1
+  0 0 0 0 0
+  0 -25.75 0 80.90001 -7.099999 0 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 8
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\thighr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  -13.6 -13.45 0 -3.443194 101.4205 -1.685119 1 1 1
+  0 0 0 0 0
+  -13.6 -13.45 0 -3.443194 101.4205 -1.685119 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+ParentObject 16
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\legr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 -25.5 0 -11.6 -114.7239 7.699997 1 1 1
+  0 0 0 0 0
+  0 -25.5 0 -11.6 -114.7239 7.699997 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+ParentObject 10
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\footr.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 -26.1 0 -0.9 12.99999 0 1 1 1
+  0 0 0 0 0
+  0 -26.1 0 -0.9 12.99999 0 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 11
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\thighl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  13.6 -13.45 0 -3.099997 101 -3.2 1 1 1
+  0 0 0 0 0
+  13.6 -13.45 0 -3.099997 101 -3.2 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+ParentObject 16
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\legl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 -25.5 0 -6.2 -108.9218 4.2 1 1 1
+  0 0 0 0 0
+  0 -25.5 0 -6.2 -108.9218 4.2 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+ParentObject 13
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\footl.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 -25.6 0 -0.8 6.629168 0 1 1 1
+  0 0 0 0 0
+  0 -25.6 0 -0.8 6.629168 0 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 14
+ShadowOptions 7
+
+AddNullObject Main null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 43.94999 19.5 0 0 0 1 1 1
+  0 0 0 0 0
+  0 43.94999 19.5 0 0 0 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 18
+ShadowOptions 7
+
+LoadObject Z:\lego\Data\Creatures\IceMonster\JAW.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 1 -14 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1 -14 0 0 0 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 180 0 0 0.2 0.2 0.2
+  0 0 0 0 0
+  0 0 0 180 0 0 0.2 0.2 0.2
+  100 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject World\Shared\Z.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  -0.75 10 0 0 0 0 0.36 0.36 0.36
+  0 1 0 0 0
+  -0.5 16.25 0 30 0 0 0.36 0.36 0.36
+  10 1 0 0 0
+  13 31 0 180 0 0 1 1 1
+  50 1 0 0 0
+  -0.75 10 0 0 0 0 0.36 0.36 0.36
+  52 1 0 0 0
+  -0.75 10 0 0 0 0 0.36 0.36 0.36
+  100 1 0 0 0
+EndBehavior 1
+LockedChannels 48
+ObjDissolve (envelope)
+  1
+  7
+  1
+  0 1 0 0 0
+  0
+  10 1 0 0 0
+  0
+  40 1 0 0 0
+  0.05
+  42 1 0 0 0
+  0.95
+  48 1 0 0 0
+  1
+  50 1 0 0 0
+  1
+  100 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject World\Shared\Z.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  -0.75 10 0 0 0 0 0.36 0.36 0.36
+  0 1 0 0 0
+  -0.75 10 0 0 0 0 0.36 0.36 0.36
+  20 1 0 0 0
+  -0.5 16.25 0 30 0 0 0.36 0.36 0.36
+  30 1 0 0 0
+  13 31 0 180 0 0 1 1 1
+  70 1 0 0 0
+  13 31 0 180 0 0 1 1 1
+  78 1 0 0 0
+  -0.75 10 0 0 0 0 0.36 0.36 0.36
+  80 1 0 0 0
+  -0.75 10 0 0 0 0 0.36 0.36 0.36
+  100 1 0 0 0
+EndBehavior 1
+LockedChannels 48
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  20 1 0 0 0
+  0
+  30 1 0 0 0
+  0
+  60 1 0 0 0
+  0.05
+  62 1 0 0 0
+  0.95
+  68 1 0 0 0
+  1
+  70 1 0 0 0
+  1
+  100 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject World\Shared\Z.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  -0.75 10 0 0 0 0 0.36 0.36 0.36
+  0 1 0 0 0
+  -0.75 10 0 0 0 0 0.36 0.36 0.36
+  40 0 0 0 0
+  -0.5 16.25 0 30 0 0 0.36 0.36 0.36
+  50 1 0 0 0
+  13 31 0 180 0 0 1 1 1
+  98 1 0 0 0
+  -0.75 10 0 0 0 0 0.36 0.36 0.36
+  100 1 0 0 0
+EndBehavior 1
+LockedChannels 48
+ObjDissolve (envelope)
+  1
+  8
+  1
+  0 0 0 0 0
+  1
+  40 1 0 0 0
+  0
+  50 1 0 0 0
+  0
+  80 1 0 0 0
+  0.05
+  82 1 0 0 0
+  0.95
+  88 1 0 0 0
+  1
+  90 1 0 0 0
+  1
+  100 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject World\Shared\RockdustX.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  10
+  0 3.849999 9.389996 0 0 0 0.3359999 0.3359999 0.3359999
+  0 0 0 0 0
+  0 3.849999 9.389996 0 0 0 0.3359999 0.3359999 0.3359999
+  30 1 0 0 0
+  0 4.770054 14.22022 0 0 0 0.4419999 0.4419999 0.4419999
+  38 1 0 0 0
+  0 6.649996 17.60001 0 0 0 0.5639999 0.5639999 0.5639999
+  46 1 0 0 0
+  0 8.559997 19.24001 0 0 0 0.5639999 0.5639999 0.5639999
+  50 1 0 0 0
+  0 3.849999 9.389996 0 0 0 0.3359999 0.3359999 0.3359999
+  51 1 0 0 0
+  0 3.849999 9.389996 0 0 0 0.3359999 0.3359999 0.3359999
+  80 1 0 0 0
+  0 4.790051 14.17022 0 0 0 0.4419999 0.4419999 0.4419999
+  88 1 0 0 0
+  0 6.669998 17.57001 0 0 0 0.5639999 0.5639999 0.5639999
+  96 1 0 0 0
+  0 8.579999 19.33001 0 0 0 0.5639999 0.5639999 0.5639999
+  100 1 0 0 0
+EndBehavior 1
+ObjDissolve (envelope)
+  1
+  11
+  1
+  0 0 0 0 0
+  1
+  30 1 0 0 0
+  0.95
+  32 1 0 0 0
+  0.4
+  36 1 0 0 0
+  0.35
+  38 1 0 0 0
+  1
+  50 1 0 0 0
+  1
+  80 1 0 0 0
+  0.95
+  82 1 0 0 0
+  0.4
+  86 1 0 0 0
+  0.35
+  88 1 0 0 0
+  1
+  100 1 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject SFX,SND_SNORE,0
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.050000
+
+AddLight
+LightName Light
+ShowLight 0 7
+LightMotion (unnamed)
+  9
+  2
+  119.5457 135 -155.4471 -39.5 16.40002 0 0.404 0.404 0.404
+  0 0 0 0 0
+  119.5457 135 -155.4471 -39.5 16.40002 0 0.404 0.404 0.404
+  100 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 2
+ConeAngle 46.060001
+EdgeAngle 5.000000
+ShadowType 2
+ShadowMapSize 512
+UseConeAngle 1
+ShadowFuzziness 1.000000
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  2
+  225 207 -257 -43.59999 23.7 0 1 1 1
+  0 0 0 0 0
+  225 207 -257 -43.59999 23.7 0 1 1 1
+  100 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.200000
+Resolution 0
+CustomSize 16 16
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 1
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 2
+BlurLength 0.500000
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 0 0
+SkyColor 0 0 0
+GroundColor 0 0 0
+NadirColor 100 80 60
+SkySqueezeAmount 0.000000
+GroundSqueezeAmount 0.000000
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 1
+RayRecursionLimit 16
+DataOverlayLabel  
+OutputFilenameFormat 3
+SaveRGBImagesPrefix OUTPUT\LegoRM\RM2
+RGBImageFormat 2
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint -2.042745 18.160000 6.081841
+ViewDirection -15.023808 -0.301943 0.000000
+ViewZoomFactor 0.918538
+GridNumber 10
+GridSize 2.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

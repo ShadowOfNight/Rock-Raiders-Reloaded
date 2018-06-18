@@ -207,3 +207,7 @@ v0.08.003
 	Fixed text missing from PilotL1 line in HelpWindowInfo.
 	Reworked entire Dependencies section in the cfg.
 	Reordered BuildingTypes (changes order of appearance in build menu).
+
+v0.09.000
+	Added Axel's Pyrite Monster to Creatures folder.
+	Added Pyrite Monster entry to RockMonsterTypes, Stats, ObjectNames, ObjectTheNames, and Samples in the cfg.

@@ -16,7 +16,8 @@ Credits
 --------------
 -- Axel (aka Eaol): 
 - High quality Ice, Lava, and Rock biome remakes. 
-- New Gold, Ice Rock, Pyrite, and Sand biomes.
+- Gold, Ice Rock, Pyrite, and Sand biomes.
+- Pyrite Monster.
 
 -- Cirevam: 
 - High-polygon sonic blaster model.
