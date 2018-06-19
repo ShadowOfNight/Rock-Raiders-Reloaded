@@ -1,0 +1,13 @@
+TRUE ? SetR1 0
+TRUE ? SetR2 0
+
+GetToolStoresBuilt = 0 ? AddR1 1
+GetMiniFiguresOnLevel = 0 ? AddR1 1
+GetR1 = 2 ? SetLevelFail
+
+GetOxygenLevel = 0 ? SetLevelFail
+
+GetCrystalsCurrentlyStored > 39 ? SetLevelCompleted
+
+
+ 

@@ -79,10 +79,10 @@ These are for the game levels
 ##############################################
 
 [Level01]
-Objective:	The transporter aboard the L.M.S. Explorer has been slightly damaged, due to low power, and is not working properly. A team of Rock Raiders has been teleported into the wrong cavern and they need to find their way back to the Tool Store.\aDrill through the cavern walls, and once you have found it, start our mining operation by collecting five Energy Crystals.
-Failure:	Bad luck! You failed to find the Tool Store and retrieve five Energy Crystals. Mission failed.
-Completion:	Well done! You got all five Energy Crystals. Mission complete.
-CrystalFailure:	Too many Energy Crystals have been stolen for you to be able to complete this mission.
+Objective:	
+Failure:	
+Completion:	
+CrystalFailure:	
 
 [Level02]
 Objective:	A new cavern has been found, so we must begin to build Rock Raider HQ! Unfortunately, recent earthquakes in this area have made the cavern walls very dangerous. Secure the area by reinforcing the cavern walls to prevent cave-ins.\aOnce this has been done, continue with the mining operation and collect five more Energy Crystals.
