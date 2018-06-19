@@ -228,3 +228,7 @@ v0.10.000
 	In Mini-Figures\Pilot, edited Pilot.ae to remove high/medium/low poly references.
 	Added in all 19 unused idle/waiting animations to Mini-Figures\Pilot.
 	Edited Pilot.ae in Mini-Figures\Pilot to add lines for waiting activities.
+
+v0.10.001
+	Overhauled WeaponTypes section in the cfg. Virtually all stats have been changed.
+	Changed BigLazer references in Upgrade section of Gunstation.ae to GunStation.
