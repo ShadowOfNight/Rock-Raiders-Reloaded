@@ -23,6 +23,7 @@ Credits
 - High quality Ice, Lava, and Rock biome remakes. 
 - Gold, Ice Rock, Pyrite, and Sand biomes.
 - Pyrite Monster.
+- New sound effects.
 
 ** Cirevam: 
 - High-polygon sonic blaster model.
@@ -35,6 +36,11 @@ Credits
 - High-polygon teal building stud model.
 - High-polygon Rock Monster model.
 
+** McSqueaky:
+- New sound effects.
+
+** Yourself
+- New sound effects.
 
 Changelog
 --------------

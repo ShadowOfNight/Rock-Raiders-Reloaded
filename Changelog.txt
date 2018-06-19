@@ -240,3 +240,12 @@ v0.11.000
 	Added Crumble activity to Spider.ae.
 	Uncommented Spider lines in ObjectNames, ObjectTheNames, RockMonsterTypes, and Stats.
 	Completely redid all stats for Spider in the cfg.
+
+v0.12.000
+	Completely reorganized and changed Samples in the cfg in order to add new sounds.
+	Added Dummy.wav to Sounds.
+	Replaced everything in Sounds except for Streamed and Voices.
+	Restructured folders; added Ambient, Creatures, Interface, and Scene folders.
+	Removed New and New_sfx folders.
+	Rearranged all sounds into new folder tree.
+	Added water and new vehicle engine sound effects.
