@@ -1,6 +1,11 @@
 # Rock Raiders Reloaded
 Revamp project for the 1999 LEGO game, Rock Raiders.
 
+Notes
+--------------
+**Do not download this as a ZIP, it will mess up all of the .ae, .cfg, .lws, and .txt files!**
+
+
 Goals:
 --------------
 - Adding new creatures, objects, buildings, vehicles, and levels to the game.

@@ -1,3 +1,5 @@
+Game Data=53898615
+
 Levels::Level25=1325772
 Levels::Level24=1323449
 Levels::Level23=1308775
@@ -23,20 +25,21 @@ Levels::Level04=1253932
 Levels::Level03=1276755
 Levels::Level02=1276335
 Levels::Level01=1278233
-Game Data=23898615
-Levels::MoveTuto_02=1305527
-Levels::MoveTuto_01=1301947
-Levels::BuildTuto_02=1309022
-Levels::BuildTuto_01=1311738
-Levels::DigTuto_03=1299223
-Levels::DigTuto_02=1292319
-Levels::DigTuto_01=1293469
-Levels::DefenceTuto_01=1293469
-Levels::Tutorial08=1291941
-Levels::Tutorial07=1300720
+
+Levels::Bonus32=1323449
+Levels::Bonus26=1322130
+Levels::Bonus24=1265301
+Levels::Bonus17=1274618
+Levels::Bonus11=1276755
+Levels::Bonus09=1278233
+
+Levels::Tutorial09=1291941
+Levels::Tutorial08=1300720
+Levels::Tutorial07=1322130
 Levels::Tutorial06=1309208
 Levels::Tutorial05=1294537
 Levels::Tutorial04=1307734
 Levels::Tutorial03=1311993
 Levels::Tutorial02=1294105
 Levels::Tutorial01=1302863
+
