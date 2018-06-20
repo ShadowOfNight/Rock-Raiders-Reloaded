@@ -1,10 +1,9 @@
-
 Lego* {
 
 	Scale				1.0
-	DepositNullName		Water_Null
+	DepositNullName			Water_Null
 	Shape				0,-1:0,-1:0,1:0,1
-	EntranceNullName	Land_Null
+	EntranceNullName		Land_Null
 
 	Activities {
 		

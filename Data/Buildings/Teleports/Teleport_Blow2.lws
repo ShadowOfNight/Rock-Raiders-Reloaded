@@ -3019,7 +3019,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-AddNullObject ;SFX,SND_EXPLODE1,40
+AddNullObject SFX,SND_EXPLODE1,40
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -3029,7 +3029,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-AddNullObject ;SFX,SND_EXPLODE2,60
+AddNullObject SFX,SND_EXPLODE2,60
 ShowObject 8 7
 ObjectMotion (unnamed)
   9

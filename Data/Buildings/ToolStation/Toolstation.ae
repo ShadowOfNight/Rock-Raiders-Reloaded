@@ -1,36 +1,16 @@
-
 Lego* {
 
 	Scale				1.0
 	Shape				0,-1:0,-1
-	DepositNullName		Deposit_Null
-	ToolNullName		Tool_Null
+	DepositNullName			Deposit_Null
+	ToolNullName			Tool_Null
 
 	Activities {
 		
 		Activity_Stand					Stand
-;		Activity_MPStand				
-;		Activity_Route					
-;		Activity_MPRoute				
-;		Activity_Drill					
-;		Activity_MPDrill				
-		Activity_Teleport					teleport
-;		Activity_Walk					
-;		Activity_Reinforce				
-;		Activity_Reverse				
-;		Activity_TurnLeft				
-;		Activity_TurnRight				
-;		Activity_CantDo					
-;		Activity_Emerge					
-;		Activity_Collect				
-;		Activity_Carry					
-;		Activity_Throw					
-;		Activity_CarryTurnLeft			
-;		Activity_CarryTurnRight			
-;		Activity_CarryStand				
+		Activity_Teleport				Teleport
 		Activity_Explode				Explode
 		
-
 	}
 
 	Stand {
@@ -51,6 +31,3 @@ Lego* {
 	}
 
 }
-
-
-

@@ -1,4 +1,3 @@
-
 Lego* {
 
 	Scale				1.0
@@ -10,30 +9,10 @@ Lego* {
 				
 			}
 
-
-
 Activities {
 		
 		Activity_Stand					Stand
-;		Activity_MPStand				
-;		Activity_Route					
-;		Activity_MPRoute				
-;		Activity_Drill					
-;		Activity_MPDrill				
-		Activity_Teleport					Create			
-;		Activity_Walk					
-;		Activity_Reinforce				
-;		Activity_Reverse				
-;		Activity_TurnLeft				
-;		Activity_TurnRight				
-;		Activity_CantDo					
-;		Activity_Emerge					
-;		Activity_Collect				
-;		Activity_Carry					
-;		Activity_Throw					
-;		Activity_CarryTurnLeft			
-;		Activity_CarryTurnRight			
-;		Activity_CarryStand				
+		Activity_Teleport				Create			
 		Activity_Explode				Explode
 		Activity_Unpowered				PowerOff
 	}
@@ -59,5 +38,5 @@ Activities {
 		FILE		GD_Idle
 		LWSFILE		TRUE
 	}
-}
 
+}

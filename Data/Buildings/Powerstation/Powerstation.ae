@@ -1,39 +1,15 @@
-
 Lego* {
 
 	Scale				1.0
-	CarryNullName		Item_Null
-	CarryNullFrames		5
-	DepositNullName		Deposit_Null
+	CarryNullName			Item_Null
+	CarryNullFrames			5
+	DepositNullName			Deposit_Null
 	Shape				0,-1:0,-1:1,0
 
 	Activities {
 		
 		Activity_Stand					Stand
-;		Activity_MPStand				
-;		Activity_Route					
-;		Activity_MPRoute				
-;		Activity_Drill					
-;		Activity_MPDrill				
 		Activity_Teleport				Create
-;		Activity_Walk					
-;		Activity_Reinforce				
-;		Activity_Reverse				
-;		Activity_TurnLeft				
-;		Activity_TurnRight				
-;		Activity_CantDo					
-;		Activity_Emerge					
-;		Activity_Collect				
-;		Activity_Carry					
-;		Activity_Throw					
-;		Activity_CarryTurnLeft			
-;		Activity_CarryTurnRight			
-;		Activity_CarryStand				
-;		Activity_HitLeft,
-;		Activity_HitRight,
-;		Activity_HitFront,
-;		Activity_HitBack,
-;		Activity_Dynamite,
 		Activity_Deposit				Deposit
 		Activity_Explode				Explode
 		Activity_Unpowered				PowerOff
@@ -43,7 +19,7 @@ Lego* {
 	Stand {
 		FILE		Newbit_Refstand
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 
 	Create {
@@ -56,7 +32,7 @@ Lego* {
 	Deposit {
 		FILE		Ref_Refine
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 
 	Explode {

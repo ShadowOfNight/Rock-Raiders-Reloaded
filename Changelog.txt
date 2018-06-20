@@ -249,3 +249,22 @@ v0.12.000
 	Removed New and New_sfx folders.
 	Rearranged all sounds into new folder tree.
 	Added water and new vehicle engine sound effects.
+
+v0.12.001
+	Removed Level01 section from the cfg.
+	Removed Level01 folder from Levels\GameLevels.
+	Added new map into Levels\GameLevels; temporarily named NewMap01.
+	Added NewMap01 entry to Levels in the cfg for testing purposes. Actual placement on mission tree will be decided in the future.
+	Dummied out Level01 in ObjectiveText.txt in Languages for now.
+
+v0.12.002
+	Reverted changes 1 and 2 from v0.01.007 (added Ore.bmp back into ToolTipIcons along with cfg line).
+	Enabled explosion sound effects in Teleport_Blow2.lws in Buildings\Teleports.
+	Removed the commented out and unneeded activities from Teleports.ae.
+	Removed the commented out and unneeded activities from Barracks.ae.
+	Removed the commented out and unneeded activities from BIGTeleport.ae.
+	Removed the commented out and unneeded activities from GEO-Dome.ae.
+	Removed the commented out and unneeded activities from OreRefinery.ae.
+	Removed the commented out and unneeded activities from Powerstation.ae.
+	Removed the commented out and unneeded activities from Toolstation.ae.
+	Removed the commented out and unneeded activities from Upgrade.ae.
