@@ -268,3 +268,9 @@ v0.12.002
 	Removed the commented out and unneeded activities from Powerstation.ae.
 	Removed the commented out and unneeded activities from Toolstation.ae.
 	Removed the commented out and unneeded activities from Upgrade.ae.
+
+v0.12.003
+	Removed dummy sound effect reference in SFX_Water line in Samples.
+	Moved SingleStud_ON.lws from ProcessedOre to ElectricFenceStud in MiscObjs; updated cfg link to match.
+	Moved Smoke folder in MiscObjs back to MiscAnims due to the textures being exe hardcoded to that path.
+	Fixed missing sound reference in EFlongbeam.lws, which enables electric arc sounds.

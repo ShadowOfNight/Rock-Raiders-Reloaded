@@ -52,6 +52,18 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
+AddNullObject SFX,SND_elecy,0
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  12 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
 AmbientColor 255 255 255
 AmbIntensity 0.250000
 

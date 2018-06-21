@@ -9,7 +9,7 @@ Lego* {
 				
 			}
 
-Activities {
+	Activities {
 		
 		Activity_Stand					Stand
 		Activity_Teleport				Create			
