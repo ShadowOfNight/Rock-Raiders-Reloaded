@@ -19,7 +19,8 @@ Goals:
 
 Credits
 --------------
-Axel (aka Eaol): 
+Axel (aka Eaol):
+ 
 - High quality Ice, Lava, and Rock biome remakes. 
 - Gold, Ice Rock, Pyrite, and Sand biomes.
 - Pyrite Monster.
@@ -39,7 +40,7 @@ Jessietail:
 McSqueaky:
 - New sound effects.
 
---Yourself--
+Yourself
 - New sound effects.
 
 Changelog
