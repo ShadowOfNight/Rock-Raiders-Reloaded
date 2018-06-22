@@ -1,5 +1,0 @@
-Notes on tg01 map
-
-The win condition for this map needs to be set to five crystals collected.
-
-This map is the proposed level one map for Rock Raiders.

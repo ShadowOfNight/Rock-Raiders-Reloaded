@@ -274,3 +274,6 @@ v0.12.003
 	Moved SingleStud_ON.lws from ProcessedOre to ElectricFenceStud in MiscObjs; updated cfg link to match.
 	Moved Smoke folder in MiscObjs back to MiscAnims due to the textures being exe hardcoded to that path.
 	Fixed missing sound reference in EFlongbeam.lws, which enables electric arc sounds.
+
+v0.12.004 
+	Moved the Removed and Unused folders to Old Assets and removed from repository source.

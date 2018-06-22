@@ -1,6 +1,0 @@
-Dust.lwo
-Dust2-4.lwo
-flare.lwo
-Glint1-7.lwo
-NULL_OBJECT.lwo
-Telepthings.lwo
