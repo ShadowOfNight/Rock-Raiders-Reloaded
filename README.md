@@ -30,15 +30,8 @@ Cirevam:
 - High-polygon sonic blaster model.
 - High-polygon energy crystal model.
 
-Cyrem:
-- High-polygon Rock Raider model.
-
 Jessietail: 
 - High-polygon teal building stud model.
-- High-polygon Rock Monster model.
-
-McSqueaky:
-- New sound effects.
 
 Yourself
 - New sound effects.
