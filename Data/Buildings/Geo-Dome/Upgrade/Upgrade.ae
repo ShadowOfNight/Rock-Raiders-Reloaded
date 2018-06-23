@@ -1,0 +1,21 @@
+Lego* {
+
+	Scale			1.0
+
+	Activities {
+		Activity_Stand					Stand
+		Activity_Explode				Explode
+	}
+
+	Stand {
+		FILE		GD_UpgradePiece
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+	}
+
+	Explode {
+		FILE		GD_U_Explode
+		LWSFILE		TRUE
+	}
+
+}

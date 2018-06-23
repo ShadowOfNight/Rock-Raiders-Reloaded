@@ -277,3 +277,16 @@ v0.12.003
 
 v0.12.004 
 	Moved the Removed and Unused folders to Old Assets and removed from repository source.
+
+v0.13.000
+	Added upgrades for Geo-Dome into the cfg.
+	Added Standard and Upgrade folders in Buildings\Geo-Dome for upgrades.
+	Added animations and models needed along with activity files into Standard and Upgrade in Geo-Dome.
+	Removed unpowered activity from main Geo-Dome.ae and removed GD_Idle.lws as a result.
+	Added upgrade levels into Geo-Dome.ae.
+	Edited explosion animation in main Geo-Dome folder to serve as a dummy.
+	Added explosion animations into each upgrade folder and respective .ae files.
+	Removed no longer needed files from main Geo-Dome folder.
+	Fixed null position in GD_BasePlatform.lws and added an additional null.
+	Fixed GD_UpgradePiece.lws in Geo-Dome\Upgrade so that the building does not hover.
+	

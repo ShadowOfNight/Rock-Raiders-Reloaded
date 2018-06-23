@@ -1,0 +1,204 @@
+LWSC
+1
+
+RenderRangeType 0
+FirstFrame 1
+LastFrame 60
+FrameStep 1
+RenderRangeArbitrary 1-60
+PreviewFirstFrame 0
+PreviewLastFrame 1
+PreviewFrameStep 1
+FramesPerSecond 30
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Centre_U.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 -2.5 15 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 8
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_ControlA.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 5 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 1
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_ControlA.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 6 -25 180 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 1
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Cab.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Cab.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 3
+ShadowOptions 7
+
+AddNullObject ParentNULL
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 1 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Radar_U.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 26 -11 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 1
+ShadowOptions 7
+
+AddNullObject BaseS
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 4 9.999999 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 6
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Walkie.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  1
+  7 7.5 -7.5 180 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 3
+ParentObject 1
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Walkie.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  1
+  -7 7.5 -7.5 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.55
+
+AddLight
+LightName Light
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  1
+  -2 2 -2 45 35 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1
+LightType 0
+ShadowType 1
+ShadowColor 0 0 0
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  1
+  -67.95869 75.4 51.7998 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+HController 1
+PController 1
+TargetObject 6
+ZoomFactor 3.2
+Resolution 1
+CustomSize 640 480
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+SegmentMemory 32000000
+ApertureHeight 0.015
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+RayRecursionLimit 16
+RayTraceOptimization 1
+DataOverlayLabel  
+SaveRGB 0
+SaveAlpha 0
+
+ViewType 7
+ViewAimpoint 18.4141 21.2 9.609834
+ViewDirection -51.6433 -0.01047405 0
+ViewZoomFactor 6.750351
+
+GridNumber 10
+GridSize 20
+CameraViewBG 0
+ShowMotionPath 1
+ShowFogRadius 0
+ShowFogEffect 0
+ShowSafeAreas 0
+ShowFieldChart 0
+OverlayColor_fv 0 0 0

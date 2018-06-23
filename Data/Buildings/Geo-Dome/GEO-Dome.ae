@@ -3,22 +3,43 @@ Lego* {
 	Scale				1.0
 	Shape				0,-1
 
-	Level0000 {		
+	Upgrades {
+		Level0000 {		
 				
-				GD_RADAR_S			RADAR_NULL,1
+				Standard		GD_StationMount,1
 				
 			}
+
+		Level0001 {		
+				
+				Standard		GD_StationMount,1
+				
+			}
+
+
+		Level0010 {		
+				
+				Upgrade		        GD_StationMount2,1
+				
+			}
+
+		Level0011 {		
+				
+				Upgrade		        GD_StationMount2,1
+				
+			}
+
+	}
 
 	Activities {
 		
 		Activity_Stand					Stand
 		Activity_Teleport				Create			
 		Activity_Explode				Explode
-		Activity_Unpowered				PowerOff
 	}
 
 	Stand {
-		FILE		GD_Standard
+		FILE		GD_BasePlatform
 		TRANSCOEF	0.0
 		LWSFILE		TRUE
 	}
@@ -30,12 +51,7 @@ Lego* {
 	}	
 
 	Explode {
-		FILE		GD_Upgrade_Exp2
-		LWSFILE		TRUE
-	}
-
-	PowerOff {
-		FILE		GD_Idle
+		FILE		GD_DummyExplode
 		LWSFILE		TRUE
 	}
 
