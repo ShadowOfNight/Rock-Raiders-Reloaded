@@ -309,3 +309,9 @@ v0.13.003
 	Replaced iambloop, and iceamb1-3 in Sounds\Ambient with the originals by DDI for now.
 	Temporarily disabled intro cutscenes and screens.
 	Replaced lowamb1-2 and lavbub in Sounds\Ambient with originals by DDI.
+
+v0.13.004
+	Changed name of barrierplace2.wav in Sounds\Buildings to barrierplace; updated line in Samples to match.
+	Replaced buildingamb1.wav in Sounds\Buildings with original for now.
+	Removed buildingamb2.wav from Sounds\Buildings until a replacement can be found.
+	Replaced CRserv1-2, docksload.wav, doscksunload.wav, plazlarg.wav, plazsmall.wav, Refine.wav, rumble.wav, starttel.wav in Sounds\Buildings with originals by DDI.
