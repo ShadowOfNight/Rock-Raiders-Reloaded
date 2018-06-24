@@ -295,3 +295,10 @@ v0.13.001
 	Added SND_Music line into Samples and temporarily dummied out until I can find a satisfactory sound.
 	Removed SFX_Bodge line for now; bug it was covering up may actually have been fixed by DDI.
 	Edited VLPdeposit.lws in Mini-Figures\Pilot to fix incorrect sound reference and the frame that triggers the sound.
+
+v0.13.002
+	Renamed SANFALL.bmp in World\RockFall\Sand to SANDFALL.bmp.
+	Edited L_sand.lwo, M_sand.lwo, and S_sand.lwo in World\Shared\RockFall\Sand to update texture name and path.
+	Renamed PRYFALL.bmp in World\RockFall\Pyrite to PYRITEFALL.bmp.
+	Edited L_pyrite.lwo, M_pyrite.lwo, and S_pyrite.lwo in World\Shared\RockFall\Pyrite to update texture name and path.
+	
