@@ -40,6 +40,9 @@ Jessietail:
 
 
 **Sounds Sources**
+Need to fill this in ASAP
+
+- All other sound effects are original files by Data Design Interactive.
 
 
 Changelog

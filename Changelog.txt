@@ -302,3 +302,10 @@ v0.13.002
 	Renamed PRYFALL.bmp in World\RockFall\Pyrite to PYRITEFALL.bmp.
 	Edited L_pyrite.lwo, M_pyrite.lwo, and S_pyrite.lwo in World\Shared\RockFall\Pyrite to update texture name and path.
 	
+v0.13.003
+	Replaced Drip1-3 in Sounds\Ambients with original versions by DDI for now; and removed Drip 5.
+	Changed Drip6.wav in Sounds\Ambients to Drip5 and removed drip 6 entry in SFX_Drip in the cfg.
+	Fixed typoed folder name from Ambients to Ambient. (Modified cfg links to match)
+	Replaced iambloop, and iceamb1-3 in Sounds\Ambient with the originals by DDI for now.
+	Temporarily disabled intro cutscenes and screens.
+	Replaced lowamb1-2 and lavbub in Sounds\Ambient with originals by DDI.
