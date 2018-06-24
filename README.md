@@ -1,5 +1,9 @@
 # Rock Raiders Reloaded
-Revamp project for the 1999 LEGO game, Rock Raiders.
+
+Description
+--------------
+To be added later
+
 
 Notes
 --------------
@@ -14,27 +18,29 @@ Goals:
 - New voiceovers.
 - Properly sorting shared textures and models.
 - Reactivating cut content from the original game.
-- Upgrading the existing game models.
+- Upgrading the existing game models that will be kept.
 
 
 Credits
 --------------
+
 Axel (aka Eaol):
- 
-- High quality Ice, Lava, and Rock biome remakes. 
+- HD Ice, Lava, and Rock biome remakes. 
 - Gold, Ice Rock, Pyrite, and Sand biomes.
 - Pyrite Monster.
-- New sound effects.
 
 Cirevam: 
 - High-polygon sonic blaster model.
 - High-polygon energy crystal model.
+- For providing several animations needed for Geo-Dome upgrade.
 
 Jessietail: 
+- For advice, help, ideas, and many contributions to this project.
 - High-polygon teal building stud model.
 
-Yourself
-- New sound effects.
+
+**Sounds Sources**
+
 
 Changelog
 --------------

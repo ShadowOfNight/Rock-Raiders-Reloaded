@@ -290,3 +290,8 @@ v0.13.000
 	Fixed null position in GD_BasePlatform.lws and added an additional null.
 	Fixed GD_UpgradePiece.lws in Geo-Dome\Upgrade so that the building does not hover.
 	
+v0.13.001
+	Replaced water.wav in Sounds/Ambients with the original unused version.
+	Added SND_Music line into Samples and temporarily dummied out until I can find a satisfactory sound.
+	Removed SFX_Bodge line for now; bug it was covering up may actually have been fixed by DDI.
+	Edited VLPdeposit.lws in Mini-Figures\Pilot to fix incorrect sound reference and the frame that triggers the sound.

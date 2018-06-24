@@ -368,7 +368,7 @@ LockedChannels 46
 ParentObject 13
 ShadowOptions 7
 
-AddNullObject SFX,SND_land,20
+AddNullObject SFX,SND_chuck,0
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
