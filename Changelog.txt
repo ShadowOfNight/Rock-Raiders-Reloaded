@@ -335,3 +335,8 @@ v0.13.006
 	Removed Light.lwo from Buildings\Powerstation.	
 	Removed LightSPANKLE.bmp from Buildings\Powerstation.
 	Removed spangle.lwo from Buildings\Powerstation.
+
+v0.13.007
+	Changed Bonus09 folder name in Levels\BonusLevels to match map name; changed cfg links and file names to reflect this.
+	Moved Config Level List outside of BonusLevels and into main Levels folder.
+	Replaced laser1.wav in Sounds\Scene with new sound effect.
