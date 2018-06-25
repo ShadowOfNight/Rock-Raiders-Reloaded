@@ -12,7 +12,6 @@ Lego* {
 		Activity_Teleport				Create
 		Activity_Deposit				Deposit
 		Activity_Explode				Explode
-		Activity_Unpowered				PowerOff
 
 	}
 
@@ -26,7 +25,7 @@ Lego* {
 		FILE		Refcreate
 		TRANSCOEF	0.0
 		LWSFILE		TRUE
-		SAMPLE		SFX_Build
+;		SAMPLE		SFX_Build
 	}
 
 	Deposit {
@@ -40,8 +39,4 @@ Lego* {
 		LWSFILE		TRUE
 	}
 
-	PowerOff {
-		FILE		RefStand_Idle
-		LWSFILE		TRUE
-	}
 }

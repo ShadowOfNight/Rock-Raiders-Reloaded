@@ -43,7 +43,8 @@ Cyrem:
 
 Jessietail: 
 - For advice, help, ideas, and many contributions to this project.
-- High-polygon teal building stud model.
+- High-polygon teal 2x2 brick model.
+- High-polygon 1x1 LEGO cone model.
 
 JimbobJeffers:
 - Custom map "Crystal Catastrophe."

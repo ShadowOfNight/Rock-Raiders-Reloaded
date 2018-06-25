@@ -315,3 +315,13 @@ v0.13.004
 	Replaced buildingamb1.wav in Sounds\Buildings with original for now.
 	Removed buildingamb2.wav from Sounds\Buildings until a replacement can be found.
 	Replaced CRserv1-2, docksload.wav, doscksunload.wav, plazlarg.wav, plazsmall.wav, Refine.wav, rumble.wav, starttel.wav in Sounds\Buildings with originals by DDI.
+
+v0.13.005
+	Removed Activity_Unpowered from Powerstation.ae in Buildings\Powerstation.
+	Removed RefStand_Idle.lws from Buildings\Powerstation.
+	Added high-polygon 1x1 LEGO cone model (BrickConeY.lwo) to Shared as a replacement for Light.lwo in World\Shared.
+	Added LightSpangleY.lwo, LightSpangleY.bmp, LightSpangleR.lwo, and LightSpangleR.bmp to Shared as a replacement for all the red and yellow light spangle effects.
+	Fixed SingleStud_ON.lws in MiscObjs\ElectricFenceStud model paths to correct light lwo.
+	Fixed BOOM.lws in MiscObjs\BirdScarer model paths to correct light lwo.
+	Removed spangleY2.lwo in World\Shared.
+	

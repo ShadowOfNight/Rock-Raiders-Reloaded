@@ -42,7 +42,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject D:\LEGO Media\Lego Rock Raiders\DATA\World\Shared\spangleY2.lwo
+LoadObject \\LEGO Media\Lego Rock Raiders\DATA\World\Shared\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
