@@ -163,7 +163,7 @@ LockedChannels 46
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -181,7 +181,7 @@ LockedChannels 5
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -468,7 +468,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\spangleY.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -527,7 +527,7 @@ EndBehavior 1
 ParentObject 10
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\spangleY.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -603,7 +603,7 @@ LockedChannels 54
 ParentObject 25
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -615,7 +615,7 @@ LockedChannels 128
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -627,7 +627,7 @@ LockedChannels 128
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -639,7 +639,7 @@ LockedChannels 128
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -651,7 +651,7 @@ LockedChannels 128
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -663,7 +663,7 @@ LockedChannels 322
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -675,7 +675,7 @@ LockedChannels 322
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -687,7 +687,7 @@ LockedChannels 322
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 1
 ObjectMotion (unnamed)
   9
@@ -739,7 +739,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\spangleY.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -798,7 +798,7 @@ EndBehavior 1
 ParentObject 11
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\spangleY.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -833,7 +833,7 @@ EndBehavior 1
 ParentObject 33
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\spangleY.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -868,7 +868,7 @@ EndBehavior 1
 ParentObject 34
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\spangleY.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -903,7 +903,7 @@ EndBehavior 1
 ParentObject 32
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\spangleY.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9

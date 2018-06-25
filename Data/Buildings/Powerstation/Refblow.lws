@@ -731,7 +731,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -757,7 +757,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -783,7 +783,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -809,7 +809,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -835,7 +835,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -861,7 +861,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -887,7 +887,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 5
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -913,7 +913,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -939,7 +939,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -965,7 +965,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Light.lwo
+LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9

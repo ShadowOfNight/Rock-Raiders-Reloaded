@@ -325,3 +325,13 @@ v0.13.005
 	Fixed BOOM.lws in MiscObjs\BirdScarer model paths to correct light lwo.
 	Removed spangleY2.lwo in World\Shared.
 	
+v0.13.006
+	Fixed NewbitRefStand.lws in Buildings\Powerstation model paths to correct light and spangle lwos.
+	Fixed Ref_Refine.lws in Buildings\Powerstation model paths to correct light and spangle lwos.
+	Fixed Refblow.lws in Buildings\Powerstation model paths to correct light and spangle lwos.
+	Fixed Refcreate.lws in Buildings\Powerstation model paths to correct light and spangle lwos.
+	Removed A027_LightY.bmp from Buildings\Powerstation.
+	Removed A068_LightX.bmp from Buildings\Powerstation.
+	Removed Light.lwo from Buildings\Powerstation.	
+	Removed LightSPANKLE.bmp from Buildings\Powerstation.
+	Removed spangle.lwo from Buildings\Powerstation.
