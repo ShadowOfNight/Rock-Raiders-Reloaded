@@ -340,3 +340,7 @@ v0.13.007
 	Changed Bonus09 folder name in Levels\BonusLevels to match map name; changed cfg links and file names to reflect this.
 	Moved Config Level List outside of BonusLevels and into main Levels folder.
 	Replaced laser1.wav in Sounds\Scene with new sound effect.
+
+v0.13.008
+	Adjusted coloring of BrickConeY.lwo in Shared to be more accurate to the actual LEGO piece.
+	Replaced call2arms.wav and Lazhit.wav in Sounds\Scene with new sound effects.
