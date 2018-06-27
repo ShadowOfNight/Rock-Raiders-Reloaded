@@ -88,8 +88,3 @@ JimbobJeffers:
 Changelog
 --------------
 Will be added later
-
-
-Contributing
---------------
-If you wish to contribute to the project, please contact me through email, or at my Discord handle shadowknight#1817.
