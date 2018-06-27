@@ -80,7 +80,7 @@ LockedChannels 5
 ParentObject 14
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\Light.lwo
+LoadObject Z:\Lego\Data\Shared\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -96,7 +96,7 @@ LockedChannels 6
 ParentObject 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\Light.lwo
+LoadObject Z:\Lego\Data\Shared\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -394,7 +394,7 @@ LockedChannels 3
 ParentObject 12
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\spangle.lwo
+LoadObject Z:\Lego\Data\Shared\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -411,7 +411,7 @@ EndBehavior 1
 ParentObject 4
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\spangle.lwo
+LoadObject Z:\Lego\Data\Shared\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9

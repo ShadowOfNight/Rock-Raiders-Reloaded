@@ -344,3 +344,15 @@ v0.13.007
 v0.13.008
 	Adjusted coloring of BrickConeY.lwo in Shared to be more accurate to the actual LEGO piece.
 	Replaced call2arms.wav and Lazhit.wav in Sounds\Scene with new sound effects.
+
+v0.13.009
+	Replaced suck.wav in Sounds\Creatures with original version.
+	Fixed LPWD_Drill1.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
+	Fixed LPWD_DRIVE.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
+	Fixed LPWD_Hitback.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
+	Fixed LPWD_Hitfront.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
+	Fixed LPWD_Hitleft.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
+	Fixed LPWD_Hitright.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
+	Fixed LPWD_idle.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
+	Fixed S_Teleport_body.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
+

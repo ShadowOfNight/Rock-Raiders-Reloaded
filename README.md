@@ -64,6 +64,11 @@ JimbobJeffers:
 	- tool_store.wav created by Axel.
 	- upgradelc1.wav modified by Axel.
 
+- Creatures
+	- bats.wav created by Axel.
+	- slugIN.wav edited by Axel.
+	- slugOUT.wav edited by Axel.
+
 - Minifigure
 	- Pdrill.wav created by Yourself.
 

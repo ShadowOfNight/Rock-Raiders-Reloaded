@@ -100,7 +100,7 @@ LockedChannels 5
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Vehicles\WalkerBody\Light.lwo
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Vehicles\WalkerBody\BrickConeY.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
@@ -126,7 +126,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Vehicles\WalkerBody\Light.lwo
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Vehicles\WalkerBody\BrickConeY.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9

@@ -61,7 +61,7 @@ LockedChannels 6
 ParentObject 14
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\WalkerBody\Light.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\WalkerBody\BrickConeY.lwo
 ShowObject 4 7
 ObjectMotion (unnamed)
   9
@@ -77,7 +77,7 @@ LockedChannels 6
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\WalkerBody\Light.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\WalkerBody\BrickConeY.lwo
 ShowObject 4 7
 ObjectMotion (unnamed)
   9
@@ -338,7 +338,7 @@ LockedChannels 3
 ParentObject 12
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\WalkerBody\spangle.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\WalkerBody\LightSpangleY.lwo
 ShowObject 4 7
 ObjectMotion (unnamed)
   9
@@ -365,7 +365,7 @@ EndBehavior 1
 ParentObject 4
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\WalkerBody\spangle.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\WalkerBody\LightSpangleY.lwo
 ShowObject 4 7
 ObjectMotion (unnamed)
   9

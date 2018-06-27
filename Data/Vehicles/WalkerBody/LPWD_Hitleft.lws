@@ -83,7 +83,7 @@ LockedChannels 29
 ParentObject 14
 ShadowOptions 7
 
-LoadObject Z:\lego\Data\Shared\Light.lwo
+LoadObject Z:\lego\Data\Shared\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -101,7 +101,7 @@ LockedChannels 6
 ParentObject 1
 ShadowOptions 7
 
-LoadObject Z:\lego\Data\Shared\Light.lwo
+LoadObject Z:\lego\Data\Shared\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
