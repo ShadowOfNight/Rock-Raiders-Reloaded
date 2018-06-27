@@ -349,10 +349,20 @@ v0.13.009
 	Replaced suck.wav in Sounds\Creatures with original version.
 	Fixed LPWD_Drill1.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
 	Fixed LPWD_DRIVE.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
-	Fixed LPWD_Hitback.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
-	Fixed LPWD_Hitfront.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
-	Fixed LPWD_Hitleft.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
-	Fixed LPWD_Hitright.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
+	Fixed LPWD_Hitback.lws in Vehicles\WalkerBody model paths to correct light lwo.
+	Fixed LPWD_Hitfront.lws in Vehicles\WalkerBody model paths to correct light lwo.
+	Fixed LPWD_Hitleft.lws in Vehicles\WalkerBody model paths to correct light lwo.
+	Fixed LPWD_Hitright.lws in Vehicles\WalkerBody model paths to correct light lwo.
 	Fixed LPWD_idle.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
-	Fixed S_Teleport_body.lws in Vehicles\WalkerBody model paths to correct light and spangle lwos.
+	Fixed S_Teleport_body.lws in Vehicles\WalkerBody model paths to correct light lwo.
 
+v0.13.010
+	Uncommented BD_Lights lines in the LargeDigger.ae in Vehicles\LargeDigger.
+	Fixed digbackhit.lws in Vehicles\LargeDigger model paths to correct light lwo.
+	Fixed digDRILL.lws in Vehicles\LargeDigger model paths to correct light and spangle lwos.
+	Fixed digdriving.lws in Vehicles\LargeDigger model paths to correct light and spangle lwos.
+	Fixed digfronthit.lws in Vehicles\LargeDigger model paths to correct light lwo.
+	Fixed digIdle.lws in Vehicles\LargeDigger model paths to correct light and spangle lwos.
+	Fixed diglefthit.lws in Vehicles\LargeDigger model paths to correct light lwo.
+	Fixed digrighthit.lws in Vehicles\LargeDigger model paths to correct light lwo.
+	Fixed S_Teleport_B_DIG.lws in Vehicles\LargeDigger model paths to correct light lwo.
