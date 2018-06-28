@@ -1,4 +1,3 @@
-
 Lego* {
 
 	Scale				1.0
@@ -6,26 +5,26 @@ Lego* {
 	Activities {
 		Activity_Route					Route
 		Activity_Stand					Stand
-		Activity_TickOver					TickOver
+		Activity_TickOver				TickOver
 
 	}
 
 	route {
 		FILE			BDlightsR
 		TRANSCOEF		0.0
-		LWSFILE		TRUE
+		LWSFILE			TRUE
 	}
 
 	Stand {
 		FILE			BDlightsS
 		TRANSCOEF		0.0
-		LWSFILE		TRUE
+		LWSFILE			TRUE
 	}
 	
 	Tickover {
 		FILE			BDLightsT
 		TRANSCOEF		0.0
-		LWSFILE		TRUE
+		LWSFILE			TRUE
 	}
 
 }

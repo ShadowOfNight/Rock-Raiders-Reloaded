@@ -1,20 +1,10 @@
-
 Lego* {
 
 	Scale					1.0
 	WheelMesh				NULL_OBJECT
-	WheelNullName			Tyre_NULL
-	CameraNullName			CAMERA_NULL
+	WheelNullName				Tyre_NULL
+	CameraNullName				CAMERA_NULL
 	CameraNullFrames			2
-
-	Mediumpoly  {
-			LPH_heli2				VLP_heli
-			LPH_helibackbit			VLP_back
-			LPH_helibackbitflip		VLP_backflip
-		  	}						
-
-
-
 
 	Upgrades {
 					
@@ -32,11 +22,11 @@ Lego* {
 			rotors				LPH_RotorBlades,2
 			rotors				LPH_RotorBlades,3
 			rotors				LPH_RotorBlades,4
-			CAB					BHcab_NULL,1
-			Light					HLP_Light_NULL,1
-			Light					HLP_Light_NULL,2
-			Light					HLP_Light_NULL,3
-			Light					HLP_Light_NULL,4
+			CAB				BHcab_NULL,1
+			Light				HLP_Light_NULL,1
+			Light				HLP_Light_NULL,2
+			Light				HLP_Light_NULL,3
+			Light				HLP_Light_NULL,4
 
 			;NO UPGRADES AS OF 9/11/98
 		}
@@ -48,60 +38,59 @@ Lego* {
 		Activity_Stand				Stand
 		Activity_Route				Route
 		Activity_TeleportIN			TeleportIN
-		!Activity_HitLeft				HitLeft
-		!Activity_HitRight				HitRight
-		!Activity_HitFront				HitFront
-		!Activity_HitBack				HitBack
+		!Activity_HitLeft			HitLeft
+		!Activity_HitRight			HitRight
+		!Activity_HitFront			HitFront
+		!Activity_HitBack			HitBack
 
 	}
 
 	StartUp {
 		FILE		Heli_StartEngine
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 
 	Route {
 		FILE		Heli_Hover
 		TRANSCOEF	0.35
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 
 	Stand {
 		FILE		Heli_Idle
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 
 	HitLeft {
 		FILE		Heli_HitLeft
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 
 	HitRight {
 		FILE		Heli_HitRight
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 
 	HitFront {
 		FILE		Heli_HitFront
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 
 	HitBack {
 		FILE		Heli_HitRear
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	
 	TeleportIN  {
 		FILE		S_Teleport_Heli
 		TRANSCOEF	0.0
-		LWSFILE	True
+		LWSFILE		True
 	}
 
 }
-

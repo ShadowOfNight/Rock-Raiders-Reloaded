@@ -366,3 +366,9 @@ v0.13.010
 	Fixed diglefthit.lws in Vehicles\LargeDigger model paths to correct light lwo.
 	Fixed digrighthit.lws in Vehicles\LargeDigger model paths to correct light lwo.
 	Fixed S_Teleport_B_DIG.lws in Vehicles\LargeDigger model paths to correct light lwo.
+
+v0.13.011
+	Fixed model positioning problems with SingleStud_ON.lws in MiscObjs\ElectricFenceStud.
+	Fixed spacing of BD_lights.ae in Vehicles\LargeDigger\BD_lights.
+	Removed Mediumpoly {} section from LargeHeli.ae in Vehicles\LargeHeli; fixed spacing.
+	Removed VLP_back.bmp, VLP_back.lwo, VLP_backflip.lwo, VLP_backlegX.bmp, and VLP_heli.lwo from Vehicles\LargeHeli.
