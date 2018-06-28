@@ -613,7 +613,7 @@ EndBehavior 1
 ParentObject 9
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Shared_TEX\Light.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Shared_TEX\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -627,7 +627,7 @@ LockedChannels 5
 ParentObject 9
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Shared_TEX\Light.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Shared_TEX\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -641,7 +641,7 @@ LockedChannels 5
 ParentObject 9
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Shared_TEX\Light.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Shared_TEX\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -655,7 +655,7 @@ LockedChannels 5
 ParentObject 9
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Shared_TEX\Light.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Shared_TEX\BrickConeY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9

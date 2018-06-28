@@ -1209,7 +1209,7 @@ LockedChannels 24
 ParentObject 22
 ShadowOptions 7
 
-LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Shared\Light.lwo
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Shared\BrickConeY.lwo
 ShowObject 5 7
 ObjectMotion (unnamed)
   9
@@ -1237,7 +1237,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Shared\Light.lwo
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Shared\BrickConeY.lwo
 ShowObject 5 7
 ObjectMotion (unnamed)
   9
@@ -1265,7 +1265,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Shared\Light.lwo
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Shared\BrickConeY.lwo
 ShowObject 5 7
 ObjectMotion (unnamed)
   9
@@ -1293,7 +1293,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Shared\Light.lwo
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Shared\BrickConeY.lwo
 ShowObject 5 7
 ObjectMotion (unnamed)
   9
