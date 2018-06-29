@@ -504,7 +504,7 @@ EndBehavior 1
 LockedChannels 53
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\PC_Meshes\Buildings\Docks\spangle.lwo
+LoadObject \\Mother\LEGO\Meshes\PC_Meshes\Buildings\Docks\LightSpangleY.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
@@ -546,7 +546,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\PC_Meshes\Buildings\Docks\spangle.lwo
+LoadObject \\Mother\LEGO\Meshes\PC_Meshes\Buildings\Docks\LightSpangleY.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9

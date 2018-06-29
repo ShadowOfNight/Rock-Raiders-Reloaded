@@ -159,7 +159,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject D:\StarTeam\Lego\Data\Buildings\Barracks\spangleR.lwo
+LoadObject \\StarTeam\Lego\Data\Buildings\Barracks\LightSpangleR.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -176,7 +176,7 @@ EndBehavior 1
 LockedChannels 4
 ShadowOptions 7
 
-LoadObject D:\StarTeam\Lego\Data\Buildings\Barracks\spangleY.lwo
+LoadObject \\StarTeam\Lego\Data\Buildings\Barracks\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9

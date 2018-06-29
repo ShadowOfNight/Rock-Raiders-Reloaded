@@ -393,3 +393,20 @@ v0.13.013
 	Fixed BM_TickOver.lws in Vehicles\LMLP model paths to correct light lwo.
 	Fixed S_Teleport_L_MLP.lws in Vehicles\LMLP model paths to correct light lwo.
 	Removed A027_LightY.bmp, A068_LightX.bmp, and Light.lwo from World\Shared.
+
+v0.13.014
+	Added Quake.wav into Sounds\Ambient courtesy of Jessietail. (Added into SFX_Ambient line in Samples)
+	Fixed Config Level List formatting in Levels.
+	Pointed Barracks_steam.lws in Buildings\Barracks to new light spangle models in Shared folder.
+	Pointed BarracksExplode2.lws in Buildings\Barracks to new light spangle model in Shared folder.
+	Removed LightSPANKLE.bmp, LightSPANKLER.bmp, spangleR.lwo, and spangleY.lwo from Buildings\Barracks.
+	Pointed Big_teleport.lws in Buildings\BIGTeleport to new light spangle effects in Shared.
+	Pointed Big_teleport_Exp2.lws in Buildings\BIGTeleport to new light spangle effects in Shared.
+	Pointed Big_teleport_Idle.lws in Buildings\BIGTeleport to new light spangle effects in Shared.
+	Pointed BT_teleport.lws in Buildings\BIGTeleport to new light spangle effects in Shared.
+	Pointed dock2.lws in Buildings\Docks to new light spangle effects in Shared.
+	Pointed dockCreate.lws in Buildings\Docks to new light spangle effects in Shared.
+	Removed LightSPANKLE.bmp and spangle.lwo from Buildings\Docks.
+
+
+	

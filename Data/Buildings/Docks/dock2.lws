@@ -179,7 +179,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\PC_Meshes\Buildings\Docks\spangle.lwo
+LoadObject \\Mother\LEGO\Meshes\PC_Meshes\Buildings\Docks\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -193,7 +193,7 @@ LockedChannels 4
 ParentObject 8
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\PC_Meshes\Buildings\Docks\spangle.lwo
+LoadObject \\Mother\LEGO\Meshes\PC_Meshes\Buildings\Docks\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
