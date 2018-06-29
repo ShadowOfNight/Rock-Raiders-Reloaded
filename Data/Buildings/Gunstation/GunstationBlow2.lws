@@ -2447,7 +2447,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Misc\Rock_Explo\spangleR.lwo
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleR.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -2474,7 +2474,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Misc\Rock_Explo\spangleY.lwo
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -2501,7 +2501,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\spangleY.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -2540,7 +2540,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\spangleY.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -2567,7 +2567,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\spangleY.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -2594,7 +2594,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\spangleR.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleR.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -2621,7 +2621,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\spangleR.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleR.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -2648,7 +2648,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\spangleR.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleR.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -2675,7 +2675,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\spangleY.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9

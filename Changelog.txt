@@ -408,5 +408,20 @@ v0.13.014
 	Pointed dockCreate.lws in Buildings\Docks to new light spangle effects in Shared.
 	Removed LightSPANKLE.bmp and spangle.lwo from Buildings\Docks.
 
-
-	
+v0.13.015
+	Pointed GD_S_Explode.lws in Buildings\Geo-Dome\Standard to new light spangle effects in Shared.
+	Pointed GD_S_Explode.lws in Buildings\Geo-Dome\Standard to new light spangle effects in Shared.
+	Pointed GD_U_Explode.lws in Buildings\Geo-Dome\Upgrade to new light spangle effects in Shared.
+	Pointed GunstationBlow2.lws in Buildings\Gunstation to new light spangle effects in Shared.
+	Pointed CR_BOOM.lws in Buildings\OreRefinery to new light spangle effects in Shared.
+	Pointed CR_Dormant.lws in Buildings\OreRefinery to new light spangle effects in Shared.
+	Pointed CR_DropOff.lws in Buildings\OreRefinery to new light spangle effects in Shared.
+	Pointed TELEPORT.lws in Buildings\Teleports to new light spangle effects in Shared.
+	Pointed Teleport_Blow2.lws in Buildings\Teleports to new light spangle effects in Shared.
+	Pointed M-teleportBlow2.lws in Buildings\ToolStation to new light spangle effects in Shared.
+	Removed LightSPANKLE.bmp, LightSPANKLER.bmp, spangleR.lwo, spangleY.lwo
+	Pointed Upgrade_Idle.lws in Buildings\Upgrade to new light spangle effects in Shared.
+	Pointed Upgrade_operate.lws in Buildings\Upgrade to new light spangle effects in Shared.
+	Pointed UpgradeBlow5.lws in Buildings\Upgrade to new light spangle effects in Shared.
+	Pointed Upgrades.lws in Buildings\Upgrade to new light spangle effects in Shared.
+		
