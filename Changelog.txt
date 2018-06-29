@@ -381,3 +381,15 @@ v0.13.012
 	Fixed Heli_hover.lws in Vehicles\LargeHeli model paths to correct light lwo.
 	Fixed Heli_Idle.lws in Vehicles\LargeHeli model paths to correct light lwo.
 	Fixed S_Teleport_HELI.lws in Vehicles\LargeHeli model paths to correct light lwo.
+
+v0.13.013
+	Corrected spacing in LMLP.ae from Vehicles\LMLP.
+	Fixed BM_Drive.lws in Vehicles\LMLP model paths to correct light lwo.
+	Fixed BM_Drive2.lws in Vehicles\LMLP model paths to correct light lwo.
+	Fixed BM_HitB.lws in Vehicles\LMLP model paths to correct light lwo.
+	Fixed BM_HitF.lws in Vehicles\LMLP model paths to correct light lwo.
+	Fixed BM_HitL.lws in Vehicles\LMLP model paths to correct light lwo.
+	Fixed BM_HitR.lws in Vehicles\LMLP model paths to correct light lwo.
+	Fixed BM_TickOver.lws in Vehicles\LMLP model paths to correct light lwo.
+	Fixed S_Teleport_L_MLP.lws in Vehicles\LMLP model paths to correct light lwo.
+	Removed A027_LightY.bmp, A068_LightX.bmp, and Light.lwo from World\Shared.

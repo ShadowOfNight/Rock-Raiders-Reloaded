@@ -1,16 +1,15 @@
-
 Lego* {
 
 	Scale				1.0
 	WheelMesh			BigWheel
-	WheelNullName		tyre_NULL
-	CameraNullName		CAMERA_NULL
+	WheelNullName			tyre_NULL
+	CameraNullName			CAMERA_NULL
 	CameraNullFrames		2
-;	DrillNullName		Drill_Null
+;	DrillNullName			Drill_Null
 	WheelRadius			6.0
-	xPivot			rotator
+	xPivot				rotator
 	PivotMaxZ			0.2
-	FireNullName		Fire_NULL
+	FireNullName			Fire_NULL
 	
 	MediumPoly {	
 		BM_MainBody		L_BM_MainBody
@@ -49,7 +48,7 @@ Lego* {
 		Level0001 {
 		;Drill	
 
-			DLaser				BM_TurretNULL,1,BigLazer
+			DLaser					BM_TurretNULL,1,BigLazer
 			CAB					BMcab_NULL,1
 			LIGHT					BMlight_NULL,1
 			LIGHT					BMLight_NULL,2
@@ -58,7 +57,7 @@ Lego* {
 		}
 		Level0101 {
 		;Scan + Drill
-			DLaser				BM_TurretNULL,1,BigLazer
+			DLaser					BM_TurretNULL,1,BigLazer
 			LMLPradar				Animparentnull,1
 			CAB					BMcab_NULL,1
 			LIGHT					BMlight_NULL,1
@@ -76,54 +75,54 @@ Lego* {
 		Activity_Stand					Stand			
 		Activity_Route					Route				
 		Activity_TeleportIN				TeleportIN			
-		!Activity_HitLeft					HitLeft
-		!Activity_HitRight					HitRight
-		!Activity_HitFront					HitFront
-		!Activity_HitBack					HitBack			
-		!Activity_TickOver					TickOver
+		!Activity_HitLeft				HitLeft
+		!Activity_HitRight				HitRight
+		!Activity_HitFront				HitFront
+		!Activity_HitBack				HitBack			
+		!Activity_TickOver				TickOver
 
 	}
 
 	Stand {
 		FILE		BM_Drive
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 
 	Route {
 		FILE		BM_Drive2
 ;		TRANSCOEF	0.35
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	HitLeft {
 		FILE		BM_HitL
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	HitRight {
 		FILE		BM_HitR
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	HitFront {
 		FILE		BM_HitF
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	HitBack {
 		FILE		BM_HitB
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	TickOver {
 		FILE		BM_Tickover
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	TeleportIN {
 		FILE		S_Teleport_L_MLP
 		TRANSCOEF	0.0
-		LWSFILE	True
+		LWSFILE		True
 	}
 
 }
