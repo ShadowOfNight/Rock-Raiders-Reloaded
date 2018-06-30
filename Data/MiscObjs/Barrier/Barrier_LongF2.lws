@@ -119,7 +119,7 @@ LockedChannels 3
 ParentObject 1
 ShadowOptions 7
 
-LoadObject D:\StarTeam\Lego\Data\Barrier\spangleR.lwo
+LoadObject \\StarTeam\Lego\Data\Barrier\LightSpangleR.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -136,7 +136,7 @@ EndBehavior 1
 ParentObject 2
 ShadowOptions 7
 
-LoadObject D:\StarTeam\Lego\Data\Barrier\spangleY.lwo
+LoadObject \\StarTeam\Lego\Data\Barrier\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9

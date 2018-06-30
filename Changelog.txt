@@ -446,3 +446,12 @@ v0.13.016
 	Pointed Walk4.lws in Creatures\IceMonster to new light spangle effects in Shared.
 	Pointed walkCarrybould.lws in Creatures\IceMonster to new light spangle effects in Shared.
 	Removed LightSPANKLER.bmp and spanrkle.lwo from Creatures\IceMonster.
+
+v0.13.017
+	Changed Bonus11 folder name in Levels\BonusLevels to match map name; changed cfg links and file names to reflect this.
+	Pointed Barrier_LongF2.lws in MiscObjs\Barrier to new light spangle effects in Shared.
+	Removed LightSPANKLE.bmp, LightSPANKLER.bmp, spangleR.lwo, and spangleY.lwo from MiscObjs\Barrier.
+	Pointed Rock_Explo.lws in MiscObjs\Effects to new light spangle effects in Shared.
+	Removed LightSPANKLE.bmp, LightSPANKLER.bmp, spangleR.lwo, and spangleY.lwo from MiscObjs\Effects
+	Removed medium and low poly sections from Bulldozer.ae in Vehicles\Bulldozer; fixed spacing issues.
+	
