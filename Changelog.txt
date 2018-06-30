@@ -424,4 +424,25 @@ v0.13.015
 	Pointed Upgrade_operate.lws in Buildings\Upgrade to new light spangle effects in Shared.
 	Pointed UpgradeBlow5.lws in Buildings\Upgrade to new light spangle effects in Shared.
 	Pointed Upgrades.lws in Buildings\Upgrade to new light spangle effects in Shared.
-		
+
+v0.13.016
+	Pointed swiperighthand.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Added Activity_HitHard to Slug.ae in Creatures\Slug.
+	Added in VL_SlugHit.lws to Creatures\Slug. (activates slug damage animation)
+	Removed spangle.lwo from World\Shared.
+	Pointed Carry_RestStand.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Pointed CRUMBLE2.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Pointed emergefromwall_Rocks.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Pointed enter_wall_final.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Pointed Explosion.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Pointed pickup_eat.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Pointed ScoopUp.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Pointed STAMP.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Pointed ThrowSmallbould.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Pointed Turn90Left.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Pointed Turn90Right.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Pointed turnLCarrybould.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Pointed turnRCarrybould.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Pointed Walk4.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Pointed walkCarrybould.lws in Creatures\IceMonster to new light spangle effects in Shared.
+	Removed LightSPANKLER.bmp and spanrkle.lwo from Creatures\IceMonster.

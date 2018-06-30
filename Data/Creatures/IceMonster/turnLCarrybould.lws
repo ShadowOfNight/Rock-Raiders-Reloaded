@@ -409,7 +409,7 @@ EndBehavior 1
 ParentObject 18
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\Rmonster\spanrkle.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\Rmonster\LightSpangleR.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -420,7 +420,7 @@ EndBehavior 1
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\Rmonster\spanrkle.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Creatures\Rmonster\LightSpangleR.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9

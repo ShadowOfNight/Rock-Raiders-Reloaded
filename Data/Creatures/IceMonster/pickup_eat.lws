@@ -504,7 +504,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Creatures\Rmonster\spanrkle.lwo
+LoadObject \\Lego\Data\Creatures\Rmonster\LightSpangleR.lwo
 ShowObject 0 7
 ObjectMotion (unnamed)
   9
@@ -515,7 +515,7 @@ EndBehavior 1
 ParentObject 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Creatures\Rmonster\spanrkle.lwo
+LoadObject \\Lego\Data\Creatures\Rmonster\LightSpangleR.lwo
 ShowObject 0 7
 ObjectMotion (unnamed)
   9

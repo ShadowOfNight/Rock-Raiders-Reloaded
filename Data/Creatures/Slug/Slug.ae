@@ -2,7 +2,7 @@
 Lego* {
 
 	Scale				1.0
-	DepositNullName		Mini_NULL
+	DepositNullName			Mini_NULL
 
 	Activities {
 		Activity_Stand					Stand
@@ -10,6 +10,7 @@ Lego* {
 		Activity_Emerge					Emerge
 		Activity_Enter					Enter
 		Activity_Repair					Suck
+		Activity_HitHard				HitHard
 	}
 
 	Suck {
@@ -36,6 +37,11 @@ Lego* {
 
 	Enter {
 		FILE		VL_SlugDig
+		LWSFILE		TRUE
+	}
+
+	HitHard {
+		File		VL_SlugHit
 		LWSFILE		TRUE
 	}
 }
