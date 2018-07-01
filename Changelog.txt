@@ -461,3 +461,7 @@ v0.13.018
 	Added LMI Video lines back into Main {}; temporarily dummied out.
 	Replaced barrierplace.wav, barrierwood.wav, BTHUD.wav, and Drop.wav in Sounds\Buildings with originals for now.
 	Replaced sonic_blaster.wav in Sounds\Creatures with original for now.
+
+v0.13.019
+	Removed entire Training folder from Sounds\Streamed. New voiceovers will be made once tutorials are finished.
+	Removed Failure, Names, Objectiv, and Success folders from Sounds\Streamed.  New voiceovers for these will need to be done once all maps are finalized.
