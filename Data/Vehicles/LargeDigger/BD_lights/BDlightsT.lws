@@ -39,7 +39,7 @@ EndBehavior 1
 LockedChannels 2
 ShadowOptions 7
 
-LoadObject D:\StarTeam\Lego\Data\Vehicles\LargeDigger\BDlights\spangleY.lwo
+LoadObject \\StarTeam\Lego\Data\Vehicles\LargeDigger\BDlights\LightSpangleY.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -58,7 +58,7 @@ EndBehavior 1
 ParentObject 2
 ShadowOptions 7
 
-LoadObject D:\StarTeam\Lego\Data\Vehicles\LargeDigger\BDlights\spangleR.lwo
+LoadObject \\StarTeam\Lego\Data\Vehicles\LargeDigger\BDlights\LightSpangleR.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9

@@ -14,6 +14,7 @@ Goals:
 --------------
 - Adding new creatures, objects, buildings, vehicles, and levels to the game.
 - Cleaning up various aspects of configuration file code.
+- New sounds and effects.
 - New tutorials to reflect changes to various gameplay elements.
 - New voiceovers.
 - Properly sorting shared textures and models.
@@ -57,10 +58,6 @@ JimbobJeffers:
 	- Quake.wav - edited from Avalanche Sound by nps.gov (pd) from soundbible.com. 
 
 - Buildings
-	- barrierplace.wav - modified by Axel.
-	- barrierwood.wav - modified by Axel.
-	- BTHUD.wav - modified by Axel.
-	- Drop.wav - modified by Axel.
 	- elec1, elec2, elec3, elec4, and elec5.wav - modified by Axel.
 	- explode1.wav - created by Yourself.
 	- explode2.wav - created by Yourself.

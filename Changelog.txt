@@ -455,3 +455,9 @@ v0.13.017
 	Removed LightSPANKLE.bmp, LightSPANKLER.bmp, spangleR.lwo, and spangleY.lwo from MiscObjs\Effects
 	Removed medium and low poly sections from Bulldozer.ae in Vehicles\Bulldozer; fixed spacing issues.
 	
+v0.13.018
+	Pointed BDLightsR.lws, BdLightsS.lws, and BDLightsT.lws in Vehicles\LargeDigger\BD_lights to new light spangle effects in Shared.
+	Added new intro video as a replacement for original lmi video.
+	Added LMI Video lines back into Main {}; temporarily dummied out.
+	Replaced barrierplace.wav, barrierwood.wav, BTHUD.wav, and Drop.wav in Sounds\Buildings with originals for now.
+	Replaced sonic_blaster.wav in Sounds\Creatures with original for now.
