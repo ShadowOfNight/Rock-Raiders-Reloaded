@@ -465,3 +465,9 @@ v0.13.018
 v0.13.019
 	Removed entire Training folder from Sounds\Streamed. New voiceovers will be made once tutorials are finished.
 	Removed Failure, Names, Objectiv, and Success folders from Sounds\Streamed.  New voiceovers for these will need to be done once all maps are finalized.
+
+v0.13.020
+	Changed building size in BIGTeleport.ae in Buildings\BIGTeleport; fixed some spacing issues as well.
+	Added green light spangle effect (LightSpangleG.bmp and LightSpangleG.lwo) into Shared.
+	Added Info_LavaErode line into InfoMessages; added InfoSFX_Erosion into Samples (currently dummied out pending new voiceover).
+	Added info_erode.bmp into Interface\Buttons.
