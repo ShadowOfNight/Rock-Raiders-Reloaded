@@ -471,3 +471,10 @@ v0.13.020
 	Added green light spangle effect (LightSpangleG.bmp and LightSpangleG.lwo) into Shared.
 	Added Info_LavaErode line into InfoMessages; added InfoSFX_Erosion into Samples (currently dummied out pending new voiceover).
 	Added info_erode.bmp into Interface\Buttons.
+	
+v0.13.021
+	Changed name of Ore1st.lwo in MiscObjs\Ore to Ore.lwo. (Updated cfg link to match)
+	Removed Info_GenericDeath line from InfoMessages.
+	Added Info_LegoManDeath, Info_VehicleDeath, Info_CavernLocated, Info_WallReinforced, and Info_PathCompleted to InfoMessages.
+	Added cavefound.bmp, infoRein.bmp, and info_path.bmp to Interface\Buttons.
+	Changed Info_FoundMinifigure text to say A missing Rock Raider has been found.
