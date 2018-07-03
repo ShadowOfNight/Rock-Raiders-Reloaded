@@ -478,3 +478,6 @@ v0.13.021
 	Added Info_LegoManDeath, Info_VehicleDeath, Info_CavernLocated, Info_WallReinforced, and Info_PathCompleted to InfoMessages.
 	Added cavefound.bmp, infoRein.bmp, and info_path.bmp to Interface\Buttons.
 	Changed Info_FoundMinifigure text to say A missing Rock Raider has been found.
+
+v0.13.022
+	Removed InGame folder from Sounds\Streamed. (New voiceovers needed).
