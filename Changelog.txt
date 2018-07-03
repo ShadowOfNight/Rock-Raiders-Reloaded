@@ -481,3 +481,11 @@ v0.13.021
 
 v0.13.022
 	Removed InGame folder from Sounds\Streamed. (New voiceovers needed).
+
+v0.13.023
+	Removed Pointer_Teleport, Pointer_CantTeleport, Pointer_Reinforce, Pointer_CantReinforce, Pointer_Zoom, Pointer_CantZoom, Pointer_Help, Pointer_CantHelp, Pointer_Dynamite, and Pointer_CantDynamite from Pointers in the cfg.
+	Removed TeleportPointer.bmp, ANtelep.bmp, Areinf.bmp, ANreinf.bmp, Azoom.bmp, ANzoom.bmp, and AHelp.bmp from Interface\Pointers.
+	Replaced all bmps in Interface\Pointers.
+	Added Adrill.bmp, Amove.bmp, ANdrill.bmp, ClearRub.bmp, and Vehic_load.bmp into Interface\Pointers.
+	Re-linked Pointer_VehicleCantDig, Pointer_VehicleDig, Pointer_VehiclePickUp, Pointer_VehicleGo, and Pointer_VehicleClear lines in Pointers {} to new bmps.
+	Removed Pointer_Go and Pointer_CantGo lines from Pointers {}, as they appear to be unused since non-generic lines are present.
