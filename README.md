@@ -89,6 +89,11 @@ JimbobJeffers:
 
 Changelog
 --------------
+v0.13.025
+- Added PM67a and PM67b for all ProMeshes. 
+- Removed Pointer_Pickup, Pointer_Drill, Pointer_CantDrill, Pointer_PutDown, and Pointer_Clear lines from the cfg.
+- Removed OUT.flh and PUT_DOWN.flh from Interface\Pointers.
+
 v0.13.024
 - Tweaked BrickConeY.lwo color (in Shared).
 - Removed old changelog from repository assets.
