@@ -89,6 +89,12 @@ JimbobJeffers:
 
 Changelog
 --------------
+v0.13.027
+- Re-linked Carry_RestStand.lws, Crumble2.lws, emergefromwall_Rocks.lws, enter_wall_final.lws, Explosion.lws, pickup_eat.lws, ScoopUp.lws, Stamp.lws, swipelefthanddown.lws, ThrowSmallbould.lws, Turn90Left.lws, Turn90Right.lws, turnLCarrybould.lws, turnRCarrybould.lws, Walk4.lws, and walkCarrybould.lws in Creatures\PyriteMonster to new light spangle effects.
+- Re-linked Carry_RestStand.lws, Crumble2.lws, emergefromwall_Rocks.lws, enter_wall_final.lws, Explosion.lws, pickup_eat.lws, ScoopUp.lws, Stamp.lws, swipelefthand.lws, ThrowSmallbould.lws, Turn90Left.lws, Turn90Right.lws, turnLCarrybould.lws, turnRCarrybould.lws, Walk4.lws, and walkCarrybould.lws in Creatures\PyriteMonster to new light spangle effects.
+- Removed spanrkle.lwo from Creatures\PyriteMonster.
+- Removed LightSPANKLER.bmp and spanrkle.lwo from Creatures\Rmonster.
+
 v0.13.026
 - Re-linked Carry_RestStand.lws, Crumble2.lws, emergefromwall_Rocks.lws, enter_wall_final.lws, Explosion.lws, pickup_eat.lws, ScoopUp.lws, Stamp.lws, swipelefthanddown.lws, ThrowSmallbould.lws, Turn90Left.lws, Turn90Right.lws, turnLCarrybould.lws, turnRCarrybould.lws, Walk4.lws, and walkCarrybould.lws in Creatures\LavaMonster to new light spangle effects.
 - Removed spanrkle.lwo from Creatures\LavaMonster.
