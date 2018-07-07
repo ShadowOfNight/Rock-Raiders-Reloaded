@@ -1,0 +1,5 @@
+[Test01]
+Objective:			Welcome to the debug room. This is where shit gets tested and stuff.
+Failure:			You're fired!
+Completion:			Some random congratulatory nonsense.
+CrystalFailure:			Everyone put their drills in the Tool Store and call it a day before another screwup occurs.

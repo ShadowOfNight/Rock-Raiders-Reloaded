@@ -89,6 +89,17 @@ JimbobJeffers:
 
 Changelog
 --------------
+v0.13.029
+- Removed SND_BIGDIGDRILL, SND_BIGDIGDRILLFADE, SND_WALKDRILL, SND_WALKDRILLFADE, SFX_Drill, SFX_DrillFade, SND_pilotdrill, and SND_pilotdrillfade lines from Samples {}.
+- Added DrillSFX_BigDrill, DrillSFX_BigDrillFade, DrillSFX_SmallDrill, DrillSFX_SmallDrillFade, DrillSFX_PilotDrill, and DrillSFX_PilotDrillFade lines to Samples {}.
+- Changed drill sound links in LargeDigger stats section to new BigDrill sound lines.
+- Changed drill sound links in Small Digger stats section to new SmallDrill sound lines.
+- Changed drill sound links in Pilot stats section to new PilotDrill sound lines.
+- Removed accidental duplicate Bat {} entry in Stats.
+- Temporarily added Debug Quadrant to BonusLevels; added cfg entries.
+- Uncommented SND_Music line previously added to Samples; pointed temporarily to dummy.wav.
+- Removed WALKDRILL.wav and WALKDRILLFADE.wav from Sounds\Vehicles\Walker.
+
 v0.13.028
 - Removed spangleR.lwo and spangleY.lwo from World\Shared.
 - Pointed VLPRechargeCrystal.lws in Mini-Figures\Pilot to green light spangle effect.
