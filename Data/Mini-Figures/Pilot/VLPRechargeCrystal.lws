@@ -326,7 +326,7 @@ LockedChannels 9
 ParentObject 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\spangleY.lwo
+LoadObject \\Lego\Data\Shared\LightSpangleG.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -725,7 +725,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\spangleY.lwo
+LoadObject \\Lego\Data\Shared\LightSpangleG.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9

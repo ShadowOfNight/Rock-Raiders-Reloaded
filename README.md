@@ -89,6 +89,13 @@ JimbobJeffers:
 
 Changelog
 --------------
+v0.13.028
+- Removed spangleR.lwo and spangleY.lwo from World\Shared.
+- Pointed VLPRechargeCrystal.lws in Mini-Figures\Pilot to green light spangle effect.
+- Pointed smokefx.lws in Creatures\Scorpion to new light spangle effect.
+- Added Crumble activity to Spider.ae.
+- Added smokefx.lwo to Creatures\Spider.
+
 v0.13.027
 - Re-linked Carry_RestStand.lws, Crumble2.lws, emergefromwall_Rocks.lws, enter_wall_final.lws, Explosion.lws, pickup_eat.lws, ScoopUp.lws, Stamp.lws, swipelefthanddown.lws, ThrowSmallbould.lws, Turn90Left.lws, Turn90Right.lws, turnLCarrybould.lws, turnRCarrybould.lws, Walk4.lws, and walkCarrybould.lws in Creatures\PyriteMonster to new light spangle effects.
 - Re-linked Carry_RestStand.lws, Crumble2.lws, emergefromwall_Rocks.lws, enter_wall_final.lws, Explosion.lws, pickup_eat.lws, ScoopUp.lws, Stamp.lws, swipelefthand.lws, ThrowSmallbould.lws, Turn90Left.lws, Turn90Right.lws, turnLCarrybould.lws, turnRCarrybould.lws, Walk4.lws, and walkCarrybould.lws in Creatures\PyriteMonster to new light spangle effects.

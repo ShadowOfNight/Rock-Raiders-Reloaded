@@ -6,6 +6,7 @@ Lego* {
 	Activities {
 		Activity_Stand					Stand
 		Activity_Route					Walk
+		Activity_Crumble				Crumble
 	}
 
 	Walk {
@@ -16,6 +17,12 @@ Lego* {
 
 	Stand {
 		FILE		SpiderStand
+		TRANSCOEF	0.0
+		LWSFILE		TRUE
+	}
+ 
+	Crumble {
+		FILE		smokefx
 		TRANSCOEF	0.0
 		LWSFILE		TRUE
 	}
