@@ -70,15 +70,17 @@ JimbobJeffers:
 	- slugIN.wav - edited by Axel.
 	- slugOUT.wav - edited by Axel.
 
+- Interface
+	- CLICK.wav - mixed from original click.wav and clik2.wav sounds.
+	- panel.wav - edited by Axel.
+	- ping.wav - edited from Beepa.wav by Axel.
+
 - Minifigure
 	- Pdrill.wav - created by Yourself.
 
-- Interface
-	- CLICK.wav - created by Yourself.
-	- wallclick.wav - created by Yourself.
-
 - Scene
 	- laser1.wav - edited from soransgun.mp3 from trekcore.com
+	- Lazhit.wav - edited from smallexplosion1.mp3 from trekcore.com
 	- ROKBREK1.wav - created by Yourself; edited later by yours truly.
 
 - Vehicles\BIGDIG
@@ -89,6 +91,13 @@ JimbobJeffers:
 
 Changelog
 --------------
+v0.13.030
+- Changed textures 60 and 71 respectively in all WorldTextures.
+- Replaced Click.wav and ping.wav in Sounds\Interface with new versions.
+- Replaced NotOkay.wav, thud.wav, and wallclick.wav in Sounds\Interface with originals.
+- Added drip6.wav to Sounds\Ambient; added to SFX_Drip in Samples.
+- Added list for shared models\textures.
+
 v0.13.029
 - Removed SND_BIGDIGDRILL, SND_BIGDIGDRILLFADE, SND_WALKDRILL, SND_WALKDRILLFADE, SFX_Drill, SFX_DrillFade, SND_pilotdrill, and SND_pilotdrillfade lines from Samples {}.
 - Added DrillSFX_BigDrill, DrillSFX_BigDrillFade, DrillSFX_SmallDrill, DrillSFX_SmallDrillFade, DrillSFX_PilotDrill, and DrillSFX_PilotDrillFade lines to Samples {}.

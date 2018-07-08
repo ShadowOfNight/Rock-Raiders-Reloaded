@@ -1,0 +1,24 @@
+SHARED MODEL\TEXTURE LIST
+=========================
+
+LightSpangleR.lwo used by:
+
+Buildings\Barracks\Barracks_steam.lws
+
+Buildings\BIGTeleport\Big_teleport.lws
+		      Big_teleport_Exp2.lws
+		      Big_teleport_Idle.lws
+		      BT_teleport.lws
+--------------------------------------------------
+LightSpangleY.lwo used by:
+
+Buildings\Barracks\Barracks_steam.lws
+		   BarracksExplode2.lws
+
+Buildings\BIGTeleport\Big_teleport.lws
+		      Big_teleport_Exp2.lws
+		      Big_teleport_Idle.lws
+		      BT_teleport.lws
+
+Buildings\Docks\dock2.lws
+		dockCreate.lws
