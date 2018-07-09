@@ -92,6 +92,9 @@ JimbobJeffers:
 
 Changelog
 --------------
+v0.13.032
+- Replaced Priorities.bmp in Interface\PriorityPanel since this was apparently overlooked.
+
 v0.13.031
 - Replaced pdrillfade.wav in Sounds\Minifigure with new version.
 - Replaced Drill_Logo.bmp in World\Shared with higher quality RRU logo.
