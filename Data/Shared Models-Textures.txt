@@ -9,6 +9,11 @@ Buildings\BIGTeleport\Big_teleport.lws
 		      Big_teleport_Exp2.lws
 		      Big_teleport_Idle.lws
 		      BT_teleport.lws
+
+Buildings\Geo-Dome\Standard\GD_S_Explode.lws
+		   Upgrade\GD_U_Explode.lws
+
+Buildings\Gunstation\GunstationBlow2.lws
 --------------------------------------------------
 LightSpangleY.lwo used by:
 
@@ -22,3 +27,9 @@ Buildings\BIGTeleport\Big_teleport.lws
 
 Buildings\Docks\dock2.lws
 		dockCreate.lws
+
+Buildings\Geo-Dome\Standard\GD_S_Explode.lws
+		   Upgrade\GD_U_Explode.lws
+
+Buildings\Gunstation\GunstationBlow2.lws
+

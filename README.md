@@ -77,6 +77,7 @@ JimbobJeffers:
 
 - Minifigure
 	- Pdrill.wav - created by Yourself.
+	- Pdrillfade.wav - edited from original WalkDrillFade.wav. 
 
 - Scene
 	- laser1.wav - edited from soransgun.mp3 from trekcore.com
@@ -91,6 +92,10 @@ JimbobJeffers:
 
 Changelog
 --------------
+v0.13.031
+- Replaced pdrillfade.wav in Sounds\Minifigure with new version.
+- Replaced Drill_Logo.bmp in World\Shared with higher quality RRU logo.
+
 v0.13.030
 - Changed textures 60 and 71 respectively in all WorldTextures.
 - Replaced Click.wav and ping.wav in Sounds\Interface with new versions.
@@ -203,7 +208,6 @@ v0.13.016
 - Removed LightSPANKLER.bmp and spanrkle.lwo from Creatures\IceMonster.
 
 v0.13.015
-- Pointed GD_S_Explode.lws in Buildings\Geo-Dome\Standard to new light spangle effects in Shared.
 - Pointed GD_S_Explode.lws in Buildings\Geo-Dome\Standard to new light spangle effects in Shared.
 - Pointed GD_U_Explode.lws in Buildings\Geo-Dome\Upgrade to new light spangle effects in Shared.
 - Pointed GunstationBlow2.lws in Buildings\Gunstation to new light spangle effects in Shared.
