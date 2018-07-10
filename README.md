@@ -36,7 +36,6 @@ Axel (aka Eaol):
 
 Cirevam: 
 - High-polygon sonic blaster model.
-- High-polygon energy crystal model.
 - For providing several animations needed for Geo-Dome upgrade.
 
 Cyrem:
@@ -92,6 +91,9 @@ JimbobJeffers:
 
 Changelog
 --------------
+v0.13.033
+- New Energy Crystal model more accurate to the real piece.
+
 v0.13.032
 - Replaced Priorities.bmp in Interface\PriorityPanel since this was apparently overlooked.
 
