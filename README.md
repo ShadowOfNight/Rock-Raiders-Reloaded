@@ -33,6 +33,7 @@ Axel (aka Eaol):
 - HD Ice, Lava, and Rock biome remakes. 
 - Gold, Ice Rock, Pyrite, and Sand biomes.
 - Pyrite Monster.
+- Several sound effects (see Sounds sources below for details).
 
 Cirevam: 
 - High-polygon sonic blaster model.
@@ -44,12 +45,16 @@ Cyrem:
 Jessietail: 
 - For advice, help, ideas, and many contributions to this project.
 - High-polygon teal 2x2 brick model.
-- High-polygon 1x1 LEGO cone model.
+- High-polygon 1x1 cone model.
+- High-polygon 1x1 5-point rock crystal model.
 - Quake.wav
 
 JimbobJeffers:
 - Custom map "Crystal Catastrophe."
 - Custom map "Hard Luck."
+
+Yourself:
+- Some sound effects (see Sounds sources below for details).
 
 
 **Sounds Sources**
@@ -91,15 +96,20 @@ JimbobJeffers:
 
 Changelog
 --------------
+v0.14.000
+- Added blue light spangle effect to Shared folder. (LightSpangleB.bmp and .lwo respectively)
+- Re-skinned Ice Monster with new set of textures. (IM_face.bmp, IM_FSide.bmp, IM_Hand.bmp, IM_teeth.bmp, IM_text1.bmp, IM_text2.bmp)
+- Pointed Ice Monster animations to blue light spangle.
+
 v0.13.033
 - New Energy Crystal model more accurate to the real piece.
 
 v0.13.032
-- Replaced Priorities.bmp in Interface\PriorityPanel since this was apparently overlooked.
+- Replaced priority panel interface bmp since this was apparently overlooked.
 
 v0.13.031
-- Replaced pdrillfade.wav in Sounds\Minifigure with new version.
-- Replaced Drill_Logo.bmp in World\Shared with higher quality RRU logo.
+- Replaced minifigure drill fade sound with new version.
+- Replaced the shared Rock Raiders logo with higher quality Rock Raiders United version.
 
 v0.13.030
 - Changed textures 60 and 71 respectively in all WorldTextures.
@@ -222,7 +232,7 @@ v0.13.015
 - Pointed TELEPORT.lws in Buildings\Teleports to new light spangle effects in Shared.
 - Pointed Teleport_Blow2.lws in Buildings\Teleports to new light spangle effects in Shared.
 - Pointed M-teleportBlow2.lws in Buildings\ToolStation to new light spangle effects in Shared.
-- Removed LightSPANKLE.bmp, LightSPANKLER.bmp, spangleR.lwo, spangleY.lwo
+- Removed LightSPANKLE.bmp, LightSPANKLER.bmp, spangleR.lwo, spangleY.lwo from Buildings\ToolStation.
 - Pointed Upgrade_Idle.lws in Buildings\Upgrade to new light spangle effects in Shared.
 - Pointed Upgrade_operate.lws in Buildings\Upgrade to new light spangle effects in Shared.
 - Pointed UpgradeBlow5.lws in Buildings\Upgrade to new light spangle effects in Shared.
