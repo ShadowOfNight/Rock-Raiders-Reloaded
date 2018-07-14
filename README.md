@@ -80,10 +80,11 @@ Yourself:
 	- ping.wav - edited from Beepa.wav by Axel.
 
 - Minifigure
-	- Pdrill.wav - created by Yourself.
+	- Pdrill.wav - edited from original Pdrill.wav sound.
 	- Pdrillfade.wav - edited from original WalkDrillFade.wav. 
 
 - Scene
+	- call2arms.wav - mixed from alert024.mp3 and alert09.mp3 from trekcore.com.
 	- laser1.wav - edited from soransgun.mp3 from trekcore.com
 	- Lazhit.wav - edited from smallexplosion1.mp3 from trekcore.com
 	- ROKBREK1.wav - created by Yourself; edited later by yours truly.
@@ -96,6 +97,9 @@ Yourself:
 
 Changelog
 --------------
+v0.14.001
+- Replaced Raider drilling sound with new version edited from original.
+
 v0.14.000
 - Added blue light spangle effect to Shared folder. (LightSpangleB.bmp and .lwo respectively)
 - Re-skinned Ice Monster with new set of textures. (IM_face.bmp, IM_FSide.bmp, IM_Hand.bmp, IM_teeth.bmp, IM_text1.bmp, IM_text2.bmp)
@@ -414,7 +418,7 @@ v0.11.000
 - Completely redid all stats for Spider in the cfg.
 
 v0.10.001
-- Overhauled WeaponTypes section in the cfg. Virtually all stats have been changed.
+- Overhauled WeaponTypes section in the cfg. Virtually all stats have been changed; infinite drain rate bug fixed as well.
 - Changed BigLazer references in Upgrade section of Gunstation.ae to GunStation.
 
 v0.10.000

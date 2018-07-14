@@ -47,6 +47,58 @@ Buildings\ToolStation\M-teleportBlow2.lws
 
 Buildings\Upgrade\UpgradeBlow5.lws
 
+Creatures\IceMonster\swiperighthand.lws
+
+Creatures\LavaMonster\Carry_RestStand.lws
+		      CRUMBLE2.lws
+		      emergefromwall_Rocks.lws
+		      enter_wall_final.lws
+		      Explosion.lws
+		      pickup_eat.lws
+		      ScoopUp.lws
+		      STAMP.lws
+		      swipelefthanddown.lws
+		      ThrowSmallbould.lws
+		      Turn90Left.lws
+		      Turn90Right.lws
+		      turnLCarrybould.lws
+		      turnRCarrybould.lws
+		      Walk4.lws
+		      walkCarrybould.lws
+
+Creatures\Rmonster\Carry_RestStand.lws
+		   CRUMBLE2.lws
+		   emergefromwall_Rocks.lws
+		   enter_wall_final.lws
+		   Explosion.lws
+		   pickup_eat.lws
+		   ScoopUp.lws
+		   STAMP.lws
+		   swipelefthand.lws
+		   ThrowSmallbould.lws
+		   Turn90Left.lws
+		   Turn90Right.lws
+		   turnLCarrybould.lws
+		   turnRCarrybould.lws
+		   Walk4.lws
+		   walkCarrybould.lws
+
+Creatures\PyriteMonster\Carry_RestStand.lws
+		        CRUMBLE2.lws
+		        emergefromwall_Rocks.lws
+		        enter_wall_final.lws
+		        Explosion.lws
+		        pickup_eat.lws
+		        ScoopUp.lws
+		        STAMP.lws
+		        swipelefthanddown.lws
+		        ThrowSmallbould.lws
+		        Turn90Left.lws
+		        Turn90Right.lws
+		        turnLCarrybould.lws
+		        turnRCarrybould.lws
+		        Walk4.lws
+		        walkCarrybould.lws
 --------------------------------------------------
 LightSpangleY.lwo used by:
 
@@ -82,3 +134,16 @@ Buildings\Upgrade\Upgrade_Idle.lws
 		  Upgrade_operate.lws
 		  UpgradeBlow5.lws
 		  Upgrades.lws
+
+Creatures\IceMonster\swiperighthand.lws
+
+Creatures\LavaMonster\swipelefthanddown.lws
+
+Creatures\Rmonster\swipelefthand.lws
+
+Creatures\PyriteMonster\swipelefthanddown.lws
+
+Creatures\Scorpion\smokefx.lws
+
+Creatures\Spider\smokefx.lws
+
