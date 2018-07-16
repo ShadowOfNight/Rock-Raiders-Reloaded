@@ -1,16 +1,18 @@
 LWSC
 1
 
+RenderRangeType 1
 FirstFrame 0
 LastFrame 135
 FrameStep 1
+RenderRangeArbitrary 0-135
 PreviewFirstFrame 0
-PreviewLastFrame 135
+PreviewLastFrame 136
 PreviewFrameStep 1
-FramesPerSecond 25.000000
+FramesPerSecond 25
 
 AddNullObject Beam _NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -23,8 +25,8 @@ LockedChannels 320
 ParentObject 11
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Trans_Tube.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Tube.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   15
@@ -93,8 +95,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Trans_Tube.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Tube.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   5
@@ -143,8 +145,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Trans_Snake.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Snake.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   10
@@ -152,7 +154,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0
   0 113 7.5 196 0 0 0.4459997 4.259779 0.4580002
   11 1 0 0 0
-  0 71 7.5 99.99998 0 0 0.4940007 3.343467 0.4960002
+  0 71 7.5 99.99997 0 0 0.4940007 3.343467 0.4960002
   20 1 0 0 0
   0 45 7.5 -32 0 0 0.5500002 2.5352 0.5520001
   29 1 0 0 0
@@ -199,8 +201,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Trans_Snake.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Snake.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   8
@@ -250,8 +252,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Trans_Circ.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Circ.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -302,8 +304,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Trans_Tube.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Tube.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   12
@@ -323,7 +325,7 @@ ObjectMotion (unnamed)
   27 1 0 0 0
   -0.2364 -48.6001 7 729.9999 0 0 0.8999999 12.2 0.9100003
   45 1 0 0 0
-  -0.2364 -26.6001 7 789.9999 0 0 0.8879998 14 0.8940002
+  -0.2364 -26.6001 7 789.9998 0 0 0.8879998 14 0.8940002
   47 1 0 0 0
   -0.2364 -44.6001 7 1000 0 0 0.8079997 12.1 0.8140001
   55 0 0 0 0
@@ -380,8 +382,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Trans_Tube.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Tube.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   5
@@ -442,8 +444,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Trans_Tube.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Tube.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   10
@@ -500,14 +502,14 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Trans_Disk.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Disk.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   17
   -0.5 4 7.5 0 0 0 0 1 0
   0 0 0 0 0
-  -0.5 4 7.5 -99.99998 0 0 0.319 1 0.3616666
+  -0.5 4 7.5 -99.99997 0 0 0.319 1 0.3616666
   5 0 0 0 0
   -0.5 4 7.5 -140 0 0 1.5 1 1.5
   6 0 0 0 0
@@ -542,11 +544,11 @@ ObjectMotion (unnamed)
 EndBehavior 1
 LockedChannels 133
 ParentObject 1
-ObjDissolve 0.396000
+ObjDissolve 0.396
 ShadowOptions 7
 
 AddNullObject Mini_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -558,11 +560,11 @@ ObjectMotion (unnamed)
   135 0 0 0 0
 EndBehavior 1
 LockedChannels 3
-ParentObject 29
+ParentObject 27
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPtorso.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPtorso.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   44
@@ -610,17 +612,17 @@ ObjectMotion (unnamed)
   99 0 0 0 0
   0 0 0 0.5434402 -3.910569 1.440292 1 1 1
   100 0 0 0 0
-  0 0 0 0.5434402 -8.999999 1.440292 1 1 1
+  0 0 0 0.5434402 -8.999998 1.440292 1 1 1
   101 0 0 0 0
   0 0 0 0.5434402 -9.508787 1.440292 1 1 1
   102 0 0 0 0
   0 0 0 0.5434402 -9.72596 1.440292 1 1 1
   104 0 0 0 0
-  0 0 0 0.5434402 -9.863126 1.440292 1 1 1
+  0 0 0 0.5434402 -9.863125 1.440292 1 1 1
   106 0 0 0 0
-  0 0 0 0.5434402 -9.692091 1.440292 1 1 1
+  0 0 0 0.5434402 -9.69209 1.440292 1 1 1
   108 0 0 0 0
-  0 0 0 0.5434402 -8.999999 1.440292 1 1 1
+  0 0 0 0.5434402 -8.999998 1.440292 1 1 1
   109 0 0 0 0
   0 0 0 0.5434402 -7.490142 1.440292 1 1 1
   110 0 0 0 0
@@ -675,8 +677,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPhead.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPhead.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   17
@@ -690,7 +692,7 @@ ObjectMotion (unnamed)
   75 0 0 0 0
   0 1.325 0 -0.6937351 -0.5270455 -1.907702 1.15 1.15 1.15
   81 0 0 0 0
-  0 1.325 0 -6.559279 -4.900961 -1.758001 1.15 1.15 1.15
+  0 1.325 0 -6.559278 -4.900961 -1.758001 1.15 1.15 1.15
   87 0 0 0 0
   0 1.325 0 -1.773012 -6.899993 -1.483223 1.15 1.15 1.15
   93 0 0 0 0
@@ -735,8 +737,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPthighL.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPthighL.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   72
@@ -760,7 +762,7 @@ ObjectMotion (unnamed)
   72 0 0 0 0
   -0.45 -0.245 0 4.485307 -8.322617 0.4601574 1 1 1
   73 0 0 0 0
-  -0.45 -0.245 0 5.817205 -12.12542 0.4348726 1 1 1
+  -0.45 -0.245 0 5.817204 -12.12542 0.4348726 1 1 1
   74 0 0 0 0
   -0.45 -0.245 0 6.333992 -15.61715 0.4338142 1 1 1
   75 0 0 0 0
@@ -768,7 +770,7 @@ ObjectMotion (unnamed)
   76 0 0 0 0
   -0.45 -0.245 0 3.366559 -22.45674 0.5702721 1 1 1
   77 0 0 0 0
-  -0.45 -0.245 0 1.115669 -25.85439 0.6457386 1 1 1
+  -0.45 -0.245 0 1.115669 -25.85439 0.6457385 1 1 1
   78 0 0 0 0
   -0.45 -0.245 0 -0.4028559 -28.92942 0.6947228 1 1 1
   79 0 0 0 0
@@ -776,9 +778,9 @@ ObjectMotion (unnamed)
   80 0 0 0 0
   -0.45 -0.245 0 -0.6009887 -32.38164 0.9089202 1 1 1
   81 0 0 0 0
-  -0.45 -0.245 0 -0.09298731 -19.89791 0.9342257 1 1 1
+  -0.45 -0.245 0 -0.0929873 -19.89791 0.9342257 1 1 1
   82 0 0 0 0
-  -0.45 -0.245 0 -0.09863758 -6.830175 0.9460455 1 1 1
+  -0.45 -0.245 0 -0.09863757 -6.830174 0.9460455 1 1 1
   83 0 0 0 0
   -0.45 -0.245 0 -0.9993811 14.32464 0.8645805 1 1 1
   84 0 0 0 0
@@ -788,13 +790,13 @@ ObjectMotion (unnamed)
   86 0 0 0 0
   -0.45 -0.245 0 -4.360121 29.47703 0.9977539 1 1 1
   87 0 0 0 0
-  -0.45 -0.245 0 -3.716201 28.34497 0.9592461 1 1 1
+  -0.45 -0.245 0 -3.716201 28.34497 0.959246 1 1 1
   88 0 0 0 0
   -0.45 -0.245 0 -2.432192 23.87801 0.7888966 1 1 1
   89 0 0 0 0
-  -0.45 -0.245 0 -0.9101853 16.94304 0.6440519 1 1 1
+  -0.45 -0.245 0 -0.9101852 16.94304 0.6440519 1 1 1
   90 0 0 0 0
-  -0.45 -0.245 0 0.2438336 10.10721 0.5623981 1 1 1
+  -0.45 -0.245 0 0.2438336 10.10721 0.562398 1 1 1
   91 0 0 0 0
   -0.45 -0.245 0 0.2580219 -1.846551 0.528612 1 1 1
   92 0 0 0 0
@@ -814,7 +816,7 @@ ObjectMotion (unnamed)
   99 0 0 0 0
   -0.45 -0.245 0 0.159071 4.534708 1.425253 1 1 1
   100 0 0 0 0
-  -0.45 -0.245 0 0.8869691 34.27607 1.434038 1 1 1
+  -0.45 -0.245 0 0.886969 34.27607 1.434038 1 1 1
   101 0 0 0 0
   -0.45 -0.245 0 -2.84824 49.36664 1.43132 1 1 1
   102 0 0 0 0
@@ -824,7 +826,7 @@ ObjectMotion (unnamed)
   104 0 0 0 0
   -0.45 -0.245 0 -3.00541 36.14407 0.9988893 1 1 1
   105 0 0 0 0
-  -0.45 -0.245 0 -0.773016 33.64289 0.9332232 1 1 1
+  -0.45 -0.245 0 -0.7730159 33.64289 0.9332231 1 1 1
   106 0 0 0 0
   -0.45 -0.245 0 0.7656539 30.83724 0.850185 1 1 1
   107 0 0 0 0
@@ -850,9 +852,9 @@ ObjectMotion (unnamed)
   117 0 0 0 0
   -0.45 -0.245 0 -0.01473484 -3.208494 0.5601205 1 1 1
   118 0 0 0 0
-  -0.45 -0.245 0 -0.08930337 -8.236727 0.5833646 1 1 1
+  -0.45 -0.245 0 -0.08930336 -8.236727 0.5833646 1 1 1
   119 0 0 0 0
-  -0.45 -0.245 0 -0.171254 -13.43005 0.6341066 1 1 1
+  -0.45 -0.245 0 -0.171254 -13.43005 0.6341065 1 1 1
   120 0 0 0 0
   -0.45 -0.245 0 -0.2320226 -16.15213 0.7452936 1 1 1
   121 0 0 0 0
@@ -866,11 +868,11 @@ ObjectMotion (unnamed)
   125 0 0 0 0
   -0.45 -0.245 0 0.4816986 11.15023 2.162965 1 1 1
   126 0 0 0 0
-  -0.45 -0.245 0 0.8224339 26.62494 1.691854 1 1 1
+  -0.45 -0.245 0 0.8224338 26.62494 1.691854 1 1 1
   127 0 0 0 0
   -0.45 -0.245 0 0.7278845 32.5843 1.217386 1 1 1
   128 0 0 0 0
-  -0.45 -0.245 0 0.4136493 24.65056 0.8208064 1 1 1
+  -0.45 -0.245 0 0.4136493 24.65056 0.8208063 1 1 1
   129 0 0 0 0
   -0.45 -0.245 0 0.2233507 13.89184 0.6244346 1 1 1
   130 0 0 0 0
@@ -904,8 +906,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPfootL.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPfootL.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   70
@@ -977,9 +979,9 @@ ObjectMotion (unnamed)
   98 0 0 0 0
   0 -0.82 -0.25 0 -55.31987 0 1 1 1
   99 0 0 0 0
-  0 -0.82 -0.25 0 -69.88456 0 1 1 1
+  0 -0.82 -0.25 0 -69.88455 0 1 1 1
   100 0 0 0 0
-  0 -0.82 -0.25 0 -69.88456 0 1 1 1
+  0 -0.82 -0.25 0 -69.88455 0 1 1 1
   101 0 0 0 0
   0 -0.82 -0.25 0 -66.41864 0 1 1 1
   102 0 0 0 0
@@ -1013,11 +1015,11 @@ ObjectMotion (unnamed)
   116 0 0 0 0
   0 -0.82 -0.25 0 -9.783536 0 1 1 1
   117 0 0 0 0
-  0 -0.82 -0.25 0 -7.053783 0 1 1 1
+  0 -0.82 -0.25 0 -7.053782 0 1 1 1
   118 0 0 0 0
   0 -0.82 -0.25 0 -6.853981 0 1 1 1
   119 0 0 0 0
-  0 -0.82 -0.25 0 -9.548345 0 1 1 1
+  0 -0.82 -0.25 0 -9.548344 0 1 1 1
   120 0 0 0 0
   0 -0.82 -0.25 0 -17.88174 0 1 1 1
   121 0 0 0 0
@@ -1027,13 +1029,13 @@ ObjectMotion (unnamed)
   123 0 0 0 0
   0 -0.82 -0.25 0 -63.63609 0 1 1 1
   124 0 0 0 0
-  0 -0.82 -0.25 0 -69.88456 0 1 1 1
+  0 -0.82 -0.25 0 -69.88455 0 1 1 1
   125 0 0 0 0
-  0 -0.82 -0.25 0 -69.88456 0 1 1 1
+  0 -0.82 -0.25 0 -69.88455 0 1 1 1
   126 0 0 0 0
-  0 -0.82 -0.25 0 -69.88456 0 1 1 1
+  0 -0.82 -0.25 0 -69.88455 0 1 1 1
   127 0 0 0 0
-  0 -0.82 -0.25 0 -69.88456 0 1 1 1
+  0 -0.82 -0.25 0 -69.88455 0 1 1 1
   128 0 0 0 0
   0 -0.82 -0.25 0 -48.58533 0 1 1 1
   129 0 0 0 0
@@ -1043,7 +1045,7 @@ ObjectMotion (unnamed)
   131 0 0 0 0
   0 -0.82 -0.25 0 -1.46816 0 1 1 1
   132 0 0 0 0
-  0 -0.82 -0.25 0 -0.9022627 0 1 1 1
+  0 -0.82 -0.25 0 -0.9022626 0 1 1 1
   133 0 0 0 0
   0 -0.82 -0.25 0 -6.871089 0 1 1 1
   134 0 0 0 0
@@ -1051,7 +1053,7 @@ ObjectMotion (unnamed)
   135 0 0 0 0
 EndBehavior 1
 LockedChannels 40
-PLimits -69.88456 -0.08458757
+PLimits -69.88456 -0.08458756
 ParentObject 14
 ObjDissolve (envelope)
   1
@@ -1071,12 +1073,12 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPthighR.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPthighR.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   37
-  0.45 -0.245 0 0.06151018 0.7975439 0.1792817 1 1 1
+  0.45 -0.245 0 0.06151018 0.7975438 0.1792817 1 1 1
   0 0 0 0 0
   0.45 -0.245 0 0.06162019 0.8496343 0.1792967 1 1 1
   66 0 0 0 0
@@ -1086,7 +1088,7 @@ ObjectMotion (unnamed)
   70 0 0 0 0
   0.45 -0.245 0 2.842098 -1.585299 0.1913411 1 1 1
   72 0 0 0 0
-  0.45 -0.245 0 6.016545 7.553271 0.2941675 1 1 1
+  0.45 -0.245 0 6.016545 7.55327 0.2941675 1 1 1
   74 0 0 0 0
   0.45 -0.245 0 6.021952 31.74162 0.430029 1 1 1
   76 0 0 0 0
@@ -1094,7 +1096,7 @@ ObjectMotion (unnamed)
   78 0 0 0 0
   0.45 -0.245 0 0.3158345 26.07037 0.4594964 1 1 1
   80 0 0 0 0
-  0.45 -0.245 0 0.5540975 15.55873 0.2649224 1 1 1
+  0.45 -0.245 0 0.5540974 15.55873 0.2649224 1 1 1
   82 0 0 0 0
   0.45 -0.245 0 -1.166113 1.888184 0.1767081 1 1 1
   84 0 0 0 0
@@ -1142,7 +1144,7 @@ ObjectMotion (unnamed)
   126 0 0 0 0
   0.45 -0.245 0 0.2104633 15.03508 0.2255674 1 1 1
   128 0 0 0 0
-  0.45 -0.245 0 0.1180829 5.264043 0.1893893 1 1 1
+  0.45 -0.245 0 0.1180829 5.264042 0.1893893 1 1 1
   130 0 0 0 0
   0.45 -0.245 0 0.09827188 4.332672 0.1857819 1 1 1
   132 0 0 0 0
@@ -1170,8 +1172,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPfootR.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPfootR.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   37
@@ -1213,7 +1215,7 @@ ObjectMotion (unnamed)
   98 0 0 0 0
   0 -0.8200001 -0.25 0 -37.50615 0 1 1 1
   100 0 0 0 0
-  0 -0.8200001 -0.25 0 -44.00778 0 1 1 1
+  0 -0.8200001 -0.25 0 -44.00777 0 1 1 1
   102 0 0 0 0
   0 -0.8200001 -0.25 0 -14.93964 0 1 1 1
   104 0 0 0 0
@@ -1272,7 +1274,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject hips_Null
-ShowObject 8 1
+ShowObject 9 1
 ObjectMotion (unnamed)
   9
   51
@@ -1286,7 +1288,7 @@ ObjectMotion (unnamed)
   70 0 0 0 0
   0 1.892193 0.0004640647 -1.412667 0 0 1 1 1
   71 0 0 0 0
-  0 1.899034 -0.1697516 -4.694625 0 0 1 1 1
+  0 1.899034 -0.1697516 -4.694624 0 0 1 1 1
   73 0 0 0 0
   0 1.889971 -0.3619187 -6.5 0 0 1 1 1
   75 0 0 0 0
@@ -1385,7 +1387,7 @@ IKAnchor 1
 ShadowOptions 7
 
 AddNullObject Null_Body 
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -1399,11 +1401,11 @@ ObjectMotion (unnamed)
   135 0 0 0 0
 EndBehavior 1
 LockedChannels 2
-ParentObject 28
+ParentObject 26
 ShadowOptions 7
 
 AddNullObject cam_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -1420,7 +1422,7 @@ ParentObject 13
 ShadowOptions 7
 
 AddNullObject cam_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -1436,8 +1438,8 @@ EndBehavior 1
 ParentObject 19
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\GC_Larm.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPbicepL.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   20
@@ -1477,7 +1479,7 @@ ObjectMotion (unnamed)
   123 0 0 0 0
   0.715 0.905 0 -2.795994 34.39761 12.8 1 1 1
   127 0 0 0 0
-  0.715 0.905 0 -2.795994 25.41968 8.358594 1 1 1
+  0.715 0.905 0 -2.795994 25.41968 8.358593 1 1 1
   130 0 0 0 0
   0.715 0.905 0 -2.795994 -5.702392 10.8 1 1 1
   135 0 0 0 0
@@ -1502,8 +1504,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\GC_Rarm.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPbicepR.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   20
@@ -1568,70 +1570,28 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\GC_Rhand.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPhandR.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
-  4
-  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
+  7
+  -0.335 -0.993 -0.406 0 0 0 1 1 1
   0 0 0 0 0
-  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
+  -0.335 -0.993 -0.406 -1.65063 27.79222 3.581646e-006 1 1 1
+  31 0 0 0 0
+  -0.335 -0.993 -0.406 0 0 0 1 1 1
   66 0 0 0 0
-  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
+  -0.335 -0.993 -0.406 0.1148876 -1.934402 -2.492907e-007 1 1 1
+  102 0 0 0 0
+  -0.300501 -0.9930404 -0.40599 0.0500191 -0.8421884 -1.085347e-007 1 1 1
+  114 0 0 0 0
+  -0.335 -0.993 -0.406 0 0 0 1 1 1
   130 0 0 0 0
-  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
+  -0.3345007 -0.992546 -0.4061125 0 0 0 1 1 1
   135 0 0 0 0
 EndBehavior 1
 LockedChannels 6
 PivotPoint -0.01 0 -0.01
-ParentObject 25
-ObjDissolve (envelope)
-  1
-  6
-  1
-  0 0 0 0 0
-  1
-  26 0 0 0 0
-  1
-  30 0 1 0 0
-  0
-  40 0 1 0 0
-  0
-  54 0 0 0 0
-  0
-  65 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\GC_Rlowarm.lwo
-ShowObject 8 7
-ObjectMotion (unnamed)
-  9
-  11
-  -0.22 -0.5000001 -0.04794191 -2.5 25.19999 0 1 1 1
-  0 0 0 0 0
-  -0.22 -0.5000001 -0.04794191 -2.5 25.19999 0 1 1 1
-  66 0 0 0 0
-  -0.22 -0.5000001 -0.04794191 -10.2 1.69999 0 1 1 1
-  70 0 0 0 0
-  -0.22 -0.5000001 -0.04794191 -11.6 11.79999 0 1 1 1
-  72 0 0 0 0
-  -0.22 -0.5000001 -0.04794191 -10.7 40.39999 0 1 1 1
-  81 0 0 0 0
-  -0.22 -0.5000001 -0.04794191 0 20.90001 0 1 1 1
-  85 0 0 0 0
-  -0.22 -0.5000001 -0.04794191 0 57.50001 0 1 1 1
-  91 0 0 0 0
-  -0.22 -0.5000001 -0.04794191 0 30.90002 0 1 1 1
-  101 0 0 0 0
-  -0.22 -0.5000001 -0.04794191 0 2.700025 0 1 1 1
-  105 0 0 0 0
-  -0.22 -0.5000001 -0.04794191 0 2.124045 0 1 1 1
-  130 0 0 0 0
-  -0.22 -0.5000001 -0.04794191 0 2.700025 0 1 1 1
-  135 0 0 0 0
-EndBehavior 1
-LockedChannels 11
 ParentObject 23
 ObjDissolve (envelope)
   1
@@ -1651,37 +1611,24 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\GC_Llowarm.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPhandL.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
-  12
-  0.22 -0.51 -0.05999999 1.9 29.2 0 1 1 1
+  5
+  0.2102544 -0.9923 -0.369289 0 0 0 1 1 1
   0 0 0 0 0
-  0.22 -0.51 -0.05999999 1.9 29.2 0 1 1 1
+  0.2102544 -0.9923 -0.369289 0 0 0 1 1 1
   66 0 0 0 0
-  0.22 -0.51 -0.05999999 -2.6 1.8 0 1 1 1
-  70 0 0 0 0
-  0.22 -0.51 -0.05999999 -2.6 1.8 0 1 1 1
-  91 0 0 0 0
-  0.22 -0.51 -0.05999999 -4.1 24.4 0 1 1 1
-  93 0 0 0 0
-  0.22 -0.51 -0.05999999 -4.7 12 0 1 1 1
-  101 0 0 0 0
-  0.22 -0.51 -0.05999999 8.575 19.00001 0 1 1 1
-  103 0 0 0 0
-  0.22 -0.51 -0.05999999 -9.499996 14.80001 0 1 1 1
-  105 0 0 0 0
-  0.22 -0.51 -0.05999999 -4.399998 0.5000078 0 1 1 1
-  117 0 0 0 0
-  0.22 -0.51 -0.05999999 -6.599997 21.90001 0 1 1 1
-  119 0 0 0 0
-  0.22 -0.51 -0.05999999 -2.243027 4.476029 0 1 1 1
+  0.2102544 -0.9923 -0.369289 0 0 0 1 1 1
   130 0 0 0 0
-  0.22 -0.51 -0.05999999 0 -5.599995 0 1 1 1
+  0.2102544 -0.9923 -0.369289 0 0 0 1 1 1
   135 0 0 0 0
+  0.2422544 -0.9923 -0.369289 -8.906326e-008 -5.599994 -3.196145e-007 1 0.9999999 1
+  136 0 0 0 0
 EndBehavior 1
-LockedChannels 11
+LockedChannels 4
+PivotPoint -0.01 0 -0.01
 ParentObject 22
 ObjDissolve (envelope)
   1
@@ -1701,43 +1648,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\GC_Rhand.lwo
-ShowObject 8 7
-ObjectMotion (unnamed)
-  9
-  4
-  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
-  0 0 0 0 0
-  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
-  66 0 0 0 0
-  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
-  130 0 0 0 0
-  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
-  135 0 0 0 0
-EndBehavior 1
-LockedChannels 6
-PivotPoint -0.01 0 -0.01
-ParentObject 26
-ObjDissolve (envelope)
-  1
-  6
-  1
-  0 0 0 0 0
-  1
-  26 0 0 0 0
-  1
-  30 0 1 0 0
-  0
-  40 0 1 0 0
-  0
-  54 0 0 0 0
-  0
-  65 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
 AddNullObject Null_Adjust
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -1755,7 +1667,7 @@ ParentObject 11
 ShadowOptions 7
 
 AddNullObject Parent_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -1769,7 +1681,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject Teleport_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -1778,11 +1690,11 @@ ObjectMotion (unnamed)
   -0.0671296 4.450002 -22.14691 180 0 0 3 3 3
   135 0 0 0 0
 EndBehavior 1
-ParentObject 29
+ParentObject 27
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Trans_Mini.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Mini.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   8
@@ -1804,7 +1716,7 @@ ObjectMotion (unnamed)
   135 0 0 0 0
 EndBehavior 1
 LockedChannels 360
-ParentObject 30
+ParentObject 28
 ObjDissolve (envelope)
   1
   12
@@ -1836,7 +1748,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject SFX,SND_Teleport,2
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -1845,18 +1757,18 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 1 1 1
   135 0 0 0 0
 EndBehavior 1
-ParentObject 29
+ParentObject 27
 ShadowOptions 7
 
 AmbientColor 255 255 255
-AmbIntensity 1.000000
+AmbIntensity 1
 
 AddLight
 LightName Light
 ShowLight 1 7
 LightMotion (unnamed)
   9
-  6
+  7
   -2 2 -2 45 35 0 1 1 1
   0 0 0 0 0
   -2 2 -2 45 35 0 1 1 1
@@ -1869,11 +1781,15 @@ LightMotion (unnamed)
   130 0 0 0 0
   -2 2 -2 45 35 0 1 1 1
   135 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  136 0 0 0 0
 EndBehavior 1
+LockedChannels 2
 LightColor 255 255 255
-LgtIntensity 0.000000
+LgtIntensity 0
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 ShowCamera 1 7
 CameraMotion (unnamed)
@@ -1884,17 +1800,19 @@ CameraMotion (unnamed)
   11.55832 279.3702 105.8268 -175.5002 58.89999 0 1 1 1
   135 0 0 0 0
 EndBehavior 1
-ZoomFactor 4.734000
+ZoomFactor 4.734
 Resolution 0
-PixelAspectRatio 2
-SegmentMemory 2200000
+CustomSize 160 120
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+SegmentMemory 32000000
+ApertureHeight 0.015
 Antialiasing 0
 AdaptiveSampling 1
 AdaptiveThreshold 16
-FilmSize 2
-FieldRendering 0
-MotionBlur 0
-DepthOfField 0
 
 SolidBackdrop 1
 BackdropColor 0 0 0
@@ -1908,21 +1826,24 @@ AnimatedDither 0
 
 RenderMode 2
 RayTraceEffects 0
-ClipRayColors 0
+RayRecursionLimit 16
+RayTraceOptimization 1
 DataOverlayLabel  
 SaveAnimationName D:\Anim\M2.avi
-AnimationType 0
-FullSceneParamEval 0
+SaveRGB 0
+SaveAlpha 0
 
-ViewMode 5
-ViewAimpoint -4.981938 29.500000 -63.304279
-ViewDirection 0.200723 -0.570724 0.000000
-ViewZoomFactor 27.610102
+ViewType 7
+ViewAimpoint -1.224054 29.5 61.58068
+ViewDirection -3.197419 -0.2443465 0
+ViewZoomFactor 463294.1
+
 GridNumber 10
-GridSize 100.000000
+GridSize 100
+CameraViewBG 0
 ShowMotionPath 1
-ShowBGImage 0
 ShowFogRadius 0
-ShowRedraw 0
+ShowFogEffect 0
 ShowSafeAreas 0
 ShowFieldChart 0
+OverlayColor_fv 0 0 0

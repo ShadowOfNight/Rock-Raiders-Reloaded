@@ -87,7 +87,7 @@ Yourself:
 	- call2arms.wav - mixed from alert024.mp3 and alert09.mp3 from trekcore.com.
 	- laser1.wav - edited from soransgun.mp3 from trekcore.com
 	- Lazhit.wav - edited from smallexplosion1.mp3 from trekcore.com
-	- ROKBREK1.wav - created by Yourself; edited later by yours truly.
+	- ROKBREK1.wav - edited from original ROKBREK1.wav and lanslide.wav sounds.
 
 - Vehicles\BIGDIG
 	- BIGDIGDRILL.wav and BIGDIGDRILLFADE.wav - edited from originals by Axel.
@@ -97,6 +97,12 @@ Yourself:
 
 Changelog
 --------------
+v0.14.002
+- Replaced wall collapse sound with new version.
+- Edited pilot head and bicep models to remove pointless texture references (and removed Headside.bmp as a result).
+- Replaced low poly arms/hands in some pilot animations (HB_BSOFTHIT.lws, HB_Sway.lws, LPSD_Stand.lws, VLP_TeleWALK.lws).
+- Changed Start Game and Load A Saved Game menu text to New Game and Load Game respectively.
+
 v0.14.001
 - Replaced Raider drilling sound with new version edited from original.
 
