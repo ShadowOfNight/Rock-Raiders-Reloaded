@@ -138,6 +138,7 @@ Lego* {
 
 		Activity_SMALLDIGGER					DriveLPSD
 		Activity_StandSMALLDIGGER				StandLPSD
+		Activity_DrillSMALLDIGGER				DrillLPSD
 }									
 
 	Recharge {

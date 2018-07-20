@@ -1,16 +1,18 @@
 LWSC
 1
 
+RenderRangeType 0
 FirstFrame 1
 LastFrame 24
 FrameStep 1
+RenderRangeArbitrary 1-24
 PreviewFirstFrame 0
 PreviewLastFrame 23
 PreviewFrameStep 1
-FramesPerSecond 25.000000
+FramesPerSecond 25
 
 AddNullObject Motion_NULL
-ShowObject 8 2
+ShowObject 9 2
 ObjectMotion (unnamed)
   9
   2
@@ -22,8 +24,8 @@ EndBehavior 1
 ParentObject 10
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SMLP\VLPtorso.lwo
-ShowObject 8 3
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPtorso.lwo
+ShowObject 9 3
 ObjectMotion (unnamed)
   9
   5
@@ -42,8 +44,8 @@ LockedChannels 29
 ParentObject 8
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SMLP\VLPhead.lwo
-ShowObject 8 3
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPhead.lwo
+ShowObject 9 3
 ObjectMotion (unnamed)
   9
   5
@@ -51,7 +53,7 @@ ObjectMotion (unnamed)
   0 0 1 0 0
   0 1.325 0 -0.8130146 -14.125 -15.28323 1.15 1.15 1.15
   6 0 0 0.25 0
-  0 1.325 0 -0.8130052 8.141331 12.61679 1.15 1.15 1.15
+  0 1.325 0 -0.8130052 8.14133 12.61679 1.15 1.15 1.15
   12 0 0 0 0
   0 1.325 0 -0.8130093 13.47275 6.316784 1.15 1.15 1.15
   18 0 0 0 0
@@ -62,30 +64,30 @@ LockedChannels 29
 ParentObject 2
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SMLP\VLPthighL.lwo
-ShowObject 8 2
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPthighL.lwo
+ShowObject 9 2
 ObjectMotion (unnamed)
   9
   6
-  -0.45 -0.245 0 0 91.19418 0.09620987 1 1 1
+  -0.45 -0.245 0 0 91.19418 0.09620986 1 1 1
   0 0 0 0 0
-  -0.45 -0.245 0 0 91.19418 0.09620987 1 1 1
+  -0.45 -0.245 0 0 91.19418 0.09620986 1 1 1
   2 0 0 0 0
-  -0.45 -0.245 0 0 91.19418 0.09620987 1 1 1
+  -0.45 -0.245 0 0 91.19418 0.09620986 1 1 1
   6 0 0 0 0
-  -0.45 -0.245 0 0 91.19418 0.09620987 1 1 1
+  -0.45 -0.245 0 0 91.19418 0.09620986 1 1 1
   12 0 0 0 0
-  -0.45 -0.245 0 0 91.19418 0.09620987 1 1 1
+  -0.45 -0.245 0 0 91.19418 0.09620986 1 1 1
   18 0 0 0 0
-  -0.45 -0.245 0 0 91.19418 0.09620987 1 1 1
+  -0.45 -0.245 0 0 91.19418 0.09620986 1 1 1
   23 0 0 0 0
 EndBehavior 1
 LockedChannels 46
 ParentObject 8
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SMLP\VLPfootL.lwo
-ShowObject 8 2
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPfootL.lwo
+ShowObject 9 2
 ObjectMotion (unnamed)
   9
   6
@@ -106,8 +108,8 @@ LockedChannels 45
 ParentObject 4
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SMLP\VLPthighR.lwo
-ShowObject 8 3
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPthighR.lwo
+ShowObject 9 3
 ObjectMotion (unnamed)
   9
   6
@@ -128,8 +130,8 @@ LockedChannels 40
 ParentObject 8
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SMLP\VLPfootR.lwo
-ShowObject 8 3
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPfootR.lwo
+ShowObject 9 3
 ObjectMotion (unnamed)
   9
   6
@@ -151,7 +153,7 @@ ParentObject 6
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 1
+ShowObject 9 1
 ObjectMotion (unnamed)
   9
   6
@@ -173,7 +175,7 @@ ParentObject 9
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   5
@@ -189,11 +191,11 @@ ObjectMotion (unnamed)
   23 0 0 0 0
 EndBehavior 1
 LockedChannels 5
-ParentObject 17
+ParentObject 15
 ShadowOptions 7
 
 AddNullObject Parent_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -204,16 +206,16 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\GC_Larm.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPbicepL.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
   0.715 0.905 0 7.599998 67.89999 -3.700001 1 1 1
   0 0 0 0 0
-  0.715 0.905 0 11.8 74.30001 -3.700001 1 1 1
+  0.715 0.905 0 11.8 74.3 -3.700001 1 1 1
   7 0 0 0 0
-  0.715 0.905 0 11.3 68.10004 -3.700001 1 1 1
+  0.715 0.905 0 11.3 68.10003 -3.700001 1 1 1
   15 0 0 0 0
   0.715 0.905 0 7.599998 67.89999 -3.700001 1 1 1
   23 0 0 0 0
@@ -222,96 +224,56 @@ LockedChannels 6
 ParentObject 2
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\GC_Rarm.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPbicepR.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -0.715 0.905 0 -32.59 47.84 -16.2 1 1 1
+  -0.715 0.905 0 -32.59 67.84 -26.2 1 1 1
   0 0 0 0 0
-  -0.715 0.905 0 -32.59 47.84 -16.2 1 1 1
+  -0.715 0.905 0 -32.59 67.84 -26.2 1 1 1
   23 0 0 0 0
 EndBehavior 1
 LockedChannels 514
 ParentObject 2
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\GC_Rhand.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPhandR.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
-  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
+  -0.2567456 -0.99327 -0.4144911 -15 10.9 -1.426861e-006 1 1 1
   0 0 0 0 0
-  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
+  -0.2567456 -0.99327 -0.4144911 -15 10.9 0 1 1 1
   5 0 0 0 0
-  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
+  -0.2567456 -0.99327 -0.4144911 -15 10.9 0 1 1 1
   15 0 0 0 0
-  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
+  -0.2567456 -0.99327 -0.4144911 -15 10.9 0 1 1 1
   23 0 0 0 0
 EndBehavior 1
-LockedChannels 6
 PivotPoint -0.01 0 -0.01
-ParentObject 14
-ShadowOptions 7
-
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\GC_Rlowarm.lwo
-ShowObject 8 7
-ObjectMotion (unnamed)
-  9
-  5
-  -0.22 -0.5000001 -0.04794191 0 20.9 0 1 1 1
-  0 0 0 0 0
-  -0.22 -0.5000001 -0.04794191 0 15.38834 6.257044 1 1 1
-  5 0 0 0 0
-  -0.22 -0.5000001 -0.04794191 0 27.4 7.899998 1 1 1
-  7 0 0 0 0
-  -0.22 -0.5000001 -0.04794191 0 21.9 7.899998 1 1 1
-  15 0 0 0 0
-  -0.22 -0.5000001 -0.04794191 0 20.9 0 1 1 1
-  23 0 0 0 0
-EndBehavior 1
-LockedChannels 11
 ParentObject 12
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\GC_Llowarm.lwo
-ShowObject 8 7
-ObjectMotion (unnamed)
-  9
-  4
-  0.22 -0.51 -0.05999999 -2.600001 5.4 -7.900001 1 1 1
-  0 0 0 0 0
-  0.22 -0.51 -0.05999999 15.6 3.299999 9.699997 1 1 1
-  7 0 0 0 0
-  0.22 -0.51 -0.05999999 -8.525002 -6.912501 3.099999 1 1 1
-  15 0 0 0 0
-  0.22 -0.51 -0.05999999 -2.600001 5.4 -7.900001 1 1 1
-  23 0 0 0 0
-EndBehavior 1
-LockedChannels 3
-ParentObject 11
-ShadowOptions 7
-
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Hoverboard\GC_Rhand.lwo
-ShowObject 8 7
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPhandL.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
-  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
+  0.2714296 -1.013398 -0.4156775 20 5.4 -7.900002 1 1 0.9999999
   0 0 0 0 0
-  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
+  0.2714296 -1.013398 -0.4156775 20 5.4 -7.900002 1 1 1
   15 0 0 0 0
-  -0.03674561 -0.5150003 -0.3049999 0 0 0 1 1 1
+  0.2714296 -1.013398 -0.4156775 20 5.4 -7.900002 1 1 1
   23 0 0 0 0
 EndBehavior 1
-LockedChannels 6
 PivotPoint -0.01 0 -0.01
-ParentObject 15
+ParentObject 11
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   5
@@ -326,11 +288,11 @@ ObjectMotion (unnamed)
   0 -0.03796297 0 0 0 0 1 1 1
   23 0 0 0 0
 EndBehavior 1
-ParentObject 18
+ParentObject 16
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   6
@@ -344,14 +306,14 @@ ObjectMotion (unnamed)
   15 0 0 0 0
   0 3.006491 0 0 3.34 -2.24 1 1 1
   20 0 -1 0 0
-  0 3.002181 0 0 0.621875 -0.2041667 1 1 1
+  0 3.002181 0 0 0.6218749 -0.2041667 1 1 1
   23 0 0 0 0
 EndBehavior 1
 ParentObject 1
 ShadowOptions 7
 
 AmbientColor 255 255 255
-AmbIntensity 0.250000
+AmbIntensity 0.25
 
 AddLight
 LightName Light
@@ -364,9 +326,10 @@ LightMotion (unnamed)
 EndBehavior 1
 LockedChannels 5
 LightColor 255 255 255
-LgtIntensity 0.750000
+LgtIntensity 0.75
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 AddLight
 LightName Light
@@ -379,9 +342,10 @@ LightMotion (unnamed)
 EndBehavior 1
 LockedChannels 2
 LightColor 255 255 255
-LgtIntensity 0.500000
+LgtIntensity 0.5
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 ShowCamera 0 7
 CameraMotion (unnamed)
@@ -390,17 +354,19 @@ CameraMotion (unnamed)
   -27.92867 15.8 50.66882 180 0 0 1 1 1
   0 0 0 0 0
 EndBehavior 1
-ZoomFactor 3.200000
+ZoomFactor 3.2
 Resolution 0
-PixelAspectRatio 2
-SegmentMemory 2200000
+CustomSize 320 240
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+SegmentMemory 32000000
+ApertureHeight 0.015
 Antialiasing 0
 AdaptiveSampling 1
 AdaptiveThreshold 16
-FilmSize 2
-FieldRendering 0
-MotionBlur 0
-DepthOfField 0
 
 SolidBackdrop 1
 BackdropColor 0 0 0
@@ -414,21 +380,48 @@ AnimatedDither 0
 
 RenderMode 2
 RayTraceEffects 0
+RayRecursionLimit 16
+RayTraceOptimization 1
 DataOverlayLabel  
 SaveAnimationName Renders\MD\MD_DRIVE01.avi
-AnimationType 6
+AnimationSaver QuickTimeVR_Object(.mov)
+1
+0
+0
+0
+0
+0
+0
+0
+0
+1
+20
+20
+1
+1
+1
+0
+90
+360
+-90
+180
+0
+0
 EndPlugin
-FullSceneParamEval 0
+SaveRGB 0
+SaveAlpha 0
 
-ViewMode 3
-ViewAimpoint 0.253287 13.281196 -1.161847
-ViewDirection -102.232819 0.069814 0.000000
-ViewZoomFactor 5.996228
+ViewType 7
+ViewAimpoint 0.2316975 13.2812 12.09954
+ViewDirection -103.7337 -0.1884939 0
+ViewZoomFactor 36.60718
+
 GridNumber 10
-GridSize 10.000000
+GridSize 10
+CameraViewBG 0
 ShowMotionPath 1
-ShowBGImage 0
 ShowFogRadius 0
-ShowRedraw 0
+ShowFogEffect 0
 ShowSafeAreas 0
 ShowFieldChart 0
+OverlayColor_fv 0 0 0

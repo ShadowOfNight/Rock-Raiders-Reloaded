@@ -45,7 +45,6 @@ Cyrem:
 Jessietail: 
 - For advice, help, ideas, and many contributions to this project.
 - High-polygon teal 2x2 brick model.
-- High-polygon 1x1 cone model.
 - High-polygon 1x1 5-point rock crystal model.
 - Quake.wav
 
@@ -97,6 +96,13 @@ Yourself:
 
 Changelog
 --------------
+v0.14.003
+- Activated unused drilling animation for the pilot while drilling using a Small Digger.
+- Replaced low poly arms/hands in remaining pilot animations.
+- Removed remaining low poly arms/hands/uvs from Pilot folder.
+- Removed drill time lines from SmallHeli stats section.
+- Replaced Jessietail's 1x1 cone model with my own.
+
 v0.14.002
 - Replaced wall collapse sound with new version.
 - Edited pilot head and bicep models to remove pointless texture references (and removed Headside.bmp as a result).

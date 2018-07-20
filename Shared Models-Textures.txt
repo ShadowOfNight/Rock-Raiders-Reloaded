@@ -99,6 +99,11 @@ Creatures\PyriteMonster\Carry_RestStand.lws
 		        turnRCarrybould.lws
 		        Walk4.lws
 		        walkCarrybould.lws
+
+MiscObjs\Barrier\Barrier_LongF2.lws
+
+MiscObjs\Effects\Rock_Explo.lws
+
 --------------------------------------------------
 LightSpangleY.lwo used by:
 
@@ -147,3 +152,10 @@ Creatures\Scorpion\smokefx.lws
 
 Creatures\Spider\smokefx.lws
 
+MiscObjs\Barrier\Barrier_LongF2.lws
+
+MiscObjs\BirdScarer\BOOM.lws
+
+MiscObjs\ElectricFenceStud\SingleStud_ON.lws
+
+MiscObjs\Effects\Rock_Explo.lws
