@@ -9,7 +9,7 @@ PreviewLastFrame 25
 PreviewFrameStep 1
 FramesPerSecond 25.000000
 
-LoadObject \\Ian\d\StarLego\Lego\Data\Buildings\Barracks\Base.lwo
+LoadObject \\BaseSmall.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9

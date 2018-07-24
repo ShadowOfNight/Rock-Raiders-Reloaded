@@ -96,6 +96,13 @@ Yourself:
 
 Changelog
 --------------
+v0.14.004
+- New Upgrade Station light bar model.
+- Fixed Upgrade Station animations referencing wrong cone model.
+- Moved base plate models and textures for buildings into Shared folder; re-linked lws files for everything but the Ore Refinery and Powerstation.
+- Fixed base positioning problem in Super Teleport animations.
+- Adjusted glossiness of 1x1 cone model.
+
 v0.14.003
 - Activated unused drilling animation for the pilot while drilling using a Small Digger.
 - Replaced low poly arms/hands in remaining pilot animations.
@@ -639,20 +646,15 @@ v0.00.005
 - Decreased MinDist from 150 to 50. 
 
 v0.00.004
-- Replaced Loading.bmp.
-- Replaced DDI_logo.bmp.
+- Replaced Loading and DDI_logo bmps.
 - Adjusted ProgressWindow Y position from 450 to 457. 
 
 v0.00.003
-- Removed unused dump file line.
-- Removed unused DynamiteRadius line. 
-- Removed ShutdownScreen line.  
-- Removed ShutDown.bmp from Languages.  
+- Removed unused dump file and DynamiteRadius lines. 
+- Removed ShutdownScreen line and the bmp it linked to (ShutDown.bmp in Languages).  
 
 v0.00.002
-- Removed DDI AVI line.
-- Removed Lego Intro line.
-- Removed LMI Logo line.   
+- Removed unused DDI AVI and LMI Logo lines; removed Lego Intro line.
 	
 v0.00.001
 - Initial build, all unused files from the vanilla game already separated into the Unused folder.

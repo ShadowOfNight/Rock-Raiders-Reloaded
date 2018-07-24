@@ -784,7 +784,7 @@ LockedChannels 374
 ParentObject 25
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Buildings\Barracks\Base.lwo
+LoadObject \\Lego\Data\Buildings\Barracks\BaseSmall.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9

@@ -33,7 +33,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\BaseS.lwo
+LoadObject \\BaseLarge.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9

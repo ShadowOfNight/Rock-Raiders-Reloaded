@@ -217,7 +217,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Buildings\Geo-Dome\BaseS.lwo
+LoadObject \\BaseLarge.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9

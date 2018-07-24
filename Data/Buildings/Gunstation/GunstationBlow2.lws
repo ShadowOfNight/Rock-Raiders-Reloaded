@@ -106,7 +106,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\Base.lwo
+LoadObject \\BaseSmall.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9

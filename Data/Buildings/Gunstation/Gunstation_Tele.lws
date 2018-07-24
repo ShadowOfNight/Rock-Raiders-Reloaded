@@ -1132,7 +1132,7 @@ LockedChannels 374
 ParentObject 32
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Buildings\Gunstation\Base.lwo
+LoadObject \\BaseSmall.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
