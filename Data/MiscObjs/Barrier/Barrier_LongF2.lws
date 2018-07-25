@@ -1,58 +1,59 @@
 LWSC
 1
 
+RenderRangeType 0
 FirstFrame 1
 LastFrame 10
 FrameStep 1
+RenderRangeArbitrary 1-10
 PreviewFirstFrame 0
 PreviewLastFrame 10
 PreviewFrameStep 1
-FramesPerSecond 25.000000
+FramesPerSecond 25
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Barrier\Y_Post.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\MiscObjs\Barrier\Y_post.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -9.60906 0 0 0 0 0 1 1 1
+  -9.589015 0 0 0 0 0 1 1 1
   0 0 0 0 0
-  -9.60906 0 0 0 0 0 1 1 1
+  -9.589015 0 0 0 0 0 1 1 1
   10 0 0 0 0
 EndBehavior 1
 LockedChannels 6
 ParentObject 4
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Barrier\R_Post.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\MiscObjs\Barrier\R_Post.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  17.10905 0 0 0 0 0 1 1 1
+  17.93921 0 0 0 0 0 1 1 1
   0 0 0 0 0
-  17.10905 0 0 0 0 0 1 1 1
+  17.93921 0 0 0 0 0 1 1 1
   10 0 0 0 0
 EndBehavior 1
 LockedChannels 6
 ParentObject 4
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Barrier\Stripes.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\MiscObjs\Barrier\Stripes_long.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -2.5757 3.65 1.452126 0 0 0 1 1 1
+  4.03117 4.76 0.6021 -3.202111e-013 89.99999 -3.202111e-013 1 1 1
   0 0 0 0 0
-  -2.5757 3.65 1.452126 0 0 0 1 1 1
+  4.03117 4.76 0.6021 0 89.99999 0 1 1 1
   10 0 0 0 0
 EndBehavior 1
-LockedChannels 3
-ParentObject 1
+ParentObject 4
 ShadowOptions 7
 
 AddNullObject Barrier_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -66,7 +67,7 @@ ParentObject 5
 ShadowOptions 7
 
 AddNullObject Parent_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -77,50 +78,8 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Barrier\Stripes.lwo
-ShowObject 8 7
-ObjectMotion (unnamed)
-  9
-  2
-  5.1639 3.65 1.4 0 0 0 1.034568 1.034568 1.034568
-  0 0 0 0 0
-  5.1639 3.65 1.4 0 0 0 1.034568 1.034568 1.034568
-  10 0 0 0 0
-EndBehavior 1
-LockedChannels 3
-ParentObject 1
-ShadowOptions 7
-
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Barrier\Stripes.lwo
-ShowObject 8 7
-ObjectMotion (unnamed)
-  9
-  2
-  12.7787 3.65 1.426063 0 0 0 1.034568 1.034568 1.034568
-  0 0 0 0 0
-  12.7787 3.65 1.426063 0 0 0 1.034568 1.034568 1.034568
-  10 0 0 0 0
-EndBehavior 1
-LockedChannels 3
-ParentObject 1
-ShadowOptions 7
-
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Barrier\Stripes.lwo
-ShowObject 8 7
-ObjectMotion (unnamed)
-  9
-  2
-  18.4034 3.65 1.478189 0 0 0 1.034568 1.034568 1.034568
-  0 0 0 0 0
-  18.4034 3.65 1.478189 0 0 0 1.034568 1.034568 1.034568
-  10 0 0 0 0
-EndBehavior 1
-LockedChannels 3
-ParentObject 1
-ShadowOptions 7
-
-LoadObject \\StarTeam\Lego\Data\Barrier\LightSpangleR.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\LightSpangleR.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -136,8 +95,8 @@ EndBehavior 1
 ParentObject 2
 ShadowOptions 7
 
-LoadObject \\StarTeam\Lego\Data\Barrier\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -155,7 +114,7 @@ ParentObject 1
 ShadowOptions 7
 
 AmbientColor 255 255 255
-AmbIntensity 0.500000
+AmbIntensity 0.5
 
 AddLight
 LightName Light
@@ -169,9 +128,10 @@ LightMotion (unnamed)
   10 0 0 0 0
 EndBehavior 1
 LightColor 255 255 255
-LgtIntensity 1.000000
+LgtIntensity 1
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 ShowCamera 1 4
 CameraMotion (unnamed)
@@ -182,20 +142,23 @@ CameraMotion (unnamed)
   -21.6042 43.45362 -37.27223 35.1 60 0 1 1 1
   10 0 0 0 0
 EndBehavior 1
+HController 1
+PController 1
 TargetObject 5
-ZoomFactor 3.200000
+ZoomFactor 3.2
 Resolution 0
-CustomSize 200 200
-PixelAspectRatio 2
-SegmentMemory 2200000
+CustomSize 100 100
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 2
+FieldRendering 0
+BlurLength 0.5
+SegmentMemory 32000000
+ApertureHeight 0.015
 Antialiasing 1
 AdaptiveSampling 1
 AdaptiveThreshold 16
-FilmSize 2
-FieldRendering 0
-MotionBlur 2
-BlurLength 0.500000
-DepthOfField 0
 
 SolidBackdrop 1
 BackdropColor 0 0 0
@@ -210,21 +173,25 @@ AnimatedDither 0
 RenderMode 2
 RayTraceEffects 3
 RayRecursionLimit 16
+RayTraceOptimization 1
 DataOverlayLabel  
 OutputFilenameFormat 1
+SaveRGB 0
 SaveRGBImagesPrefix D:\OUTPUT\lego\Lowpoly\LEman
 RGBImageFormat 2
-FullSceneParamEval 0
+SaveAlpha 0
 
-ViewMode 3
-ViewAimpoint 1.638291 -0.250000 2.441585
-ViewDirection -13.213898 -0.596902 0.000000
-ViewZoomFactor 5.621038
+ViewType 7
+ViewAimpoint 33.25389 -0.25 2.097272
+ViewDirection -13.16853 -0.3508095 0
+ViewZoomFactor 4.116929
+
 GridNumber 10
-GridSize 10.000000
+GridSize 10
+CameraViewBG 0
 ShowMotionPath 1
-ShowBGImage 0
 ShowFogRadius 0
-ShowRedraw 0
+ShowFogEffect 0
 ShowSafeAreas 0
 ShowFieldChart 0
+OverlayColor_fv 0 0 0

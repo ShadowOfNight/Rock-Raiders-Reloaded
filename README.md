@@ -19,7 +19,7 @@ Goals:
 - New voiceovers.
 - Properly sorting shared textures and models.
 - Reactivating cut content from the original game.
-- Upgrading the existing game models that will be kept.
+- Upgrading all existing game models.
 
 
 Credits
@@ -96,6 +96,12 @@ Yourself:
 
 Changelog
 --------------
+v0.14.005
+- Upscaled Stripes16.bmp from 16x16 to 32x32 and rotated texture 90 degrees.
+- Replaced barrier 1x4 tile and posts with my high poly versions.
+- Updated barrier animatons with new model positions.
+- Removed old light bar texture for the Upgrade Station and the old textures for the barrier models.
+
 v0.14.004
 - New Upgrade Station light bar model.
 - Fixed Upgrade Station animations referencing wrong cone model.
