@@ -1,25 +1,111 @@
 LWSC
 1
 
+RenderRangeType 0
 FirstFrame 1
 LastFrame 120
 FrameStep 1
+RenderRangeArbitrary 1-120
 PreviewFirstFrame 0
-PreviewLastFrame 120
+PreviewLastFrame 123
 PreviewFrameStep 1
-FramesPerSecond 25.000000
+FramesPerSecond 25
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Crystal-Ref\Base.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\BaseLarge.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
-  2
-  0 4.35 0 -90.00002 0 0 1 1 1
+  44
+  0 3.403076 20 0 0 0 1 1 1
   0 0 0 0 0
-  0 4.35 0 -90.00002 0 0 1 1 1
+  0 3.847999 20 0 0 0 1 1 1
+  2 0 0 0 0
+  0 3.599 20 0 0 0 1 1 1
+  4 0 0 0 0
+  0 3.823999 20 0 0 0 1 1 1
+  6 0 0 0 0
+  0 3.775688 20 0 0 0 1 1 1
+  7 0 0 0 0
+  0 3.607999 20 0 0 0 1 1 1
+  9 0 0 0 0
+  0 3.7 20 0 0 0 1 1 1
   10 0 0 0 0
+  0 3.863999 20 0 0 0 1 1 1
+  11 0 0 0 0
+  0 3.595999 20 0 0 0 1 1 1
+  14 0 0 0 0
+  0 3.935999 20 0 0 0 1 1 1
+  15 0 0 0 0
+  0 3.587999 20 0 0 0 1 1 1
+  17 0 0 0 0
+  0 3.952 20 0 0 0 1 1 1
+  18 0 0 0 0
+  0 3.619999 20 0 0 0 1 1 1
+  19 0 0 0 0
+  0 3.736 20 0 0 0 1 1 1
+  21 0 0 0 0
+  0 3.572 20 0 0 0 1 1 1
+  22 0 0 0 0
+  0 3.811999 20 0 0 0 1 1 1
+  23 0 0 0 0
+  0 3.779049 20 0 0 0 1 1 1
+  24 0 0 0 0
+  0 3.696799 20 0 0 0 1 1 1
+  25 0 0 0 0
+  0 3.584 20 0 0 0 1 1 1
+  27 0 0 0 0
+  0 3.835999 20 0 0 0 1 1 1
+  28 0 0 0 0
+  0 3.659999 20 0 0 0 1 1 1
+  30 0 0 0 0
+  0 3.92 20 0 0 0 1 1 1
+  31 0 0 0 0
+  0 3.624 20 0 0 0 1 1 1
+  32 0 0 0 0
+  0 3.771999 20 0 0 0 1 1 1
+  33 0 0 0 0
+  0 3.708666 20 0 0 0 1 1 1
+  34 0 0 0 0
+  0 3.647999 20 0 0 0 1 1 1
+  35 0 0 0 0
+  0 3.811999 20 0 0 0 1 1 1
+  36 0 0 0 0
+  0 3.607999 20 0 0 0 1 1 1
+  38 0 0 0 0
+  0 3.935999 20 0 0 0 1 1 1
+  39 0 0 0 0
+  0 3.7 20 0 0 0 1 1 1
+  40 0 0 0 0
+  0 4.35 20 0 0 0 1 1 1
+  41 0 0 0 0
+  0 4.35 20 0 0 0 1 1 1
+  47 0 0 0 0
+  0 4.35 20 0 0 0 1 1 1
+  52 0 0 0 0
+  0 4.35 20 0 0 0 1 1 1
+  56 0 0 0 0
+  0 4.35 20 0 0 0 1 1 1
+  59 0 0 0 0
+  0 3.2 20 0 0 0 1 1 1
+  60 0 0 0 0
+  0 4.35 20 0 0 0 1 1 1
+  61 0 0 0 0
+  0 4.35 20 0 0 0 1 1 1
+  64 0 0 0 0
+  0 4.35 20 0 0 0 1 1 1
+  69 0 0 0 0
+  0 4.35 20 0 0 0 1 1 1
+  76 0 0 0 0
+  0 4.35 20 0 0 0 1 1 1
+  77 0 0 0 0
+  0 4.35 20 0 0 0 1 1 1
+  78 0 0 0 0
+  0 3.2 20 0 0 0 1 1 1
+  79 0 0 0 0
+  0 4.35 20 0 0 0 1 1 1
+  80 0 0 0 0
 EndBehavior 1
-LockedChannels 53
+LockedChannels 49
 ParentObject 3
 Metamorph (envelope)
   1
@@ -37,87 +123,100 @@ Metamorph (envelope)
 EndBehavior 1
 MorphTarget 0
 MorphSurfaces 0
+ObjDissolve (envelope)
+  1
+  5
+  0
+  0 0 0 0 0
+  0
+  80 0 0 0 0
+  0
+  86 0 0 0 0
+  0
+  87 0 0 0 0
+  1
+  105 0 0 0 0
+EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Rear2.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Rear2.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   36
-  -0.7336345 3.7 -0.1000009 0 0 0 1 1 1
+  -0.4577464 3.403076 -19.86815 -89.99999 0.86 0.54 1 1 1
   0 1 0 0 0
-  -0.7336345 3.847999 -0.1000009 0 0.6799998 0.54 1 1 1
+  0.3767692 3.847999 -19.87 -89.99999 0.6799998 0.54 1 1 1
   2 0 0 0 0
-  -0.7336345 3.599 -0.1000009 -1.2 -0.6250001 -0.5849999 1 1 1
+  0.3767692 3.599 -19.87 -89.99999 -0.6250001 -0.5849999 1 1 1
   4 0 0 0 0
-  -0.7336345 3.823999 -0.1000009 0.3999999 0.3033332 0.09999999 1 1 1
+  0.3767692 3.823999 -19.87 -89.99999 0.3033332 0.09999999 1 1 1
   6 0 0 0 0
-  -0.7336345 3.775688 -0.1000009 -0.7880001 -0.4325 -0.44 1 1 1
+  0.3767692 3.775688 -19.87 -89.99999 -0.4325 -0.44 1 1 1
   7 0 0 0 0
-  -0.7336345 3.607999 -0.1000009 -0.7400001 0.4358333 -0.1035 1 1 1
+  0.3767692 3.607999 -19.87 -89.99999 0.4358333 -0.1035 1 1 1
   9 0 0 0 0
-  -0.7336345 3.7 -0.1000009 0 -0.54 -0.9 1 1 1
+  0.3767692 3.7 -19.87 -89.99999 -0.54 -0.8999999 1 1 1
   10 1 0 0 0
-  -0.7336345 3.863999 -0.1000009 0.5260286 0.2531399 0.2556232 1 1 1
+  0.3767692 3.863999 -19.87 -89.99999 0.2531399 0.2556232 1 1 1
   11 0 0 0 0
-  -0.7336345 3.595999 -0.1000009 0.005906317 -0.4769238 -0.9603692 1 1 1
+  0.3767692 3.595999 -19.87 -89.99999 -0.4769238 -0.9603692 1 1 1
   14 0 0 0 0
-  -0.7336345 3.935999 -0.1000009 0.005696977 0.002967175 -0.1163561 1 1 1
+  0.3767692 3.935999 -19.87 -89.99999 0.002967175 -0.1163561 1 1 1
   15 0 0 0 0
-  -0.7336345 3.587999 -0.1000009 -1.234756 -0.4372688 0.6796721 1 1 1
+  0.3767692 3.587999 -19.87 -89.99999 -0.4372688 0.6796721 1 1 1
   17 0 0 0 0
-  -0.7336345 3.952 -0.1000009 0.005015622 0.3426122 -1.060313 1 1 1
+  0.3767692 3.952 -19.87 -89.99999 0.3426122 -1.060313 1 1 1
   18 0 0 0 0
-  -0.7336345 3.619999 -0.1000009 0.5047875 -0.8175066 0.9517006 1 1 1
+  0.3767692 3.619999 -19.87 -89.99999 -0.8175066 0.9517006 1 1 1
   19 0 0 0 0
-  -0.7336345 3.736 -0.1000009 -1.155668 0.002256084 -1.300271 1 1 1
+  0.3767692 3.736 -19.87 -89.99999 0.002256084 -1.300271 1 1 1
   21 0 0 0 0
-  -0.7336345 3.572 -0.1000009 1.004104 0.8621371 1.119743 1 1 1
+  0.3767692 3.572 -19.87 -89.99999 0.8621371 1.119743 1 1 1
   22 0 0 0 0
-  -0.7336345 3.811999 -0.1000009 -1.036124 -1.297982 -1.616242 1 1 1
+  0.3767692 3.811999 -19.87 -89.99999 -1.297982 -1.616242 1 1 1
   23 0 0 0 0
-  -0.7336345 3.779049 -0.1000009 0.9593143 1.053275 1.32 1 1 1
+  0.3767692 3.779049 -19.87 -89.99999 1.053275 1.32 1 1 1
   24 0 0 0 0
-  -0.7336345 3.696799 -0.1000009 -1.18258 -1.656219 -1.84 1 1 1
+  0.3767692 3.696799 -19.87 -89.99999 -1.656219 -1.84 1 1 1
   25 0 0 0 0
-  -0.7336345 3.584 -0.1000009 0.9429638 1.431544 1.799815 1 1 1
+  0.3767692 3.584 -19.87 -89.99999 1.431544 1.799815 1 1 1
   27 0 0 0 0
-  -0.7336345 3.835999 -0.1000009 -1.977264 -1.918575 -2.140172 1 1 1
+  0.3767692 3.835999 -19.87 -89.99999 -1.918575 -2.140172 1 1 1
   28 0 0 0 0
-  -0.7336345 3.659999 -0.1000009 1.40228 1.831187 -0.0881425 1 1 1
+  0.3767692 3.659999 -19.87 -89.99999 1.831187 -0.0881425 1 1 1
   30 0 0 0 0
-  -0.7336345 3.92 -0.1000009 -2.237948 -2.278931 1.919872 1 1 1
+  0.3767692 3.92 -19.87 -89.99999 -2.278931 1.919872 1 1 1
   31 0 0 0 0
-  -0.7336345 3.624 -0.1000009 -0.1581761 2.00095 -2.398114 1 1 1
+  0.3767692 3.624 -19.87 -89.99999 2.00095 -2.398114 1 1 1
   32 0 0 0 0
-  -0.7336345 3.771999 -0.1000009 2.001596 -2.579169 -0.08809973 1 1 1
+  0.3767692 3.771999 -19.87 -89.99999 -2.579169 -0.08809973 1 1 1
   33 0 0 0 0
-  -0.7336345 3.708666 -0.1000009 -2.795299 2.38 0.6500812 1 1 1
+  0.3767692 3.708666 -19.87 -89.99999 2.38 0.6500812 1 1 1
   34 0 0 0 0
-  -0.7336345 3.647999 -0.1000009 2.48114 -2.939407 2.459929 1 1 1
+  0.3767692 3.647999 -19.87 -89.99999 -2.939407 2.459929 1 1 1
   35 0 0 0 0
-  -0.7336345 3.811999 -0.1000009 0.0009119363 2.620475 -2.920057 1 1 1
+  0.3767692 3.811999 -19.87 -89.99999 2.620475 -2.920057 1 1 1
   36 0 0 0 0
-  -0.7336345 3.607999 -0.1000009 -3.499544 -3.349763 2.769972 1 1 1
+  0.3767692 3.607999 -19.87 -89.99999 -3.349763 2.769972 1 1 1
   38 0 0 0 0
-  -0.7336345 3.935999 -0.1000009 2.750228 2.660119 -3.480014 1 1 1
+  0.3767692 3.935999 -19.87 -89.99999 2.660119 -3.480014 1 1 1
   39 0 0 0 0
-  -0.7336345 3.7 -0.1000009 0 0 0 1 1 1
+  0.3767692 3.7 -19.87 -89.99999 0 0 1 1 1
   40 0 0 0 0
-  -0.7336345 39.6 -0.1000009 0.6999999 -16.5 13.3 1 1 1
+  0.3767692 39.6 -20.25001 0.6999999 -16.5 13.3 1 1 1
   47 0 0 0 0
-  4.206755 52.2 -0.1000009 1.6 37.60001 70.3 1 1 1
+  4.206755 52.2 -20.25001 1.6 37.60001 70.3 1 1 1
   52 0 0 0 0
-  5.853247 34.50001 -0.1000009 2 28.8 61.7 1 1 1
+  5.853247 34.50001 -20.25001 2 28.8 61.7 1 1 1
   56 0 0 0 0
-  8.253014 13.00001 -0.1000009 -50.4 -7.799999 72.3 1 1 1
+  8.253014 13.00001 -20.25001 -50.4 -7.799999 72.3 1 1 1
   60 0 0 0 0
-  1.535619 23.80001 -0.1000009 -50.4 -7.799999 72.2 1 1 1
+  1.535619 23.80001 -20.25001 -50.4 -7.799999 72.2 1 1 1
   64 0 0 0 0
-  -3.790054 13.4 -0.1000009 -37.3 8.6 97.9 1 1 1
+  -3.790054 13.4 -20.25001 -37.3 8.6 97.89999 1 1 1
   69 0 0 0 0
 EndBehavior 1
-LockedChannels 4
 PivotPoint -4.6 10.7 -0.1000009
 ParentObject 1
 ObjDissolve (envelope)
@@ -137,7 +236,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject ParentNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -148,109 +247,108 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Crystal-Ref\Front.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Front.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   48
-  34.22264 -0.4000006 -0.4817208 0 0 0 1 1 1
+  0.4302095 -0.4000006 14.43236 -89.99999 0 0 1 1 1
   0 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -0.6 -0.01154257 -0.006900451 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -0.01154257 -0.006900451 1 1 1
   3 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 0.6 1.184611 1.1908 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 1.184611 1.1908 1 1 1
   4 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -0.5 -0.02307788 -0.01379657 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -0.02307788 -0.01379657 1 1 1
   6 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 0.5 -1.626892 -1.216077 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -1.626892 -1.216077 1 1 1
   7 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -1.1 -0.03043465 -0.01819464 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -0.03043465 -0.01819464 1 1 1
   8 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 1.2 1.168839 0.7813709 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 1.168839 0.7813709 1 1 1
   9 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -1.4 0 0 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 0 0 1 1 1
   10 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 1 0.5001199 -1.501015 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 0.5001199 -1.501015 1 1 1
   13 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -0.6999999 0.7022198 0.4198056 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 0.7022197 0.4198056 1 1 1
   14 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 0.9 -1.895263 -1.259124 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -1.895263 -1.259124 1 1 1
   15 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -1 1.106955 0.6617669 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 1.106955 0.6617669 1 1 1
   16 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 0.8 1.308688 0.7823679 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 1.308688 0.7823679 1 1 1
   17 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -0.9 -1.69008 -1.19733 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -1.69008 -1.19733 1 1 1
   18 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 0.4 1.71069 1.022695 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 1.71069 1.022695 1 1 1
   19 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -0.9 -2.088943 -0.9575202 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -2.088943 -0.9575202 1 1 1
   20 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 1 2.111141 1.262096 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 2.111141 1.262096 1 1 1
   21 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -0.9 -0.2880831 -1.517875 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -0.2880831 -1.517875 1 1 1
   22 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 1.1 -1.078995 1.626688 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -1.078995 1.626688 1 1 1
   24 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -1.4 2.920877 -1.953823 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 2.920877 -1.953823 1 1 1
   25 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -1.1 -1.27887 1.865894 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -1.27887 1.865894 1 1 1
   26 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 1.1 3.527383 2.108762 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 3.527383 2.108762 1 1 1
   28 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -1.1 -1.670686 -1.670517 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -1.670686 -1.670517 1 1 1
   29 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -1.2 4.142928 2.476751 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 4.142928 2.476751 1 1 1
   31 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -0.1 -2.856593 -2.203397 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -2.856593 -2.203397 1 1 1
   32 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 1.9 4.748133 2.838559 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 4.748133 2.838559 1 1 1
   34 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -1.3 1.948332 -2.441757 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 1.948332 -2.441757 1 1 1
   35 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 2 5.148911 3.078154 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 5.148911 3.078154 1 1 1
   36 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -1.5 -2.641028 -2.157135 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -2.641028 -2.157135 1 1 1
   39 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 2.2 5.959266 3.562605 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 5.959266 3.562605 1 1 1
   40 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -1.9 -2.640362 -3.317606 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -2.640362 -3.317606 1 1 1
   41 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 2.1 2.762721 3.923367 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 2.762721 3.923367 1 1 1
   43 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -1.9 6.763053 -3.856869 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 6.763052 -3.856869 1 1 1
   44 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 2.1 -3.434249 4.283874 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -3.434249 4.283874 1 1 1
   46 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -2.4 7.366054 -4.49638 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 7.366054 -4.49638 1 1 1
   47 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 2.5 -4.431428 2.244256 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -4.431428 2.244256 1 1 1
   49 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -2.5 8.170928 -5.015205 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 8.170928 -5.015205 1 1 1
   51 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 3.399999 -4.626954 5.125192 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -4.626954 5.125192 1 1 1
   53 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -3.399999 8.773273 -0.8551075 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 8.773273 -0.8551074 1 1 1
   54 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 4.099998 8.973331 5.364491 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 8.97333 5.364491 1 1 1
   55 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 -4.16 -5.033918 -5.560277 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 -5.033918 -5.560277 1 1 1
   56 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 4.799999 9.199999 5.5 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 9.199999 5.5 1 1 1
   58 0 0 0 0
-  34.22264 -0.4000006 -0.4817208 0 0 0 1 1 1
+  0.4302095 -0.4000006 14.432 -89.99999 0 0 1 1 1
   60 0 0 0 0
-  31.37929 35.4 -0.4817208 -6.199999 -43.90001 36.8 1 1 1
+  14.48307 35.4 14.432 -6.199999 -43.90001 36.8 1 1 1
   68 0 0 0 0
-  24.70586 40.69999 -0.4817208 7.2 -80.20001 36.8 1 1 1
+  7.809644 40.69999 14.432 7.199999 -80.20001 36.8 1 1 1
   73 0 0 0 0
-  22.7067 6.099989 -0.4817208 2.800001 -74.70002 36.8 1 1 1
+  5.810483 6.099989 14.432 2.800001 -74.70002 36.8 1 1 1
   79 0 0 0 0
-  23.57488 17.29999 -0.4817208 -2.7 -33.39999 25.4 1 1 1
+  6.678665 17.29999 14.432 -2.7 -33.39999 25.4 1 1 1
   86 0 0 0 0
-  24.33025 4.599989 -0.4817208 -6.199999 -12.49999 17.3 1 1 1
+  7.434034 4.599989 14.432 -6.199999 -12.49999 17.3 1 1 1
   91 0 0 0 0
 EndBehavior 1
-LockedChannels 4
 PivotPoint 31.02264 5.599999 -0.4817208
 ParentObject 1
 ObjDissolve (envelope)
@@ -269,8 +367,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Seat.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Seat.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -297,8 +395,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Bucket.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Bucket.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   5
@@ -330,8 +428,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Strut01.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Strut01.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -358,8 +456,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Strut02.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Strut02.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -386,8 +484,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Strut03.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Strut03.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -414,8 +512,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Crystal-Ref\Light01.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Light01.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -442,8 +540,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Crystal-Ref\Light02.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Light02.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -470,8 +568,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\YellowPipe01.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\YellowPipe01.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -498,8 +596,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\YellowPipe02.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\YellowPipe02.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -527,7 +625,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -543,7 +641,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -559,7 +657,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -575,7 +673,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -591,7 +689,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject Crystals_PARENTNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -609,7 +707,7 @@ ParentObject 5
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -625,7 +723,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -641,7 +739,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject Deposit_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -655,7 +753,7 @@ ParentObject 3
 ShadowOptions 7
 
 AddNullObject Parent_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -669,48 +767,48 @@ EndBehavior 1
 ParentObject 100
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\Explo.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Explo.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   19
-  0.159453 9.5 0.0004288033 0 99.99998 0 0.91 0.9579996 0.914
+  0.159453 9.5 0.0004288033 0 99.99997 0 0.91 0.9579996 0.914
   0 0 0 0 0
-  0.159453 9.499935 0.0004288033 0 99.99998 0 1.073999 1.618218 0.8239999
+  0.159453 9.499935 0.0004288033 0 99.99997 0 1.073999 1.618218 0.8239999
   19 1 0 0 0
-  0.159453 9.499931 0.0004288033 -126.3 99.99998 0 0.9668159 1.112167 4.022398
+  0.159453 9.499931 0.0004288033 -126.3 99.99997 0 0.9668159 1.112167 4.022398
   20 0 0 0 0
-  0.159453 9.499931 0.0004288033 -126.3 99.99998 0 1.668816 1.798167 3.920397
+  0.159453 9.499931 0.0004288033 -126.3 99.99997 0 1.668816 1.798167 3.920397
   30 1 0 0 0
-  0.159453 9.499931 0.0004288033 -239.7 99.99998 0 0.8888163 1.026167 4.610399
+  0.159453 9.499931 0.0004288033 -239.7 99.99997 0 0.8888163 1.026167 4.610399
   31 0 0 0 0
-  0.159453 9.499931 0.0004288033 -239.7 99.99998 0 1.406816 1.440167 4.552399
+  0.159453 9.499931 0.0004288033 -239.7 99.99997 0 1.406816 1.440167 4.552399
   40 1 0 0 0
-  0.159453 9.499931 0.0004288033 -49.39986 99.99998 0 0.9968163 0.960167 4.368398
+  0.159453 9.499931 0.0004288033 -49.39986 99.99997 0 0.9968163 0.960167 4.368398
   41 0 0 0 0
-  0.159453 9.499931 0.0004288033 -42.39985 99.99998 0 1.418816 1.542167 5.7944
+  0.159453 9.499931 0.0004288033 -42.39985 99.99997 0 1.418816 1.542167 5.7944
   45 1 0 0 0
-  0.159453 9.499931 0.0004288033 57.50014 99.99998 0 0.7628164 1.226167 4.798399
+  0.159453 9.499931 0.0004288033 57.50014 99.99997 0 0.7628164 1.226167 4.798399
   46 0 0 0 0
-  0.159453 9.499931 0.0004288033 55.00014 99.99998 0 1.240817 1.718167 5.406399
+  0.159453 9.499931 0.0004288033 55.00014 99.99997 0 1.240817 1.718167 5.406399
   50 1 0 0 0
-  0.159453 9.499931 0.0004288033 182.0001 99.99998 0 1.044816 1.384166 4.972399
+  0.159453 9.499931 0.0004288033 182.0001 99.99997 0 1.044816 1.384166 4.972399
   51 0 0 0 0
-  0.159453 9.499931 0.0004288033 180.1001 99.99998 0 1.298816 1.930166 5.636399
+  0.159453 9.499931 0.0004288033 180.1001 99.99997 0 1.298816 1.930166 5.636399
   60 1 0 0 0
-  0.159453 9.499931 0.0004288033 369.0002 99.99998 0 0.9768165 1.362167 4.9144
+  0.159453 9.499931 0.0004288033 369.0002 99.99997 0 0.9768165 1.362167 4.9144
   61 0 0 0 0
-  0.159453 9.499931 0.0004288033 371.2001 99.99998 0 1.254817 1.850167 5.460399
+  0.159453 9.499931 0.0004288033 371.2001 99.99997 0 1.254817 1.850167 5.460399
   70 1 0 0 0
-  0.159453 9.499931 0.0004288033 269.9002 99.99998 0 1.228817 1.972167 5.6364
+  0.159453 9.499931 0.0004288033 269.9002 99.99997 0 1.228817 1.972167 5.6364
   71 0 0 0 0
-  0.159453 9.499931 0.0004288033 269.9001 99.99998 0 1.372817 1.796167 5.5644
+  0.159453 9.499931 0.0004288033 269.9001 99.99997 0 1.372817 1.796167 5.5644
   79 1 0 0 0
-  0.159453 9.499931 0.0004288033 151.0002 99.99998 0 0.9108166 1.366167 5.412399
+  0.159453 9.499931 0.0004288033 151.0002 99.99997 0 0.9108166 1.366167 5.412399
   80 0 0 0 0
-  0.159453 9.499931 0.0004288033 151.0002 99.99998 0 1.220817 2.934168 5.220399
+  0.159453 9.499931 0.0004288033 151.0002 99.99997 0 1.220817 2.934168 5.220399
   95 1 0 0 0
-  0.159453 9.499931 0.0004288033 151.0002 99.99998 0 1.220817 2.934168 5.220399
+  0.159453 9.499931 0.0004288033 151.0002 99.99997 0 1.220817 2.934168 5.220399
   120 0 0 0 0
 EndBehavior 1
 LockedChannels 53
@@ -743,8 +841,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\PulseRed.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\PulseRed.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   19
@@ -813,8 +911,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\PulseExplos20.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\PulseExplos20.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   16
@@ -875,8 +973,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\Brick.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   23
@@ -894,13 +992,13 @@ ObjectMotion (unnamed)
   52 0 0 0 0
   -26.95928 28 19.00567 370.0001 811.9998 -252 1 1 1
   57 0 0 0 0
-  -28.62475 4.299998 20.32788 373.9998 837.9999 -257.9 1 1 1
+  -28.62475 4.299998 20.32788 373.9998 837.9998 -257.9 1 1 1
   58 0 0 0 0
-  -28.62475 11.6 21.55787 373.9998 865.35 -274.35 1 1 1
+  -28.62475 11.6 21.55787 373.9998 865.3499 -274.35 1 1 1
   59 0 0 0 0
   -2.884746 18.9 41.18787 565.9996 264.7 -290.8 1 1 1
   60 1 0 0 0
-  2.635248 30.49999 38.06787 549.9997 544.6996 -290.8 1 1 1
+  2.635248 30.49999 38.06787 549.9997 544.6995 -290.8 1 1 1
   63 1 0 0 0
   5.519994 26 31.90407 465.9998 808.6999 -290.8 1 1 1
   67 0 0 0 0
@@ -955,8 +1053,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\Brick.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   24
@@ -970,11 +1068,11 @@ ObjectMotion (unnamed)
   44 0 0 0 0
   22.90335 19.8 6.533142 66.00001 12.24 -12.16031 1 1 1
   47 0 0 0 0
-  30.55757 1.399999 6.224358 84 0 32 1 1 1
+  30.55757 1.399999 6.224358 83.99999 0 32 1 1 1
   50 1 0 0 0
   33.21757 6.4 6.224358 70.00001 4.94 -92.00001 1 1 1
   52 1 0 0 0
-  35.61001 8.400001 6.224358 90 10.5 -163.0001 1 1 1
+  35.61001 8.400001 6.224358 89.99999 10.5 -163.0001 1 1 1
   54 0 0 0 0
   36.78757 6.4 6.224358 108 20.05999 -199.2001 1 1 1
   56 0 0 0 0
@@ -992,11 +1090,11 @@ ObjectMotion (unnamed)
   65 0 0 0 0
   -10.13665 19.8 36.33314 66.00001 12.24 -12.16031 1 1 1
   68 0 0 0 0
-  -13.40243 1.399999 35.18436 84 0 32 1 1 1
+  -13.40243 1.399999 35.18436 83.99999 0 32 1 1 1
   71 1 0 0 0
   -15.50242 6.4 34.58435 70.00001 4.94 -92.00001 1 1 1
   73 1 0 0 0
-  -18.42999 8.400001 34.10436 90 10.5 -163.0001 1 1 1
+  -18.42999 8.400001 34.10436 89.99999 10.5 -163.0001 1 1 1
   75 0 0 0 0
   -20.61243 6.4 33.74436 108 20.05999 -199.2001 1 1 1
   77 0 0 0 0
@@ -1033,8 +1131,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\Brick.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   17
@@ -1097,8 +1195,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\Brick.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   20
@@ -1128,9 +1226,9 @@ ObjectMotion (unnamed)
   73 1 0 0 0
   15.74398 0.8 28.00001 -597.2 -1978.501 0 1 1 1
   74 1 0 0 0
-  16.36621 17.6 27.47557 -663.5555 -1963.667 0 1 1 1
+  16.36621 17.6 27.47557 -663.5554 -1963.667 0 1 1 1
   75 0 0 0 0
-  17.66398 22.4 26.56001 -685.1996 -1978.501 0 1 1 1
+  17.66398 22.4 26.56001 -685.1995 -1978.501 0 1 1 1
   77 0 0 0 0
   18.464 17.6 25.92001 -701.1998 -1978.501 0 1 1 1
   78 0 0 0 0
@@ -1167,8 +1265,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\Brick.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   20
@@ -1237,8 +1335,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\SmoPyram.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\SmoPyram.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -1268,7 +1366,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject SmokePyramid_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -1299,8 +1397,8 @@ LockedChannels 179
 ParentObject 22
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\SmoPyram.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\SmoPyram.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -1329,14 +1427,14 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\SmoPyram.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\SmoPyram.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  0 0 0 71.99999 0 0 1.035 1 1
+  0 0 0 71.99998 0 0 1.035 1 1
   0 0 0 0 0
-  0 0 0 71.99999 0 0 1.035 1 1
+  0 0 0 71.99998 0 0 1.035 1 1
   120 0 0 0 0
 EndBehavior 1
 LockedChannels 176
@@ -1359,8 +1457,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\SmoPyram.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\SmoPyram.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -1389,8 +1487,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\SmoPyram.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\SmoPyram.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -1420,7 +1518,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -1438,7 +1536,7 @@ ParentObject 38
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -1456,7 +1554,7 @@ ParentObject 48
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -1484,7 +1582,7 @@ ParentObject 38
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   6
@@ -1504,8 +1602,8 @@ EndBehavior 1
 ParentObject 48
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\beam.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -1538,8 +1636,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject Z:\lego\DATA\World\Shared\beam.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -1575,24 +1673,24 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject Z:\lego\DATA\World\Shared\beam.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
-  0 0 0 -78.89999 -23.4 0 0 0 0
+  0 0 0 -78.89998 -23.4 0 0 0 0
   0 0 0 0 0
-  0 0 0 -78.89999 -23.4 0 0 0 0
+  0 0 0 -78.89998 -23.4 0 0 0 0
   41 0 0 0 0
-  0 0 0 -78.89999 -23.4 0 4.976 1.558 2.762
+  0 0 0 -78.89998 -23.4 0 4.976 1.558 2.762
   42 0 0 0 0
-  0 0 0 -78.89999 -23.4 0 0 1.558 4.904
+  0 0 0 -78.89998 -23.4 0 0 1.558 4.904
   49 0 0 0 0
-  0 0 0 -78.89999 -23.4 0 0 1.558 4.904
+  0 0 0 -78.89998 -23.4 0 0 1.558 4.904
   50 0 0 0 0
-  0 0 0 -78.89999 -23.4 0 0 1.558 4.904
+  0 0 0 -78.89998 -23.4 0 0 1.558 4.904
   60 0 0 0 0
-  0 0 0 -78.89999 -23.4 0 0 1.558 4.904
+  0 0 0 -78.89998 -23.4 0 0 1.558 4.904
   120 0 0 0 0
 EndBehavior 1
 ParentObject 40
@@ -1608,8 +1706,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject Z:\lego\DATA\World\Shared\beam.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -1641,24 +1739,24 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject Z:\lego\DATA\World\Shared\beam.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
-  0 0 0 130.6 -9.499989 0 0 0 0
+  0 0 0 130.6 -9.499988 0 0 0 0
   0 0 0 0 0
-  0 0 0 130.6 -9.499989 0 0 0 0
+  0 0 0 130.6 -9.499988 0 0 0 0
   41 0 0 0 0
-  0 0 0 130.6 -9.499989 0 3.52 2.438 2.390001
+  0 0 0 130.6 -9.499988 0 3.52 2.438 2.390001
   42 0 0 0 0
-  0 0 0 130.6 -9.499989 0 0 2.438 5.258
+  0 0 0 130.6 -9.499988 0 0 2.438 5.258
   49 0 0 0 0
-  0 0 0 130.6 -9.499989 0 0 2.438 5.258
+  0 0 0 130.6 -9.499988 0 0 2.438 5.258
   50 0 0 0 0
-  0 0 0 130.6 -9.499989 0 0 2.438 5.258
+  0 0 0 130.6 -9.499988 0 0 2.438 5.258
   60 0 0 0 0
-  0 0 0 130.6 -9.499989 0 0 2.438 5.258
+  0 0 0 130.6 -9.499988 0 0 2.438 5.258
   120 0 0 0 0
 EndBehavior 1
 LockedChannels 192
@@ -1675,8 +1773,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject Z:\lego\DATA\World\Shared\beam.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -1708,8 +1806,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject Z:\lego\DATA\World\Shared\newcenter.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\newcenter.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -1749,19 +1847,19 @@ EndBehavior 1
 ShadowOptions 0
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   5
-  -25.64682 -24.94004 -11.79562 90 0 0 15.112 15.112 15.112
+  -25.64682 -24.94004 -11.79562 89.99999 0 0 15.112 15.112 15.112
   0 0 0 0 0
-  -25.64682 -24.94004 -11.79562 90 0 0 15.112 15.112 15.112
+  -25.64682 -24.94004 -11.79562 89.99999 0 0 15.112 15.112 15.112
   41 0 0 0 0
-  -25.64682 -25.84005 -11.79562 90 0 0 15.112 15.112 15.112
+  -25.64682 -25.84005 -11.79562 89.99999 0 0 15.112 15.112 15.112
   43 0 0 0 0
-  -25.64682 -25.84005 -11.79562 90 0 0 15.112 15.112 15.112
+  -25.64682 -25.84005 -11.79562 89.99999 0 0 15.112 15.112 15.112
   60 0 0 0 0
-  -25.64682 -25.84005 -11.79562 90 0 0 15.112 15.112 15.112
+  -25.64682 -25.84005 -11.79562 89.99999 0 0 15.112 15.112 15.112
   120 0 0 0 0
 EndBehavior 1
 LockedChannels 5
@@ -1769,7 +1867,7 @@ ParentObject 99
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -1786,7 +1884,7 @@ ParentObject 59
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -1803,7 +1901,7 @@ ParentObject 59
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -1820,7 +1918,7 @@ ParentObject 59
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -1837,7 +1935,7 @@ ParentObject 59
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -1854,7 +1952,7 @@ ParentObject 59
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -1871,7 +1969,7 @@ ParentObject 59
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -1888,7 +1986,7 @@ ParentObject 59
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -1905,7 +2003,7 @@ ParentObject 59
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -1920,7 +2018,7 @@ ParentObject 59
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -1935,7 +2033,7 @@ ParentObject 59
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -1949,8 +2047,8 @@ EndBehavior 1
 ParentObject 99
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockDust.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockDust.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -1990,8 +2088,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockDust.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockDust.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -2031,8 +2129,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockDust.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockDust.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -2072,8 +2170,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockDust.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockDust.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -2119,8 +2217,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockdustX.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -2154,8 +2252,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockdustX.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -2193,8 +2291,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockdustX.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -2228,8 +2326,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockdustX.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -2257,8 +2355,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockdustX.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -2292,8 +2390,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockdustX.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -2327,8 +2425,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockdustX.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -2372,8 +2470,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockdustX.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -2417,8 +2515,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockdustX.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -2458,8 +2556,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockdustX.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -2499,8 +2597,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\S_Rock.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   10
@@ -2540,8 +2638,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\S_Rock.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -2579,8 +2677,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\S_Rock.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   8
@@ -2615,13 +2713,13 @@ ObjDissolve (envelope)
   56 0 0 0 0
   0.392
   58 0 0 0 0
-  0.8159999
+  1
   60 0 0 0 0
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\S_Rock.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -2661,8 +2759,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\S_Rock.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   8
@@ -2702,8 +2800,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\S_Rock.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   8
@@ -2743,8 +2841,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\S_Rock.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   8
@@ -2780,8 +2878,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\S_Rock.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   10
@@ -2821,8 +2919,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\S_Rock.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   10
@@ -2862,8 +2960,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockdustX.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -2903,8 +3001,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\RockdustX.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -2948,8 +3046,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleR.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleR.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -2975,8 +3073,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -3002,8 +3100,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -3041,8 +3139,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -3068,8 +3166,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -3095,8 +3193,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleR.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleR.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -3122,8 +3220,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleR.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleR.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -3149,8 +3247,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleR.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleR.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -3176,8 +3274,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Misc\Rock_Explo\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -3204,7 +3302,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   6
@@ -3224,8 +3322,8 @@ EndBehavior 1
 ParentObject 40
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\ring.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\ring.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -3249,16 +3347,16 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject Z:\lego\DATA\World\Shared\ring.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\ring.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
-  -60 0 -60 -90 0 0 1 1 1
+  -60 0 -60 -89.99999 0 0 1 1 1
   0 0 0 0 0
-  -60 0 -60 -90 0 0 1 1 1
+  -60 0 -60 -89.99999 0 0 1 1 1
   41 0 0 0 0
-  -60 0 -60 -90 0 0 1 1 1
+  -60 0 -60 -89.99999 0 0 1 1 1
   120 0 0 0 0
 EndBehavior 1
 LockedChannels 51
@@ -3275,8 +3373,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject Z:\lego\DATA\World\Shared\ring.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\ring.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -3301,8 +3399,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject Z:\lego\DATA\World\Shared\ring.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\ring.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -3328,7 +3426,7 @@ EndBehavior 1
 ShadowOptions 0
 
 AddNullObject Parent_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -3339,7 +3437,7 @@ ParentObject 100
 ShadowOptions 7
 
 AddNullObject MAIN BOOM NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -3349,8 +3447,8 @@ EndBehavior 1
 LockedChannels 3
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\PulseExplos20.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\PulseExplos20.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   15
@@ -3428,7 +3526,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject SFX,SND_Explode1,40
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -3438,7 +3536,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject SFX,SND_Explode2,60
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -3448,7 +3546,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AmbientColor 255 255 255
-AmbIntensity 0.200000
+AmbIntensity 0.2
 
 AddLight
 LightName Light
@@ -3461,11 +3559,14 @@ LightMotion (unnamed)
   38.39843 37 -66.98692 45 35 0 1 1 1
   10 0 0 0 0
 EndBehavior 1
+HController 1
+PController 1
 TargetObject 3
 LightColor 255 255 255
-LgtIntensity 1.000000
+LgtIntensity 1
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 AddLight
 LightName Light
@@ -3478,11 +3579,14 @@ LightMotion (unnamed)
   -55.32762 23.59999 72.97393 45 35 0 1 1 1
   10 0 0 0 0
 EndBehavior 1
+HController 1
+PController 1
 TargetObject 3
 LightColor 255 255 255
-LgtIntensity 1.000000
+LgtIntensity 1
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 ShowCamera 1 7
 CameraMotion (unnamed)
@@ -3493,18 +3597,22 @@ CameraMotion (unnamed)
   84.05732 47.85001 -55.45388 0 0 0 1 1 1
   10 0 0 0 0
 EndBehavior 1
+HController 1
+PController 1
 TargetObject 3
-ZoomFactor 3.200000
+ZoomFactor 3.2
 Resolution 1
-PixelAspectRatio 2
-SegmentMemory 2200000
+CustomSize 640 480
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+SegmentMemory 32000000
+ApertureHeight 0.015
 Antialiasing 0
 AdaptiveSampling 1
 AdaptiveThreshold 16
-FilmSize 2
-FieldRendering 0
-MotionBlur 0
-DepthOfField 0
 
 SolidBackdrop 1
 BackdropColor 0 0 0
@@ -3518,19 +3626,23 @@ AnimatedDither 0
 
 RenderMode 2
 RayTraceEffects 0
-ClipRayColors 0
+RayRecursionLimit 16
+RayTraceOptimization 1
 DataOverlayLabel  
-FullSceneParamEval 0
+SaveRGB 0
+SaveAlpha 0
 
-ViewMode 3
-ViewAimpoint -1.590825 8.049999 23.526442
-ViewDirection -180.942932 -0.300196 0.000000
-ViewZoomFactor 3.065161
+ViewType 7
+ViewAimpoint 18.37553 8.049999 -13.35482
+ViewDirection -180.6684 -0.04014508 0
+ViewZoomFactor 3.906734
+
 GridNumber 50
-GridSize 20.000000
+GridSize 20
+CameraViewBG 0
 ShowMotionPath 1
-ShowBGImage 0
 ShowFogRadius 0
-ShowRedraw 0
+ShowFogEffect 0
 ShowSafeAreas 0
 ShowFieldChart 0
+OverlayColor_fv 0 0 0

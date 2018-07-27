@@ -46,6 +46,8 @@ Jessietail:
 - For advice, help, ideas, and many contributions to this project.
 - High-polygon teal 2x2 brick model.
 - High-polygon 1x1 5-point rock crystal model.
+- High-polygon 2x3 brick model.
+- High-polygon dynamite model and high resolution dynamite brick texture.
 - Quake.wav
 
 JimbobJeffers:
@@ -96,6 +98,14 @@ Yourself:
 
 Changelog
 --------------
+v0.14.007
+- Fixed most issues with building explosion animations.
+- Fixed Power Station animations to use shared large base model.
+
+v0.14.006
+- Replaced 2x3 brick model in Shared folder with high poly version.
+- Replaced dynamite model and dynamite brick texture with high poly/res versions.
+
 v0.14.005
 - Upscaled Stripes16.bmp from 16x16 to 32x32 and rotated texture 90 degrees.
 - Replaced barrier 1x4 tile and posts with my high poly versions.

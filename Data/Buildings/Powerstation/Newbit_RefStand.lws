@@ -1,16 +1,18 @@
 LWSC
 1
 
+RenderRangeType 0
 FirstFrame 0
 LastFrame 20
 FrameStep 1
+RenderRangeArbitrary 0-20
 PreviewFirstFrame 0
 PreviewLastFrame 60
 PreviewFrameStep 1
-FramesPerSecond 25.000000
+FramesPerSecond 25
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -27,7 +29,7 @@ LockedChannels 373
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -45,8 +47,8 @@ PivotPoint -0.49 0 1.36
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\buildingbottom.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\buildingbottom.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -63,8 +65,8 @@ LockedChannels 3
 ParentObject 6
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\LPdraw.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\LPdraw.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -81,8 +83,8 @@ LockedChannels 3
 ParentObject 3
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\LPbucket.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\LPbucket.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -100,55 +102,55 @@ ParentObject 4
 ShadowOptions 7
 
 AddNullObject Parent_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
-  -0.02216761 1.85 -0.0247286 90.59999 0 0 0.02599994 0.03199993 0.02599994
+  -0.02216761 1.85 -0.0247286 90.59998 0 0 0.02599994 0.03199993 0.02599994
   0 0 0 0 0
-  -0.02216761 1.85 -0.0247286 90.59999 0 0 0.02599994 0.03199993 0.02599994
+  -0.02216761 1.85 -0.0247286 90.59998 0 0 0.02599994 0.03199993 0.02599994
   3 0 0 0 0
-  -0.02216761 1.85 -0.0247286 90.59999 0 0 0.02599994 0.03199993 0.02599994
+  -0.02216761 1.85 -0.0247286 90.59998 0 0 0.02599994 0.03199993 0.02599994
   6 0 0 0 0
-  -0.02216761 1.85 -0.0247286 90.59999 0 0 0.02599994 0.03199993 0.02599994
+  -0.02216761 1.85 -0.0247286 90.59998 0 0 0.02599994 0.03199993 0.02599994
   20 0 0 0 0
 EndBehavior 1
 LockedChannels 374
 ParentObject 1
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\Base.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\BaseLarge.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
-  0 4.5 0 0 0 0 1 1 1
+  20.104 4.5 0 89.99999 0 0 1 1 1
   0 0 0.5900002 0 0
-  0 4.5 0 0 0 0 1 1 1
+  20.104 4.5 0 90 0 0 1 1 1
   3 0 0 0 0
-  0 4.5 0 0 0 0 1 1 1
+  20.104 4.5 0 90 0 0 1 1 1
   6 0 0 0 0
-  0 4.5 0 0 0 0 1 1 1
+  20.104 4.5 0 90 0 0 1 1 1
   20 0 0 0 0
 EndBehavior 1
-LockedChannels 133
+LockedChannels 132
 ParentObject 6
 ShadowOptions 5
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Refinery\Arrow.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Arrow.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
-  -6.402147 20.99999 -0.1310424 90 31.3 0 1 1 1
+  -6.402147 20.99999 -0.1310424 89.99999 31.3 0 1 1 1
   0 0 0 0 0
 EndBehavior 1
 LockedChannels 48
 ParentObject 25
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\Arrow.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Arrow.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -165,8 +167,8 @@ LockedChannels 46
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\BrickConeY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -183,8 +185,8 @@ LockedChannels 5
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\BrickConeY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -200,8 +202,8 @@ EndBehavior 1
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\buildingtop.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\buildingtop.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -218,8 +220,8 @@ LockedChannels 5
 ParentObject 6
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\LPRefPivot.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\LPRefPivot.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -236,8 +238,8 @@ LockedChannels 5
 ParentObject 12
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\LPRefinaryarms.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\LPRefinaryarms.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -254,25 +256,25 @@ LockedChannels 45
 ParentObject 12
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\LPRefinarydrill.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\LPRefinarydrill.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
-  0 4.950001 0.2 0 -7.2 0 1 1 1
+  0 4.950001 0.2 0 -7.199999 0 1 1 1
   0 0 0 0 0
-  0 4.950001 0.2 0 -7.2 0 1 1 1
+  0 4.950001 0.2 0 -7.199999 0 1 1 1
   3 0 0 0 0
-  0 4.950001 0.2 0 -7.2 0 1 1 1
+  0 4.950001 0.2 0 -7.199999 0 1 1 1
   6 0 0 0 0
-  0 4.950001 0.2 0 -7.2 0 1 1 1
+  0 4.950001 0.2 0 -7.199999 0 1 1 1
   20 0 0 0 0
 EndBehavior 1
 ParentObject 14
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\LPRefinaryLaser.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\LPRefinaryLaser.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -289,7 +291,7 @@ ParentObject 15
 ShadowOptions 7
 
 AddNullObject Item_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -306,7 +308,7 @@ LockedChannels 41
 ShadowOptions 7
 
 AddNullObject Item_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -323,7 +325,7 @@ LockedChannels 46
 ShadowOptions 7
 
 AddNullObject Item_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -340,7 +342,7 @@ LockedChannels 46
 ShadowOptions 7
 
 AddNullObject Item_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -357,7 +359,7 @@ LockedChannels 46
 ShadowOptions 7
 
 AddNullObject Item_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -374,7 +376,7 @@ LockedChannels 42
 ShadowOptions 7
 
 AddNullObject Deposit_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -389,8 +391,8 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -412,8 +414,8 @@ EndBehavior 1
 ParentObject 10
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -429,8 +431,8 @@ EndBehavior 1
 ParentObject 35
 ShadowOptions 7
 
-LoadObject Z:\lego\Data\Buildings\Refinery\Newbit_Base.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Newbit_Base.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -440,8 +442,8 @@ EndBehavior 1
 LockedChannels 53
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Refinery\Arrow.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Arrow.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -458,8 +460,8 @@ LockedChannels 40
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Refinery\Arrow.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Arrow.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -470,8 +472,8 @@ LockedChannels 54
 ParentObject 25
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\BrickConeY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -482,8 +484,8 @@ LockedChannels 128
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\BrickConeY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -494,8 +496,8 @@ LockedChannels 128
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\BrickConeY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -506,8 +508,8 @@ LockedChannels 128
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\BrickConeY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -518,8 +520,8 @@ LockedChannels 128
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\BrickConeY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -530,8 +532,8 @@ LockedChannels 322
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\BrickConeY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -542,8 +544,8 @@ LockedChannels 322
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\BrickConeY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -554,8 +556,8 @@ LockedChannels 322
 ParentObject 12
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Refinery\BrickConeY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\BrickConeY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -566,8 +568,8 @@ LockedChannels 322
 ParentObject 12
 ShadowOptions 5
 
-LoadObject Z:\lego\Data\Buildings\Refinery\Connecting_Pipe.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Connecting_Pipe.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -576,8 +578,8 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\Data\Buildings\Refinery\Connecting_Pipe.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Connecting_Pipe.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -586,8 +588,8 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\Data\Buildings\Refinery\Connecting_Pipe.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Connecting_Pipe.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -596,8 +598,8 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\Data\Buildings\Refinery\Connecting_Pipe.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Connecting_Pipe.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -606,8 +608,8 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -629,8 +631,8 @@ EndBehavior 1
 ParentObject 11
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -646,8 +648,8 @@ EndBehavior 1
 ParentObject 33
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -663,8 +665,8 @@ EndBehavior 1
 ParentObject 34
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -680,8 +682,8 @@ EndBehavior 1
 ParentObject 32
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Refinery\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -707,8 +709,8 @@ EndBehavior 1
 ParentObject 28
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -725,8 +727,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -744,8 +746,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -763,8 +765,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -782,12 +784,12 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
-  40.78648 3.100002 0.4148803 90 1.100001 0 0.8039998 1.103999 0.9960001
+  40.78648 3.100002 0.4148803 89.99999 1.100001 0 0.8039998 1.103999 0.9960001
   0 0 0 0 0
 EndBehavior 1
 LockedChannels 298
@@ -801,8 +803,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -820,8 +822,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -839,8 +841,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\SteamThing.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -858,8 +860,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Buildings\Powerstation\Newbit_powercells.lwo
-ShowObject 8 7
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Newbit_powercells.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -870,7 +872,7 @@ ParentObject 25
 ShadowOptions 7
 
 AmbientColor 255 255 255
-AmbIntensity 1.000000
+AmbIntensity 1
 
 AddLight
 LightName FlashlightSPOT
@@ -878,27 +880,28 @@ ShowLight 1 7
 LightMotion (unnamed)
   9
   4
-  0.0003540106 2.06 -0.004603957 0 90 0 1 1 1
+  0.0003540106 2.06 -0.004603957 0 89.99999 0 1 1 1
   0 0 0 0 0
-  0.0003540106 2.06 -0.004603957 0 90 0 1 1 1
+  0.0003540106 2.06 -0.004603957 0 89.99999 0 1 1 1
   3 0 0 0 0
-  0.0003540106 2.06 -0.004603957 0 90 0 1 1 1
+  0.0003540106 2.06 -0.004603957 0 89.99999 0 1 1 1
   6 0 0 0 0
-  0.0003540106 72.76 -0.004603957 0 90 0 1 1 1
+  0.0003540106 72.76 -0.004603957 0 89.99999 0 1 1 1
   20 0 0 0 0
 EndBehavior 1
 ParentObject 1
 LightColor 226 255 183
-LgtIntensity 0.000000
+LgtIntensity 0
 LightType 2
 LightFalloff 1
-LightRange 15.000000
-ConeAngle 77.640022
-EdgeAngle 10.000000
+LightRange 15
+ConeAngle 77.64002
+EdgeAngle 10
 ShadowType 2
+ShadowColor 0 0 0
 ShadowMapSize 512
 UseConeAngle 1
-ShadowFuzziness 1.000000
+ShadowFuzziness 1
 
 ShowCamera 1 7
 CameraMotion (unnamed)
@@ -914,17 +917,19 @@ CameraMotion (unnamed)
   20 0 0 0 0
 EndBehavior 1
 LockedChannels 32
-ZoomFactor 3.000000
+ZoomFactor 3
 Resolution 0
-PixelAspectRatio 2
-SegmentMemory 2200000
+CustomSize 320 240
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+SegmentMemory 32000000
+ApertureHeight 0.015
 Antialiasing 0
 AdaptiveSampling 1
 AdaptiveThreshold 16
-FilmSize 2
-FieldRendering 0
-MotionBlur 0
-DepthOfField 0
 
 SolidBackdrop 1
 BackdropColor 0 0 0
@@ -938,23 +943,27 @@ AnimatedDither 0
 
 RenderMode 2
 RayTraceEffects 0
+RayRecursionLimit 16
+RayTraceOptimization 1
 DataOverlayLabel  
 SaveAnimationName \\Simon\D\OUTPUT\DUST.avi
-AnimationType 0
 OutputFilenameFormat 1
+SaveRGB 0
 SaveRGBImagesPrefix \\Simon\D\OUTPUT\dust\D2-test
 RGBImageFormat 2
-FullSceneParamEval 0
+SaveAlpha 0
 
-ViewMode 3
-ViewAimpoint 17.358364 24.899996 -3.046357
-ViewDirection -8.703994 -0.221652 0.024435
-ViewZoomFactor 24.613661
+ViewType 7
+ViewAimpoint 17.35836 24.9 -3.046357
+ViewDirection -8.723191 -0.06806301 0.024435
+ViewZoomFactor 19.17809
+
 GridNumber 10
-GridSize 50.000000
+GridSize 50
+CameraViewBG 0
 ShowMotionPath 0
-ShowBGImage 0
 ShowFogRadius 0
-ShowRedraw 0
+ShowFogEffect 0
 ShowSafeAreas 0
 ShowFieldChart 0
+OverlayColor_fv 0 0 0
