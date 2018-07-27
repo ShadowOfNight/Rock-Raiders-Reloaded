@@ -1,6 +1,10 @@
 SHARED MODEL\TEXTURE LIST
 =========================
+BrickConeY.lwo used by:
 
+
+
+------------------------------------------------
 LightSpangleB.lwo used by:
 
 Creatures\IceMonster\Carry_RestStand.lws
@@ -159,3 +163,34 @@ MiscObjs\BirdScarer\BOOM.lws
 MiscObjs\ElectricFenceStud\SingleStud_ON.lws
 
 MiscObjs\Effects\Rock_Explo.lws
+--------------------------------------------------
+R_post.lwo used by:
+
+Buildings\ToolStation\MT_T_Down.lws
+		      M-teleport.lws
+		      M-teleportBlow2.lws
+
+MiscObjs\Barrier\Barrier_Carry.lws
+		 Barrier_Dissolve.lws
+		 Barrier_LongF2.lws
+		 Place_Barrier.lws
+
+---------------------------------------------------
+Stripes.lwo used by:
+
+Buildings\ToolStation\MT_T_Down.lws
+		      M-teleport.lws
+		      M-teleportBlow2.lws
+
+MiscObjs\Barrier\Barrier_Carry.lws
+---------------------------------------------------
+Y_post.lwo used by:
+
+Buildings\ToolStation\MT_T_Down.lws
+		      M-teleport.lws
+		      M-teleportBlow2.lws
+
+MiscObjs\Barrier\Barrier_Carry.lws
+		 Barrier_Dissolve.lws
+		 Barrier_LongF2.lws
+		 Place_Barrier.lws

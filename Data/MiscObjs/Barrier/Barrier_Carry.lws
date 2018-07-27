@@ -11,7 +11,7 @@ PreviewLastFrame 1
 PreviewFrameStep 1
 FramesPerSecond 25
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\MiscObjs\Barrier\Y_Post.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\MiscObjs\Barrier\Y_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -24,7 +24,7 @@ EndBehavior 1
 ParentObject 4
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\MiscObjs\Barrier\R_post.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\MiscObjs\Barrier\R_post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -38,7 +38,7 @@ LockedChannels 6
 ParentObject 4
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\MiscObjs\Barrier\Stripes.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\MiscObjs\Barrier\Stripes.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9

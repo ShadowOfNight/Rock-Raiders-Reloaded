@@ -36,6 +36,7 @@ Axel (aka Eaol):
 - Several sound effects (see Sounds sources below for details).
 
 Cirevam: 
+- For help and advice with using Lightwave.
 - High-polygon sonic blaster model.
 - For providing several animations needed for Geo-Dome upgrade.
 
@@ -98,13 +99,19 @@ Yourself:
 
 Changelog
 --------------
+v0.14.008
+- Fixed a few more issues with Upgrade Station explosion animation.
+- Replaced dynamite countdown number models.
+- Moved barrier models to Shared folder.
+- Updated Tool Store animations with new barrier model positions.
+
 v0.14.007
 - Fixed most issues with building explosion animations.
 - Fixed Power Station animations to use shared large base model.
 
 v0.14.006
-- Replaced 2x3 brick model in Shared folder with high poly version.
-- Replaced dynamite model and dynamite brick texture with high poly/res versions.
+- Replaced 2x3 brick model in Shared folder with high poly version. (Jessietail)
+- Replaced dynamite model and dynamite brick texture with high poly/res versions. (Jessietail)
 
 v0.14.005
 - Upscaled Stripes16.bmp from 16x16 to 32x32 and rotated texture 90 degrees.

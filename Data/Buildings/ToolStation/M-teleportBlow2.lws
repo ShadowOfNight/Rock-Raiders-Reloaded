@@ -121,7 +121,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Explo.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Explo.lwo
 ShowObject 0 7
 ObjectMotion (unnamed)
   9
@@ -1223,14 +1223,14 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Y_Post.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Y_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  0 0 0 0 0 0 1 1 1
+  -1.3902 0 2.0273 0 0 0 1 1 1
   0 0 0 0 0
-  0 0 0 0 0 0 1 1 1
+  -1.3902 0 2.0273 0 0 0 1 1 1
   19 0 0 0 0
 EndBehavior 1
 ParentObject 35
@@ -1246,14 +1246,14 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\R_Post.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\R_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  7.499997 0 0 0 0 0 1 1 1
+  6.096 0 1.9844 0 0 0 1 1 1
   0 0 0 0 0
-  7.499997 0 0 0 0 0 1 1 1
+  6.096 0 1.9844 0 0 0 1 1 1
   19 0 0 0 0
 EndBehavior 1
 LockedChannels 6
@@ -1270,14 +1270,14 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Stripes.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Stripes.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -1.4 3.65 1.4 0 0 0 1 1 1
+  3.5789 4.7505 0.5905935 0 90 0 1 1 1
   0 0 0 0 0
-  -1.4 3.65 1.4 0 0 0 1 1 1
+  3.5789 4.7505 0.5905935 0 90 0 1 1 1
   19 0 0 0 0
 EndBehavior 1
 LockedChannels 3
@@ -1369,14 +1369,14 @@ EndBehavior 1
 ParentObject 117
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Y_Post.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Y_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  0 0 0 0 0 0 1 1 1
+  0 0 3.5692 0 0 0 1 1 1
   0 0 0 0 0
-  0 0 0 0 0 0 1 1 1
+  0 0 3.5692 0 0 0 1 1 1
   19 0 0 0 0
 EndBehavior 1
 ParentObject 40
@@ -1392,14 +1392,14 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\R_Post.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\R_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  7.499997 0 0 0 0 0 1 1 1
+  7.499997 0 3.5692 0 0 0 1 1 1
   0 0 0 0 0
-  7.499997 0 0 0 0 0 1 1 1
+  7.499997 0 3.5692 0 0 0 1 1 1
   19 0 0 0 0
 EndBehavior 1
 LockedChannels 6
@@ -1416,14 +1416,14 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Stripes.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Stripes.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -1.4 3.65 1.4 0 0 0 1 1 1
+  3.6131 4.7408 0.5939136 0 90 0 1 1 1
   0 0 0 0 0
-  -1.4 3.65 1.4 0 0 0 1 1 1
+  3.6131 4.7408 0.5939136 0 90 0 1 1 1
   19 0 0 0 0
 EndBehavior 1
 LockedChannels 3
@@ -3748,7 +3748,7 @@ EndBehavior 1
 LockedChannels 32
 ZoomFactor 4.084001
 Resolution 0
-CustomSize 320 240
+CustomSize 160 120
 PixelAspectRatio -1
 CustomPixelRatio 1
 MaskPosition 0 0 640 480
@@ -3783,9 +3783,9 @@ RGBImageFormat 2
 SaveAlpha 0
 
 ViewType 7
-ViewAimpoint -2.016881 20.15057 0.057903
-ViewDirection 9.861033 -0.4485443 -0.003491
-ViewZoomFactor 5.190353
+ViewAimpoint -8.204736 20.15057 13.31952
+ViewDirection 10.44747 -0.6527485 -0.003491
+ViewZoomFactor 15.62553
 
 GridNumber 10
 GridSize 20

@@ -11,7 +11,7 @@ PreviewLastFrame 9
 PreviewFrameStep 1
 FramesPerSecond 25
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\MiscObjs\Barrier\Y_Post.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\MiscObjs\Barrier\Y_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -33,7 +33,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\MiscObjs\Barrier\R_Post.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\MiscObjs\Barrier\R_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -85,7 +85,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\MiscObjs\Barrier\Stripes_long.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\MiscObjs\Barrier\Stripes_long.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
