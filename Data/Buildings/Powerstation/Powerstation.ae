@@ -16,7 +16,7 @@ Lego* {
 	}
 
 	Stand {
-		FILE		Newbit_Refstand
+		FILE		Refstand
 		TRANSCOEF	0.0
 		LWSFILE		TRUE
 	}

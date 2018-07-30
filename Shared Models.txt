@@ -1,7 +1,54 @@
-SHARED MODEL\TEXTURE LIST
+SHARED MODEL LIST
 =========================
 BrickConeY.lwo used by:
 
+Buildings\Powerstation\Ref_Refine.lws
+		       Refblow.lws
+		       Refcreate.lws
+		       RefStand.lws
+
+Buildings\Upgrade\Upgrade_Idle.lws
+		  Upgrade_operate.lws
+		  Upgrade_Tele.lws
+		  UpgradeBlow5.lws
+		  Ugrades.lws
+
+MiscObjs\ElectricFenceStud\SingleStud_ON.lws
+
+Vehicles\LargeDigger\digbackhit.lws
+		     digDRILL.lws
+		     digdriving.lws
+		     digfronthit.lws
+		     digIdle.lws
+		     diglefthit.lws
+		     digrighthit.lws
+		     S_Teleport_B_Dig.lws
+
+Vehicles\LargeHeli\Heli_hitFRONT.lws
+		   Heli_hitLEFT.lws
+		   Heli_hitREAR.lws
+		   Heli_hitRIGHT.lws
+		   Heli_hover.lws
+		   Heli_Idle.lws
+		   S_Teleport_Heli.lws
+
+Vehicles\LMLP\BM_Drive.lws
+	      BM_Drive2.lws
+	      BM_HitB.lws
+	      BM_HitF.lws
+	      BM_HitL.lws
+	      BM_HitR.lws
+	      BM_TickOver.lws
+	      S_Teleport_L_MLP
+
+Vehicles\WalkerBody\LPWD_Drill1.lws
+		    LPWD_DRIVE.lws
+		    LPWD_Hitback.lws
+		    LPWD_Hitfront.lws
+		    LPWD_Hitleft.lws
+		    LPWD_Hitright.lws
+		    LPWD_idle.lws
+		    S_Teleport_body.lws
 
 
 ------------------------------------------------
@@ -160,9 +207,18 @@ MiscObjs\Barrier\Barrier_LongF2.lws
 
 MiscObjs\BirdScarer\BOOM.lws
 
+MiscObjs\Effects\Rock_Explo.lws
+
 MiscObjs\ElectricFenceStud\SingleStud_ON.lws
 
-MiscObjs\Effects\Rock_Explo.lws
+Vehicles\LargeDigger\digDRILL.lws
+		     digdriving.lws
+		     digIdle.lws
+
+Vehicles\WalkerBody\LPWD_Drill1.lws
+		    LPWD_DRIVE.lws
+		    LPWD_idle.lws
+
 --------------------------------------------------
 R_post.lwo used by:
 

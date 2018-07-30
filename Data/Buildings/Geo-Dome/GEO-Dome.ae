@@ -51,7 +51,7 @@ Lego* {
 	}	
 
 	Explode {
-		FILE		GD_DummyExplode
+		FILE		GD_Blank
 		LWSFILE		TRUE
 	}
 

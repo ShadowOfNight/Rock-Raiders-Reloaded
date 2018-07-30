@@ -426,22 +426,38 @@ AddNullObject Null
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
-  8
-  0 -2.3 0 0 0 0 0 1 0
+  16
+  0 -4.98 -0.547 0 0 0 0.1828803 8.673854 0.04171428
   0 0 0 0 0
-  0 -1 0 0 0 0 0 1 0
+  0 -4.062 -0.547 0 0 0 0.1828803 5.97 0.04171428
   1 0 0 0 0
-  0 0 0 0 0 0 0 1 0
+  0 -3.4 -0.547 0 0 0 0.1805239 4.78 0.04858601
+  2 0 0 0 0
+  0 -1.49 -0.547 0 0 0 0.1116055 1.93 0.03864631
+  8 0 0 0 0
+  0 -0.9498696 -0.547 0 0 0 0.1056488 1.646119 0.0427613
   9 0 -1 0 0
-  0 0 0 0 0 0 0.8419998 1.103999 0.8559998
+  0 -0.4 -0.547 0 0 0 0.1054605 1.468 0.05261103
+  10 0 0 0 0
+  0 0.0879144 -0.547 0 0 0 0.1286719 1.1201 0.09564323
+  12 0 0 0 0
+  0 0.0851671 -0.547 0 0 0 0.1552129 1.112 0.13189
+  13 0 0 0 0
+  0 0.08249424 -0.547 0 0 0 0.1938051 1.111529 0.18
+  14 0 0 0 0
+  0 0.0771009 -0.547 0 0 0 0.86 1.110667 0.86
+  16 0 0 0 0
+  0 0 -0.547 0 0 0 0.85062 1.104102 0.8643913
+  45 0 0 0 0
+  0 0 -0.547 0 0 0 0.8419998 1.103999 0.8559998
   49 0 1 0 0
-  0 2.252683e-009 0 0 0 0 0.8240002 1.06 0.8700007
+  0 2.252683e-009 -0.547 0 0 0 0.8240002 1.06 0.8700007
   170 0 0 0 0
-  0 4.708964e-009 0 0 0 0 0.8313926 1.033974 0.8775286
+  0 4.708964e-009 -0.547 0 0 0 0.8313926 1.033974 0.8775286
   251 0 0 0 0
-  0 6.434616e-009 0 0 0 0 0.8399999 1.16 0.8800002
+  0 6.434616e-009 -0.547 0 0 0 0.8399999 1.16 0.8800002
   301 0 0 0 0
-  0 7.27518e-009 0 0 0 0 0.8481978 1.031216 0.8735264
+  0 7.27518e-009 -0.547 0 0 0 0.8481978 1.031216 0.8735264
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 320
@@ -453,25 +469,33 @@ LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
-  8
-  -0.515 1.223196 -0.319328 0.5 0 0 0.05399993 0.02353904 0.05199993
+  12
+  -0.515 1.223196 0.2652603 0.5 0 0 0.05399993 0.02353904 0.05199993
   0 0 0 0 0
-  -0.515 1.3 -0.319328 0.5 0 0 0.05399993 0.02399994 0.05199993
+  -0.515 1.3 0.2652603 0.5 0 0 0.05399993 0.02399994 0.05199993
   1 0 0 0 0
-  -0.515 1.48 -0.319328 0.5 0 0 0.05399993 0.07999992 0.05199993
+  -0.515 1.48 0.2652603 0.5 0 0 0.05399993 0.07999992 0.05199993
   25 0 0 0 0
-  -0.515 1.67 -0.319328 0.5 0 0 0.05399993 0.07999992 0.05199993
+  -0.515 1.515113 0.2652603 0.5 0 0 0.05399993 0.08433567 0.05199993
+  37 0 0 0 0
+  -0.515 1.529416 0.2652603 0.5 0 0 0.05399993 0.08570901 0.05199993
+  44 0 0 0 0
+  -0.515 1.53906 0.2652603 0.5 0 0 0.05399993 0.08625083 0.05199993
+  49 0 0 0 0
+  -0.515 1.67 0.2652603 0.5 0 0 0.05399993 0.07999992 0.05199993
   118 0 0 0 0
-  -0.515 1.732489 -0.319328 0.5 0 0 0.05399993 0.08228494 0.05199993
+  -0.515 1.673226 0.2652603 0.5 0 0 0.05399993 0.08003894 0.05199993
+  120 0 0 0 0
+  -0.515 1.732489 0.2652603 0.5 0 0 0.05399993 0.08228494 0.05199993
   170 0 0 0 0
-  -0.515 1.67 -0.319328 0.5 0 0 0.05399993 0.07999992 0.05199993
+  -0.515 1.67 0.2652603 0.5 0 0 0.05399993 0.07999992 0.05199993
   293 0 0 0 0
-  -0.515 0.8949996 -0.319328 0.5 0 0 0.05399993 0.03999992 0.05199993
+  -0.515 0.8949996 0.2652603 0.5 0 0 0.05399993 0.03999992 0.05199993
   314 0 0 0 0
-  -0.515 0.8724991 -0.319328 0.5 0 0 0.05399993 0.0388386 0.05199993
+  -0.515 0.8724991 0.2652603 0.5 0 0 0.05399993 0.0388386 0.05199993
   330 0 0 0 0
 EndBehavior 1
-LockedChannels 389
+LockedChannels 385
 ParentObject 13
 ShadowOptions 0
 
@@ -479,49 +503,29 @@ LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
-  8
-  -46.9191 1.236241 1.321502 270.5 0 0 0.108 0.02555548 0.05199993
+  10
+  0.0031685 1.31594 1.8769 90.50001 1.306036 0 0.05199993 0.0200301 0.05199993
   0 0 0 0 0
-  -46.9191 1.3 1.321502 270.5 0 0 0.108 0.02599992 0.05199993
+  0.0031685 1.44 1.8769 90.50002 3.500002 0 0.05199993 0.02199994 0.05199993
   1 0 0 0 0
-  -46.9191 1.51 1.321502 270.5 0 0 0.108 0.07999991 0.05199993
+  0.0031685 1.44 1.8769 90.5 0.9000002 0 0.05199993 0.04599992 0.05199993
   25 0 0 0 0
-  -46.9191 1.68 1.321502 270.5 0 0 0.108 0.07999991 0.05199993
-  118 0 0 0 0
-  -46.9191 1.750568 1.321502 270.5 0 0 0.108 0.08194218 0.05199993
-  170 0 0 0 0
-  -46.9191 1.68 1.321502 270.5 0 0 0.108 0.07999991 0.05199993
-  293 0 0 0 0
-  -46.9191 0.7299998 1.321502 270.5 0 0 0.108 0.04599991 0.05199993
-  314 0 0 0 0
-  -46.9191 0.7024185 1.321502 270.5 0 0 0.108 0.04501279 0.05199993
-  330 0 0 0 0
-EndBehavior 1
-LockedChannels 373
-ParentObject 13
-ShadowOptions 0
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Telepthings.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  7
-  0.02526265 1.31594 1.322158 90.50001 1.306036 0 0.05199993 0.0200301 0.05199993
-  0 0 0 0 0
-  0.02900003 1.44 1.324092 90.50002 3.500002 0 0.05199993 0.02199994 0.05199993
-  1 0 0 0 0
-  0.02500002 1.44 1.320093 90.5 0.9000002 0 0.05199993 0.04599992 0.05199993
-  25 0 0 0 0
-  0.02900004 1.684999 1.320092 90.50003 1.5 0 0.05199993 0.04599992 0.05199993
+  0.0031685 1.684999 1.8769 90.50003 1.5 0 0.05199993 0.04599992 0.05199993
   110 0 0 0 0
-  0.02900005 1.128 1.320093 90.50002 -1.1 0 0.05199993 -8.498318e-008 0.05199993
+  0.0031685 1.520434 1.876872 90.50002 0.7143002 0 0.05199993 0.0317567 0.05199993
+  119 0 0 0 0
+  0.0031685 1.495771 1.876872 90.50002 0.5764669 0 0.05199993 0.0293291 0.05199993
+  120 0 0 0 0
+  0.0031685 1.128 1.8769 90.50002 -1.1 0 0.05199993 -8.498318e-008 0.05199993
   134 0 0 0 0
-  0.02900005 1.066716 1.320093 90.50002 -1.386068 0 0.05199993 -0.005061284 0.05199993
+  0.0031685 1.066716 1.8769 90.50002 -1.386068 0 0.05199993 -0.005061284 0.05199993
   170 0 0 0 0
-  0.02900005 1.126027 1.320093 90.50002 -1.10921 0 0.05199993 -0.0001630356 0.05199993
+  0.0031685 1.066783 1.8769 90.50002 -1.385756 0 0.05199993 -0.005055768 0.05199993
+  175 0 0 0 0
+  0.0031685 1.126027 1.8769 90.50002 -1.10921 0 0.05199993 -0.0001630356 0.05199993
   330 0 0 0 0
 EndBehavior 1
-LockedChannels 365
+LockedChannels 360
 ParentObject 13
 ShadowOptions 0
 
@@ -529,20 +533,24 @@ LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
-  7
-  -0.515 1.242812 -0.319328 0.5 -0.5647461 0 0.05199993 0.02381887 0.05199993
+  9
+  -0.515 1.242812 0.2688554 0.5 -0.5647461 0 0.05199993 0.02381887 0.05199993
   0 0 0 0 0
-  -0.515 1.46 -0.319328 0.5 -4.699999 0 0.05199993 0.02399994 0.05199993
+  -0.515 1.46 0.2688554 0.5 -4.699999 0 0.05199993 0.02399994 0.05199993
   1 0 0 0 0
-  -0.515 1.47 -0.319328 0.5 -1.1 0 0.05199993 0.04599992 0.05199993
+  -0.515 1.47 0.2688554 0.5 -1.1 0 0.05199993 0.04599992 0.05199993
   25 0 0 0 0
-  -0.515 1.65 -0.319328 0.5 -1.1 0 0.05199993 0.04599992 0.05199993
+  -0.515 1.541662 0.2688554 0.5 -0.6917662 0 0.05199993 0.05054701 0.05199993
+  49 0 0 0 0
+  -0.515 1.65 0.2688554 0.5 -1.1 0 0.05199993 0.04599992 0.05199993
   110 0 0 0 0
-  -0.515 1.13 -0.319328 0.5 -1.1 0 0.05199993 -8.498318e-008 0.05199993
+  -0.515 1.461301 0.2688554 0.5 -1.1 0 0.05199993 0.0293291 0.05199993
+  120 0 0 0 0
+  -0.515 1.13 0.2688554 0.5 -1.1 0 0.05199993 -8.498318e-008 0.05199993
   134 0 0 0 0
-  -0.515 1.072786 -0.319328 0.5 -1.1 0 0.05199993 -0.005061284 0.05199993
+  -0.515 1.072786 0.2688554 0.5 -1.1 0 0.05199993 -0.005061284 0.05199993
   170 0 0 0 0
-  -0.515 1.128158 -0.319328 0.5 -1.1 0 0.05199993 -0.0001630356 0.05199993
+  -0.515 1.128158 0.2688554 0.5 -1.1 0 0.05199993 -0.0001630356 0.05199993
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 363
@@ -553,25 +561,27 @@ LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
-  8
-  -0.5067808 1.165679 1.837466 360.5 0 0 0.05199993 0.02353902 0.05199993
+  9
+  -0.5067808 1.165679 2.4231 360.5 0 0 0.05199993 0.02353902 0.05199993
   0 0 0 0 0
-  -0.5067808 1.3 1.837466 360.5 0 0 0.05199993 0.02399992 0.05199993
+  -0.5067808 1.3 2.4231 360.5 0 0 0.05199993 0.02399992 0.05199993
   1 0 0 0 0
-  -0.5067808 1.47 1.837466 360.5 0 0 0.05199993 0.07999991 0.05199993
+  -0.5067808 1.47 2.4231 360.5 0 0 0.05199993 0.07999991 0.05199993
   25 0 0 0 0
-  -0.5067808 1.66 1.837466 360.5 0 0 0.05199993 0.07999991 0.05199993
+  -0.5067808 1.66 2.4231 360.5 0 0 0.05199993 0.07999991 0.05199993
   118 0 0 0 0
-  -0.5067808 1.715348 1.837466 360.5 0 0 0.05199993 0.08251343 0.05199993
+  -0.5067808 1.663368 2.4231 360.5 0 0 0.05199993 0.08004283 0.05199993
+  120 0 0 0 0
+  -0.5067808 1.715348 2.4231 360.5 0 0 0.05199993 0.08251343 0.05199993
   170 0 0 0 0
-  -0.5067808 1.66 1.837466 360.5 0 0 0.05199993 0.07999991 0.05199993
+  -0.5067808 1.66 2.4231 360.5 0 0 0.05199993 0.07999991 0.05199993
   293 0 0 0 0
-  -0.5067808 1.01 1.837466 360.5 0 0 0.05199993 0.03599991 0.05199993
+  -0.5067808 1.01 2.4231 360.5 0 0 0.05199993 0.03599991 0.05199993
   314 0 0 0 0
-  -0.5067808 0.9911286 1.837466 360.5 0 0 0.05199993 0.03472246 0.05199993
+  -0.5067808 0.9911286 2.4231 360.5 0 0 0.05199993 0.03472246 0.05199993
   330 0 0 0 0
 EndBehavior 1
-LockedChannels 373
+LockedChannels 369
 ParentObject 13
 ShadowOptions 0
 
@@ -580,45 +590,21 @@ ShowObject 1 7
 ObjectMotion (unnamed)
   9
   8
-  -46.9191 1.19 1.325506 270.5 0 0 0.108 0.02599991 0.05199993
+  -0.515 1.242812 2.4266 0.5 -0.5647461 0 0.05199993 0.02381887 0.05199993
   0 0 0 0 0
-  -46.9191 1.26 1.355506 270.5 0 0 0.108 0.02399993 0.05199993
+  -0.515 1.46 2.4266 0.5 -4.699999 0 0.05199993 0.02399994 0.05199993
   1 0 0 0 0
-  -46.9191 1.48 1.315506 270.5 0 0 0.108 0.07999992 0.05199993
+  -0.515 1.47 2.4266 0.5 -1.1 0 0.05199993 0.04599992 0.05199993
   25 0 0 0 0
-  -46.9191 1.67 1.325506 270.5 0 0 0.108 0.07999992 0.05199993
-  118 0 0 0 0
-  -46.9191 1.722492 1.335506 270.5 0 0 0.108 0.0828562 0.05199993
-  170 0 0 0 0
-  -46.9191 1.67 1.3155 270.5 0 0 0.108 0.07999992 0.05199993
-  293 0 0 0 0
-  -46.9191 1.07 1.325506 270.5 0 0 0.108 0.02999992 0.05199993
-  314 0 0 0 0
-  -46.9191 1.05258 1.325796 270.5 0 0 0.108 0.02854827 0.05199993
-  330 0 0 0 0
-EndBehavior 1
-LockedChannels 438
-ParentObject 13
-ShadowOptions 0
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Telepthings.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  7
-  -0.515 1.242812 1.8547 0.5 -0.5647461 0 0.05199993 0.02381887 0.05199993
-  0 0 0 0 0
-  -0.515 1.46 1.8547 0.5 -4.699999 0 0.05199993 0.02399994 0.05199993
-  1 0 0 0 0
-  -0.515 1.47 1.8547 0.5 -1.1 0 0.05199993 0.04599992 0.05199993
-  25 0 0 0 0
-  -0.515 1.65 1.8547 0.5 -1.1 0 0.05199993 0.04599992 0.05199993
+  -0.515 1.65 2.4266 0.5 -1.1 0 0.05199993 0.04599992 0.05199993
   110 0 0 0 0
-  -0.515 1.13 1.8547 0.5 -1.1 0 0.05199993 -8.498318e-008 0.05199993
+  -0.515 1.467166 2.42659 0.5 -1.1 0 0.05199993 0.0293291 0.05199993
+  120 0 0 0 0
+  -0.515 1.13 2.4266 0.5 -1.1 0 0.05199993 -8.498318e-008 0.05199993
   134 0 0 0 0
-  -0.515 1.072786 1.8547 0.5 -1.1 0 0.05199993 -0.005061284 0.05199993
+  -0.515 1.072786 2.4266 0.5 -1.1 0 0.05199993 -0.005061284 0.05199993
   170 0 0 0 0
-  -0.515 1.128158 1.8547 0.5 -1.1 0 0.05199993 -0.0001630356 0.05199993
+  -0.515 1.128158 2.4266 0.5 -1.1 0 0.05199993 -0.0001630356 0.05199993
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 371
@@ -629,23 +615,25 @@ LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
-  7
-  -1.054737 1.31594 1.322158 90.50001 1.306036 0 0.05199993 0.0200301 0.05199993
+  8
+  -1.054737 1.31594 1.8951 90.50001 1.306036 0 0.05199993 0.0200301 0.05199993
   0 0 0 0 0
-  -1.051 1.44 1.324092 90.50002 3.500002 0 0.05199993 0.02199994 0.05199993
+  -1.051 1.44 1.8951 90.50002 3.500002 0 0.05199993 0.02199994 0.05199993
   1 0 0 0 0
-  -1.045 1.44 1.320093 90.5 0.9000002 0 0.05199993 0.04599992 0.05199993
+  -1.045 1.44 1.8951 90.5 0.9000002 0 0.05199993 0.04599992 0.05199993
   25 0 0 0 0
-  -1.052229 1.684999 1.324178 90.50003 -0.6999999 0 0.05199993 0.04599992 0.05199993
+  -1.052229 1.684999 1.8951 90.50003 -0.6999999 0 0.05199993 0.04599992 0.05199993
   110 0 0 0 0
-  -1.041 1.128 1.320093 90.50002 -1.1 0 0.05199993 -8.498318e-008 0.05199993
+  -1.048385 1.490786 1.895066 90.50002 -0.8949127 0 0.05199993 0.0293291 0.05199993
+  120 0 0 0 0
+  -1.041 1.128 1.8951 90.50002 -1.1 0 0.05199993 -8.498318e-008 0.05199993
   134 0 0 0 0
-  -1.039765 1.066716 1.319644 90.50002 -1.14401 0 0.05199993 -0.005061284 0.05199993
+  -1.039765 1.066716 1.8951 90.50002 -1.14401 0 0.05199993 -0.005061284 0.05199993
   170 0 0 0 0
-  -1.04096 1.126027 1.320079 90.50002 -1.101417 0 0.05199993 -0.0001630356 0.05199993
+  -1.04096 1.126027 1.8951 90.50002 -1.101417 0 0.05199993 -0.0001630356 0.05199993
   330 0 0 0 0
 EndBehavior 1
-LockedChannels 366
+LockedChannels 362
 ParentObject 13
 ShadowOptions 0
 
@@ -671,38 +659,24 @@ LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\Bas
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
-  2
-  20.104 4.5 0 89.99999 0 0 1 1 1
+  7
+  20.104 4.5 0 89.99999 0 0 0.022 1 0.024
   0 0 0.5900002 0 0
-  20.104 4.5 0 90 0 0 1 1 1
+  20.104 4.5 0 89.99999 0 0 0.022 1 0.024
+  9 0 0 0 0
+  20.104 4.5 0 89.99999 0 0 0.2716 1 0.2696
+  16 0 0 0 0
+  20.104 4.5 0 89.99999 0 0 0.5486 1 0.5506
+  24 0 0 0 0
+  20.104 4.5 0 89.99999 0 0 0.7589 1 0.7647
+  32 0 0 0 0
+  20.104 4.5 0 89.99999 0 0 1 1 1
+  48 0 0 0 0
+  20.104 4.5 0 89.99999 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 132
-ParentObject 22
-ObjDissolve (envelope)
-  1
-  10
-  1
-  0 0 0 0 0
-  0.924
-  14 0 0 0 0
-  0.4919999
-  25 0 0 0 0
-  0.5559999
-  38 0 0 0 0
-  0.16
-  48 0 0 0 0
-  0.228
-  59 0 0 0 0
-  0.056
-  68 0 0 0 0
-  0
-  80 0 0 0 0
-  0
-  81 0 0 0 0
-  0
-  325 0 0 0 0
-EndBehavior 1
+ParentObject 20
 ShadowOptions 5
 
 AddNullObject dust null
@@ -722,7 +696,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 5
-ParentObject 23
+ParentObject 21
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Dust.lwo
@@ -752,7 +726,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 131
-ParentObject 24
+ParentObject 22
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Dust.lwo
@@ -784,7 +758,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 179
-ParentObject 24
+ParentObject 22
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Dust2.lwo
@@ -814,7 +788,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 179
-ParentObject 24
+ParentObject 22
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Dust2.lwo
@@ -842,7 +816,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 179
-ParentObject 24
+ParentObject 22
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Dust3.lwo
@@ -872,7 +846,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 179
-ParentObject 24
+ParentObject 22
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Dust3.lwo
@@ -902,7 +876,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 179
-ParentObject 24
+ParentObject 22
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Dust4.lwo
@@ -932,7 +906,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 179
-ParentObject 24
+ParentObject 22
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Dust4.lwo
@@ -960,7 +934,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 179
-ParentObject 24
+ParentObject 22
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\buildingbottom.lwo
@@ -998,7 +972,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 3
-ParentObject 22
+ParentObject 20
 ObjDissolve (envelope)
   1
   5
@@ -1046,7 +1020,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 3
-ParentObject 33
+ParentObject 31
 ObjDissolve (envelope)
   1
   5
@@ -1092,7 +1066,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 45
-ParentObject 34
+ParentObject 32
 ObjDissolve (envelope)
   1
   5
@@ -1124,7 +1098,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 5
-ParentObject 22
+ParentObject 20
 ObjDissolve (envelope)
   1
   5
@@ -1170,7 +1144,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 40
-ParentObject 36
+ParentObject 34
 ObjDissolve (envelope)
   1
   5
@@ -1200,7 +1174,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 46
-ParentObject 36
+ParentObject 34
 ObjDissolve (envelope)
   1
   5
@@ -1228,7 +1202,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 5
-ParentObject 36
+ParentObject 34
 ObjDissolve (envelope)
   1
   5
@@ -1260,7 +1234,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 45
-ParentObject 36
+ParentObject 34
 ObjDissolve (envelope)
   1
   5
@@ -1291,7 +1265,7 @@ ObjectMotion (unnamed)
   0 4.950001 0.2 0 -7.22931 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 40
+ParentObject 38
 ObjDissolve (envelope)
   1
   5
@@ -1318,7 +1292,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 0 0 0
   330 0 0 0 0
 EndBehavior 1
-ParentObject 41
+ParentObject 39
 ObjDissolve (envelope)
   1
   5
@@ -1350,7 +1324,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 5
-ParentObject 36
+ParentObject 34
 ObjDissolve (envelope)
   1
   6
@@ -1384,7 +1358,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 5
-ParentObject 36
+ParentObject 34
 ObjDissolve (envelope)
   1
   6
@@ -1418,7 +1392,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 5
-ParentObject 36
+ParentObject 34
 ObjDissolve (envelope)
   1
   6
@@ -1452,7 +1426,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 5
-ParentObject 36
+ParentObject 34
 ObjDissolve (envelope)
   1
   6
@@ -1484,7 +1458,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 5
-ParentObject 36
+ParentObject 34
 ObjDissolve (envelope)
   1
   6
@@ -1518,7 +1492,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 5
-ParentObject 36
+ParentObject 34
 ObjDissolve (envelope)
   1
   6
@@ -1552,7 +1526,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 5
-ParentObject 36
+ParentObject 34
 ObjDissolve (envelope)
   1
   5
@@ -1582,7 +1556,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 5
-ParentObject 36
+ParentObject 34
 ObjDissolve (envelope)
   1
   5
@@ -1612,7 +1586,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 5
-ParentObject 36
+ParentObject 34
 ObjDissolve (envelope)
   1
   6
@@ -1646,7 +1620,7 @@ ObjectMotion (unnamed)
   330 1 0 0 0
 EndBehavior 1
 LockedChannels 5
-ParentObject 36
+ParentObject 34
 ObjDissolve (envelope)
   1
   6
@@ -1687,7 +1661,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 53
+ParentObject 51
 ObjDissolve (envelope)
   1
   4
@@ -1717,7 +1691,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 53
-ParentObject 56
+ParentObject 54
 ShadowOptions 7
 
 AddNullObject Parent_NULL
@@ -1769,7 +1743,7 @@ ObjectMotion (unnamed)
   0 -4.699814 -5.199998 944 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 56
+ParentObject 54
 ObjDissolve (envelope)
   1
   15
@@ -1838,7 +1812,7 @@ ObjectMotion (unnamed)
   15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
   330 0 0 0 0
 EndBehavior 1
-ParentObject 56
+ParentObject 54
 ObjDissolve (envelope)
   1
   20
@@ -1920,7 +1894,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 56
+ParentObject 54
 ObjDissolve (envelope)
   1
   22
@@ -2003,7 +1977,7 @@ ObjectMotion (unnamed)
   3.868003 -1.699999 12.98001 -1406.3 0 0 1.3 1.3 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 56
+ParentObject 54
 ObjDissolve (envelope)
   1
   19
@@ -2084,7 +2058,7 @@ ObjectMotion (unnamed)
   -8.3 30.90002 0.1000016 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 56
+ParentObject 54
 ObjDissolve (envelope)
   1
   19
@@ -2165,7 +2139,7 @@ ObjectMotion (unnamed)
   3.316498 83.08528 12.65727 -1238.511 0 0 1.3 1.63 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 56
+ParentObject 54
 ObjDissolve (envelope)
   1
   17
@@ -2242,7 +2216,7 @@ ObjectMotion (unnamed)
   1.199999 30.90002 9.7 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 56
+ParentObject 54
 ObjDissolve (envelope)
   1
   19
@@ -2299,7 +2273,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 56
+ParentObject 54
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
@@ -2334,7 +2308,7 @@ ObjectMotion (unnamed)
   15.39079 -5 2.69047 -2481.464 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 66
+ParentObject 64
 ObjDissolve (envelope)
   1
   17
@@ -2406,7 +2380,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 56
+ParentObject 54
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
@@ -2441,7 +2415,7 @@ ObjectMotion (unnamed)
   -25.36 38 -1.979999 -1406.3 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 68
+ParentObject 66
 ObjDissolve (envelope)
   1
   23
@@ -2525,7 +2499,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 2096
-ParentObject 56
+ParentObject 54
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -2567,7 +2541,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 70
+ParentObject 68
 ObjDissolve (envelope)
   1
   22
@@ -2649,7 +2623,318 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 56
+ParentObject 54
+ShadowOptions 7
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  14
+  0 126.2 -6.000006 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  48 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  49 0 0 0 0
+  0 149.5001 15.5 440.8 0 0 1 1 1
+  50 0 0 0 0
+  0 149.5001 15.5 448.8 0 0 1 1 1
+  51 0 0 0 0
+  0 -2.699942 17.3 836.7996 0 0 1 1 1
+  103 0 0 0 0
+  0 -3.899941 17.5 832.7997 0 0 1 1 1
+  104 0 0 0 0
+  0 111.6001 -20.3 8.799994 0 0 1 1 1
+  105 0 0 0 0
+  0 111.6001 -20.3 -3.200016 0 0 1 1 1
+  106 0 0 0 0
+  0 -4.599904 -16.1 428.8 0 0 1 1 1
+  159 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  160 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  174 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  175 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 70
+ObjDissolve (envelope)
+  1
+  22
+  1
+  0 0 0 0 0
+  1
+  6 0 0 0 0
+  1
+  7 0 0 0 0
+  0.256
+  32 0 0 0 0
+  0
+  43 0 0 0 0
+  0
+  44 0 0 0 0
+  1
+  45 0 0 0 0
+  1
+  46 0 0 0 0
+  1
+  55 0 0 0 0
+  1
+  56 0 0 0 0
+  0.196
+  88 0 0 0 0
+  0
+  102 0 0 0 0
+  0
+  103 0 0 0 0
+  1
+  104 0 0 0 0
+  1
+  105 0 0 0 0
+  1
+  110 0 0 0 0
+  1
+  111 0 0 0 0
+  0.228
+  146 0 0 0 0
+  0.064
+  161 0 0 0 0
+  0
+  175 0 0 0 0
+  0
+  176 0 0 0 0
+  0
+  330 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  15
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  0 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  48 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  49 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  50 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  51 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  103 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  104 0 0 0 0
+  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
+  105 0 0 0 0
+  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
+  106 0 0 0 0
+  5.773265 5.799998 -3.351105 80.00002 -0.2 0 1 1 1
+  158 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  163 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  164 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  174 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  175 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+ParentObject 54
+ShadowOptions 7
+
+AddNullObject Position_NULL
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  174 0 0 0 0
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  175 0 0 0 0
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 72
+ShadowOptions 7
+
+AddNullObject Parent_NULL
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 180 0 0 1 1.4 1
+  0 0 0 0 0
+  0 0 0 180 0 0 1 1.4 1
+  174 0 0 0 0
+  0 0 0 180 0 0 1 1.4 1
+  175 0 0 0 0
+  0 0 0 180 0 0 1 1.4 1
+  330 0 0 0 0
+EndBehavior 1
+LockedChannels 320
+ParentObject 54
+ShadowOptions 7
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 157.7002 -0.2 0 0 0 1 1 1
+  0 0 0 0 0
+  0 157.7002 -0.2 216.0001 0 0 1 1 1
+  27 0 0 0 0
+  0 157.7002 -0.2 224 0 0 1 1 1
+  28 0 0 0 0
+  -6.199999 -2.099832 8.799996 528.0001 0 0 1 1 1
+  84 0 0 0 0
+  -6.4 -5.599831 8.999997 543.9999 0 0 1 1 1
+  87 0 0 0 0
+  -6.6 -6.999829 8.499994 552 0 0 1 1 1
+  88 0 0 0 0
+  0 147.6002 -15.5 559.9999 0 0 1 1 1
+  89 0 0 0 0
+  0 146.2001 -14.6 568 0 0 1 1 1
+  90 0 0 0 0
+  0 -4.699814 -5.199998 872.0001 0 0 1 1 1
+  156 0 0 0 0
+  0 -4.699814 -5.199998 872 0 0 1 1 1
+  157 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  174 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  175 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+ParentObject 72
+ObjDissolve (envelope)
+  1
+  16
+  1
+  0 0 0 0 0
+  1
+  27 0 0 0 0
+  1
+  28 0 0 0 0
+  0.236
+  57 0 0 0 0
+  0
+  84 0 0 0 0
+  0
+  85 0 0 0 0
+  1
+  86 0 0 0 0
+  1
+  87 0 0 0 0
+  1
+  92 0 0 0 0
+  0.208
+  129 0 0 0 0
+  0.064
+  143 0 0 0 0
+  0
+  158 0 0 0 0
+  0
+  159 0 0 0 0
+  0
+  175 0 0 0 0
+  0
+  176 0 0 0 0
+  0
+  330 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 -12.2 -0.2999997 -705.45 0 0 1.5 1.5 1.5
+  46 0 0 0 0
+  0 -12.2 -0.2999997 -720.45 0 0 1.5 1.5 1.5
+  47 0 0 0 0
+  0 -12.2 -0.2999997 -738.4498 0 0 1.5 1.5 1.5
+  48 0 0 0 0
+  10.8 127 6.400001 -756.4497 0 0 1.5 1.5 1.5
+  49 0 0 0 0
+  10.8 123 6.399998 -774.4495 0 0 1.5 1.5 1.5
+  50 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
+  113 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
+  114 0 0 0 0
+  15.28 128.6 2.6 -1584.45 0 0 1.5 1.5 1.5
+  115 0 0 0 0
+  15.36 126 2.639999 -1614.45 0 0 1.5 1.5 1.5
+  116 0 0 0 0
+  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
+  174 0 0 0 0
+  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
+  175 0 0 0 0
+  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
+  330 0 0 0 0
+EndBehavior 1
+ParentObject 72
+ObjDissolve (envelope)
+  1
+  20
+  1
+  0 0 0 0 0
+  0
+  44 0 0 0 0
+  0
+  45 0 0 0 0
+  1
+  46 0 0 0 0
+  1
+  47 0 0 0 0
+  1
+  53 0 0 0 0
+  1
+  54 0 0 0 0
+  0.304
+  84 0 0 0 0
+  0
+  111 0 0 0 0
+  0
+  112 0 0 0 0
+  1
+  113 0 0 0 0
+  1
+  114 0 0 0 0
+  1
+  119 0 0 0 0
+  1
+  120 0 0 0 0
+  0.592
+  137 0 0 0 0
+  0.464
+  149 0 0 0 0
+  0.596
+  163 0 0 0 0
+  1
+  175 0 0 0 0
+  1
+  176 0 0 0 0
+  1
+  330 0 0 0 0
+EndBehavior 1
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -2700,317 +2985,6 @@ ObjDissolve (envelope)
   0.256
   32 0 0 0 0
   0
-  43 0 0 0 0
-  0
-  44 0 0 0 0
-  1
-  45 0 0 0 0
-  1
-  46 0 0 0 0
-  1
-  55 0 0 0 0
-  1
-  56 0 0 0 0
-  0.196
-  88 0 0 0 0
-  0
-  102 0 0 0 0
-  0
-  103 0 0 0 0
-  1
-  104 0 0 0 0
-  1
-  105 0 0 0 0
-  1
-  110 0 0 0 0
-  1
-  111 0 0 0 0
-  0.228
-  146 0 0 0 0
-  0.064
-  161 0 0 0 0
-  0
-  175 0 0 0 0
-  0
-  176 0 0 0 0
-  0
-  330 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-AddNullObject Null
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  15
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  0 0 0 0 0
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  48 0 0 0 0
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  49 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  50 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  51 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  103 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  104 0 0 0 0
-  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
-  105 0 0 0 0
-  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
-  106 0 0 0 0
-  5.773265 5.799998 -3.351105 80.00002 -0.2 0 1 1 1
-  158 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  163 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  164 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  174 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  175 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-ParentObject 56
-ShadowOptions 7
-
-AddNullObject Position_NULL
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  4
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  0 0 0 0 0
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  174 0 0 0 0
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  175 0 0 0 0
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-LockedChannels 53
-ParentObject 74
-ShadowOptions 7
-
-AddNullObject Parent_NULL
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  4
-  0 0 0 180 0 0 1 1.4 1
-  0 0 0 0 0
-  0 0 0 180 0 0 1 1.4 1
-  174 0 0 0 0
-  0 0 0 180 0 0 1 1.4 1
-  175 0 0 0 0
-  0 0 0 180 0 0 1 1.4 1
-  330 0 0 0 0
-EndBehavior 1
-LockedChannels 320
-ParentObject 56
-ShadowOptions 7
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  13
-  0 157.7002 -0.2 0 0 0 1 1 1
-  0 0 0 0 0
-  0 157.7002 -0.2 216.0001 0 0 1 1 1
-  27 0 0 0 0
-  0 157.7002 -0.2 224 0 0 1 1 1
-  28 0 0 0 0
-  -6.199999 -2.099832 8.799996 528.0001 0 0 1 1 1
-  84 0 0 0 0
-  -6.4 -5.599831 8.999997 543.9999 0 0 1 1 1
-  87 0 0 0 0
-  -6.6 -6.999829 8.499994 552 0 0 1 1 1
-  88 0 0 0 0
-  0 147.6002 -15.5 559.9999 0 0 1 1 1
-  89 0 0 0 0
-  0 146.2001 -14.6 568 0 0 1 1 1
-  90 0 0 0 0
-  0 -4.699814 -5.199998 872.0001 0 0 1 1 1
-  156 0 0 0 0
-  0 -4.699814 -5.199998 872 0 0 1 1 1
-  157 0 0 0 0
-  0 -4.699814 -5.199998 944 0 0 1 1 1
-  174 0 0 0 0
-  0 -4.699814 -5.199998 944 0 0 1 1 1
-  175 0 0 0 0
-  0 -4.699814 -5.199998 944 0 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-ParentObject 74
-ObjDissolve (envelope)
-  1
-  16
-  1
-  0 0 0 0 0
-  1
-  27 0 0 0 0
-  1
-  28 0 0 0 0
-  0.236
-  57 0 0 0 0
-  0
-  84 0 0 0 0
-  0
-  85 0 0 0 0
-  1
-  86 0 0 0 0
-  1
-  87 0 0 0 0
-  1
-  92 0 0 0 0
-  0.208
-  129 0 0 0 0
-  0.064
-  143 0 0 0 0
-  0
-  158 0 0 0 0
-  0
-  159 0 0 0 0
-  0
-  175 0 0 0 0
-  0
-  176 0 0 0 0
-  0
-  330 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  13
-  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
-  0 0 0 0 0
-  0 -12.2 -0.2999997 -705.45 0 0 1.5 1.5 1.5
-  46 0 0 0 0
-  0 -12.2 -0.2999997 -720.45 0 0 1.5 1.5 1.5
-  47 0 0 0 0
-  0 -12.2 -0.2999997 -738.4498 0 0 1.5 1.5 1.5
-  48 0 0 0 0
-  10.8 127 6.400001 -756.4497 0 0 1.5 1.5 1.5
-  49 0 0 0 0
-  10.8 123 6.399998 -774.4495 0 0 1.5 1.5 1.5
-  50 0 0 0 0
-  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
-  113 0 0 0 0
-  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
-  114 0 0 0 0
-  15.28 128.6 2.6 -1584.45 0 0 1.5 1.5 1.5
-  115 0 0 0 0
-  15.36 126 2.639999 -1614.45 0 0 1.5 1.5 1.5
-  116 0 0 0 0
-  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
-  174 0 0 0 0
-  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
-  175 0 0 0 0
-  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
-  330 0 0 0 0
-EndBehavior 1
-ParentObject 74
-ObjDissolve (envelope)
-  1
-  20
-  1
-  0 0 0 0 0
-  0
-  44 0 0 0 0
-  0
-  45 0 0 0 0
-  1
-  46 0 0 0 0
-  1
-  47 0 0 0 0
-  1
-  53 0 0 0 0
-  1
-  54 0 0 0 0
-  0.304
-  84 0 0 0 0
-  0
-  111 0 0 0 0
-  0
-  112 0 0 0 0
-  1
-  113 0 0 0 0
-  1
-  114 0 0 0 0
-  1
-  119 0 0 0 0
-  1
-  120 0 0 0 0
-  0.592
-  137 0 0 0 0
-  0.464
-  149 0 0 0 0
-  0.596
-  163 0 0 0 0
-  1
-  175 0 0 0 0
-  1
-  176 0 0 0 0
-  1
-  330 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  14
-  0 126.2 -6.000006 0 0 0 1 1 1
-  0 0 0 0 0
-  0 -5.200022 -5.500001 428.8 0 0 1 1 1
-  48 0 0 0 0
-  0 -5.200022 -5.500001 428.8 0 0 1 1 1
-  49 0 0 0 0
-  0 149.5001 15.5 440.8 0 0 1 1 1
-  50 0 0 0 0
-  0 149.5001 15.5 448.8 0 0 1 1 1
-  51 0 0 0 0
-  0 -2.699942 17.3 836.7996 0 0 1 1 1
-  103 0 0 0 0
-  0 -3.899941 17.5 832.7997 0 0 1 1 1
-  104 0 0 0 0
-  0 111.6001 -20.3 8.799994 0 0 1 1 1
-  105 0 0 0 0
-  0 111.6001 -20.3 -3.200016 0 0 1 1 1
-  106 0 0 0 0
-  0 -4.599904 -16.1 428.8 0 0 1 1 1
-  159 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  160 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  174 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  175 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-LockedChannels 48
-ParentObject 74
-ObjDissolve (envelope)
-  1
-  22
-  1
-  0 0 0 0 0
-  1
-  6 0 0 0 0
-  1
-  7 0 0 0 0
-  0.256
-  32 0 0 0 0
-  0
   48 0 0 0 0
   0
   49 0 0 0 0
@@ -3081,7 +3055,7 @@ ObjectMotion (unnamed)
   3.868003 -1.699999 12.98001 -1406.3 0 0 1.3 1.3 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 74
+ParentObject 72
 ObjDissolve (envelope)
   1
   19
@@ -3162,7 +3136,7 @@ ObjectMotion (unnamed)
   -8.3 30.90002 0.1000016 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 74
+ParentObject 72
 ObjDissolve (envelope)
   1
   19
@@ -3243,7 +3217,7 @@ ObjectMotion (unnamed)
   3.316498 83.08528 12.65727 -1238.511 0 0 1.3 1.63 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 74
+ParentObject 72
 ObjDissolve (envelope)
   1
   17
@@ -3320,7 +3294,7 @@ ObjectMotion (unnamed)
   1.199999 30.90002 9.7 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 74
+ParentObject 72
 ObjDissolve (envelope)
   1
   19
@@ -3377,7 +3351,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 74
+ParentObject 72
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
@@ -3412,7 +3386,7 @@ ObjectMotion (unnamed)
   15.39079 -5 2.69047 -2481.464 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 84
+ParentObject 82
 ObjDissolve (envelope)
   1
   17
@@ -3484,7 +3458,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 74
+ParentObject 72
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
@@ -3519,7 +3493,7 @@ ObjectMotion (unnamed)
   -25.36 38 -1.979999 -1406.3 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 86
+ParentObject 84
 ObjDissolve (envelope)
   1
   23
@@ -3603,7 +3577,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 2096
-ParentObject 74
+ParentObject 72
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -3645,7 +3619,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 88
+ParentObject 86
 ObjDissolve (envelope)
   1
   22
@@ -3727,7 +3701,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 74
+ParentObject 72
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -3765,7 +3739,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 90
+ParentObject 88
 ObjDissolve (envelope)
   1
   22
@@ -3852,7 +3826,7 @@ ObjectMotion (unnamed)
   6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 74
+ParentObject 72
 ShadowOptions 7
 
 AddNullObject Position_NULL
@@ -3870,7 +3844,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 53
-ParentObject 92
+ParentObject 90
 ShadowOptions 7
 
 AddNullObject Parent_NULL
@@ -3887,7 +3861,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 56
+ParentObject 54
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
@@ -3924,7 +3898,7 @@ ObjectMotion (unnamed)
   0 -4.699814 -5.199998 944 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 92
+ParentObject 90
 ObjDissolve (envelope)
   1
   16
@@ -3995,7 +3969,7 @@ ObjectMotion (unnamed)
   15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
   330 0 0 0 0
 EndBehavior 1
-ParentObject 92
+ParentObject 90
 ObjDissolve (envelope)
   1
   20
@@ -4079,7 +4053,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 92
+ParentObject 90
 ObjDissolve (envelope)
   1
   22
@@ -4162,7 +4136,7 @@ ObjectMotion (unnamed)
   3.868003 -1.699999 12.98001 -1406.3 0 0 1.3 1.3 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 92
+ParentObject 90
 ObjDissolve (envelope)
   1
   19
@@ -4243,7 +4217,7 @@ ObjectMotion (unnamed)
   -8.3 30.90002 0.1000016 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 92
+ParentObject 90
 ObjDissolve (envelope)
   1
   19
@@ -4324,7 +4298,7 @@ ObjectMotion (unnamed)
   3.316498 83.08528 12.65727 -1238.511 0 0 1.3 1.63 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 92
+ParentObject 90
 ObjDissolve (envelope)
   1
   18
@@ -4403,7 +4377,7 @@ ObjectMotion (unnamed)
   1.199999 30.90002 9.7 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 92
+ParentObject 90
 ObjDissolve (envelope)
   1
   19
@@ -4460,7 +4434,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 1 1 1
   157 0 0 0 0
 EndBehavior 1
-ParentObject 92
+ParentObject 90
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
@@ -4495,7 +4469,7 @@ ObjectMotion (unnamed)
   15.39079 -5 2.69047 -2481.464 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 102
+ParentObject 100
 ObjDissolve (envelope)
   1
   17
@@ -4567,7 +4541,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 92
+ParentObject 90
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
@@ -4602,7 +4576,7 @@ ObjectMotion (unnamed)
   -25.36 38 -1.979999 -1406.3 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 104
+ParentObject 102
 ObjDissolve (envelope)
   1
   23
@@ -4688,7 +4662,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 2096
-ParentObject 92
+ParentObject 90
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -4730,7 +4704,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 106
+ParentObject 104
 ObjDissolve (envelope)
   1
   22
@@ -4812,7 +4786,321 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 92
+ParentObject 90
+ShadowOptions 7
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  15
+  0 126.2 -6.000006 0 0 0 1 1 1
+  0 0 0 0 0
+  0 126.2 -6.000006 0 0 0 1 1 1
+  156 0 0 0 0
+  0 126.2 -6.000006 0 0 0 1 1 1
+  157 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  203 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  204 0 0 0 0
+  0 149.5001 15.5 440.8 0 0 1 1 1
+  205 0 0 0 0
+  0 149.5001 15.5 448.8 0 0 1 1 1
+  206 0 0 0 0
+  0 -2.699942 17.3 836.7996 0 0 1 1 1
+  258 0 0 0 0
+  0 -3.899941 17.5 832.7997 0 0 1 1 1
+  259 0 0 0 0
+  0 111.6001 -20.3 8.799994 0 0 1 1 1
+  260 0 0 0 0
+  0 111.6001 -20.3 -3.200016 0 0 1 1 1
+  261 0 0 0 0
+  0 -4.599904 -16.1 428.8 0 0 1 1 1
+  314 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  315 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  329 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 106
+ObjDissolve (envelope)
+  1
+  22
+  1
+  0 0 0 0 0
+  1
+  156 0 0 0 0
+  1
+  157 0 0 0 0
+  1
+  161 0 0 0 0
+  1
+  162 0 0 0 0
+  0.256
+  187 0 0 0 0
+  0
+  198 0 0 0 0
+  0
+  199 0 0 0 0
+  1
+  200 0 0 0 0
+  1
+  201 0 0 0 0
+  1
+  210 0 0 0 0
+  1
+  211 0 0 0 0
+  0.196
+  243 0 0 0 0
+  0
+  257 0 0 0 0
+  0
+  258 0 0 0 0
+  1
+  259 0 0 0 0
+  1
+  260 0 0 0 0
+  1
+  265 0 0 0 0
+  1
+  266 0 0 0 0
+  0.228
+  301 0 0 0 0
+  0.064
+  316 0 0 0 0
+  0
+  330 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  15
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  0 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  156 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  157 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  203 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  204 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  205 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  206 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  258 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  259 0 0 0 0
+  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
+  260 0 0 0 0
+  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
+  261 0 0 0 0
+  5.773265 5.799998 -3.351105 80.00002 -0.2 0 1 1 1
+  313 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  318 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  319 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+ParentObject 90
+ShadowOptions 7
+
+AddNullObject Position_NULL
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  156 0 0 0 0
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  157 0 0 0 0
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 108
+ShadowOptions 7
+
+AddNullObject Parent_NULL
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 180 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 180 0 0 1 1 1
+  156 0 0 0 0
+  0 0 0 180 0 0 1 1 1
+  157 0 0 0 0
+  0 0 0 180 0 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+ParentObject 90
+ShadowOptions 7
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  14
+  0 157.7002 -0.2 0 0 0 1 1 1
+  0 0 0 0 0
+  0 157.7002 -0.2 0 0 0 1 1 1
+  156 0 0 0 0
+  0 157.7002 -0.2 0 0 0 1 1 1
+  157 0 0 0 0
+  0 157.7002 -0.2 216.0001 0 0 1 1 1
+  182 0 0 0 0
+  0 157.7002 -0.2 224 0 0 1 1 1
+  183 0 0 0 0
+  -6.199999 -2.099832 8.799996 528.0001 0 0 1 1 1
+  239 0 0 0 0
+  -6.4 -5.599831 8.999997 543.9999 0 0 1 1 1
+  242 0 0 0 0
+  -6.6 -6.999829 8.499994 552 0 0 1 1 1
+  243 0 0 0 0
+  0 147.6002 -15.5 559.9999 0 0 1 1 1
+  244 0 0 0 0
+  0 146.2001 -14.6 568 0 0 1 1 1
+  245 0 0 0 0
+  0 -4.699814 -5.199998 872.0001 0 0 1 1 1
+  311 0 0 0 0
+  0 -4.699814 -5.199998 872 0 0 1 1 1
+  312 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  329 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+ParentObject 108
+ObjDissolve (envelope)
+  1
+  16
+  1
+  0 0 0 0 0
+  1
+  156 0 0 0 0
+  1
+  157 0 0 0 0
+  1
+  182 0 0 0 0
+  1
+  183 0 0 0 0
+  0.236
+  212 0 0 0 0
+  0
+  239 0 0 0 0
+  0
+  240 0 0 0 0
+  1
+  241 0 0 0 0
+  1
+  242 0 0 0 0
+  1
+  247 0 0 0 0
+  0.208
+  284 0 0 0 0
+  0.064
+  298 0 0 0 0
+  0
+  313 0 0 0 0
+  0
+  314 0 0 0 0
+  0
+  330 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
+  156 0 0 0 0
+  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
+  157 0 0 0 0
+  0 -12.2 -0.2999997 -705.45 0 0 1.5 1.5 1.5
+  201 0 0 0 0
+  0 -12.2 -0.2999997 -720.45 0 0 1.5 1.5 1.5
+  202 0 0 0 0
+  0 -12.2 -0.2999997 -738.4498 0 0 1.5 1.5 1.5
+  203 0 0 0 0
+  10.8 127 6.400001 -756.4497 0 0 1.5 1.5 1.5
+  204 0 0 0 0
+  10.8 123 6.399998 -774.4495 0 0 1.5 1.5 1.5
+  205 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
+  268 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
+  269 0 0 0 0
+  15.28 128.6 2.6 -1584.45 0 0 1.5 1.5 1.5
+  270 0 0 0 0
+  15.36 126 2.639999 -1614.45 0 0 1.5 1.5 1.5
+  271 0 0 0 0
+  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
+  330 0 0 0 0
+EndBehavior 1
+ParentObject 108
+ObjDissolve (envelope)
+  1
+  20
+  1
+  0 0 0 0 0
+  1
+  156 0 0 0 0
+  1
+  157 0 0 0 0
+  0
+  199 0 0 0 0
+  0
+  200 0 0 0 0
+  1
+  201 0 0 0 0
+  1
+  202 0 0 0 0
+  1
+  208 0 0 0 0
+  1
+  209 0 0 0 0
+  0.304
+  239 0 0 0 0
+  0
+  266 0 0 0 0
+  0
+  267 0 0 0 0
+  1
+  268 0 0 0 0
+  1
+  269 0 0 0 0
+  1
+  274 0 0 0 0
+  1
+  275 0 0 0 0
+  0.592
+  292 0 0 0 0
+  0.464
+  304 0 0 0 0
+  0.596
+  318 0 0 0 0
+  1
+  330 0 0 0 0
+EndBehavior 1
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -4869,320 +5157,6 @@ ObjDissolve (envelope)
   0.256
   187 0 0 0 0
   0
-  198 0 0 0 0
-  0
-  199 0 0 0 0
-  1
-  200 0 0 0 0
-  1
-  201 0 0 0 0
-  1
-  210 0 0 0 0
-  1
-  211 0 0 0 0
-  0.196
-  243 0 0 0 0
-  0
-  257 0 0 0 0
-  0
-  258 0 0 0 0
-  1
-  259 0 0 0 0
-  1
-  260 0 0 0 0
-  1
-  265 0 0 0 0
-  1
-  266 0 0 0 0
-  0.228
-  301 0 0 0 0
-  0.064
-  316 0 0 0 0
-  0
-  330 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-AddNullObject Null
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  15
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  0 0 0 0 0
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  156 0 0 0 0
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  157 0 0 0 0
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  203 0 0 0 0
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  204 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  205 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  206 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  258 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  259 0 0 0 0
-  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
-  260 0 0 0 0
-  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
-  261 0 0 0 0
-  5.773265 5.799998 -3.351105 80.00002 -0.2 0 1 1 1
-  313 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  318 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  319 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-ParentObject 92
-ShadowOptions 7
-
-AddNullObject Position_NULL
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  4
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  0 0 0 0 0
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  156 0 0 0 0
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  157 0 0 0 0
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-LockedChannels 53
-ParentObject 110
-ShadowOptions 7
-
-AddNullObject Parent_NULL
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  4
-  0 0 0 180 0 0 1 1 1
-  0 0 0 0 0
-  0 0 0 180 0 0 1 1 1
-  156 0 0 0 0
-  0 0 0 180 0 0 1 1 1
-  157 0 0 0 0
-  0 0 0 180 0 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-ParentObject 92
-ShadowOptions 7
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  14
-  0 157.7002 -0.2 0 0 0 1 1 1
-  0 0 0 0 0
-  0 157.7002 -0.2 0 0 0 1 1 1
-  156 0 0 0 0
-  0 157.7002 -0.2 0 0 0 1 1 1
-  157 0 0 0 0
-  0 157.7002 -0.2 216.0001 0 0 1 1 1
-  182 0 0 0 0
-  0 157.7002 -0.2 224 0 0 1 1 1
-  183 0 0 0 0
-  -6.199999 -2.099832 8.799996 528.0001 0 0 1 1 1
-  239 0 0 0 0
-  -6.4 -5.599831 8.999997 543.9999 0 0 1 1 1
-  242 0 0 0 0
-  -6.6 -6.999829 8.499994 552 0 0 1 1 1
-  243 0 0 0 0
-  0 147.6002 -15.5 559.9999 0 0 1 1 1
-  244 0 0 0 0
-  0 146.2001 -14.6 568 0 0 1 1 1
-  245 0 0 0 0
-  0 -4.699814 -5.199998 872.0001 0 0 1 1 1
-  311 0 0 0 0
-  0 -4.699814 -5.199998 872 0 0 1 1 1
-  312 0 0 0 0
-  0 -4.699814 -5.199998 944 0 0 1 1 1
-  329 0 0 0 0
-  0 -4.699814 -5.199998 944 0 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-ParentObject 110
-ObjDissolve (envelope)
-  1
-  16
-  1
-  0 0 0 0 0
-  1
-  156 0 0 0 0
-  1
-  157 0 0 0 0
-  1
-  182 0 0 0 0
-  1
-  183 0 0 0 0
-  0.236
-  212 0 0 0 0
-  0
-  239 0 0 0 0
-  0
-  240 0 0 0 0
-  1
-  241 0 0 0 0
-  1
-  242 0 0 0 0
-  1
-  247 0 0 0 0
-  0.208
-  284 0 0 0 0
-  0.064
-  298 0 0 0 0
-  0
-  313 0 0 0 0
-  0
-  314 0 0 0 0
-  0
-  330 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  13
-  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
-  0 0 0 0 0
-  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
-  156 0 0 0 0
-  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
-  157 0 0 0 0
-  0 -12.2 -0.2999997 -705.45 0 0 1.5 1.5 1.5
-  201 0 0 0 0
-  0 -12.2 -0.2999997 -720.45 0 0 1.5 1.5 1.5
-  202 0 0 0 0
-  0 -12.2 -0.2999997 -738.4498 0 0 1.5 1.5 1.5
-  203 0 0 0 0
-  10.8 127 6.400001 -756.4497 0 0 1.5 1.5 1.5
-  204 0 0 0 0
-  10.8 123 6.399998 -774.4495 0 0 1.5 1.5 1.5
-  205 0 0 0 0
-  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
-  268 0 0 0 0
-  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
-  269 0 0 0 0
-  15.28 128.6 2.6 -1584.45 0 0 1.5 1.5 1.5
-  270 0 0 0 0
-  15.36 126 2.639999 -1614.45 0 0 1.5 1.5 1.5
-  271 0 0 0 0
-  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
-  330 0 0 0 0
-EndBehavior 1
-ParentObject 110
-ObjDissolve (envelope)
-  1
-  20
-  1
-  0 0 0 0 0
-  1
-  156 0 0 0 0
-  1
-  157 0 0 0 0
-  0
-  199 0 0 0 0
-  0
-  200 0 0 0 0
-  1
-  201 0 0 0 0
-  1
-  202 0 0 0 0
-  1
-  208 0 0 0 0
-  1
-  209 0 0 0 0
-  0.304
-  239 0 0 0 0
-  0
-  266 0 0 0 0
-  0
-  267 0 0 0 0
-  1
-  268 0 0 0 0
-  1
-  269 0 0 0 0
-  1
-  274 0 0 0 0
-  1
-  275 0 0 0 0
-  0.592
-  292 0 0 0 0
-  0.464
-  304 0 0 0 0
-  0.596
-  318 0 0 0 0
-  1
-  330 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  15
-  0 126.2 -6.000006 0 0 0 1 1 1
-  0 0 0 0 0
-  0 126.2 -6.000006 0 0 0 1 1 1
-  156 0 0 0 0
-  0 126.2 -6.000006 0 0 0 1 1 1
-  157 0 0 0 0
-  0 -5.200022 -5.500001 428.8 0 0 1 1 1
-  203 0 0 0 0
-  0 -5.200022 -5.500001 428.8 0 0 1 1 1
-  204 0 0 0 0
-  0 149.5001 15.5 440.8 0 0 1 1 1
-  205 0 0 0 0
-  0 149.5001 15.5 448.8 0 0 1 1 1
-  206 0 0 0 0
-  0 -2.699942 17.3 836.7996 0 0 1 1 1
-  258 0 0 0 0
-  0 -3.899941 17.5 832.7997 0 0 1 1 1
-  259 0 0 0 0
-  0 111.6001 -20.3 8.799994 0 0 1 1 1
-  260 0 0 0 0
-  0 111.6001 -20.3 -3.200016 0 0 1 1 1
-  261 0 0 0 0
-  0 -4.599904 -16.1 428.8 0 0 1 1 1
-  314 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  315 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  329 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-LockedChannels 48
-ParentObject 110
-ObjDissolve (envelope)
-  1
-  22
-  1
-  0 0 0 0 0
-  1
-  156 0 0 0 0
-  1
-  157 0 0 0 0
-  1
-  161 0 0 0 0
-  1
-  162 0 0 0 0
-  0.256
-  187 0 0 0 0
-  0
   203 0 0 0 0
   0
   204 0 0 0 0
@@ -5249,7 +5223,7 @@ ObjectMotion (unnamed)
   3.868003 -1.699999 12.98001 -1406.3 0 0 1.3 1.3 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 110
+ParentObject 108
 ObjDissolve (envelope)
   1
   19
@@ -5330,7 +5304,7 @@ ObjectMotion (unnamed)
   -8.3 30.90002 0.1000016 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 110
+ParentObject 108
 ObjDissolve (envelope)
   1
   19
@@ -5411,7 +5385,7 @@ ObjectMotion (unnamed)
   3.316498 83.08528 12.65727 -1238.511 0 0 1.3 1.63 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 110
+ParentObject 108
 ObjDissolve (envelope)
   1
   18
@@ -5490,7 +5464,7 @@ ObjectMotion (unnamed)
   1.199999 30.90002 9.7 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 110
+ParentObject 108
 ObjDissolve (envelope)
   1
   19
@@ -5547,7 +5521,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 1 1 1
   157 0 0 0 0
 EndBehavior 1
-ParentObject 110
+ParentObject 108
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
@@ -5582,7 +5556,7 @@ ObjectMotion (unnamed)
   15.39079 -5 2.69047 -2481.464 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 120
+ParentObject 118
 ObjDissolve (envelope)
   1
   17
@@ -5654,7 +5628,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 110
+ParentObject 108
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
@@ -5689,7 +5663,7 @@ ObjectMotion (unnamed)
   -25.36 38 -1.979999 -1406.3 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 122
+ParentObject 120
 ObjDissolve (envelope)
   1
   23
@@ -5775,7 +5749,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 2096
-ParentObject 110
+ParentObject 108
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -5817,7 +5791,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 124
+ParentObject 122
 ObjDissolve (envelope)
   1
   22
@@ -5899,7 +5873,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 110
+ParentObject 108
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -5939,7 +5913,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 126
+ParentObject 124
 ObjDissolve (envelope)
   1
   22
@@ -6026,7 +6000,7 @@ ObjectMotion (unnamed)
   6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 110
+ParentObject 108
 ShadowOptions 7
 
 AddNullObject Position_NULL
@@ -6044,7 +6018,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 53
-ParentObject 128
+ParentObject 126
 ShadowOptions 7
 
 AddNullObject Parent_NULL
@@ -6092,7 +6066,7 @@ ObjectMotion (unnamed)
   0 -4.699814 -5.199998 944 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 128
+ParentObject 126
 ObjDissolve (envelope)
   1
   15
@@ -6161,7 +6135,7 @@ ObjectMotion (unnamed)
   15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
   330 0 0 0 0
 EndBehavior 1
-ParentObject 128
+ParentObject 126
 ObjDissolve (envelope)
   1
   20
@@ -6243,7 +6217,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 128
+ParentObject 126
 ObjDissolve (envelope)
   1
   22
@@ -6326,7 +6300,7 @@ ObjectMotion (unnamed)
   3.868003 -1.699999 12.98001 -1406.3 0 0 1.3 1.3 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 128
+ParentObject 126
 ObjDissolve (envelope)
   1
   19
@@ -6407,7 +6381,7 @@ ObjectMotion (unnamed)
   -8.3 30.90002 0.1000016 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 128
+ParentObject 126
 ObjDissolve (envelope)
   1
   19
@@ -6488,7 +6462,7 @@ ObjectMotion (unnamed)
   3.316498 83.08528 12.65727 -1238.511 0 0 1.3 1.63 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 128
+ParentObject 126
 ObjDissolve (envelope)
   1
   17
@@ -6565,7 +6539,7 @@ ObjectMotion (unnamed)
   1.199999 30.90002 9.7 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 128
+ParentObject 126
 ObjDissolve (envelope)
   1
   19
@@ -6622,7 +6596,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 128
+ParentObject 126
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
@@ -6657,7 +6631,7 @@ ObjectMotion (unnamed)
   15.39079 -5 2.69047 -2481.464 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 138
+ParentObject 136
 ObjDissolve (envelope)
   1
   17
@@ -6729,7 +6703,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 128
+ParentObject 126
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
@@ -6764,7 +6738,7 @@ ObjectMotion (unnamed)
   -25.36 38 -1.979999 -1406.3 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 140
+ParentObject 138
 ObjDissolve (envelope)
   1
   23
@@ -6848,7 +6822,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 2096
-ParentObject 128
+ParentObject 126
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -6890,7 +6864,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 142
+ParentObject 140
 ObjDissolve (envelope)
   1
   22
@@ -6972,7 +6946,318 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 128
+ParentObject 126
+ShadowOptions 7
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  14
+  0 126.2 -6.000006 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  48 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  49 0 0 0 0
+  0 149.5001 15.5 440.8 0 0 1 1 1
+  50 0 0 0 0
+  0 149.5001 15.5 448.8 0 0 1 1 1
+  51 0 0 0 0
+  0 -2.699942 17.3 836.7996 0 0 1 1 1
+  103 0 0 0 0
+  0 -3.899941 17.5 832.7997 0 0 1 1 1
+  104 0 0 0 0
+  0 111.6001 -20.3 8.799994 0 0 1 1 1
+  105 0 0 0 0
+  0 111.6001 -20.3 -3.200016 0 0 1 1 1
+  106 0 0 0 0
+  0 -4.599904 -16.1 428.8 0 0 1 1 1
+  159 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  160 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  174 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  175 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 142
+ObjDissolve (envelope)
+  1
+  22
+  1
+  0 0 0 0 0
+  1
+  6 0 0 0 0
+  1
+  7 0 0 0 0
+  0.256
+  32 0 0 0 0
+  0
+  43 0 0 0 0
+  0
+  44 0 0 0 0
+  1
+  45 0 0 0 0
+  1
+  46 0 0 0 0
+  1
+  55 0 0 0 0
+  1
+  56 0 0 0 0
+  0.196
+  88 0 0 0 0
+  0
+  102 0 0 0 0
+  0
+  103 0 0 0 0
+  1
+  104 0 0 0 0
+  1
+  105 0 0 0 0
+  1
+  110 0 0 0 0
+  1
+  111 0 0 0 0
+  0.228
+  146 0 0 0 0
+  0.064
+  161 0 0 0 0
+  0
+  175 0 0 0 0
+  0
+  176 0 0 0 0
+  0
+  330 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  15
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  0 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  48 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  49 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  50 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  51 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  103 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  104 0 0 0 0
+  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
+  105 0 0 0 0
+  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
+  106 0 0 0 0
+  5.773265 5.799998 -3.351105 80.00002 -0.2 0 1 1 1
+  158 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  163 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  164 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  174 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  175 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+ParentObject 126
+ShadowOptions 7
+
+AddNullObject Position_NULL
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  174 0 0 0 0
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  175 0 0 0 0
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 144
+ShadowOptions 7
+
+AddNullObject Parent_NULL
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 180 0 0 1 1.4 1
+  0 0 0 0 0
+  0 0 0 180 0 0 1 1.4 1
+  174 0 0 0 0
+  0 0 0 180 0 0 1 1.4 1
+  175 0 0 0 0
+  0 0 0 180 0 0 1 1.4 1
+  330 0 0 0 0
+EndBehavior 1
+LockedChannels 320
+ParentObject 126
+ShadowOptions 7
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 157.7002 -0.2 0 0 0 1 1 1
+  0 0 0 0 0
+  0 157.7002 -0.2 216.0001 0 0 1 1 1
+  27 0 0 0 0
+  0 157.7002 -0.2 224 0 0 1 1 1
+  28 0 0 0 0
+  -6.199999 -2.099832 8.799996 528.0001 0 0 1 1 1
+  84 0 0 0 0
+  -6.4 -5.599831 8.999997 543.9999 0 0 1 1 1
+  87 0 0 0 0
+  -6.6 -6.999829 8.499994 552 0 0 1 1 1
+  88 0 0 0 0
+  0 147.6002 -15.5 559.9999 0 0 1 1 1
+  89 0 0 0 0
+  0 146.2001 -14.6 568 0 0 1 1 1
+  90 0 0 0 0
+  0 -4.699814 -5.199998 872.0001 0 0 1 1 1
+  156 0 0 0 0
+  0 -4.699814 -5.199998 872 0 0 1 1 1
+  157 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  174 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  175 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+ParentObject 144
+ObjDissolve (envelope)
+  1
+  16
+  1
+  0 0 0 0 0
+  1
+  27 0 0 0 0
+  1
+  28 0 0 0 0
+  0.236
+  57 0 0 0 0
+  0
+  84 0 0 0 0
+  0
+  85 0 0 0 0
+  1
+  86 0 0 0 0
+  1
+  87 0 0 0 0
+  1
+  92 0 0 0 0
+  0.208
+  129 0 0 0 0
+  0.064
+  143 0 0 0 0
+  0
+  158 0 0 0 0
+  0
+  159 0 0 0 0
+  0
+  175 0 0 0 0
+  0
+  176 0 0 0 0
+  0
+  330 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 -12.2 -0.2999997 -705.45 0 0 1.5 1.5 1.5
+  46 0 0 0 0
+  0 -12.2 -0.2999997 -720.45 0 0 1.5 1.5 1.5
+  47 0 0 0 0
+  0 -12.2 -0.2999997 -738.4498 0 0 1.5 1.5 1.5
+  48 0 0 0 0
+  10.8 127 6.400001 -756.4497 0 0 1.5 1.5 1.5
+  49 0 0 0 0
+  10.8 123 6.399998 -774.4495 0 0 1.5 1.5 1.5
+  50 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
+  113 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
+  114 0 0 0 0
+  15.28 128.6 2.6 -1584.45 0 0 1.5 1.5 1.5
+  115 0 0 0 0
+  15.36 126 2.639999 -1614.45 0 0 1.5 1.5 1.5
+  116 0 0 0 0
+  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
+  174 0 0 0 0
+  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
+  175 0 0 0 0
+  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
+  330 0 0 0 0
+EndBehavior 1
+ParentObject 144
+ObjDissolve (envelope)
+  1
+  20
+  1
+  0 0 0 0 0
+  0
+  44 0 0 0 0
+  0
+  45 0 0 0 0
+  1
+  46 0 0 0 0
+  1
+  47 0 0 0 0
+  1
+  53 0 0 0 0
+  1
+  54 0 0 0 0
+  0.304
+  84 0 0 0 0
+  0
+  111 0 0 0 0
+  0
+  112 0 0 0 0
+  1
+  113 0 0 0 0
+  1
+  114 0 0 0 0
+  1
+  119 0 0 0 0
+  1
+  120 0 0 0 0
+  0.592
+  137 0 0 0 0
+  0.464
+  149 0 0 0 0
+  0.596
+  163 0 0 0 0
+  1
+  175 0 0 0 0
+  1
+  176 0 0 0 0
+  1
+  330 0 0 0 0
+EndBehavior 1
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -7023,317 +7308,6 @@ ObjDissolve (envelope)
   0.256
   32 0 0 0 0
   0
-  43 0 0 0 0
-  0
-  44 0 0 0 0
-  1
-  45 0 0 0 0
-  1
-  46 0 0 0 0
-  1
-  55 0 0 0 0
-  1
-  56 0 0 0 0
-  0.196
-  88 0 0 0 0
-  0
-  102 0 0 0 0
-  0
-  103 0 0 0 0
-  1
-  104 0 0 0 0
-  1
-  105 0 0 0 0
-  1
-  110 0 0 0 0
-  1
-  111 0 0 0 0
-  0.228
-  146 0 0 0 0
-  0.064
-  161 0 0 0 0
-  0
-  175 0 0 0 0
-  0
-  176 0 0 0 0
-  0
-  330 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-AddNullObject Null
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  15
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  0 0 0 0 0
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  48 0 0 0 0
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  49 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  50 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  51 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  103 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  104 0 0 0 0
-  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
-  105 0 0 0 0
-  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
-  106 0 0 0 0
-  5.773265 5.799998 -3.351105 80.00002 -0.2 0 1 1 1
-  158 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  163 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  164 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  174 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  175 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-ParentObject 128
-ShadowOptions 7
-
-AddNullObject Position_NULL
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  4
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  0 0 0 0 0
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  174 0 0 0 0
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  175 0 0 0 0
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-LockedChannels 53
-ParentObject 146
-ShadowOptions 7
-
-AddNullObject Parent_NULL
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  4
-  0 0 0 180 0 0 1 1.4 1
-  0 0 0 0 0
-  0 0 0 180 0 0 1 1.4 1
-  174 0 0 0 0
-  0 0 0 180 0 0 1 1.4 1
-  175 0 0 0 0
-  0 0 0 180 0 0 1 1.4 1
-  330 0 0 0 0
-EndBehavior 1
-LockedChannels 320
-ParentObject 128
-ShadowOptions 7
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  13
-  0 157.7002 -0.2 0 0 0 1 1 1
-  0 0 0 0 0
-  0 157.7002 -0.2 216.0001 0 0 1 1 1
-  27 0 0 0 0
-  0 157.7002 -0.2 224 0 0 1 1 1
-  28 0 0 0 0
-  -6.199999 -2.099832 8.799996 528.0001 0 0 1 1 1
-  84 0 0 0 0
-  -6.4 -5.599831 8.999997 543.9999 0 0 1 1 1
-  87 0 0 0 0
-  -6.6 -6.999829 8.499994 552 0 0 1 1 1
-  88 0 0 0 0
-  0 147.6002 -15.5 559.9999 0 0 1 1 1
-  89 0 0 0 0
-  0 146.2001 -14.6 568 0 0 1 1 1
-  90 0 0 0 0
-  0 -4.699814 -5.199998 872.0001 0 0 1 1 1
-  156 0 0 0 0
-  0 -4.699814 -5.199998 872 0 0 1 1 1
-  157 0 0 0 0
-  0 -4.699814 -5.199998 944 0 0 1 1 1
-  174 0 0 0 0
-  0 -4.699814 -5.199998 944 0 0 1 1 1
-  175 0 0 0 0
-  0 -4.699814 -5.199998 944 0 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-ParentObject 146
-ObjDissolve (envelope)
-  1
-  16
-  1
-  0 0 0 0 0
-  1
-  27 0 0 0 0
-  1
-  28 0 0 0 0
-  0.236
-  57 0 0 0 0
-  0
-  84 0 0 0 0
-  0
-  85 0 0 0 0
-  1
-  86 0 0 0 0
-  1
-  87 0 0 0 0
-  1
-  92 0 0 0 0
-  0.208
-  129 0 0 0 0
-  0.064
-  143 0 0 0 0
-  0
-  158 0 0 0 0
-  0
-  159 0 0 0 0
-  0
-  175 0 0 0 0
-  0
-  176 0 0 0 0
-  0
-  330 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  13
-  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
-  0 0 0 0 0
-  0 -12.2 -0.2999997 -705.45 0 0 1.5 1.5 1.5
-  46 0 0 0 0
-  0 -12.2 -0.2999997 -720.45 0 0 1.5 1.5 1.5
-  47 0 0 0 0
-  0 -12.2 -0.2999997 -738.4498 0 0 1.5 1.5 1.5
-  48 0 0 0 0
-  10.8 127 6.400001 -756.4497 0 0 1.5 1.5 1.5
-  49 0 0 0 0
-  10.8 123 6.399998 -774.4495 0 0 1.5 1.5 1.5
-  50 0 0 0 0
-  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
-  113 0 0 0 0
-  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
-  114 0 0 0 0
-  15.28 128.6 2.6 -1584.45 0 0 1.5 1.5 1.5
-  115 0 0 0 0
-  15.36 126 2.639999 -1614.45 0 0 1.5 1.5 1.5
-  116 0 0 0 0
-  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
-  174 0 0 0 0
-  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
-  175 0 0 0 0
-  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
-  330 0 0 0 0
-EndBehavior 1
-ParentObject 146
-ObjDissolve (envelope)
-  1
-  20
-  1
-  0 0 0 0 0
-  0
-  44 0 0 0 0
-  0
-  45 0 0 0 0
-  1
-  46 0 0 0 0
-  1
-  47 0 0 0 0
-  1
-  53 0 0 0 0
-  1
-  54 0 0 0 0
-  0.304
-  84 0 0 0 0
-  0
-  111 0 0 0 0
-  0
-  112 0 0 0 0
-  1
-  113 0 0 0 0
-  1
-  114 0 0 0 0
-  1
-  119 0 0 0 0
-  1
-  120 0 0 0 0
-  0.592
-  137 0 0 0 0
-  0.464
-  149 0 0 0 0
-  0.596
-  163 0 0 0 0
-  1
-  175 0 0 0 0
-  1
-  176 0 0 0 0
-  1
-  330 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  14
-  0 126.2 -6.000006 0 0 0 1 1 1
-  0 0 0 0 0
-  0 -5.200022 -5.500001 428.8 0 0 1 1 1
-  48 0 0 0 0
-  0 -5.200022 -5.500001 428.8 0 0 1 1 1
-  49 0 0 0 0
-  0 149.5001 15.5 440.8 0 0 1 1 1
-  50 0 0 0 0
-  0 149.5001 15.5 448.8 0 0 1 1 1
-  51 0 0 0 0
-  0 -2.699942 17.3 836.7996 0 0 1 1 1
-  103 0 0 0 0
-  0 -3.899941 17.5 832.7997 0 0 1 1 1
-  104 0 0 0 0
-  0 111.6001 -20.3 8.799994 0 0 1 1 1
-  105 0 0 0 0
-  0 111.6001 -20.3 -3.200016 0 0 1 1 1
-  106 0 0 0 0
-  0 -4.599904 -16.1 428.8 0 0 1 1 1
-  159 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  160 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  174 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  175 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-LockedChannels 48
-ParentObject 146
-ObjDissolve (envelope)
-  1
-  22
-  1
-  0 0 0 0 0
-  1
-  6 0 0 0 0
-  1
-  7 0 0 0 0
-  0.256
-  32 0 0 0 0
-  0
   48 0 0 0 0
   0
   49 0 0 0 0
@@ -7404,7 +7378,7 @@ ObjectMotion (unnamed)
   3.868003 -1.699999 12.98001 -1406.3 0 0 1.3 1.3 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 146
+ParentObject 144
 ObjDissolve (envelope)
   1
   19
@@ -7485,7 +7459,7 @@ ObjectMotion (unnamed)
   -8.3 30.90002 0.1000016 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 146
+ParentObject 144
 ObjDissolve (envelope)
   1
   19
@@ -7566,7 +7540,7 @@ ObjectMotion (unnamed)
   3.316498 83.08528 12.65727 -1238.511 0 0 1.3 1.63 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 146
+ParentObject 144
 ObjDissolve (envelope)
   1
   17
@@ -7643,7 +7617,7 @@ ObjectMotion (unnamed)
   1.199999 30.90002 9.7 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 146
+ParentObject 144
 ObjDissolve (envelope)
   1
   19
@@ -7700,7 +7674,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 146
+ParentObject 144
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
@@ -7735,7 +7709,7 @@ ObjectMotion (unnamed)
   15.39079 -5 2.69047 -2481.464 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 156
+ParentObject 154
 ObjDissolve (envelope)
   1
   17
@@ -7807,7 +7781,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 146
+ParentObject 144
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
@@ -7842,7 +7816,7 @@ ObjectMotion (unnamed)
   -25.36 38 -1.979999 -1406.3 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 158
+ParentObject 156
 ObjDissolve (envelope)
   1
   23
@@ -7926,7 +7900,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 2096
-ParentObject 146
+ParentObject 144
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -7968,7 +7942,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 160
+ParentObject 158
 ObjDissolve (envelope)
   1
   22
@@ -8050,7 +8024,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 146
+ParentObject 144
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -8088,7 +8062,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 162
+ParentObject 160
 ObjDissolve (envelope)
   1
   22
@@ -8175,7 +8149,7 @@ ObjectMotion (unnamed)
   6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 146
+ParentObject 144
 ShadowOptions 7
 
 AddNullObject Position_NULL
@@ -8193,7 +8167,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 53
-ParentObject 164
+ParentObject 162
 ShadowOptions 7
 
 AddNullObject Parent_NULL
@@ -8210,7 +8184,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 128
+ParentObject 126
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
@@ -8247,7 +8221,7 @@ ObjectMotion (unnamed)
   0 -4.699814 -5.199998 944 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 164
+ParentObject 162
 ObjDissolve (envelope)
   1
   16
@@ -8318,7 +8292,7 @@ ObjectMotion (unnamed)
   15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
   330 0 0 0 0
 EndBehavior 1
-ParentObject 164
+ParentObject 162
 ObjDissolve (envelope)
   1
   20
@@ -8402,7 +8376,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 164
+ParentObject 162
 ObjDissolve (envelope)
   1
   22
@@ -8485,7 +8459,7 @@ ObjectMotion (unnamed)
   3.868003 -1.699999 12.98001 -1406.3 0 0 1.3 1.3 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 164
+ParentObject 162
 ObjDissolve (envelope)
   1
   19
@@ -8566,7 +8540,7 @@ ObjectMotion (unnamed)
   -8.3 30.90002 0.1000016 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 164
+ParentObject 162
 ObjDissolve (envelope)
   1
   19
@@ -8647,7 +8621,7 @@ ObjectMotion (unnamed)
   3.316498 83.08528 12.65727 -1238.511 0 0 1.3 1.63 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 164
+ParentObject 162
 ObjDissolve (envelope)
   1
   18
@@ -8726,7 +8700,7 @@ ObjectMotion (unnamed)
   1.199999 30.90002 9.7 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 164
+ParentObject 162
 ObjDissolve (envelope)
   1
   19
@@ -8783,7 +8757,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 1 1 1
   157 0 0 0 0
 EndBehavior 1
-ParentObject 164
+ParentObject 162
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
@@ -8818,7 +8792,7 @@ ObjectMotion (unnamed)
   15.39079 -5 2.69047 -2481.464 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 174
+ParentObject 172
 ObjDissolve (envelope)
   1
   17
@@ -8890,7 +8864,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 164
+ParentObject 162
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
@@ -8925,7 +8899,7 @@ ObjectMotion (unnamed)
   -25.36 38 -1.979999 -1406.3 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 176
+ParentObject 174
 ObjDissolve (envelope)
   1
   23
@@ -9011,7 +8985,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 2096
-ParentObject 164
+ParentObject 162
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -9053,7 +9027,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 178
+ParentObject 176
 ObjDissolve (envelope)
   1
   22
@@ -9135,7 +9109,321 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 164
+ParentObject 162
+ShadowOptions 7
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  15
+  0 126.2 -6.000006 0 0 0 1 1 1
+  0 0 0 0 0
+  0 126.2 -6.000006 0 0 0 1 1 1
+  156 0 0 0 0
+  0 126.2 -6.000006 0 0 0 1 1 1
+  157 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  203 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  204 0 0 0 0
+  0 149.5001 15.5 440.8 0 0 1 1 1
+  205 0 0 0 0
+  0 149.5001 15.5 448.8 0 0 1 1 1
+  206 0 0 0 0
+  0 -2.699942 17.3 836.7996 0 0 1 1 1
+  258 0 0 0 0
+  0 -3.899941 17.5 832.7997 0 0 1 1 1
+  259 0 0 0 0
+  0 111.6001 -20.3 8.799994 0 0 1 1 1
+  260 0 0 0 0
+  0 111.6001 -20.3 -3.200016 0 0 1 1 1
+  261 0 0 0 0
+  0 -4.599904 -16.1 428.8 0 0 1 1 1
+  314 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  315 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  329 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 178
+ObjDissolve (envelope)
+  1
+  22
+  1
+  0 0 0 0 0
+  1
+  156 0 0 0 0
+  1
+  157 0 0 0 0
+  1
+  161 0 0 0 0
+  1
+  162 0 0 0 0
+  0.256
+  187 0 0 0 0
+  0
+  198 0 0 0 0
+  0
+  199 0 0 0 0
+  1
+  200 0 0 0 0
+  1
+  201 0 0 0 0
+  1
+  210 0 0 0 0
+  1
+  211 0 0 0 0
+  0.196
+  243 0 0 0 0
+  0
+  257 0 0 0 0
+  0
+  258 0 0 0 0
+  1
+  259 0 0 0 0
+  1
+  260 0 0 0 0
+  1
+  265 0 0 0 0
+  1
+  266 0 0 0 0
+  0.228
+  301 0 0 0 0
+  0.064
+  316 0 0 0 0
+  0
+  330 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  15
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  0 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  156 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  157 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  203 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  204 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  205 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  206 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  258 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  259 0 0 0 0
+  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
+  260 0 0 0 0
+  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
+  261 0 0 0 0
+  5.773265 5.799998 -3.351105 80.00002 -0.2 0 1 1 1
+  313 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  318 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  319 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+ParentObject 162
+ShadowOptions 7
+
+AddNullObject Position_NULL
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  156 0 0 0 0
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  157 0 0 0 0
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 180
+ShadowOptions 7
+
+AddNullObject Parent_NULL
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 180 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 180 0 0 1 1 1
+  156 0 0 0 0
+  0 0 0 180 0 0 1 1 1
+  157 0 0 0 0
+  0 0 0 180 0 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+ParentObject 162
+ShadowOptions 7
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  14
+  0 157.7002 -0.2 0 0 0 1 1 1
+  0 0 0 0 0
+  0 157.7002 -0.2 0 0 0 1 1 1
+  156 0 0 0 0
+  0 157.7002 -0.2 0 0 0 1 1 1
+  157 0 0 0 0
+  0 157.7002 -0.2 216.0001 0 0 1 1 1
+  182 0 0 0 0
+  0 157.7002 -0.2 224 0 0 1 1 1
+  183 0 0 0 0
+  -6.199999 -2.099832 8.799996 528.0001 0 0 1 1 1
+  239 0 0 0 0
+  -6.4 -5.599831 8.999997 543.9999 0 0 1 1 1
+  242 0 0 0 0
+  -6.6 -6.999829 8.499994 552 0 0 1 1 1
+  243 0 0 0 0
+  0 147.6002 -15.5 559.9999 0 0 1 1 1
+  244 0 0 0 0
+  0 146.2001 -14.6 568 0 0 1 1 1
+  245 0 0 0 0
+  0 -4.699814 -5.199998 872.0001 0 0 1 1 1
+  311 0 0 0 0
+  0 -4.699814 -5.199998 872 0 0 1 1 1
+  312 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  329 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  330 0 0 0 0
+EndBehavior 1
+ParentObject 180
+ObjDissolve (envelope)
+  1
+  16
+  1
+  0 0 0 0 0
+  1
+  156 0 0 0 0
+  1
+  157 0 0 0 0
+  1
+  182 0 0 0 0
+  1
+  183 0 0 0 0
+  0.236
+  212 0 0 0 0
+  0
+  239 0 0 0 0
+  0
+  240 0 0 0 0
+  1
+  241 0 0 0 0
+  1
+  242 0 0 0 0
+  1
+  247 0 0 0 0
+  0.208
+  284 0 0 0 0
+  0.064
+  298 0 0 0 0
+  0
+  313 0 0 0 0
+  0
+  314 0 0 0 0
+  0
+  330 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
+  156 0 0 0 0
+  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
+  157 0 0 0 0
+  0 -12.2 -0.2999997 -705.45 0 0 1.5 1.5 1.5
+  201 0 0 0 0
+  0 -12.2 -0.2999997 -720.45 0 0 1.5 1.5 1.5
+  202 0 0 0 0
+  0 -12.2 -0.2999997 -738.4498 0 0 1.5 1.5 1.5
+  203 0 0 0 0
+  10.8 127 6.400001 -756.4497 0 0 1.5 1.5 1.5
+  204 0 0 0 0
+  10.8 123 6.399998 -774.4495 0 0 1.5 1.5 1.5
+  205 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
+  268 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
+  269 0 0 0 0
+  15.28 128.6 2.6 -1584.45 0 0 1.5 1.5 1.5
+  270 0 0 0 0
+  15.36 126 2.639999 -1614.45 0 0 1.5 1.5 1.5
+  271 0 0 0 0
+  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
+  330 0 0 0 0
+EndBehavior 1
+ParentObject 180
+ObjDissolve (envelope)
+  1
+  20
+  1
+  0 0 0 0 0
+  1
+  156 0 0 0 0
+  1
+  157 0 0 0 0
+  0
+  199 0 0 0 0
+  0
+  200 0 0 0 0
+  1
+  201 0 0 0 0
+  1
+  202 0 0 0 0
+  1
+  208 0 0 0 0
+  1
+  209 0 0 0 0
+  0.304
+  239 0 0 0 0
+  0
+  266 0 0 0 0
+  0
+  267 0 0 0 0
+  1
+  268 0 0 0 0
+  1
+  269 0 0 0 0
+  1
+  274 0 0 0 0
+  1
+  275 0 0 0 0
+  0.592
+  292 0 0 0 0
+  0.464
+  304 0 0 0 0
+  0.596
+  318 0 0 0 0
+  1
+  330 0 0 0 0
+EndBehavior 1
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -9192,320 +9480,6 @@ ObjDissolve (envelope)
   0.256
   187 0 0 0 0
   0
-  198 0 0 0 0
-  0
-  199 0 0 0 0
-  1
-  200 0 0 0 0
-  1
-  201 0 0 0 0
-  1
-  210 0 0 0 0
-  1
-  211 0 0 0 0
-  0.196
-  243 0 0 0 0
-  0
-  257 0 0 0 0
-  0
-  258 0 0 0 0
-  1
-  259 0 0 0 0
-  1
-  260 0 0 0 0
-  1
-  265 0 0 0 0
-  1
-  266 0 0 0 0
-  0.228
-  301 0 0 0 0
-  0.064
-  316 0 0 0 0
-  0
-  330 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-AddNullObject Null
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  15
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  0 0 0 0 0
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  156 0 0 0 0
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  157 0 0 0 0
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  203 0 0 0 0
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  204 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  205 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  206 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  258 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  259 0 0 0 0
-  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
-  260 0 0 0 0
-  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
-  261 0 0 0 0
-  5.773265 5.799998 -3.351105 80.00002 -0.2 0 1 1 1
-  313 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  318 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  319 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-ParentObject 164
-ShadowOptions 7
-
-AddNullObject Position_NULL
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  4
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  0 0 0 0 0
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  156 0 0 0 0
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  157 0 0 0 0
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-LockedChannels 53
-ParentObject 182
-ShadowOptions 7
-
-AddNullObject Parent_NULL
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  4
-  0 0 0 180 0 0 1 1 1
-  0 0 0 0 0
-  0 0 0 180 0 0 1 1 1
-  156 0 0 0 0
-  0 0 0 180 0 0 1 1 1
-  157 0 0 0 0
-  0 0 0 180 0 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-ParentObject 164
-ShadowOptions 7
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  14
-  0 157.7002 -0.2 0 0 0 1 1 1
-  0 0 0 0 0
-  0 157.7002 -0.2 0 0 0 1 1 1
-  156 0 0 0 0
-  0 157.7002 -0.2 0 0 0 1 1 1
-  157 0 0 0 0
-  0 157.7002 -0.2 216.0001 0 0 1 1 1
-  182 0 0 0 0
-  0 157.7002 -0.2 224 0 0 1 1 1
-  183 0 0 0 0
-  -6.199999 -2.099832 8.799996 528.0001 0 0 1 1 1
-  239 0 0 0 0
-  -6.4 -5.599831 8.999997 543.9999 0 0 1 1 1
-  242 0 0 0 0
-  -6.6 -6.999829 8.499994 552 0 0 1 1 1
-  243 0 0 0 0
-  0 147.6002 -15.5 559.9999 0 0 1 1 1
-  244 0 0 0 0
-  0 146.2001 -14.6 568 0 0 1 1 1
-  245 0 0 0 0
-  0 -4.699814 -5.199998 872.0001 0 0 1 1 1
-  311 0 0 0 0
-  0 -4.699814 -5.199998 872 0 0 1 1 1
-  312 0 0 0 0
-  0 -4.699814 -5.199998 944 0 0 1 1 1
-  329 0 0 0 0
-  0 -4.699814 -5.199998 944 0 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-ParentObject 182
-ObjDissolve (envelope)
-  1
-  16
-  1
-  0 0 0 0 0
-  1
-  156 0 0 0 0
-  1
-  157 0 0 0 0
-  1
-  182 0 0 0 0
-  1
-  183 0 0 0 0
-  0.236
-  212 0 0 0 0
-  0
-  239 0 0 0 0
-  0
-  240 0 0 0 0
-  1
-  241 0 0 0 0
-  1
-  242 0 0 0 0
-  1
-  247 0 0 0 0
-  0.208
-  284 0 0 0 0
-  0.064
-  298 0 0 0 0
-  0
-  313 0 0 0 0
-  0
-  314 0 0 0 0
-  0
-  330 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  13
-  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
-  0 0 0 0 0
-  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
-  156 0 0 0 0
-  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
-  157 0 0 0 0
-  0 -12.2 -0.2999997 -705.45 0 0 1.5 1.5 1.5
-  201 0 0 0 0
-  0 -12.2 -0.2999997 -720.45 0 0 1.5 1.5 1.5
-  202 0 0 0 0
-  0 -12.2 -0.2999997 -738.4498 0 0 1.5 1.5 1.5
-  203 0 0 0 0
-  10.8 127 6.400001 -756.4497 0 0 1.5 1.5 1.5
-  204 0 0 0 0
-  10.8 123 6.399998 -774.4495 0 0 1.5 1.5 1.5
-  205 0 0 0 0
-  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
-  268 0 0 0 0
-  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
-  269 0 0 0 0
-  15.28 128.6 2.6 -1584.45 0 0 1.5 1.5 1.5
-  270 0 0 0 0
-  15.36 126 2.639999 -1614.45 0 0 1.5 1.5 1.5
-  271 0 0 0 0
-  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
-  330 0 0 0 0
-EndBehavior 1
-ParentObject 182
-ObjDissolve (envelope)
-  1
-  20
-  1
-  0 0 0 0 0
-  1
-  156 0 0 0 0
-  1
-  157 0 0 0 0
-  0
-  199 0 0 0 0
-  0
-  200 0 0 0 0
-  1
-  201 0 0 0 0
-  1
-  202 0 0 0 0
-  1
-  208 0 0 0 0
-  1
-  209 0 0 0 0
-  0.304
-  239 0 0 0 0
-  0
-  266 0 0 0 0
-  0
-  267 0 0 0 0
-  1
-  268 0 0 0 0
-  1
-  269 0 0 0 0
-  1
-  274 0 0 0 0
-  1
-  275 0 0 0 0
-  0.592
-  292 0 0 0 0
-  0.464
-  304 0 0 0 0
-  0.596
-  318 0 0 0 0
-  1
-  330 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  15
-  0 126.2 -6.000006 0 0 0 1 1 1
-  0 0 0 0 0
-  0 126.2 -6.000006 0 0 0 1 1 1
-  156 0 0 0 0
-  0 126.2 -6.000006 0 0 0 1 1 1
-  157 0 0 0 0
-  0 -5.200022 -5.500001 428.8 0 0 1 1 1
-  203 0 0 0 0
-  0 -5.200022 -5.500001 428.8 0 0 1 1 1
-  204 0 0 0 0
-  0 149.5001 15.5 440.8 0 0 1 1 1
-  205 0 0 0 0
-  0 149.5001 15.5 448.8 0 0 1 1 1
-  206 0 0 0 0
-  0 -2.699942 17.3 836.7996 0 0 1 1 1
-  258 0 0 0 0
-  0 -3.899941 17.5 832.7997 0 0 1 1 1
-  259 0 0 0 0
-  0 111.6001 -20.3 8.799994 0 0 1 1 1
-  260 0 0 0 0
-  0 111.6001 -20.3 -3.200016 0 0 1 1 1
-  261 0 0 0 0
-  0 -4.599904 -16.1 428.8 0 0 1 1 1
-  314 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  315 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  329 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  330 0 0 0 0
-EndBehavior 1
-LockedChannels 48
-ParentObject 182
-ObjDissolve (envelope)
-  1
-  22
-  1
-  0 0 0 0 0
-  1
-  156 0 0 0 0
-  1
-  157 0 0 0 0
-  1
-  161 0 0 0 0
-  1
-  162 0 0 0 0
-  0.256
-  187 0 0 0 0
-  0
   203 0 0 0 0
   0
   204 0 0 0 0
@@ -9572,7 +9546,7 @@ ObjectMotion (unnamed)
   3.868003 -1.699999 12.98001 -1406.3 0 0 1.3 1.3 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 182
+ParentObject 180
 ObjDissolve (envelope)
   1
   19
@@ -9653,7 +9627,7 @@ ObjectMotion (unnamed)
   -8.3 30.90002 0.1000016 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 182
+ParentObject 180
 ObjDissolve (envelope)
   1
   19
@@ -9734,7 +9708,7 @@ ObjectMotion (unnamed)
   3.316498 83.08528 12.65727 -1238.511 0 0 1.3 1.63 1.3
   330 0 0 0 0
 EndBehavior 1
-ParentObject 182
+ParentObject 180
 ObjDissolve (envelope)
   1
   18
@@ -9813,7 +9787,7 @@ ObjectMotion (unnamed)
   1.199999 30.90002 9.7 -860 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 182
+ParentObject 180
 ObjDissolve (envelope)
   1
   19
@@ -9870,7 +9844,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 1 1 1
   157 0 0 0 0
 EndBehavior 1
-ParentObject 182
+ParentObject 180
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
@@ -9905,7 +9879,7 @@ ObjectMotion (unnamed)
   15.39079 -5 2.69047 -2481.464 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 192
+ParentObject 190
 ObjDissolve (envelope)
   1
   17
@@ -9977,7 +9951,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 182
+ParentObject 180
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
@@ -10012,7 +9986,7 @@ ObjectMotion (unnamed)
   -25.36 38 -1.979999 -1406.3 0 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 194
+ParentObject 192
 ObjDissolve (envelope)
   1
   23
@@ -10098,7 +10072,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 2096
-ParentObject 182
+ParentObject 180
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -10140,7 +10114,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 196
+ParentObject 194
 ObjDissolve (envelope)
   1
   22
@@ -10222,7 +10196,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 182
+ParentObject 180
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
@@ -10262,7 +10236,7 @@ ObjectMotion (unnamed)
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 198
+ParentObject 196
 ObjDissolve (envelope)
   1
   22
@@ -10349,32 +10323,34 @@ ObjectMotion (unnamed)
   6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
   330 0 0 0 0
 EndBehavior 1
-ParentObject 182
+ParentObject 180
 ShadowOptions 7
 
 LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Telepthings.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
-  8
-  -1.05 1.223196 0.2 89.99999 0 0 0.05399993 0.02353904 0.05199993
+  9
+  -1.05 1.223196 0.8074201 -90 0 0 0.05399993 0.02353904 0.05199993
   0 0 0 0 0
-  -1.05 1.3 0.2 89.99999 0 0 0.05399993 0.02399994 0.05199993
+  -1.05 1.3 0.8074201 -90 0 0 0.05399993 0.02399994 0.05199993
   1 0 0 0 0
-  -1.05 1.48 0.2 89.99999 0 0 0.05399993 0.07999992 0.05199993
+  -1.05 1.48 0.8074201 -90 0 0 0.05399993 0.07999992 0.05199993
   25 0 0 0 0
-  -1.05 1.67 0.2 89.99999 0 0 0.05399993 0.07999992 0.05199993
+  -1.05 1.67 0.8074201 -90 0 0 0.05399993 0.07999992 0.05199993
   118 0 0 0 0
-  -1.05 1.732489 0.2 89.99999 0 0 0.05399993 0.08228494 0.05199993
+  -1.05 1.67349 0.8074201 -90 0 0 0.05399993 0.08003894 0.05199993
+  120 0 0 0 0
+  -1.05 1.732489 0.8074201 -90 0 0 0.05399993 0.08228494 0.05199993
   170 0 0 0 0
-  -1.05 1.67 0.2 89.99999 0 0 0.05399993 0.07999992 0.05199993
+  -1.05 1.67 0.8074201 -90 0 0 0.05399993 0.07999992 0.05199993
   293 0 0 0 0
-  -1.05 0.8949996 0.2 89.99999 0 0 0.05399993 0.03999992 0.05199993
+  -1.05 0.8949996 0.8074201 -90 0 0 0.05399993 0.03999992 0.05199993
   314 0 0 0 0
-  -1.05 0.8724991 0.2 89.99999 0 0 0.05399993 0.0388386 0.05199993
+  -1.05 0.8724991 0.8074201 -90 0 0 0.05399993 0.0388386 0.05199993
   330 0 0 0 0
 EndBehavior 1
-LockedChannels 438
+LockedChannels 434
 ParentObject 13
 ShadowOptions 0
 
@@ -10382,22 +10358,86 @@ LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
-  8
-  -1.05 1.223196 1.25 89.99999 0 0 0.05399993 0.02353904 0.05199993
+  9
+  -1.05 1.223196 1.8864 89.99999 0 0 0.05399993 0.02353904 0.05199993
   0 0 0 0 0
-  -1.05 1.3 1.25 89.99999 0 0 0.05399993 0.02399994 0.05199993
+  -1.05 1.3 1.8864 89.99999 0 0 0.05399993 0.02399994 0.05199993
   1 0 0 0 0
-  -1.05 1.48 1.25 89.99999 0 0 0.05399993 0.07999992 0.05199993
+  -1.05 1.48 1.8864 89.99999 0 0 0.05399993 0.07999992 0.05199993
   25 0 0 0 0
-  -1.05 1.67 1.25 89.99999 0 0 0.05399993 0.07999992 0.05199993
+  -1.05 1.67 1.8864 89.99999 0 0 0.05399993 0.07999992 0.05199993
   118 0 0 0 0
-  -1.05 1.732489 1.25 89.99999 0 0 0.05399993 0.08228494 0.05199993
+  -1.05 1.67349 1.8864 89.99999 0 0 0.05399993 0.08003894 0.05199993
+  120 0 0 0 0
+  -1.05 1.732489 1.8864 89.99999 0 0 0.05399993 0.08228494 0.05199993
   170 0 0 0 0
-  -1.05 1.67 1.25 89.99999 0 0 0.05399993 0.07999992 0.05199993
+  -1.05 1.67 1.8864 89.99999 0 0 0.05399993 0.07999992 0.05199993
   293 0 0 0 0
-  -1.05 0.8949996 1.25 89.99999 0 0 0.05399993 0.03999992 0.05199993
+  -1.05 0.8949996 1.8864 89.99999 0 0 0.05399993 0.03999992 0.05199993
   314 0 0 0 0
-  -1.05 0.8724991 1.25 89.99999 0 0 0.05399993 0.0388386 0.05199993
+  -1.05 0.8724991 1.8864 89.99999 0 0 0.05399993 0.0388386 0.05199993
+  330 0 0 0 0
+EndBehavior 1
+LockedChannels 435
+ParentObject 13
+ShadowOptions 0
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Telepthings.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  11
+  0 1.223196 0.802447 -90 0 0 0.05399993 0.02353904 0.05199993
+  0 0 0 0 0
+  0 1.3 0.802447 -90 0 0 0.05399993 0.02399994 0.05199993
+  1 0 0 0 0
+  0 1.48 0.802447 -90 0 0 0.05399993 0.07999992 0.05199993
+  25 0 0 0 0
+  0 1.67 0.802447 -90 0 0 0.05399993 0.07999992 0.05199993
+  118 0 0 0 0
+  0 1.671722 0.802447 -90 0 0 0.05399993 0.08001758 0.05199993
+  119 0 0 0 0
+  0 1.672925 0.802447 -90 0 0 0.05399993 0.08003894 0.05199993
+  120 0 0 0 0
+  0 1.732489 0.802447 -90 0 0 0.05399993 0.08228494 0.05199993
+  170 0 0 0 0
+  0 1.733322 0.802447 -90 0 0 0.05399993 0.08233118 0.05199993
+  175 0 0 0 0
+  0 1.67 0.802447 -90 0 0 0.05399993 0.07999992 0.05199993
+  293 0 0 0 0
+  0 0.8949996 0.802447 -90 0 0 0.05399993 0.03999992 0.05199993
+  314 0 0 0 0
+  0 0.8724991 0.802447 -90 0 0 0.05399993 0.0388386 0.05199993
+  330 0 0 0 0
+EndBehavior 1
+LockedChannels 435
+ParentObject 13
+ShadowOptions 0
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Telepthings.lwo
+ShowObject 1 7
+ObjectMotion (unnamed)
+  9
+  10
+  0 1.223196 1.8826 89.99999 0 0 0.05399993 0.02353904 0.05199993
+  0 0 0 0 0
+  0 1.3 1.8826 89.99999 0 0 0.05399993 0.02399994 0.05199993
+  1 0 0 0 0
+  0 1.48 1.8826 89.99999 0 0 0.05399993 0.07999992 0.05199993
+  25 0 0 0 0
+  0 1.67 1.8826 89.99999 0 0 0.05399993 0.07999992 0.05199993
+  118 0 0 0 0
+  0 1.671743 1.8826 89.99999 0 0 0.05399993 0.08001758 0.05199993
+  119 0 0 0 0
+  0 1.672968 1.8826 89.99999 0 0 0.05399993 0.08003894 0.05199993
+  120 0 0 0 0
+  0 1.732489 1.8826 89.99999 0 0 0.05399993 0.08228494 0.05199993
+  170 0 0 0 0
+  0 1.67 1.8826 89.99999 0 0 0.05399993 0.07999992 0.05199993
+  293 0 0 0 0
+  0 0.8949996 1.8826 89.99999 0 0 0.05399993 0.03999992 0.05199993
+  314 0 0 0 0
+  0 0.8724991 1.8826 89.99999 0 0 0.05399993 0.0388386 0.05199993
   330 0 0 0 0
 EndBehavior 1
 LockedChannels 435
@@ -10409,74 +10449,24 @@ ShowObject 1 7
 ObjectMotion (unnamed)
   9
   8
-  0 1.223196 0.2 89.99999 0 0 0.05399993 0.02353904 0.05199993
+  0.0030757 1.31594 0.7842913 90.50001 1.306036 0 0.05199993 0.0200301 0.05199993
   0 0 0 0 0
-  0 1.3 0.2 89.99999 0 0 0.05399993 0.02399994 0.05199993
+  0.0030757 1.44 0.7842913 90.50002 3.500002 0 0.05199993 0.02199994 0.05199993
   1 0 0 0 0
-  0 1.48 0.2 89.99999 0 0 0.05399993 0.07999992 0.05199993
+  0.0030757 1.44 0.7842913 90.5 0.9000002 0 0.05199993 0.04599992 0.05199993
   25 0 0 0 0
-  0 1.67 0.2 89.99999 0 0 0.05399993 0.07999992 0.05199993
-  118 0 0 0 0
-  0 1.732489 0.2 89.99999 0 0 0.05399993 0.08228494 0.05199993
-  170 0 0 0 0
-  0 1.67 0.2 89.99999 0 0 0.05399993 0.07999992 0.05199993
-  293 0 0 0 0
-  0 0.8949996 0.2 89.99999 0 0 0.05399993 0.03999992 0.05199993
-  314 0 0 0 0
-  0 0.8724991 0.2 89.99999 0 0 0.05399993 0.0388386 0.05199993
-  330 0 0 0 0
-EndBehavior 1
-LockedChannels 435
-ParentObject 13
-ShadowOptions 0
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Telepthings.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  8
-  0 1.223196 1.25 89.99999 0 0 0.05399993 0.02353904 0.05199993
-  0 0 0 0 0
-  0 1.3 1.25 89.99999 0 0 0.05399993 0.02399994 0.05199993
-  1 0 0 0 0
-  0 1.48 1.25 89.99999 0 0 0.05399993 0.07999992 0.05199993
-  25 0 0 0 0
-  0 1.67 1.25 89.99999 0 0 0.05399993 0.07999992 0.05199993
-  118 0 0 0 0
-  0 1.732489 1.25 89.99999 0 0 0.05399993 0.08228494 0.05199993
-  170 0 0 0 0
-  0 1.67 1.25 89.99999 0 0 0.05399993 0.07999992 0.05199993
-  293 0 0 0 0
-  0 0.8949996 1.25 89.99999 0 0 0.05399993 0.03999992 0.05199993
-  314 0 0 0 0
-  0 0.8724991 1.25 89.99999 0 0 0.05399993 0.0388386 0.05199993
-  330 0 0 0 0
-EndBehavior 1
-LockedChannels 435
-ParentObject 13
-ShadowOptions 0
-
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Powerstation\Telepthings.lwo
-ShowObject 1 7
-ObjectMotion (unnamed)
-  9
-  7
-  0.02526265 1.31594 0.22 90.50001 1.306036 0 0.05199993 0.0200301 0.05199993
-  0 0 0 0 0
-  0.02900003 1.44 0.22 90.50002 3.500002 0 0.05199993 0.02199994 0.05199993
-  1 0 0 0 0
-  0.02500002 1.44 0.22 90.5 0.9000002 0 0.05199993 0.04599992 0.05199993
-  25 0 0 0 0
-  0.02900004 1.684999 0.22 90.50003 1.5 0 0.05199993 0.04599992 0.05199993
+  0.0030757 1.684999 0.7842913 90.50003 1.5 0 0.05199993 0.04599992 0.05199993
   110 0 0 0 0
-  0.02900005 1.128 0.22 90.50002 -1.1 0 0.05199993 -8.498318e-008 0.05199993
+  0.0030757 1.490786 0.8023772 90.50002 0.5764669 0 0.05199993 0.0293291 0.05199993
+  120 0 0 0 0
+  0.0030757 1.128 0.7842913 90.50002 -1.1 0 0.05199993 -8.498318e-008 0.05199993
   134 0 0 0 0
-  0.02900005 1.066716 0.22 90.50002 -1.386068 0 0.05199993 -0.005061284 0.05199993
+  0.0030757 1.066716 0.7842913 90.50002 -1.386068 0 0.05199993 -0.005061284 0.05199993
   170 0 0 0 0
-  0.02900005 1.126027 0.22 90.50002 -1.10921 0 0.05199993 -0.0001630356 0.05199993
+  0.0030757 1.126027 0.7842913 90.50002 -1.10921 0 0.05199993 -0.0001630356 0.05199993
   330 0 0 0 0
 EndBehavior 1
-LockedChannels 363
+LockedChannels 362
 ParentObject 13
 ShadowOptions 0
 
@@ -10484,23 +10474,25 @@ LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
-  7
-  -1.05 1.31594 0.22 90.50001 0 0 0.05199993 0.0200301 0.05199993
+  8
+  -1.05 1.31594 0.7850936 90.50001 0 0 0.05199993 0.0200301 0.05199993
   0 0 0 0 0
-  -1.05 1.44 0.22 90.50002 0 0 0.05199993 0.02199994 0.05199993
+  -1.05 1.44 0.7850936 90.50002 0 0 0.05199993 0.02199994 0.05199993
   1 0 0 0 0
-  -1.05 1.44 0.22 90.5 0 0 0.05199993 0.04599992 0.05199993
+  -1.05 1.44 0.7850936 90.5 0 0 0.05199993 0.04599992 0.05199993
   25 0 0 0 0
-  -1.05 1.684999 0.22 90.50003 0 0 0.05199993 0.04599992 0.05199993
+  -1.05 1.684999 0.7850936 90.50003 0 0 0.05199993 0.04599992 0.05199993
   110 0 0 0 0
-  -1.05 1.128 0.22 90.50002 0 0 0.05199993 -8.498318e-008 0.05199993
+  -1.05 1.490786 0.6743153 90.50002 0 0 0.05199993 0.0293291 0.05199993
+  120 0 0 0 0
+  -1.05 1.128 0.7850936 90.50002 0 0 0.05199993 -8.498318e-008 0.05199993
   134 0 0 0 0
-  -1.05 1.066716 0.22 90.50002 0 0 0.05199993 -0.005061284 0.05199993
+  -1.05 1.066716 0.7850936 90.50002 0 0 0.05199993 -0.005061284 0.05199993
   170 0 0 0 0
-  -1.05 1.126027 0.22 90.50002 0 0 0.05199993 -0.0001630356 0.05199993
+  -1.05 1.126027 0.7850936 90.50002 0 0 0.05199993 -0.0001630356 0.05199993
   330 0 0 0 0
 EndBehavior 1
-LockedChannels 366
+LockedChannels 362
 ParentObject 13
 ShadowOptions 0
 
@@ -10514,7 +10506,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-AddNullObject SFX,SND_BTHUD,80,212
+AddNullObject SFX,SND_BTHUD,170,212
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -10522,6 +10514,81 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 1 1 1
   0 0 0 0 0
 EndBehavior 1
+ShadowOptions 7
+
+AddNullObject TelePulse__NULL
+ShowObject 9 3
+ObjectMotion (unnamed)
+  9
+  2
+  23.2062 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  23.20624 0.1264754 -0.05050981 0.1000145 0 0 1.001083 1.005276 1.001083
+  64 0 0 0 0
+EndBehavior 1
+ParentObject 20
+ShadowOptions 7
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\TelePulse.lwo
+ShowObject 9 3
+ObjectMotion (unnamed)
+  9
+  9
+  -3.2511 2.96 0.746285 0 0 0 0.01 1 0.01
+  0 0 0 0 0
+  -3.2511 3.587883 0.746285 0 0 0 0.3863682 1.000068 0.4097016
+  1 0 0 0 0
+  -3.2511 4 0.746285 0 0 0 0.7 1.000136 0.7
+  2 0 0 0 0
+  -3.2511 4 0.746285 0 0 0 2.63 1.000817 1.51
+  12 0 0 0 0
+  -3.2511 4 0.746285 0 0 0 2.62 1.000885 1.49
+  13 0 0 0 0
+  -3.2511 4 0.746285 0 0 0 1.051226 1.002384 0.6169846
+  35 0 0 0 0
+  -3.2511 4 0.746285 0 0 0 0.47 1.002384 0.29
+  43 0 0 0 0
+  -3.2511 4 0.746285 0 0 0 0 1.002384 0
+  49 0 0 0 0
+  -3.2511 4 0.746285 0 0 0 0 1.002384 0
+  55 0 0 0 0
+EndBehavior 1
+ParentObject 205
+ShadowOptions 7
+
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\TelePulse.lwo
+ShowObject 9 3
+ObjectMotion (unnamed)
+  9
+  13
+  -3.2511 2 0.746285 0.1000145 0 0 0.01 0.01 0.01
+  0 0 0 0 0
+  -3.2511 2 0.746285 0.1000145 0 0 0.04 0.01 0.01
+  4 0 0 0 0
+  -3.2511 2 0.746285 0.1000145 0 0 1.36 0.01 1.79
+  5 0 0 0 0
+  -3.2511 -4.7 0.746285 0.1000145 0 0 0.05 0.01 0.05
+  7 0 0 0 0
+  -3.2511 -3.9 0.746285 0.1000145 0 0 0.05 0.01 0.05
+  10 0 0 0 0
+  -3.2511 -0.3 0.746285 0.1000145 0 0 0.04 0.01 0
+  11 0 0 0 0
+  -3.2511 2 0.746285 0.1000145 0 0 0 0.01 0
+  12 0 0 0 0
+  -3.2511 2 0.746285 0.1000145 0 0 2.92 0.01 3.64
+  13 0 0 0 0
+  -3.2511 2 0.746285 0.1000145 0 0 0.2 0.01 0.19
+  26 0 0 0 0
+  -3.2511 2 0.746285 0.1000145 0 0 0 0.01 0
+  28 0 0 0 0
+  -3.2511 2 0.746285 0.1000145 0 0 0.02 0.01 0
+  41 0 0 0 0
+  -3.2511 -7.9 0.746285 0.1000145 0 0 0 0.01 0
+  49 0 0 0 0
+  -3.2511 -7.9 0.746285 0.1000145 0 0 0 0.01 0
+  55 0 0 0 0
+EndBehavior 1
+ParentObject 205
 ShadowOptions 7
 
 AmbientColor 255 255 255
@@ -10579,7 +10646,7 @@ EndBehavior 1
 LockedChannels 32
 ZoomFactor 3
 Resolution 0
-CustomSize 320 240
+CustomSize 80 60
 PixelAspectRatio -1
 CustomPixelRatio 1
 MaskPosition 0 0 640 480
@@ -10614,9 +10681,9 @@ RGBImageFormat 2
 SaveAlpha 0
 
 ViewType 7
-ViewAimpoint 29.26838 25.95 4.75
-ViewDirection 2.576053 -0.364768 -0.003491
-ViewZoomFactor 5.746118
+ViewAimpoint 17.90241 25.95 16.87626
+ViewDirection 6.195879 -0.6038783 -0.003491
+ViewZoomFactor 4.933417
 
 GridNumber 10
 GridSize 20

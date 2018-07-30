@@ -39,6 +39,7 @@ Cirevam:
 - For help and advice with using Lightwave.
 - High-polygon sonic blaster model.
 - For providing several animations needed for Geo-Dome upgrade.
+- Countdown number models.
 
 Cyrem:
 - Custom map "Bolt Molt!".
@@ -99,9 +100,19 @@ Yourself:
 
 Changelog
 --------------
+v0.14.009
+- Re-skinned minifigure teleport in and building/minifigure/vehicle teleport out beam textures.
+- Fixed an issue in Tool Store explosion animation.
+- Moved Teleport.wav to Minifigure sounds and moved TeleportUp.wav to Scene sounds; replaced with original version as well.
+- Fixed Upgrade Station animations to have light spangles positioned properly.
+- Corrected a few issues with building teleport animations.
+- Changed some info message text.
+- Added info message for building construction and added corresponding bmp.
+- Added an extra sound to Power Station explosion animation.
+
 v0.14.008
 - Fixed a few more issues with Upgrade Station explosion animation.
-- Replaced dynamite countdown number models.
+- Replaced dynamite countdown number models with Cirevam's.
 - Moved barrier models to Shared folder.
 - Updated Tool Store animations with new barrier model positions.
 

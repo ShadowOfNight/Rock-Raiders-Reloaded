@@ -1,0 +1,12 @@
+SHARED TEXTURE LIST
+====================
+Base.bmp used by:
+
+Shared\BaseLarge.lwo
+       BaseSmall.lwo
+
+----------------------
+BaseY.bmp used by:
+
+Shared\BaseLarge.lwo
+       BaseSmall.lwo

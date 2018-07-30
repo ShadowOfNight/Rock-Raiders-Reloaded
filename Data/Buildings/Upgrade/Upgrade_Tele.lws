@@ -693,7 +693,7 @@ LockedChannels 5
 ParentObject 18
 ShadowOptions 7
 
-LoadObject \\BrickConeY.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\BrickConeY.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -709,7 +709,7 @@ LockedChannels 5
 ParentObject 18
 ShadowOptions 7
 
-LoadObject \\BrickConeY.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\BrickConeY.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1590,7 +1590,7 @@ LockedChannels 374
 ParentObject 55
 ShadowOptions 7
 
-LoadObject \\BaseSmall.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\BaseSmall.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3602,6 +3602,32 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  8
+  -1.0368 1.165679 0.812979 180 0 0 0.05699993 0.02353902 0.05199993
+  0 0 0 0 0
+  -1.0368 1.404722 0.812979 180 0 0 0.05699993 0.06961755 0.05199993
+  11 0 0 0 0
+  -1.0368 1.47 0.812979 180 0 0 0.05699993 0.07999991 0.05199993
+  24 0 0 0 0
+  -1.0368 1.66 0.812979 180 0 0 0.05699993 0.07999991 0.05199993
+  47 0 0 0 0
+  -1.0368 1.673286 0.812979 180 0 0 0.05699993 0.08026006 0.05199993
+  48 0 0 0 0
+  -1.0368 1.715348 0.812979 180 0 0 0.05699993 0.08251343 0.05199993
+  77 0 0 0 0
+  -1.0368 1.725852 0.812979 180 0 0 0.05699993 0.08427765 0.05199993
+  166 0 0 0 0
+  -1.0368 1.725852 0.812979 180 0 0 0.05699993 0.08427765 0.05199993
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 370
+ParentObject 38
+ShadowOptions 0
+
 AmbientColor 255 255 255
 AmbIntensity 1
 
@@ -3642,7 +3668,7 @@ EndBehavior 1
 LockedChannels 32
 ZoomFactor 4.084001
 Resolution 0
-CustomSize 320 240
+CustomSize 160 120
 PixelAspectRatio -1
 CustomPixelRatio 1
 MaskPosition 0 0 640 480
@@ -3702,8 +3728,8 @@ SaveAlpha 0
 
 ViewType 7
 ViewAimpoint -82.81583 8.761978 8.0327
-ViewDirection 1.263567 -0.3385893 -0.003491
-ViewZoomFactor 3.479397
+ViewDirection 1.684192 -0.6684572 -0.003491
+ViewZoomFactor 2.885533
 
 GridNumber 10
 GridSize 20

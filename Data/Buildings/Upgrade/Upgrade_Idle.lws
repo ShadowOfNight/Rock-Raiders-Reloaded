@@ -175,7 +175,7 @@ LockedChannels 5
 ParentObject 7
 ShadowOptions 7
 
-LoadObject \\BrickConeY.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\BrickConeY.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -189,7 +189,7 @@ LockedChannels 5
 ParentObject 7
 ShadowOptions 7
 
-LoadObject \\BrickConeY.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\BrickConeY.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -418,7 +418,7 @@ LockedChannels 374
 ParentObject 26
 ShadowOptions 7
 
-LoadObject \\BaseSmall.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\BaseSmall.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -432,13 +432,15 @@ LockedChannels 133
 ParentObject 28
 ShadowOptions 5
 
-LoadObject \\LightSpangleY.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\LightSpangleY.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
-  1
-  0 0 0 0 0 0 1.5 1.5 1.5
+  2
+  0 -1.9892 0 0 0 0 1.5 1.5 1.5
   0 0 0 0 0
+  0 -1.9892 0 0 0 0 1.5 1.5 1.5
+  14 0 0 0 0
 EndBehavior 1
 ParentObject 2
 ObjDissolve (envelope)
@@ -453,12 +455,12 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\LightSpangleY.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\LightSpangleY.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
-  0 0 0 0 0 0 1.5 1.5 1.5
+  0 -1.985081 0 0 0 0 1.5 1.5 1.5
   0 0 0 0 0
 EndBehavior 1
 ParentObject 4
@@ -521,7 +523,7 @@ EndBehavior 1
 LockedChannels 32
 ZoomFactor 4.084001
 Resolution 0
-CustomSize 320 240
+CustomSize 160 120
 PixelAspectRatio -1
 CustomPixelRatio 1
 MaskPosition 0 0 640 480
@@ -556,8 +558,8 @@ RGBImageFormat 2
 SaveAlpha 0
 
 ViewType 7
-ViewAimpoint 43.14946 21.34999 21.5126
-ViewDirection 4.927002 -0.4014211 -0.003491
+ViewAimpoint 80.51863 21.34999 -66.16544
+ViewDirection 3.994996 -0.1221685 -0.003491
 ViewZoomFactor 5.183313
 
 GridNumber 10

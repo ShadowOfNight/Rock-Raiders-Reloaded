@@ -1166,7 +1166,7 @@ LockedChannels 374
 ParentObject 29
 ShadowOptions 7
 
-LoadObject \\BaseLarge.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\BaseLarge.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2058,7 +2058,7 @@ ObjectMotion (unnamed)
   159 0 0 0 0
   0 -4.599904 -16.1 436.8 0 0 1 1 1
   160 0 0 0 0
-  0 158.2 -6.000006 0 0 0 1 1 1
+  0 -4.6 -6.000006 0 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 48
@@ -3032,7 +3032,7 @@ ObjectMotion (unnamed)
   159 0 0 0 0
   0 -4.599904 -16.1 436.8 0 0 1 1 1
   160 0 0 0 0
-  0 158.2 -6.000006 0 0 0 1 1 1
+  0 -4.6 -6.000006 0 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 48
@@ -3595,7 +3595,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\LightSpangleY.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\LightSpangleY.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3622,7 +3622,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\LightSpangleR.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\LightSpangleR.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3650,7 +3650,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\LightSpangleY.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\LightSpangleY.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3677,7 +3677,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\LightSpangleR.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\LightSpangleR.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3971,7 +3971,7 @@ EndBehavior 1
 LockedChannels 32
 ZoomFactor 3.224001
 Resolution 0
-CustomSize 160 120
+CustomSize 80 60
 PixelAspectRatio -1
 CustomPixelRatio 1
 MaskPosition 0 0 640 480
@@ -4031,8 +4031,8 @@ SaveAlpha 0
 
 ViewType 7
 ViewAimpoint 0 0 20
-ViewDirection -7.208255 -0.1116956 -0.003491
-ViewZoomFactor 10.03201
+ViewDirection -4.963762 -0.7277973 -0.003491
+ViewZoomFactor 2.260338
 
 GridNumber 10
 GridSize 20
