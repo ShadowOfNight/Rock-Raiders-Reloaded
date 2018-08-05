@@ -703,7 +703,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\Brick.lwo
+LoadObject Z:\lego\DATA\World\Shared\Brick2x3DkGrey.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -782,7 +782,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\Brick.lwo
+LoadObject Z:\lego\DATA\World\Shared\Brick2x3DkGrey.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -859,7 +859,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\Brick.lwo
+LoadObject Z:\lego\DATA\World\Shared\Brick2x3DkGrey.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -922,7 +922,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\Brick.lwo
+LoadObject Z:\lego\DATA\World\Shared\Brick2x3DkGrey.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9
@@ -991,7 +991,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\DATA\World\Shared\Brick.lwo
+LoadObject Z:\lego\DATA\World\Shared\Brick2x3DkGrey.lwo
 ShowObject 8 7
 ObjectMotion (unnamed)
   9

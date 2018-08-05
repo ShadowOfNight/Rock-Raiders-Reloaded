@@ -1,44 +1,46 @@
 LWSC
 1
 
+RenderRangeType 0
 FirstFrame 0
 LastFrame 124
 FrameStep 1
+RenderRangeArbitrary 0-124
 PreviewFirstFrame 0
 PreviewLastFrame 124
 PreviewFrameStep 1
-FramesPerSecond 30.000000
+FramesPerSecond 30
 
-LoadObject Z:\Lego\Data\Buildings\OreRefinery\Base.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Shared\BaseLarge.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  0 4.35 0 -90.00002 0 0 1 1 1
+  0 4.46 20 0 0 0 1 1 1
   0 0 0 0 0
-  0 4.35 0 -90.00002 0 0 1 1 1
+  0 4.46 20 0 0 0 1 1 1
   124 0 0 0 0
 EndBehavior 1
 LockedChannels 53
 ParentObject 3
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Buildings\OreRefinery\Rear2.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Rear2.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  3.866365 -7 0 0 0 0 1 1 1
+  -0.126561 -7 -15.5007 -89.99999 0 0 1 1 1
   0 0 0 0 0
-  3.866365 -7 0 0 0 0 1 1 1
+  -0.126561 -7 -15.5007 -89.99999 0 0 1 1 1
   124 0 0 0 0
 EndBehavior 1
-LockedChannels 6
+LockedChannels 2
 ParentObject 1
 ShadowOptions 7
 
 AddNullObject ParentNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   6
@@ -57,22 +59,22 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Buildings\OreRefinery\Front.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Front.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  3.200001 -6 0 0 0 0 1 1 1
+  0.4302095 -6 -16.4877 -89.99999 0 0 1 1 1
   0 0 0 0 0
-  3.200001 -6 0 0 0 0 1 1 1
+  0.4302095 -6 -16.4877 -89.99999 0 0 1 1 1
   124 0 0 0 0
 EndBehavior 1
 LockedChannels 6
 ParentObject 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Buildings\OreRefinery\Seat.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Seat.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -99,8 +101,8 @@ LockedChannels 3
 ParentObject 4
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Buildings\OreRefinery\Bucket.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Bucket.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   14
@@ -137,8 +139,8 @@ LockedChannels 30
 ParentObject 5
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Buildings\OreRefinery\Strut01.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Strut01.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   8
@@ -163,8 +165,8 @@ LockedChannels 51
 ParentObject 4
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Buildings\OreRefinery\Strut02.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Strut02.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   8
@@ -189,8 +191,8 @@ LockedChannels 54
 ParentObject 4
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Buildings\OreRefinery\Strut03.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Strut03.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   8
@@ -215,8 +217,8 @@ LockedChannels 51
 ParentObject 4
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Buildings\OreRefinery\Light01.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Light01.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   12
@@ -238,7 +240,7 @@ ObjectMotion (unnamed)
   91 0 0 0 0
   -5.100001 14.6 -10.343 2.081073e-006 -98 0 1 1 1
   95 0 0 0 0
-  -5.100001 14.6 -10.0814 2.081073e-006 -57.6 0 1 1 1
+  -5.100001 14.6 -10.0814 2.081073e-006 -57.59999 0 1 1 1
   109 0 0 0 0
   -5.100001 14.6 -9.931276 2.081073e-006 -48 0 1 1 1
   117 0 0 0 0
@@ -249,8 +251,8 @@ LockedChannels 43
 ParentObject 2
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Buildings\OreRefinery\Light02.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Light02.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   13
@@ -285,8 +287,8 @@ LockedChannels 43
 ParentObject 2
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Buildings\OreRefinery\YellowPipe01.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\YellowPipe01.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -299,8 +301,8 @@ LockedChannels 53
 ParentObject 2
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Buildings\OreRefinery\YellowPipe02.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\YellowPipe02.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -314,7 +316,7 @@ ParentObject 2
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   14
@@ -352,7 +354,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   13
@@ -388,7 +390,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   14
@@ -426,7 +428,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   15
@@ -466,7 +468,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject Crystals_PARENTNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -494,7 +496,7 @@ ParentObject 5
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   16
@@ -536,7 +538,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   14
@@ -574,31 +576,31 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject Deposit_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -5.129089 0 61.34009 0 0 0 1 1 1
+  -2.0461 0 61.34009 0 0 0 1 1 1
   0 0 0 0 0
-  -5.129089 0 61.34009 0 0 0 1 1 1
+  -2.0461 0 61.34009 0 0 0 1 1 1
   124 0 0 0 0
 EndBehavior 1
 LockedChannels 3
 ParentObject 3
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RD_Starobj.lwo
 ShowObject 0 7
 ObjectMotion (unnamed)
   9
   4
-  -5.608021 5.011764 -1.114753 -0.9 19.2 0.2 1.194 1.992 0.6000003
+  -5.608021 5.011764 -1.114753 -0.8999999 19.2 0.2 1.194 1.992 0.6000003
   0 0 0 0 0
-  -5.608021 5.011764 -1.114753 -0.9 19.2 0.2 1.194 1.992 0.6000003
+  -5.608021 5.011764 -1.114753 -0.8999999 19.2 0.2 1.194 1.992 0.6000003
   67 1 0 0 0
-  -2.224732 5.411763 0.8251811 -0.9 19.2 0.2 1.182 2.49 0.6690003
+  -2.224732 5.411763 0.8251811 -0.8999999 19.2 0.2 1.182 2.49 0.6690003
   68 0 0 0 0
-  -2.224732 5.411763 0.8251811 -0.9 19.2 0.2 1.182 2.49 0.6690003
+  -2.224732 5.411763 0.8251811 -0.8999999 19.2 0.2 1.182 2.49 0.6690003
   124 1 0 0 0
 EndBehavior 1
 ObjDissolve (envelope)
@@ -619,16 +621,16 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RD_Starobj.lwo
 ShowObject 0 7
 ObjectMotion (unnamed)
   9
   5
-  4.050377 5.711763 1.541436 -0.9 19.2 0 1.592 3.456 0.8000004
+  4.050377 5.711763 1.541436 -0.8999999 19.2 0 1.592 3.456 0.8000004
   0 0 0 0 0
-  2.140244 5.711763 1.50411 -0.9 19.2 0 1.592 3.456 0.8000004
+  2.140244 5.711763 1.50411 -0.8999999 19.2 0 1.592 3.456 0.8000004
   64 0 0 0 0
-  2.239473 5.711763 1.516518 -0.9 19.2 0 1.592 3.456 0.8000004
+  2.239473 5.711763 1.516518 -0.8999999 19.2 0 1.592 3.456 0.8000004
   65 0 0 0 0
   -1.121244 5.311764 1.11209 -0.9999999 14.8 0 1.596 4.576 0.9560004
   66 0 0 0 0
@@ -653,7 +655,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\RD_Starobj.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RD_Starobj.lwo
 ShowObject 0 7
 ObjectMotion (unnamed)
   9
@@ -685,8 +687,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\Telepthings.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Refining_smoke.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -712,8 +714,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\Telepthings.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Refining_smoke.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -739,8 +741,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\SteamJet.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\SteamJet.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -769,8 +771,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\SteamJet.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\SteamJet.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -801,8 +803,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\SteamJet.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\SteamJet.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -833,8 +835,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\SteamThing2.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing2.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -853,8 +855,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\Lego\Data\Shared\SteamThing2.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing2.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -873,8 +875,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Lego\Data\Shared\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -903,8 +905,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Lego\Data\Shared\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -935,7 +937,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject SFX,SND_DROP,0
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -945,7 +947,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AmbientColor 255 255 255
-AmbIntensity 0.200000
+AmbIntensity 0.2
 
 AddLight
 LightName Light
@@ -958,11 +960,14 @@ LightMotion (unnamed)
   38.39843 37 -66.98692 45 35 0 1 1 1
   124 0 0 0 0
 EndBehavior 1
+HController 1
+PController 1
 TargetObject 3
 LightColor 255 255 255
-LgtIntensity 1.000000
+LgtIntensity 1
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 AddLight
 LightName Light
@@ -975,11 +980,14 @@ LightMotion (unnamed)
   -55.32762 23.59999 72.97393 45 35 0 1 1 1
   124 0 0 0 0
 EndBehavior 1
+HController 1
+PController 1
 TargetObject 3
 LightColor 255 255 255
-LgtIntensity 1.000000
+LgtIntensity 1
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 ShowCamera 1 7
 CameraMotion (unnamed)
@@ -990,18 +998,22 @@ CameraMotion (unnamed)
   84.05732 47.85001 -55.45388 0 0 0 1 1 1
   124 0 0 0 0
 EndBehavior 1
+HController 1
+PController 1
 TargetObject 3
-ZoomFactor 3.200000
+ZoomFactor 3.2
 Resolution 1
-PixelAspectRatio 2
-SegmentMemory 2200000
+CustomSize 640 480
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+SegmentMemory 32000000
+ApertureHeight 0.015
 Antialiasing 0
 AdaptiveSampling 1
 AdaptiveThreshold 16
-FilmSize 2
-FieldRendering 0
-MotionBlur 0
-DepthOfField 0
 
 SolidBackdrop 1
 BackdropColor 0 0 0
@@ -1015,19 +1027,23 @@ AnimatedDither 0
 
 RenderMode 2
 RayTraceEffects 0
-ClipRayColors 0
+RayRecursionLimit 16
+RayTraceOptimization 1
 DataOverlayLabel  
-FullSceneParamEval 0
+SaveRGB 0
+SaveAlpha 0
 
-ViewMode 3
-ViewAimpoint -0.000002 -2.650000 3.866365
-ViewDirection -179.602676 -0.368265 0.000000
-ViewZoomFactor 7.868410
+ViewType 7
+ViewAimpoint -2e-006 -2.65 3.866365
+ViewDirection -180.879 -0.4852028 0
+ViewZoomFactor 3.308259
+
 GridNumber 50
-GridSize 20.000000
+GridSize 20
+CameraViewBG 0
 ShowMotionPath 1
-ShowBGImage 0
 ShowFogRadius 0
-ShowRedraw 0
+ShowFogEffect 0
 ShowSafeAreas 0
 ShowFieldChart 0
+OverlayColor_fv 0 0 0

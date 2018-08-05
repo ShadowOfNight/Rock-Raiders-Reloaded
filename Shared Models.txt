@@ -1,5 +1,80 @@
 SHARED MODEL LIST
 =========================
+BaseLarge.lwo used by:
+
+Buildings\BIGTeleport\Big_teleport.lws
+		      Big_teleport_Exp2.lws
+		      Big_teleport_Idle.lws
+		      BT_teleport.lws
+
+Buildings\Geo-Dome\GD_BasePlatform.lws
+		   Geo-teleport.lws
+
+Buildings\Geo-Dome\Standard\GD_S_Explode.lws
+Buildings\Geo-Dome\Upgrade\GD_U_Explode.lws
+
+Buildings\OreRefinery\CR_BOOM.lws
+		      CR_Dormant.lws
+		      CR_Dormant_IDLE.lws
+		      CR_DropOff.lws
+		      CR_Teleport.lws
+
+Buildings\Powerstation\Ref_Refine.lws
+		       Refblow.lws
+		       Refcreate.lws
+		       RefStand.lws
+-------------------------------------------
+BaseSmall.lwo used by:
+
+Buildings\Barracks\Barracks_Idle.lws
+		   Barracks_steam.lws
+		   BarracksExplode2.lws
+		   BarracksTele.lws
+
+Buildings\Docks\dock2.lws
+		dock2_Idle.lws
+		dockCreate.lws
+		dockexplode.lws
+
+Buildings\Gunstation\Gunstation.lws
+		     Gunstation_Tele.lws
+		     GunstationBlow2.lws
+
+Buildings\Teleports\TELEPORT.lws
+		    Teleport_Blow2.lws
+		    Teleport_IDLE.lws
+		    Teleport_T.lws
+
+Buildings\Upgrade\Upgrade_Idle.lws
+		  Upgrade_operate.lws
+		  Upgrade_Tele.lws
+		  UpgradeBlow5.lws
+		  Upgrades.lws
+
+-------------------------------------------
+Brick2x3DkGrey.lwo used by:
+
+Buildings\Barracks\BarracksExplode2.lws
+
+Buildings\BIGTeleport\Big_teleport_Exp2.lws
+
+Buildings\Docks\dockexplode.lws
+
+Buildings\Geo-Dome\Standard\GD_S_Explode.lws
+Buildings\Geo-Dome\Upgrade\GD_U_Explode.lws
+
+Buildings\Gunstation\GunstationBlow2.lws
+
+Buildings\OreRefinery\CR_BOOM.lws
+
+Buildings\Powerstation\Refblow.lws
+
+Buildings\Teleports\Teleport_Blow2.lws
+
+Buildings\ToolStation\M-teleportBlow2.lws
+
+Buildings\Upgrade\UpgradeBlow5.lws
+--------------------------------------------
 BrickConeY.lwo used by:
 
 Buildings\Powerstation\Ref_Refine.lws
@@ -250,3 +325,13 @@ MiscObjs\Barrier\Barrier_Carry.lws
 		 Barrier_Dissolve.lws
 		 Barrier_LongF2.lws
 		 Place_Barrier.lws
+---------------------------------------------------
+Z.lwo used by:
+
+Creatures\IceMonster\Ahh_Sleepy.lws
+
+Creatures\LavaMonster\Ahh_Sleepy.lws
+
+Creatures\PyriteMonster\Ahh_Sleepy.lws
+
+Creatures\Rmonster\Ahh_Sleepy.lws

@@ -1,16 +1,18 @@
 LWSC
 1
 
+RenderRangeType 0
 FirstFrame 0
 LastFrame 175
 FrameStep 1
+RenderRangeArbitrary 0-175
 PreviewFirstFrame 0
 PreviewLastFrame 175
 PreviewFrameStep 1
-FramesPerSecond 25.000000
+FramesPerSecond 25
 
 AddNullObject dust null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   15
@@ -49,8 +51,8 @@ LockedChannels 3
 ParentObject 11
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   23
@@ -105,64 +107,64 @@ LockedChannels 133
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust2.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust2.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   23
-  0 -2.8 0 -90 0 0 -3.72529e-009 1 0.116
+  0 -2.8 0 -89.99999 0 0 -3.72529e-009 1 0.116
   0 0 0 0 0
-  0 -2.8 0 -90 0 0 -3.72529e-009 1 0.116
+  0 -2.8 0 -89.99999 0 0 -3.72529e-009 1 0.116
   13 0 0 0 0
-  0 -2.8 0 -90 0 0 -3.72529e-009 1 0.116
+  0 -2.8 0 -89.99999 0 0 -3.72529e-009 1 0.116
   55 0 0 0 0
-  0 -2.8 0 -90 0 0 -3.72529e-009 1 0.116
+  0 -2.8 0 -89.99999 0 0 -3.72529e-009 1 0.116
   81 1 0 0 0
-  0 -2.8 0 -90 0 0 0.1632 1 0.1976
+  0 -2.8 0 -89.99999 0 0 0.1632 1 0.1976
   82 0 0 0 0
-  0 -2.8 0 -90 0 0 0.8159999 1 0.5239999
+  0 -2.8 0 -89.99999 0 0 0.8159999 1 0.5239999
   86 1 0 0 0
-  0 -2.8 0 -90 0 0 1.036615 1 0.6361538
+  0 -2.8 0 -89.99999 0 0 1.036615 1 0.6361538
   89 0 0 0 0
-  0 -2.8 0 -90 0 0 1.772 1 1.01
+  0 -2.8 0 -89.99999 0 0 1.772 1 1.01
   99 1 0 0 0
-  0 -2.8 0 -90 0 0 0 1 0
+  0 -2.8 0 -89.99999 0 0 0 1 0
   100 1 0 0 0
-  0 -2.8 0 -90 0 0 -3.72529e-009 1 0.116
+  0 -2.8 0 -89.99999 0 0 -3.72529e-009 1 0.116
   119 1 0 0 0
-  0 -2.8 0 -90 0 0 0.6528 1 0.4423999
+  0 -2.8 0 -89.99999 0 0 0.6528 1 0.4423999
   123 0 0 0 0
-  0 -2.8 0 -90 0 0 0.8159999 1 0.5239999
+  0 -2.8 0 -89.99999 0 0 0.8159999 1 0.5239999
   124 1 0 0 0
-  0 -2.8 0 -90 0 0 1.000154 1 0.6735384
+  0 -2.8 0 -89.99999 0 0 1.000154 1 0.6735384
   128 0 0 0 0
-  0 -2.8 0 -90 0 0 1.362 1 0.93
+  0 -2.8 0 -89.99999 0 0 1.362 1 0.93
   137 1 0 0 0
-  0 -2.8 0 -90 0 0 0 1 0
+  0 -2.8 0 -89.99999 0 0 0 1 0
   138 1 0 0 0
-  0 -2.8 0 -90 0 0 -0.06184611 1 0
+  0 -2.8 0 -89.99999 0 0 -0.06184611 1 0
   140 1 0 0 0
-  0 -2.8 0 -90 0 0 0.1692701 1 0.18
+  0 -2.8 0 -89.99999 0 0 0.1692701 1 0.18
   143 1 0 0 0
-  0 -2.8 0 -90 0 0 0.4060688 1 0.3400001
+  0 -2.8 0 -89.99999 0 0 0.4060688 1 0.3400001
   151 0 0 0 0
-  0 -2.8 0 -90 0 0 0.6932677 1 0.5300002
+  0 -2.8 0 -89.99999 0 0 0.6932677 1 0.5300002
   158 1 0 0 0
-  0 -2.8 0 -90 0 0 0.01863034 1 0
+  0 -2.8 0 -89.99999 0 0 0.01863034 1 0
   159 0 0 0 0
-  0 -2.8 0 -90 0 0 0.006698402 1 -0.07815365
+  0 -2.8 0 -89.99999 0 0 0.006698402 1 -0.07815365
   164 1 0 0 0
-  0 -2.8 0 -90 0 0 -0.02690566 1 -0.0001228597
+  0 -2.8 0 -89.99999 0 0 -0.02690566 1 -0.0001228597
   170 0 0 0 0
-  0 -2.8 0 -90 0 0 -0.02690566 1 -0.0001228597
+  0 -2.8 0 -89.99999 0 0 -0.02690566 1 -0.0001228597
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 179
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust3.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust3.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   19
@@ -209,8 +211,8 @@ LockedChannels 179
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust4.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust4.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   22
@@ -263,8 +265,8 @@ LockedChannels 179
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   19
@@ -311,8 +313,8 @@ LockedChannels 179
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust3.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust3.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   19
@@ -359,8 +361,8 @@ LockedChannels 179
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust2.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust2.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   18
@@ -405,8 +407,8 @@ LockedChannels 179
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Dust4.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust4.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   18
@@ -451,51 +453,50 @@ LockedChannels 179
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Rear2.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Rear2.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   19
-  3.8664 135.9102 0 0 0 0 1 1 1
+  4.394749 135.9102 0.1761162 0 0 0 1 1 1
   0 0 0 0 0
-  3.8664 135.9981 0 0 0 0 1 1 1
+  4.394749 135.9981 0.1761162 0 0 0 1 1 1
   6 0 0 0 0
-  3.8664 136.12 0 0 0 0 1 1 1
+  4.394749 136.12 0.1761162 0 0 0 1 1 1
   45 1 0 0 0
-  3.8664 125.3756 0 0 0 0 1 1 1
+  4.394749 125.3756 0.1761162 0 0 0 1 1 1
   54 0 0 0 0
-  3.8664 11.48403 0 0 0 0 1 1 1
+  4.394749 11.48403 0.1761162 0 0 0 1 1 1
   69 0 0 0 0
-  3.8664 -3.978243 0 0 0 0 1 1 1
+  4.394749 -3.978243 0.1761162 0 0 0 1 1 1
   75 0 0 0 0
-  3.8664 -7 0 0 0 0 1 1 1
+  4.394749 -7 0.1761162 0 0 0 1 1 1
   81 0 1 0 0
-  3.8664 -7 0 0 0 -0.5625272 1 1 1
+  4.394749 -7 0.1761162 0 0 -0.5625272 1 1 1
   82 0 0 0 0
-  3.8664 -7 0 0 0 -1.3 1 1 1
+  4.394749 -7 0.1761162 0 0 -1.3 1 1 1
   83 0 0 0 0
-  3.8664 -7 0 0 0 -1.399564 1 1 1
+  4.394749 -7 0.1761162 0 0 -1.399564 1 1 1
   85 0 0 0 0
-  3.8664 -7 0 0 0 0.4600002 1 1 1
+  4.394749 -7 0.1761162 0 0 0.4600002 1 1 1
   87 0 0 0 0
-  3.8664 -7 0 0 0 0.1870277 1 1 1
+  4.394749 -7 0.1761162 0 0 0.1870277 1 1 1
   89 0 0 0 0
-  3.8664 -7 0 0 0 0 1 1 1
+  4.394749 -7 0.1761162 0 0 0 1 1 1
   90 0 0 0 0
-  3.8664 -7 0 0 0 -0.05323197 1 1 1
+  4.394749 -7 0.1761162 0 0 -0.05323197 1 1 1
   123 0 0 0 0
-  3.8664 -7 0 0 0 -0.05341951 1 1 1
+  4.394749 -7 0.1761162 0 0 -0.05341951 1 1 1
   128 0 0 0 0
-  3.8664 -7 0 0 0 -0.0190694 1 1 1
+  4.394749 -7 0.1761162 0 0 -0.0190694 1 1 1
   151 0 0 0 0
-  3.8664 -7 0 0 0 -0.005674168 1 1 1
+  4.394749 -7 0.1761162 0 0 -0.005674168 1 1 1
   164 0 0 0 0
-  3.8664 -7.055001 0 0 0 0 1 1 1
+  4.394749 -7.055001 0.1761162 0 0 0 1 1 1
   170 0 0 0 0
-  3.8664 -7.055001 0 0 0 0 1 1 1
+  4.394749 -7.055001 0.1761162 0 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
-LockedChannels 5
 ParentObject 30
 ObjDissolve (envelope)
   1
@@ -514,7 +515,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject Parent_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -540,49 +541,48 @@ EndBehavior 1
 LockedChannels 5
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Crystal-Ref\Front.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Front.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   18
-  3.2 109.72 0 0 0 0 1 1 1
+  3.552233 109.72 -0.3522325 0 0 0 1 1 1
   0 0 0 0 0
-  3.2 109.72 0 0 0 0 1 1 1
+  3.552233 109.72 -0.3522325 0 0 0 1 1 1
   75 0 0 0 0
-  3.2 109.32 0 0 0 0 1 1 1
+  3.552233 109.32 -0.3522325 0 0 0 1 1 1
   77 0 0 0 0
-  3.2 106.52 0 0 0 0 1 1 1
+  3.552233 106.52 -0.3522325 0 0 0 1 1 1
   81 0 0 0 0
-  3.2 103.8074 0 0 0 0 1 1 1
+  3.552233 103.8074 -0.3522325 0 0 0 1 1 1
   82 0 0 0 0
-  3.2 92.20197 0 0 0 0 1 1 1
+  3.552233 92.20197 -0.3522325 0 0 0 1 1 1
   85 0 0 0 0
-  3.2 75.44941 0 0 0 0 1 1 1
+  3.552233 75.44941 -0.3522325 0 0 0 1 1 1
   89 0 0 0 0
-  3.2 6.884029 0 0 0 0 1 1 1
+  3.552233 6.884029 -0.3522325 0 0 0 1 1 1
   109 0 0 0 0
-  3.2 -2.578243 0 0 0 0 1 1 1
+  3.552233 -2.578243 -0.3522325 0 0 0 1 1 1
   115 0 0 0 0
-  3.2 -6 0 0 0 0 1 1 1
+  3.552233 -6 -0.3522325 0 0 0 1 1 1
   121 0 1 0 0
-  3.2 -6 0 0 -0.006999819 -0.01199996 1 1 1
+  3.552233 -6 -0.3522325 0 -0.006999819 -0.01199996 1 1 1
   123 0 0 0 0
-  3.2 -6 0 0 0.007000088 0.008435864 1 1 1
+  3.552233 -6 -0.3522325 0 0.007000088 0.008435864 1 1 1
   125 0 0 0 0
-  3.2 -6 0 0 0 0 1 1 1
+  3.552233 -6 -0.3522325 0 0 0 1 1 1
   127 0 0 0 0
-  3.2 -6 0 0 -0.0003014191 -0.0003357756 1 1 1
+  3.552233 -6 -0.3522325 0 -0.0003014191 -0.0003357756 1 1 1
   128 0 0 0 0
-  3.2 -6 0 0 -0.001367409 -0.0009382886 1 1 1
+  3.552233 -6 -0.3522325 0 -0.001367409 -0.0009382886 1 1 1
   151 0 0 0 0
-  3.2 -6 0 0 -0.001262266 -0.0004199578 1 1 1
+  3.552233 -6 -0.3522325 0 -0.001262266 -0.0004199578 1 1 1
   164 0 0 0 0
-  3.2 -6.055001 0 0 -0.001153995 -0.0001082167 1 1 1
+  3.552233 -6.055001 -0.3522325 0 -0.001153995 -0.0001082167 1 1 1
   170 0 0 0 0
-  3.2 -6.055001 0 0 -0.001153995 -0.0001082167 1 1 1
+  3.552233 -6.055001 -0.3522325 0 -0.001153995 -0.0001082167 1 1 1
   175 0 0 0 0
 EndBehavior 1
-LockedChannels 5
 ParentObject 30
 ObjDissolve (envelope)
   1
@@ -600,8 +600,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Seat.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Seat.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   23
@@ -670,8 +670,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Bucket.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Bucket.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   17
@@ -728,8 +728,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject Z:\lego\Data\Buildings\OreRefinery\Strut01.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Strut01.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -770,8 +770,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Strut01.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Strut01.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -812,14 +812,14 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Strut01.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Strut01.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
   35 9.8 -4 50 0 0 1 1 1
   0 0 0 0 0
-  35 9.8 -4 -6.900007 0 0 1 1 1
+  35 9.8 -4 -6.900006 0 0 1 1 1
   105 0 0 0 0
   35 9.8 -4 50 0 0 1 1 1
   123 0 0 0 0
@@ -854,8 +854,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Crystal-Ref\Light01.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Light01.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   12
@@ -902,8 +902,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Crystal-Ref\Light02.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Light02.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   12
@@ -950,8 +950,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\YellowPipe01.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\YellowPipe01.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -992,8 +992,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\YellowPipe02.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\YellowPipe02.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -1035,7 +1035,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -1063,7 +1063,7 @@ ParentObject 26
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -1091,7 +1091,7 @@ ParentObject 26
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -1119,7 +1119,7 @@ ParentObject 26
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -1147,7 +1147,7 @@ ParentObject 26
 ShadowOptions 7
 
 AddNullObject Crystals_PARENTNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -1175,7 +1175,7 @@ ParentObject 13
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -1203,7 +1203,7 @@ ParentObject 26
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -1231,7 +1231,7 @@ ParentObject 26
 ShadowOptions 7
 
 AddNullObject Deposit_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -1259,7 +1259,7 @@ ParentObject 11
 ShadowOptions 7
 
 AddNullObject Base_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -1279,11 +1279,11 @@ ShowObject 1 7
 ObjectMotion (unnamed)
   9
   3
-  -0.9499995 -59 20 -90 0 0 38.42 31.08607 38.42003
+  -0.9499995 -59 20 -89.99999 0 0 38.42 31.08607 38.42003
   0 0 0 0 0
-  -0.9499995 -59 20 -90 0 0 38.42 31.08607 38.42003
+  -0.9499995 -59 20 -89.99999 0 0 38.42 31.08607 38.42003
   170 0 0 0 0
-  -0.9499995 -59 20 -90 0 0 38.42 31.08607 38.42003
+  -0.9499995 -59 20 -89.99999 0 0 38.42 31.08607 38.42003
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 437
@@ -1339,7 +1339,7 @@ PivotPoint -0.49 0 1.36
 ParentObject 44
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
@@ -1365,7 +1365,7 @@ LockedChannels 325
 ParentObject 32
 ShadowOptions 0
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
@@ -1391,7 +1391,7 @@ LockedChannels 374
 ParentObject 32
 ShadowOptions 0
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
@@ -1417,7 +1417,7 @@ LockedChannels 374
 ParentObject 32
 ShadowOptions 0
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
@@ -1443,7 +1443,7 @@ LockedChannels 374
 ParentObject 32
 ShadowOptions 0
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
@@ -1469,59 +1469,59 @@ LockedChannels 371
 ParentObject 32
 ShadowOptions 0
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
   8
-  -1.618037 1.31594 1.322158 90 1.306036 0 0.05199993 0.0200301 0.05199993
+  -1.618037 1.31594 1.322158 89.99999 1.306036 0 0.05199993 0.0200301 0.05199993
   0 0 0 0 0
-  -1.609739 1.40467 1.32027 90 1.055858 0 0.05199993 0.04118906 0.05199993
+  -1.609739 1.40467 1.32027 89.99999 1.055858 0 0.05199993 0.04118906 0.05199993
   13 0 0 0 0
-  -1.6083 1.44 1.320093 90 0.9000002 0 0.05199993 0.04599992 0.05199993
+  -1.6083 1.44 1.320093 89.99999 0.9000002 0 0.05199993 0.04599992 0.05199993
   28 0 0 0 0
-  -1.615529 1.684999 1.324178 90 -0.6999999 0 0.05199993 0.04599992 0.05199993
+  -1.615529 1.684999 1.324178 89.99999 -0.6999999 0 0.05199993 0.04599992 0.05199993
   54 0 0 0 0
-  -1.6043 1.1 1.320093 90 -1.1 0 0.05199993 -8.498318e-008 0.05199993
+  -1.6043 1.1 1.320093 89.99999 -1.1 0 0.05199993 -8.498318e-008 0.05199993
   82 0 0 0 0
-  -1.603065 1.066716 1.319644 90 -1.14401 0 0.05199993 -0.005061284 0.05199993
+  -1.603065 1.066716 1.319644 89.99999 -1.14401 0 0.05199993 -0.005061284 0.05199993
   88 0 0 0 0
-  -1.603602 1.094176 1.319839 90 -1.124879 0 0.05199993 -0.002861124 0.05199993
+  -1.603602 1.094176 1.319839 89.99999 -1.124879 0 0.05199993 -0.002861124 0.05199993
   170 0 0 0 0
-  -1.603602 1.094176 1.319839 90 -1.124879 0 0.05199993 -0.002861124 0.05199993
+  -1.603602 1.094176 1.319839 89.99999 -1.124879 0 0.05199993 -0.002861124 0.05199993
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 366
 ParentObject 32
 ShadowOptions 0
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
   8
-  0.6541504 1.31594 1.322158 90 1.306036 0 0.05199993 0.0200301 0.05199993
+  0.6541504 1.31594 1.322158 89.99999 1.306036 0 0.05199993 0.0200301 0.05199993
   0 0 0 0 0
-  0.6537343 1.40467 1.320476 90 0.9449775 0 0.05199993 0.04118906 0.05199993
+  0.6537343 1.40467 1.320476 89.99999 0.9449775 0 0.05199993 0.04118906 0.05199993
   13 0 0 0 0
-  0.6538872 1.44 1.320093 90 0.9000002 0 0.05199993 0.04599992 0.05199993
+  0.6538872 1.44 1.320093 89.99999 0.9000002 0 0.05199993 0.04599992 0.05199993
   28 0 0 0 0
-  0.6578888 1.684999 1.320092 90 1.5 0 0.05199993 0.04599992 0.05199993
+  0.6578888 1.684999 1.320092 89.99999 1.5 0 0.05199993 0.04599992 0.05199993
   54 0 0 0 0
-  0.6578888 1.076001 1.320093 90 -1.1 0 0.05199993 -0.003200085 0.05199993
+  0.6578888 1.076001 1.320093 89.99999 -1.1 0 0.05199993 -0.003200085 0.05199993
   82 0 0 0 0
-  0.6578888 1.066716 1.320093 90 -1.386068 0 0.05199993 -0.005061284 0.05199993
+  0.6578888 1.066716 1.320093 89.99999 -1.386068 0 0.05199993 -0.005061284 0.05199993
   88 0 0 0 0
-  0.6578888 1.094878 1.320093 90 -1.261711 0 0.05199993 -0.002767486 0.05199993
+  0.6578888 1.094878 1.320093 89.99999 -1.261711 0 0.05199993 -0.002767486 0.05199993
   170 0 0 0 0
-  0.6578888 1.094878 1.320093 90 -1.261711 0 0.05199993 -0.002767486 0.05199993
+  0.6578888 1.094878 1.320093 89.99999 -1.261711 0 0.05199993 -0.002767486 0.05199993
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 366
 ParentObject 32
 ShadowOptions 0
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
@@ -1573,7 +1573,7 @@ LockedChannels 446
 ParentObject 32
 ShadowOptions 0
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
@@ -1599,7 +1599,7 @@ LockedChannels 437
 ParentObject 32
 ShadowOptions 0
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
@@ -1626,7 +1626,7 @@ ParentObject 32
 ShadowOptions 0
 
 AddNullObject Size_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   15
@@ -1665,8 +1665,8 @@ LockedChannels 386
 ParentObject 31
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\TelePulse.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\TelePulse.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -1693,8 +1693,8 @@ LockedChannels 389
 ParentObject 47
 ShadowOptions 0
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\TelePulse.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\TelePulse.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   15
@@ -1734,7 +1734,7 @@ ParentObject 47
 ShadowOptions 0
 
 AddNullObject TelePulse_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -1750,7 +1750,7 @@ ParentObject 11
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   5
@@ -1769,7 +1769,7 @@ LockedChannels 373
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -1794,52 +1794,52 @@ ParentObject 48
 ShadowOptions 7
 
 AddNullObject Parent_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   5
-  -0.02216761 1.85 -0.0247286 90.59999 0 0 0.02599994 0.03199993 0.02599994
+  -0.02216761 1.85 -0.0247286 90.59998 0 0 0.02599994 0.03199993 0.02599994
   0 0 0 0 0
-  -0.02216761 1.85 -0.0247286 90.59999 0 0 0.02599994 0.03199993 0.02599994
+  -0.02216761 1.85 -0.0247286 90.59998 0 0 0.02599994 0.03199993 0.02599994
   1 0 0 0 0
-  -0.02216761 1.85 -0.0247286 90.59999 0 0 0.02599994 0.03199993 0.02599994
+  -0.02216761 1.85 -0.0247286 90.59998 0 0 0.02599994 0.03199993 0.02599994
   169 0 0 0 0
-  -0.02216761 1.85 -0.0247286 90.59999 0 0 0.02599994 0.03199993 0.02599994
+  -0.02216761 1.85 -0.0247286 90.59998 0 0 0.02599994 0.03199993 0.02599994
   170 0 0 0 0
-  -0.02216761 1.85 -0.0247286 90.59999 0 0 0.02599994 0.03199993 0.02599994
+  -0.02216761 1.85 -0.0247286 90.59998 0 0 0.02599994 0.03199993 0.02599994
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 374
 ParentObject 48
 ShadowOptions 7
 
-LoadObject Z:\lego\Data\Buildings\OreRefinery\Base.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Shared\BaseLarge.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   10
-  -0.75 -4.095 0.75 -90 0 0 0.02199997 1 0.02399997
+  0 -4.095 20 0 0 0 0.02199997 1 0.02399997
   0 0 0.5900002 0 0
-  -0.75 -3.285001 0.75 -90 0 0 0.02199997 1 0.02399997
+  0 -3.285001 20 0 0 0 0.02199997 1 0.02399997
   9 0 0 0 0
-  -0.5 -2.360001 0.5 -90 0 0 0.2715955 1 0.2695759
+  0 -2.360001 20 0 0 0 0.2715955 1 0.2695759
   16 0 0 0 0
-  -0.3419737 4.5 0.3419737 -90 0 0 0.5485855 1 0.5506241
+  0 4.5 20 0 0 0 0.5485855 1 0.5506241
   24 0 0 0 0
-  -0.2035483 4.5 0.2035483 -90 0 0 0.7589096 1 0.7646787
+  0 4.5 20 0 0 0 0.7589096 1 0.7646787
   32 0 0 0 0
-  0 4.5 0 -90 0 0 1 1 1
+  0 4.5 20 0 0 0 1 1 1
   48 0 0 0 0
-  0 4.5 0 -90 0 0 1 1 1
+  0 4.5 20 0 0 0 1 1 1
   129 0 1 0 0
-  0 4.5 0 -90 0 0 1 1 1
+  0 4.5 20 0 0 0 1 1 1
   169 0 0 0 0
-  -0.05399997 4.460008 0.0048 -90 0 0 1 1 1
+  0 4.460008 20 0 0 0 1 1 1
   170 0 0 0 0
-  -0.05399997 4.460008 0.0048 -90 0 0 1 1 1
+  0 4.460008 20 0 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
-LockedChannels 181
+LockedChannels 177
 ParentObject 50
 ObjDissolve (envelope)
   1
@@ -1855,12 +1855,12 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 5
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
   8
-  -1.039972 1.242812 1.8547 180 0.5647 0 0.05699993 0.02381887 0.05199993
+  -1.039972 1.242812 1.8547 180 0.5646999 0 0.05699993 0.02381887 0.05199993
   0 0 0 0 0
   -1.039972 1.418842 1.8547 180 1.000837 0 0.05699993 0.04189093 0.05199993
   13 0 0 0 0
@@ -1881,7 +1881,7 @@ LockedChannels 371
 ParentObject 32
 ShadowOptions 0
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Shared_OBJ\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
@@ -1908,7 +1908,7 @@ ParentObject 32
 ShadowOptions 0
 
 AddNullObject Position_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -1922,7 +1922,7 @@ ParentObject 55
 ShadowOptions 7
 
 AddNullObject Parent_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -1936,8 +1936,8 @@ EndBehavior 1
 LockedChannels 243
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint1.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   12
@@ -2001,8 +2001,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint2.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -2072,8 +2072,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint3.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   13
@@ -2152,8 +2152,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint4.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint4.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -2221,8 +2221,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint5.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint5.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   13
@@ -2248,7 +2248,7 @@ ObjectMotion (unnamed)
   142 0 0 0 0
   -8.000001 116.8 0.9000006 -720.0001 0 0 1 1 1
   143 0 0 0 0
-  -8.200002 116.8 0.3999999 -720 0 0 1 1 1
+  -8.200002 116.8 0.3999999 -719.9999 0 0 1 1 1
   144 0 0 0 0
   -8.3 30.90002 0.1000016 -860 0 0 1 1 1
   175 0 0 0 0
@@ -2294,8 +2294,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint6.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint6.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   13
@@ -2365,8 +2365,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint7.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint7.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   13
@@ -2392,7 +2392,7 @@ ObjectMotion (unnamed)
   142 0 0 0 0
   1.199999 116.8 6.400001 -720.0001 0 0 1 1 1
   143 0 0 0 0
-  1.199999 116.8 6.400001 -720 0 0 1 1 1
+  1.199999 116.8 6.400001 -719.9999 0 0 1 1 1
   144 0 0 0 0
   1.199999 30.90002 9.7 -860 0 0 1 1 1
   175 0 0 0 0
@@ -2439,7 +2439,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject Deposit_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -2449,8 +2449,8 @@ EndBehavior 1
 ParentObject 55
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint2.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -2515,7 +2515,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   10
@@ -2544,8 +2544,8 @@ LockedChannels 48
 ParentObject 55
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint1.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -2622,7 +2622,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -2632,13 +2632,13 @@ ObjectMotion (unnamed)
   67 0 0 0 0
   0 0 0 0 0 0 1 1 1
   68 0 0 0 0
-  0 0 0 97.19999 0 0 1 1 1
+  0 0 0 97.19998 0 0 1 1 1
   69 0 0 0 0
-  0 0 0 97.19999 0 0 1 1 1
+  0 0 0 97.19998 0 0 1 1 1
   70 0 0 0 0
-  0 0 0 97.19999 0 0 1 1 1
+  0 0 0 97.19998 0 0 1 1 1
   133 0 0 0 0
-  0 0 0 97.19999 0 0 1 1 1
+  0 0 0 97.19998 0 0 1 1 1
   134 0 0 0 0
   16.43299 0 22.2094 -38.1 0 0 1 1 1
   135 0 0 0 0
@@ -2653,8 +2653,8 @@ LockedChannels 2096
 ParentObject 55
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint3.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   14
@@ -2736,7 +2736,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   10
@@ -2765,8 +2765,8 @@ LockedChannels 48
 ParentObject 55
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint3.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   13
@@ -2846,7 +2846,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   13
@@ -2881,7 +2881,7 @@ ParentObject 55
 ShadowOptions 7
 
 AddNullObject Position_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -2895,7 +2895,7 @@ ParentObject 73
 ShadowOptions 7
 
 AddNullObject Parent_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -2908,8 +2908,8 @@ LockedChannels 320
 ParentObject 55
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint1.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   12
@@ -2973,8 +2973,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint2.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -3044,8 +3044,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint3.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   13
@@ -3124,8 +3124,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint4.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint4.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -3193,8 +3193,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint5.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint5.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   13
@@ -3220,7 +3220,7 @@ ObjectMotion (unnamed)
   142 0 0 0 0
   -8.000001 116.8 0.9000006 -720.0001 0 0 1 1 1
   143 0 0 0 0
-  -8.200002 116.8 0.3999999 -720 0 0 1 1 1
+  -8.200002 116.8 0.3999999 -719.9999 0 0 1 1 1
   144 0 0 0 0
   -8.3 30.90002 0.1000016 -860 0 0 1 1 1
   175 0 0 0 0
@@ -3266,8 +3266,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint6.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint6.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   13
@@ -3337,8 +3337,8 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint7.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint7.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   13
@@ -3364,7 +3364,7 @@ ObjectMotion (unnamed)
   142 0 0 0 0
   1.199999 116.8 6.400001 -720.0001 0 0 1 1 1
   143 0 0 0 0
-  1.199999 116.8 6.400001 -720 0 0 1 1 1
+  1.199999 116.8 6.400001 -719.9999 0 0 1 1 1
   144 0 0 0 0
   1.199999 30.90002 9.7 -860 0 0 1 1 1
   175 0 0 0 0
@@ -3411,7 +3411,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject Deposit_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -3421,8 +3421,8 @@ EndBehavior 1
 ParentObject 73
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint2.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -3487,7 +3487,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   10
@@ -3516,8 +3516,8 @@ LockedChannels 48
 ParentObject 73
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint1.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -3594,7 +3594,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -3604,13 +3604,13 @@ ObjectMotion (unnamed)
   67 0 0 0 0
   0 0 0 0 0 0 1 1 1
   68 0 0 0 0
-  0 0 0 97.19999 0 0 1 1 1
+  0 0 0 97.19998 0 0 1 1 1
   69 0 0 0 0
-  0 0 0 97.19999 0 0 1 1 1
+  0 0 0 97.19998 0 0 1 1 1
   70 0 0 0 0
-  0 0 0 97.19999 0 0 1 1 1
+  0 0 0 97.19998 0 0 1 1 1
   133 0 0 0 0
-  0 0 0 97.19999 0 0 1 1 1
+  0 0 0 97.19998 0 0 1 1 1
   134 0 0 0 0
   16.43299 0 22.2094 -38.1 0 0 1 1 1
   135 0 0 0 0
@@ -3625,8 +3625,8 @@ LockedChannels 2096
 ParentObject 73
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint3.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   14
@@ -3708,7 +3708,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   10
@@ -3737,8 +3737,8 @@ LockedChannels 48
 ParentObject 73
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\Glint3.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   13
@@ -3818,7 +3818,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   13
@@ -3853,7 +3853,7 @@ ParentObject 73
 ShadowOptions 7
 
 AddNullObject SFX,SND_PlazLarg,1
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -3863,7 +3863,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject SFX,SND_BTHUD,80,121
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -3873,7 +3873,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AmbientColor 255 255 255
-AmbIntensity 0.250000
+AmbIntensity 0.25
 
 AddLight
 LightName Light
@@ -3885,9 +3885,10 @@ LightMotion (unnamed)
   0 0 0 0 0
 EndBehavior 1
 LightColor 255 255 255
-LgtIntensity 1.000000
+LgtIntensity 1
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 ShowCamera 1 7
 CameraMotion (unnamed)
@@ -3903,16 +3904,17 @@ EndBehavior 1
 LockedChannels 32
 ZoomFactor 4.084001
 Resolution 0
-CustomSize 320 240
-PixelAspectRatio 2
-SegmentMemory 2200000
+CustomSize 160 120
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+SegmentMemory 32000000
+ApertureHeight 0.015
 Antialiasing 0
 AdaptiveSampling 1
 AdaptiveThreshold 16
-FilmSize 2
-FieldRendering 0
-MotionBlur 0
-DepthOfField 0
 
 SolidBackdrop 1
 BackdropColor 51 23 19
@@ -3926,23 +3928,26 @@ AnimatedDither 0
 
 RenderMode 2
 RayTraceEffects 0
+RayRecursionLimit 16
+RayTraceOptimization 1
 DataOverlayLabel  
 SaveAnimationName D:\Anim\CR_Tele.avi
-AnimationType 0
 OutputFilenameFormat 1
+SaveRGB 0
 SaveRGBImagesPrefix \\Simon\D\OUTPUT\dust\D2-test
 RGBImageFormat 2
-FullSceneParamEval 0
+SaveAlpha 0
 
-ViewMode 3
-ViewAimpoint 0.000000 0.000000 0.000000
-ViewDirection -1.820427 -0.137875 -0.003491
-ViewZoomFactor 5.620970
+ViewType 1
+ViewAimpoint 3.8 0 13.8
+ViewZoomFactor 6.066311
+
 GridNumber 10
-GridSize 20.000000
+GridSize 20
+CameraViewBG 0
 ShowMotionPath 1
-ShowBGImage 0
 ShowFogRadius 1
-ShowRedraw 0
+ShowFogEffect 0
 ShowSafeAreas 0
 ShowFieldChart 0
+OverlayColor_fv 0 0 0

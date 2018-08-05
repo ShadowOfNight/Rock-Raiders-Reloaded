@@ -1280,7 +1280,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick2x3DkGrey.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1358,7 +1358,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick2x3DkGrey.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1434,7 +1434,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick2x3DkGrey.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1496,7 +1496,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick2x3DkGrey.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1564,7 +1564,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick2x3DkGrey.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9

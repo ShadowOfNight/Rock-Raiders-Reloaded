@@ -1,36 +1,38 @@
 LWSC
 1
 
+RenderRangeType 0
 FirstFrame 1
 LastFrame 10
 FrameStep 1
+RenderRangeArbitrary 1-10
 PreviewFirstFrame 0
 PreviewLastFrame 10
 PreviewFrameStep 1
-FramesPerSecond 30.000000
+FramesPerSecond 30
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Buildings\Crystal-Ref\Base.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Shared\BaseLarge.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  0 4.35 0 -90.00002 0 0 1 1 1
+  0 4.46 20 0 0 0 1 1 1
   0 0 0 0 0
-  0 4.35 0 -90.00002 0 0 1 1 1
+  0 4.46 20 0 0 0 1 1 1
   10 0 0 0 0
 EndBehavior 1
 LockedChannels 53
 ParentObject 3
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Rear2.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Rear2.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  3.866365 -7 0 0 0 0 1 1 1
+  -0.1265606 -7 -15.5007 -89.99999 0 0 1 1 1
   0 0 0 0 0
-  3.866365 -7 0 0 0 0 1 1 1
+  -0.1265606 -7 -15.5007 -89.99999 0 0 1 1 1
   10 0 0 0 0
 EndBehavior 1
 LockedChannels 6
@@ -38,7 +40,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject ParentNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -49,22 +51,22 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Crystal-Ref\Front.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Front.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  3.200001 -6 0 0 0 0 1 1 1
+  0.4302095 -6 -16.4877 -89.99999 0 0 1 1 1
   0 0 0 0 0
-  3.200001 -6 0 0 0 0 1 1 1
+  0.4302095 -6 -16.4877 -89.99999 0 0 1 1 1
   10 0 0 0 0
 EndBehavior 1
 LockedChannels 6
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Seat.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Seat.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -77,8 +79,8 @@ LockedChannels 3
 ParentObject 4
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Bucket.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Bucket.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -91,8 +93,8 @@ LockedChannels 30
 ParentObject 5
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Strut01.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Strut01.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -105,8 +107,8 @@ LockedChannels 51
 ParentObject 4
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Strut02.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Strut02.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -119,8 +121,8 @@ LockedChannels 54
 ParentObject 4
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\Strut03.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Strut03.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -133,8 +135,8 @@ LockedChannels 51
 ParentObject 4
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Crystal-Ref\Light01.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Light01.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -147,8 +149,8 @@ LockedChannels 53
 ParentObject 2
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Crystal-Ref\Light02.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\Light02.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -161,8 +163,8 @@ LockedChannels 51
 ParentObject 2
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\YellowPipe01.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\YellowPipe01.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -175,8 +177,8 @@ LockedChannels 53
 ParentObject 2
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\Lowpoly\Buildings\Crystal-Ref\YellowPipe02.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\OreRefinery\YellowPipe02.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -190,7 +192,7 @@ ParentObject 2
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -204,7 +206,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -218,7 +220,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -232,7 +234,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -246,7 +248,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject Crystals_PARENTNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -260,7 +262,7 @@ ParentObject 5
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -274,7 +276,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject CrystalNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -288,13 +290,13 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject Deposit_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -5.129089 0 61.34009 0 0 0 1 1 1
+  -2.0461 0 61.34009 0 0 0 1 1 1
   0 0 0 0 0
-  -5.129089 0 61.34009 0 0 0 1 1 1
+  -2.0461 0 61.34009 0 0 0 1 1 1
   10 0 0 0 0
 EndBehavior 1
 LockedChannels 3
@@ -302,7 +304,7 @@ ParentObject 3
 ShadowOptions 7
 
 AmbientColor 255 255 255
-AmbIntensity 0.200000
+AmbIntensity 0.2
 
 AddLight
 LightName Light
@@ -315,11 +317,14 @@ LightMotion (unnamed)
   38.39843 37 -66.98692 45 35 0 1 1 1
   10 0 0 0 0
 EndBehavior 1
+HController 1
+PController 1
 TargetObject 3
 LightColor 255 255 255
-LgtIntensity 1.000000
+LgtIntensity 1
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 AddLight
 LightName Light
@@ -332,11 +337,14 @@ LightMotion (unnamed)
   -55.32762 23.59999 72.97393 45 35 0 1 1 1
   10 0 0 0 0
 EndBehavior 1
+HController 1
+PController 1
 TargetObject 3
 LightColor 255 255 255
-LgtIntensity 1.000000
+LgtIntensity 1
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 ShowCamera 1 7
 CameraMotion (unnamed)
@@ -347,18 +355,22 @@ CameraMotion (unnamed)
   84.05732 47.85001 -55.45388 0 0 0 1 1 1
   10 0 0 0 0
 EndBehavior 1
+HController 1
+PController 1
 TargetObject 3
-ZoomFactor 3.200000
+ZoomFactor 3.2
 Resolution 1
-PixelAspectRatio 2
-SegmentMemory 2200000
+CustomSize 640 480
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+SegmentMemory 32000000
+ApertureHeight 0.015
 Antialiasing 0
 AdaptiveSampling 1
 AdaptiveThreshold 16
-FilmSize 2
-FieldRendering 0
-MotionBlur 0
-DepthOfField 0
 
 SolidBackdrop 1
 BackdropColor 0 0 0
@@ -372,19 +384,23 @@ AnimatedDither 0
 
 RenderMode 2
 RayTraceEffects 0
-ClipRayColors 0
+RayRecursionLimit 16
+RayTraceOptimization 1
 DataOverlayLabel  
-FullSceneParamEval 0
+SaveRGB 0
+SaveAlpha 0
 
-ViewMode 2
-ViewAimpoint 9.706728 2.800000 26.600262
-ViewDirection -180.724869 -0.661479 0.000000
-ViewZoomFactor 7.868409
+ViewType 7
+ViewAimpoint 9.006726 2.8 13.70026
+ViewDirection 0.3001966 -0.3141592 0
+ViewZoomFactor 6.303146
+
 GridNumber 50
-GridSize 20.000000
+GridSize 20
+CameraViewBG 0
 ShowMotionPath 1
-ShowBGImage 0
 ShowFogRadius 0
-ShowRedraw 0
+ShowFogEffect 0
 ShowSafeAreas 0
 ShowFieldChart 0
+OverlayColor_fv 0 0 0

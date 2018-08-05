@@ -100,6 +100,12 @@ Yourself:
 
 Changelog
 --------------
+v0.14.010
+- Fixed Ore Refinery animations to use shared base model; adusted deposit null position slightly.
+- Added smoke/steam effect models for Ore Refinery and Upgrade Station (removes dependency on shared model).
+- Implemented Jessietail's 2x3 brick into building explosion animations.
+- Replaced letter Z model in Shared with my own.
+
 v0.14.009
 - Re-skinned minifigure teleport in and building/minifigure/vehicle teleport out beam textures.
 - Fixed an issue in Tool Store explosion animation.

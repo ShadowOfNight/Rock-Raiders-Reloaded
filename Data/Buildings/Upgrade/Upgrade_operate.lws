@@ -1399,7 +1399,7 @@ EndBehavior 1
 LockedChannels 48
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Upgrade_smoke.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
