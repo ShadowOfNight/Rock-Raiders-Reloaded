@@ -1,0 +1,648 @@
+LWSC
+1
+
+FirstFrame 1
+LastFrame 8
+FrameStep 1
+PreviewFirstFrame 1
+PreviewLastFrame 8
+PreviewFrameStep 1
+FramesPerSecond 25.000000
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPtorso.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 -1.05656 -8.9 1.440292 1 1 1
+  0 0 0 0 0
+  0 0 0 -1.05656 -8.9 1.440292 1 1 1
+  1 0 0 0 0
+  0 0 0 -2.15656 -16.3 1.440292 1 1 1
+  2 0 0 0 0
+  0 0 0 -1.05656 -8.9 1.440292 1 1 1
+  3 0 0 0 0
+  0 0 0 -2.15656 -16.3 1.440292 1 1 1
+  4 0 0 0 0
+  0 0 0 -1.05656 -8.9 1.440292 1 1 1
+  5 0 0 0 0
+  0 0 0 -2.15656 -16.3 1.440292 1 1 1
+  7 0 0 0 0
+  0 0 0 -1.05656 -8.9 1.440292 1 1 1
+  8 0 0 0 0
+EndBehavior 2
+LockedChannels 5
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPhead.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 1.325 0 -2.013013 5.400001 -1.483223 1.15 1.15 1.15
+  0 0 0 0 0
+  0 1.325 0 -2.813013 -1.799999 -1.483223 1.15 1.15 1.15
+  1 0 0 0 0
+  0 1.325 0 -0.9130136 15.2 -1.483223 1.15 1.15 1.15
+  2 0 0 0 0
+  0 1.325 0 -2.813013 -1.799999 -1.483223 1.15 1.15 1.15
+  3 0 0 0 0
+  0 1.325 0 -0.9130136 15.2 -1.483223 1.15 1.15 1.15
+  4 0 0 0 0
+  0 1.325 0 -2.813013 -1.799999 -1.483223 1.15 1.15 1.15
+  5 0 0 0 0
+  0 1.325 0 -0.9130136 15.2 -1.483223 1.15 1.15 1.15
+  7 0 0 0 0
+  0 1.325 0 -2.813013 -1.799999 -1.483223 1.15 1.15 1.15
+  8 0 0 0 0
+EndBehavior 2
+LockedChannels 1
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPthighL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  -0.45 -0.245 0 0 46.98577 0.02248379 1 1 1
+  0 0 0 0 0
+  -0.45 -0.245 0 0 46.98577 0.02248379 1 1 1
+  1 0 0 0 0
+  -0.45 -0.245 0 0 50.28577 0.02248379 1 1 1
+  2 0 0 0 0
+  -0.45 -0.245 0 0 46.98577 0.02248379 1 1 1
+  3 0 0 0 0
+  -0.45 -0.245 0 0 50.28577 0.02248379 1 1 1
+  4 0 0 0 0
+  -0.45 -0.245 0 0 46.98577 0.02248379 1 1 1
+  5 0 0 0 0
+  -0.45 -0.245 0 0 50.28577 0.02248379 1 1 1
+  7 0 0 0 0
+  -0.45 -0.245 0 0 46.98577 0.02248379 1 1 1
+  8 0 0 0 0
+EndBehavior 2
+LockedChannels 14
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPfootL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 -0.82 -0.25 0 -46.85547 0 1 1 1
+  0 0 0 0 0
+  0 -0.82 -0.25 0 -46.85547 0 1 1 1
+  1 0 0 0 0
+  0 -0.82 -0.25 0 -49.25547 0 1 1 1
+  2 0 0 0 0
+  0 -0.82 -0.25 0 -46.85547 0 1 1 1
+  3 0 0 0 0
+  0 -0.82 -0.25 0 -49.25547 0 1 1 1
+  4 0 0 0 0
+  0 -0.82 -0.25 0 -46.85547 0 1 1 1
+  5 0 0 0 0
+  0 -0.82 -0.25 0 -49.25547 0 1 1 1
+  7 0 0 0 0
+  0 -0.82 -0.25 0 -46.85547 0 1 1 1
+  8 0 0 0 0
+EndBehavior 2
+LockedChannels 45
+ParentObject 3
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPthighR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0.45 -0.245 0 0 -8.044706 0.02165771 1 1 1
+  0 0 0 0 0
+  0.45 -0.245 0 0 -8.044706 0.02165771 1 1 1
+  1 0 0 0 0
+  0.45 -0.245 0 0 -8.044706 0.02165771 1 1 1
+  2 0 0 0 0
+  0.45 -0.245 0 0 -8.044706 0.02165771 1 1 1
+  3 0 0 0 0
+  0.45 -0.245 0 0 -8.044706 0.02165771 1 1 1
+  4 0 0 0 0
+  0.45 -0.245 0 0 -8.044706 0.02165771 1 1 1
+  5 0 0 0 0
+  0.45 -0.245 0 0 -8.044706 0.02165771 1 1 1
+  7 0 0 0 0
+  0.45 -0.245 0 0 -8.044706 0.02165771 1 1 1
+  8 0 0 0 0
+EndBehavior 2
+LockedChannels 40
+ParentObject 11
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPfootR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 -0.8200001 -0.25 0 -69.47834 0 1 1 1
+  0 0 0 0 0
+  0 -0.8200001 -0.25 0 -69.47834 0 1 1 1
+  1 0 0 0 0
+  0 -0.8200001 -0.25 0 -73.77833 0 1 1 1
+  2 0 0 0 0
+  0 -0.8200001 -0.25 0 -69.47834 0 1 1 1
+  3 0 0 0 0
+  0 -0.8200001 -0.25 0 -73.77833 0 1 1 1
+  4 0 0 0 0
+  0 -0.8200001 -0.25 0 -69.47834 0 1 1 1
+  5 0 0 0 0
+  0 -0.8200001 -0.25 0 -73.77833 0 1 1 1
+  7 0 0 0 0
+  0 -0.8200001 -0.25 0 -69.47834 0 1 1 1
+  8 0 0 0 0
+EndBehavior 2
+LockedChannels 40
+ParentObject 5
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPbicepL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0.715 0.905 0 41.90933 67.79469 22.7 1 1 1
+  0 0 0 0 0
+EndBehavior 2
+LockedChannels 6
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPhandL.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0.23 -1.015 -0.385 45.75425 -41.24868 22.59027 1 1 1
+  0 0 0 0 0
+EndBehavior 2
+LockedChannels 6
+ParentObject 7
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPbicepR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  -0.715 0.905 0 -38.93299 66.2236 -20.18524 1 1 1
+  0 0 0 0 0
+EndBehavior 2
+ParentObject 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLPhandR.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  -0.2450001 -1.015 -0.3849999 -51.79999 -38.09999 -40.80001 1 1 1
+  0 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 -51.79999 -38.09999 -40.80001 1 1 1
+  1 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 -47.7963 -34.53701 -53.46669 1 1 1
+  2 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 -51.84799 -39.05338 -38.71114 1 1 1
+  3 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 -47.19999 -35.49999 -53.40002 1 1 1
+  4 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 -47.69772 -35.67711 -39.05691 1 1 1
+  5 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 -48.66851 -35.61469 -47.97972 1 1 1
+  6 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 -45.38466 -35.84858 -53.73259 1 1 1
+  7 0 0 0 0
+  -0.2450001 -1.015 -0.3849999 -51.79999 -38.09999 -40.80001 1 1 1
+  8 0 0 0 0
+EndBehavior 2
+LockedChannels 6
+ParentObject 9
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 1.447021 -0.3249637 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1.447021 -0.3249637 0 0 0 1 1 1
+  1 0 0 0 0
+  0 1.395021 -0.2711122 0 0 0 1 1 1
+  2 0 0 0 0
+  0 1.447021 -0.3249637 0 0 0 1 1 1
+  3 0 0 0 0
+  0 1.446021 -0.3249637 0 0 0 1 1 1
+  4 0 0 0 0
+  0 1.420021 -0.3249637 0 0 0 1 1 1
+  5 0 0 0 0
+  0 1.422021 -0.3249637 0 0 0 1 1 1
+  6 0 0 0 0
+  0 1.445021 -0.3213438 0 0 0 1 1 1
+  7 0 0 0 0
+  0 1.422021 -0.3249637 0 0 0 1 1 1
+  8 0 0 0 0
+EndBehavior 2
+LockedChannels 3
+ParentObject 14
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  7
+  0 1.72 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  1 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  3 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  4 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  5 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  7 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  8 0 0 0 0
+EndBehavior 2
+LockedChannels 5
+ParentObject 14
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\VLdrill.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0.05101034 -0.1750001 -0.7833426 0.2999963 -59.79998 84.40002 0.826 0.826 0.826
+  0 0 0 0 0
+EndBehavior 2
+LockedChannels 192
+ParentObject 10
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 180 0 0 3 3 3
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject cam_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0.4749999 -0.15 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 2
+ShadowOptions 7
+
+AddNullObject cam_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 9.125004 2.000002 0 -48.19998 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 41
+ParentObject 14
+ShadowOptions 7
+
+AddNullObject drilltip_null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 2.274999 -0.6749941 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 14
+ShadowOptions 7
+
+AddNullObject Rock_Null
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Rock2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 6.299999 12.225 0 0 0 0.23 0.23 0.23
+  0 0 0 0 0
+  -0.04999989 7.674999 9.150002 180 0 -341.7 0.5200001 0.5200001 0.5200001
+  4 0 0 0 0
+  -0.04902329 7.268554 8.152149 225 0 -417.3141 0.4469532 0.4469532 0.4469532
+  5 0 0 0 0
+  -0.03339821 8.919133 5.924023 314.9999 0 -558.5891 0.1532031 0.1532031 0.1532031
+  7 0 0 0 0
+  -0.02499974 8.574999 4.799999 359.9999 0 -628.7999 -1.303852e-008 -1.303852e-008 -1.303852e-008
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 21
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Rock1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 6.400001 12.25 0 0 0 0.1439999 0.1439999 0.1439999
+  0 0 0 0 0
+  0.4328125 8.911134 9.808981 0 -44.99999 0 0.1919062 0.1919062 0.1919062
+  1 0 0 0 0
+  1.825 7.575 3.674997 0 -180 0 0.294 0.294 0.294
+  4 0 0 0 0
+  3.185603 6.495187 4.848017 0 -270.0001 0 0.1700424 0.1700424 0.1700424
+  6 0 0 0 0
+  4.65 3.899999 6.324997 0 -360.0002 0 0 0 0
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 41
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Rock2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 6.299999 12.225 0 0 0 0.23 0.23 0.23
+  0 0 0 0 0
+  -3.9 12.4 3.450001 180 0 0 0.4279999 0.4279999 0.4279999
+  4 0 0 0 0
+  -5.825 5.649999 -6.600001 359.9999 0 0 -1.303852e-008 -1.303852e-008 -1.303852e-008
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 54
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Rock1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 6.400001 12.25 0 0 0 0.1439999 0.1439999 0.1439999
+  0 0 0 0 0
+  -2.35 9.525002 9.799994 0 -180 0 1 1 1
+  4 0 0 0 0
+  -5.325001 4.624998 6.049997 0 -360.0002 0 0 0 0
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 41
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Rock2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 6.299999 12.225 0 0 0 0.23 0.23 0.23
+  0 0 0 0 0
+  2.075 10.4 9.150002 180 0 0 1 1 1
+  4 0 0 0 0
+  3.85 4.874999 4.799999 359.9999 0 0 -1.303852e-008 -1.303852e-008 -1.303852e-008
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 54
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Rock2.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 6.299999 12.225 0 0 0 0.23 0.23 0.23
+  0 0 0 0 0
+  2.075 12.4 3.450001 180 0 0 0.4279999 0.4279999 0.4279999
+  4 0 0 0 0
+  3.85 5.649999 -6.600001 359.9999 0 0 -1.303852e-008 -1.303852e-008 -1.303852e-008
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ShadowOptions 7
+
+LoadObject \\Mother\lego\Meshes\PC_Meshes\INgame-Minifigs\Pilot\Rock1.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 6.400001 12.25 0 0 0 0.1439999 0.1439999 0.1439999
+  0 0 0 0 0
+  1.825 4.900002 7.849997 0 -180 0 1 1 1
+  4 0 0 0 0
+  4.65 1.174998 3.499998 0 -360.0002 0 0 0 0
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 43
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RockdustX.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 6.35 11.7 0 -55.2 0 0.4039999 0.4039999 0.4039999
+  0 0 0 0 0
+  0 14.425 11.7 0 -55.2 0 0.4039999 0.4039999 0.4039999
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ObjDissolve (envelope)
+  1
+  3
+  1
+  0 0 0 0 0
+  0
+  4 0 0 0 0
+  1
+  8 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RockdustX.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 6.35 11.7 0 -55.2 0 0.2 0.2 0.2
+  0 0 0 0 0
+  -4.7 12.575 11.7 0 -55.2 0 0.2 0.2 0.2
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 44
+ObjDissolve (envelope)
+  1
+  3
+  1
+  0 0 0 0 0
+  0
+  4 0 0 0 0
+  1
+  8 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\RockdustX.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 6.35 11.7 0 -55.2 0 0.15 0.15 0.15
+  0 0 0 0 0
+  5.45 12.2 9.848541 0 -55.2 0 0.14 0.14 0.14
+  8 0 0 0 0
+EndBehavior 1
+LockedChannels 43
+ObjDissolve (envelope)
+  1
+  3
+  1
+  0 0 0 0 0
+  0
+  4 0 0 0 0
+  1
+  8 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject Z:\Lego\Data\Shared\Dust.lwo
+ShowObject 8 7
+ObjectMotion (unnamed)
+  9
+  1
+  0.2547819 0.4250006 3.010945 0 -48.40001 0 0.4519999 0.4519999 0.4519999
+  0 0 0 0 0
+EndBehavior 1
+LockedChannels 42
+ObjDissolve (envelope)
+  1
+  2
+  0.25
+  0 0 0 0 0
+  0.25
+  8 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.250000
+
+AddLight
+LightName Light
+ShowLight 0 7
+LightMotion (unnamed)
+  9
+  8
+  -2 2 -2 45 35 0 1 1 1
+  0 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  1 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  2 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  3 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  4 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  5 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  7 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  8 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1.000000
+LightType 0
+ShadowType 1
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  7
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  0 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  1 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  2 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  3 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  4 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  5 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  7 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+TargetObject 12
+ZoomFactor 3.200000
+Resolution 0
+CustomSize 200 200
+PixelAspectRatio 2
+SegmentMemory 2200000
+Antialiasing 1
+AdaptiveSampling 1
+AdaptiveThreshold 16
+FilmSize 2
+FieldRendering 0
+MotionBlur 2
+BlurLength 0.500000
+DepthOfField 0
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 3
+RayRecursionLimit 16
+DataOverlayLabel  
+SaveAnimationName \\Rob_plugin_man\d\Output\Lego\FASTDRILL.AVI
+AnimationType 0
+OutputFilenameFormat 1
+SaveRGBImagesPrefix D:\OUTPUT\lego\Lowpoly\LGman
+RGBImageFormat 24
+FullSceneParamEval 0
+
+ViewMode 3
+ViewAimpoint 0.081061 5.425002 1.018561
+ViewDirection -13.950416 -0.185005 0.000000
+ViewZoomFactor 3.367325
+GridNumber 10
+GridSize 5.000000
+ShowMotionPath 1
+ShowBGImage 0
+ShowFogRadius 0
+ShowRedraw 0
+ShowSafeAreas 0
+ShowFieldChart 0

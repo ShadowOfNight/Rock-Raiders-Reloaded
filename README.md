@@ -100,6 +100,16 @@ Yourself:
 
 Changelog
 --------------
+v0.15.000
+- Changed crystal colour to a cyan-blue shade and drained crystal colour to a shade of purple.
+- Overhauled interface elements to update crystal colouring.
+- Re-skinned building and vehicle teleport in beam textures.
+- Removed apparently unused Capt.bmp and its corresponding cfg line in Reward {}.
+- Replaced Raider face with generic version.
+- Adjusted Pface.bmp in Shared to remove glare.
+- Reorganized new Shared folder into Models and Textures.
+- Added Engineer (real Sparks) to Mini-Figures. All cfg entries are duplicates of the Pilot's currently.
+
 v0.14.010
 - Fixed Ore Refinery animations to use shared base model; adusted deposit null position slightly.
 - Added smoke/steam effect models for Ore Refinery and Upgrade Station (removes dependency on shared model).

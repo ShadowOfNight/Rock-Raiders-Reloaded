@@ -1,0 +1,408 @@
+LWSC
+1
+
+RenderRangeType 0
+FirstFrame 0
+LastFrame 35
+FrameStep 1
+RenderRangeArbitrary 0-35
+PreviewFirstFrame 0
+PreviewLastFrame 35
+PreviewFrameStep 1
+FramesPerSecond 25
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPtorso.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 0 0 6.5434 -1.8 1.4403 1 1 1
+  0 0 0 0 0
+  0 0 0 3.731698 18.67809 34.60389 1 1 1
+  5 0 0 0 0
+  0 0 0 7.5013 22.0326 40 1 1 1
+  7 0 0 0 0
+  0 0 0 7.5013 22.0326 -20 1 1 1
+  15 0 0 0 0
+  0 0 0 6.776199 18.0005 10 1 1 1
+  22 0 0 0 0
+  0 0 0 6.5434 -1.8 1.4403 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 21
+ParentObject 7
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPhead.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 1.325 0 -8.613 -6.6 -1.4832 1.15 1.15 1.15
+  0 0 0 0 0
+  0 1.325 0 -8.613 -6.6 30 1.15 1.15 1.15
+  7 0 0 0 0
+  0 1.325 0 -4.612999 -31.59999 -4.8 1.15 1.15 1.15
+  15 0 0 0 0
+  0 1.325 0 3.587001 5.5 10 1.15 1.15 1.15
+  22 0 0 0 0
+  0 1.325 0 -8.613 -6.6 -1.4832 1.15 1.15 1.15
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 1
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPthighL.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  5
+  -0.45 -0.245 0 0 91.0942 0.09619999 1 1 1
+  0 0 0 0 0
+  -0.45 -0.245 0 0 100.6942 0.09619999 1 1 1
+  7 0 0 0 0
+  -0.45 -0.245 0 0 92.79418 0.09619999 1 1 1
+  15 0 0 0 0
+  -0.45 -0.245 0 0 91.97112 0.09619999 1 1 1
+  22 0 0 0 0
+  -0.45 -0.245 0 0 91.0942 0.09619999 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 46
+ParentObject 7
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPfootL.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  5
+  0 -0.82 -0.25 0 1.5376 0 1 1 1
+  0 0 0 0 0
+  0 -0.82 -0.25 0 -43.96239 0 1 1 1
+  7 0 0 0 0
+  0 -0.82 -0.25 0 -41.10559 0 1 1 1
+  15 0 0 0 0
+  0 -0.82 -0.25 0 -33.29482 0 1 1 1
+  22 0 0 0 0
+  0 -0.82 -0.25 0 1.5376 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 45
+ParentObject 3
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPthighR.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  6
+  0.45 -0.245 0 0 94.03819 0.09619999 1 1 1
+  0 0 0 0 0
+  0.45 -0.245 0 0 115.7382 0.09619999 1 1 1
+  7 0 0 0 0
+  0.45 -0.245 0 0 101.8806 0.09619999 1 1 1
+  15 0 0 0 0
+  0.45 -0.245 0 0 93.63821 0.09619999 1 1 1
+  20 0 0 0 0
+  0.45 -0.245 0 0 93.22791 0.09619999 1 1 1
+  22 0 0 0 0
+  0.45 -0.245 0 0 94.03819 0.09619999 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 7
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPfootR.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 -0.8200001 -0.25 0 -3.2086 0 1 1 1
+  0 0 0 0 0
+  0 -0.8200001 -0.25 0 -56.2086 0 1 1 1
+  7 0 0 0 0
+  0 -0.8200001 -0.25 0 -26.80047 0 1 1 1
+  15 0 0 0 0
+  0 -0.8200001 -0.25 0 -8.708598 0 1 1 1
+  20 0 0 0 0
+  0 -0.8200001 -0.25 0 -7.808025 0 1 1 1
+  22 0 0 0 0
+  0 -0.8200001 -0.25 0 -3.2086 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 5
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 9 1
+ObjectMotion (unnamed)
+  9
+  7
+  0 1.889971 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1.889971 0 0 0 0 1 1 1
+  1 0 0 0 0
+  0 1.889971 0 0 0 0 1 1 1
+  14 0 0 0 0
+  -0.0009528145 1.889971 -0.0009528145 -0.01429222 -0.09528145 0.02858444 1 1 1
+  15 0 0 0 0
+  -0.01377901 1.889971 -0.01377901 -0.2066852 -1.377901 0.4133704 1 1 1
+  22 0 0 0 0
+  -0.02 1.889971 -0.02 -0.3 -2 0.6 1 1 1
+  27 0 0 0 0
+  0 1.889971 0 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 8
+ShadowOptions 7
+
+AddNullObject MAN NULL
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 -0.899999 -1.300001 180 0 0 3 3 3
+  0 0 0 0 0
+  0 -0.899999 -1.300001 180 0 0 3 3 3
+  15 0 0 0 0
+  0 -0.899999 -1.300001 180 0 0 3 3 3
+  22 0 0 0 0
+  0 -0.899999 -1.300001 180 0 0 3 3 3
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 14
+ShadowOptions 7
+
+AddNullObject MAIN NULL
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  4
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  15 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  22 0 0 0 0
+  0 0 0 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPbicepL.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  6
+  0.715 0.905 0 -4.9 56.10001 -3.700001 1 1 1
+  0 0 0 0 0
+  0.715 0.905 0 -4.9 -24.51249 54.07499 1 1 1
+  5 0 0 0 0
+  0.715 0.905 0 -4.9 3.436046 36.72073 1 1 1
+  12 0 0 0 0
+  0.715 0.905 0 -4.9 19.68685 54.69639 1 1 1
+  15 0 0 0 0
+  0.715 0.905 0 -4.9 38.84742 -1.099487 1 1 1
+  23 0 0 0 0
+  0.715 0.905 0 -4.9 56.10001 -3.700001 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 14
+ParentObject 1
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPbicepR.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  5
+  -0.715 0.905 0 -4.99 -4.26 -16.2 1 1 1
+  0 0 0 0 0
+  -0.715 0.905 0 0.5100004 26.04 -78.3 1 1 1
+  5 0 0 0 0
+  -0.715 0.905 0 0.3193622 12.3026 -17.91487 1 1 1
+  15 0 0 0 0
+  -0.715 0.905 0 -0.7769743 10.25044 -44.50543 1 1 1
+  20 0 0 0 0
+  -0.715 0.905 0 -4.99 -4.26 -16.2 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 522
+ParentObject 1
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPhandR.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  6
+  -0.2932557 -1.00393 -0.4617175 -1.274727e-007 20.9 -9.276679e-007 1 0.9999999 0.9999999
+  0 0 0 0 0
+  -0.2932557 -1.00393 -0.4617175 0 0 0 1 1 1
+  5 0 0 0 0
+  -0.2932557 -1.00393 -0.4617175 0 0 0 1 1 1
+  15 0 0 0 0
+  -0.2932557 -1.00393 -0.4617175 0 0 0 1 1 1
+  20 0 0 0 0
+  -0.2932557 -1.00393 -0.4617175 0 0 0 1 1 1
+  23 0 0 0 0
+  -0.2932557 -1.00393 -0.4617175 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+PivotPoint -0.01 0 -0.01
+ParentObject 11
+ShadowOptions 7
+
+LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPhandL.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  5
+  0.2791153 -1.004884 -0.4108196 -2.6 5.400006 -7.9 0.9999999 1 1
+  0 0 0 0 0
+  0.2791153 -1.004884 -0.4108196 0 0 0 1 1 1
+  15 0 0 0 0
+  0.2791153 -1.004884 -0.4108196 0 0 0 1 1 1
+  20 0 0 0 0
+  0.2791153 -1.004884 -0.4108196 0 0 0 1 1 1
+  23 0 0 0 0
+  0.2791153 -1.004884 -0.4108196 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LockedChannels 6
+PivotPoint -0.01 0 -0.01
+ParentObject 10
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  15
+  0 4.2 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0.016922 4.2 0.025 0 0 -11.4 1 1 1
+  1 0 0 0 0
+  0.1672578 6.05 0.02536513 0 0 -20 1 1 1
+  6 0 0 0 0
+  -0.108078 6.725 0.025 0 0 -20 1 1 1
+  7 0 0 0 0
+  0.016922 4.2 0.025 0 0 -9.4 1 1 1
+  12 0 0 0 0
+  0.016922 4.4 0.025 0 0 15 1 1 1
+  14 0 0 0 0
+  0.016922 3.85 0.025 0 0 2.4 1 1 1
+  15 0 0 0 0
+  0.016922 4.875 0.025 0 0 -6.2 1 1 1
+  19 0 0 0 0
+  0.016922 4.260703 0.025 0 0 -4.713125 1 1 1
+  22 0 0 0 0
+  0.016922 4.1 0.025 0 0 -2.8 1 1 1
+  23 0 0 0 0
+  0.016922 3.9 0.025 0 0 0.2 1 1 1
+  25 0 0 0 0
+  0.016922 4.5 0.025 0 0 -3.4 1 1 1
+  28 0 0 0 0
+  0.016922 4.025 0.025 0 0 2.8 1 1 1
+  31 0 0 0 0
+  0.016922 4.25 0.025 0 0 0.2 1 1 1
+  33 0 0 0 0
+  0 4.2 0 0 0 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ParentObject 9
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.25
+
+AddLight
+LightName Light
+ShowLight 1 7
+LightMotion (unnamed)
+  9
+  4
+  -2 2 -2 45 35 0 1 1 1
+  0 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  15 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  22 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1
+LightType 0
+ShadowType 1
+ShadowColor 0 0 0
+
+ShowCamera 1 7
+CameraMotion (unnamed)
+  9
+  4
+  -26.94819 29.45084 24.51652 134 32.50001 0 1 1 1
+  0 0 0 0 0
+  -26.94819 29.45084 24.51652 134 32.50001 0 1 1 1
+  15 0 0 0 0
+  -26.94819 29.45084 24.51652 134 32.50001 0 1 1 1
+  22 0 0 0 0
+  -26.94819 29.45084 24.51652 134 32.50001 0 1 1 1
+  35 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.2
+Resolution 0
+CustomSize 320 240
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+SegmentMemory 32000000
+ApertureHeight 0.015
+Antialiasing 0
+AdaptiveSampling 1
+AdaptiveThreshold 16
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 0
+RayRecursionLimit 16
+RayTraceOptimization 1
+DataOverlayLabel  
+SaveAnimationName LT-sidehitR.avi
+AnimationSaver AVI(.avi)
+0
+10000
+0
+EndPlugin
+SaveRGB 0
+SaveAlpha 0
+
+ViewType 7
+ViewAimpoint 0 7.25 -0.3
+ViewDirection -53.99884 -0.5602511 0
+ViewZoomFactor 22.93481
+
+GridNumber 40
+GridSize 10
+CameraViewBG 0
+ShowMotionPath 1
+ShowFogRadius 0
+ShowFogEffect 0
+ShowSafeAreas 0
+ShowFieldChart 0
+OverlayColor_fv 0 0 0

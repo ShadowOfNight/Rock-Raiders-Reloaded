@@ -315,6 +315,52 @@ Buildings\ToolStation\MT_T_Down.lws
 
 MiscObjs\Barrier\Barrier_Carry.lws
 ---------------------------------------------------
+Telepthings.lwo used by:
+
+Buildings\Barracks\BarracksTele.lws
+
+Buildings\BIGTeleport\BT_teleport.lws
+
+Buildings\Docks\dockCreate.lws
+
+Buildings\Geo-Dome\Geo_teleport.lws
+
+Buildings\Gunstation\Gunstation_Tele.lws
+
+Buildings\OreRefinery\CR_Teleport.lws
+
+Buildings\Powerstation\Refcreate.lws
+
+Buildings\Teleports\Teleport_T.lws
+
+Buildings\ToolStation\MT_T_Down.lws
+
+Buildings\Upgrade\Upgrade_Tele.lws
+
+Vehicles\Bulldozer\S_Teleport_Bull.lws
+
+Vehicles\Hoverboard\S_Teleport_Hover.lws
+
+Vehicles\LargeCate\BCteleportin.lws
+
+Vehicles\LargeDigger\S_Teleport_B_DIG.lws
+
+Vehicles\LargeHeli\S_Teleport_HELI.lws
+
+Vehicles\LMLP\S_Teleport_L_MLP.lws
+
+Vehicles\SmallCat\SC_Teleport.lws
+
+Vehicles\SmallDigger\S_Teleport_S_Dig.lws
+
+Vehicles\SmallHeli\S_Teleport_S_Heli.lws
+
+Vehicles\SmallTruck\S_Teleport_Truck.lws
+
+Vehicles\SMLP\S_Teleport_S_MLP.lws
+
+Vehicles\WalkerLegs\S_Teleport_legs.lws
+---------------------------------------------------
 Y_post.lwo used by:
 
 Buildings\ToolStation\MT_T_Down.lws
