@@ -26,12 +26,13 @@ Levels::Level03=1276755
 Levels::Level02=1276335
 Levels::Level01=1278233
 
-Levels::Bonus32=1323449
-Levels::Bonus26=1322130
-Levels::Bonus24=1265301
-Levels::Bonus17=1274618
-Levels::Bonus11=1276755
-Levels::Bonus09=1278233
+Levels::LetsGoSwimming=1323449
+Levels::CrystalCatastrophe=1322130
+Levels::BadConditions=1265301
+Levels::HardLuck=1274618
+Levels::TheRiver=1276755
+Levels::BoltMolt=1278233
+Levels::Lavalanche=1531946
 
 Levels::Tutorial09=1291941
 Levels::Tutorial08=1300720

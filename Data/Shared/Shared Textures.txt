@@ -1,0 +1,66 @@
+SHARED TEXTURE LIST
+====================
+Base.bmp used by:
+
+Shared\BaseLarge.lwo
+       BaseSmall.lwo
+
+----------------------
+BaseY.bmp used by:
+
+Shared\BaseLarge.lwo
+       BaseSmall.lwo
+
+-----------------------------------------
+green0001-18.bmp (sequence) used by:
+
+Shared\Telepthings.lwo
+
+-----------------------------------------
+LightSpangleB.bmp used by:
+
+Shared\LightSpangleB.lwo
+
+------------------------------------------
+LightSpangleG.bmp used by:
+
+Shared\LightSpangleG.lwo
+
+------------------------------------------
+LightSpangleR.bmp used by:
+
+Shared\LightSpangleR.lwo
+
+------------------------------------------
+LightSpangleY.bmp used by:
+
+Shared\LightSpangleY.lwo
+
+------------------------------------------
+Stripes16.bmp used by:
+
+Shared\Stripes.lwo
+
+MiscObjs\Barrier\Stripes_long.lwo
+
+------------------------------------------
+T_Circ.bmp used by:
+
+Shared\Trans_Circ.lwo
+
+------------------------------------------
+T_Snake.bmp used by:
+
+Shared\Trans_Snake.lwo
+
+------------------------------------------
+TelePulse.bmp used by:
+
+Shared\Trans_Disk.lwo
+
+------------------------------------------
+TransSide.bmp used by:
+
+Shared\Trans_Tube.lwo
+
+------------------------------------------

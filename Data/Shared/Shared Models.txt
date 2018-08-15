@@ -361,6 +361,34 @@ Vehicles\SMLP\S_Teleport_S_MLP.lws
 
 Vehicles\WalkerLegs\S_Teleport_legs.lws
 ---------------------------------------------------
+Trans_Circ.lwo used by: 
+
+MiscObjs\MiniTeleportUp\Teleport_Up.lws
+
+Mini-Figures\Pilot\VLP_TeleWALK.lws
+
+---------------------------------------------------
+Trans_Disk.lwo used by: 
+
+MiscObjs\MiniTeleportUp\Teleport_Up.lws
+
+Mini-Figures\Pilot\VLP_TeleWALK.lws
+
+---------------------------------------------------
+Trans_Snake.lwo used by: 
+
+MiscObjs\MiniTeleportUp\Teleport_Up.lws
+
+Mini-Figures\Pilot\VLP_TeleWALK.lws
+
+---------------------------------------------------
+Trans_Tube.lwo used by: 
+
+MiscObjs\MiniTeleportUp\Teleport_Up.lws
+
+Mini-Figures\Pilot\VLP_TeleWALK.lws
+
+---------------------------------------------------
 Y_post.lwo used by:
 
 Buildings\ToolStation\MT_T_Down.lws

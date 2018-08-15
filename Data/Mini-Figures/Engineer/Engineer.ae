@@ -46,7 +46,6 @@ Lego* {
 		Activity_Dynamite				PlaceDynamite
 		Activity_Place					Place
 		!Activity_Deposit				Deposit
-		Activity_TeleportIn				TeleportIn
 		Activity_Repair					Repair
 		Activity_rest					Rest
 		!Activity_routeRubble				Routerubble
@@ -194,13 +193,6 @@ Lego* {
 		FILE		VLPfastdrill
 		TRANSCOEF	0.0
 		LWSFILE	TRUE
-	}
-
-	Teleport {
-		FILE		VLPteleportin2
-		TRANSCOEF	0.0
-		LWSFILE	TRUE
-		LOOPING		FALSE
 	}
 
 	Reinforce {
@@ -414,13 +406,6 @@ Lego* {
 		TRANSCOEF	0.0
 		LWSFILE	TRUE
 		TRIGGER		18
-	}
-
-	TeleportIn {
-		FILE		VLP_TeleWALK
-		TRANSCOEF	0.0
-		LWSFILE		TRUE
-		LOOPING		FALSE
 	}
 
 	Repair {

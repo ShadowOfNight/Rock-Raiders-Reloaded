@@ -25,7 +25,7 @@ LockedChannels 320
 ParentObject 11
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Tube.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Tube.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -95,7 +95,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Tube.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Tube.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -145,7 +145,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Snake.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Snake.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -201,7 +201,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Snake.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Snake.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -252,7 +252,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Circ.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Circ.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -304,7 +304,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Tube.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Tube.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -382,7 +382,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Tube.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Tube.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -444,7 +444,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Tube.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Tube.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -502,7 +502,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Disk.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Disk.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -563,7 +563,7 @@ LockedChannels 3
 ParentObject 27
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPtorso.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPtorso.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -677,7 +677,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPhead.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPhead.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -737,7 +737,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPthighL.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPthighL.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -906,7 +906,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPfootL.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPfootL.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1073,7 +1073,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPthighR.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPthighR.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1172,7 +1172,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPfootR.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPfootR.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1438,7 +1438,7 @@ EndBehavior 1
 ParentObject 19
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPbicepL.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPbicepL.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1504,7 +1504,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPbicepR.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPbicepR.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1570,7 +1570,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPhandR.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPhandR.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1611,7 +1611,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPhandL.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\VLPhandL.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1693,7 +1693,7 @@ EndBehavior 1
 ParentObject 27
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Mini.lwo
+LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Mini-Figures\Pilot\Trans_Mini.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9

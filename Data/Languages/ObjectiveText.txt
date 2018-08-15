@@ -233,37 +233,43 @@ CrystalFailure:		Too many Energy Crystals have been stolen for you to be able to
 These are for the bonus levels
 ##############################################
 
-[Bonus09]
+[Lavalanche]
+Objective:	We are approaching the first big magma chamber below the surface. A lot of energy crystals and ore are waiting for us. We need to take the risk and enter the chamber to collect 170 energy crystals. The scanners show that the cave is unstable, so be prepared for \aa quick evacuation. Be careful, Rock Raider!
+Failure:	You didn't find the 170 energy crystals. Make sure you prepare your HQ for a quick evacuation. Mission failed!
+Completion:	You were able to relocate the Headquarter at record speed and you found all required 170 energy crystals. Good job, Rock Raider. Mission success!
+CrystalFailure:	Stop using debug keys...
+
+[BoltMolt]
 Objective:	Rock Raiders were drilling close to a lava lake when a sudden underground volcanic eruption occured! The lava has risen causing the lake to overflow. We need to evacuate, but first we need to collect at least 12 crystals before we can get out of this area.\aYou will need to hold off the lava for as long as possible. Good luck and be safe Rock Raider!
 Failure:	Oh dear! You did not collect enough crystals in time. Mission Failure!
 Completion:	Wow! That was a close one. You found the crystals and got out of there in time. Mission Success!
 CrystalFailure:	Too many Energy Crystals have been stolen for you to be able to complete this mission.
 
-[Bonus11]
+[TheRiver]
 Objective:	You arrive in a small cave not far from the surface. It is not clear what will happen here. The scanners show large differences in temperature, so be careful of what you do!\aWe need to collect 20 Energy Crystals. If you can do it, you'll get a free drink on the L.M.S. Explorer when you come back. - Enjoy this nice little level, Rock Raiders United User
 Failure:	Well, you weren't able to get all the required Energy Crystals. Try again, I bet you'll do it next time
 Completion:	You managed to find 20 crystals in this easy cave. Thats no hard work but congratulations though! - What do you wish to drink? \aI hope you enjoyed the map. made by alan
 CrystalFailure:	Schade, es wurden zu viele Energiekristalle gestohlen. Wie kannst du eigentlich diesen Text lesen, es gibt keine Monster in dem Level. \aDu hast nur die Textdatei geöffnet!!
 
-[Bonus17]
+[HardLuck]
 Objective:	This is going to be a tricky mission, Rock Raider. Scanners aboard the LMS Explorer have detected Energy Crystals around this cavern, but unfortunately the area isn't particularly level, and surrounded by water!\aEstablish Rock Raider HQ and build a Cargo Carrier. Then, transport a Small Digger across the river and find a location to rebuild the HQ, so that you can finally collect 75 Energy Crystals. Good luck, Rock Raider!
 Failure:	You did not manage to master this mountain of a level. Hard luck, Rock Raider!
 Completion:	Well done, you successfully built Rock Raiders HQ and got your team across the river, collecting all 75 Energy Crystals. Mission complete!
 CrystalFailure:	You weren't able to secure all of the Energy Crystals. Mission failed.
 
-[Bonus24]
+[BadConditions]
 Objective:	Greetings, Rock Raider. Another mission is waiting for you: We have discovered a huge cave near a magma reservoir. But you shouldn't worry about that, our scanners show that there is enough oxygen and that there is not enough lava flowing into the cave to flood it. But there are still some problems here: \aWe need 110 Energy Crystals. To reach all of them you will have to drill through thick layers of cooled lava. It is advisable to use larger vehicles or you might stay down there a long time. Good luck, Rock Raider!
 Failure:	You didn't find the required 110 Energy Crystals; maybe you should use the Chrome Crusher! Mission failed.
 Completion:	Congratulations, Rock Raider! Even though there were a lot of crystals to collect and even more walls to drill, you got them all. Mission success!
 CrystalFailure:	Oh dear! How did you manage to lose so many Energy Crystals? We need those for our spaceship. Don't waste them, Rock Raider! Try again.
 
-[Bonus26]
+[CrystalCatastrophe]
 Objective:	Welcome, Rock Raider! This mission has two objectives, but first, let me explain the situation. A huge deposit of Energy Crystals was recently detected nearby, and a team of Rock Raiders was sent to find it. However, communication was lost and we have no idea what has happened - \atherefore your primary objective is to find the lost team of Rock Raiders, and your secondary objective is to locate the Energy Crystal seams and collect one hundred Energy Crystals! Good luck, Rock Raider.\aOh, before I forget - our scanners have also picked up-*bzzzt*
 Failure:	Oh dear, you failed the mission. Bad luck, cadet.
 Completion:	Congratulations, you found all the Rock Raiders and collected all 100 Energy Crystals, whilst avoiding the Rock Monsters. Mission complete!
 CrystalFailure:	You weren't able to find the Energy Crystal deposits! Mission failed.
 
-[Bonus32]
+[LetsGoSwimming]
 Objective:	Okay, Rock Raider. Ready for a new one? Your Rock Raiders team was mining for Energy Crystals in a cave near a large lake, when a malfunction of the teleporter caused the buildings to teleport out except the Docks. \aYou will need to get the team back to the second HQ further away from the water where a Tool Store is still left. The scanners show that there are many crystals around the water, but where exactly is unknown. However, once you have found the Tool Store, collect 90 Energy Crystals so we can repair\athat teleporter.
 Failure:	You should not be swimming in the water! You were supposed to collect 90 Energy Crystals. Don't follow the level name word by word. Mission failed!
 Completion:	Success! You have collected enough Energy Crystals to repair the teleporter and to provide it with power. Weiter so! (that was German)

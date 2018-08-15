@@ -27,7 +27,9 @@ Credits
 
 alan:
 - Custom map "Bad Conditions."
-- Custom map "Let's go swimming!".
+- Custom map "Lavalanche."
+- Custom map "Let's go swimming!"
+
 
 Axel (aka Eaol):
 - HD Ice, Lava, and Rock biome remakes. 
@@ -100,6 +102,16 @@ Yourself:
 
 Changelog
 --------------
+v0.15.100
+- Added new map Lavalanche to Bonus Missions.
+- Completely overhauled BonusLevels folder and rearranged setup.
+- Updated LoaderProfiles per above edits to the Bonus Missions.
+- Changed tool tip colour to a dark red/maroon shade (probably will change this again).
+- Modified MinDist value from 50.0 to 10.0 for testing purposes.
+- Removed AllowEditMode cfg line as there is no in-game editor.
+- Re-linked and moved teleport beam animation to its own folder in MiscObjs.
+- Removed Engineer teleport-in animation/models/textures.
+
 v0.15.000
 - Changed crystal colour to a cyan-blue shade and drained crystal colour to a shade of purple.
 - Overhauled interface elements to update crystal colouring.

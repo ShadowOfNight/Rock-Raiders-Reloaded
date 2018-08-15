@@ -1,0 +1,52 @@
+TRUE ? SetTutorialFlags 0
+TRUE ? SetMessagePermit 1 
+TRUE ? SetTimer0 0 
+TRUE ? SetR0 0 
+TRUE ? SetR5 0 
+FALSE ? SetR3 0
+
+TRUE ? SetMessageTimerValues 1000 1000 10000 
+
+
+GetR3 = 0 ? :WallCollapseOne
+GetR3 = 1 ? :WallCollapseTwo
+GetR3 = 2 ? :DeleteMsg
+GetR3 = 3 ? :FinishLevel
+
+
+Next:
+TRUE ? AddR3 1
+Clear:
+TRUE ? SetR0 0
+TRUE ? SetTimer0 0
+TRUE ? AddR7 GetR5
+TRUE ? SetR5 0
+Stop
+
+/////////////////////////////////////////////////LEVEL NERP START////////////////////////////////////////////
+
+WallCollapseOne:
+GetTutorialBlockIsGround 1 = 0 ? Stop
+TRUE ? :Next
+
+WallCollapseTwo:
+TRUE ? SetR4 1
+TRUE ? AddR4 GetR5
+TRUE ? SetMessagePermit 0
+TRUE ? SetMessage GetR4 0
+GetR5 = 0 ? SetTutorialBlockIsGround 2
+TRUE ? AddR1 1
+GetR5 = 0 ? SetGameSpeed 0 0
+TRUE ? :Next
+
+DeleteMsg:
+TRUE ? SetR4 1
+TRUE ? AddR4 GetR5
+TRUE ? SetMessagePermit 0
+TRUE ? SetMessage GetR4 0
+GetUnitAtBlock 3 = 0 ? Stop
+TRUE ? :Next
+
+FinishLevel:
+GetCrystalsCurrentlyStored < 170 ? Stop
+TRUE ? SetLevelCompleted
