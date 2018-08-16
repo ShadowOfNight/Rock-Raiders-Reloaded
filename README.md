@@ -102,6 +102,9 @@ Yourself:
 
 Changelog
 --------------
+v0.15.101
+- Fixed a few pixels in CrystalSideBar.bmp that were showing up as transparent.
+
 v0.15.100
 - Added new map Lavalanche to Bonus Missions.
 - Completely overhauled BonusLevels folder and rearranged setup.
