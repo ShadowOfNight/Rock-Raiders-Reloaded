@@ -2,7 +2,7 @@
 
 
 [BonusLevels]
-Lavalanche by alan				[cleared for usage; config done]
+Lavalanche v1.01 by alan			[cleared for usage; config done]
 Bolt Molt! v1.0 by Cyrem 		       	[cleared for usage; config done] 
 The River by alan    			      	[cleared for usage; config done]
 Hard Luck by JimbobJeffers			[emrg map needs to be redone; config done]

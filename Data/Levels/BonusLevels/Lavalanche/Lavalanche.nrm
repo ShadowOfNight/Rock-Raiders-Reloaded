@@ -48,5 +48,5 @@ GetUnitAtBlock 3 = 0 ? Stop
 TRUE ? :Next
 
 FinishLevel:
-GetCrystalsCurrentlyStored < 170 ? Stop
+GetCrystalsCurrentlyStored < 150 ? Stop
 TRUE ? SetLevelCompleted

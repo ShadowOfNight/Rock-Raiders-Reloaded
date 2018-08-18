@@ -102,6 +102,9 @@ Yourself:
 
 Changelog
 --------------
+v0.15.102
+- Updated bonus map Lavalanche with latest release.
+
 v0.15.101
 - Fixed a few pixels in CrystalSideBar.bmp that were showing up as transparent.
 

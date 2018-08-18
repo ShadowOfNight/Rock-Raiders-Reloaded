@@ -234,9 +234,9 @@ These are for the bonus levels
 ##############################################
 
 [Lavalanche]
-Objective:	We are approaching the first big magma chamber below the surface. A lot of energy crystals and ore are waiting for us. We need to take the risk and enter the chamber to collect 170 energy crystals. The scanners show that the cave is unstable, so be prepared for \aa quick evacuation. Be careful, Rock Raider!
-Failure:	You didn't find the 170 energy crystals. Make sure you prepare your HQ for a quick evacuation. Mission failed!
-Completion:	You were able to relocate the Headquarter at record speed and you found all required 170 energy crystals. Good job, Rock Raider. Mission success!
+Objective:	We are approaching the first big magma chamber below the surface. A lot of energy crystals and ore are waiting for us. We need to take the risk and enter the chamber to collect 150 energy crystals.\aThe scanners show that the cave is unstable, so be prepared for a quick evacuation. Be careful, Rock Raider!
+Failure:	You didn't find the 150 energy crystals. Make sure you prepare your HQ for a quick evacuation. Mission failed!
+Completion:	You were able to relocate the Headquarter at record speed and you found all required 150 energy crystals. Good job, Rock Raider. Mission success!
 CrystalFailure:	Stop using debug keys...
 
 [BoltMolt]
