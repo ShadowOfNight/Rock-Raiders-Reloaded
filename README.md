@@ -102,6 +102,11 @@ Yourself:
 
 Changelog
 --------------
+v0.15.103
+- Improved CrystalFound info image a bit (crystal glow was a bit rough).
+- Improved upon Jessietail's high-polygon dynamite model by reducing polygon count a bit.
+- Removed some old light spangle files that had been missed.
+
 v0.15.102
 - Updated bonus map Lavalanche with latest release.
 

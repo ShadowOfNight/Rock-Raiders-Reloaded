@@ -1,3 +1,4 @@
+*.dat
 *.dll
 *.exe
 *.ico
@@ -5,7 +6,6 @@
 *.osf
 *.sav
 
-CLGen.dat
 dgVoodoo.conf
 LegoRR.icd
 desktop.ini
