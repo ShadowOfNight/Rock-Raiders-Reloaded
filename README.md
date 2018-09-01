@@ -30,7 +30,6 @@ alan:
 - Custom map "Lavalanche."
 - Custom map "Let's go swimming!"
 
-
 Axel (aka Eaol):
 - HD Ice, Lava, and Rock biome remakes. 
 - Gold, Ice Rock, Pyrite, and Sand biomes.
@@ -102,6 +101,11 @@ Yourself:
 
 Changelog
 --------------
+v0.15.104
+- Adjusted Dynamite.lwo model measurements very slightly.
+- Updated last batch of interface elements (DrillCrystal.bmp, DrillRecharge.bmp, and PCollectCrystal.bmp) per crystal color change.
+- Changed Dummy.wav sound name to Bodge (updated cfg).
+
 v0.15.103
 - Improved CrystalFound info image a bit (crystal glow was a bit rough).
 - Improved upon Jessietail's high-polygon dynamite model by reducing polygon count a bit.
