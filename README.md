@@ -101,6 +101,9 @@ Yourself:
 
 Changelog
 --------------
+v0.15.105
+- Fixed some interface elements having some pixels show up transparent in-game.
+
 v0.15.104
 - Adjusted Dynamite.lwo model measurements very slightly.
 - Updated last batch of interface elements (DrillCrystal.bmp, DrillRecharge.bmp, and PCollectCrystal.bmp) per crystal color change.
