@@ -101,6 +101,10 @@ Yourself:
 
 Changelog
 --------------
+v0.15.106
+- Replaced minifigure laser gun model with my high-polygon version.
+- Fixed a small issue in the Raider teleport in animation.
+
 v0.15.105
 - Fixed some interface elements having some pixels show up transparent in-game.
 
