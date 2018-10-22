@@ -101,6 +101,11 @@ Yourself:
 
 Changelog
 --------------
+v0.15.107
+- Fixed an issue with controls levers on Upgrade Station not fading out in the explosion animation.
+- Removed some dead code from Main {} in the cfg.
+- Fixed some measurement issues with barrier tiles.
+
 v0.15.106
 - Replaced minifigure laser gun model with my high-polygon version.
 - Fixed a small issue in the Raider teleport in animation.

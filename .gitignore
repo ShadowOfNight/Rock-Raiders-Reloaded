@@ -1,12 +1,12 @@
+*.conf
 *.dat
 *.dll
 *.exe
 *.ico
+*.ini
 *.lnk
 *.osf
 *.sav
 
-dgVoodoo.conf
 LegoRR.icd
-desktop.ini
 BACKUP Lego.cfg
