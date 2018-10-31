@@ -57,12 +57,28 @@ JimbobJeffers:
 - Custom map "Crystal Catastrophe."
 - Custom map "Hard Luck."
 
+Paperpanzer:
+- Cave ambient sounds and minifigure placedown effects.
+
 Yourself:
 - Some sound effects (see Sounds sources below for details).
 
 
 **Sounds Sources**
 - Ambient
+	- drip1.wav - mixed by paperpanzer.
+	- drip2.wav - mixed by paperpanzer.
+	- drip3.wav - mixed by paperpanzer.
+	- drip4.wav - mixed by paperpanzer.
+	- drip5.wav - mixed by paperpanzer.
+	- drip6.wav - mixed by paperpanzer.
+	- iambloop - edited by papaerpanzer
+	- iceamb4.wav - created by paperpanzer
+	- iceamb5.wav - created by paperpanzer
+	- lowamb3.wav - created by paperpanzer
+	- lowamb4.wav - created by paperpanzer
+	- lowamb5.wav - created by paperpanzer
+	- lowamb6.wav - created by paperpanzer
 	- Quake.wav - edited from Avalanche Sound by nps.gov (pd) from soundbible.com. 
 
 - Buildings
@@ -86,6 +102,8 @@ Yourself:
 - Minifigure
 	- Pdrill.wav - edited from original Pdrill.wav sound.
 	- Pdrillfade.wav - edited from original WalkDrillFade.wav. 
+	- placedown2.wav - mixed by paperpanzer.
+	- placedown3.wav - mixed by paperpanzer.
 
 - Scene
 	- call2arms.wav - mixed from alert024.mp3 and alert09.mp3 from trekcore.com.
@@ -101,6 +119,11 @@ Yourself:
 
 Changelog
 --------------
+v0.16.000
+- Replaced cave ambient sounds with paperpanzer's versions.
+- Added new placedown sounds for Raiders.
+- Updated LoaderProfile.txt per above addition.
+
 v0.15.107
 - Fixed an issue with controls levers on Upgrade Station not fading out in the explosion animation.
 - Removed some dead code from Main {} in the cfg.
