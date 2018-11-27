@@ -72,17 +72,21 @@ Yourself:
 	- drip4.wav - mixed by paperpanzer.
 	- drip5.wav - mixed by paperpanzer.
 	- drip6.wav - mixed by paperpanzer.
-	- iambloop - edited by papaerpanzer
-	- iceamb4.wav - created by paperpanzer
-	- iceamb5.wav - created by paperpanzer
-	- lowamb3.wav - created by paperpanzer
-	- lowamb4.wav - created by paperpanzer
-	- lowamb5.wav - created by paperpanzer
-	- lowamb6.wav - created by paperpanzer
+	- iambloop - edited by papaerpanzer.
+	- iceamb4.wav - created by paperpanzer.
+	- iceamb5.wav - created by paperpanzer.
+	- lowamb3.wav - created by paperpanzer.
+	- lowamb4.wav - created by paperpanzer.
+	- lowamb5.wav - created by paperpanzer.
+	- lowamb6.wav - created by paperpanzer.
 	- Quake.wav - edited from Avalanche Sound by nps.gov (pd) from soundbible.com. 
 
 - Buildings
-	- elec1, elec2, elec3, elec4, and elec5.wav - modified by Axel.
+	- elec1.wav - modified by Axel. 
+	- elec2.wav - modified by Axel.
+	- elec3.wav - modified by Axel.
+	- elec4.wav - modified by Axel.
+	- elec5.wav - modified by Axel.
 	- explode1.wav - created by Yourself.
 	- explode2.wav - created by Yourself.
 	- powerhum.wav - modified by Axel.
@@ -119,10 +123,14 @@ Yourself:
 
 Changelog
 --------------
+v0.16.001
+- Fixed minor issues with barrier 1x4 and 1x12 tiles.
+- Changed tool tip colour to dark grey.
+
 v0.16.000
 - Replaced cave ambient sounds with paperpanzer's versions.
 - Added new placedown sounds for Raiders.
-- Updated LoaderProfile.txt per above addition.
+- Updated LoaderProfile.txt per above additions.
 
 v0.15.107
 - Fixed an issue with controls levers on Upgrade Station not fading out in the explosion animation.
