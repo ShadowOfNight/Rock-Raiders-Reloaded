@@ -257,6 +257,12 @@ Failure:	You did not manage to master this mountain of a level. Hard luck, Rock 
 Completion:	Well done, you successfully built Rock Raiders HQ and got your team across the river, collecting all 75 Energy Crystals. Mission complete!
 CrystalFailure:	You weren't able to secure all of the Energy Crystals. Mission failed.
 
+[CunningCanyons]
+Objective:	I hope you like narrow squeezes, Rock Raider. Our geologists have found a complex cave system that is partially flooded. Many rivers are fed by siphons you might need to swim through. The scanners say that the sedimentary deposits contain a lot of resources. \aThe problem is we didn't find a place big enough for your base. You will have to plan your HQ layout thoroughly. Once your base is ready for duty, start discovering the canyons and collect 85 Energy Crystals.
+Failure:	You didn't find the 85 Energy Crystals. Keep your vital buildings close to the power station and place the rest of them further outside. Use the vehicles from our inventory, you might also need to use the Docks. Mission failed!
+Completion:	Despite the little space, you were able to collect 85 Energy Crystals. Well done, Rock Raider. Mission success!
+CrystalFailure:	No, there is no easter egg here...
+
 [BadConditions]
 Objective:	Greetings, Rock Raider. Another mission is waiting for you: We have discovered a huge cave near a magma reservoir. But you shouldn't worry about that, our scanners show that there is enough oxygen and that there is not enough lava flowing into the cave to flood it. But there are still some problems here: \aWe need 110 Energy Crystals. To reach all of them you will have to drill through thick layers of cooled lava. It is advisable to use larger vehicles or you might stay down there a long time. Good luck, Rock Raider!
 Failure:	You didn't find the required 110 Energy Crystals; maybe you should use the Chrome Crusher! Mission failed.

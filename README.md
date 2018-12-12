@@ -123,6 +123,10 @@ Yourself:
 
 Changelog
 --------------
+v0.16.002
+- Added new map Cunning Canyons to Bonus Missions.
+- Restored previously removed DDI AVI and LMI Logo lines to the cfg.
+
 v0.16.001
 - Fixed minor issues with barrier 1x4 and 1x12 tiles.
 - Changed tool tip colour to dark grey.

@@ -29,6 +29,7 @@ Levels::Level01=1278233
 Levels::LetsGoSwimming=1323449
 Levels::CrystalCatastrophe=1322130
 Levels::BadConditions=1265301
+Levels::CunningCanyons=1692430
 Levels::HardLuck=1274618
 Levels::TheRiver=1276755
 Levels::BoltMolt=1278233
