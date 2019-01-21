@@ -27,6 +27,7 @@ Credits
 
 alan:
 - Custom map "Bad Conditions."
+- Custom map "Cunning Canyons."
 - Custom map "Lavalanche."
 - Custom map "Let's go swimming!"
 
@@ -123,6 +124,9 @@ Yourself:
 
 Changelog
 --------------
+v0.16.003
+- Enabled original DDI test levels.
+
 v0.16.002
 - Added new map Cunning Canyons to Bonus Missions.
 - Restored previously removed DDI AVI and LMI Logo lines to the cfg.

@@ -6,10 +6,11 @@ Lavalanche v1.01 by alan			[cleared for usage; config done]
 Bolt Molt! v1.0 by Cyrem 		       	[cleared for usage; config done] 
 The River by alan    			      	[cleared for usage; config done]
 Hard Luck by JimbobJeffers			[emrg map needs to be redone; config done]
+Cunning Canyons by alan				[cleared for usage; config done]
 Bad Conditions v1.05 by alan			[cleared for usage; config done]
 Crystal Catastrophe by JimbobJeffers		[surf?, emrg maps need fixing; config done]
 Let's go swimming! v1.02 by alan		[cleared for usage; config done]
 
 
-Finished maps: Lavalanche, Bolt Molt, The River, Bad Conditions, Let's go swimming = 5
+Finished maps: Lavalanche, Bolt Molt, The River, Cunning Canyons, Bad Conditions, Let's go swimming = 6
 Maps that need editing: Hard Luck, Crystal Catastrophe = 2
