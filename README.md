@@ -44,14 +44,20 @@ Cirevam:
 - Countdown number models.
 
 Cyrem:
+- Cafeteria.
+- Community Edition of Rock Raiders and all of the fixes brought with.
 - Custom map "Bolt Molt!".
+
+frozensnowy
+- For help, suggestions, and keeping me motivated to finish this project.
+- High-resolution electric fence slope texture.
 
 Jessietail: 
 - For advice, help, ideas, and many contributions to this project.
 - High-polygon teal 2x2 brick model.
 - High-polygon 1x1 5-point rock crystal model.
 - High-polygon 2x3 brick model.
-- High-polygon dynamite model and high resolution dynamite brick texture.
+- High-polygon dynamite model and high-resolution dynamite brick texture.
 - Quake.wav
 
 JimbobJeffers:
@@ -124,6 +130,10 @@ Yourself:
 
 Changelog
 --------------
+v0.17.000
+- Replaced electric fence model with high-polygon version.
+- Replaced electric fence slope texture with high-resolution version courtesy @frozensnowy.
+
 v0.16.003
 - Enabled original DDI test levels.
 
