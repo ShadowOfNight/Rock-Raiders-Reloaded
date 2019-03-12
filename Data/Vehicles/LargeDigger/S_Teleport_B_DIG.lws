@@ -819,7 +819,7 @@ EndBehavior 1
 LockedChannels 5
 ShadowOptions 7
 
-LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Vehicles\SharedUG\BrickConeY.lwo
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Vehicles\SharedUG\HeliLight.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
@@ -848,7 +848,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Vehicles\SharedUG\BrickConeY.lwo
+LoadObject \\MOTHER\LEGO\Meshes\PC_Meshes\Vehicles\SharedUG\HeliLight.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9

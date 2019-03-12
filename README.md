@@ -130,6 +130,9 @@ Yourself:
 
 Changelog
 --------------
+v0.17.001
+- Fixed Chrome Crusher teleport animation to use correct headlight model.
+
 v0.17.000
 - Replaced electric fence model with high-polygon version.
 - Replaced electric fence slope texture with high-resolution version courtesy @frozensnowy.
