@@ -1,15 +1,14 @@
-
 Lego* {
 
-	Scale				1.0
-	WheelMesh			NULL_object
-	WheelNullName		tyre_null
-	CameraNullName		CAMERA_NULL
+	Scale					1.0
+	WheelMesh				NULL_object
+	WheelNullName			tyre_null
+	CameraNullName			CAMERA_NULL
 	CameraNullFrames		2
-;	DrillNullName		Drill_U_Null
-	Depositnullname		Deposit_null
-	CarryNullName		Carry_Null
-	CarryNullFrames		1
+;	DrillNullName			Drill_U_Null
+	Depositnullname			Deposit_null
+	CarryNullName			Carry_Null
+	CarryNullFrames			1
 
 	mediumpoly  {
 			LP-BCramp				VLBC_ramp
@@ -25,8 +24,8 @@ Lego* {
 	 	
 		Level0000 {			
 			LP_BC_SPEED_NORMAL		BC_SPEEDS_NULL,1
-			ROTORS				BC_BLADES_LNULL,1
-			ROTORS				BC_BLADES_RNULL,1
+			ROTORS					BC_BLADES_LNULL,1
+			ROTORS					BC_BLADES_RNULL,1
 			Wake					Wake_null,1
 			Wake					Wake_null,2
 			Wake					Wake_null,3
@@ -38,12 +37,16 @@ Lego* {
 
 	Activities {
 		
-		Activity_Stand					Stand
-		Activity_Route					Route
-		Activity_Opening					RampDown
-		Activity_Closing					RampUp
-		Activity_Open						Boarding
-		Activity_TeleportIn					TeleportIn
+		Activity_Stand				Stand
+		Activity_Route				Route
+		Activity_Opening			RampDown
+		Activity_Closing			RampUp
+		Activity_Open				Boarding
+		Activity_TeleportIn			TeleportIn
+		!Activity_HitLeft			HitLeft
+		!Activity_HitRight			HitRight
+		!Activity_HitFront			HitFront
+		!Activity_HitBack			HitBack			
 	}
 
 	TeleportIn {
@@ -55,87 +58,87 @@ Lego* {
 	Stand {
 		FILE		BCrunning
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 
 	Route {
 		FILE		BCsail
 ;		TRANSCOEF	0.35
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 
 	HitLeft {
 		FILE		BChit_left
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	HitRight {
 		FILE		BChit_right
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	HitFront {
 		FILE		BChit_front
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	HitBack {
 		FILE		BChit_back
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	
 ;	TurnLeft {
 ;		FILE		BCturningL
 ;		TRANSCOEF	0.0
-;		LWSFILE	TRUE
+;		LWSFILE		TRUE
 ;	}	
 
 ;	TurnRight {
 ;		FILE		BCturningR
 ;		TRANSCOEF	0.0
-;		LWSFILE	TRUE
+;		LWSFILE		TRUE
 ;	}	
 	
 	Reverse {
 		FILE		BCreversing
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	StartUp {
 		FILE		BCaccel
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	ShutDown {
 		FILE		BCbrake
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	Tickover {
 		FILE		BCfloat
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	TurnLeftIN {
 		FILE		BCintoturnL
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}	
 	TurnRightIN {
 		FILE		BCintoturnR
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	TurnLeftOUT {
 		FILE		BCoutofturnL
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}	
 	TurnRightOUT {
 		FILE		BCoutofturnR
 		TRANSCOEF	0.0
-		LWSFILE	TRUE
+		LWSFILE		TRUE
 	}
 	RampDown {
 		FILE		BC_RampDown

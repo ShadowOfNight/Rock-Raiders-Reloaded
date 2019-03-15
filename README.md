@@ -130,6 +130,9 @@ Yourself:
 
 Changelog
 --------------
+v0.17.002
+- Enabled the unused Cargo Carrier activities/animations HitLeft, HitRight, HitFront, and HitBack.
+
 v0.17.001
 - Fixed Chrome Crusher teleport animation to use correct headlight model.
 
