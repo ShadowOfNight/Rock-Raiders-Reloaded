@@ -45,7 +45,8 @@ Cirevam:
 
 Cyrem:
 - Cafeteria.
-- Community Edition of Rock Raiders and all of the fixes brought with.
+- Music fix and soundtrack.
+- Community Edition of Rock Raiders and all of the fixes brought with it.
 - Custom map "Bolt Molt!".
 
 frozensnowy
@@ -130,6 +131,12 @@ Yourself:
 
 Changelog
 --------------
+v0.18.000
+- Implemented Cyrem's music fix.
+- Added soundtrack from PS1 version in addition to PC tracks.
+- Added D3DRM.dll to make things simpler for end user.
+- Added d3dxof.dll as this dll is called when DirectX files are loaded.  
+
 v0.17.002
 - Enabled the unused Cargo Carrier activities/animations HitLeft, HitRight, HitFront, and HitBack.
 
