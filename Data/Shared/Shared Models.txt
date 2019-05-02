@@ -295,6 +295,13 @@ Vehicles\WalkerBody\LPWD_Drill1.lws
 		    LPWD_idle.lws
 
 --------------------------------------------------
+PlasmaSnake.lwo used by:
+
+MiscObjs\Weapons\PlasmaBeam\Plasma_Weapon.lws
+
+MiscObjs\Weapons\PlasmaExplosion\Plasma_Explosion.lws
+
+--------------------------------------------------
 R_post.lwo used by:
 
 Buildings\ToolStation\MT_T_Down.lws

@@ -1,0 +1,630 @@
+LWSC
+1
+
+RenderRangeType 1
+FirstFrame 1
+LastFrame 40
+FrameStep 1
+RenderRangeArbitrary 1-40
+PreviewFirstFrame 0
+PreviewLastFrame 40
+PreviewFrameStep 1
+FramesPerSecond 25
+
+AddNullObject Null
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 1.72 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  6 0 0 0 0
+  0 1.72 0 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ParentObject 2
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  2
+  0.6361794 1.785 1.304339 93.00002 0 0 0.1119996 0.1119996 0.1119996
+  0 0 0 0 0
+  0.6361794 1.785 1.304339 93.00002 0 0 0.1119996 0.1119996 0.1119996
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 12
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  7
+  -0.275 2.775 -2.975001 0 0 0 0 0 0
+  0 0 0 0 0
+  -0.275 2.775 -2.975001 0 0 0 0 0 0
+  2 0 0 0 0
+  -0.275 2.775 -2.975001 0 0 0 0 0 0
+  3 0 0 0 0
+  -0.275 2.775 -2.975001 0 0 0 0 0 0
+  5 0 0 0 0
+  -0.275 2.775 -2.975001 0 0 0 0 0 0
+  7 0 0 0 0
+  -0.3946249 2.574999 -6.096808 0 0 0 0.008 0.008 0.008
+  9 0 0 0 0
+  -0.3428563 2.661551 -25.8828 0 0 0 0.009023643 0.009023643 0.009023643
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 40
+ParentObject 2
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  4
+  -0.4222 2.032691 0.8902866 0 0 0 0.002 0.002 0.002
+  0 0 0 0 0
+  -0.4222 2.096153 0.8902866 0 0 0 0.002 0.002 0.002
+  7 0 0 0 0
+  -0.4222 2.096153 0.8902866 0 0 0 0.002 0.002 0.002
+  9 0 0 0 0
+  -0.4222 2.096153 0.8902866 0 0 0 0.002 0.002 0.002
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 12
+ShadowOptions 7
+
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\MiscObjs\Weapons\PlasmaExplosion\PlasmaSpark.LWO
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  6
+  0 0 0 167.2 -12.39998 -26.75523 0 0 0
+  0 0 0 0 0
+  0 0 0 167.2 -12.39998 -26.75523 3.573987 2.886 2.836001
+  2 0 0 0 0
+  0 0 0 167.2 -12.39998 -26.75523 8.551875 4.292834 8.1
+  9 0 0 0 0
+  0 0 0 167.2 -12.39998 -26.75523 9.154163 4.292834 8.1
+  10 0 0 0 0
+  0 0 0 167.2 -12.39998 -26.75523 10.91063 4.292834 8.1
+  14 0 0 0 0
+  0 0 0 167.2 -12.39998 -26.75523 10.91068 4.292834 8.1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 128
+ParentObject 4
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  2 1 0 0 0
+  1
+  14 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\MiscObjs\Weapons\PlasmaExplosion\PlasmaSpark.LWO
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 70.30001 -28.1 -47.80168 0 1.946692 -1.112396
+  0 0 0 0 0
+  0 0 0 70.30001 -28.1 -47.80168 0 4.858692 1.791605
+  2 0 0 0 0
+  0 0 0 70.30001 -28.1 -47.80168 2.72599 4.618314 4.80884
+  7 0 0 0 0
+  0 0 0 70.30001 -28.1 -47.80168 5.325665 4.341088 5.8018
+  9 0 0 0 0
+  0 0 0 70.30001 -28.1 -47.80168 7.028595 4.341088 5.8018
+  10 0 0 0 0
+  0 0 0 70.30001 -28.1 -47.80168 10.96964 4.018235 6.017035
+  14 0 0 0 0
+  0 0 0 70.30001 -28.1 -47.80168 10.96964 3.933348 6.073627
+  15 0 0 0 0
+  0 0 0 70.30001 -28.1 -47.80168 10.96964 3.506791 6.357998
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 4
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  2 1 0 0 0
+  1
+  13 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\MiscObjs\Weapons\PlasmaExplosion\PlasmaSpark.LWO
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 -78.89998 -23.4 0 0 0 0
+  0 0 0 0 0
+  0 0 0 -78.89998 -23.4 0 1.711141 0.4903405 0.8068196
+  2 0 0 0 0
+  0 0 0 -78.89998 -23.4 0 4.976 1.558 2.762
+  7 0 0 0 0
+  0 0 0 -78.89998 -23.4 0 0 1.671557 3.434802
+  9 0 0 0 0
+  0 0 0 -78.89998 -23.4 0 -0.4549486 1.667015 3.751484
+  10 0 0 0 0
+  0 0 0 -78.89998 -23.4 0 0 1.558 4.904
+  14 0 0 0 0
+  0 0 0 -78.89998 -23.4 0 0 1.558 4.904
+  15 0 0 0 0
+  0 0 0 -78.89998 -23.4 0 0 1.558 4.904
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 4
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  2 1 0 0 0
+  1
+  15 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\MiscObjs\Weapons\PlasmaExplosion\PlasmaSpark.LWO
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  9
+  0 0 0 -148.3 -10.89999 -20.18 0 0 0
+  0 0 0 0 0
+  0 0 0 -148.3 -10.89999 -20.18 0.6557365 0.7541865 0.6066939
+  2 0 0 0 0
+  0 0 0 -148.3 -10.89999 -20.18 2.801405 2.65 2.422
+  7 0 0 0 0
+  0 0 0 -148.3 -10.89999 -20.18 5.313655 3.445888 3.773072
+  9 0 0 0 0
+  0 0 0 -148.3 -10.89999 -20.18 6.24786 3.853293 4.574967
+  10 0 0 0 0
+  0 0 0 -148.3 -10.89999 -20.18 10.15127 5.048585 7.051993
+  13 0 0 0 0
+  0 0 0 -148.3 -10.89999 -20.18 11.37276 5.388272 7.757998
+  14 0 0 0 0
+  0 0 0 -148.3 -10.89999 -20.18 12.00736 5.388272 7.757998
+  15 0 0 0 0
+  0 0 0 -148.3 -10.89999 -20.18 12.00736 5.388272 7.757998
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 4
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  2 1 0 0 0
+  1
+  13 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\MiscObjs\Weapons\PlasmaExplosion\PlasmaSpark.LWO
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 130.6 -9.499988 0 0 0 0
+  0 0 0 0 0
+  0 0 0 130.6 -9.499988 0 1.210454 0.7672979 0.668576
+  2 0 0 0 0
+  0 0 0 130.6 -9.499988 0 3.52 2.438 2.39
+  7 0 0 0 0
+  0 0 0 130.6 -9.499988 0 3.001749 2.615697 3.195493
+  9 0 0 0 0
+  0 0 0 130.6 -9.499988 0 2.457843 2.608589 3.623324
+  10 0 0 0 0
+  0 0 0 130.6 -9.499988 0 0 2.438 5.258
+  14 0 0 0 0
+  0 0 0 130.6 -9.499988 0 0 2.438 5.258
+  15 0 0 0 0
+  0 0 0 130.6 -9.499988 0 0 2.438 5.258
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 192
+ParentObject 4
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  2 1 0 0 0
+  1
+  15 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\MiscObjs\Weapons\PlasmaExplosion\PlasmaSpark.LWO
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  8
+  0 0 0 -11.6 -38.79999 0 0 0 0
+  0 0 0 0 0
+  0 0 0 -11.6 -38.79999 0 1.541953 0.5375491 0.7734718
+  2 0 0 0 0
+  0 0 0 -11.6 -38.79999 0 4.484 1.708 2.566
+  7 0 0 0 0
+  0 0 0 -11.6 -38.79999 0 3.823819 1.83249 3.010563
+  9 0 0 0 0
+  0 0 0 -11.6 -38.79999 0 3.130956 1.82751 3.180458
+  10 0 0 0 0
+  0 0 0 -11.6 -38.79999 0 0 1.708 3.736
+  14 0 0 0 0
+  0 0 0 -11.6 -38.79999 0 0 1.708 3.736
+  15 0 0 0 0
+  0 0 0 -11.6 -38.79999 0 0 1.708 3.736
+  20 0 0 0 0
+EndBehavior 1
+ParentObject 4
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  2 1 0 0 0
+  1
+  15 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\MiscObjs\Weapons\PlasmaExplosion\newcenter.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  7
+  -0.364 2.050102 0.8660189 0 0 0 0 0 0
+  0 0 0 0 0
+  -0.364 2.134478 0.8660189 17.99466 0 0 0.007375 0.007375 0.007375
+  1 0 0 0 0
+  -0.364 2.128644 0.8660189 35.991 0 0 0.012 0.012 0.012
+  2 0 0 0 0
+  -0.364 2.128347 0.8660189 125.9915 0 0 0.0175 0.0175 0.0175
+  7 0 0 0 0
+  -0.364 2.128644 0.8660189 161.9969 0 0 0.0175 0.0175 0.0175
+  9 0 0 0 0
+  -0.364 2.128644 0.8660189 216.006 0 0 0.0175 0.0175 0.0175
+  12 0 0 0 0
+  -0.364 2.128644 0.8660189 360 0 0 0.0175 0.0175 0.0175
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 12
+ObjDissolve (envelope)
+  1
+  5
+  0
+  0 0 0 0 0
+  0.016
+  1 0 0 0 0
+  0.064
+  2 1 0 0 0
+  0.2792324
+  5 0 0 0 0
+  1
+  14 0 0 0 0
+EndBehavior 1
+ShadowOptions 0
+
+AddNullObject Null
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  3
+  -13.26376 -24.94004 -5.684468 89.99999 0 0 15.11 15.112 15.112
+  0 0 0 0 0
+  -13.26376 -25.83063 -5.684468 89.99999 0 0 15.11 15.112 15.112
+  3 0 0 0 0
+  -13.26376 -25.83063 -5.684468 89.99999 0 0 15.112 15.112 15.112
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 5
+ShadowOptions 7
+
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\MiscObjs\Weapons\PlasmaExplosion\RING.LWO
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  2
+  -60 0 60 0 0 0 1 1 1
+  0 0 0 0 0
+  -60 0 60 0 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 2
+ParentObject 17
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  9 1 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\MiscObjs\Weapons\PlasmaExplosion\RING.LWO
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  2
+  -60 0 -60 -89.99999 0 0 1 1 1
+  0 0 0 0 0
+  -60 0 -60 -89.99999 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 50
+ParentObject 17
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  9 1 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\MiscObjs\Weapons\PlasmaExplosion\RING.LWO
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  2
+  60 0 -60 180 0 0 1 1 1
+  0 0 0 0 0
+  60 0 -60 180 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 2
+ParentObject 17
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  9 1 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\MiscObjs\Weapons\PlasmaExplosion\RING.LWO
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  2
+  60 0 60 89.99999 0 0 1 1 1
+  0 0 0 0 0
+  60 0 60 89.99999 0 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LockedChannels 2
+ParentObject 17
+ObjDissolve (envelope)
+  1
+  3
+  0
+  0 0 0 0 0
+  0
+  9 1 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Ring_NULL
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  3
+  0 0 0 0 0 0 0 0 0
+  0 0 0 0 0
+  0 0 0 0 0 0 6.666838 6.666838 6.666838
+  20 0 0 0 0
+  0 0 0 0 0 0 10 10 10
+  30 0 0 0 0
+EndBehavior 1
+ParentObject 4
+ShadowOptions 7
+
+AddNullObject SFX,SND_PlasmaImpact,0
+ShowObject 9 3
+ObjectMotion (unnamed)
+  9
+  1
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\PlasmaSnake.lwo
+ShowObject 9 3
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 0 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 0 0 0 0.9999999 0.9999999 0.9999999
+  6 0 0 0 0
+EndBehavior 1
+ParentObject 20
+ObjDissolve (envelope)
+  1
+  2
+  0
+  0 0 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject PlasmaTube_Null
+ShowObject 9 3
+ObjectMotion (unnamed)
+  9
+  5
+  0 3.45337 0 0 0 0 0 0 0
+  0 0 0 0 0
+  3.249604e-007 3.45337 -3.21262e-008 71.988 0 0 0.36956 0.1500083 0.3720415
+  6 0 0 0 0
+  3.249604e-007 3.45337 -3.21262e-008 119.9938 0 0 0.6 0.25 0.6033356
+  10 0 0 0 0
+  3.249604e-007 3.45337 -3.21262e-008 180 0 0 0.8593913 0.25 0.862362
+  15 0 0 0 0
+  3.249604e-007 3.45337 -3.21262e-008 360 0 0 1.6 0.25 1.6
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\PlasmaSnake.lwo
+ShowObject 9 3
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 180 0 0 1 1 1
+  0 0 0 0 0
+  0 0 0 180 0 0 1 1 1
+  18 0 0 0 0
+EndBehavior 1
+ParentObject 20
+ObjDissolve (envelope)
+  1
+  2
+  0
+  0 0 0 0 0
+  1
+  30 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\MiscObjs\Weapons\PlasmaExplosion\PlasmaSpark.LWO
+ShowObject 9 3
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 110 0 -187.9 1 1 1
+  0 0 0 0 0
+  1 1 1 110 0 -187.9 11.36181 4.453938 4.45
+  14 0 0 0 0
+EndBehavior 1
+ParentObject 4
+ObjDissolve (envelope)
+  1
+  2
+  0
+  0 0 0 0 0
+  1
+  14 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AmbientColor 255 255 255
+AmbIntensity 0.25
+
+AddLight
+LightName Light
+ShowLight 0 2
+LightMotion (unnamed)
+  9
+  2
+  -2 2 -2 45 35 0 1 1 1
+  0 0 0 0 0
+  -2 2 -2 45 35 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+LightColor 255 255 255
+LgtIntensity 1
+LightType 0
+ShadowType 1
+ShadowColor 0 0 0
+
+ShowCamera 1 4
+// NAVIGATE=Any
+// AVATAR=2.00000  1.0000
+CameraMotion (unnamed)
+  9
+  2
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  0 0 0 0 0
+  -4.672217 8.513629 -8.708394 35.1 60 0 1 1 1
+  20 0 0 0 0
+EndBehavior 1
+ZoomFactor 3.2
+Resolution 0
+CustomSize 25 25
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 2
+FieldRendering 0
+BlurLength 0.5
+SegmentMemory 32000000
+ApertureHeight 0.015
+Antialiasing 1
+AdaptiveSampling 1
+AdaptiveThreshold 16
+
+SolidBackdrop 1
+BackdropColor 0 0 0
+ZenithColor 0 40 80
+SkyColor 120 180 240
+GroundColor 50 40 30
+NadirColor 100 80 60
+FogType 0
+DitherIntensity 1
+AnimatedDither 0
+
+RenderMode 2
+RayTraceEffects 3
+RayRecursionLimit 16
+RayTraceOptimization 1
+DataOverlayLabel  
+OutputFilenameFormat 1
+SaveRGB 0
+SaveRGBImagesPrefix D:\OUTPUT\lego\Lowpoly\LGman
+RGBImageFormat 2
+SaveAlpha 0
+
+ViewType 7
+ViewAimpoint -8.631182 3.519355 30.32319
+ViewDirection -1.75581 -0.5236017 0
+ViewZoomFactor 9.263274
+
+GridNumber 10
+GridSize 20
+CameraViewBG 0
+ShowMotionPath 1
+ShowFogRadius 0
+ShowFogEffect 0
+ShowSafeAreas 0
+ShowFieldChart 0
+OverlayColor_fv 0 0 0

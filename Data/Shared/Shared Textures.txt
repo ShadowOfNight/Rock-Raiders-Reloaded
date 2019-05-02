@@ -37,6 +37,17 @@ LightSpangleY.bmp used by:
 Shared\LightSpangleY.lwo
 
 ------------------------------------------
+PlasmaArc0000-14.bmp used by:
+
+MiscObjs\Weapons\PlasmaBeam\PlasmaTail.lwo
+
+MiscObjs\Weapons\PlasmaExplosion\PlasmaSpark.lwo
+------------------------------------------
+PlasmaSnake.bmp used by:
+
+Shared\PlasmaSnake.lwo
+
+------------------------------------------
 Stripes16.bmp used by:
 
 Shared\Stripes.lwo

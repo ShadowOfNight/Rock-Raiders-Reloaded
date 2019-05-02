@@ -42,12 +42,15 @@ Cirevam:
 - High-polygon sonic blaster model.
 - For providing several animations needed for Geo-Dome upgrade.
 - Countdown number models.
+- Modeling advice.
+- Air Filter building.
 
 Cyrem:
 - Cafeteria.
 - Music fix and soundtrack.
 - Community Edition of Rock Raiders and all of the fixes brought with it.
 - Custom map "Bolt Molt!".
+- Air Filter building.
 
 frozensnowy
 - For help, suggestions, and keeping me motivated to finish this project.
@@ -67,9 +70,6 @@ JimbobJeffers:
 
 Paperpanzer:
 - Cave ambient sounds and minifigure placedown effects.
-
-Yourself:
-- Some sound effects (see Sounds sources below for details).
 
 
 **Sounds Sources**
@@ -95,8 +95,6 @@ Yourself:
 	- elec3.wav - modified by Axel.
 	- elec4.wav - modified by Axel.
 	- elec5.wav - modified by Axel.
-	- explode1.wav - created by Yourself.
-	- explode2.wav - created by Yourself.
 	- powerhum.wav - modified by Axel.
 	- tool_store.wav - created by Axel.
 	- upgradelc1.wav - modified by Axel.
@@ -131,6 +129,16 @@ Yourself:
 
 Changelog
 --------------
+v0.18.100
+- Modified laser beam animation/models to create a new plasma beam.
+- Added new sounds for plasma beam and impact effects.
+- Slightly modified the mining laser impact sound effect.
+- New PlasmaImpact animation.
+- EXPERIMENTAL: Increased TextureUsage property in the cfg to max possible value. 
+- Added ShutDown.bmp and its associated cfg line back in for experimentation purposes.
+- Reverted building explosion sound effects to original versions for now.
+- Temporarily added some dead cfg properties back in for research purposes.
+
 v0.18.000
 - Implemented Cyrem's music fix.
 - Added soundtrack from PS1 version in addition to PC tracks.
