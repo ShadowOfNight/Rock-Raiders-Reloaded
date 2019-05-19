@@ -11,6 +11,12 @@ Lego* {
 		Activity_Explode				Explode
 		Activity_Unpowered				PowerOff
 		Activity_Teleport				Create
+		Activity_Upgrade				Upgrade
+	}
+
+	Upgrade {
+		FILE		dockexplode
+		LWSFILE		TRUE
 	}
 
 	Stand {

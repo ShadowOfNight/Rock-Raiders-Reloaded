@@ -9,6 +9,9 @@ Lego* {
 	Depositnullname			Deposit_null
 	CarryNullName			Carry_Null
 	CarryNullFrames			1
+	xPivot					rotator
+	PivotMaxZ				0.2
+	FireNullName			Fire_Null
 
 	mediumpoly  {
 			LP-BCramp				VLBC_ramp
@@ -24,6 +27,106 @@ Lego* {
 	 	
 		Level0000 {			
 			LP_BC_SPEED_NORMAL		BC_SPEEDS_NULL,1
+			ROTORS					BC_BLADES_LNULL,1
+			ROTORS					BC_BLADES_RNULL,1
+			Wake					Wake_null,1
+			Wake					Wake_null,2
+			Wake					Wake_null,3
+			Wake					Wake_null,4
+
+		}
+
+		Level0001 {		
+		;Drill
+			LP_BC_SPEED_NORMAL		BC_SPEEDS_NULL,1
+			LP_BC_MINING_UPGRADE	BC_MINE_NULL,1
+			small_laser				BC_LASER_NULL,1,CarrierLazer
+			small_laser				BC_LASER_NULL,2,CarrierLazer
+			ROTORS					BC_BLADES_LNULL,1
+			ROTORS					BC_BLADES_RNULL,1
+			Wake					Wake_null,1
+			Wake					Wake_null,2
+			Wake					Wake_null,3
+			Wake					Wake_null,4
+
+		}
+
+		Level0010 {			
+		;Engine
+			LP_BC_SPEED_UPGRADE		BC_SPEEDU_NULL,1
+			ROTORS					BC_BLADES_LNULL,1
+			ROTORS					BC_BLADES_RNULL,1
+			Wake					Wake_null,1
+			Wake					Wake_null,2
+			Wake					Wake_null,3
+			Wake					Wake_null,4
+
+		}
+
+		Level0100 {			
+		;Scan
+			LP_BC_SPEED_NORMAL		BC_SPEEDS_NULL,1
+			BigRADAR				BC_SCAN_NULL,1
+			ROTORS					BC_BLADES_LNULL,1
+			ROTORS					BC_BLADES_RNULL,1
+			Wake					Wake_null,1
+			Wake					Wake_null,2
+			Wake					Wake_null,3
+			Wake					Wake_null,4
+
+		}
+
+		Level0011 {			
+		;Engine+Drill
+			LP_BC_SPEED_UPGRADE		BC_SPEEDU_NULL,1
+			LP_BC_MINING_UPGRADE	BC_MINE_NULL,1
+			small_laser				BC_LASER_NULL,1,CarrierLazer
+			small_laser				BC_LASER_NULL,2,CarrierLazer
+			ROTORS					BC_BLADES_LNULL,1
+			ROTORS					BC_BLADES_RNULL,1
+			Wake					Wake_null,1
+			Wake					Wake_null,2
+			Wake					Wake_null,3
+			Wake					Wake_null,4
+
+		}
+
+		Level0101 {			
+		;Scan+Drill
+			LP_BC_SPEED_NORMAL		BC_SPEEDS_NULL,1
+			LP_BC_MINING_UPGRADE	BC_MINE_NULL,1
+			small_laser				BC_LASER_NULL,1,CarrierLazer
+			small_laser				BC_LASER_NULL,2,CarrierLazer
+			BigRADAR				BC_SCAN_NULL,1
+			ROTORS					BC_BLADES_LNULL,1
+			ROTORS					BC_BLADES_RNULL,1
+			Wake					Wake_null,1
+			Wake					Wake_null,2
+			Wake					Wake_null,3
+			Wake					Wake_null,4
+
+		}
+
+		Level0110 {			
+		;Scan+Engine
+			LP_BC_SPEED_UPGRADE		BC_SPEEDU_NULL,1
+			BigRADAR				BC_SCAN_NULL,1
+			ROTORS					BC_BLADES_LNULL,1
+			ROTORS					BC_BLADES_RNULL,1
+			Wake					Wake_null,1
+			Wake					Wake_null,2
+			Wake					Wake_null,3
+			Wake					Wake_null,4
+
+		}
+
+		Level0111 {			
+		;Scan+Engine+Drill
+			LP_BC_SPEED_UPGRADE		BC_SPEEDU_NULL,1
+			LP_BC_MINING_UPGRADE	BC_MINE_NULL,1
+			small_laser				BC_LASER_NULL,1,CarrierLazer
+			small_laser				BC_LASER_NULL,2,CarrierLazer
+			BigRADAR				BC_SCAN_NULL,1
 			ROTORS					BC_BLADES_LNULL,1
 			ROTORS					BC_BLADES_RNULL,1
 			Wake					Wake_null,1

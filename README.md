@@ -129,6 +129,12 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.18.110
+- Implemented unused Cargo Carrier upgrades.
+- Fixed cfg typo involvig Cargo Carrier drill upgrade.
+- Modified Docks to have an upgrade activity; currently uses a filler animation.
+- Added new WeaponType entry for the Cargo Carrier lasers.
+
 v0.18.100
 - Modified laser beam animation/models to create a new plasma beam.
 - Added new sounds for plasma beam and impact effects.
