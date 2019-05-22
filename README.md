@@ -129,6 +129,9 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.18.211
+- Changed health bar border and background RGB values in the cfg.
+
 v0.18.210
 - Replaced radar model with my high-polygon version.
 - Replaced Geological Center radar upgrade model.
