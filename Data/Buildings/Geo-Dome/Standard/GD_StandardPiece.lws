@@ -11,7 +11,7 @@ PreviewLastFrame 1
 PreviewFrameStep 1
 FramesPerSecond 30
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\GD_ControlA.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\GD_ControlA.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -22,7 +22,7 @@ EndBehavior 1
 ParentObject 2
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\GD_Centre_S.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\GD_Centre_S.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -34,7 +34,7 @@ LockedChannels 5
 ParentObject 5
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\GD_Cab.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\GD_Cab.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -79,7 +79,7 @@ LockedChannels 5
 ParentObject 2
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\GD_Radar_S.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\BDradar.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9

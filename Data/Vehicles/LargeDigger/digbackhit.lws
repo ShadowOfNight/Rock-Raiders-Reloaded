@@ -1,16 +1,18 @@
 LWSC
 1
 
+RenderRangeType 0
 FirstFrame 1
 LastFrame 30
 FrameStep 1
+RenderRangeArbitrary 1-30
 PreviewFirstFrame 0
 PreviewLastFrame 30
 PreviewFrameStep 1
-FramesPerSecond 25.000000
+FramesPerSecond 25
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\LargeDigger\Digger_body.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\LargeDigger\Digger_body.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   6
@@ -20,7 +22,7 @@ ObjectMotion (unnamed)
   4 0 0 0 0
   0 0.7 -8.299996 0 1 0.8000004 1 1 1
   10 0 0 0 0
-  0 -0.8000001 -8.299996 0 0.2 -0.9 1 1 1
+  0 -0.8000001 -8.299996 0 0.2 -0.8999999 1 1 1
   18 0 0 0 0
   0 0.7 -8.299996 0 -1.1 0.2000002 1 1 1
   24 0 0 0 0
@@ -31,8 +33,8 @@ LockedChannels 3
 ParentObject 5
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\LargeDigger\DIGGERBACK.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\LargeDigger\DIGGERBACK.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   8
@@ -58,7 +60,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject DIGcab_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -73,7 +75,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject DIGlight_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -87,7 +89,7 @@ ObjectMotion (unnamed)
   13 0 0 0 0
   13.6 7.099999 19.5 -1.136528 0 -22.77429 1 1 1
   18 0 0 0 0
-  13.6 7.099999 19.5 -0.9905128 0 -47.98629 1 1 1
+  13.6 7.099999 19.5 -0.9905127 0 -47.98629 1 1 1
   21 0 0 0 0
   13.6 7.099999 19.5 -0.1115726 0 -33.86658 1 1 1
   30 0 0 0 0
@@ -97,13 +99,13 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject PARENTNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
   0 4.8 8.3 0 0 0 1.09 1.09 1.09
   0 0 0 0 0
-  0 4.8 8.3 0 5.599999 0 1.09 1.09 1.09
+  0 4.8 8.3 0 5.599998 0 1.09 1.09 1.09
   3 0 0 0 0
   0 4.8 8.599999 0 -1.843377 2.8 1.09 1.09 1.09
   7 0 0 0 0
@@ -121,7 +123,7 @@ ParentObject 12
 ShadowOptions 7
 
 AddNullObject Turret_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -135,7 +137,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject DIGlight_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -143,7 +145,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0
   -13.7 7.099999 19.5 11.1 0 -316.9406 1 1 1
   6 0 0 0 0
-  -13.7 7.099999 19.5 -8.999999 0 -353.5209 1 1 1
+  -13.7 7.099999 19.5 -8.999998 0 -353.5209 1 1 1
   11 0 0 0 0
   -13.7 7.099999 19.5 4.099998 0 -314.6137 1 1 1
   15 0 0 0 0
@@ -159,7 +161,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject dummyTYRE_NULL3.lwo
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -173,7 +175,7 @@ ParentObject 5
 ShadowOptions 7
 
 AddNullObject dummyTYRE_NULL4.lwo
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -187,7 +189,7 @@ ParentObject 5
 ShadowOptions 7
 
 AddNullObject dummyTYRE_NULL1.lwo
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -201,7 +203,7 @@ ParentObject 5
 ShadowOptions 7
 
 AddNullObject dummyTYRE_NULL2.lwo
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -215,7 +217,7 @@ ParentObject 5
 ShadowOptions 7
 
 AddNullObject MAIN_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -227,7 +229,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject CAMERA_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -240,8 +242,8 @@ LockedChannels 45
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\BrickConeY.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\BrickConeY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -254,8 +256,8 @@ LockedChannels 6
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Shared\BrickConeY.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\BrickConeY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -269,7 +271,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject Upgrade_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -281,8 +283,19 @@ EndBehavior 1
 ParentObject 1
 ShadowOptions 7
 
+AddNullObject Radar_Null
+ShowObject 9 3
+ObjectMotion (unnamed)
+  9
+  1
+  17.5 -0.5 29.7 0 -0.3 0 0.9174312 0.9174311 0.9174311
+  0 0 0 0 0
+EndBehavior 1
+ParentObject 1
+ShadowOptions 7
+
 AddNullObject Drill_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -295,7 +308,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject Drill_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -309,7 +322,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject Tyre_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -322,7 +335,7 @@ ParentObject 10
 ShadowOptions 7
 
 AddNullObject Tyre_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -335,7 +348,7 @@ ParentObject 11
 ShadowOptions 7
 
 AddNullObject Tyre_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -348,7 +361,7 @@ ParentObject 9
 ShadowOptions 7
 
 AddNullObject Tyre_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -360,8 +373,8 @@ EndBehavior 1
 ParentObject 8
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\LargeDigger\Dig_Pipe.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\LargeDigger\Dig_Pipe.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   6
@@ -382,8 +395,8 @@ LockedChannels 45
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\LargeDigger\Dig_Pipe.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\LargeDigger\Dig_Pipe.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   5
@@ -395,7 +408,7 @@ ObjectMotion (unnamed)
   11 0 0 0 0
   -13.6 10 10.3 180 160 -6.5 1 1 1
   20 0 0 0 0
-  -13.6 10 10.3 180 160 -0.7686581 1 1 1
+  -13.6 10 10.3 180 160 -0.768658 1 1 1
   30 0 0 0 0
 EndBehavior 1
 LockedChannels 29
@@ -403,7 +416,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject BDgun_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -416,20 +429,20 @@ ParentObject 6
 ShadowOptions 7
 
 AddNullObject BDradar_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -24.99999 4.5 -32.50001 0 0 0 1 1 1
+  -7.5 4 -2.5 0 0 0 1 1 1
   0 0 0 0 0
-  -24.99999 4.5 -32.50001 0 0 0 1 1 1
+  -7.5 4 -2.5 0 0 0 1 1 1
   30 0 0 0 0
 EndBehavior 1
 ParentObject 6
 ShadowOptions 7
 
 AddNullObject CAMERA_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -443,7 +456,7 @@ ParentObject 5
 ShadowOptions 7
 
 AmbientColor 255 255 255
-AmbIntensity 0.250000
+AmbIntensity 0.25
 
 AddLight
 LightName Light
@@ -457,9 +470,10 @@ LightMotion (unnamed)
   30 0 0 0 0
 EndBehavior 1
 LightColor 255 255 255
-LgtIntensity 1.000000
+LgtIntensity 1
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 AddLight
 LightName Light
@@ -467,15 +481,16 @@ ShowLight 1 7
 LightMotion (unnamed)
   9
   2
-  120.7 38.7 -17.1 -86.2 6.4 0 1 1 1
+  120.7 38.7 -17.1 -86.19999 6.4 0 1 1 1
   0 0 0 0 0
-  120.7 38.7 -17.1 -86.2 6.4 0 1 1 1
+  120.7 38.7 -17.1 -86.19999 6.4 0 1 1 1
   30 0 0 0 0
 EndBehavior 1
 LightColor 255 255 255
-LgtIntensity 0.500000
+LgtIntensity 0.5
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 ShowCamera 1 7
 CameraMotion (unnamed)
@@ -487,17 +502,19 @@ CameraMotion (unnamed)
   30 0 0 0 0
 EndBehavior 1
 LockedChannels 40
-ZoomFactor 3.200000
+ZoomFactor 3.2
 Resolution 1
-PixelAspectRatio 2
-SegmentMemory 2200000
+CustomSize 640 480
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+SegmentMemory 32000000
+ApertureHeight 0.015
 Antialiasing 0
 AdaptiveSampling 1
 AdaptiveThreshold 16
-FilmSize 2
-FieldRendering 0
-MotionBlur 0
-DepthOfField 0
 
 SolidBackdrop 1
 BackdropColor 4 124 164
@@ -511,18 +528,23 @@ AnimatedDither 0
 
 RenderMode 2
 RayTraceEffects 0
+RayRecursionLimit 16
+RayTraceOptimization 1
 DataOverlayLabel  
-FullSceneParamEval 0
+SaveRGB 0
+SaveAlpha 0
 
-ViewMode 2
-ViewAimpoint -12.561869 15.947520 14.461439
-ViewDirection -14.838806 0.033160 0.000000
+ViewType 7
+ViewAimpoint -12.56187 15.94752 14.46144
+ViewDirection -17.26654 0.03315993 0
 ViewZoomFactor 2.099709
+
 GridNumber 10
-GridSize 20.000000
+GridSize 20
+CameraViewBG 0
 ShowMotionPath 1
-ShowBGImage 0
 ShowFogRadius 0
-ShowRedraw 0
+ShowFogEffect 0
 ShowSafeAreas 0
 ShowFieldChart 0
+OverlayColor_fv 0 0 0

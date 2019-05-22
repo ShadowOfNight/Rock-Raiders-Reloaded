@@ -1,16 +1,18 @@
 LWSC
 1
 
+RenderRangeType 0
 FirstFrame 0
 LastFrame 24
 FrameStep 1
+RenderRangeArbitrary 0-24
 PreviewFirstFrame 0
 PreviewLastFrame 24
 PreviewFrameStep 1
-FramesPerSecond 25.000000
+FramesPerSecond 25
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Bulldozer\mainvech.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\Bulldozer\mainvech.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -41,7 +43,7 @@ ParentObject 9
 ShadowOptions 7
 
 AddNullObject BDcab_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -54,8 +56,8 @@ LockedChannels 40
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Bulldozer\scoopB.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\Bulldozer\scoopB.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -82,24 +84,24 @@ LockedChannels 45
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Bulldozer\BDbackD.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\Bulldozer\BDbackD.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   10
   0 -4.5 -19.9947 0 -118 0 1 1 1
   0 0 0 0 0
-  0 -4.5 -19.9947 0 -88.1 0 1 1 1
+  0 -4.5 -19.9947 0 -88.09999 0 1 1 1
   4 0 0 0 0
   0 -4.5 -19.9947 0 -72.24458 0 1 1 1
   7 0 0 0 0
-  0 -4.5 -19.9947 0 -77.88465 0 1 1 1
+  0 -4.5 -19.9947 0 -77.88464 0 1 1 1
   10 0 0 0 0
   0 -4.5 -19.9947 0 -117.5599 0 1 1 1
   12 0 0 0 0
   0 -4.5 -19.9947 0 -110.3621 0 1 1 1
   14 0 0 0 0
-  0 -4.5 -19.9947 0 -95.9702 0 1 1 1
+  0 -4.5 -19.9947 0 -95.97019 0 1 1 1
   18 0 0 0 0
   0 -4.5 -19.9947 0 -116.1287 0 1 1 1
   20 0 0 0 0
@@ -112,8 +114,8 @@ LockedChannels 45
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Bulldozer\PDbackC.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\Bulldozer\PDbackC.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -140,8 +142,8 @@ LockedChannels 24
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Bulldozer\PDbackC.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\Bulldozer\PDbackC.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -173,7 +175,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject BDlight_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -197,7 +199,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject BDlight_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   7
@@ -207,7 +209,7 @@ ObjectMotion (unnamed)
   4 0 0 0 0
   -12.623 5.300004 -4.826171 0 0 56.6 1 1 1
   8 0 0 0 0
-  -12.623 5.300004 -4.826171 0 0 74.9984 1 1 1
+  -12.623 5.300004 -4.826171 0 0 74.99839 1 1 1
   11 0 0 0 0
   -12.623 5.300004 -4.826171 0 0 63.69101 1 1 1
   18 0 0 0 0
@@ -221,13 +223,13 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject BNull
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   8
   0 0.55 0 0 0 0 1 1 1
   0 0 0 0 0
-  0 3.749999 -0.3000002 0 8.999999 0 1 1 1
+  0 3.749999 -0.3000002 0 8.999998 0 1 1 1
   4 0 0 0 0
   0 0.55 0 0 0 0 1 1 1
   10 0 0 0 0
@@ -246,8 +248,8 @@ LockedChannels 40
 ParentObject 20
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\Bulldozer\chain.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\Bulldozer\chain.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -275,7 +277,7 @@ ParentObject 3
 ShadowOptions 7
 
 AddNullObject BTyre_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   10
@@ -305,7 +307,7 @@ ParentObject 9
 ShadowOptions 7
 
 AddNullObject BTyre_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   10
@@ -335,7 +337,7 @@ ParentObject 9
 ShadowOptions 7
 
 AddNullObject BTyre_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -367,7 +369,7 @@ ParentObject 9
 ShadowOptions 7
 
 AddNullObject BTyre_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -399,7 +401,7 @@ ParentObject 9
 ShadowOptions 7
 
 AddNullObject CAMERA_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -413,7 +415,7 @@ ParentObject 9
 ShadowOptions 7
 
 AddNullObject SPEED_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -426,13 +428,13 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject BULLradar_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -17.5 10.39999 -59.95 0 0 0 1 1 1
+  0 9.9 -29.45 0 0 0 1 1 1
   0 0 0 0 0
-  -17.5 10.39999 -59.95 0 0 0 1 1 1
+  0 9.9 -29.45 0 0 0 1 1 1
   24 0 0 0 0
 EndBehavior 1
 LockedChannels 1
@@ -440,7 +442,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject TRANSPORT_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -453,7 +455,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject UPGRADE_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -466,7 +468,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject MAIN_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -478,7 +480,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject LPBDcarry_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -492,7 +494,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject LPBDcarry_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -506,7 +508,7 @@ ParentObject 18
 ShadowOptions 7
 
 AddNullObject CAMERA_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -520,7 +522,7 @@ ParentObject 9
 ShadowOptions 7
 
 AmbientColor 255 255 255
-AmbIntensity 0.250000
+AmbIntensity 0.25
 
 AddLight
 LightName Light
@@ -534,9 +536,10 @@ LightMotion (unnamed)
   24 0 0 0 0
 EndBehavior 1
 LightColor 255 255 255
-LgtIntensity 1.000000
+LgtIntensity 1
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 ShowCamera 1 7
 CameraMotion (unnamed)
@@ -547,17 +550,19 @@ CameraMotion (unnamed)
   -55.86314 46.1 66.51124 135.4 25.6 0 1 1 1
   24 0 0 0 0
 EndBehavior 1
-ZoomFactor 3.200000
+ZoomFactor 3.2
 Resolution 0
-PixelAspectRatio 2
-SegmentMemory 2200000
+CustomSize 320 240
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+SegmentMemory 32000000
+ApertureHeight 0.015
 Antialiasing 1
 AdaptiveSampling 1
 AdaptiveThreshold 16
-FilmSize 2
-FieldRendering 0
-MotionBlur 0
-DepthOfField 0
 
 SolidBackdrop 1
 BackdropColor 52 4 179
@@ -571,21 +576,24 @@ AnimatedDither 0
 
 RenderMode 2
 RayTraceEffects 0
+RayRecursionLimit 16
+RayTraceOptimization 1
 DataOverlayLabel  
 SaveAnimationName \\Rob_plugin_man\d\Output\Lego\LPBulldozer\hitbehind.avi
-AnimationType 5
-EndPlugin
-FullSceneParamEval 0
+SaveRGB 0
+SaveAlpha 0
 
-ViewMode 3
-ViewAimpoint 0.000000 14.550000 2.400000
-ViewDirection -3.988605 -0.375232 0.000000
+ViewType 7
+ViewAimpoint 0 14.55 2.4
+ViewDirection -4.625651 -0.3944308 0
 ViewZoomFactor 1.771398
+
 GridNumber 40
-GridSize 10.000000
+GridSize 10
+CameraViewBG 0
 ShowMotionPath 1
-ShowBGImage 0
 ShowFogRadius 0
-ShowRedraw 0
+ShowFogEffect 0
 ShowSafeAreas 0
 ShowFieldChart 0
+OverlayColor_fv 0 0 0

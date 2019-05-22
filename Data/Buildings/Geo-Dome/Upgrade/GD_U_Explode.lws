@@ -11,7 +11,7 @@ PreviewLastFrame 120
 PreviewFrameStep 1
 FramesPerSecond 25
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Centre_U.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Centre_U.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -72,7 +72,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\GD_ControlA.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\GD_ControlA.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -100,7 +100,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\GD_ControlA.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\GD_ControlA.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -128,7 +128,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\GD_Cab.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\GD_Cab.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -167,7 +167,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\GD_Cab.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\GD_Cab.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -286,7 +286,7 @@ LockedChannels 5
 ParentObject 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Shared\BaseLarge.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Shared\BaseLarge.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -326,7 +326,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Walkie.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Walkie.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -354,7 +354,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Walkie.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Walkie.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -382,7 +382,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Radar_U.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Radar_U.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -454,7 +454,7 @@ EndBehavior 1
 ParentObject 28
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Explo.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\Explo.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -528,7 +528,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\PulseRed.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\PulseRed.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -598,7 +598,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\PulseExplos20.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\PulseExplos20.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -669,7 +669,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\SmokeRise.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\SmokeRise.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -711,7 +711,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick2x3DkGrey.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\Brick2x3DkGrey.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -791,7 +791,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick2x3DkGrey.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\Brick2x3DkGrey.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -869,7 +869,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick2x3DkGrey.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\Brick2x3DkGrey.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -933,7 +933,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick2x3DkGrey.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\Brick2x3DkGrey.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1003,7 +1003,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\Brick2x3DkGrey.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\Brick2x3DkGrey.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1073,7 +1073,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\SmoPyram.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\SmoPyram.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1133,7 +1133,7 @@ LockedChannels 176
 ParentObject 12
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\SmoPyram.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\SmoPyram.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1163,7 +1163,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\SmoPyram.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\SmoPyram.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1193,7 +1193,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\SmoPyram.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\SmoPyram.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1223,7 +1223,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\SmoPyram.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\SmoPyram.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1348,7 +1348,7 @@ EndBehavior 1
 ParentObject 40
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1382,7 +1382,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1419,7 +1419,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1452,7 +1452,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1485,7 +1485,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1519,7 +1519,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\beam.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1552,7 +1552,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\newcenter.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\newcenter.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1793,7 +1793,7 @@ EndBehavior 1
 ParentObject 91
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockDust.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockDust.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1834,7 +1834,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockDust.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockDust.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1875,7 +1875,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockDust.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockDust.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1916,7 +1916,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockDust.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockDust.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1963,7 +1963,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1998,7 +1998,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2037,7 +2037,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2072,7 +2072,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2101,7 +2101,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2136,7 +2136,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2171,7 +2171,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2216,7 +2216,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2261,7 +2261,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2302,7 +2302,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2343,7 +2343,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2384,7 +2384,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2423,7 +2423,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2464,7 +2464,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2505,7 +2505,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2546,7 +2546,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2587,7 +2587,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2624,7 +2624,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2665,7 +2665,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\S_Rock.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2706,7 +2706,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2747,7 +2747,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\RockdustX.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2792,7 +2792,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleR.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleR.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2819,7 +2819,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2846,7 +2846,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2885,7 +2885,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2912,7 +2912,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2939,7 +2939,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleR.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleR.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2966,7 +2966,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleR.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleR.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2993,7 +2993,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleR.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleR.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3020,7 +3020,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\LightSpangleY.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3068,7 +3068,7 @@ EndBehavior 1
 ParentObject 32
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\ring.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\ring.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3093,7 +3093,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\ring.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\ring.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3119,7 +3119,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\ring.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\ring.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3145,7 +3145,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\DATA\World\Shared\ring.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\DATA\World\Shared\ring.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9

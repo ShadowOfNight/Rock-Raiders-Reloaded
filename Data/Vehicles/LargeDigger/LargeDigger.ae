@@ -29,7 +29,7 @@ Lego* {
 
 			
 			drill					Drill_Null,1
-			BIGradar				Upgrade_Null,1
+			BIGradar				Radar_Null,1
 			BIGlaser				Turret_Null,1,MediumLazer
 			BDengine				Upgrade_Null,1
 			BDlights				Turret_null,1
@@ -54,7 +54,7 @@ Lego* {
 		}
 		Level0010 {
 			drill					Drill_Null,1
-			BIGradar				Upgrade_Null,1
+			BIGradar				Radar_Null,1
 			BIGlaser				Turret_Null,1,MediumLazer
 			BDengineU				Upgrade_Null,1
 			BDlights				Turret_null,1

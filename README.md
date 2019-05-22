@@ -129,6 +129,14 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.18.210
+- Replaced radar model with my high-polygon version.
+- Replaced Geological Center radar upgrade model.
+- Cleaned up old textures and models for the radar model.
+- Made the radar model shared with the Geological Center along with the usual vehicle upgrades.
+- Fixed vehicle animations for the new radar model.
+- Fixed an issue with a sequenced texture that did not get replaced properly.
+
 v0.18.110
 - Implemented unused Cargo Carrier upgrades.
 - Fixed cfg typo involvig Cargo Carrier drill upgrade.

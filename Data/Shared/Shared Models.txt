@@ -52,6 +52,16 @@ Buildings\Upgrade\Upgrade_Idle.lws
 		  Upgrades.lws
 
 -------------------------------------------
+BDradar.lwo used by:
+
+Buildings\Geo-Dome\Geo_teleport.lws
+Buildings\Geo-Dome\Standard\GD_S_Explode.lws
+			    GD_StandardPiece.lws
+
+Vehicles\LargeDigger\S_Teleport_B_DIG.lws
+
+Called by the cfg for use as the BigRadar shared upgrade.
+----------------------------------------------------------
 Brick2x3DkGrey.lwo used by:
 
 Buildings\Barracks\BarracksExplode2.lws

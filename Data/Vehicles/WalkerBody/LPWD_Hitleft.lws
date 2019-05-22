@@ -1,22 +1,24 @@
 LWSC
 1
 
+RenderRangeType 0
 FirstFrame 0
 LastFrame 24
 FrameStep 1
-PreviewFirstFrame 0
+RenderRangeArbitrary 0-24
+PreviewFirstFrame -1
 PreviewLastFrame 24
 PreviewFrameStep 1
-FramesPerSecond 25.000000
+FramesPerSecond 25
 
-LoadObject Z:\lego\Data\Vehicles\WalkerBody\mainbody.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\WalkerBody\mainbody.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
   0 0.06650001 0 0 1 0 1 1 1
   0 0 0 0 0
-  0.6 0.25 0 0 1 -4.6 1 1 1
+  0.6 0.25 0 0 1 -4.599999 1 1 1
   2 0 0 0 0
   0.7500001 0.146 0 0 1 -3.5 1 1 1
   12 0 0 0 0
@@ -38,7 +40,7 @@ ParentObject 3
 ShadowOptions 7
 
 AddNullObject WDcab_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -52,7 +54,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject CAB_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   11
@@ -62,7 +64,7 @@ ObjectMotion (unnamed)
   4 0 0 0 0
   2.17 21.53001 0 0 0 -6.040004 1 1 1
   8 0 0 0 0
-  1.791458 21.30564 0 0 0 -5.060835 1 1 1
+  1.791458 21.30564 0 0 0 -5.060834 1 1 1
   9 0 0 0 0
   1.249999 20.96 0 0 0 -3.599999 1 1 1
   10 0 0 0 0
@@ -83,8 +85,8 @@ LockedChannels 29
 ParentObject 14
 ShadowOptions 7
 
-LoadObject Z:\lego\Data\Shared\BrickConeY.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Shared\Models\BrickConeY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -92,7 +94,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0
   3.75 11.1 -6.2 30 0 0 1 1 1
   4 0 0 0 0
-  3.75 11.1 -6.2 90 0 0 1 1 1
+  3.75 11.1 -6.2 89.99999 0 0 1 1 1
   12 0 0 0 0
   3.75 11.1 -6.2 173.0925 0 0 1 1 1
   24 0 0 0 0
@@ -101,8 +103,8 @@ LockedChannels 6
 ParentObject 1
 ShadowOptions 7
 
-LoadObject Z:\lego\Data\Shared\BrickConeY.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Shared\Models\BrickConeY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -110,7 +112,7 @@ ObjectMotion (unnamed)
   0 0 0 0 0
   -3.750001 11.1 -6.2 30 0 0 1 1 1
   4 0 0 0 0
-  -3.750001 11.1 -6.2 90 0 0 1 1 1
+  -3.750001 11.1 -6.2 89.99999 0 0 1 1 1
   12 0 0 0 0
   -3.750001 11.1 -6.2 173.0925 0 0 1 1 1
   24 0 0 0 0
@@ -120,13 +122,13 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject CAMERA_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  0 10.3 5.551 0 5.599999 0 1 1 1
+  0 10.3 5.551 0 5.599998 0 1 1 1
   0 0 0 0 0
-  0 10.3 5.551 0 5.599999 0 1 1 1
+  0 10.3 5.551 0 5.599998 0 1 1 1
   24 0 0 0 0
 EndBehavior 1
 LockedChannels 5
@@ -134,7 +136,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject LPW_E_Up_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -148,7 +150,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject LPWeng_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -166,7 +168,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject LPWeng_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -184,7 +186,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject LPWeng_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -198,7 +200,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject LPWeng_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -212,7 +214,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject LPWdrill_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   5
@@ -232,7 +234,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject LPW_D_Up_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -245,7 +247,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject Parent_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -257,7 +259,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject LPWdrill_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   5
@@ -277,7 +279,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject LPWdrill_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   5
@@ -297,7 +299,7 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject LPW_LaserBlock_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
@@ -312,20 +314,20 @@ ParentObject 1
 ShadowOptions 7
 
 AddNullObject LPW_LaserTurret_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -17.49999 13.5 -37.4 0 0 0 1 1 1
+  0 13 -6.9 0 0 0 1 1 1
   0 0 0 0 0
-  -17.49999 13.5 -37.4 0 0 0 1 1 1
+  0 13 -6.9 0 0 0 1 1 1
   24 0 0 0 0
 EndBehavior 1
 ParentObject 17
 ShadowOptions 7
 
 AddNullObject CAMERA_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -338,7 +340,7 @@ ParentObject 3
 ShadowOptions 7
 
 AmbientColor 255 255 255
-AmbIntensity 0.250000
+AmbIntensity 0.25
 
 AddLight
 LightName Light
@@ -366,11 +368,14 @@ LightMotion (unnamed)
   24 0 0 0 0
 EndBehavior 1
 LightColor 255 255 255
-LgtIntensity 1.000000
+LgtIntensity 1
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 ShowCamera 1 7
+// NAVIGATE=Any
+// AVATAR=2.00000  1.0000
 CameraMotion (unnamed)
   9
   2
@@ -380,17 +385,19 @@ CameraMotion (unnamed)
   24 0 0 0 0
 EndBehavior 1
 ParentObject 6
-ZoomFactor 3.200000
+ZoomFactor 3.2
 Resolution 0
-PixelAspectRatio 2
-SegmentMemory 2200000
+CustomSize 320 240
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+SegmentMemory 32000000
+ApertureHeight 0.015
 Antialiasing 1
 AdaptiveSampling 1
 AdaptiveThreshold 16
-FilmSize 2
-FieldRendering 0
-MotionBlur 0
-DepthOfField 0
 
 SolidBackdrop 1
 BackdropColor 0 0 0
@@ -404,18 +411,23 @@ AnimatedDither 0
 
 RenderMode 2
 RayTraceEffects 0
+RayRecursionLimit 16
+RayTraceOptimization 1
 DataOverlayLabel  
-FullSceneParamEval 0
+SaveRGB 0
+SaveAlpha 0
 
-ViewMode 3
-ViewAimpoint 0.689216 31.264338 3.609488
-ViewDirection -58.627510 -0.193728 0.000000
+ViewType 7
+ViewAimpoint 0.689216 31.26434 3.609488
+ViewDirection -58.62751 -0.193728 0
 ViewZoomFactor 4.732431
+
 GridNumber 40
-GridSize 10.000000
+GridSize 10
+CameraViewBG 0
 ShowMotionPath 1
-ShowBGImage 0
 ShowFogRadius 0
-ShowRedraw 0
+ShowFogEffect 0
 ShowSafeAreas 0
 ShowFieldChart 0
+OverlayColor_fv 0 0 0

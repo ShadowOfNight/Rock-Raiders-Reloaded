@@ -1,16 +1,18 @@
 LWSC
 1
 
+RenderRangeType 0
 FirstFrame 0
 LastFrame 15
 FrameStep 1
+RenderRangeArbitrary 0-15
 PreviewFirstFrame 0
 PreviewLastFrame 15
 PreviewFrameStep 1
-FramesPerSecond 25.000000
+FramesPerSecond 25
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\LargeCat\LP-BCramp.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\LargeCat\LP-BCramp.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -23,8 +25,8 @@ LockedChannels 40
 ParentObject 2
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\LargeCat\LP-BCmain.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\LargeCat\LP-BCmain.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   9
@@ -52,7 +54,7 @@ ParentObject 4
 ShadowOptions 7
 
 AddNullObject CAMERA_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -66,7 +68,7 @@ ParentObject 4
 ShadowOptions 7
 
 AddNullObject ANIM_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -78,8 +80,8 @@ EndBehavior 1
 ParentObject 19
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\LargeCat\bcHOVERHANDLE.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\LargeCat\bcHOVERHANDLE.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -92,14 +94,14 @@ LockedChannels 48
 ParentObject 6
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\LargeCat\bcHANDLECASE.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\LargeCat\bcHANDLECASE.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -13.67938 18.19499 6.276162 0 0 -90 1 1 1
+  -13.67938 18.19499 6.276162 0 0 -89.99999 1 1 1
   0 0 0 0 0
-  -13.67938 18.19499 6.276162 0 0 -90 1 1 1
+  -13.67938 18.19499 6.276162 0 0 -89.99999 1 1 1
   15 0 0 0 0
 EndBehavior 1
 LockedChannels 3115
@@ -107,14 +109,14 @@ PivotPoint -0.9399999 6.795001 3.750001
 ParentObject 2
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\LargeCat\bcHANDLECASE.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\LargeCat\bcHANDLECASE.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -11.32005 18.19501 6.239563 0 0 -90 1 1 1
+  -11.32005 18.19501 6.239563 0 0 -89.99999 1 1 1
   0 0 0 0 0
-  -11.32005 18.19501 6.239563 0 0 -90 1 1 1
+  -11.32005 18.19501 6.239563 0 0 -89.99999 1 1 1
   15 0 0 0 0
 EndBehavior 1
 LockedChannels 3091
@@ -122,8 +124,8 @@ PivotPoint -0.9399999 6.795001 3.750001
 ParentObject 2
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\LargeCat\bcHOVERHANDLE.lwo
-ShowObject 8 7
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Vehicles\LargeCat\bcHOVERHANDLE.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -137,7 +139,7 @@ ParentObject 7
 ShadowOptions 7
 
 AddNullObject BC_MINE_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -150,13 +152,13 @@ ParentObject 2
 ShadowOptions 7
 
 AddNullObject BC_SCAN_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -17.5 26.5 -50.01894 0 0 0 1 1 1
+  0 26 -19.5189 0 0 0 1 1 1
   0 0 0 0 0
-  -17.5 26.5 -50.01894 0 0 0 1 1 1
+  0 26 -19.5189 0 0 0 1 1 1
   15 0 0 0 0
 EndBehavior 1
 LockedChannels 5
@@ -164,7 +166,7 @@ ParentObject 2
 ShadowOptions 7
 
 AddNullObject BC_SPEEDS_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -177,7 +179,7 @@ ParentObject 2
 ShadowOptions 7
 
 AddNullObject BC_SPEEDU_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -190,13 +192,13 @@ ParentObject 2
 ShadowOptions 7
 
 AddNullObject BC_BLADES_LNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -12.5 28.1 -25.2 0 -90 0 1 1 1
+  -12.5 28.1 -25.2 0 -89.99999 0 1 1 1
   0 0 0 0 0
-  -12.5 28.1 -25.2 0 -90 0 1 1 1
+  -12.5 28.1 -25.2 0 -89.99999 0 1 1 1
   15 0 0 0 0
 EndBehavior 1
 LockedChannels 6
@@ -204,13 +206,13 @@ ParentObject 2
 ShadowOptions 7
 
 AddNullObject BC_BLADES_RNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  12.5 28.1 -25.2 0 -90 0 1 1 1
+  12.5 28.1 -25.2 0 -89.99999 0 1 1 1
   0 0 0 0 0
-  12.5 28.1 -25.2 0 -90 0 1 1 1
+  12.5 28.1 -25.2 0 -89.99999 0 1 1 1
   15 0 0 0 0
 EndBehavior 1
 LockedChannels 5
@@ -218,13 +220,13 @@ ParentObject 2
 ShadowOptions 7
 
 AddNullObject BC_BLADEU_LNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -12.5 31 -25.2 0 -90 0 1 1 1
+  -12.5 31 -25.2 0 -89.99999 0 1 1 1
   0 0 0 0 0
-  -12.5 31 -25.2 0 -90 0 1 1 1
+  -12.5 31 -25.2 0 -89.99999 0 1 1 1
   15 0 0 0 0
 EndBehavior 1
 LockedChannels 5
@@ -232,20 +234,20 @@ ParentObject 2
 ShadowOptions 7
 
 AddNullObject BC_BLADEU_RNULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  12.5 31 -25.2 0 -90 0 1 1 1
+  12.5 31 -25.2 0 -89.99999 0 1 1 1
   0 0 0 0 0
-  12.5 31 -25.2 0 -90 0 1 1 1
+  12.5 31 -25.2 0 -89.99999 0 1 1 1
   15 0 0 0 0
 EndBehavior 1
 ParentObject 2
 ShadowOptions 7
 
 AddNullObject BC_LASER_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -259,7 +261,7 @@ ParentObject 9
 ShadowOptions 7
 
 AddNullObject BC_LASER_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -272,7 +274,7 @@ ParentObject 9
 ShadowOptions 7
 
 AddNullObject MAIN_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -284,7 +286,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject tyre_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -298,7 +300,7 @@ ParentObject 2
 ShadowOptions 7
 
 AddNullObject tyre_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -311,7 +313,7 @@ ParentObject 2
 ShadowOptions 7
 
 AddNullObject tyre_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -324,7 +326,7 @@ ParentObject 2
 ShadowOptions 7
 
 AddNullObject tyre_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -337,7 +339,7 @@ ParentObject 2
 ShadowOptions 7
 
 AddNullObject Deposit_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -351,59 +353,59 @@ ParentObject 19
 ShadowOptions 7
 
 AddNullObject Wake_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -20.54018 0.7 -37.04842 -90 0 0 1.2 1.2 1.4
+  -20.54018 0.7 -37.04842 -89.99999 0 0 1.2 1.2 1.4
   0 0 0 0 0
-  -20.54018 0.7 -37.04842 -90 0 0 1.2 1.2 1.4
+  -20.54018 0.7 -37.04842 -89.99999 0 0 1.2 1.2 1.4
   15 0 0 0 0
 EndBehavior 1
 LockedChannels 243
 ShadowOptions 7
 
 AddNullObject Wake_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  -13.3166 0.7 -36.99999 -90 0 0 1.2 1.2 1.4
+  -13.3166 0.7 -36.99999 -89.99999 0 0 1.2 1.2 1.4
   0 0 0 0 0
-  -13.3166 0.7 -36.99999 -90 0 0 1.2 1.2 1.4
+  -13.3166 0.7 -36.99999 -89.99999 0 0 1.2 1.2 1.4
   15 0 0 0 0
 EndBehavior 1
 LockedChannels 54
 ShadowOptions 7
 
 AddNullObject Wake_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  13.6 0.7 -36.99999 -90 0 0 1.2 1.2 1.4
+  13.6 0.7 -36.99999 -89.99999 0 0 1.2 1.2 1.4
   0 0 0 0 0
-  13.6 0.7 -36.99999 -90 0 0 1.2 1.2 1.4
+  13.6 0.7 -36.99999 -89.99999 0 0 1.2 1.2 1.4
   15 0 0 0 0
 EndBehavior 1
 LockedChannels 54
 ShadowOptions 7
 
 AddNullObject Wake_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  20.8 0.7 -36.99999 -90 0 0 1.2 1.2 1.4
+  20.8 0.7 -36.99999 -89.99999 0 0 1.2 1.2 1.4
   0 0 0 0 0
-  20.8 0.7 -36.99999 -90 0 0 1.2 1.2 1.4
+  20.8 0.7 -36.99999 -89.99999 0 0 1.2 1.2 1.4
   15 0 0 0 0
 EndBehavior 1
 LockedChannels 53
 ShadowOptions 7
 
 AddNullObject Vehicle_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -417,7 +419,7 @@ ParentObject 2
 ShadowOptions 7
 
 AddNullObject SFX,SND_Bsplosh,0
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -429,7 +431,7 @@ EndBehavior 1
 ShadowOptions 7
 
 AddNullObject Carry_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -442,7 +444,7 @@ ParentObject 29
 ShadowOptions 7
 
 AddNullObject CAMERA_NULL
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
@@ -454,7 +456,7 @@ ParentObject 4
 ShadowOptions 7
 
 AmbientColor 255 255 255
-AmbIntensity 0.250000
+AmbIntensity 0.25
 
 AddLight
 LightName Light
@@ -468,9 +470,10 @@ LightMotion (unnamed)
   15 0 0 0 0
 EndBehavior 1
 LightColor 255 255 255
-LgtIntensity 1.000000
+LgtIntensity 1
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 ShowCamera 1 7
 CameraMotion (unnamed)
@@ -482,17 +485,19 @@ CameraMotion (unnamed)
   15 0 0 0 0
 EndBehavior 1
 LockedChannels 40
-ZoomFactor 3.200000
+ZoomFactor 3.2
 Resolution 0
-PixelAspectRatio 2
-SegmentMemory 2200000
+CustomSize 320 240
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+SegmentMemory 32000000
+ApertureHeight 0.015
 Antialiasing 0
 AdaptiveSampling 1
 AdaptiveThreshold 16
-FilmSize 2
-FieldRendering 0
-MotionBlur 0
-DepthOfField 0
 
 SolidBackdrop 1
 BackdropColor 0 0 0
@@ -507,21 +512,25 @@ AnimatedDither 0
 RenderMode 2
 RayTraceEffects 1
 RayRecursionLimit 16
+RayTraceOptimization 1
 DataOverlayLabel  
 OutputFilenameFormat 3
+SaveRGB 0
 SaveRGBImagesPrefix images\Catramp
 RGBImageFormat 2
-FullSceneParamEval 0
+SaveAlpha 0
 
-ViewMode 3
-ViewAimpoint 0.000000 0.000000 45.000000
-ViewDirection 2.391100 -0.349066 0.000000
+ViewType 7
+ViewAimpoint -8.262566 0 -18.25938
+ViewDirection 5.215043 -0.5829403 0
 ViewZoomFactor 5.627127
+
 GridNumber 60
-GridSize 20.000000
+GridSize 20
+CameraViewBG 0
 ShowMotionPath 1
-ShowBGImage 0
 ShowFogRadius 0
-ShowRedraw 0
+ShowFogEffect 0
 ShowSafeAreas 0
 ShowFieldChart 0
+OverlayColor_fv 0 0 0

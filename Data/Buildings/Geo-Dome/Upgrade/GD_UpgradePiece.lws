@@ -11,7 +11,7 @@ PreviewLastFrame 1
 PreviewFrameStep 1
 FramesPerSecond 30
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Centre_U.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Centre_U.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -23,7 +23,7 @@ LockedChannels 3
 ParentObject 8
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_ControlA.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_ControlA.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -35,7 +35,7 @@ LockedChannels 5
 ParentObject 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_ControlA.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_ControlA.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -47,7 +47,7 @@ LockedChannels 5
 ParentObject 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Cab.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Cab.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -58,7 +58,7 @@ EndBehavior 1
 ParentObject 2
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Cab.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Cab.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -80,7 +80,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Radar_U.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Radar_U.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -104,7 +104,7 @@ LockedChannels 3
 ParentObject 6
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Walkie.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Walkie.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -116,7 +116,7 @@ LockedChannels 3
 ParentObject 1
 ShadowOptions 7
 
-LoadObject C:\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Walkie.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Geo-Dome\Upgrade\GD_Walkie.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
