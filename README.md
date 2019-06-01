@@ -129,6 +129,9 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.18.212
+- Minor optimization of some high-polygon models.
+
 v0.18.211
 - Changed health bar border and background RGB values in the cfg.
 
