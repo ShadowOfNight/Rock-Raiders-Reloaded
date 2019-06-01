@@ -6,12 +6,12 @@ FirstFrame 0
 LastFrame 175
 FrameStep 1
 RenderRangeArbitrary 0-175
-PreviewFirstFrame 0
+PreviewFirstFrame -2
 PreviewLastFrame 187
 PreviewFrameStep 1
 FramesPerSecond 25
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Mobile-teleport.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Mobile-teleport.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -156,7 +156,7 @@ EndBehavior 1
 ParentObject 4
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spade.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spade.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -172,7 +172,7 @@ LockedChannels 51
 ParentObject 16
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\VLdrill.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\VLdrill.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -198,7 +198,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\VLdrill.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\VLdrill.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -222,7 +222,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -238,7 +238,7 @@ LockedChannels 50
 ParentObject 16
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spanner.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spanner.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -266,7 +266,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\ToolStand_L.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\ToolStand_L.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -294,7 +294,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\ToolStand_R.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\ToolStand_R.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -320,7 +320,7 @@ LockedChannels 48
 ParentObject 27
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Y_Post.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Y_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -343,11 +343,11 @@ ObjDissolve (envelope)
   1
   85 1 0 0 0
   0
-  121 0 0 0 0
+  118 0 0 0 0
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\R_Post.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\R_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -370,22 +370,22 @@ ObjDissolve (envelope)
   1
   85 1 0 0 0
   0
-  121 0 0 0 0
+  118 0 0 0 0
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Stripes.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Stripes.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
-  3.5789 4.7505 0.5905935 0 90 0 1 1 1
+  3.5789 4.7505 0.5905935 0 89.99999 0 1 1 1
   0 0 0 0 0
-  3.5789 4.7505 0.5905935 0 90 0 1 1 1
+  3.5789 4.7505 0.5905935 0 89.99999 0 1 1 1
   19 0 0 0 0
-  3.5789 4.7505 0.5905935 0 90 0 1 1 1
+  3.5789 4.7505 0.5905935 0 89.99999 0 1 1 1
   175 0 0 0 0
-  3.5789 4.7505 0.5905935 0 90 0 1 1 1
+  3.5789 4.7505 0.5905935 0 89.99999 0 1 1 1
   176 0 0 0 0
 EndBehavior 1
 ParentObject 17
@@ -397,7 +397,7 @@ ObjDissolve (envelope)
   1
   85 1 0 0 0
   0
-  121 0 0 0 0
+  118 0 0 0 0
 EndBehavior 1
 ShadowOptions 7
 
@@ -438,7 +438,7 @@ LockedChannels 48
 ParentObject 27
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Y_Post.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Y_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -461,11 +461,11 @@ ObjDissolve (envelope)
   1
   71 1 0 0 0
   0
-  109 0 0 0 0
+  105 0 0 0 0
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\R_Post.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\R_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -487,22 +487,22 @@ ObjDissolve (envelope)
   1
   71 1 0 0 0
   0
-  109 0 0 0 0
+  105 0 0 0 0
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Stripes.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Stripes.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
-  3.6131 4.7408 0.5939136 0 90 0 1 1 1
+  3.6131 4.7408 0.5939136 0 89.99999 0 1 1 1
   0 0 0 0 0
-  3.6131 4.7408 0.5939136 0 90 0 1 1 1
+  3.6131 4.7408 0.5939136 0 89.99999 0 1 1 1
   19 0 0 0 0
   3.613093 4.740815 0.5939136 0 89.99999 0 1 1 1
   83 0 0 0 0
-  3.613082 4.740839 0.5939136 0 90 0 1 1 1
+  3.613082 4.740839 0.5939136 0 89.99999 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
 ParentObject 22
@@ -514,7 +514,7 @@ ObjDissolve (envelope)
   1
   71 1 0 0 0
   0
-  109 0 0 0 0
+  105 0 0 0 0
 EndBehavior 1
 ShadowOptions 7
 
@@ -565,52 +565,54 @@ EndBehavior 1
 LockedChannels 5
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Dyna_Box.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\DynamiteBox.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   8
-  22.47499 143.6 -34.52008 -460 136.8 0 1 1 1
+  22.47499 143.6 -34.52008 -530 136.8 0 1 1 1
   0 0 0 0 0
-  4.224991 77.39999 -1.970078 -222.7 69.1 0 1 1 1
+  4.224991 77.39999 -1.970078 -292.7 69.1 0 1 1 1
   81 0 0 0 0
-  0.5245268 59.11756 7.039008 -170.0966 52.77808 0 1 1 1
+  0.5245268 59.11756 4.298699 -240.1 52.77808 0 1 1 1
   95 0 0 0 0
-  2.360858 36.53336 17.24378 -105.116 32.6157 0 1 1 1
+  2.360858 36.53336 14.50347 -175.12 32.6157 0 1 1 1
   105 0 0 0 0
-  11.48432 17.53145 21.3191 -50.44255 15.65146 0 1 1 1
+  8.744011 17.53145 18.57879 -120.44 15.65146 0 1 1 1
   113 0 0 0 0
-  22.47499 0 17.27992 0 0 0 1 1 1
+  11.9165 0 12.1207 -70 0 0 1 1 1
   120 0 0 0 0
-  22.47499 0 17.27992 0 0 0 1 1 1
+  11.9165 0 12.1207 -70 0 0 1 1 1
   121 0 0 0 0
-  22.47499 0 17.27992 0 0 0 1 1 1
+  11.9165 0 12.1207 -70 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
 ObjDissolve (envelope)
   1
-  3
+  4
   1
   0 0 0 0 0
   1
   81 1 0 0 0
   0
+  104 0 0 0 0
+  0
   120 0 0 0 0
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\L_hammer.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\L_hammer.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
-  16.11125 378.8 15.01038 -1085.8 -58.40002 -51.2 4.340001 4.340001 4.340001
+  16.11125 378.8 18.5589 -1085.8 -58.40002 -31.65 4.340001 4.340001 4.340001
   0 0 0 0 0
-  16.11125 136 15.01038 -314.4 -29.00002 -51.2 4.340001 4.340001 4.340001
+  16.11125 136 18.5589 -314.4 -29.00002 -31.65 4.340001 4.340001 4.340001
   103 0 0 0 0
-  16.11125 0.7999994 15.01038 108.2 -10.40002 -51.2 4.340001 4.340001 4.340001
+  16.11125 1.1413 18.5589 108.2 -10.40002 -31.65 4.340001 4.340001 4.340001
   165 0 0 0 0
-  16.11125 0.7999994 15.01038 108.2 -10.40002 -51.2 4.340001 4.340001 4.340001
+  16.11125 1.1413 18.5589 108.2 -10.40002 -31.65 4.340001 4.340001 4.340001
   175 0 0 0 0
 EndBehavior 1
 ObjDissolve (envelope)
@@ -625,7 +627,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -652,7 +654,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -678,7 +680,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spade.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spade.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -756,7 +758,7 @@ LockedChannels 53
 ParentObject 33
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Dust.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -792,7 +794,7 @@ LockedChannels 133
 ParentObject 34
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Dust2.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust2.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -826,7 +828,7 @@ LockedChannels 179
 ParentObject 34
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Dust3.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust3.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -860,7 +862,7 @@ LockedChannels 179
 ParentObject 34
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Dust4.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust4.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -890,7 +892,7 @@ LockedChannels 179
 ParentObject 34
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Dust.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -924,7 +926,7 @@ LockedChannels 179
 ParentObject 34
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Dust3.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust3.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -958,7 +960,7 @@ LockedChannels 179
 ParentObject 34
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Dust2.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust2.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -990,7 +992,7 @@ LockedChannels 179
 ParentObject 34
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Dust4.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust4.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1027,21 +1029,21 @@ ShowObject 9 7
 ObjectMotion (unnamed)
   9
   8
-  -0.9499995 -57.63504 0.8500002 -89.99999 0 0 38.42 31.08607 38.42003
+  -0.9499995 -57.63504 2.32777 -89.99999 0 0 41.37554 31.08607 41.37557
   0 0 0 0 0
-  -0.9499995 -57.63504 0.8500002 -89.99999 0 0 38.42 31.08607 38.42003
+  -0.9499995 -57.63504 2.32777 -89.99999 0 0 41.37554 31.08607 41.37557
   2 0 0 0 0
-  -0.9499995 -57.63504 0.8500002 -89.99999 0 0 38.42003 31.08607 38.42003
+  -0.9499995 -57.63504 2.32777 -89.99999 0 0 41.37557 31.08607 41.37557
   13 0 0 0 0
-  -0.9499995 -57.63504 0.8500002 -89.99999 0 0 38.42003 31.08607 38.42003
+  -0.9499995 -57.63504 2.32777 -89.99999 0 0 41.37557 31.08607 41.37557
   19 0 0 0 0
-  -0.9499995 -57.63504 0.8500002 -89.99999 0 0 38.42003 31.08607 38.42003
+  -0.9499995 -57.63504 2.32777 -89.99999 0 0 41.37557 31.08607 41.37557
   55 0 0 0 0
-  -0.9499995 -57.63504 0.8500002 -89.99999 0 0 38.42003 31.08607 38.42003
+  -0.9499995 -57.63504 2.32777 -89.99999 0 0 41.37557 31.08607 41.37557
   88 1 0 0 0
-  -0.9499995 -57.63504 0.8500002 -89.99999 0 0 38.42003 31.08607 38.42003
+  -0.9499995 -57.63504 2.32777 -89.99999 0 0 41.37557 31.08607 41.37557
   170 0 0 0 0
-  -0.9499995 -57.63504 0.8500002 -89.99999 0 0 38.42003 31.08607 38.42003
+  -0.9499995 -57.63504 2.32777 -89.99999 0 0 41.37557 31.08607 41.37557
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 373
@@ -1087,7 +1089,7 @@ PivotPoint -0.49 0 1.36
 ParentObject 53
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1113,7 +1115,7 @@ LockedChannels 389
 ParentObject 44
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1139,7 +1141,7 @@ LockedChannels 374
 ParentObject 44
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1165,7 +1167,7 @@ LockedChannels 374
 ParentObject 44
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1191,7 +1193,7 @@ LockedChannels 374
 ParentObject 44
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1217,7 +1219,7 @@ LockedChannels 371
 ParentObject 44
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1243,7 +1245,7 @@ LockedChannels 366
 ParentObject 44
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1269,7 +1271,7 @@ LockedChannels 366
 ParentObject 44
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1315,7 +1317,7 @@ LockedChannels 387
 ParentObject 43
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\TelePulse.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\TelePulse.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1343,7 +1345,7 @@ LockedChannels 197
 ParentObject 56
 ShadowOptions 0
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\TelePulse.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\TelePulse.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1422,7 +1424,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1487,7 +1489,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1558,7 +1560,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1638,7 +1640,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint4.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint4.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1707,7 +1709,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint5.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint5.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1780,7 +1782,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint6.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint6.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1851,7 +1853,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint7.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint7.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1935,7 +1937,7 @@ EndBehavior 1
 ParentObject 58
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2030,7 +2032,7 @@ LockedChannels 48
 ParentObject 58
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2139,7 +2141,7 @@ LockedChannels 2096
 ParentObject 58
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2251,7 +2253,7 @@ LockedChannels 48
 ParentObject 58
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2394,7 +2396,7 @@ LockedChannels 320
 ParentObject 58
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2459,7 +2461,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2530,7 +2532,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2610,7 +2612,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint4.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint4.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2679,7 +2681,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint5.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint5.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2752,7 +2754,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint6.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint6.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2823,7 +2825,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint7.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint7.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2907,7 +2909,7 @@ EndBehavior 1
 ParentObject 76
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3002,7 +3004,7 @@ LockedChannels 48
 ParentObject 76
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3111,7 +3113,7 @@ LockedChannels 2096
 ParentObject 76
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3223,7 +3225,7 @@ LockedChannels 48
 ParentObject 76
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3399,7 +3401,7 @@ CameraMotion (unnamed)
 EndBehavior 1
 ZoomFactor 5.47
 Resolution 0
-CustomSize 320 240
+CustomSize 160 120
 PixelAspectRatio -1
 CustomPixelRatio 1
 MaskPosition 0 0 640 480
@@ -3433,9 +3435,9 @@ RGBImageFormat 2
 SaveAlpha 0
 
 ViewType 7
-ViewAimpoint -7.745387 4.4 10.07336
-ViewDirection -27.68607 -1.300269 0
-ViewZoomFactor 8.446357
+ViewAimpoint 12.65402 4.4 -11.44409
+ViewDirection -29.22194 -1.523662 0
+ViewZoomFactor 1.055795
 
 GridNumber 60
 GridSize 5

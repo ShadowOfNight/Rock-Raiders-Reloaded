@@ -11,7 +11,7 @@ PreviewLastFrame 19
 PreviewFrameStep 1
 FramesPerSecond 25
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Mobile-teleport.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Mobile-teleport.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -45,7 +45,7 @@ EndBehavior 1
 LockedChannels 3
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -64,7 +64,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -83,7 +83,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\SteamThing.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -170,7 +170,7 @@ EndBehavior 1
 ParentObject 7
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spade.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spade.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -184,7 +184,7 @@ LockedChannels 51
 ParentObject 19
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\VLdrill.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\VLdrill.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -198,7 +198,7 @@ LockedChannels 53
 ParentObject 18
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\VLdrill.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\VLdrill.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -212,7 +212,7 @@ LockedChannels 48
 ParentObject 14
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -226,7 +226,7 @@ LockedChannels 50
 ParentObject 19
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spanner.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spanner.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -240,7 +240,7 @@ LockedChannels 53
 ParentObject 18
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\ToolStand_L.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\ToolStand_L.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -253,7 +253,7 @@ EndBehavior 1
 ParentObject 30
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\ToolStand_R.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\ToolStand_R.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -266,7 +266,7 @@ EndBehavior 1
 ParentObject 30
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Y_Post.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Y_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -279,7 +279,7 @@ EndBehavior 1
 ParentObject 23
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\R_Post.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\R_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -293,14 +293,14 @@ LockedChannels 6
 ParentObject 23
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Stripes.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Stripes.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  3.5789 4.7505 0.5905935 0 90 0 1 1 1
+  3.5789 4.7505 0.5905935 0 89.99999 0 1 1 1
   0 0 0 0 0
-  3.5789 4.7505 0.5905935 0 90 0 1 1 1
+  3.5789 4.7505 0.5905935 0 89.99999 0 1 1 1
   19 0 0 0 0
 EndBehavior 1
 LockedChannels 3
@@ -334,7 +334,7 @@ LockedChannels 50
 ParentObject 30
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Y_Post.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Y_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -347,7 +347,7 @@ EndBehavior 1
 ParentObject 28
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\R_Post.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\R_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -361,14 +361,14 @@ LockedChannels 6
 ParentObject 28
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Stripes.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Stripes.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  3.6131 4.7408 0.5939136 0 90 0 1 1 1
+  3.6131 4.7408 0.5939136 0 89.99999 0 1 1 1
   0 0 0 0 0
-  3.6131 4.7408 0.5939136 0 90 0 1 1 1
+  3.6131 4.7408 0.5939136 0 89.99999 0 1 1 1
   19 0 0 0 0
 EndBehavior 1
 LockedChannels 3
@@ -414,27 +414,27 @@ EndBehavior 1
 LockedChannels 5
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Dyna_Box.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\DynamiteBox.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
-  22.47499 0 17.27992 0 0 0 1 1 1
+  11.91654 0 12.12067 -70 0 0 1 1 1
   0 0 0 0 0
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\L_hammer.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\L_hammer.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   1
-  16.11125 0.7999994 15.01038 108.2 -10.40002 -51.2 4.340001 4.340001 4.340001
+  16.11125 1.141272 18.55892 108.2 -10.40002 -31.64653 4.340001 4.340001 4.340001
   0 0 0 0 0
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -444,7 +444,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -455,7 +455,7 @@ EndBehavior 1
 LockedChannels 48
 ShadowOptions 7
 
-LoadObject \\Users\Nathan\Documents\GitHub\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spade.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spade.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -493,7 +493,7 @@ CameraMotion (unnamed)
 EndBehavior 1
 ZoomFactor 5.47
 Resolution 0
-CustomSize 320 240
+CustomSize 160 120
 PixelAspectRatio -1
 CustomPixelRatio 1
 MaskPosition 0 0 640 480
@@ -528,7 +528,7 @@ SaveAlpha 0
 
 ViewType 7
 ViewAimpoint -0.05 4.4 2.55
-ViewDirection -27.9131 -0.7906346 0
+ViewDirection -28.07719 -1.420698 0
 ViewZoomFactor 3.638178
 
 GridNumber 60

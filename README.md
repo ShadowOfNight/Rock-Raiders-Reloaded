@@ -129,6 +129,10 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.18.213
+- Replaced the Tool Store's dynamite box model with my high-polygon version.  This is based on the version depicted in the Tool Station render.
+- Updated Tool Store animations to accommodate new dynamite box model.
+
 v0.18.212
 - Minor optimization of some high-polygon models.
 

@@ -11,6 +11,13 @@ BaseY.bmp used by:
 Shared\BaseLarge.lwo
        BaseSmall.lwo
 
+----------------------
+Dynamite.bmp used by:
+
+Buildings\ToolStation\DynamiteBox.lwo
+
+MiscObjs\Dynamite\Dynamite.lwo
+
 -----------------------------------------
 green0001-18.bmp (sequence) used by:
 
