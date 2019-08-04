@@ -2,14 +2,14 @@ SHARED TEXTURE LIST
 ====================
 Base.bmp used by:
 
-Shared\BaseLarge.lwo
-       BaseSmall.lwo
+Shared\Models\BaseLarge.lwo
+              BaseSmall.lwo
 
 ----------------------
 BaseY.bmp used by:
 
-Shared\BaseLarge.lwo
-       BaseSmall.lwo
+Shared\Models\BaseLarge.lwo
+              BaseSmall.lwo
 
 ----------------------
 Dynamite.bmp used by:
@@ -21,27 +21,27 @@ MiscObjs\Dynamite\Dynamite.lwo
 -----------------------------------------
 green0001-18.bmp (sequence) used by:
 
-Shared\Telepthings.lwo
+Shared\Models\Telepthings.lwo
 
 -----------------------------------------
 LightSpangleB.bmp used by:
 
-Shared\LightSpangleB.lwo
+Shared\Models\LightSpangleB.lwo
 
 ------------------------------------------
 LightSpangleG.bmp used by:
 
-Shared\LightSpangleG.lwo
+Shared\Models\LightSpangleG.lwo
 
 ------------------------------------------
 LightSpangleR.bmp used by:
 
-Shared\LightSpangleR.lwo
+Shared\Models\LightSpangleR.lwo
 
 ------------------------------------------
 LightSpangleY.bmp used by:
 
-Shared\LightSpangleY.lwo
+Shared\Models\LightSpangleY.lwo
 
 ------------------------------------------
 PlasmaArc0000-14.bmp used by:
@@ -52,33 +52,33 @@ MiscObjs\Weapons\PlasmaExplosion\PlasmaSpark.lwo
 ------------------------------------------
 PlasmaSnake.bmp used by:
 
-Shared\PlasmaSnake.lwo
+Shared\Models\PlasmaSnake.lwo
 
 ------------------------------------------
 Stripes16.bmp used by:
 
-Shared\Stripes.lwo
+Shared\Models\Stripes.lwo
 
 MiscObjs\Barrier\Stripes_long.lwo
 
 ------------------------------------------
 T_Circ.bmp used by:
 
-Shared\Trans_Circ.lwo
+Shared\Models\Trans_Circ.lwo
 
 ------------------------------------------
 T_Snake.bmp used by:
 
-Shared\Trans_Snake.lwo
+Shared\Models\Trans_Snake.lwo
 
 ------------------------------------------
 TelePulse.bmp used by:
 
-Shared\Trans_Disk.lwo
+Shared\Models\Trans_Disk.lwo
 
 ------------------------------------------
 TransSide.bmp used by:
 
-Shared\Trans_Tube.lwo
+Shared\Models\Trans_Tube.lwo
 
 ------------------------------------------

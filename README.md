@@ -52,7 +52,7 @@ Cyrem:
 - Custom map "Bolt Molt!".
 - Air Filter building.
 
-frozensnowy
+frozen snow (aka rockboy)
 - For help, suggestions, and keeping me motivated to finish this project.
 - High-resolution electric fence slope texture.
 
@@ -129,6 +129,10 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.18.214
+- Changed color scheme of the barrier post models.
+- Fixed shared models and textures documentation.
+
 v0.18.213
 - Replaced the Tool Store's dynamite box model with my high-polygon version.  This is based on the version depicted in the Tool Station render.
 - Updated Tool Store animations to accommodate new dynamite box model.

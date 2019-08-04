@@ -315,8 +315,8 @@ MiscObjs\Weapons\PlasmaExplosion\Plasma_Explosion.lws
 R_post.lwo used by:
 
 Buildings\ToolStation\MT_T_Down.lws
-		      M-teleport.lws
-		      M-teleportBlow2.lws
+                      M-teleport.lws
+                      M-teleportBlow2.lws
 
 MiscObjs\Barrier\Barrier_Carry.lws
 		 Barrier_Dissolve.lws
@@ -327,8 +327,8 @@ MiscObjs\Barrier\Barrier_Carry.lws
 Stripes.lwo used by:
 
 Buildings\ToolStation\MT_T_Down.lws
-		      M-teleport.lws
-		      M-teleportBlow2.lws
+                      M-teleport.lws
+                      M-teleportBlow2.lws
 
 MiscObjs\Barrier\Barrier_Carry.lws
 ---------------------------------------------------
@@ -358,7 +358,7 @@ Vehicles\Bulldozer\S_Teleport_Bull.lws
 
 Vehicles\Hoverboard\S_Teleport_Hover.lws
 
-Vehicles\LargeCate\BCteleportin.lws
+Vehicles\LargeCat\BCteleportin.lws
 
 Vehicles\LargeDigger\S_Teleport_B_DIG.lws
 
@@ -409,8 +409,8 @@ Mini-Figures\Pilot\VLP_TeleWALK.lws
 Y_post.lwo used by:
 
 Buildings\ToolStation\MT_T_Down.lws
-		      M-teleport.lws
-		      M-teleportBlow2.lws
+                      M-teleport.lws
+                      M-teleportBlow2.lws
 
 MiscObjs\Barrier\Barrier_Carry.lws
 		 Barrier_Dissolve.lws
