@@ -129,6 +129,11 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.18.215
+- Replaced Tool Store dynamite box model (again) with correct high-polygon version based on the in-game render.
+- Replaced Tool Store tool stand models with my high-polygon version.
+- Modified Tool Store animations a bit.
+
 v0.18.214
 - Changed color scheme of the barrier post models.
 - Fixed shared models and textures documentation.

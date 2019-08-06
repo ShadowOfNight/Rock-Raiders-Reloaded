@@ -6,12 +6,12 @@ FirstFrame 0
 LastFrame 175
 FrameStep 1
 RenderRangeArbitrary 0-175
-PreviewFirstFrame -2
+PreviewFirstFrame 0
 PreviewLastFrame 187
 PreviewFrameStep 1
 FramesPerSecond 25
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Mobile-teleport.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Mobile-teleport.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -156,104 +156,84 @@ EndBehavior 1
 ParentObject 4
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spade.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spade.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   3
-  16.24729 5.500004 -1.907843 131.3 180 0 2 2 2
+  3.8041 8.0102 -0.0883317 131.3 180 0 2 2 2
   0 0 0 0 0
-  16.24729 5.500004 -1.907843 131.3 180 0 2 2 2
+  3.8041 8.0102 -0.0883317 131.3 180 0 2 2 2
   19 0 0 0 0
-  16.24729 5.500004 -1.907843 131.3 180 0 2 2 2
+  3.8041 8.0102 -0.0883317 131.3 180 0 2 2 2
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 51
-ParentObject 16
-ShadowOptions 7
-
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\VLdrill.lwo
-ShowObject 9 7
-ObjectMotion (unnamed)
-  9
-  3
-  -16.03657 9.649999 -4.411574 -115.5 -89.99999 0 3 3 3
-  0 0 0 0 0
-  -16.03657 9.649999 -4.411574 -115.5 -89.99999 0 3 3 3
-  19 0 0 0 0
-  -16.03657 9.649999 -4.411574 -115.5 -89.99999 0 3 3 3
-  175 0 0 0 0
-EndBehavior 1
-LockedChannels 53
 ParentObject 15
-ObjDissolve (envelope)
-  1
-  3
-  1
-  0 0 0 0 0
-  1
-  86 1 0 0 0
-  0
-  128 0 0 0 0
-EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\VLdrill.lwo
-ShowObject 9 7
-ObjectMotion (unnamed)
-  9
-  2
-  0 0 0 0 0 180 1 1 1
-  0 0 0 0 0
-  0 0 0 0 0 180 1 1 1
-  175 0 0 0 0
-EndBehavior 1
-LockedChannels 16
-ParentObject 11
-ObjDissolve (envelope)
-  1
-  3
-  1
-  0 0 0 0 0
-  1
-  86 1 0 0 0
-  0
-  128 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
-ShowObject 9 7
-ObjectMotion (unnamed)
-  9
-  3
-  16.59364 4.199999 4.046978 38.3 0 0 2 2 2
-  0 0 0 0 0
-  16.59364 4.199999 4.046978 38.3 0 0 2 2 2
-  19 0 0 0 0
-  16.59364 4.199999 4.046978 38.3 0 0 2 2 2
-  175 0 0 0 0
-EndBehavior 1
-LockedChannels 50
-ParentObject 16
-ShadowOptions 7
-
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spanner.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\VLdrill.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
-  -16.54946 3.649999 3.948454 -37.40001 0 0 1.5 1.5 1.5
+  3.6824 11.6941 0.1095472 -115.5 -89.99999 0 3 3 3
   0 0 0 0 0
-  -16.54946 75.8 3.948454 -37.40001 0 0 1.5 1.5 1.5
+  3.6824 11.6941 0.1095472 -115.5 -89.99999 0 3 3 3
+  19 0 0 0 0
+  3.6824 11.6941 0.1095472 -115.5 -89.99999 0 3 3 3
+  175 0 0 0 0
+  3.6824 11.6941 0.1095472 -115.5 -89.99999 0 3 3 3
+  187 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 14
+ObjDissolve (envelope)
+  1
+  3
+  1
+  0 0 0 0 0
+  1
+  86 1 0 0 0
+  0
+  128 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  3
+  -3.7053 4.199999 -0.2707337 38.3 0 0 2 2 2
+  0 0 0 0 0
+  -3.7053 4.199999 -0.2707337 38.3 0 0 2 2 2
+  19 0 0 0 0
+  -3.7053 4.199999 -0.2707337 38.3 0 0 2 2 2
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 50
+ParentObject 15
+ShadowOptions 7
+
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spanner.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  5
+  -4.0541 4.509599 -0.12028 -37.40001 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  -4.0541 76.6596 -0.12028 -37.40001 0 0 1.5 1.5 1.5
   116 0 0 0 0
-  -16.54946 3.649999 3.948454 -37.40001 0 0 1.5 1.5 1.5
+  -4.0541 4.509599 -0.12028 -37.40001 0 0 1.5 1.5 1.5
   138 0 0 0 0
-  -16.54946 3.649999 3.948454 -37.40001 0 0 1.5 1.5 1.5
+  -4.0541 4.5096 -0.12028 -37.40001 0 0 1.5 1.5 1.5
+  140 0 0 0 0
+  -4.0541 4.509599 -0.12028 -37.40001 0 0 1.5 1.5 1.5
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 53
-ParentObject 15
+ParentObject 14
 ObjDissolve (envelope)
   1
   3
@@ -266,22 +246,28 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\ToolStand_L.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\ToolStand.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
-  4
-  0 263.9 0 -475.9999 0 0 1 1 1
+  7
+  -17 263.9 0 -385.9999 0 0 1 1 1
   0 0 0 0 0
-  0 93.6 0 -180.5 0 0 1 1 1
+  -17 93.6 0 -90 0 0 1 1 1
   86 0 0 0 0
-  0 1.5 0 0 0 0 1 1 1
+  -17 1.5 0 90 0 0 1 1 1
   128 0 0 0 0
-  0 1.5 0 0 0 0 1 1 1
+  -17 0.5903704 0 90 0 0 1 1 1
+  129 0 0 0 0
+  -17 1.5 0 90 0 0 1 1 1
+  131 0 0 0 0
+  -17 1.5 0 90 0 0 1 1 1
+  136 0 0 0 0
+  -17 1.5 0 90 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 32
-ParentObject 27
+ParentObject 26
 ObjDissolve (envelope)
   1
   3
@@ -294,33 +280,35 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\ToolStand_R.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\ToolStand.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
-  8
-  -83.20001 419.5 -62.39999 748.0001 0 0 1 1 1
+  9
+  17 419.5 0 838.0001 0 0 1 1 1
   0 0 0 0 0
-  9.450002 129.45 -14.85 304.2 0 0 1 1 1
+  17 129.45 0 394.2 0 0 1 1 1
   91 0 0 0 0
-  32.85589 84.4733 -3.433163 197.2683 0 0 1 1 1
+  17 84.4733 0 287.2683 0 0 1 1 1
   108 0 0 0 0
-  31.21057 60.41496 11.32752 140.0698 0 0 1 1 1
+  17 60.41496 0 230.0698 0 0 1 1 1
   114 0 0 0 0
-  16.4 38.35196 17 87.6152 0 0 1 1 1
+  17 38.35196 0 177.6152 0 0 1 1 1
   119 0 0 0 0
-  3.836809 17.7665 12.42201 38.67346 0 0 1 1 1
+  17 17.7665 0 128.6735 0 0 1 1 1
   124 0 0 0 0
-  0 1.5 0 0 0 0 1 1 1
+  17 1.5 0 90 0 0 1 1 1
   128 0 0 0 0
-  0 1.5 0 0 0 0 1 1 1
+  17 1.5 0 90 0 0 1 1 1
+  129 0 0 0 0
+  17 1.5 0 90 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 27
+ParentObject 26
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Y_Post.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Y_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -334,7 +322,7 @@ ObjectMotion (unnamed)
   -1.390235 0 2.027272 0 0 0 1 1 1
   187 0 0 0 0
 EndBehavior 1
-ParentObject 20
+ParentObject 19
 ObjDissolve (envelope)
   1
   3
@@ -347,7 +335,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\R_Post.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\R_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -361,7 +349,7 @@ ObjectMotion (unnamed)
   6.09597 0 1.984351 0 0 0 1 1 1
   187 0 0 0 0
 EndBehavior 1
-ParentObject 20
+ParentObject 19
 ObjDissolve (envelope)
   1
   3
@@ -374,7 +362,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Stripes.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Stripes.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -388,7 +376,7 @@ ObjectMotion (unnamed)
   3.5789 4.7505 0.5905935 0 89.99999 0 1 1 1
   176 0 0 0 0
 EndBehavior 1
-ParentObject 17
+ParentObject 16
 ObjDissolve (envelope)
   1
   3
@@ -413,7 +401,7 @@ ObjectMotion (unnamed)
   3 0 0 180 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
-ParentObject 21
+ParentObject 20
 ShadowOptions 7
 
 AddNullObject Barrier_MAIN
@@ -435,10 +423,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 27
+ParentObject 26
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Y_Post.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Y_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -452,7 +440,7 @@ ObjectMotion (unnamed)
   0 0 3.5692 0 0 0 1 1 1
   176 0 0 0 0
 EndBehavior 1
-ParentObject 25
+ParentObject 24
 ObjDissolve (envelope)
   1
   3
@@ -465,7 +453,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\R_Post.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\R_Post.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -478,7 +466,7 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 6
-ParentObject 25
+ParentObject 24
 ObjDissolve (envelope)
   1
   3
@@ -491,7 +479,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Stripes.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Stripes.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -505,7 +493,7 @@ ObjectMotion (unnamed)
   3.613082 4.740839 0.5939136 0 89.99999 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
-ParentObject 22
+ParentObject 21
 ObjDissolve (envelope)
   1
   3
@@ -522,7 +510,7 @@ AddNullObject Barrier_NULL2
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
-  4
+  5
   4.05 276.4 0 783.9999 0 0 1 1 1
   0 0 0 0 0
   4.05 94.7 0 432.9 0 0 1 1 1
@@ -530,10 +518,12 @@ ObjectMotion (unnamed)
   4.05 0 0 180 0 0 1 1 1
   109 0 0 0 0
   4.05 0 0 180 0 0 1 1 1
+  110 0 0 0 0
+  4.05 0 0 180 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 26
+ParentObject 25
 ShadowOptions 7
 
 AddNullObject Barrier_MAIN2
@@ -549,7 +539,7 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 50
-ParentObject 27
+ParentObject 26
 ShadowOptions 7
 
 AddNullObject PARENT_of_PARENTS
@@ -565,26 +555,26 @@ EndBehavior 1
 LockedChannels 5
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\DynamiteBox.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\DynamiteBox.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   8
-  22.47499 143.6 -34.52008 -530 136.8 0 1 1 1
+  21.05799 143.6 -36.64078 -550 136.8 0 1 1 1
   0 0 0 0 0
-  4.224991 77.39999 -1.970078 -292.7 69.1 0 1 1 1
+  2.807991 77.39999 -4.090778 -312.7 69.1 0 1 1 1
   81 0 0 0 0
-  0.5245268 59.11756 4.298699 -240.1 52.77808 0 1 1 1
+  -0.8924732 59.11756 2.177999 -260.1 52.77808 0 1 1 1
   95 0 0 0 0
-  2.360858 36.53336 14.50347 -175.12 32.6157 0 1 1 1
+  0.943858 36.53336 12.38277 -195.12 32.6157 0 1 1 1
   105 0 0 0 0
-  8.744011 17.53145 18.57879 -120.44 15.65146 0 1 1 1
+  7.327011 17.53145 16.45809 -140.44 15.65146 0 1 1 1
   113 0 0 0 0
-  11.9165 0 12.1207 -70 0 0 1 1 1
+  10.5 0 10 -90 0 0 1 1 1
   120 0 0 0 0
-  11.9165 0 12.1207 -70 0 0 1 1 1
+  10.5 0 10 -90 0 0 1 1 1
   121 0 0 0 0
-  11.9165 0 12.1207 -70 0 0 1 1 1
+  10.5 0 10 -90 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
 ObjDissolve (envelope)
@@ -601,18 +591,18 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\L_hammer.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\L_hammer.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
-  16.11125 378.8 18.5589 -1085.8 -58.40002 -31.65 4.340001 4.340001 4.340001
+  16.11125 378.8 16.6042 -1085.8 -58.40002 -31.65 4.340001 4.340001 4.340001
   0 0 0 0 0
-  16.11125 136 18.5589 -314.4 -29.00002 -31.65 4.340001 4.340001 4.340001
+  16.11125 136 16.6042 -314.4 -29.00002 -31.65 4.340001 4.340001 4.340001
   103 0 0 0 0
-  16.11125 1.1413 18.5589 108.2 -10.40002 -31.65 4.340001 4.340001 4.340001
+  16.11125 1.1413 16.6042 108.2 -10.40002 -31.65 4.340001 4.340001 4.340001
   165 0 0 0 0
-  16.11125 1.1413 18.5589 108.2 -10.40002 -31.65 4.340001 4.340001 4.340001
+  16.11125 1.1413 16.6042 108.2 -10.40002 -31.65 4.340001 4.340001 4.340001
   175 0 0 0 0
 EndBehavior 1
 ObjDissolve (envelope)
@@ -627,7 +617,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -654,7 +644,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\PickAxe.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -677,33 +667,6 @@ ObjDissolve (envelope)
   47 1 0 0 0
   0
   92 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\ToolStation\Spade.lwo
-ShowObject 9 7
-ObjectMotion (unnamed)
-  9
-  4
-  8.549409 6.800005 -8.910096 362.2999 376.2999 0 2 2 2
-  0 0 0 0 0
-  8.549409 53.8 -8.910096 710.6999 381.2998 0 2 2 2
-  112 0 0 0 0
-  8.549409 6.800005 -8.910096 362.2999 376.2999 0 2 2 2
-  150 0 0 0 0
-  8.549409 6.800005 -8.910096 362.2999 376.2999 0 2 2 2
-  175 0 0 0 0
-EndBehavior 1
-ParentObject 16
-ObjDissolve (envelope)
-  1
-  3
-  1
-  0 0 0 0 0
-  1
-  112 1 0 0 0
-  0
-  150 0 0 0 0
 EndBehavior 1
 ShadowOptions 7
 
@@ -755,10 +718,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 53
-ParentObject 33
+ParentObject 31
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -791,10 +754,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 133
-ParentObject 34
+ParentObject 32
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust2.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust2.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -825,10 +788,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 179
-ParentObject 34
+ParentObject 32
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust3.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust3.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -859,10 +822,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 179
-ParentObject 34
+ParentObject 32
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust4.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust4.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -889,10 +852,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 179
-ParentObject 34
+ParentObject 32
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -923,10 +886,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 179
-ParentObject 34
+ParentObject 32
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust3.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust3.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -957,10 +920,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 179
-ParentObject 34
+ParentObject 32
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust2.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust2.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -989,10 +952,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 179
-ParentObject 34
+ParentObject 32
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust4.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Dust4.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1021,7 +984,7 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 179
-ParentObject 34
+ParentObject 32
 ShadowOptions 7
 
 AddNullObject Null
@@ -1047,7 +1010,7 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 373
-ParentObject 33
+ParentObject 31
 ShadowOptions 7
 
 AddNullObject Null
@@ -1086,10 +1049,10 @@ ObjectMotion (unnamed)
 EndBehavior 1
 LockedChannels 325
 PivotPoint -0.49 0 1.36
-ParentObject 53
+ParentObject 51
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1112,10 +1075,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 389
-ParentObject 44
+ParentObject 42
 ShadowOptions 0
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1138,10 +1101,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 374
-ParentObject 44
+ParentObject 42
 ShadowOptions 0
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1164,10 +1127,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 374
-ParentObject 44
+ParentObject 42
 ShadowOptions 0
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1190,10 +1153,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 374
-ParentObject 44
+ParentObject 42
 ShadowOptions 0
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1216,10 +1179,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 371
-ParentObject 44
+ParentObject 42
 ShadowOptions 0
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1242,10 +1205,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 366
-ParentObject 44
+ParentObject 42
 ShadowOptions 0
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1268,10 +1231,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 366
-ParentObject 44
+ParentObject 42
 ShadowOptions 0
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Telepthings.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1294,7 +1257,7 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 426
-ParentObject 44
+ParentObject 42
 ShadowOptions 0
 
 AddNullObject Size_NULL
@@ -1314,10 +1277,10 @@ ObjectMotion (unnamed)
   13 1 1 0 0
 EndBehavior 1
 LockedChannels 387
-ParentObject 43
+ParentObject 41
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\TelePulse.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\TelePulse.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1342,10 +1305,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 197
-ParentObject 56
+ParentObject 54
 ShadowOptions 0
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\TelePulse.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\TelePulse.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1382,7 +1345,7 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 133
-ParentObject 56
+ParentObject 54
 ShadowOptions 0
 
 AddNullObject TelePulse_Null
@@ -1395,7 +1358,7 @@ ObjectMotion (unnamed)
   0 1.85 0 0 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
-ParentObject 33
+ParentObject 31
 ShadowOptions 7
 
 AddNullObject Position_NULL
@@ -1409,7 +1372,7 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 53
-ParentObject 58
+ParentObject 56
 ShadowOptions 7
 
 AddNullObject Parent_NULL
@@ -1424,7 +1387,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1454,7 +1417,7 @@ ObjectMotion (unnamed)
   0 -4.699814 -5.199998 944 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
-ParentObject 58
+ParentObject 56
 ObjDissolve (envelope)
   1
   14
@@ -1489,7 +1452,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1517,7 +1480,7 @@ ObjectMotion (unnamed)
   15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
   175 0 0 0 0
 EndBehavior 1
-ParentObject 58
+ParentObject 56
 ObjDissolve (envelope)
   1
   18
@@ -1560,7 +1523,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1593,7 +1556,7 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 58
+ParentObject 56
 ObjDissolve (envelope)
   1
   20
@@ -1640,7 +1603,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint4.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint4.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1668,7 +1631,7 @@ ObjectMotion (unnamed)
   3.868003 -1.699999 12.98001 -1406.3 0 0 1.3 1.3 1.3
   175 0 0 0 0
 EndBehavior 1
-ParentObject 58
+ParentObject 56
 ObjDissolve (envelope)
   1
   17
@@ -1709,7 +1672,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint5.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint5.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1741,7 +1704,7 @@ ObjectMotion (unnamed)
   -8.3 30.90002 0.1000016 -860 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
-ParentObject 58
+ParentObject 56
 ObjDissolve (envelope)
   1
   17
@@ -1782,7 +1745,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint6.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint6.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1814,7 +1777,7 @@ ObjectMotion (unnamed)
   3.316498 83.08528 12.65727 -1238.511 0 0 1.3 1.63 1.3
   175 0 0 0 0
 EndBehavior 1
-ParentObject 58
+ParentObject 56
 ObjDissolve (envelope)
   1
   16
@@ -1853,7 +1816,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint7.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint7.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1885,7 +1848,7 @@ ObjectMotion (unnamed)
   1.199999 30.90002 9.7 -860 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
-ParentObject 58
+ParentObject 56
 ObjDissolve (envelope)
   1
   17
@@ -1934,10 +1897,10 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 1 1 1
   0 0 0 0 0
 EndBehavior 1
-ParentObject 58
+ParentObject 56
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -1965,7 +1928,7 @@ ObjectMotion (unnamed)
   15.39079 -5 2.69047 -2481.464 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
-ParentObject 68
+ParentObject 66
 ObjDissolve (envelope)
   1
   15
@@ -2029,10 +1992,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 58
+ParentObject 56
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2060,7 +2023,7 @@ ObjectMotion (unnamed)
   -25.36 38 -1.979999 -1406.3 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
-ParentObject 70
+ParentObject 68
 ObjDissolve (envelope)
   1
   21
@@ -2138,10 +2101,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 2096
-ParentObject 58
+ParentObject 56
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2176,7 +2139,7 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 72
+ParentObject 70
 ObjDissolve (envelope)
   1
   20
@@ -2250,10 +2213,289 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 58
+ParentObject 56
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  13
+  0 126.2 -6.000006 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  48 0 0 0 0
+  0 -5.200022 -5.500001 428.8 0 0 1 1 1
+  49 0 0 0 0
+  0 149.5001 15.5 440.8 0 0 1 1 1
+  50 0 0 0 0
+  0 149.5001 15.5 448.8 0 0 1 1 1
+  51 0 0 0 0
+  0 -2.699942 17.3 836.7996 0 0 1 1 1
+  103 0 0 0 0
+  0 -3.899941 17.5 832.7997 0 0 1 1 1
+  104 0 0 0 0
+  0 111.6001 -20.3 8.799994 0 0 1 1 1
+  105 0 0 0 0
+  0 111.6001 -20.3 -3.200016 0 0 1 1 1
+  106 0 0 0 0
+  0 -4.599904 -16.1 428.8 0 0 1 1 1
+  159 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  160 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  174 0 0 0 0
+  0 -4.599904 -16.1 436.8 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 48
+ParentObject 72
+ObjDissolve (envelope)
+  1
+  20
+  1
+  0 0 0 0 0
+  1
+  6 0 0 0 0
+  1
+  7 0 0 0 0
+  0.256
+  32 0 0 0 0
+  0
+  43 0 0 0 0
+  0
+  44 0 0 0 0
+  1
+  45 0 0 0 0
+  1
+  46 0 0 0 0
+  1
+  55 0 0 0 0
+  1
+  56 0 0 0 0
+  0.196
+  88 0 0 0 0
+  0
+  102 0 0 0 0
+  0
+  103 0 0 0 0
+  1
+  104 0 0 0 0
+  1
+  105 0 0 0 0
+  1
+  110 0 0 0 0
+  1
+  111 0 0 0 0
+  0.228
+  146 0 0 0 0
+  0.064
+  161 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+AddNullObject Null
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  13
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  0 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  48 0 0 0 0
+  -4.432008 -14.1 12.15727 0 0 0 1 1 1
+  49 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  50 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  51 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  103 0 0 0 0
+  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
+  104 0 0 0 0
+  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
+  105 0 0 0 0
+  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
+  106 0 0 0 0
+  5.773265 5.799998 -3.351105 80.00002 -0.2 0 1 1 1
+  158 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  163 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  164 0 0 0 0
+  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 56
+ShadowOptions 7
+
+AddNullObject Position_NULL
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  0 0 0 0 0
+  0 -1.1 -6.599997 0 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 53
+ParentObject 74
+ShadowOptions 7
+
+AddNullObject Parent_NULL
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  2
+  0 0 0 180 0 0 1 1.4 1
+  0 0 0 0 0
+  0 0 0 180 0 0 1 1.4 1
+  175 0 0 0 0
+EndBehavior 1
+LockedChannels 320
+ParentObject 56
+ShadowOptions 7
+
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  12
+  0 157.7002 -0.2 0 0 0 1 1 1
+  0 0 0 0 0
+  0 157.7002 -0.2 216.0001 0 0 1 1 1
+  27 0 0 0 0
+  0 157.7002 -0.2 224 0 0 1 1 1
+  28 0 0 0 0
+  -6.199999 -2.099832 8.799996 528.0001 0 0 1 1 1
+  84 0 0 0 0
+  -6.4 -5.599831 8.999997 543.9999 0 0 1 1 1
+  87 0 0 0 0
+  -6.6 -6.999829 8.499994 552 0 0 1 1 1
+  88 0 0 0 0
+  0 147.6002 -15.5 559.9999 0 0 1 1 1
+  89 0 0 0 0
+  0 146.2001 -14.6 568 0 0 1 1 1
+  90 0 0 0 0
+  0 -4.699814 -5.199998 872.0001 0 0 1 1 1
+  156 0 0 0 0
+  0 -4.699814 -5.199998 872 0 0 1 1 1
+  157 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  174 0 0 0 0
+  0 -4.699814 -5.199998 944 0 0 1 1 1
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 74
+ObjDissolve (envelope)
+  1
+  14
+  1
+  0 0 0 0 0
+  1
+  27 0 0 0 0
+  1
+  28 0 0 0 0
+  0.236
+  57 0 0 0 0
+  0
+  84 0 0 0 0
+  0
+  85 0 0 0 0
+  1
+  86 0 0 0 0
+  1
+  87 0 0 0 0
+  1
+  92 0 0 0 0
+  0.208
+  129 0 0 0 0
+  0.064
+  143 0 0 0 0
+  0
+  158 0 0 0 0
+  0
+  159 0 0 0 0
+  0
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+ShowObject 9 7
+ObjectMotion (unnamed)
+  9
+  11
+  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
+  0 0 0 0 0
+  0 -12.2 -0.2999997 -705.45 0 0 1.5 1.5 1.5
+  46 0 0 0 0
+  0 -12.2 -0.2999997 -720.45 0 0 1.5 1.5 1.5
+  47 0 0 0 0
+  0 -12.2 -0.2999997 -738.4498 0 0 1.5 1.5 1.5
+  48 0 0 0 0
+  10.8 127 6.400001 -756.4497 0 0 1.5 1.5 1.5
+  49 0 0 0 0
+  10.8 123 6.399998 -774.4495 0 0 1.5 1.5 1.5
+  50 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
+  113 0 0 0 0
+  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
+  114 0 0 0 0
+  15.28 128.6 2.6 -1584.45 0 0 1.5 1.5 1.5
+  115 0 0 0 0
+  15.36 126 2.639999 -1614.45 0 0 1.5 1.5 1.5
+  116 0 0 0 0
+  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
+  175 0 0 0 0
+EndBehavior 1
+ParentObject 74
+ObjDissolve (envelope)
+  1
+  18
+  1
+  0 0 0 0 0
+  0
+  44 0 0 0 0
+  0
+  45 0 0 0 0
+  1
+  46 0 0 0 0
+  1
+  47 0 0 0 0
+  1
+  53 0 0 0 0
+  1
+  54 0 0 0 0
+  0.304
+  84 0 0 0 0
+  0
+  111 0 0 0 0
+  0
+  112 0 0 0 0
+  1
+  113 0 0 0 0
+  1
+  114 0 0 0 0
+  1
+  119 0 0 0 0
+  1
+  120 0 0 0 0
+  0.592
+  137 0 0 0 0
+  0.464
+  149 0 0 0 0
+  0.596
+  163 0 0 0 0
+  1
+  175 0 0 0 0
+EndBehavior 1
+ShadowOptions 7
+
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2299,285 +2541,6 @@ ObjDissolve (envelope)
   0.256
   32 0 0 0 0
   0
-  43 0 0 0 0
-  0
-  44 0 0 0 0
-  1
-  45 0 0 0 0
-  1
-  46 0 0 0 0
-  1
-  55 0 0 0 0
-  1
-  56 0 0 0 0
-  0.196
-  88 0 0 0 0
-  0
-  102 0 0 0 0
-  0
-  103 0 0 0 0
-  1
-  104 0 0 0 0
-  1
-  105 0 0 0 0
-  1
-  110 0 0 0 0
-  1
-  111 0 0 0 0
-  0.228
-  146 0 0 0 0
-  0.064
-  161 0 0 0 0
-  0
-  175 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-AddNullObject Null
-ShowObject 9 7
-ObjectMotion (unnamed)
-  9
-  13
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  0 0 0 0 0
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  48 0 0 0 0
-  -4.432008 -14.1 12.15727 0 0 0 1 1 1
-  49 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  50 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  51 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  103 0 0 0 0
-  2.067992 -4.400002 -4.342731 0 0 0 1 1 1
-  104 0 0 0 0
-  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
-  105 0 0 0 0
-  8.873267 -4.400002 -2.351107 80.00002 -0.2 0 1 1 1
-  106 0 0 0 0
-  5.773265 5.799998 -3.351105 80.00002 -0.2 0 1 1 1
-  158 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  163 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  164 0 0 0 0
-  6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
-  175 0 0 0 0
-EndBehavior 1
-ParentObject 58
-ShadowOptions 7
-
-AddNullObject Position_NULL
-ShowObject 9 7
-ObjectMotion (unnamed)
-  9
-  2
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  0 0 0 0 0
-  0 -1.1 -6.599997 0 0 0 1 1 1
-  175 0 0 0 0
-EndBehavior 1
-LockedChannels 53
-ParentObject 76
-ShadowOptions 7
-
-AddNullObject Parent_NULL
-ShowObject 9 7
-ObjectMotion (unnamed)
-  9
-  2
-  0 0 0 180 0 0 1 1.4 1
-  0 0 0 0 0
-  0 0 0 180 0 0 1 1.4 1
-  175 0 0 0 0
-EndBehavior 1
-LockedChannels 320
-ParentObject 58
-ShadowOptions 7
-
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
-ShowObject 9 7
-ObjectMotion (unnamed)
-  9
-  12
-  0 157.7002 -0.2 0 0 0 1 1 1
-  0 0 0 0 0
-  0 157.7002 -0.2 216.0001 0 0 1 1 1
-  27 0 0 0 0
-  0 157.7002 -0.2 224 0 0 1 1 1
-  28 0 0 0 0
-  -6.199999 -2.099832 8.799996 528.0001 0 0 1 1 1
-  84 0 0 0 0
-  -6.4 -5.599831 8.999997 543.9999 0 0 1 1 1
-  87 0 0 0 0
-  -6.6 -6.999829 8.499994 552 0 0 1 1 1
-  88 0 0 0 0
-  0 147.6002 -15.5 559.9999 0 0 1 1 1
-  89 0 0 0 0
-  0 146.2001 -14.6 568 0 0 1 1 1
-  90 0 0 0 0
-  0 -4.699814 -5.199998 872.0001 0 0 1 1 1
-  156 0 0 0 0
-  0 -4.699814 -5.199998 872 0 0 1 1 1
-  157 0 0 0 0
-  0 -4.699814 -5.199998 944 0 0 1 1 1
-  174 0 0 0 0
-  0 -4.699814 -5.199998 944 0 0 1 1 1
-  175 0 0 0 0
-EndBehavior 1
-ParentObject 76
-ObjDissolve (envelope)
-  1
-  14
-  1
-  0 0 0 0 0
-  1
-  27 0 0 0 0
-  1
-  28 0 0 0 0
-  0.236
-  57 0 0 0 0
-  0
-  84 0 0 0 0
-  0
-  85 0 0 0 0
-  1
-  86 0 0 0 0
-  1
-  87 0 0 0 0
-  1
-  92 0 0 0 0
-  0.208
-  129 0 0 0 0
-  0.064
-  143 0 0 0 0
-  0
-  158 0 0 0 0
-  0
-  159 0 0 0 0
-  0
-  175 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
-ShowObject 9 7
-ObjectMotion (unnamed)
-  9
-  11
-  0 117.4 -0.4 0 0 0 1.5 1.5 1.5
-  0 0 0 0 0
-  0 -12.2 -0.2999997 -705.45 0 0 1.5 1.5 1.5
-  46 0 0 0 0
-  0 -12.2 -0.2999997 -720.45 0 0 1.5 1.5 1.5
-  47 0 0 0 0
-  0 -12.2 -0.2999997 -738.4498 0 0 1.5 1.5 1.5
-  48 0 0 0 0
-  10.8 127 6.400001 -756.4497 0 0 1.5 1.5 1.5
-  49 0 0 0 0
-  10.8 123 6.399998 -774.4495 0 0 1.5 1.5 1.5
-  50 0 0 0 0
-  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
-  113 0 0 0 0
-  10.88 -12.2 6.399998 -1554.45 0 0 1.5 1.5 1.5
-  114 0 0 0 0
-  15.28 128.6 2.6 -1584.45 0 0 1.5 1.5 1.5
-  115 0 0 0 0
-  15.36 126 2.639999 -1614.45 0 0 1.5 1.5 1.5
-  116 0 0 0 0
-  15.39079 -5 2.69047 -2481.464 0 0 1.5 1.5 1.5
-  175 0 0 0 0
-EndBehavior 1
-ParentObject 76
-ObjDissolve (envelope)
-  1
-  18
-  1
-  0 0 0 0 0
-  0
-  44 0 0 0 0
-  0
-  45 0 0 0 0
-  1
-  46 0 0 0 0
-  1
-  47 0 0 0 0
-  1
-  53 0 0 0 0
-  1
-  54 0 0 0 0
-  0.304
-  84 0 0 0 0
-  0
-  111 0 0 0 0
-  0
-  112 0 0 0 0
-  1
-  113 0 0 0 0
-  1
-  114 0 0 0 0
-  1
-  119 0 0 0 0
-  1
-  120 0 0 0 0
-  0.592
-  137 0 0 0 0
-  0.464
-  149 0 0 0 0
-  0.596
-  163 0 0 0 0
-  1
-  175 0 0 0 0
-EndBehavior 1
-ShadowOptions 7
-
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
-ShowObject 9 7
-ObjectMotion (unnamed)
-  9
-  13
-  0 126.2 -6.000006 0 0 0 1 1 1
-  0 0 0 0 0
-  0 -5.200022 -5.500001 428.8 0 0 1 1 1
-  48 0 0 0 0
-  0 -5.200022 -5.500001 428.8 0 0 1 1 1
-  49 0 0 0 0
-  0 149.5001 15.5 440.8 0 0 1 1 1
-  50 0 0 0 0
-  0 149.5001 15.5 448.8 0 0 1 1 1
-  51 0 0 0 0
-  0 -2.699942 17.3 836.7996 0 0 1 1 1
-  103 0 0 0 0
-  0 -3.899941 17.5 832.7997 0 0 1 1 1
-  104 0 0 0 0
-  0 111.6001 -20.3 8.799994 0 0 1 1 1
-  105 0 0 0 0
-  0 111.6001 -20.3 -3.200016 0 0 1 1 1
-  106 0 0 0 0
-  0 -4.599904 -16.1 428.8 0 0 1 1 1
-  159 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  160 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  174 0 0 0 0
-  0 -4.599904 -16.1 436.8 0 0 1 1 1
-  175 0 0 0 0
-EndBehavior 1
-LockedChannels 48
-ParentObject 76
-ObjDissolve (envelope)
-  1
-  20
-  1
-  0 0 0 0 0
-  1
-  6 0 0 0 0
-  1
-  7 0 0 0 0
-  0.256
-  32 0 0 0 0
-  0
   48 0 0 0 0
   0
   49 0 0 0 0
@@ -2612,7 +2575,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint4.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint4.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2640,7 +2603,7 @@ ObjectMotion (unnamed)
   3.868003 -1.699999 12.98001 -1406.3 0 0 1.3 1.3 1.3
   175 0 0 0 0
 EndBehavior 1
-ParentObject 76
+ParentObject 74
 ObjDissolve (envelope)
   1
   17
@@ -2681,7 +2644,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint5.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint5.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2713,7 +2676,7 @@ ObjectMotion (unnamed)
   -8.3 30.90002 0.1000016 -860 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
-ParentObject 76
+ParentObject 74
 ObjDissolve (envelope)
   1
   17
@@ -2754,7 +2717,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint6.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint6.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2786,7 +2749,7 @@ ObjectMotion (unnamed)
   3.316498 83.08528 12.65727 -1238.511 0 0 1.3 1.63 1.3
   175 0 0 0 0
 EndBehavior 1
-ParentObject 76
+ParentObject 74
 ObjDissolve (envelope)
   1
   16
@@ -2825,7 +2788,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint7.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint7.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2857,7 +2820,7 @@ ObjectMotion (unnamed)
   1.199999 30.90002 9.7 -860 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
-ParentObject 76
+ParentObject 74
 ObjDissolve (envelope)
   1
   17
@@ -2906,10 +2869,10 @@ ObjectMotion (unnamed)
   0 0 0 0 0 0 1 1 1
   0 0 0 0 0
 EndBehavior 1
-ParentObject 76
+ParentObject 74
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint2.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -2937,7 +2900,7 @@ ObjectMotion (unnamed)
   15.39079 -5 2.69047 -2481.464 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
-ParentObject 86
+ParentObject 84
 ObjDissolve (envelope)
   1
   15
@@ -3001,10 +2964,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 76
+ParentObject 74
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint1.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3032,7 +2995,7 @@ ObjectMotion (unnamed)
   -25.36 38 -1.979999 -1406.3 0 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
-ParentObject 88
+ParentObject 86
 ObjDissolve (envelope)
   1
   21
@@ -3110,10 +3073,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 2096
-ParentObject 76
+ParentObject 74
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3148,7 +3111,7 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 90
+ParentObject 88
 ObjDissolve (envelope)
   1
   20
@@ -3222,10 +3185,10 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 76
+ParentObject 74
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
+LoadObject C:\Modding\Rock-Raiders-Reloaded\Data\World\Shared\Glint3.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -3258,7 +3221,7 @@ ObjectMotion (unnamed)
   175 0 0 0 0
 EndBehavior 1
 LockedChannels 48
-ParentObject 92
+ParentObject 90
 ObjDissolve (envelope)
   1
   20
@@ -3337,7 +3300,7 @@ ObjectMotion (unnamed)
   6.073267 -4.000002 -3.551104 80.00002 -0.2 0 1 1 1
   175 0 0 0 0
 EndBehavior 1
-ParentObject 76
+ParentObject 74
 ShadowOptions 7
 
 AddNullObject SFX,SND_StartTel,2
@@ -3401,7 +3364,7 @@ CameraMotion (unnamed)
 EndBehavior 1
 ZoomFactor 5.47
 Resolution 0
-CustomSize 160 120
+CustomSize 80 60
 PixelAspectRatio -1
 CustomPixelRatio 1
 MaskPosition 0 0 640 480
@@ -3435,9 +3398,9 @@ RGBImageFormat 2
 SaveAlpha 0
 
 ViewType 7
-ViewAimpoint 12.65402 4.4 -11.44409
-ViewDirection -29.22194 -1.523662 0
-ViewZoomFactor 1.055795
+ViewAimpoint -3.476139 4.4 -5.777915
+ViewDirection -22.12725 -1.335172 0
+ViewZoomFactor 2.493772
 
 GridNumber 60
 GridSize 5
