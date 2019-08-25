@@ -129,6 +129,9 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.18.218
+- Renamed music tracks.
+
 v0.18.217
 - Added missing stand animations for the small monsters and uncommented the activity for them.
 
