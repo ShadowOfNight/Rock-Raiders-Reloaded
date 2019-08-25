@@ -129,6 +129,9 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.18.216
+- Added WIP first main campaign mission.
+
 v0.18.215
 - Replaced Tool Store dynamite box model (again) with correct high-polygon version based on the in-game render.
 - Replaced Tool Store tool stand models with my high-polygon version.
