@@ -137,6 +137,20 @@ Vehicles\WalkerBody\LPWD_Drill1.lws
 
 
 ------------------------------------------------
+FloodLight.lwo used by:
+
+Vehicles\Bulldozer\S_Teleport_Bull.lws
+
+Vehicles\LargeDigger\S_Teleport_B_DIG.lws
+
+Vehicles\LargeHeli\S_Teleport_HELI.lws
+
+Vehicles\LMLP\S_Teleport_L_MLP.lws
+
+Vehicles\SMLP\S_Teleport_S_MLP.lws
+
+Called by the cfg for use as the Light shared upgrade.
+------------------------------------------------
 LightSpangleB.lwo used by:
 
 Creatures\IceMonster\Carry_RestStand.lws

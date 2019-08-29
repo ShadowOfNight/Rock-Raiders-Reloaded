@@ -41,6 +41,8 @@ Shared\Models\LightSpangleR.lwo
 ------------------------------------------
 LightSpangleY.bmp used by:
 
+Shared\Models\FloodLight.lwo
+
 Shared\Models\LightSpangleY.lwo
 
 ------------------------------------------
@@ -49,6 +51,7 @@ PlasmaArc0000-14.bmp used by:
 MiscObjs\Weapons\PlasmaBeam\PlasmaTail.lwo
 
 MiscObjs\Weapons\PlasmaExplosion\PlasmaSpark.lwo
+
 ------------------------------------------
 PlasmaSnake.bmp used by:
 
@@ -82,3 +85,6 @@ TransSide.bmp used by:
 Shared\Models\Trans_Tube.lwo
 
 ------------------------------------------
+Yellowglow.bmp used by:
+
+Shared\Models\FloodLight.lwo

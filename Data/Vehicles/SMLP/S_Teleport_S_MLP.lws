@@ -781,7 +781,7 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SharedUG\HeliLight.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SharedUG\FloodLight.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
@@ -807,7 +807,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SharedUG\HeliLight.lwo
+LoadObject \\Mother\lego\Meshes\PC_Meshes\Vehicles\SharedUG\FloodLight.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9

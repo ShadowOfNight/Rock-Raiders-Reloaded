@@ -821,7 +821,7 @@ EndBehavior 1
 LockedChannels 5
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\HeliLight.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\FloodLight.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9
@@ -850,7 +850,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\HeliLight.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\World\Shared\FloodLight.lwo
 ShowObject 1 7
 ObjectMotion (unnamed)
   9

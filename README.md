@@ -129,6 +129,11 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.18.228
+- Replaced vehicle floodlight model with my high-polygon version. 
+- Removed old textures for floodlight model.
+- Relinked cfg entry for the shared floodlight.
+
 v0.18.218
 - Renamed music tracks.
 
