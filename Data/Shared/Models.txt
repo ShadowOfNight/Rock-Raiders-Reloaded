@@ -148,8 +148,11 @@ Vehicles\LargeHeli\S_Teleport_HELI.lws
 Vehicles\LMLP\S_Teleport_L_MLP.lws
 
 Vehicles\SMLP\S_Teleport_S_MLP.lws
+------------------------------------------------
+LightBeamYW.lwo used by:
 
-Called by the cfg for use as the Light shared upgrade.
+Vehicles\Bulldozer\S_Teleport_Bull.lws
+
 ------------------------------------------------
 LightSpangleB.lwo used by:
 

@@ -129,6 +129,13 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.18.238
+- Added separate models for floodlight and light beam cone.
+- Modified upgrade entry for the light upgrade.
+- Added texture for light beam cone.
+- Altered shared folder setup.
+- Modified Loader Dozer teleport animation to include new light flickering effect.
+
 v0.18.228
 - Replaced vehicle floodlight model with my high-polygon version. 
 - Removed old textures for floodlight model.

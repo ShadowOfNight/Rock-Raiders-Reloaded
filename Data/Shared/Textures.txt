@@ -24,6 +24,11 @@ green0001-18.bmp (sequence) used by:
 Shared\Models\Telepthings.lwo
 
 -----------------------------------------
+LightBeamYW.bmp used by:
+
+Shared\Models\FloodLight.lwo
+
+-----------------------------------------
 LightSpangleB.bmp used by:
 
 Shared\Models\LightSpangleB.lwo

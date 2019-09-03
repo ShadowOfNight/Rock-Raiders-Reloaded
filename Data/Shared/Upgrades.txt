@@ -1,0 +1,16 @@
+UPGRADE LIST
+===========================
+FloodLight_w_cone.lwo used by:
+
+Vehicles\Bulldozer
+
+Vehicles\LargeDigger
+
+Vehicles\LargeHeli
+
+Vehicles\LMLP
+
+Vehicles\SMLP
+
+Called by the cfg for use as the Light shared upgrade.
+-------------------------------------------------------
