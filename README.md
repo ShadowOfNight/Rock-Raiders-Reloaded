@@ -131,6 +131,9 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.19.001
+- Fixed a sizing issue on two bricks on the electric fence model.
+
 v0.19.000
 - Replaced Barracks/SupportStation with my high-polygon version (FINALLY).
 - Added high-resolution versions of Stripes16.bmp, DangerArrow.bmp; along with top textures for the Barracks courtesy frozen snow.
