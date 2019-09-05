@@ -12,6 +12,21 @@ Shared\Models\BaseLarge.lwo
               BaseSmall.lwo
 
 ----------------------
+DangerArrow.bmp used by:
+
+Buildings\Barracks\Barracks.lwo
+
+-----------------------------------------
+Drill_Logo.bmp used by:
+
+Buildings\Barracks\Barracks.lwo
+
+-----------------------------------------
+Fvent.bmp used by:
+
+Buildings\Barracks\Barracks.lwo
+
+-----------------------------------------
 Dynamite.bmp used by:
 
 Buildings\ToolStation\DynamiteBox.lwo
@@ -67,9 +82,16 @@ Stripes16.bmp used by:
 
 Shared\Models\Stripes.lwo
 
+Buildings\Barracks\Barracks.lwo
+
 MiscObjs\Barrier\Stripes_long.lwo
 
 ------------------------------------------
+Stripes16_R.bmp used by:
+
+Buildings\Barracks\Barracks.lwo
+
+-----------------------------------------
 T_Circ.bmp used by:
 
 Shared\Models\Trans_Circ.lwo

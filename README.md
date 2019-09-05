@@ -54,7 +54,9 @@ Cyrem:
 
 frozen snow (aka rockboy)
 - For help, suggestions, and keeping me motivated to finish this project.
-- High-resolution electric fence slope texture.
+- High-resolution electric fence slope texture (Stripes.bmp).
+- High-resolution Stripes16.bmp and DangerArrow.bmp.
+- High-resolution Barracks top textures (Toptex1.bmp and Toptex2.bmp).
 
 Jessietail: 
 - For advice, help, ideas, and many contributions to this project.
@@ -129,6 +131,14 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.19.000
+- Replaced Barracks/SupportStation with my high-polygon version (FINALLY).
+- Added high-resolution versions of Stripes16.bmp, DangerArrow.bmp; along with top textures for the Barracks courtesy frozen snow.
+- Updated shared assets.
+- Removed two leftover textures for old floodlight model (apparently these weren't removed).
+- Added previously unused control panel texture for Barracks.
+- Redid stand and unpowered animations for the Barracks (teleport and explosion will be redone at a later date).
+
 v0.18.238
 - Added separate models for floodlight and light beam cone.
 - Modified upgrade entry for the light upgrade.

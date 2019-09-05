@@ -207,7 +207,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Barracks\Left.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Barracks\LeftSlope.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9
@@ -242,7 +242,7 @@ ObjDissolve (envelope)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Barracks\Right.lwo
+LoadObject \\Modding\Rock-Raiders-Reloaded\Data\Buildings\Barracks\RightSlope.lwo
 ShowObject 9 7
 ObjectMotion (unnamed)
   9

@@ -1,35 +1,28 @@
 Lego* {
-
 	Scale				1.0
 	Shape				0,-1:0,-1
 	DepositNullName			Deposit_Null
 
 	Activities {
-		
 		Activity_Stand					Stand
 		Activity_Teleport				Create				
 		Activity_Explode				Explode
 		Activity_Unpowered				PowerOff
-
 	}
-
 	PowerOff {
 		FILE		Barracks_Idle
 		LWSFILE		TRUE
 	}
-
 	Stand {
 		FILE		Barracks_Steam
 		TRANSCOEF	0.0
 		LWSFILE		TRUE
 	}
-
 	Create {
 		FILE		Barrackstele
 		TRANSCOEF	0.0
 		LWSFILE		TRUE
 	}
-
 	Explode {
 		FILE		BarracksExplode2
 		LWSFILE		TRUE

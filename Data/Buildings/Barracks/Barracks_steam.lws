@@ -1,16 +1,18 @@
 LWSC
 1
 
+RenderRangeType 0
 FirstFrame 0
 LastFrame 25
 FrameStep 1
+RenderRangeArbitrary 0-25
 PreviewFirstFrame 0
 PreviewLastFrame 25
 PreviewFrameStep 1
-FramesPerSecond 25.000000
+FramesPerSecond 25
 
-LoadObject \\BaseSmall.lwo
-ShowObject 8 7
+LoadObject \\Rock-Raiders-Reloaded\Data\Shared\Models\BaseSmall.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -23,14 +25,14 @@ LockedChannels 5
 ParentObject 3
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Barracks\LPbarracks.lwo
-ShowObject 8 7
+LoadObject \\Rock-Raiders-Reloaded\Data\Buildings\Barracks\Barracks.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
-  0 4.449999 0 0 0 0 1 1 1
+  0 1.45 0 0 0 0 1 1 1
   0 0 0 0 0
-  0 4.449999 0 0 0 0 1 1 1
+  0 1.45 0 0 0 0 1 1 1
   25 0 0 0 0
 EndBehavior 1
 LockedChannels 37
@@ -38,7 +40,7 @@ ParentObject 3
 ShadowOptions 7
 
 AddNullObject Parent_Null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -49,84 +51,52 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Barracks\LPbarrLite1.lwo
-ShowObject 8 7
-ObjectMotion (unnamed)
-  9
-  2
-  0 0 0 0 0 0 1 1 1
-  0 0 0 0 0
-  0 0 0 0 0 0 1 1 1
-  25 0 0 0 0
-EndBehavior 1
-LockedChannels 51
-ParentObject 2
-ShadowOptions 7
-
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Barracks\SideFlap.lwo
-ShowObject 8 7
-ObjectMotion (unnamed)
-  9
-  4
-  0.134444 5.7 -6.2 -90 0 -90 1 0.4 1
-  0 0 0 0 0
-  0.1344441 5.7 -10.00783 -90 0 -90 1 1 1
-  10 1 0 0 0
-  0.1344442 5.700001 -9.352416 -90 0 8.5 1 1 1
-  17 0 0 0 0
-  0.1344442 5.700001 -9.316454 -90 0 -18.65117 1 1 1
-  25 0 0 0 0
-EndBehavior 1
-LockedChannels 347
-ParentObject 2
-ShadowOptions 7
-
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Barracks\Steam.lwo
-ShowObject 8 7
+LoadObject \\Rock-Raiders-Reloaded\Data\Buildings\Barracks\Steam.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   6
-  0 16 8.5 180.1 35.9 0 1.6 4 1.6
+  0 19 8.5 180.1 35.9 0 1.6 4 1.6
   0 0 0 0 0
-  0 16 8.5 180.1 35.9 0 1.6 4 1.6
+  0 19 8.5 180.1 35.9 0 1.6 4 1.6
   11 0 0 0 0
-  0 16 8.5 180.1 35.9 0 1.6 4 1.6
+  0 19 8.5 180.1 35.9 0 1.6 4 1.6
   12 0 0 0 0
-  0 16 8.5 180.1 35.9 0 1.6 0 1.6
+  0 19 8.5 180.1 35.9 0 1.6 0 1.6
   13 0 0 0 0
-  0 16 8.5 180.1 35.9 0 1.6 0 1.6
+  0 19 8.5 180.1 35.9 0 1.6 0 1.6
   14 0 0 0 0
-  0 16 8.5 180.1 35.9 0 1.6 0 1.6
+  0 19 8.5 180.1 35.9 0 1.6 0 1.6
   25 0 0 0 0
 EndBehavior 1
 LockedChannels 366
 ParentObject 2
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Barracks\Steam.lwo
-ShowObject 8 7
+LoadObject \\Rock-Raiders-Reloaded\Data\Buildings\Barracks\Steam.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   6
-  0 16 -11 0.1000043 35.9 0 1.8 4 1.6
+  0 19 -11 0.1000043 35.9 0 1.8 4 1.6
   0 0 0 0 0
-  0 16 -11 0.1000043 35.9 0 1.8 4 1.6
+  0 19 -11 0.1000043 35.9 0 1.8 4 1.6
   11 0 0 0 0
-  0 16 -11 0.1000043 35.9 0 1.8 4 1.6
+  0 19 -11 0.1000043 35.9 0 1.8 4 1.6
   12 0 0 0 0
-  0 16 -11 0.1000043 35.9 0 1.8 0 1.6
+  0 19 -11 0.1000043 35.9 0 1.8 0 1.6
   13 0 0 0 0
-  0 16 -11 0.1000043 35.9 0 1.8 0 1.6
+  0 19 -11 0.1000043 35.9 0 1.8 0 1.6
   14 0 0 0 0
-  0 16 -11 0.1000043 35.9 0 1.8 0 1.6
+  0 19 -11 0.1000043 35.9 0 1.8 0 1.6
   25 0 0 0 0
 EndBehavior 1
 LockedChannels 43
 ParentObject 2
 ShadowOptions 7
 
-LoadObject \\Mother\LEGO\Meshes\Lowpoly\Buildings\Barracks\Steam.lwo
-ShowObject 8 7
+LoadObject \\Rock-Raiders-Reloaded\Data\Buildings\Barracks\Steam.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   6
@@ -148,7 +118,7 @@ ParentObject 2
 ShadowOptions 7
 
 AddNullObject deposit_null
-ShowObject 8 7
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   2
@@ -159,8 +129,8 @@ ObjectMotion (unnamed)
 EndBehavior 1
 ShadowOptions 7
 
-LoadObject \\StarTeam\Lego\Data\Buildings\Barracks\LightSpangleR.lwo
-ShowObject 8 7
+LoadObject \\Rock-Raiders-Reloaded\Data\Shared\Models\LightSpangleR.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
@@ -176,25 +146,25 @@ EndBehavior 1
 LockedChannels 4
 ShadowOptions 7
 
-LoadObject \\StarTeam\Lego\Data\Buildings\Barracks\LightSpangleY.lwo
-ShowObject 8 7
+LoadObject \\Rock-Raiders-Reloaded\Data\Shared\Models\LightSpangleY.lwo
+ShowObject 9 7
 ObjectMotion (unnamed)
   9
   4
-  -6.250001 20.05003 6.249997 0 0 0 0 0 0
+  -6.250001 20.05 6.249997 0 0 0 0 0 0
   0 0 0 0 0
-  -6.250001 20.05003 6.249997 0 0 0 0 0 0
+  -6.250001 20.05 6.249997 0 0 0 0 0 0
   12 1 0 0 0
-  -6.250001 20.05003 6.249997 0 0 0 2 2 2
+  -6.250001 20.05 6.249997 0 0 0 2 2 2
   13 1 0 0 0
-  -6.250001 20.05003 6.249997 0 0 0 2 2 2
+  -6.250001 20.05 6.249997 0 0 0 2 2 2
   25 1 0 0 0
 EndBehavior 1
 LockedChannels 5
 ShadowOptions 7
 
 AmbientColor 255 255 255
-AmbIntensity 1.000000
+AmbIntensity 1
 
 AddLight
 LightName Light
@@ -208,9 +178,10 @@ LightMotion (unnamed)
   25 0 0 0 0
 EndBehavior 1
 LightColor 255 255 255
-LgtIntensity 0.000000
+LgtIntensity 0
 LightType 0
 ShadowType 1
+ShadowColor 0 0 0
 
 ShowCamera 1 7
 CameraMotion (unnamed)
@@ -222,17 +193,19 @@ CameraMotion (unnamed)
   25 0 0 0 0
 EndBehavior 1
 LockedChannels 3
-ZoomFactor 3.200000
+ZoomFactor 3.2
 Resolution 0
-PixelAspectRatio 2
-SegmentMemory 2200000
+CustomSize 320 240
+PixelAspectRatio -1
+CustomPixelRatio 1
+MaskPosition 0 0 640 480
+MotionBlur 0
+FieldRendering 0
+SegmentMemory 32000000
+ApertureHeight 0.015
 Antialiasing 1
 AdaptiveSampling 1
 AdaptiveThreshold 16
-FilmSize 2
-FieldRendering 0
-MotionBlur 0
-DepthOfField 0
 
 SolidBackdrop 1
 BackdropColor 0 0 0
@@ -247,21 +220,25 @@ AnimatedDither 0
 RenderMode 2
 RayTraceEffects 1
 RayRecursionLimit 16
+RayTraceOptimization 1
 DataOverlayLabel  
 OutputFilenameFormat 3
+SaveRGB 0
 SaveRGBImagesPrefix images\Catramp
 RGBImageFormat 0
-FullSceneParamEval 0
+SaveAlpha 0
 
-ViewMode 3
-ViewAimpoint 6.250000 20.049999 6.250000
-ViewDirection 10.037338 -0.450294 0.000000
-ViewZoomFactor 6.239443
+ViewType 7
+ViewAimpoint 52.23693 20.05 1.997761
+ViewDirection 10.7913 0.05236037 0
+ViewZoomFactor 4.059823
+
 GridNumber 10
-GridSize 10.000000
+GridSize 10
+CameraViewBG 0
 ShowMotionPath 1
-ShowBGImage 0
 ShowFogRadius 0
-ShowRedraw 0
+ShowFogEffect 0
 ShowSafeAreas 0
 ShowFieldChart 0
+OverlayColor_fv 0 0 0
