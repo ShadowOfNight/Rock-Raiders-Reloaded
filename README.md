@@ -131,6 +131,9 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.19.002
+- Replaced radar models with slightly higher poly versions.
+
 v0.19.001
 - Fixed a sizing issue on two bricks on the electric fence model.
 
