@@ -131,6 +131,9 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.19.003
+- Fixed path issue with handheld laser sound effect, and modified sound slightly.
+
 v0.19.002
 - Replaced radar models with slightly higher poly versions.
 
