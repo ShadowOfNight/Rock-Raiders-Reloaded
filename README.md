@@ -44,6 +44,7 @@ Cirevam:
 - Countdown number models.
 - Modeling advice.
 - Air Filter building.
+- For the Mega Mole textures Logo.bmp and StripePlat.bmp (renamed to Drill_Logo and DangerArrow.bmp respectively).
 
 Cyrem:
 - Cafeteria.
@@ -65,6 +66,7 @@ Jessietail:
 - High-polygon 2x3 brick model.
 - High-polygon dynamite model and high-resolution dynamite brick texture.
 - Quake.wav
+- For the Mega Mole textures Logo.bmp and StripePlat.bmp (renamed to Drill_Logo and DangerArrow.bmp respectively).
 
 JimbobJeffers:
 - Custom map "Crystal Catastrophe."
@@ -131,6 +133,9 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.19.004
+- Replaced Drill_Logo.bmp as well as the DangerArrow.bmp upscale by @frozensnowy with Logo.bmp and StripePlat.bmp respectively (textures created by @gyfalson and @jessietail).
+
 v0.19.003
 - Fixed path issue with handheld laser sound effect, and modified sound slightly.
 
