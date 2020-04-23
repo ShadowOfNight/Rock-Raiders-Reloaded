@@ -1,0 +1,35 @@
+#include <nerpnrn.h>
+
+TRUE ? SetTutorialFlags 0
+TRUE ? SetMessagePermit 1
+
+// Setup initial values
+GetObjectiveSwitch ? SetR1 0
+
+// Check for completion or failure events
+GetOxygenLevel < 1 ? SetLevelFail
+GetPoweredBarracksBuilt > 0 ? SetLevelCompleted
+
+
+GetMessageTimer = 0 ? :endmessage
+GetR1 = 0 ? :Events
+// Display messages
+GetOxygenLevel < 90 ? SetMessagePermit 0
+GetOxygenLevel < 90 ? SetMessage GetR1 1
+TRUE ? SetR1 0
+endmessage:
+GetOxygenLevel < 90 ? SetMessagePermit 1
+Stop
+
+
+Events:
+// Check for message events
+GetOxygenLevel = 80 ? SetR1 1
+GetOxygenLevel = 60 ? SetR1 2
+GetOxygenLevel = 40 ? SetR1 3
+GetOxygenLevel = 20 ? SetR1 4
+GetOxygenLevel = 10 ? SetR1 5
+GetOxygenLevel = 5 ? SetR1 6
+GetR1 = 0 ? Stop
+GetR1 > 0 ? SetTimer1 0
+Stop

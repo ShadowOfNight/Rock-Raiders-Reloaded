@@ -1,0 +1,25 @@
+; If we satisfy all the victory conditions, we win
+True ? SetR1 0
+True ? SetR2 0
+True ? SetR3 0
+GetCrystalsCurrentlyStored > 39 ? AddR1 1
+GetGraniteGrindersOnLevel > 1 ? AddR1 1
+GetBarracksBuilt > 1 ? AddR1 1
+
+; Can satisfy ore requirement either using ore or using studs
+GetOreCurrentlyStored > 199 ? AddR2 1
+GetStudCount > 39 ? AddR2 1
+
+GetR1 = 3 ? AddR3 1
+GetR2 = 1 ? AddR3 1
+GetR3 = 2 ? SetLevelCompleted
+
+; If there is no oxygen, game over.
+GetOxygenLevel < 0 ? SetLevelFail
+
+; If there is no toolstores and no Rock Raiders, game over. Skip this nonsense.
+True ? SetR0 0
+GetToolStoresBuilt  = 0 ? AddR0 1
+GetMinifiguresOnLevel  = 0 ? AddR0 1
+GetR0 = 2 ? SetLevelFail
+
