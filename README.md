@@ -13,6 +13,7 @@ Notes
 Goals:
 --------------
 - Adding new creatures, objects, buildings, vehicles, and levels to the game.
+- Adding new gameplay functionality such as achievements and a research tree
 - Cleaning up various aspects of configuration file code.
 - New sounds and effects.
 - New tutorials to reflect changes to various gameplay elements.
