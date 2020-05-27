@@ -134,6 +134,9 @@ Paperpanzer:
 
 Changelog
 --------------
+v0.19.005
+- Removed d3dxof.dll as this was completely unneeded.
+
 v0.19.004
 - Replaced Drill_Logo.bmp as well as the DangerArrow.bmp upscale by @frozensnowy with Logo.bmp and StripePlat.bmp respectively (textures created by @gyfalson and @jessietail).
 
